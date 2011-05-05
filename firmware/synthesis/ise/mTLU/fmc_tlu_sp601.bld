@@ -1,0 +1,41 @@
+Release 12.4 ngdbuild M.81d (lin64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Command Line:
+/net/asimov/users/software/CAD/Xilinx/12.4_64b/ISE_DS/ISE/bin/lin64/unwrapped/ng
+dbuild -intstyle ise -dd _ngo -nt timestamp -uc
+/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/src/sp601.ucf -p
+xc6slx16-csg324-2 fmc_tlu_sp601.ngc fmc_tlu_sp601.ngd
+
+Reading NGO file
+"/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_
+tlu_sp601.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/src/sp601.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 346652 kilobytes
+
+Writing NGD file "fmc_tlu_sp601.ngd" ...
+Total REAL time to NGDBUILD completion:  2 sec
+Total CPU time to NGDBUILD completion:   2 sec
+
+Writing NGDBUILD log file "fmc_tlu_sp601.bld"...

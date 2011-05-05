@@ -1,0 +1,331 @@
+# //  QuestaSim 6.6d Nov  1 2010 Linux 2.6.32.26-175.fc12.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+project open /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/simulation/questa/fmc_tlu
+# Loading project fmc_tlu
+# Compile of dtype_fd.vhdl was successful.
+# Compile of dtype_fdpe.vhdl was successful.
+# Compile of fmc-tlu_sp601.vhdl was successful.
+# Compile of pulse_shaper.vhdl was successful.
+# 4 compiles, 0 failed with no errors. 
+# Compile of dtype_fd.vhdl was successful.
+# Compile of dtype_fdpe.vhdl was successful.
+# Compile of fmc-tlu_sp601.vhdl was successful.
+# Compile of pulse_shaper.vhdl was successful.
+# Compile of fmc_tlu_sp601_tb.vhdl failed with 1 errors.
+# 5 compiles, 1 failed with 1 error. 
+# Compile of dtype_fd.vhdl was successful.
+# Compile of dtype_fdpe.vhdl was successful.
+# Compile of fmc-tlu_sp601.vhdl was successful.
+# Compile of pulse_shaper.vhdl was successful.
+# Compile of fmc_tlu_sp601_tb.vhdl was successful.
+# 5 compiles, 0 failed with no errors. 
+vsim work.fmc_tlu_sp601_tb
+# vsim work.fmc_tlu_sp601_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading ieee.numeric_std(body)
+# Loading unisim.vcomponents
+# Loading std.textio(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading unisim.vpkg(body)
+# ** Warning: (vsim-3479) Time unit 'ps' is less than the simulator resolution (1ns).
+#    Time: 0 ns  Iteration: 0  Region: /
+# Loading work.fmc_tlu_sp601_tb(behavior)#1
+# Updating msgviewer database...
+quit -sim
+# Compile of dtype_fd.vhdl was successful.
+# Compile of dtype_fdpe.vhdl was successful.
+# Compile of fmc-tlu_sp601.vhdl was successful.
+# Compile of pulse_shaper.vhdl was successful.
+# Compile of fmc_tlu_sp601_tb.vhdl was successful.
+# 5 compiles, 0 failed with no errors. 
+# Compile of dtype_fd.vhdl was successful.
+# Compile of dtype_fdpe.vhdl was successful.
+# Compile of fmc-tlu_sp601.vhdl was successful.
+# Compile of pulse_shaper.vhdl was successful.
+# Compile of fmc_tlu_sp601_tb.vhdl was successful.
+# 5 compiles, 0 failed with no errors. 
+vsim work.fmc_tlu_sp601_tb
+# vsim work.fmc_tlu_sp601_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-2009) At least one design unit was compiled with optimization level -O0 or -O1.
+# Use vdir -l command to find such design units.
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading ieee.numeric_std(body)
+# Loading unisim.vcomponents
+# Loading std.textio(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading unisim.vpkg(body)
+# ** Warning: (vsim-3479) Time unit 'ps' is less than the simulator resolution (1ns).
+#    Time: 0 ns  Iteration: 0  Region: /
+# Loading work.fmc_tlu_sp601_tb(behavior)#1
+# Updating msgviewer database...
+vsim -novopt work.fmc_tlu_sp601_tb
+# vsim -novopt work.fmc_tlu_sp601_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading ieee.numeric_std(body)
+# Refreshing /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/simulation/questa/work.fmc_tlu_sp601_tb(behavior)
+# Loading work.fmc_tlu_sp601_tb(behavior)
+# Loading unisim.vcomponents
+# Refreshing /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/simulation/questa/work.fmc_tlu_sp601(rtl)
+# Loading work.fmc_tlu_sp601(rtl)
+# Loading unisim.ibufds(ibufds_v)
+# Refreshing /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/simulation/questa/work.pulse_shaper(rtl)
+# Loading work.pulse_shaper(rtl)
+# Loading std.textio(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading unisim.vpkg(body)
+# ** Warning: (vsim-3479) Time unit 'ps' is less than the simulator resolution (1ns).
+#    Time: 0 ns  Iteration: 0  Region: /fmc_tlu_sp601_tb/uut/shaper/srl16e_inst
+# Loading unisim.srl16e(srl16e_v)
+# Refreshing /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/simulation/questa/work.dtype_fdpe(dtype_v)
+# Loading work.dtype_fdpe(dtype_v)
+# Refreshing /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/simulation/questa/work.dtype_fd(rtl)
+# Loading work.dtype_fd(rtl)
+# Updating msgviewer database...
+add wave \
+{sim:/fmc_tlu_sp601_tb/d } \
+{sim:/fmc_tlu_sp601_tb/pulse_length } \
+{sim:/fmc_tlu_sp601_tb/q } \
+{sim:/fmc_tlu_sp601_tb/sysclk } \
+{sim:/fmc_tlu_sp601_tb/sysclk_n } \
+{sim:/fmc_tlu_sp601_tb/sysclk_p } 
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+add wave \
+{sim:/fmc_tlu_sp601_tb/uut/shaper/async_pulse } \
+{sim:/fmc_tlu_sp601_tb/uut/shaper/clk } \
+{sim:/fmc_tlu_sp601_tb/uut/shaper/d } \
+{sim:/fmc_tlu_sp601_tb/uut/shaper/d_r1 } \
+{sim:/fmc_tlu_sp601_tb/uut/shaper/d_r2 } \
+{sim:/fmc_tlu_sp601_tb/uut/shaper/internal_veto } \
+{sim:/fmc_tlu_sp601_tb/uut/shaper/load_srl } \
+{sim:/fmc_tlu_sp601_tb/uut/shaper/pulse_length } \
+{sim:/fmc_tlu_sp601_tb/uut/shaper/q } \
+{sim:/fmc_tlu_sp601_tb/uut/shaper/q_r1 } \
+{sim:/fmc_tlu_sp601_tb/uut/shaper/q_r2 } \
+{sim:/fmc_tlu_sp601_tb/uut/shaper/q_r3 } \
+{sim:/fmc_tlu_sp601_tb/uut/shaper/srl_ce } \
+{sim:/fmc_tlu_sp601_tb/uut/shaper/srl_d } \
+{sim:/fmc_tlu_sp601_tb/uut/shaper/srl_q } \
+{sim:/fmc_tlu_sp601_tb/uut/shaper/vetoed_pulse } 
+restart
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+add wave \
+{sim:/fmc_tlu_sp601_tb/uut/buffered_clock } 
+add wave \
+{sim:/fmc_tlu_sp601_tb/uut/sysclk_n } \
+{sim:/fmc_tlu_sp601_tb/uut/sysclk_p } 
+# Compile of dtype_fd.vhdl was successful.
+# Compile of dtype_fdpe.vhdl was successful.
+# Compile of fmc-tlu_sp601.vhdl was successful.
+# Compile of pulse_shaper.vhdl was successful.
+# Compile of fmc_tlu_sp601_tb.vhdl was successful.
+# 5 compiles, 0 failed with no errors. 
+restart
+# Refreshing /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/simulation/questa/work.fmc_tlu_sp601_tb(behavior)
+# Loading work.fmc_tlu_sp601_tb(behavior)
+# Refreshing /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/simulation/questa/work.fmc_tlu_sp601(rtl)
+# Loading work.fmc_tlu_sp601(rtl)
+# Loading unisim.ibufgds(ibufgds_v)
+# Refreshing /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/simulation/questa/work.pulse_shaper(rtl)
+# Loading work.pulse_shaper(rtl)
+# Refreshing /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/simulation/questa/work.dtype_fdpe(dtype_v)
+# Loading work.dtype_fdpe(dtype_v)
+# Refreshing /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/simulation/questa/work.dtype_fd(rtl)
+# Loading work.dtype_fd(rtl)
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+# Compile of dtype_fd.vhdl was successful.
+# Compile of dtype_fdpe.vhdl was successful.
+# Compile of fmc-tlu_sp601.vhdl was successful.
+# Compile of pulse_shaper.vhdl was successful.
+# Compile of fmc_tlu_sp601_tb.vhdl was successful.
+# 5 compiles, 0 failed with no errors. 
+restart
+# Refreshing /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/simulation/questa/work.fmc_tlu_sp601_tb(behavior)
+# Loading work.fmc_tlu_sp601_tb(behavior)
+# Refreshing /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/simulation/questa/work.fmc_tlu_sp601(rtl)
+# Loading work.fmc_tlu_sp601(rtl)
+# Refreshing /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/simulation/questa/work.pulse_shaper(rtl)
+# Loading work.pulse_shaper(rtl)
+# Refreshing /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/simulation/questa/work.dtype_fdpe(dtype_v)
+# Loading work.dtype_fdpe(dtype_v)
+# Refreshing /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/simulation/questa/work.dtype_fd(rtl)
+# Loading work.dtype_fd(rtl)
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+# Compile of dtype_fd.vhdl was successful.
+# Compile of dtype_fdpe.vhdl was successful.
+# Compile of fmc-tlu_sp601.vhdl was successful.
+# Compile of pulse_shaper.vhdl was successful.
+# Compile of fmc_tlu_sp601_tb.vhdl was successful.
+# 5 compiles, 0 failed with no errors. 
+restart
+# Refreshing /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/simulation/questa/work.fmc_tlu_sp601_tb(behavior)
+# Loading work.fmc_tlu_sp601_tb(behavior)
+# Refreshing /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/simulation/questa/work.fmc_tlu_sp601(rtl)
+# Loading work.fmc_tlu_sp601(rtl)
+# Refreshing /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/simulation/questa/work.pulse_shaper(rtl)
+# Loading work.pulse_shaper(rtl)
+# Refreshing /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/simulation/questa/work.dtype_fdpe(dtype_v)
+# Loading work.dtype_fdpe(dtype_v)
+# Refreshing /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/simulation/questa/work.dtype_fd(rtl)
+# Loading work.dtype_fd(rtl)
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+restart
+run
+# Updating msgviewer database...
+force -deposit sim:/fmc_tlu_sp601_tb/uut/shaper/q 0 0
+force -freeze sim:/fmc_tlu_sp601_tb/uut/shaper/q_r1 U 0
+force -freeze sim:/fmc_tlu_sp601_tb/uut/shaper/q_r2 U 0
+force -freeze sim:/fmc_tlu_sp601_tb/uut/shaper/q_r3 U 0
+force -freeze sim:/fmc_tlu_sp601_tb/uut/shaper/srl_ce U 0
+force -freeze sim:/fmc_tlu_sp601_tb/uut/shaper/srl_d U 0
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+restart
+run
+# Updating msgviewer database...
+force -deposit sim:/fmc_tlu_sp601_tb/uut/shaper/q 1 0
+force -deposit sim:/fmc_tlu_sp601_tb/uut/shaper/q_r1 1 0
+force -deposit sim:/fmc_tlu_sp601_tb/uut/shaper/q_r2 1 0
+force -deposit sim:/fmc_tlu_sp601_tb/uut/shaper/q_r3 1 0
+force -deposit sim:/fmc_tlu_sp601_tb/uut/shaper/srl_ce 0 0
+force -deposit sim:/fmc_tlu_sp601_tb/uut/shaper/srl_d 1 0
+force -deposit sim:/fmc_tlu_sp601_tb/uut/shaper/async_pulse 0 0
+run
+# Updating msgviewer database...
+noforce sim:/fmc_tlu_sp601_tb/uut/shaper/async_pulse
+noforce sim:/fmc_tlu_sp601_tb/uut/shaper/q
+noforce sim:/fmc_tlu_sp601_tb/uut/shaper/q_r1
+noforce sim:/fmc_tlu_sp601_tb/uut/shaper/q_r2
+noforce sim:/fmc_tlu_sp601_tb/uut/shaper/q_r3
+noforce sim:/fmc_tlu_sp601_tb/uut/shaper/srl_ce
+noforce sim:/fmc_tlu_sp601_tb/uut/shaper/srl_d
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+run
+# Updating msgviewer database...
+quit

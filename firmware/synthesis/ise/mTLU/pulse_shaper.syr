@@ -1,0 +1,378 @@
+Release 12.4 - xst M.81d (lin64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Reading design: pulse_shaper.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "pulse_shaper.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "pulse_shaper"
+Output Format                      : NGC
+Target Device                      : xc6slx16-2-csg324
+
+---- Source Options
+Top Module Name                    : pulse_shaper
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/../../../src/dtype_fdpe.vhdl" into library work
+Parsing entity <dtype_fdpe>.
+Parsing architecture <dtype_V> of entity <dtype_fdpe>.
+Parsing VHDL file "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/../../../src/pulse_shaper.vhdl" into library work
+Parsing entity <pulse_shaper>.
+Parsing architecture <rtl> of entity <pulse_shaper>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <pulse_shaper> (architecture <rtl>) with generics from library <work>.
+
+Elaborating entity <dtype_fdpe> (architecture <dtype_V>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <pulse_shaper>.
+    Related source file is "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/src/pulse_shaper.vhdl".
+        MASK_WIDTH = 16
+    Summary:
+	no macro.
+Unit <pulse_shaper> synthesized.
+
+Synthesizing Unit <dtype_fdpe>.
+    Related source file is "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/src/dtype_fdpe.vhdl".
+    Found 1-bit register for signal <Q>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <dtype_fdpe> synthesized.
+RTL-Simplification CPUSTAT: 0.01 
+RTL-BasicInf CPUSTAT: 0.19 
+RTL-BasicOpt CPUSTAT: 0.00 
+RTL-Remain-Bus CPUSTAT: 0.00 
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 18
+ 1-bit register                                        : 18
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 18
+ Flip-Flops                                            : 18
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <pulse_shaper> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block pulse_shaper, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 18
+ Flip-Flops                                            : 18
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : pulse_shaper.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 18
+#      GND                         : 1
+#      LUT5                        : 16
+#      VCC                         : 1
+# FlipFlops/Latches                : 18
+#      FDPE                        : 18
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 18
+#      IBUF                        : 17
+#      OBUF                        : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              18  out of  18224     0%  
+ Number of Slice LUTs:                   16  out of   9112     0%  
+    Number used as Logic:                16  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     26
+   Number with an unused Flip Flop:       8  out of     26    30%  
+   Number with an unused LUT:            10  out of     26    38%  
+   Number of fully used LUT-FF pairs:     8  out of     26    30%  
+   Number of unique control sets:        17
+
+IO Utilization: 
+ Number of IOs:                          19
+ Number of bonded IOBs:                  19  out of    232     8%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 18    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 3.698ns (Maximum Frequency: 270.416MHz)
+   Minimum input arrival time before clock: 4.501ns
+   Maximum output required time after clock: 4.779ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 3.698ns (frequency: 270.416MHz)
+  Total number of paths / destination ports: 64 / 32
+-------------------------------------------------------------------------
+Delay:               3.698ns (Levels of Logic = 1)
+  Source:            q_reg/Q (FF)
+  Destination:       SR[15].dtype/Q (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: q_reg/Q to SR[15].dtype/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDPE:C->Q            16   0.633   1.470  q_reg/Q (q_reg/Q)
+     LUT5:I2->O            1   0.373   0.681  preload<0>1 (preload<0>)
+     FDPE:PRE                  0.541          SR[0].dtype/Q
+    ----------------------------------------
+    Total                      3.698ns (1.547ns logic, 2.151ns route)
+                                       (41.8% logic, 58.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 33 / 17
+-------------------------------------------------------------------------
+Offset:              4.501ns (Levels of Logic = 2)
+  Source:            D (PAD)
+  Destination:       SR[15].dtype/Q (FF)
+  Destination Clock: CLK rising
+
+  Data Path: D to SR[15].dtype/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            17   1.328   1.587  D_IBUF (D_IBUF)
+     LUT5:I1->O            1   0.364   0.681  preload<0>1 (preload<0>)
+     FDPE:PRE                  0.541          SR[0].dtype/Q
+    ----------------------------------------
+    Total                      4.501ns (2.233ns logic, 2.268ns route)
+                                       (49.6% logic, 50.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.779ns (Levels of Logic = 1)
+  Source:            SR[15].dtype/Q (FF)
+  Destination:       Q (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: SR[15].dtype/Q to Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDPE:C->Q            18   0.633   1.234  SR[15].dtype/Q (SR[15].dtype/Q)
+     OBUF:I->O                 2.912          Q_OBUF (Q)
+    ----------------------------------------
+    Total                      4.779ns (3.545ns logic, 1.234ns route)
+                                       (74.2% logic, 25.8% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    3.698|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.62 secs
+ 
+--> 
+
+
+Total memory usage is 455924 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

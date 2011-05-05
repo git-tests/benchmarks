@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/pulse_shaper.xst" -ofn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/pulse_shaper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-2 pulse_shaper.ngc pulse_shaper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pulse_shaper_map.ncd pulse_shaper.ngd pulse_shaper.pcf 
+par -w -intstyle ise -ol high -mt off pulse_shaper_map.ncd pulse_shaper.ncd pulse_shaper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pulse_shaper.twx pulse_shaper.ncd -o pulse_shaper.twr pulse_shaper.pcf 
+xst -intstyle ise -ifn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/pulse_shaper.xst" -ofn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/pulse_shaper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-2 pulse_shaper.ngc pulse_shaper.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pulse_shaper_map.ncd pulse_shaper.ngd pulse_shaper.pcf 
+par -w -intstyle ise -ol high -mt off pulse_shaper_map.ncd pulse_shaper.ncd pulse_shaper.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pulse_shaper.twx pulse_shaper.ncd -o pulse_shaper.twr pulse_shaper.pcf 

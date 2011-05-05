@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# PlanAhead v12.4
+# Build 108585 by hdbuild on Tue Nov  9 16:43:51 PST 2010
+# Start of session at: Fri Feb 25 15:43:29 2011
+# Process ID: 17021
+# Log file: /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/planAhead_run_1/planAhead.log
+# Journal file: /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [HD-Licensing 0] Attempting to get a license: PlanAhead
+INFO: [HD-Licensing 1] Got a license: PlanAhead
+INFO: [HD-ArchReader 0] Loading parts and site information from /net/asimov/users/software/CAD/Xilinx/12.4_64b/ISE_DS/PlanAhead/parts/arch.xml
+INFO: [HD-RTPRIM 0] Parsing RTL primitives file '/net/asimov/users/software/CAD/Xilinx/12.4_64b/ISE_DS/PlanAhead/parts/xilinx/rtl/prims/rtl_prims.xml'
+INFO: [HD-RTPRIM 1] Finished Parsing RTL primitives file '/net/asimov/users/software/CAD/Xilinx/12.4_64b/ISE_DS/PlanAhead/parts/xilinx/rtl/prims/rtl_prims.xml'
+start_gui -source /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/pa.fromNcd.tcl
+# create_project -name mTLU -dir "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/planAhead_run_1" -part xc6slx16csg324-2
+# set srcset [get_property srcset [current_run -impl]]
+# set_property design_mode GateLvl $srcset
+# set_property edif_top_file "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU} }
+# set_param project.paUcfFile  "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/src/sp601.ucf"
+# add_files "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/src/sp601.ucf" -fileset [get_property constrset [current_run]]
+# open_netlist_design
+INFO: Run is defaulting to constrset part: xc6slx16csg324-2
+INFO: [HD-EDIFIN 0] Parsing Edif File './.HDI-PlanAhead-17021-kipper/ngc2edif/fmc_tlu_sp601.edif'
+INFO: [HD-EDIFIN 1] Finished Parsing Edif File './.HDI-PlanAhead-17021-kipper/ngc2edif/fmc_tlu_sp601.edif'
+INFO: [HD-ArchReader 7] Loading clock regions from /net/asimov/users/software/CAD/Xilinx/12.4_64b/ISE_DS/PlanAhead/parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+INFO: [HD-ArchReader 8] Loading clock buffers from /net/asimov/users/software/CAD/Xilinx/12.4_64b/ISE_DS/PlanAhead/parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+INFO: [HD-ArchReader 3] Loading package from /net/asimov/users/software/CAD/Xilinx/12.4_64b/ISE_DS/PlanAhead/parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+INFO: [HD-ArchReader 13] Loading package pin functions from /net/asimov/users/software/CAD/Xilinx/12.4_64b/ISE_DS/PlanAhead/parts/xilinx/spartan6/PinFunctions.xml...
+INFO: [HD-ArchReader 4] Loading io standards from /net/asimov/users/software/CAD/Xilinx/12.4_64b/ISE_DS/PlanAhead/./parts/xilinx/spartan6/IOStandards.xml
+INFO: [HD-ArchReader 12] Loading device configuration modes from /net/asimov/users/software/CAD/Xilinx/12.4_64b/ISE_DS/PlanAhead/parts/xilinx/spartan6/ConfigModes.xml
+INFO: [HD-GDRC 0] Loading list of drcs for the architecture : /net/asimov/users/software/CAD/Xilinx/12.4_64b/ISE_DS/PlanAhead/./parts/xilinx/spartan6/drc.xml
+INFO: [HD-UCFReader 0] Parsing UCF File : /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/src/sp601.ucf
+INFO: [HD-UCFReader 1] Finished Parsing UCF File : /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/src/sp601.ucf
+
+DESIGN RULE CHECK VIOLATION REPORT
+   Build: PlanAhead v12.4 by hdbuild
+          on  Tue Nov  9 16:43:51 PST 2010
+  Report: by phdgc on host kipper, pid 17021
+          on Fri Feb 25 15:43:39 2011
+
+REPORT SUMMARY
+            Netlist: netlist
+          Floorplan: <none>
+      Design limits: <entire design considered>
+             Checks: Unknown block name
+                     Unknown Unisim pin name
+                     Mismatching Attribute
+           Max vios: <unlimited>
+         Vios found: 0
+
+REPORT DETAILS
+INFO: [HD-LIB 0] Reading timing library /net/asimov/users/software/CAD/Xilinx/12.4_64b/ISE_DS/PlanAhead/./parts/xilinx/spartan6/spartan6.lib .
+INFO: [HD-LIB 1] Done reading timing library /net/asimov/users/software/CAD/Xilinx/12.4_64b/ISE_DS/PlanAhead/./parts/xilinx/spartan6/spartan6.lib .
+# read_xdl -file "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.ncd"
+INFO: [HD-PAR 0] Parsing Placement File : /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.ncd
+INFO: [HD-PAR 1] Finished Parsing Placement File : /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.ncd
+INFO: [HD-PAR 2] Placed 16 instances
+# if {[catch {read_twx -name results_1 -file "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.twx"} eInfo]} {
+#    puts "WARNING: there was a problem importing \"/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.twx\": $eInfo"
+# }
+INFO: [HD-STA 16] No path element with name ProtoComp0.IMUX.4 found. It will be ignored .
+INFO: [HD-STA 16] No path element with name ProtoComp0.IMUX.4 found. It will be ignored .

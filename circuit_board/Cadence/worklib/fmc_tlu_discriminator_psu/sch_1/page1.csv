@@ -1,0 +1,191 @@
+FILE_TYPE = CONNECTIVITY;
+{Allegro Design Entry HDL 16.3-S013 (v16-3-85Y) 7/19/2010}
+"PAGE_NUMBER" = 1;
+0"NC";
+1"GND_SIGNAL\g";
+2"VLATCH";
+3"VLATCH*";
+4"P5V\g";
+5"M5V\g";
+6"P2V5\g";
+%"P5V"
+"1","(4050,800)","0","cnpower","I35";
+;
+HDL_POWER"P5V"
+CDS_LIB"cnpower"
+SIZE"1B"
+BODY_TYPE"PLUMBING";
+"A<SIZE-1..0>\NAC"
+VHDL_INIT"1"4;
+%"M5V"
+"1","(5000,800)","0","cnpower","I36";
+;
+HDL_POWER"M5V"
+SIZE"1B"
+BODY_TYPE"plumbing"
+CDS_LIB"cnpower";
+"A<SIZE-1..0>\NAC"
+vhdl_init"0"5;
+%"GND_SIGNAL"
+"1","(4950,-100)","0","standard","I37";
+;
+HDL_POWER"GND_SIGNAL"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"GND"1;
+%"P2V5"
+"1","(5750,800)","0","cnpower","I38";
+;
+CDS_LIB"cnpower"
+SIZE"1B"
+HDL_POWER"P2V5"
+BODY_TYPE"PLUMBING";
+"A<SIZE-1..0>\NAC"
+VHDL_INIT"1"6;
+%"CAPCERSMDCL2"
+"1","(3750,400)","1","cnpassive","I39";
+;
+$LOCATION"C?"
+VOLTAGE"6.3V"
+VALUE"1.0UF"
+PACK_TYPE"0603"
+CDS_LIB"cnpassive"
+SIZE"1";
+"B <SIZE-1..0>\NAC"
+$PN"#"4;
+"A <SIZE-1..0>\NAC"
+$PN"#"1;
+%"CAPCERSMDCL2"
+"1","(4050,400)","1","cnpassive","I40";
+;
+VOLTAGE"16V"
+VALUE"100NF"
+$LOCATION"C?"
+PACK_TYPE"0603"
+CDS_LIB"cnpassive"
+SIZE"1";
+"B <SIZE-1..0>\NAC"
+$PN"#"4;
+"A <SIZE-1..0>\NAC"
+$PN"#"1;
+%"CAPCERSMDCL2"
+"1","(4350,400)","1","cnpassive","I41";
+;
+VOLTAGE"16V"
+VALUE"100NF"
+$LOCATION"C?"
+PACK_TYPE"0603"
+CDS_LIB"cnpassive"
+SIZE"1";
+"B <SIZE-1..0>\NAC"
+$PN"#"4;
+"A <SIZE-1..0>\NAC"
+$PN"#"1;
+%"CAPCERSMDCL2"
+"1","(5150,400)","1","cnpassive","I43";
+;
+VALUE"100NF"
+VOLTAGE"16V"
+$LOCATION"C?"
+SIZE"1"
+CDS_LIB"cnpassive"
+PACK_TYPE"0603";
+"B <SIZE-1..0>\NAC"
+$PN"#"5;
+"A <SIZE-1..0>\NAC"
+$PN"#"1;
+%"CAPCERSMDCL2"
+"1","(4850,400)","1","cnpassive","I44";
+;
+$LOCATION"C?"
+VALUE"1.0UF"
+VOLTAGE"6.3V"
+SIZE"1"
+CDS_LIB"cnpassive"
+PACK_TYPE"0603";
+"B <SIZE-1..0>\NAC"
+$PN"#"5;
+"A <SIZE-1..0>\NAC"
+$PN"#"1;
+%"CAPCERSMDCL2"
+"1","(5900,400)","1","cnpassive","I46";
+;
+$LOCATION"C?"
+VALUE"100NF"
+VOLTAGE"16V"
+SIZE"1"
+CDS_LIB"cnpassive"
+PACK_TYPE"0603";
+"B <SIZE-1..0>\NAC"
+$PN"#"6;
+"A <SIZE-1..0>\NAC"
+$PN"#"1;
+%"CAPCERSMDCL2"
+"1","(5600,400)","1","cnpassive","I47";
+;
+$LOCATION"C?"
+VALUE"1.0UF"
+VOLTAGE"6.3V"
+SIZE"1"
+CDS_LIB"cnpassive"
+PACK_TYPE"0603";
+"B <SIZE-1..0>\NAC"
+$PN"#"6;
+"A <SIZE-1..0>\NAC"
+$PN"#"1;
+%"LT3471"
+"1","(1850,-1000)","0","cnlinear","I48";
+;
+$LOCATION"IC?"
+TYPE"LT3471EDD#PBF"
+PACK_TYPE"DFN"
+CDS_LMAN_SYM_OUTLINE"-200,275,200,-275"
+CDS_LIB"cnlinear";
+"VREF"0;
+"VIN"0;
+"SW1"0;
+"SW2"0;
+"FB2* \B"0;
+"SHDN/SS2* \B"0;
+"FB2"0;
+"FB1* \B"0;
+"SHDN/SS1* \B"0;
+"FB1"0;
+%"FERRITE"
+"1","(3800,-400)","0","cndiscrete","I49";
+;
+VALUE"MPZ1608S101A"
+$LOCATION"?"
+MODEL"TDK"
+PACK_TYPE"SMD"
+CDS_LIB"cndiscrete";
+"A \NAC"0;
+"B \NAC"0;
+%"OUTPORT"
+"1","(5850,-800)","0","standard","I50";
+;
+CDS_LIB"standard"
+OFFPAGE"TRUE";
+"A"
+VHDL_PORT"OUT"
+HDL_PORT"OUT"2;
+%"OUTPORT"
+"1","(5850,-1100)","0","standard","I51";
+;
+CDS_LIB"standard"
+OFFPAGE"TRUE";
+"A"
+VHDL_PORT"OUT"
+HDL_PORT"OUT"3;
+%"INDUCTANCE"
+"1","(2000,-250)","0","cndiscrete","I52";
+;
+PACK_TYPE"XS"
+VALUE"10UH_25%"
+CDS_LIB"cndiscrete"
+$LOCATION"L?";
+"B <SIZE-1..0>\NAC"
+$PN"#"0;
+"A <SIZE-1..0>\NAC"
+$PN"#"0;
+END.

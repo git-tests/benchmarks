@@ -1,25 +1,970 @@
-\t (00:00:01) allegro 16.3 S013 (v16-3-85AS) Linux IA32
+\t (00:00:01) allegro 16.3 p006 (v16-3-85F) i86
 \t (00:00:01) 
 
-\t (00:00:01) Starting new drawing...
-\i (00:00:01) trapsize 674
-\i (00:00:02) trapsize 661
-\i (00:00:02) trapsize 655
-\i (00:00:02) trapsize 570
-\i (00:00:02) trapsize 948
-\i (00:00:02) generaledit 
-\i (00:00:08) zoom out 
-\i (00:00:08) setwindow pcb
-\i (00:00:08) zoom out 17454.8 8490.5
-\i (00:00:08) trapsize 948
-\i (00:00:08) zoom out 
-\i (00:00:08) setwindow pcb
-\i (00:00:08) zoom out 17454.8 8490.5
-\i (00:00:08) trapsize 948
-\i (00:00:18) setwindow form.vf_vis
-\i (00:00:18) FORM vf_vis 3 all_colorvisible NO 
-\i (00:00:20) setwindow pcb
-\i (00:00:20) prepopup 10594.2 12887.4
-\i (00:00:21) pick grid 10878.5 13626.5
-\t (00:00:21) last pick:  10900.0  13600.0
-\i (00:00:44) exit 
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: G:/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_01.brd
+\i (00:00:03) trapsize 9957
+\i (00:00:03) trapsize 9761
+\i (00:00:03) trapsize 9677
+\i (00:00:03) trapsize 8619
+\i (00:00:03) trapsize 8619
+\i (00:00:04) placementedit 
+\i (00:00:22) place manual 
+\i (00:00:28) setwindow form.plc_manual
+\i (00:00:28) FORM plc_manual advanced_settings  
+\i (00:00:30) FORM plc_manual library YES 
+\i (00:00:33) FORM plc_manual placement_list  
+\i (00:00:34) FORM plc_manual tree  'Components by refdes' 
+\i (00:00:38) FORM plc_manual categories Mechanical symbols 
+\i (00:00:48) FORM plc_manual tree  THR_100 'Mechanical symbols' 
+\i (00:00:49) FORM plc_manual tree 'MULTISEL YES' THR_100 'Mechanical symbols' 
+\w (00:00:49) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:56) FORM plc_manual tree 'MULTISEL NO' THR_100 'Mechanical symbols' 
+\i (00:01:10) FORM plc_manual categories Package symbols 
+\i (00:01:22) FORM plc_manual tree 'MULTISEL YES' SO-DIMM144H_080 'Package symbols' 
+\w (00:01:22) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:22) FORM plc_manual tree  SO-DIMM144H_080 'Package symbols' 
+\i (00:01:26) FORM plc_manual tree 'MULTISEL NO' SO-DIMM144H_080 'Package symbols' 
+\i (00:01:52) FORM plc_manual cancel  
+\i (00:01:52) setwindow pcb
+\i (00:01:52) placementedit 
+\i (00:01:54) show element 
+\i (00:01:56) pick grid 129.1035 54.3385
+\t (00:01:56) last pick:  129.1035  54.3385
+\i (00:02:04) prepopup 158.4082 82.6089
+\i (00:02:05) done 
+\i (00:02:05) placementedit 
+\i (00:51:55) place manual 
+\i (00:52:00) setwindow form.plc_manual
+\i (00:52:00) FORM plc_manual advanced_settings  
+\i (00:52:01) FORM plc_manual library YES 
+\i (00:52:04) FORM plc_manual placement_list  
+\i (00:52:06) FORM plc_manual tree  'Package symbols' 
+\i (00:52:29) FORM plc_manual tree 'MULTISEL YES' 1-HOLE_1-3P 'Package symbols' 
+\i (00:52:29) FORM plc_manual tree  1-HOLE_1-3P 'Package symbols' 
+\i (00:52:40) setwindow pcb
+\i (00:52:40) pick grid 8.6094 3.6586
+\t (00:52:40) last pick:  8.6094  3.6586
+\i (00:52:45) setwindow form.plc_manual
+\i (00:52:45) FORM plc_manual tree 'MULTISEL YES' 1-HOLE_1-3P 'Package symbols' 
+\i (00:52:48) setwindow pcb
+\i (00:52:48) pick grid 53.2560 6.5890
+\t (00:52:48) last pick:  53.2560  6.5890
+\i (00:52:54) setwindow form.plc_manual
+\i (00:52:54) FORM plc_manual tree 'MULTISEL YES' 1-HOLE_1-3P 'Package symbols' 
+\i (00:52:56) setwindow pcb
+\i (00:52:56) pick grid 77.5617 -7.5462
+\t (00:52:56) last pick:  77.5617  -7.5462
+\i (00:52:59) setwindow form.plc_manual
+\i (00:52:59) FORM plc_manual tree 'MULTISEL YES' 1-HOLE_1-3P 'Package symbols' 
+\i (00:53:08) setwindow pcb
+\i (00:53:08) pick grid 124.4492 -7.0290
+\t (00:53:08) last pick:  124.4492  -7.0290
+\i (00:53:40) setwindow form.plc_manual
+\i (00:53:40) FORM plc_manual tree 'MULTISEL YES' 1-HOLE_2-8N 'Package symbols' 
+\w (00:53:41) WARNING(SPMHUT-127): Could not find padstack HOLE2-8N.
+\e (00:53:41) ERROR(SPMHUT-1): Illegal character(s) present in the name or value.
+\e (00:53:41) Cannot load symbol '1-HOLE_2-8N'
+\e (00:53:41)   because WARNING(SPMHUT-127): Could not find padstack HOLE2-8N.
+    Unable to load flash symbol TR_215/185/16 due to ERROR(SPMHUT-1): Illegal character(s) present in the name or value.
+\i (00:53:41) FORM plc_manual tree  1-HOLE_2-8N 'Package symbols' 
+\i (00:53:47) setwindow pcb
+\i (00:53:47) pick grid 43.7751 12.9671
+\t (00:53:47) last pick:  43.7751  12.9671
+\i (00:53:50) setwindow form.plc_manual
+\i (00:53:50) FORM plc_manual tree 'MULTISEL YES' 1-HOLE_2-8N 'Package symbols' 
+\w (00:53:50) WARNING(SPMHUT-127): Could not find padstack HOLE2-8N.
+\e (00:53:50) ERROR(SPMHUT-1): Illegal character(s) present in the name or value.
+\e (00:53:50) Cannot load symbol '1-HOLE_2-8N'
+\e (00:53:50)   because WARNING(SPMHUT-127): Could not find padstack HOLE2-8N.
+    Unable to load flash symbol TR_215/185/16 due to ERROR(SPMHUT-1): Illegal character(s) present in the name or value.
+\i (00:53:53) FORM plc_manual tree 'MULTISEL NO' 1-HOLE_2-8N 'Package symbols' 
+\i (00:53:54) FORM plc_manual tree 'MULTISEL YES' 1-HOLE_2-8P 'Package symbols' 
+\w (00:53:54) WARNING(SPMHUT-127): Could not find padstack HOLE2-8P.
+\e (00:53:54) ERROR(SPMHUT-1): Illegal character(s) present in the name or value.
+\e (00:53:54) Cannot load symbol '1-HOLE_2-8P'
+\e (00:53:54)   because WARNING(SPMHUT-127): Could not find padstack HOLE2-8P.
+    Unable to load flash symbol TR_215/185/16 due to ERROR(SPMHUT-1): Illegal character(s) present in the name or value.
+\i (00:53:54) FORM plc_manual tree  1-HOLE_2-8P 'Package symbols' 
+\i (00:53:58) FORM plc_manual tree 'MULTISEL NO' 1-HOLE_2-8P 'Package symbols' 
+\i (00:54:00) FORM plc_manual tree 'MULTISEL YES' 1-HOLE_2-5P 'Package symbols' 
+\w (00:54:00) WARNING(SPMHUT-127): Could not find padstack HOLE2-5P.
+\e (00:54:00) ERROR(SPMHUT-1): Illegal character(s) present in the name or value.
+\e (00:54:00) Cannot load symbol '1-HOLE_2-5P'
+\e (00:54:00)   because WARNING(SPMHUT-127): Could not find padstack HOLE2-5P.
+    Unable to load flash symbol TR_185/155/16 due to ERROR(SPMHUT-1): Illegal character(s) present in the name or value.
+\i (00:54:00) FORM plc_manual tree  1-HOLE_2-5P 'Package symbols' 
+\i (00:54:02) FORM plc_manual tree 'MULTISEL NO' 1-HOLE_2-5P 'Package symbols' 
+\i (00:54:03) FORM plc_manual tree 'MULTISEL YES' 1-HOLE_2-0N 'Package symbols' 
+\i (00:54:03) FORM plc_manual tree  1-HOLE_2-0N 'Package symbols' 
+\i (00:54:06) FORM plc_manual tree 'MULTISEL NO' 1-HOLE_2-0N 'Package symbols' 
+\i (00:54:13) FORM plc_manual tree 'MULTISEL YES' 2-HOLE_1-0P 'Package symbols' 
+\i (00:54:13) FORM plc_manual tree  2-HOLE_1-0P 'Package symbols' 
+\i (00:54:15) FORM plc_manual tree 'MULTISEL NO' 2-HOLE_1-0P 'Package symbols' 
+\i (00:54:35) FORM plc_manual tree 'MULTISEL YES' 1-HOLE_2-8N 'Package symbols' 
+\w (00:54:35) WARNING(SPMHUT-127): Could not find padstack HOLE2-8N.
+\e (00:54:35) ERROR(SPMHUT-1): Illegal character(s) present in the name or value.
+\e (00:54:35) Cannot load symbol '1-HOLE_2-8N'
+\e (00:54:35)   because WARNING(SPMHUT-127): Could not find padstack HOLE2-8N.
+    Unable to load flash symbol TR_215/185/16 due to ERROR(SPMHUT-1): Illegal character(s) present in the name or value.
+\i (00:54:36) FORM plc_manual tree  1-HOLE_2-8N 'Package symbols' 
+\i (00:54:39) FORM plc_manual tree 'MULTISEL YES' 1-HOLE_2-6P 'Package symbols' 
+\w (00:54:39) WARNING(SPMHUT-127): Could not find padstack HOLE2-6P.
+\e (00:54:39) ERROR(SPMHUT-1): Illegal character(s) present in the name or value.
+\e (00:54:39) Cannot load symbol '1-HOLE_2-6P'
+\e (00:54:39)   because WARNING(SPMHUT-127): Could not find padstack HOLE2-6P.
+    Unable to load flash symbol TR_195/165/16 due to ERROR(SPMHUT-1): Illegal character(s) present in the name or value.
+\i (00:54:39) FORM plc_manual tree  1-HOLE_2-6P 'Package symbols' 
+\i (00:54:40) FORM plc_manual tree 'MULTISEL NO' 1-HOLE_2-8N 'Package symbols' 
+\i (00:54:40) FORM plc_manual tree  1-HOLE_2-8N 'Package symbols' 
+\i (00:54:42) FORM plc_manual tree 'MULTISEL YES' 1-HOLE_2-5P 'Package symbols' 
+\w (00:54:42) WARNING(SPMHUT-127): Could not find padstack HOLE2-5P.
+\e (00:54:42) ERROR(SPMHUT-1): Illegal character(s) present in the name or value.
+\e (00:54:42) Cannot load symbol '1-HOLE_2-5P'
+\e (00:54:42)   because WARNING(SPMHUT-127): Could not find padstack HOLE2-5P.
+    Unable to load flash symbol TR_185/155/16 due to ERROR(SPMHUT-1): Illegal character(s) present in the name or value.
+\i (00:54:42) FORM plc_manual tree  1-HOLE_2-5P 'Package symbols' 
+\i (00:54:42) FORM plc_manual tree 'MULTISEL NO' 1-HOLE_2-6P 'Package symbols' 
+\i (00:54:42) FORM plc_manual tree  1-HOLE_2-6P 'Package symbols' 
+\i (00:54:44) FORM plc_manual tree 'MULTISEL NO' 1-HOLE_2-5P 'Package symbols' 
+\i (00:54:44) FORM plc_manual tree  1-HOLE_2-5P 'Package symbols' 
+\i (00:54:44) FORM plc_manual tree 'MULTISEL YES' 1-HOLE_2-5N 'Package symbols' 
+\i (00:54:44) FORM plc_manual tree  1-HOLE_2-5N 'Package symbols' 
+\i (00:54:48) FORM plc_manual tree 'MULTISEL NO' 1-HOLE_2-5N 'Package symbols' 
+\i (00:56:19) FORM plc_manual tree 'MULTISEL YES' 1-HOLE_2-5N 'Package symbols' 
+\i (00:56:20) FORM plc_manual tree 'MULTISEL NO' 1-HOLE_2-5N 'Package symbols' 
+\i (00:56:21) FORM plc_manual tree 'MULTISEL YES' 1-HOLE_2-5P 'Package symbols' 
+\w (00:56:21) WARNING(SPMHUT-127): Could not find padstack HOLE2-5P.
+\e (00:56:21) ERROR(SPMHUT-1): Illegal character(s) present in the name or value.
+\e (00:56:21) Cannot load symbol '1-HOLE_2-5P'
+\e (00:56:21)   because WARNING(SPMHUT-127): Could not find padstack HOLE2-5P.
+    Unable to load flash symbol TR_185/155/16 due to ERROR(SPMHUT-1): Illegal character(s) present in the name or value.
+\i (00:56:21) FORM plc_manual tree  1-HOLE_2-5P 'Package symbols' 
+\i (00:56:22) FORM plc_manual tree 'MULTISEL NO' 1-HOLE_2-5P 'Package symbols' 
+\i (00:57:18) FORM plc_manual tree 'MULTISEL YES' 1-HOLE_2-8N 'Package symbols' 
+\w (00:57:18) WARNING(SPMHUT-127): Could not find padstack HOLE2-8N.
+\e (00:57:18) ERROR(SPMHUT-1): Illegal character(s) present in the name or value.
+\e (00:57:18) Cannot load symbol '1-HOLE_2-8N'
+\e (00:57:18)   because WARNING(SPMHUT-127): Could not find padstack HOLE2-8N.
+    Unable to load flash symbol TR_215/185/16 due to ERROR(SPMHUT-1): Illegal character(s) present in the name or value.
+\i (00:57:19) FORM plc_manual tree  1-HOLE_2-8N 'Package symbols' 
+\i (00:57:21) FORM plc_manual tree 'MULTISEL NO' 1-HOLE_2-8N 'Package symbols' 
+\i (00:57:23) FORM plc_manual tree 'MULTISEL YES' 1-HOLE_2-8P 'Package symbols' 
+\w (00:57:23) WARNING(SPMHUT-127): Could not find padstack HOLE2-8P.
+\e (00:57:23) ERROR(SPMHUT-1): Illegal character(s) present in the name or value.
+\e (00:57:23) Cannot load symbol '1-HOLE_2-8P'
+\e (00:57:23)   because WARNING(SPMHUT-127): Could not find padstack HOLE2-8P.
+    Unable to load flash symbol TR_215/185/16 due to ERROR(SPMHUT-1): Illegal character(s) present in the name or value.
+\i (00:57:24) FORM plc_manual tree  1-HOLE_2-8P 'Package symbols' 
+\i (00:57:24) FORM plc_manual tree 'MULTISEL NO' 1-HOLE_2-8P 'Package symbols' 
+\i (00:57:25) FORM plc_manual tree 'MULTISEL YES' 1-HOLE_3-0N 'Package symbols' 
+\i (00:57:25) FORM plc_manual tree  1-HOLE_3-0N 'Package symbols' 
+\i (00:57:30) setwindow pcb
+\i (00:57:30) pick grid 59.6341 46.4090
+\t (00:57:30) last pick:  59.6341  46.4090
+\i (00:57:33) setwindow form.plc_manual
+\i (00:57:33) FORM plc_manual tree 'MULTISEL YES' 1-HOLE_3-0P 'Package symbols' 
+\w (00:57:33) WARNING(SPMHUT-127): Could not find padstack HOLE3-0P.
+\e (00:57:33) ERROR(SPMHUT-1): Illegal character(s) present in the name or value.
+\e (00:57:33) Cannot load symbol '1-HOLE_3-0P'
+\e (00:57:33)   because WARNING(SPMHUT-127): Could not find padstack HOLE3-0P.
+    Unable to load flash symbol TR_235/205/16 due to ERROR(SPMHUT-1): Illegal character(s) present in the name or value.
+\i (00:57:34) FORM plc_manual tree  1-HOLE_3-0P 'Package symbols' 
+\i (00:57:37) FORM plc_manual tree 'MULTISEL NO' 1-HOLE_3-0P 'Package symbols' 
+\i (00:57:38) FORM plc_manual tree 'MULTISEL YES' 1-HOLE_3-0N 'Package symbols' 
+\i (00:57:38) FORM plc_manual tree  1-HOLE_3-0N 'Package symbols' 
+\i (00:57:48) setwindow pcb
+\i (00:57:48) pick grid 70.4941 45.3747
+\t (00:57:48) last pick:  70.4941  45.3747
+\i (00:57:57) setwindow form.plc_manual
+\i (00:57:57) FORM plc_manual done  
+\i (00:57:58) setwindow pcb
+\i (00:57:58) placementedit 
+\i (00:58:00) delete 
+\i (00:58:02) pick grid 60.1512 46.0642
+\t (00:58:02) last pick:  60.1512  46.0642
+\t (00:58:02) Symbol "Lkxxx"
+\i (00:58:04) pick grid 71.0112 45.2023
+\t (00:58:04) last pick:  71.0112  45.2023
+\t (00:58:04) Symbol "Lkxxx"
+\i (00:58:05) pick grid 66.5293 32.2738
+\t (00:58:05) last pick:  66.5293  32.2738
+\i (00:58:08) prepopup 60.3236 30.8947
+\i (00:58:08) done 
+\i (00:58:09) placementedit 
+\i (00:58:32) pick grid 3.4380 -3.0643
+\t (00:58:32) last pick:  3.4380  -3.0643
+\i (00:58:32) move 
+\t (00:58:32) last pick:  4.3000  -2.0000
+\t (00:58:32) Pick new location for the element(s).
+\i (00:58:33) prepopup 3.4380 -3.0643
+\i (00:58:34) oops 
+\i (00:58:34) placementedit 
+\i (00:58:36) prepopup 17.2284 2.1072
+\i (00:58:37) pick grid 23.0894 7.7957
+\t (00:58:37) last pick:  23.0894  7.7957
+\i (00:58:38) pick grid 23.2618 7.9681
+\t (00:58:38) last pick:  23.2618  7.9681
+\i (00:58:40) redraw 
+\i (00:58:42) pick grid 4.8170 -2.5471
+\t (00:58:42) last pick:  4.8170  -2.5471
+\i (00:58:42) move 
+\t (00:58:42) last pick:  4.3000  -2.0000
+\t (00:58:42) Pick new location for the element(s).
+\i (00:58:46) prepopup 8.6094 -0.1338
+\i (00:58:47) oops 
+\i (00:58:47) placementedit 
+\i (00:58:48) prepopup -25.0048 32.4461
+\i (00:58:49) pick grid -25.1772 39.5137
+\t (00:58:49) last pick:  -25.1772  39.5137
+\i (00:58:51) redraw 
+\i (00:58:56) change 
+\i (00:58:58) pick grid 3.9551 -1.8576
+\t (00:58:58) last pick:  3.9551  -1.8576
+\i (00:59:08) setwindow form.find
+\i (00:59:08) FORM find all_off  
+\i (00:59:12) setwindow pcb
+\i (00:59:12) prepopup 204.4338 90.7108
+\i (00:59:13) done 
+\i (00:59:13) placementedit 
+\i (00:59:18) delete 
+\i (00:59:20) pick grid 8.2647 2.7967
+\t (00:59:20) last pick:  8.2647  2.7967
+\t (00:59:20) Symbol "Lkxxx"
+\i (00:59:21) pick grid 52.0493 6.2443
+\t (00:59:21) last pick:  52.0493  6.2443
+\t (00:59:21) Symbol "Lkxxx"
+\i (00:59:23) pick grid 76.6998 -7.8909
+\t (00:59:23) last pick:  76.6998  -7.8909
+\t (00:59:23) Symbol "Lkxxx"
+\i (00:59:24) pick grid 123.5873 -7.2014
+\t (00:59:24) last pick:  123.5873  -7.2014
+\t (00:59:24) Symbol "Lkxxx"
+\i (00:59:25) pick grid 177.7148 -31.3347
+\t (00:59:25) last pick:  177.7148  -31.3347
+\i (00:59:26) prepopup 171.1643 -26.8528
+\i (00:59:27) done 
+\i (00:59:27) placementedit 
+\i (00:59:28) redraw 
+\i (00:59:47) prepopup 265.9737 -2.3747
+\i (00:59:48) pick grid 265.9737 -2.3747
+\t (00:59:48) last pick:  265.9737  -2.3747
+\i (00:59:51) show element 
+\i (00:59:57) pick grid 135.9987 39.8585
+\t (00:59:57) last pick:  135.9987  39.8585
+\i (01:00:01) pick grid 131.6892 57.9585
+\t (01:00:01) last pick:  131.6892  57.9585
+\i (01:00:04) pick grid 130.9997 65.3708
+\t (01:00:04) last pick:  130.9997  65.3708
+\i (01:00:07) pick grid 69.1150 61.5785
+\t (01:00:07) last pick:  69.1150  61.5785
+\i (01:00:09) pick grid 62.2198 61.5785
+\t (01:00:09) last pick:  62.2198  61.5785
+\i (01:00:10) pick grid 59.8065 65.7156
+\t (01:00:10) last pick:  59.8065  65.7156
+\i (01:00:13) pick grid -0.8715 38.6518
+\t (01:00:13) last pick:  -0.8715  38.6518
+\i (01:00:15) pick grid -0.8715 46.9261
+\t (01:00:15) last pick:  -0.8715  46.9261
+\i (01:00:18) zoom points 
+\t (01:00:18) Pick 1st corner of the new window.
+\i (01:00:18) drag_start -12.4210 64.5089
+\i (01:00:19) drag_stop 2.5761 35.0319
+\i (01:00:19) trapsize 1553
+\i (01:00:21) zoom out 
+\i (01:00:21) setwindow pcb
+\i (01:00:21) zoom out 16.1242 49.7549
+\i (01:00:21) trapsize 3106
+\i (01:00:22) zoom out 
+\i (01:00:22) setwindow pcb
+\i (01:00:22) zoom out 16.1242 49.7548
+\i (01:00:22) trapsize 6212
+\i (01:00:24) zoom out 
+\i (01:00:24) setwindow pcb
+\i (01:00:24) zoom out 64.1807 49.7549
+\i (01:00:24) trapsize 12424
+\i (01:00:28) pick grid 78.7173 -11.4842
+\t (01:00:28) last pick:  78.7173  -11.4842
+\i (01:01:10) pick grid -4.7750 124.4393
+\t (01:01:10) last pick:  -4.7750  124.4393
+\i (01:01:14) setwindow text
+\i (01:01:14) close 
+\i (01:01:17) setwindow pcb
+\i (01:01:17) zoom fit 
+\i (01:01:17) trapsize 4065
+\i (01:01:21) pick grid 136.2536 33.3687
+\t (01:01:21) last pick:  136.2536  33.3687
+\i (01:01:25) setwindow text
+\i (01:01:25) close 
+\i (01:01:27) setwindow pcb
+\i (01:01:27) prepopup 127.7994 29.4668
+\i (01:01:28) done 
+\i (01:01:28) placementedit 
+\i (01:01:30) zoom points 
+\t (01:01:30) Pick 1st corner of the new window.
+\i (01:01:32) drag_start 129.9130 55.6424
+\i (01:01:32) drag_stop 134.7091 51.4966
+\i (01:01:32) trapsize 218
+\i (01:01:32) placementedit 
+\i (01:01:35) zoom points 
+\t (01:01:35) Pick 1st corner of the new window.
+\i (01:01:36) drag_start 131.1624 54.1789
+\i (01:01:37) drag_stop 131.4682 54.0129
+\i (01:01:37) trapsize 9
+\i (01:01:37) placementedit 
+\i (01:01:39) zoom points 
+\t (01:01:39) Pick 1st corner of the new window.
+\i (01:01:41) drag_start 131.2962 54.1028
+\i (01:01:41) drag_stop 131.3020 54.0986
+\i (01:01:41) trapsize 1
+\i (01:01:41) placementedit 
+\i (01:01:44) zoom points 
+\t (01:01:44) Pick 1st corner of the new window.
+\i (01:01:46) drag_start 131.3000 54.1001
+\i (01:01:46) drag_stop 131.3000 54.1000
+\i (01:01:46) trapsize 1
+\i (01:01:46) placementedit 
+\i (01:02:11) shape merge shapes 
+\t (01:02:11) Pick primary shape to merge to
+\i (01:02:12) zoom fit 
+\i (01:02:12) trapsize 4065
+\i (01:02:16) pick grid 131.2949 59.1379
+\t (01:02:16) last pick:  131.2949  59.1379
+\i (01:02:17) pick grid 133.0020 49.7895
+\t (01:02:17) last pick:  133.0020  49.7895
+\i (01:02:18) pick grid 133.3272 49.7082
+\t (01:02:18) last pick:  133.3272  49.7082
+\i (01:02:21) pick grid 131.3762 57.1869
+\t (01:02:21) last pick:  131.3762  57.1869
+\i (01:02:24) prepopup 66.0185 43.8552
+\i (01:02:25) done 
+\i (01:02:25) placementedit 
+\i (01:02:28) pick grid 135.8472 38.3275
+\t (01:02:28) last pick:  135.8472  38.3275
+\i (01:02:29) pick grid 136.4162 38.6526
+\t (01:02:29) last pick:  136.4162  38.6526
+\i (01:02:32) show element 
+\i (01:02:34) pick grid 135.8472 39.8720
+\t (01:02:34) last pick:  135.8472  39.8720
+\i (01:02:41) shape edit boundary 
+\i (01:02:44) pick grid 133.7336 48.8140
+\t (01:02:44) last pick:  133.7336  48.8140
+\i (01:02:45) pick grid 133.3272 48.8953
+\t (01:02:45) last pick:  133.3272  48.8953
+\i (01:02:46) pick grid 130.9697 58.1624
+\t (01:02:46) last pick:  130.9697  58.1624
+\i (01:02:57) setwindow form.find
+\i (01:02:57) FORM find all_on  
+\i (01:03:00) setwindow pcb
+\i (01:03:00) pick grid 133.3272 47.5946
+\t (01:03:00) last pick:  133.3272  47.5946
+\i (01:03:01) pick grid 131.3762 58.1624
+\t (01:03:01) last pick:  131.3762  58.1624
+\i (01:03:04) prepopup 46.2649 24.1829
+\i (01:03:05) done 
+\i (01:03:05) placementedit 
+\i (01:03:13) shape merge shapes 
+\t (01:03:13) Pick primary shape to merge to
+\i (01:03:16) pick grid 131.0510 59.9508
+\t (01:03:16) last pick:  131.0510  59.9508
+\i (01:03:32) setwindow form.mini
+\i (01:03:32) FORM mini subcolor 0 
+\i (01:03:33) FORM mini subcolor 1 
+\i (01:03:34) FORM mini subcolor 0 
+\i (01:03:39) FORM mini subcolor 1 
+\i (01:03:42) setwindow pcb
+\i (01:03:42) zoom out 
+\i (01:03:42) setwindow pcb
+\i (01:03:42) zoom out 71.3837 27.1094
+\i (01:03:42) trapsize 8129
+\i (01:03:49) setwindow form.mini
+\i (01:03:49) FORM mini subcolor 0 
+\i (01:03:50) FORM mini subcolor 1 
+\i (01:03:51) FORM mini subcolor 0 
+\i (01:03:51) FORM mini subcolor 1 
+\i (01:03:52) FORM mini subcolor 0 
+\i (01:03:53) FORM mini subcolor 1 
+\i (01:03:55) FORM mini subcolor 0 
+\i (01:03:56) FORM mini subcolor 1 
+\i (01:04:01) setwindow pcb
+\i (01:04:01) pick grid 133.5543 46.7817
+\t (01:04:01) last pick:  133.5543  46.7817
+\i (01:04:02) pick grid 131.2781 60.1133
+\t (01:04:02) last pick:  131.2781  60.1133
+\i (01:04:05) prepopup 154.2021 56.6991
+\i (01:04:08) done 
+\i (01:04:08) placementedit 
+\i (01:04:10) pick grid 155.3402 56.3740
+\t (01:04:10) last pick:  155.3402  56.3740
+\i (01:04:12) pick grid 136.1556 32.6371
+\t (01:04:12) last pick:  136.1556  32.6371
+\i (01:05:50) move 
+\t (01:05:50) Select element(s) to move.
+\i (01:05:52) zoom points 
+\t (01:05:52) Pick 1st corner of the new window.
+\i (01:05:53) drag_start 65.2701 15.5661
+\i (01:05:54) drag_stop 137.9440 -1.6676
+\i (01:05:54) trapsize 1977
+\i (01:05:56) pick grid 97.8903 3.0716
+\t (01:05:56) last pick:  97.8903  3.0716
+\t (01:05:56) last pick:  102.3975  4.9182
+\t (01:05:56) Moving J1 / ASP-134606-01 / SAMTEC_ASP-134606-01.
+\t (01:05:56) Pick new location for the element(s).
+\i (01:06:30) pick grid 101.4884 1.0551
+\t (01:06:30) last pick:  101.4884  1.0551
+\i (01:07:27) zoom fit 
+\i (01:07:27) trapsize 4065
+\i (01:07:38) save 
+\f (01:07:38) G:/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_01.brd: File Exists. Overwrite? 
+\i (01:07:39) fillin yes 
+\i (01:07:40) placementedit 
+\i (01:07:54) zoom points 
+\t (01:07:54) Pick 1st corner of the new window.
+\i (01:07:55) drag_start 68.9450 1.0151
+\i (01:07:56) drag_stop 76.7489 -5.8946
+\i (01:07:56) trapsize 364
+\i (01:07:56) placementedit 
+\i (01:08:00) zoom fit 
+\i (01:08:00) trapsize 4065
+\i (01:08:01) zoom points 
+\t (01:08:01) Pick 1st corner of the new window.
+\i (01:08:03) drag_start 127.1491 2.7222
+\i (01:08:03) drag_stop 129.3439 -0.2856
+\i (01:08:03) trapsize 158
+\i (01:08:03) placementedit 
+\i (01:08:11) zoom out 
+\i (01:08:11) setwindow pcb
+\i (01:08:11) zoom out 130.0618 1.2167
+\i (01:08:11) trapsize 317
+\i (01:08:15) zoom out 
+\i (01:08:15) setwindow pcb
+\i (01:08:15) zoom out 130.0618 1.2167
+\i (01:08:15) trapsize 634
+\i (01:08:20) roam x -96 
+\i (01:08:20) roam x -96
+\i (01:08:21) roam x -96 
+\i (01:08:21) roam x -96
+\i (01:08:21) roam x -96 
+\i (01:08:21) roam x -96
+\i (01:08:21) roam x -96 
+\i (01:08:21) roam x -96
+\i (01:08:21) roam x -96 
+\i (01:08:21) roam x -96
+\i (01:08:21) roam x -96 
+\i (01:08:21) roam x -96
+\i (01:08:21) roam x -96 
+\i (01:08:21) roam x -96
+\i (01:08:21) roam x -96 
+\i (01:08:21) roam x -96
+\i (01:08:21) roam x -96 
+\i (01:08:21) roam x -96
+\i (01:08:21) roam x -96 
+\i (01:08:21) roam x -96
+\i (01:08:21) roam x -96 
+\i (01:08:21) roam x -96
+\i (01:08:21) roam x -96 
+\i (01:08:21) roam x -96
+\i (01:08:21) roam x -96 
+\i (01:08:21) roam x -96
+\i (01:08:21) roam x -96 
+\i (01:08:21) roam x -96
+\i (01:08:22) roam x -96 
+\i (01:08:22) roam x -96
+\i (01:08:22) roam x -96 
+\i (01:08:22) roam x -96
+\i (01:08:22) roam x -96 
+\i (01:08:22) roam x -96
+\i (01:08:22) roam x -96 
+\i (01:08:22) roam x -96
+\i (01:08:22) roam x -96 
+\i (01:08:22) roam x -96
+\i (01:08:22) roam x -96 
+\i (01:08:22) roam x -96
+\i (01:08:22) roam x -96 
+\i (01:08:22) roam x -96
+\i (01:08:22) roam x -96 
+\i (01:08:22) roam x -96
+\i (01:08:22) roam x -96 
+\i (01:08:22) roam x -96
+\i (01:08:22) roam x -96 
+\i (01:08:22) roam x -96
+\i (01:08:22) roam x -96 
+\i (01:08:22) roam x -96
+\i (01:08:22) roam x -96 
+\i (01:08:22) roam x -96
+\i (01:08:22) roam x -96 
+\i (01:08:22) roam x -96
+\i (01:08:22) roam x -96 
+\i (01:08:22) roam x -96
+\i (01:08:22) roam x -96 
+\i (01:08:22) roam x -96
+\i (01:08:22) roam x -96 
+\i (01:08:22) roam x -96
+\i (01:08:22) roam x -96 
+\i (01:08:22) roam x -96
+\i (01:08:22) roam x -96 
+\i (01:08:22) roam x -96
+\i (01:08:22) roam x -96 
+\i (01:08:22) roam x -96
+\i (01:08:22) roam x -96 
+\i (01:08:22) roam x -96
+\i (01:08:22) roam x -96 
+\i (01:08:22) roam x -96
+\i (01:08:23) roam x -96 
+\i (01:08:23) roam x -96
+\i (01:08:23) roam x -96 
+\i (01:08:23) roam x -96
+\i (01:08:23) roam x -96 
+\i (01:08:23) roam x -96
+\i (01:08:23) roam x -96 
+\i (01:08:23) roam x -96
+\i (01:08:23) roam x -96 
+\i (01:08:23) roam x -96
+\i (01:08:23) roam x -96 
+\i (01:08:23) roam x -96
+\i (01:08:23) roam x -96 
+\i (01:08:23) roam x -96
+\i (01:08:26) zoom points 
+\t (01:08:26) Pick 1st corner of the new window.
+\i (01:08:27) drag_start 72.5056 -1.1540
+\i (01:08:27) drag_stop 75.6877 -3.2078
+\i (01:08:27) trapsize 108
+\i (01:08:27) placementedit 
+\i (01:08:33) move 
+\t (01:08:33) Select element(s) to move.
+\i (01:08:41) define grid 
+\t (01:08:41) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (01:08:44) setwindow form.grid
+\i (01:08:44) FORM grid done  
+\i (01:08:51) setwindow pcb
+\i (01:08:51) pick grid 75.4467 -2.0218
+\t (01:08:51) last pick:  75.4467  -2.0218
+\t (01:08:51) last pick:  74.3000  -2.0000
+\t (01:08:51) Pick new location for the element(s).
+\i (01:08:57) zoom out 
+\i (01:08:57) setwindow pcb
+\i (01:08:57) zoom out 74.4944 -2.1820
+\i (01:08:57) trapsize 216
+\i (01:08:57) zoom out 
+\i (01:08:57) setwindow pcb
+\i (01:08:57) zoom out 74.4946 -2.1820
+\i (01:08:57) trapsize 433
+\i (01:09:00) prepopup 74.2521 -1.6972
+\i (01:09:01) oops 
+\t (01:09:01) last pick:  75.4467  -2.0218
+\i (01:09:04) pick grid 77.9831 -2.1040
+\t (01:09:04) last pick:  77.9831  -2.1040
+\t (01:09:04) last pick:  101.4884  1.0551
+\t (01:09:04) Moving J1 / ASP-134606-01 / SAMTEC_ASP-134606-01.
+\t (01:09:04) Pick new location for the element(s).
+\i (01:09:07) prepopup 79.4894 -2.0001
+\i (01:09:08) oops 
+\t (01:09:08) last pick:  77.9831  -2.1040
+\i (01:09:13) pick grid 76.7366 -0.8315
+\t (01:09:13) last pick:  76.7366  -0.8315
+\t (01:09:13) last pick:  101.4884  1.0551
+\t (01:09:13) Moving J1 / ASP-134606-01 / SAMTEC_ASP-134606-01.
+\t (01:09:13) Pick new location for the element(s).
+\i (01:09:19) zoom out 
+\i (01:09:19) setwindow pcb
+\i (01:09:19) zoom out 74.4945 -2.1819
+\i (01:09:19) trapsize 866
+\i (01:09:20) zoom out 
+\i (01:09:20) setwindow pcb
+\i (01:09:20) zoom out 74.4945 -2.1820
+\i (01:09:20) trapsize 1731
+\i (01:09:21) zoom out 
+\i (01:09:21) setwindow pcb
+\i (01:09:21) zoom out 74.4945 -2.1819
+\i (01:09:21) trapsize 3463
+\i (01:09:21) zoom out 
+\i (01:09:21) setwindow pcb
+\i (01:09:21) zoom out 74.4945 -2.1819
+\i (01:09:21) trapsize 6925
+\i (01:09:23) zoom in 
+\i (01:09:23) setwindow pcb
+\i (01:09:23) zoom in 77.2880 15.6524
+\i (01:09:23) trapsize 3463
+\i (01:09:39) pick grid 101.5267 1.0399
+\t (01:09:39) last pick:  101.5267  1.0399
+\i (01:09:42) zoom points 
+\t (01:09:42) Pick 1st corner of the new window.
+\i (01:09:43) drag_start 69.4624 1.5247
+\i (01:09:43) drag_stop 77.4265 -5.2622
+\i (01:09:43) trapsize 358
+\i (01:09:48) prepopup 77.4293 -2.5946
+\i (01:09:49) oops 
+\t (01:09:49) last pick:  101.4884  1.0551
+\i (01:09:55) trapsize 357
+\i (01:09:55) trapsize 322
+\i (01:09:55) trapsize 275
+\i (01:09:55) trapsize 256
+\i (01:09:55) trapsize 235
+\i (01:09:55) trapsize 224
+\i (01:09:56) trapsize 208
+\i (01:09:56) trapsize 188
+\i (01:09:56) trapsize 183
+\i (01:09:56) trapsize 181
+\i (01:09:56) trapsize 180
+\i (01:09:56) trapsize 179
+\i (01:09:56) trapsize 178
+\i (01:09:57) trapsize 177
+\i (01:10:03) zoom out 
+\i (01:10:03) setwindow pcb
+\i (01:10:03) zoom out 76.0350 -3.5809
+\i (01:10:03) trapsize 355
+\i (01:10:05) zoom out 
+\i (01:10:05) setwindow pcb
+\i (01:10:05) zoom out 76.0350 -3.5809
+\i (01:10:05) trapsize 709
+\i (01:10:24) pick grid 101.4883 1.0443
+\t (01:10:24) last pick:  101.4883  1.0443
+\i (01:10:28) roam x 96 
+\i (01:10:28) roam x 96
+\i (01:10:28) roam x 96 
+\i (01:10:28) roam x 96
+\i (01:10:28) roam x 96 
+\i (01:10:28) roam x 96
+\i (01:10:29) roam x 96 
+\i (01:10:29) roam x 96
+\i (01:10:29) roam x 96 
+\i (01:10:29) roam x 96
+\i (01:10:29) roam x 96 
+\i (01:10:29) roam x 96
+\i (01:10:29) roam x 96 
+\i (01:10:29) roam x 96
+\i (01:10:29) roam x 96 
+\i (01:10:29) roam x 96
+\i (01:10:29) roam x 96 
+\i (01:10:29) roam x 96
+\i (01:10:29) roam x 96 
+\i (01:10:29) roam x 96
+\i (01:10:29) roam x 96 
+\i (01:10:29) roam x 96
+\i (01:10:29) roam x 96 
+\i (01:10:29) roam x 96
+\i (01:10:29) roam x 96 
+\i (01:10:29) roam x 96
+\i (01:10:29) roam x 96 
+\i (01:10:29) roam x 96
+\i (01:10:29) roam x 96 
+\i (01:10:29) roam x 96
+\i (01:10:29) roam x 96 
+\i (01:10:29) roam x 96
+\i (01:10:29) roam x 96 
+\i (01:10:29) roam x 96
+\i (01:10:29) roam x 96 
+\i (01:10:29) roam x 96
+\i (01:10:29) roam x 96 
+\i (01:10:29) roam x 96
+\i (01:10:29) roam x 96 
+\i (01:10:29) roam x 96
+\i (01:10:29) roam x 96 
+\i (01:10:29) roam x 96
+\i (01:10:29) roam x 96 
+\i (01:10:29) roam x 96
+\i (01:10:29) roam x 96 
+\i (01:10:29) roam x 96
+\i (01:10:29) roam x 96 
+\i (01:10:29) roam x 96
+\i (01:10:30) roam x 96 
+\i (01:10:30) roam x 96
+\i (01:10:30) roam x 96 
+\i (01:10:30) roam x 96
+\i (01:10:30) roam x 96 
+\i (01:10:30) roam x 96
+\i (01:10:30) roam x 96 
+\i (01:10:30) roam x 96
+\i (01:10:30) roam x 96 
+\i (01:10:30) roam x 96
+\i (01:10:30) roam x 96 
+\i (01:10:30) roam x 96
+\i (01:10:30) roam x 96 
+\i (01:10:30) roam x 96
+\i (01:10:30) roam x 96 
+\i (01:10:30) roam x 96
+\i (01:10:30) roam x 96 
+\i (01:10:30) roam x 96
+\i (01:10:31) roam x 96 
+\i (01:10:31) roam x 96
+\i (01:10:35) zoom out 
+\i (01:10:35) setwindow pcb
+\i (01:10:35) zoom out 122.3419 -3.5810
+\i (01:10:35) trapsize 1419
+\i (01:10:38) zoom points 
+\t (01:10:38) Pick 1st corner of the new window.
+\i (01:10:39) drag_start 126.1443 2.8888
+\i (01:10:39) drag_stop 129.6629 -0.6298
+\i (01:10:39) trapsize 185
+\i (01:10:45) zoom out 
+\i (01:10:45) setwindow pcb
+\i (01:10:45) zoom out 133.0147 1.1276
+\i (01:10:45) trapsize 371
+\i (01:10:47) zoom out 
+\i (01:10:47) setwindow pcb
+\i (01:10:47) zoom out 133.0146 1.1277
+\i (01:10:47) trapsize 742
+\i (01:10:48) zoom out 
+\i (01:10:48) setwindow pcb
+\i (01:10:48) zoom out 133.0146 1.1277
+\i (01:10:48) trapsize 1483
+\i (01:10:49) zoom out 
+\i (01:10:49) setwindow pcb
+\i (01:10:49) zoom out 133.0146 1.1277
+\i (01:10:49) trapsize 2966
+\i (01:10:54) roam x -96 
+\i (01:10:54) roam x -96
+\i (01:10:55) roam x 96 
+\i (01:10:55) roam x 96
+\i (01:10:55) roam x 96 
+\i (01:10:55) roam x 96
+\i (01:10:56) roam x 96 
+\i (01:10:56) roam x 96
+\i (01:11:02) zoom fit 
+\i (01:11:02) trapsize 4065
+\i (01:11:19) zoom points 
+\t (01:11:19) Pick 1st corner of the new window.
+\i (01:11:19) drag_start 70.6521 0.3647
+\i (01:11:20) drag_stop 73.8224 -5.0817
+\i (01:11:20) trapsize 287
+\i (01:11:29) prepopup 77.9867 -2.1203
+\i (01:11:30) oops 
+\t (01:11:30) last pick:  101.4884  1.0551
+\i (01:11:50) trapsize 284
+\i (01:11:50) trapsize 282
+\i (01:11:59) zoom out 
+\i (01:11:59) setwindow pcb
+\i (01:11:59) zoom out 81.2867 -2.4104
+\i (01:11:59) trapsize 564
+\i (01:12:32) pick grid 101.4964 1.0500
+\t (01:12:32) last pick:  101.4964  1.0500
+\i (01:12:39) zoom out 
+\i (01:12:39) setwindow pcb
+\i (01:12:39) zoom out 81.2867 -2.4103
+\i (01:12:39) trapsize 1127
+\i (01:12:39) zoom out 
+\i (01:12:39) setwindow pcb
+\i (01:12:39) zoom out 81.2867 -2.4104
+\i (01:12:39) trapsize 2254
+\i (01:12:40) zoom out 
+\i (01:12:40) setwindow pcb
+\i (01:12:40) zoom out 81.2868 -2.4103
+\i (01:12:40) trapsize 4509
+\i (01:12:47) zoom points 
+\t (01:12:47) Pick 1st corner of the new window.
+\i (01:12:49) drag_start 126.1051 3.5410
+\i (01:12:49) drag_stop 128.3594 -0.7873
+\i (01:12:49) trapsize 228
+\i (01:12:59) trapsize 235
+\i (01:12:59) trapsize 274
+\i (01:12:59) trapsize 323
+\i (01:12:59) trapsize 374
+\i (01:12:59) trapsize 413
+\i (01:12:59) trapsize 422
+\i (01:12:59) trapsize 419
+\i (01:12:59) trapsize 418
+\i (01:12:59) trapsize 417
+\i (01:13:00) trapsize 413
+\i (01:13:00) trapsize 408
+\i (01:13:00) trapsize 395
+\i (01:13:00) trapsize 383
+\i (01:13:00) trapsize 384
+\i (01:13:02) trapsize 465
+\i (01:13:06) zoom fit 
+\i (01:13:06) trapsize 4022
+\i (01:13:08) pick grid 84.0345 -0.3189
+\t (01:13:08) last pick:  84.0345  -0.3189
+\t (01:13:08) last pick:  101.4964  1.0500
+\t (01:13:08) Moving J1 / ASP-134606-01 / SAMTEC_ASP-134606-01.
+\t (01:13:08) Pick new location for the element(s).
+\i (01:13:10) pick grid 99.7999 8.4486
+\t (01:13:10) last pick:  99.7999  8.4486
+\i (01:13:12) prepopup 27.3270 29.3620
+\i (01:13:12) done 
+\i (01:13:13) placementedit 
+\i (01:13:16) show measure 
+\i (01:13:19) pick grid 74.2213 -2.1690
+\t (01:13:19) last pick:  74.2213  -2.1690
+\i (01:13:21) pick grid 128.8373 1.0485
+\t (01:13:21) last pick:  128.8373  1.0485
+\i (01:15:56) prepopup 59.8232 44.4035
+\i (01:15:57) done 
+\i (01:15:57) placementedit 
+\i (01:17:04) show measure 
+\i (01:17:06) pick grid 72.7734 5.7138
+\t (01:17:06) last pick:  72.7734  5.7138
+\i (01:17:08) pick grid 126.9069 8.4486
+\t (01:17:08) last pick:  126.9069  8.4486
+\i (01:17:37) prepopup 45.9078 19.6292
+\i (01:17:38) done 
+\i (01:17:38) placementedit 
+\i (01:46:05) pick grid 72.6125 5.4725
+\t (01:46:05) last pick:  72.6125  5.4725
+\i (01:46:05) move 
+\t (01:46:05) last pick:  99.7999  8.4486
+\t (01:46:05) Moving J1 / ASP-134606-01 / SAMTEC_ASP-134606-01.
+\t (01:46:05) Pick new location for the element(s).
+\i (01:46:16) pick grid 101.4891 1.0485
+\t (01:46:16) last pick:  101.4891  1.0485
+\i (01:46:16) placementedit 
+\i (01:46:20) zoom in 
+\i (01:46:20) setwindow pcb
+\i (01:46:20) zoom in 71.0843 27.1098
+\i (01:46:20) trapsize 2011
+\i (01:46:20) zoom in 
+\i (01:46:20) setwindow pcb
+\i (01:46:20) zoom in 71.0843 27.1098
+\i (01:46:20) trapsize 1005
+\i (01:46:21) roam start
+\i (01:46:21) roam x 80
+\i (01:46:21) roam y 112
+\i (01:46:21) roam x 96
+\i (01:46:21) roam y 80
+\i (01:46:21) roam x 80
+\i (01:46:21) roam y 96
+\i (01:46:21) roam x 80
+\i (01:46:21) roam y 80
+\i (01:46:21) roam x 80
+\i (01:46:21) roam y 80
+\i (01:46:21) roam x 96
+\i (01:46:21) roam y 96
+\i (01:46:21) roam x 32
+\i (01:46:21) roam y 80
+\i (01:46:21) roam x 16
+\i (01:46:21) roam y 32
+\i (01:46:22) roam x 32
+\i (01:46:22) roam y 32
+\i (01:46:22) roam x 32
+\i (01:46:22) roam y 16
+\i (01:46:22) roam x 64
+\i (01:46:22) roam y 32
+\i (01:46:22) roam x 80
+\i (01:46:22) roam y 16
+\i (01:46:22) roam x 160
+\i (01:46:22) roam y 32
+\i (01:46:22) roam x 192
+\i (01:46:22) roam y 32
+\i (01:46:22) roam x 112
+\i (01:46:22) roam y 16
+\i (01:46:22) roam x 96
+\i (01:46:22) roam y 32
+\i (01:46:22) roam x 64
+\i (01:46:22) roam y 32
+\i (01:46:22) roam x 32
+\i (01:46:22) roam y 32
+\i (01:46:22) roam x 16
+\i (01:46:22) roam y 32
+\i (01:46:22) roam y 32
+\i (01:46:22) roam y 32
+\i (01:46:22) roam x 16
+\i (01:46:22) roam y 64
+\i (01:46:22) roam x 16
+\i (01:46:22) roam y 32
+\i (01:46:22) roam x 16
+\i (01:46:22) roam y 32
+\i (01:46:22) roam y 32
+\i (01:46:22) roam x -16
+\i (01:46:22) roam y 32
+\i (01:46:22) roam x -80
+\i (01:46:23) roam x 16
+\i (01:46:23) roam y 16
+\i (01:46:23) roam x -16
+\i (01:46:23) roam y 48
+\i (01:46:23) roam x -64
+\i (01:46:23) roam y 80
+\i (01:46:23) roam x -48
+\i (01:46:23) roam y 64
+\i (01:46:23) roam x -32
+\i (01:46:23) roam y 48
+\i (01:46:23) roam x -16
+\i (01:46:23) roam y 32
+\i (01:46:23) roam x -16
+\i (01:46:23) roam y 32
+\i (01:46:23) roam x -32
+\i (01:46:23) roam y 32
+\i (01:46:23) roam x -16
+\i (01:46:23) roam y 16
+\i (01:46:23) roam x -16
+\i (01:46:23) roam y 16
+\i (01:46:23) roam x -32
+\i (01:46:23) roam y 16
+\i (01:46:23) roam x -48
+\i (01:46:23) roam x -32
+\i (01:46:23) roam x -48
+\i (01:46:23) roam y -16
+\i (01:46:23) roam x -48
+\i (01:46:23) roam y -48
+\i (01:46:23) roam x -64
+\i (01:46:23) roam y -64
+\i (01:46:23) roam x -64
+\i (01:46:23) roam y -64
+\i (01:46:23) roam x -64
+\i (01:46:23) roam y -64
+\i (01:46:23) roam x -64
+\i (01:46:23) roam y -64
+\i (01:46:23) roam x -48
+\i (01:46:23) roam y -48
+\i (01:46:23) roam x -48
+\i (01:46:23) roam y -32
+\i (01:46:23) roam x -16
+\i (01:46:23) roam y -16
+\i (01:46:23) roam x -16
+\i (01:46:23) roam y 16
+\i (01:46:24) roam end
+\i (01:46:25) roam start
+\i (01:46:25) roam x 160
+\i (01:46:25) roam x 96
+\i (01:46:25) roam x 144
+\i (01:46:25) roam x 160
+\i (01:46:25) roam x 224
+\i (01:46:25) roam x 320
+\i (01:46:25) roam x 160
+\i (01:46:25) roam y 32
+\i (01:46:25) roam x 48
+\i (01:46:26) roam x -16
+\i (01:46:26) roam x 16
+\i (01:46:26) roam x 48
+\i (01:46:26) roam x 144
+\i (01:46:26) roam x 176
+\i (01:46:26) roam y 32
+\i (01:46:26) roam x 176
+\i (01:46:26) roam y 32
+\i (01:46:26) roam x 128
+\i (01:46:26) roam y 32
+\i (01:46:26) roam x 80
+\i (01:46:26) roam y 16
+\i (01:46:26) roam x 48
+\i (01:46:26) roam x 32
+\i (01:46:27) roam end
+\i (01:46:29) zoom fit 
+\i (01:46:29) trapsize 4022
+\i (01:46:30) save 
+\f (01:46:30) G:/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_01.brd: File Exists. Overwrite? 
+\i (01:46:32) fillin yes 
+\i (01:46:32) placementedit 
+\i (01:57:02) place manual 
+\t (01:57:03) Moving J1 / ASP-134606-01 / SAMTEC_ASP-134606-01.
+\i (01:57:04) prepopup 69.7973 46.2536
+\i (01:57:05) cancel 
+\i (01:57:06) placementedit 
+\i (01:57:07) prepopup 35.4511 23.4097
+\i (01:57:08) pick grid 39.2316 27.4315
+\t (01:57:08) last pick:  39.2316  27.4315
+\i (01:57:12) place manual 
+\i (01:57:29) place manual 
+\i (01:57:44) setwindow form.plc_manual
+\i (01:57:44) FORM plc_manual tree 'MULTISEL YES' 1-HOLE_2-0N 'Package symbols' 
+\i (01:57:44) FORM plc_manual tree  1-HOLE_2-0N 'Package symbols' 
+\i (01:58:30) FORM plc_manual tree 'MULTISEL NO' 1-HOLE_2-0N 'Package symbols' 
+\i (01:58:35) FORM plc_manual categories Components by refdes 
+\i (01:58:44) FORM plc_manual categories Mechanical symbols 
+\i (01:58:57) FORM plc_manual categories Format symbols 
+\i (01:59:01) FORM plc_manual tree 'MULTISEL YES' 'Format symbols' 
+\i (01:59:01) FORM plc_manual tree  'Format symbols' 
+\i (01:59:02) FORM plc_manual tree 'MULTISEL YES' 'Format symbols' 
+\i (01:59:06) FORM plc_manual cancel  
+\i (01:59:07) setwindow pcb
+\i (01:59:07) placementedit 
+\i (01:59:20) exit 
+\f (01:59:20) Do you want to save the changes you made to G:/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_01.brd?
+\i (01:59:22) fillin no 

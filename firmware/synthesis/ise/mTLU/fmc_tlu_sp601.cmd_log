@@ -1,0 +1,64 @@
+xst -intstyle ise -ifn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.xst" -ofn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/src/sp601.ucf -p xc6slx16-csg324-2 fmc_tlu_sp601.ngc fmc_tlu_sp601.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fmc_tlu_sp601_map.ncd fmc_tlu_sp601.ngd fmc_tlu_sp601.pcf 
+par -w -intstyle ise -ol high -mt off fmc_tlu_sp601_map.ncd fmc_tlu_sp601.ncd fmc_tlu_sp601.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml fmc_tlu_sp601.twx fmc_tlu_sp601.ncd -o fmc_tlu_sp601.twr fmc_tlu_sp601.pcf 
+xst -intstyle ise -ifn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.xst" -ofn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.syr" 
+xst -intstyle ise -ifn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.xst" -ofn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.syr" 
+xst -intstyle ise -ifn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.xst" -ofn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/src/sp601.ucf -p xc6slx16-csg324-2 fmc_tlu_sp601.ngc fmc_tlu_sp601.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fmc_tlu_sp601_map.ncd fmc_tlu_sp601.ngd fmc_tlu_sp601.pcf 
+par -w -intstyle ise -ol high -mt off fmc_tlu_sp601_map.ncd fmc_tlu_sp601.ncd fmc_tlu_sp601.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml fmc_tlu_sp601.twx fmc_tlu_sp601.ncd -o fmc_tlu_sp601.twr fmc_tlu_sp601.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/src/sp601.ucf -p xc6slx16-csg324-2 fmc_tlu_sp601.ngc fmc_tlu_sp601.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fmc_tlu_sp601_map.ncd fmc_tlu_sp601.ngd fmc_tlu_sp601.pcf 
+par -w -intstyle ise -ol high -mt off fmc_tlu_sp601_map.ncd fmc_tlu_sp601.ncd fmc_tlu_sp601.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml fmc_tlu_sp601.twx fmc_tlu_sp601.ncd -o fmc_tlu_sp601.twr fmc_tlu_sp601.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/src/sp601.ucf -p xc6slx16-csg324-2 fmc_tlu_sp601.ngc fmc_tlu_sp601.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -xe n -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc auto -power off -o fmc_tlu_sp601_map.ncd fmc_tlu_sp601.ngd fmc_tlu_sp601.pcf 
+par -w -intstyle ise -ol high -xe n -mt 2 fmc_tlu_sp601_map.ncd fmc_tlu_sp601.ncd fmc_tlu_sp601.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml fmc_tlu_sp601.twx fmc_tlu_sp601.ncd -o fmc_tlu_sp601.twr fmc_tlu_sp601.pcf 
+netgen -intstyle ise -s 2  -pcf fmc_tlu_sp601.pcf -rpw 100 -tpw 0 -ar Structure -tm fmc_tlu_sp601 -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim fmc_tlu_sp601.ncd fmc_tlu_sp601_timesim.vhd 
+xst -intstyle ise -ifn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.xst" -ofn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.syr" 
+xst -intstyle ise -ifn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.xst" -ofn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.syr" 
+xst -intstyle ise -ifn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.xst" -ofn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.syr" 
+xst -intstyle ise -ifn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.xst" -ofn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.syr" 
+xst -intstyle ise -ifn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.xst" -ofn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.syr" 
+xst -intstyle ise -ifn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.xst" -ofn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/src/sp601.ucf -p xc6slx16-csg324-2 fmc_tlu_sp601.ngc fmc_tlu_sp601.ngd  
+xst -intstyle ise -ifn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.xst" -ofn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.syr" 
+xst -intstyle ise -ifn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.xst" -ofn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/src/sp601.ucf -p xc6slx16-csg324-2 fmc_tlu_sp601.ngc fmc_tlu_sp601.ngd  
+xst -intstyle ise -ifn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.xst" -ofn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/src/sp601.ucf -p xc6slx16-csg324-2 fmc_tlu_sp601.ngc fmc_tlu_sp601.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/src/sp601.ucf -p xc6slx16-csg324-2 fmc_tlu_sp601.ngc fmc_tlu_sp601.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -xe n -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc auto -power off -o fmc_tlu_sp601_map.ncd fmc_tlu_sp601.ngd fmc_tlu_sp601.pcf 
+par -w -intstyle ise -ol high -xe n -mt 2 fmc_tlu_sp601_map.ncd fmc_tlu_sp601.ncd fmc_tlu_sp601.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml fmc_tlu_sp601.twx fmc_tlu_sp601.ncd -o fmc_tlu_sp601.twr fmc_tlu_sp601.pcf 
+netgen -intstyle ise -s 2  -pcf fmc_tlu_sp601.pcf -rpw 100 -tpw 0 -ar Structure -tm fmc_tlu_sp601 -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim fmc_tlu_sp601.ncd fmc_tlu_sp601_timesim.vhd 
+xst -intstyle ise -ifn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.xst" -ofn "/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/synthesis/ise/mTLU/fmc_tlu_sp601.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/src/sp601.ucf -p xc6slx16-csg324-2 fmc_tlu_sp601.ngc fmc_tlu_sp601.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -xe n -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc auto -power off -o fmc_tlu_sp601_map.ncd fmc_tlu_sp601.ngd fmc_tlu_sp601.pcf 
+par -w -intstyle ise -ol high -xe n -mt 2 fmc_tlu_sp601_map.ncd fmc_tlu_sp601.ncd fmc_tlu_sp601.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml fmc_tlu_sp601.twx fmc_tlu_sp601.ncd -o fmc_tlu_sp601.twr fmc_tlu_sp601.pcf 
+netgen -intstyle ise -s 2  -pcf fmc_tlu_sp601.pcf -rpw 100 -tpw 0 -ar Structure -tm fmc_tlu_sp601 -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim fmc_tlu_sp601.ncd fmc_tlu_sp601_timesim.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/src/sp601.ucf -p xc6slx16-csg324-2 fmc_tlu_sp601.ngc fmc_tlu_sp601.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -xe n -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc auto -power off -o fmc_tlu_sp601_map.ncd fmc_tlu_sp601.ngd fmc_tlu_sp601.pcf 
+par -w -intstyle ise -ol high -xe n -mt 2 fmc_tlu_sp601_map.ncd fmc_tlu_sp601.ncd fmc_tlu_sp601.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml fmc_tlu_sp601.twx fmc_tlu_sp601.ncd -o fmc_tlu_sp601.twr fmc_tlu_sp601.pcf 
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt on -ol high -xe n -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc auto -power off -o fmc_tlu_sp601_map.ncd fmc_tlu_sp601.ngd fmc_tlu_sp601.pcf 
+par -w -intstyle ise -ol high -xe n -mt 2 fmc_tlu_sp601_map.ncd fmc_tlu_sp601.ncd fmc_tlu_sp601.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml fmc_tlu_sp601.twx fmc_tlu_sp601.ncd -o fmc_tlu_sp601.twr fmc_tlu_sp601.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/src/sp601.ucf -p xc6slx16-csg324-2 fmc_tlu_sp601.ngc fmc_tlu_sp601.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt on -ol high -xe n -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc auto -power off -o fmc_tlu_sp601_map.ncd fmc_tlu_sp601.ngd fmc_tlu_sp601.pcf 
+par -w -intstyle ise -ol high -xe n -mt 2 fmc_tlu_sp601_map.ncd fmc_tlu_sp601.ncd fmc_tlu_sp601.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml fmc_tlu_sp601.twx fmc_tlu_sp601.ncd -o fmc_tlu_sp601.twr fmc_tlu_sp601.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/src/sp601.ucf -p xc6slx16-csg324-2 fmc_tlu_sp601.ngc fmc_tlu_sp601.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt on -ol high -xe n -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc auto -power off -o fmc_tlu_sp601_map.ncd fmc_tlu_sp601.ngd fmc_tlu_sp601.pcf 
+par -w -intstyle ise -ol high -xe n -mt 2 fmc_tlu_sp601_map.ncd fmc_tlu_sp601.ncd fmc_tlu_sp601.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml fmc_tlu_sp601.twx fmc_tlu_sp601.ncd -o fmc_tlu_sp601.twr fmc_tlu_sp601.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/firmware/src/sp601.ucf -p xc6slx16-csg324-2 fmc_tlu_sp601.ngc fmc_tlu_sp601.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt on -ol high -xe n -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc auto -power off -o fmc_tlu_sp601_map.ncd fmc_tlu_sp601.ngd fmc_tlu_sp601.pcf 
+par -w -intstyle ise -ol high -xe n -mt 2 fmc_tlu_sp601_map.ncd fmc_tlu_sp601.ncd fmc_tlu_sp601.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml fmc_tlu_sp601.twx fmc_tlu_sp601.ncd -o fmc_tlu_sp601.twr fmc_tlu_sp601.pcf 
+netgen -intstyle ise -s 2  -pcf fmc_tlu_sp601.pcf -rpw 100 -tpw 0 -ar Structure -tm fmc_tlu_sp601 -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim fmc_tlu_sp601.ncd fmc_tlu_sp601_timesim.vhd 

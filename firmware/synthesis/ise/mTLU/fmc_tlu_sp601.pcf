@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map M.81d on Fri Feb 25 15:51:24 2011
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "SYSCLK_N" LOCATE = SITE "K16" LEVEL 1;
+COMP "SYSCLK_P" LOCATE = SITE "K15" LEVEL 1;
+TIMEGRP SYSCLK_P = BEL "shaper/SRL16E_inst" BEL "shaper/async_reg/Q" BEL
+        "shaper/q_reg3/Q" BEL "shaper/q_reg2/Mshreg_Q" BEL "shaper/q_reg2/Q"
+        BEL "shaper/d_reg2/Mshreg_Q" BEL "shaper/d_reg2/Q";
+TS_SYSCLK_P = PERIOD TIMEGRP "SYSCLK_P" 5 ns HIGH 50%;
+TIMEGRP "PADS(D)" = BEL "D";
+TIMEGRP "PADS(Q)" = BEL "Q";
+TS_P2P = MAXDELAY FROM TIMEGRP "PADS(D)" TO TIMEGRP "PADS(Q)" 10 ns;
+ENABLE = reg_sr_o;
+ENABLE = reg_sr_r;
+SCHEMATIC END;
+
