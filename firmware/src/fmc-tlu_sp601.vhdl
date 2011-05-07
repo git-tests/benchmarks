@@ -17,6 +17,7 @@ entity fmc_tlu_sp601 is
     SYSCLK_N , SYSCLK_P : in  std_logic;   --! 200MHz crystal clock
     D                   : in  std_logic;   --! pulse input
     Q                   : out std_logic;   --! pulse_output
+    RST : in std_logic;                 --! active high. Syncronous
     pulse_length          : in std_logic_vector(3 downto 0)  --!
                                                                        --Dummy
                                                                        --to
@@ -32,10 +33,11 @@ architecture rtl of fmc_tlu_sp601 is
   
   component pulse_shaper
     port (
-      D          : in  std_logic;         --! Input pulse
-      Q          : out std_logic;         --! output pulse
-      CLK        : in  std_logic;         --! Clock , rising edge active
-      PULSE_LENGTH : in  std_logic_vector(3 downto 0));  -- ! Load with desired
+      D_a_i          : in  std_logic;         --! Input pulse
+      Q_a_o          : out std_logic;         --! output pulse
+      CLK_i        : in  std_logic;         --! Clock , rising edge active
+      RST_i        : in std_logic;        --! Active high. Synchronous
+      PULSE_LENGTH_i : in  std_logic_vector(3 downto 0));  -- ! Load with desired
                                                         -- width of pulse.
   end component;
 
@@ -54,9 +56,10 @@ begin  -- rtl
   
   shaper : pulse_shaper
     port map (
-      D          => D,
-      Q          => Q,
-      CLK        => buffered_clock,
-      pulse_length => pulse_length);
+      D_a_i          => D,
+      Q_a_o          => Q,
+      RST_i        => RST,
+      CLK_i        => buffered_clock,
+      pulse_length_i => pulse_length);
   
 end rtl;
