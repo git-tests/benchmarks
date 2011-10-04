@@ -2,13 +2,14 @@
  (file_type "hdldirect.dat" "1.0" )
  (design_name "fmc_tlu_toplevel" )
  (view "sch_1" )
- (modtime "verilog.v" 1301171219 4874 )
+ (modtime "verilog.v" 1314273055 5023 )
  (timescale "1ns/1ns" )
  (cells "CAPCERSMDCL2" "FMC_TLU_2-5NS_DELAY" "MAX9601" "RSMD0402" "RSMD0603" "SN65LVDS20" "USBLC6_2" )
  (global_signals 
   ("glbl" "GND_SIGNAL" "STD_LOGIC" "wire" "" "" )
   ("glbl" "M5V" "STD_LOGIC" "wire" "" "" )
   ("glbl" "P2V5" "STD_LOGIC" "wire" "" "" )
+  ("glbl" "P3V3" "STD_LOGIC" "wire" "" "" )
   ("glbl" "P5V" "STD_LOGIC" "wire" "" "" ))
  (single_page 
   ("" 
@@ -20,8 +21,6 @@
    ("page1_I29" "SN65LVDS20" )
    ("page1_I31" "RSMD0402" )
    ("page1_I32" "RSMD0402" )
-   ("page1_I33" "RSMD0402" )
-   ("page1_I34" "RSMD0402" )
    ("page1_I39" "CAPCERSMDCL2" )
    ("page1_I40" "CAPCERSMDCL2" )
    ("page1_I41" "CAPCERSMDCL2" )
@@ -33,5 +32,7 @@
    ("page1_I49" "FMC_TLU_2-5NS_DELAY" )
    ("page1_I50" "CAPCERSMDCL2" )
    ("page1_I53" "RSMD0402" )
-   ("page1_I54" "RSMD0402" )))
+   ("page1_I54" "RSMD0402" )
+   ("page1_I56" "RSMD0402" )
+   ("page1_I57" "RSMD0402" )))
  (multiple_pages ))
