@@ -1,0 +1,197 @@
+
+
+    Cadence Design Systems, Inc.
+    Packager-XL 15.70-s001 lnx86 28-Nov-2006 12:00:00 IST
+    (C) Copyright 1994, Cadence Design Systems, Inc.
+
+    Run on Fri Feb 15 10:36:47 2008
+
+
+ **********************************************
+ *  Processing project file and command line  *
+ **********************************************
+
+
+
+    ANNOTATE  'BODY' 'PIN'
+    COMP_DEF_PROP  'ALT_SYMBOLS' 'JEDEC_TYPE' 'MERGE_NC_PINS' 'MERGE_POWER_PINS'
+                   'NC_PINS' 'PINCOUNT' 'POWER_GROUP' 'POWER_PINS'
+    COMP_INST_PROP  'DEFAULT_SIGNAL_MODEL' 'GROUP' 'REUSE_ID' 'REUSE_INSTANCE'
+                    'REUSE_NAME' 'ROOM' 'SIGNAL_MODEL' 'VOLT_TEMP_SIGNAL_MODEL'
+                    'ISRFELEMENT' 'RFELEMENTTYPE' 'RFLAYER' 'RFLAYER1'
+                    'RFLAYER2' 'RFLAYER3' 'RFLAYER4' 'RFLAYER5' 'RFLAYER6'
+                    'RFLAYER7' 'RFLAYER8' 'RFLAYER9' 'RFLAYER10' 'RFLAYER11'
+                    'RFLAYER12' 'RFLAYER13' 'RFLAYER14' 'RFLAYER15' 'RFLAYER16'
+                    'RFCOUPLINGMODE' 'RFFLIPMODE' 'RFANGLE' 'RFANGLE1' 'RFWIDTH'
+                    'RFWIDTH1' 'RFWIDTH2' 'RFWIDTH3' 'RFWIDTH4' 'RFWIDTH5'
+                    'RFWIDTH6' 'RFWIDTH7' 'RFWIDTH8' 'RFWIDTH9' 'RFWIDTH10'
+                    'RFWIDTH11' 'RFWIDTH12' 'RFWIDTH13' 'RFWIDTH14' 'RFWIDTH15'
+                    'RFWIDTH16' 'RFLENGTH' 'RFLENGTH1' 'RFLENGTH2' 'RFLENGTH3'
+                    'RFLENGTH4' 'RFLENGTH5' 'RFLENGTH6' 'RFLENGTH7' 'RFLENGTH8'
+                    'RFSPACING' 'RFSPACING1' 'RFSPACING2' 'RFSPACING3'
+                    'RFSPACING4' 'RFSPACING5' 'RFSPACING6' 'RFSPACING7'
+                    'RFSPACING8' 'RFSPACING9' 'RFSPACING10' 'RFSPACING11'
+                    'RFSPACING12' 'RFSPACING13' 'RFSPACING14' 'RFSPACING15'
+                    'RFOFFSETX' 'RFOFFSETY' 'RFRADIUS' 'RFDEPTH' 'RFFREQUENCY'
+                    'RFMITERFRACTION' 'RFBENDMODE' 'RFNUMBERLEGS'
+                    'RFNUMBERPAIRS' 'RFNUMBERTURNS' 'RFCAPACITANCE'
+                    'RFRESISTANCE' 'RFINDUCTANCE' 'RFPADSTACKNAME'
+                    'RFPADSSMNAME1' 'RFPADSSMNAME2' 'RFPADBEGINLAYER'
+                    'RFPADENDLAYER' 'RFPADLINEWIDTH1' 'RFPADLINEWIDTH2'
+                    'RFPADDIAMETER1' 'RFPADDIAMETER2' 'RFPADLENGTH1'
+                    'RFPADLENGTH2' 'RFHOLEDIAMETER' 'RFPADANGLE' 'RFDRANAME'
+                    'RFPADTYPE' 'RFUID'
+    SUPPRESS_GLOBAL_SHORT_CHECK OFF
+    DEBUG    0
+    DEFAULT_PHYS_DES_PREFIX U
+    FEEDBACK  'OFF'
+    GEN_SUBDESIGN  'PC023A_DAC_VTHRESH'
+    MAX_ERRORS 999
+    NET_NAME_CHARS   @  -  !  #  %  &  (  )  *  .  /  :  ?  [  ]  ^  _  `  +
+                     =  >  0  1  2  3  4  5  6  7  8  9
+    NET_NAME_LENGTH 31
+    NUM_OLD_VERSIONS 3
+    OPTIMIZE OFF
+    REUSE_REFDES ON
+    OPF_OPTIMIZATION OFF
+    HARD_LOC_SEC OFF
+    FORCE_PTF_ENTRY OFF
+    REGENERATE_PHYSICAL_NET_NAME OFF
+    SCH_POWER_GROUP_WINS_OVER_PPT OFF
+    NULL_OPT_VALID OFF
+    USE_VECTOR_NOTATION ON
+    FILTER_ECS_FROM_XNET ON
+    OUTPUT  'ON'
+    PACKAGE_PROP  'GROUP' 'ROOM'
+    PART_TYPE_LENGTH 31
+    PPT 
+         /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_analogue/cds_analogue.ptf 
+         /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_connectors/cds_connectors~
+.ptf 
+         /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_logic/cds_logic.ptf 
+         /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_pld/cds_pld.ptf 
+         /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_special/cds_special.ptf 
+         /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd14.x/parttables/cnconnector.ptf 
+         /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_analogue/cds_analogue.ptf 
+         /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_connectors/cds_connectors.~
+ptf 
+         /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_discrete/cds_discrete.ptf 
+         /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_logic/cds_logic.ptf 
+         /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_memory/cds_memory.ptf 
+         /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_pld/cds_pld.ptf 
+         /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_special/cds_special.ptf 
+         /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_switches/cds_switches.ptf 
+    REF_DES_LENGTH 31
+    REPACKAGE OFF
+    ELECTRICAL_CONSTRAINTS OFF
+    OVERWRITE_CONSTRAINTS OFF
+    RUN_DIR /home/phdgc/cad/designs/uob-hep-pc023a/trunk/design_files/worklib/~
+pc023a_dac_vthresh/packaged/
+    STRICT_PACKAGE_PROP  'REUSE_INSTANCE'
+    USE_LIBRARY_PPT ON
+    USE_STATE ON
+    WARNINGS ON
+    LIBRARY  'uob_hep_pc023a_lib' 'bris_cds_analogue' 'bris_cds_connectors'
+             'bris_cds_logic' 'bris_cds_memory' 'bris_cds_pld'
+             'bris_cds_special' 'bris_cds_standard' 'bris_cds_switches'
+             'cds_analogue' 'cds_connectors' 'cds_discrete' 'bris_cds_discrete'
+             'cds_logic' 'cds_memory' 'cds_pld' 'cds_special' 'standard'
+             'cds_standard' 'cds_switches' 'cncmos' 'ver_74hcmos' 'ver_74ttl'
+             'cnconnector'
+    CDSPROP_FILE 
+    VIEW_PTF part_table
+    VIEW_PACKAGER packaged
+    VIEW_CONSTRAINTS constraints
+    DESIGN_LIBRARY uob_hep_pc023a_lib
+    DESIGN_NAME pc023a_dac_vthresh
+    VIEW_CONFIG_PHYSICAL cfg_package
+    SD_SUFFIX_SEPARATOR _
+    STOP_PST_GEN_ON_PTF_MISMATCH ON
+    IGNORE_PRIM_BINDING OFF
+
+ **************************************************************
+ *  End processing project file and command line  (00:00:00)  *
+ **************************************************************
+
+
+Creating Configuration "cfg_package" for Design "pc023a_dac_vthresh"
+
+Loading /opt/CAD/Cadence/SPB15.7/share/cdssetup/cdsprop.tmf.
+Loading /opt/CAD/Cadence/SPB15.7/share/cdssetup/cdsprop.paf.
+Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_analogue/cds_analo~
+gue.ptf.
+Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_connectors/cds_con~
+nectors.ptf.
+Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_logic/cds_logic.pt~
+f.
+Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_pld/cds_pld.ptf.
+Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_special/cds_specia~
+l.ptf.
+Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd14.x/parttables/cnconnector~
+.ptf.
+Loading /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_analogue/cds_analog~
+ue.ptf.
+Loading /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_connectors/cds_conn~
+ectors.ptf.
+Loading /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_discrete/cds_discre~
+te.ptf.
+Loading /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_logic/cds_logic.ptf.
+Loading /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_memory/cds_memory.p~
+tf.
+Loading /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_pld/cds_pld.ptf.
+Loading /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_special/cds_special~
+.ptf.
+Loading /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_switches/cds_switch~
+es.ptf.
+
+ *********************************
+ *  Loading the design database  *
+ *********************************
+
+Loading occurrence properties from /home/phdgc/cad/designs/uob-hep-pc023a/trun~
+k/design_files/worklib/pc023a_dac_vthresh/opf/props.opf.
+
+ *************************
+ *  Loading State Files  *
+ *************************
+
+Loading /home/phdgc/cad/designs/uob-hep-pc023a/trunk/design_files/worklib/pc02~
+3a_dac_vthresh/packaged/pxl.state. 
+
+ *****************************************
+ *  End loading State Files  (00:00:00)  *
+ *****************************************
+
+
+ ****************************************
+ *  Starting to assign physical parts.  *
+ ****************************************
+
+
+ ***********************************************
+ *  End assigning physical parts.  (00:00:00)  *
+ ***********************************************
+
+
+ ***************
+ *  Packaging  *
+ ***************
+
+
+ *******************************
+ *  End packaging  (00:00:00)  *
+ *******************************
+
+Generating state file for subdesign PC023A_DAC_VTHRESH
+
+No errors detected
+No warnings detected
+    Start time   10:36:47
+    End time     10:36:48
+    CPU time      0:00:00
+    Elapsed time  0:00:01
+
+ *********************************
+ *  Packager-XL execution done.  *
+ *********************************
+

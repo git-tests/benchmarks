@@ -1,0 +1,96 @@
+Cadence Design Systems, Inc. netrev 15.7 Fri Feb 15 10:36:49 2008
+(C) Copyright 2002 Cadence Design Systems, Inc.
+
+------ Directives ------
+
+RIPUP_ETCH FALSE;
+RIPUP_SYMBOLS NEVER;
+MISSING SYMBOL AS ERROR FALSE;
+SCHEMATIC_DIRECTORY '/afs/phy.bris.ac.uk/cad/designs/uob-hep-pc023a/trunk/design_files/worklib/pc023a_dac_vthresh/packaged';
+BOARD_DIRECTORY '';
+OLD_BOARD_NAME '/afs/phy.bris.ac.uk/cad/designs/uob-hep-pc023a/trunk/design_files/worklib/pc023a_dac_vthresh/physical/pc023a_dac_vthresh_02.brd';
+NEW_BOARD_NAME '/afs/phy.bris.ac.uk/cad/designs/uob-hep-pc023a/trunk/design_files/worklib/pc023a_dac_vthresh/physical/pc023a_dac_vthresh_02.brd';
+
+CmdLine: netrev -proj /afs/phy.bris.ac.uk/cad/designs/uob-hep-pc023a/trunk/design_files/pc023a_dac_vthresh.cpm -5 -y 3 /afs/phy.bris.ac.uk/cad/designs/uob-hep-pc023a/trunk/design_files/worklib/pc023a_dac_vthresh/physical/pc023a_dac_vthresh_02.brd /afs/phy.bris.ac.uk/cad/designs/uob-hep-pc023a/trunk/design_files/worklib/pc023a_dac_vthresh/physical/pc023a_dac_vthresh_02.brd -$
+
+------ Preparing to read pst files ------
+
+Starting to read /afs/phy.bris.ac.uk/cad/designs/uob-hep-pc023a/trunk/design_files/worklib/pc023a_dac_vthresh/packaged/pstchip.dat 
+   Finished reading /afs/phy.bris.ac.uk/cad/designs/uob-hep-pc023a/trunk/design_files/worklib/pc023a_dac_vthresh/packaged/pstchip.dat (00:00:00.03)
+Starting to read /afs/phy.bris.ac.uk/cad/designs/uob-hep-pc023a/trunk/design_files/worklib/pc023a_dac_vthresh/packaged/pstxprt.dat 
+   Finished reading /afs/phy.bris.ac.uk/cad/designs/uob-hep-pc023a/trunk/design_files/worklib/pc023a_dac_vthresh/packaged/pstxprt.dat (00:00:00.00)
+Starting to read /afs/phy.bris.ac.uk/cad/designs/uob-hep-pc023a/trunk/design_files/worklib/pc023a_dac_vthresh/packaged/pstxnet.dat 
+   Finished reading /afs/phy.bris.ac.uk/cad/designs/uob-hep-pc023a/trunk/design_files/worklib/pc023a_dac_vthresh/packaged/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           /cadence/psd15.1/share/local/pcb/modules 
+           ../../../modules 
+           ../../pc023a_dac_vthresh/physical 
+           ../../pc023a_dac_vthresh_vcont_double/physical 
+           ../../output_amplifier/physical 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/symbols 
+           /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd14.x/symbols 
+           /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/formats 
+           /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd14.x/formats 
+           /afs/phy.bris.ac.uk/cad/designs/uob-hep-pc019a/trunk/design_files/worklib/pc019a_probeboard/physical 
+           /afs/phy.bris.ac.uk/cad/cern_cdslib/allegro_libs/pe15/symbols/connector 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/pads 
+           /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd14.x/pads 
+           /afs/phy.bris.ac.uk/cad/cern_cdslib/allegro_libs/pe14/padstacks/padstack3 
+           /opt/CAD/Cadence/SPB15.2/share/pcb/pcb_lib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Feb 15 10:36:49 2008
+   DESIGN NAME : 'PC023A_DAC_VTHRESH'
+   PACKAGING ON 15-Feb-2008 AT 10:36:47
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   DIRECTORIES  <none>
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   LIBRARIES  'uob_hep_pc023a_lib' 'bris_cds_analogue' 'bris_cds_connectors'
+              'bris_cds_logic' 'bris_cds_memory' 'bris_cds_pld'
+              'bris_cds_special' 'bris_cds_standard' 'bris_cds_switches'
+              'cds_analogue' 'cds_connectors' 'cds_discrete' 'bris_cds_discrete'
+              'cds_logic' 'cds_memory' 'cds_pld' 'cds_special' 'standard'
+              'cds_standard' 'cds_switches' 'cncmos' 'ver_74hcmos' 'ver_74ttl'
+              'cnconnector'
+   MASTER_LIBRARIES  <none>
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:00
+elapsed time  0:00:00
+

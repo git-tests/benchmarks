@@ -1,0 +1,1704 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  BEAM_TRIGGER*<0> pins ADDED TO this new net
+                                 IC3.6          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BEAM_TRIGGER*<1> pins ADDED TO this new net
+                                 IC5.6          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BEAM_TRIGGER*<2> pins ADDED TO this new net
+                                 IC6.6          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BEAM_TRIGGER*<3> pins ADDED TO this new net
+                                 IC2.6          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BEAM_TRIGGER<0> pins ADDED TO this new net
+                                 IC3.7          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BEAM_TRIGGER<1> pins ADDED TO this new net
+                                 IC5.7          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BEAM_TRIGGER<2> pins ADDED TO this new net
+                                 IC6.7          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BEAM_TRIGGER<3> pins ADDED TO this new net
+                                 IC2.7          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP0_C2M      pins ADDED TO this new net
+                                 J1.C2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP0_C2M*     pins ADDED TO this new net
+                                 J1.C3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP0_M2C      pins ADDED TO this new net
+                                 J1.C6          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP0_M2C*     pins ADDED TO this new net
+                                 J1.C7          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_CLK1_M2C pins ADDED TO this new net
+                                 J1.G2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_CLK1_M2C* pins ADDED TO this new net
+                                 J1.G3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<0>   pins ADDED TO this new net
+                                 J1.G7          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  FMC_LA*<10>  pins ADDED TO this new net
+                                 J1.C15         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<11>  pins ADDED TO this new net
+                                 J1.H17         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<12>  pins ADDED TO this new net
+                                 J1.G16         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<13>  pins ADDED TO this new net
+                                 J1.D18         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<14>  pins ADDED TO this new net
+                                 J1.C19         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<15>  pins ADDED TO this new net
+                                 J1.H20         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<16>  pins ADDED TO this new net
+                                 J1.G19         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<17>  pins ADDED TO this new net
+                                 J1.D21         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<18>  pins ADDED TO this new net
+                                 J1.C23         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<19>  pins ADDED TO this new net
+                                 J1.H23         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<1>   pins ADDED TO this new net
+                                 J1.D9          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<20>  pins ADDED TO this new net
+                                 J1.G22         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<21>  pins ADDED TO this new net
+                                 J1.H26         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<22>  pins ADDED TO this new net
+                                 J1.G25         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<23>  pins ADDED TO this new net
+                                 J1.D24         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  FMC_LA*<24>  pins ADDED TO this new net
+                                 J1.H29         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<25>  pins ADDED TO this new net
+                                 J1.G28         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<26>  pins ADDED TO this new net
+                                 J1.D27         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<27>  pins ADDED TO this new net
+                                 J1.C27         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<28>  pins ADDED TO this new net
+                                 J1.H32         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<29>  pins ADDED TO this new net
+                                 J1.G31         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<2>   pins ADDED TO this new net
+                                 J1.H8          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<30>  pins ADDED TO this new net
+                                 J1.H35         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<31>  pins ADDED TO this new net
+                                 J1.G34         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<32>  pins ADDED TO this new net
+                                 J1.H38         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<33>  pins ADDED TO this new net
+                                 J1.G37         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<3>   pins ADDED TO this new net
+                                 J1.G10         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<4>   pins ADDED TO this new net
+                                 J1.H11         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<5>   pins ADDED TO this new net
+                                 J1.D12         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<6>   pins ADDED TO this new net
+                                 J1.C11         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  FMC_LA*<7>   pins ADDED TO this new net
+                                 J1.H14         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<8>   pins ADDED TO this new net
+                                 J1.G13         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA*<9>   pins ADDED TO this new net
+                                 J1.D15         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<0>    pins ADDED TO this new net
+                                 J1.G6          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<10>   pins ADDED TO this new net
+                                 J1.C14         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<11>   pins ADDED TO this new net
+                                 J1.H16         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<12>   pins ADDED TO this new net
+                                 J1.G15         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<13>   pins ADDED TO this new net
+                                 J1.D17         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<14>   pins ADDED TO this new net
+                                 J1.C18         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<15>   pins ADDED TO this new net
+                                 J1.H19         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<16>   pins ADDED TO this new net
+                                 J1.G18         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<17>   pins ADDED TO this new net
+                                 J1.D20         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<18>   pins ADDED TO this new net
+                                 J1.C22         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<19>   pins ADDED TO this new net
+                                 J1.H22         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<1>    pins ADDED TO this new net
+                                 J1.D8          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  FMC_LA<20>   pins ADDED TO this new net
+                                 J1.G21         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<21>   pins ADDED TO this new net
+                                 J1.H25         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<22>   pins ADDED TO this new net
+                                 J1.G24         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<23>   pins ADDED TO this new net
+                                 J1.D23         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<24>   pins ADDED TO this new net
+                                 J1.H28         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<25>   pins ADDED TO this new net
+                                 J1.G27         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<26>   pins ADDED TO this new net
+                                 J1.D26         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<27>   pins ADDED TO this new net
+                                 J1.C26         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<28>   pins ADDED TO this new net
+                                 J1.H31         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<29>   pins ADDED TO this new net
+                                 J1.G30         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<2>    pins ADDED TO this new net
+                                 J1.H7          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<30>   pins ADDED TO this new net
+                                 J1.H34         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<31>   pins ADDED TO this new net
+                                 J1.G33         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<32>   pins ADDED TO this new net
+                                 J1.H37         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<33>   pins ADDED TO this new net
+                                 J1.G36         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  FMC_LA<3>    pins ADDED TO this new net
+                                 J1.G9          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<4>    pins ADDED TO this new net
+                                 J1.H10         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<5>    pins ADDED TO this new net
+                                 J1.D11         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<6>    pins ADDED TO this new net
+                                 J1.C10         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<7>    pins ADDED TO this new net
+                                 J1.H13         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<8>    pins ADDED TO this new net
+                                 J1.G12         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA<9>    pins ADDED TO this new net
+                                 J1.D14         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_PRSNT_M2C_L pins ADDED TO this new net
+                                 J1.H2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_PWR_GOOD_FLASH_RST_B pins ADDED TO this new net
+                                 J1.D1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_TCK_BUF  pins ADDED TO this new net
+                                 J1.D29         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_TDO      pins ADDED TO this new net
+                                 J1.D31         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_TMS_BUF  pins ADDED TO this new net
+                                 J1.D33         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FPGA_TDO     pins ADDED TO this new net
+                                 J1.D30         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GA0          pins ADDED TO this new net
+                                 J1.C34         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GA1          pins ADDED TO this new net
+                                 J1.D35         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GBTCLK0_M2C  pins ADDED TO this new net
+                                 J1.D4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GBTCLK0_M2C* pins ADDED TO this new net
+                                 J1.D5          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND_SIGNAL   pins ADDED TO this new net
+                                 C1.1           C3.1           C4.1           
+                                 C5.1           C6.1           C7.1           
+                                 C8.1           C9.1           C10.1          
+                                 C12.1          C13.1          C14.1          
+                                 C15.1          C16.1          C17.1          
+                                 C18.1          C19.1          C21.1          
+                                 C22.1          C23.1          C24.1          
+                                 C25.1          C26.1          C27.1          
+                                 C28.1          C30.1          C31.1          
+                                 C32.1          C33.1          C34.1          
+                                 C35.1          C36.1          C37.1          
+                                 C38.1          C39.2          C40.1          
+                                 C41.1          C42.1          IC2.5          
+                                 IC2.9          IC3.5          IC3.9          
+                                 IC5.5          IC5.9          IC6.5          
+                                 IC6.9          IC7.4          J1.C1          
+                                 J1.C4          J1.C5          J1.C8          
+                                 J1.C9          J1.C12         J1.C13         
+                                 J1.C16         J1.C17         J1.C20         
+                                 J1.C21         J1.C24         J1.C25         
+                                 J1.C28         J1.C29         J1.C32         
+                                 J1.C33         J1.C36         J1.C38         
+                                 J1.C40         J1.D2          J1.D3          
+                                 J1.D6          J1.D7          J1.D10         
+                                 J1.D13         J1.D16         J1.D19         
+                                 J1.D22         J1.D25         J1.D28         
+                                 J1.D37         J1.D39         J1.G1          
+                                 J1.G4          J1.G5          J1.G8          
+                                 J1.G11         J1.G14         J1.G17         
+                                 J1.G20         J1.G23         J1.G26         
+                                 J1.G29         J1.G32         J1.G35         
+                                 J1.G38         J1.G40         J1.H3          
+                                 J1.H6          J1.H9          J1.H12         
+                                 J1.H15         J1.H18         J1.H21         
+                                 J1.H24         J1.H27         J1.H30         
+                                 J1.H33         J1.H36         J1.H39         
+                                 R1.1           R2.1           R3.1           
+                                 R4.1           R7.1           R10.1          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 R11.1          R14.1          R17.1          
+                                 R18.1          R21.1          R24.1          
+                                 R25.1          R28.1          R31.1          
+                                 R32.1          U1.1           U1.12          
+                                 U1.15          U1.16          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  M5V          pins ADDED TO this new net
+                                 C6.2           C7.2           C15.2          
+                                 C16.2          C24.2          C25.2          
+                                 C33.2          C34.2          C39.1          
+                                 IC1.6          IC1.15         IC4.6          
+                                 IC4.15         IC8.11         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P12V         pins ADDED TO this new net
+                                 J1.C35         J1.C37         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P2V5         pins ADDED TO this new net
+                                 C8.2           C9.2           C17.2          
+                                 C18.2          C26.2          C27.2          
+                                 C35.2          C36.2          IC2.8          
+                                 IC3.8          IC5.8          IC6.8          
+                                 J1.G39         J1.H40         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P3V3         pins ADDED TO this new net
+                                 C2.1           C11.1          C20.1          
+                                 C29.1          IC1.4          IC1.17         
+                                 IC4.4          IC4.17         J1.C39         
+                                 J1.D32         J1.D36         J1.D38         
+                                 J1.D40         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P5V          pins ADDED TO this new net
+                                 C2.2           C3.2           C4.2           
+                                 C5.2           C11.2          C12.2          
+                                 C13.2          C14.2          C20.2          
+                                 C21.2          C22.2          C23.2          
+                                 C29.2          C30.2          C31.2          
+                                 C32.2          C37.2          C38.2          
+                                 C41.2          C42.2          IC1.3          
+                                 IC1.5          IC1.7          IC1.14         
+                                 IC1.16         IC1.18         IC4.3          
+                                 IC4.5          IC4.7          IC4.14         
+                                 IC4.16         IC4.18         IC7.2          
+                                 IC8.4          U1.2           U1.10          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SCL          pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 J1.C30         U1.14          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SDA          pins ADDED TO this new net
+                                 J1.C31         U1.13          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TRST_L       pins ADDED TO this new net
+                                 J1.D34         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_AD5316_I1_VOUTA pins ADDED TO this new net
+                                 IC8.3          U1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_AD5316_I1_VOUTB pins ADDED TO this new net
+                                 IC8.12         U1.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_AD5316_I1_VOUTC pins ADDED TO this new net
+                                 IC8.10         U1.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_AD5316_I1_VOUTD pins ADDED TO this new net
+                                 IC8.5          U1.11          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_CAPCERSMDCL2_I16_B pins ADDED TO this new net
+                                 C1.2           IC1.9          R6.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_CAPCERSMDCL2_I16_B_1 pins ADDED TO this new net
+                                 C10.2          IC1.12         R13.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_CAPCERSMDCL2_I16_B_2 pins ADDED TO this new net
+                                 C19.2          IC4.9          R20.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_CAPCERSMDCL2_I16_B_3 pins ADDED TO this new net
+                                 C28.2          IC4.12         R27.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_MAX9601_I1_IN pins ADDED TO this new net
+                                 IC1.10         R5.2           R7.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_MAX9601_I1_IN_1 pins ADDED TO this new net
+                                 IC1.11         R12.2          R14.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_MAX9601_I1_IN_2 pins ADDED TO this new net
+                                 IC4.10         R19.2          R21.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_MAX9601_I1_IN_3 pins ADDED TO this new net
+                                 IC4.11         R26.2          R28.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_MAX9601_I1_Q pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 IC1.2          R9.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_MAX9601_I1_Q_1 pins ADDED TO this new net
+                                 IC1.1          R8.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_MAX9601_I1_Q_2 pins ADDED TO this new net
+                                 IC1.19         R16.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_MAX9601_I1_Q_3 pins ADDED TO this new net
+                                 IC4.2          R23.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_MAX9601_I1_Q_4 pins ADDED TO this new net
+                                 IC4.19         R30.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_MAX9601_I1_Q_1_1 pins ADDED TO this new net
+                                 IC1.20         R15.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_MAX9601_I1_Q_1_2 pins ADDED TO this new net
+                                 IC4.1          R22.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_MAX9601_I1_Q_1_3 pins ADDED TO this new net
+                                 IC4.20         R29.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_OPA4277_I22_MIN pins ADDED TO this new net
+                                 IC8.2          R33.2          R34.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_OPA4277_I22_MIN_1 pins ADDED TO this new net
+                                 IC8.6          R35.2          R36.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_OPA4277_I22_MIN_2 pins ADDED TO this new net
+                                 IC8.9          R37.2          R38.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_OPA4277_I22_MIN_3 pins ADDED TO this new net
+                                 IC8.13         R39.2          R40.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_PC036AFMCLPCCONNECTOR pins ADDED TO this new net
+                                 J1.H5          PX1.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_PC036AFMCLPCCONNECT_1 pins ADDED TO this new net
+                                 J1.H4          PX1.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_RSMD0402_I31_B pins ADDED TO this new net
+                                 IC2.3          R9.2           R10.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_RSMD0402_I31_B_1 pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  11  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 IC3.3          R16.2          R17.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_RSMD0402_I31_B_2 pins ADDED TO this new net
+                                 IC5.3          R23.2          R24.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_RSMD0402_I31_B_3 pins ADDED TO this new net
+                                 IC6.3          R30.2          R31.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_RSMD0402_I32_B pins ADDED TO this new net
+                                 IC2.2          R8.2           R11.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_RSMD0402_I32_B_1 pins ADDED TO this new net
+                                 IC3.2          R15.2          R18.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_RSMD0402_I32_B_2 pins ADDED TO this new net
+                                 IC5.2          R22.2          R25.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_RSMD0402_I32_B_3 pins ADDED TO this new net
+                                 IC6.2          R29.2          R32.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_2_FMCTLUDISCRIMINATOR_1 pins ADDED TO this new net
+                                 PX2.1          R5.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_2_FMCTLUDISCRIMINATOR_2 pins ADDED TO this new net
+                                 IC1.13         R4.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_2_FMCTLUDISCRIMINATOR_3 pins ADDED TO this new net
+                                 PX5.1          R12.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_2_FMCTLUDISCRIMINATOR_4 pins ADDED TO this new net
+                                 IC4.8          R3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_2_FMCTLUDISCRIMINATOR_5 pins ADDED TO this new net
+                                 PX4.1          R19.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_2_FMCTLUDISCRIMINATOR_6 pins ADDED TO this new net
+                                 IC4.13         R2.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_2_FMCTLUDISCRIMINATOR_7 pins ADDED TO this new net
+                                 PX3.1          R26.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_2_FMCTLUDISCRIMINATOR_I pins ADDED TO this new net
+                                 IC1.8          R1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VREF         pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  12  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 C40.2          IC7.6          R33.1          
+                                 R35.1          R37.1          R39.1          
+                                 U1.6           U1.7           U1.8           
+                                 U1.9           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VREF_A_M2C   pins ADDED TO this new net
+                                 J1.H1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VTHRESH<0>   pins ADDED TO this new net
+                                 IC8.1          R13.1          R34.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VTHRESH<1>   pins ADDED TO this new net
+                                 IC8.14         R20.1          R40.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VTHRESH<2>   pins ADDED TO this new net
+                                 IC8.8          R27.1          R38.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VTHRESH<3>   pins ADDED TO this new net
+                                 IC8.7          R6.1           R36.2          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  13  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| NET PROPERTIES added to board drawing                                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|     net  name   |   property   |                    value                    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ BEAM_TRIGGER*<0>        BUS_NAME BEAM_TRIGGER*
+ BEAM_TRIGGER*<1>        BUS_NAME BEAM_TRIGGER*
+ BEAM_TRIGGER*<2>        BUS_NAME BEAM_TRIGGER*
+ BEAM_TRIGGER*<3>        BUS_NAME BEAM_TRIGGER*
+ BEAM_TRIGGER<0>         BUS_NAME BEAM_TRIGGER
+ BEAM_TRIGGER<1>         BUS_NAME BEAM_TRIGGER
+ BEAM_TRIGGER<2>         BUS_NAME BEAM_TRIGGER
+ BEAM_TRIGGER<3>         BUS_NAME BEAM_TRIGGER
+ FMC_LA*<0>              BUS_NAME FMC_LA*
+ FMC_LA*<10>             BUS_NAME FMC_LA*
+ FMC_LA*<11>             BUS_NAME FMC_LA*
+ FMC_LA*<12>             BUS_NAME FMC_LA*
+ FMC_LA*<13>             BUS_NAME FMC_LA*
+ FMC_LA*<14>             BUS_NAME FMC_LA*
+ FMC_LA*<15>             BUS_NAME FMC_LA*
+ FMC_LA*<16>             BUS_NAME FMC_LA*
+ FMC_LA*<17>             BUS_NAME FMC_LA*
+ FMC_LA*<18>             BUS_NAME FMC_LA*
+ FMC_LA*<19>             BUS_NAME FMC_LA*
+ FMC_LA*<1>              BUS_NAME FMC_LA*
+ FMC_LA*<20>             BUS_NAME FMC_LA*
+ FMC_LA*<21>             BUS_NAME FMC_LA*
+ FMC_LA*<22>             BUS_NAME FMC_LA*
+ FMC_LA*<23>             BUS_NAME FMC_LA*
+ FMC_LA*<24>             BUS_NAME FMC_LA*
+ FMC_LA*<25>             BUS_NAME FMC_LA*
+ FMC_LA*<26>             BUS_NAME FMC_LA*
+ FMC_LA*<27>             BUS_NAME FMC_LA*
+ FMC_LA*<28>             BUS_NAME FMC_LA*
+ FMC_LA*<29>             BUS_NAME FMC_LA*
+ FMC_LA*<2>              BUS_NAME FMC_LA*
+ FMC_LA*<30>             BUS_NAME FMC_LA*
+ FMC_LA*<31>             BUS_NAME FMC_LA*
+ FMC_LA*<32>             BUS_NAME FMC_LA*
+ FMC_LA*<33>             BUS_NAME FMC_LA*
+ FMC_LA*<3>              BUS_NAME FMC_LA*
+ FMC_LA*<4>              BUS_NAME FMC_LA*
+ FMC_LA*<5>              BUS_NAME FMC_LA*
+ FMC_LA*<6>              BUS_NAME FMC_LA*
+ FMC_LA*<7>              BUS_NAME FMC_LA*
+ FMC_LA*<8>              BUS_NAME FMC_LA*
+ FMC_LA*<9>              BUS_NAME FMC_LA*
+ FMC_LA<0>               BUS_NAME FMC_LA
+ FMC_LA<10>              BUS_NAME FMC_LA
+ FMC_LA<11>              BUS_NAME FMC_LA
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  14  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| NET PROPERTIES added to board drawing                                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|     net  name   |   property   |                    value                    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ FMC_LA<12>              BUS_NAME FMC_LA
+ FMC_LA<13>              BUS_NAME FMC_LA
+ FMC_LA<14>              BUS_NAME FMC_LA
+ FMC_LA<15>              BUS_NAME FMC_LA
+ FMC_LA<16>              BUS_NAME FMC_LA
+ FMC_LA<17>              BUS_NAME FMC_LA
+ FMC_LA<18>              BUS_NAME FMC_LA
+ FMC_LA<19>              BUS_NAME FMC_LA
+ FMC_LA<1>               BUS_NAME FMC_LA
+ FMC_LA<20>              BUS_NAME FMC_LA
+ FMC_LA<21>              BUS_NAME FMC_LA
+ FMC_LA<22>              BUS_NAME FMC_LA
+ FMC_LA<23>              BUS_NAME FMC_LA
+ FMC_LA<24>              BUS_NAME FMC_LA
+ FMC_LA<25>              BUS_NAME FMC_LA
+ FMC_LA<26>              BUS_NAME FMC_LA
+ FMC_LA<27>              BUS_NAME FMC_LA
+ FMC_LA<28>              BUS_NAME FMC_LA
+ FMC_LA<29>              BUS_NAME FMC_LA
+ FMC_LA<2>               BUS_NAME FMC_LA
+ FMC_LA<30>              BUS_NAME FMC_LA
+ FMC_LA<31>              BUS_NAME FMC_LA
+ FMC_LA<32>              BUS_NAME FMC_LA
+ FMC_LA<33>              BUS_NAME FMC_LA
+ FMC_LA<3>               BUS_NAME FMC_LA
+ FMC_LA<4>               BUS_NAME FMC_LA
+ FMC_LA<5>               BUS_NAME FMC_LA
+ FMC_LA<6>               BUS_NAME FMC_LA
+ FMC_LA<7>               BUS_NAME FMC_LA
+ FMC_LA<8>               BUS_NAME FMC_LA
+ FMC_LA<9>               BUS_NAME FMC_LA
+ VTHRESH<0>              BUS_NAME VTHRESH
+ VTHRESH<1>              BUS_NAME VTHRESH
+ VTHRESH<2>              BUS_NAME VTHRESH
+ VTHRESH<3>              BUS_NAME VTHRESH
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  15  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to board drawing                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ AD5316_TSSOP-AD
+ ADR421_SOIC
+ ASP-134606-01
+ CAPCERSMDCL2_0603-1.0UF,6.3V
+ CAPCERSMDCL2_0603-100NF,16V
+ CAPCERSMDCL2_0603-10NF,50V
+ CAPCERSMDCL2_0603-1UF,16V
+ MAX9601_TSSOP
+ OPA4277UA
+ PCOAX-PLEMO00C
+ PLEMO2CI-PLEMO2-00B
+ RSMD0402_1/16W-100,1%
+ RSMD0402_1/16W-220,1%
+ RSMD0603_1/10W-100,1%
+ RSMD0603_1/10W-10K,1%
+ RSMD0603_1/10W-24,1%
+ RSMD0603_1/10W-33K,1%
+ SN65LVDS20_SON-TEXAS INSTRUMENA
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  16  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to board drawing                                            |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAPCERSMDCL2_0603-10NF,50V 
+ C2                  CAPCERSMDCL2_0603-100NF,16V 
+ C3                  CAPCERSMDCL2_0603-1.0UF,6.3V 
+ C4                  CAPCERSMDCL2_0603-100NF,16V 
+ C5                  CAPCERSMDCL2_0603-100NF,16V 
+ C6                  CAPCERSMDCL2_0603-1.0UF,6.3V 
+ C7                  CAPCERSMDCL2_0603-100NF,16V 
+ C8                  CAPCERSMDCL2_0603-1.0UF,6.3V 
+ C9                  CAPCERSMDCL2_0603-100NF,16V 
+ C10                 CAPCERSMDCL2_0603-10NF,50V 
+ C11                 CAPCERSMDCL2_0603-100NF,16V 
+ C12                 CAPCERSMDCL2_0603-1.0UF,6.3V 
+ C13                 CAPCERSMDCL2_0603-100NF,16V 
+ C14                 CAPCERSMDCL2_0603-100NF,16V 
+ C15                 CAPCERSMDCL2_0603-1.0UF,6.3V 
+ C16                 CAPCERSMDCL2_0603-100NF,16V 
+ C17                 CAPCERSMDCL2_0603-1.0UF,6.3V 
+ C18                 CAPCERSMDCL2_0603-100NF,16V 
+ C19                 CAPCERSMDCL2_0603-10NF,50V 
+ C20                 CAPCERSMDCL2_0603-100NF,16V 
+ C21                 CAPCERSMDCL2_0603-1.0UF,6.3V 
+ C22                 CAPCERSMDCL2_0603-100NF,16V 
+ C23                 CAPCERSMDCL2_0603-100NF,16V 
+ C24                 CAPCERSMDCL2_0603-1.0UF,6.3V 
+ C25                 CAPCERSMDCL2_0603-100NF,16V 
+ C26                 CAPCERSMDCL2_0603-1.0UF,6.3V 
+ C27                 CAPCERSMDCL2_0603-100NF,16V 
+ C28                 CAPCERSMDCL2_0603-10NF,50V 
+ C29                 CAPCERSMDCL2_0603-100NF,16V 
+ C30                 CAPCERSMDCL2_0603-1.0UF,6.3V 
+ C31                 CAPCERSMDCL2_0603-100NF,16V 
+ C32                 CAPCERSMDCL2_0603-100NF,16V 
+ C33                 CAPCERSMDCL2_0603-1.0UF,6.3V 
+ C34                 CAPCERSMDCL2_0603-100NF,16V 
+ C35                 CAPCERSMDCL2_0603-1.0UF,6.3V 
+ C36                 CAPCERSMDCL2_0603-100NF,16V 
+ C37                 CAPCERSMDCL2_0603-100NF,16V 
+ C38                 CAPCERSMDCL2_0603-1UF,16V 
+ C39                 CAPCERSMDCL2_0603-1UF,16V 
+ C40                 CAPCERSMDCL2_0603-100NF,16V 
+ C41                 CAPCERSMDCL2_0603-100NF,16V 
+ C42                 CAPCERSMDCL2_0603-1UF,16V 
+ IC1                 MAX9601_TSSOP         
+ IC2                 SN65LVDS20_SON-TEXAS INSTRUMENA 
+ IC3                 SN65LVDS20_SON-TEXAS INSTRUMENA 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  17  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to board drawing                                            |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ IC4                 MAX9601_TSSOP         
+ IC5                 SN65LVDS20_SON-TEXAS INSTRUMENA 
+ IC6                 SN65LVDS20_SON-TEXAS INSTRUMENA 
+ IC7                 ADR421_SOIC           
+ IC8                 OPA4277UA             
+ J1                  ASP-134606-01         
+ PX1                 PLEMO2CI-PLEMO2-00B   
+ PX2                 PCOAX-PLEMO00C        
+ PX3                 PCOAX-PLEMO00C        
+ PX4                 PCOAX-PLEMO00C        
+ PX5                 PCOAX-PLEMO00C        
+ R1                  RSMD0603_1/10W-33K,1% 
+ R2                  RSMD0603_1/10W-33K,1% 
+ R3                  RSMD0603_1/10W-33K,1% 
+ R4                  RSMD0603_1/10W-33K,1% 
+ R5                  RSMD0603_1/10W-24,1%  
+ R6                  RSMD0603_1/10W-100,1% 
+ R7                  RSMD0603_1/10W-24,1%  
+ R8                  RSMD0402_1/16W-220,1% 
+ R9                  RSMD0402_1/16W-220,1% 
+ R10                 RSMD0402_1/16W-100,1% 
+ R11                 RSMD0402_1/16W-100,1% 
+ R12                 RSMD0603_1/10W-24,1%  
+ R13                 RSMD0603_1/10W-100,1% 
+ R14                 RSMD0603_1/10W-24,1%  
+ R15                 RSMD0402_1/16W-220,1% 
+ R16                 RSMD0402_1/16W-220,1% 
+ R17                 RSMD0402_1/16W-100,1% 
+ R18                 RSMD0402_1/16W-100,1% 
+ R19                 RSMD0603_1/10W-24,1%  
+ R20                 RSMD0603_1/10W-100,1% 
+ R21                 RSMD0603_1/10W-24,1%  
+ R22                 RSMD0402_1/16W-220,1% 
+ R23                 RSMD0402_1/16W-220,1% 
+ R24                 RSMD0402_1/16W-100,1% 
+ R25                 RSMD0402_1/16W-100,1% 
+ R26                 RSMD0603_1/10W-24,1%  
+ R27                 RSMD0603_1/10W-100,1% 
+ R28                 RSMD0603_1/10W-24,1%  
+ R29                 RSMD0402_1/16W-220,1% 
+ R30                 RSMD0402_1/16W-220,1% 
+ R31                 RSMD0402_1/16W-100,1% 
+ R32                 RSMD0402_1/16W-100,1% 
+ R33                 RSMD0603_1/10W-10K,1% 
+ R34                 RSMD0603_1/10W-10K,1% 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  18  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to board drawing                                            |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R35                 RSMD0603_1/10W-10K,1% 
+ R36                 RSMD0603_1/10W-10K,1% 
+ R37                 RSMD0603_1/10W-10K,1% 
+ R38                 RSMD0603_1/10W-10K,1% 
+ R39                 RSMD0603_1/10W-10K,1% 
+ R40                 RSMD0603_1/10W-10K,1% 
+ U1                  AD5316_TSSOP-AD       
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  19  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to board drawing                                       |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C1.2                           SIZE           1
+ C2.2                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C2.2                           SIZE           1
+ C3.2                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C3.2                           SIZE           1
+ C4.2                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C4.2                           SIZE           1
+ C5.2                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C5.2                           SIZE           1
+ C6.2                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C6.2                           SIZE           1
+ C7.2                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C7.2                           SIZE           1
+ C8.2                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C8.2                           SIZE           1
+ C9.2                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C9.2                           SIZE           1
+ C10.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C10.2                          SIZE           1
+ C11.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C11.2                          SIZE           1
+ C12.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C12.2                          SIZE           1
+ C13.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C13.2                          SIZE           1
+ C14.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C14.2                          SIZE           1
+ C15.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C15.2                          SIZE           1
+ C16.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C16.2                          SIZE           1
+ C17.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C17.2                          SIZE           1
+ C18.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C18.2                          SIZE           1
+ C19.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C19.2                          SIZE           1
+ C20.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C20.2                          SIZE           1
+ C21.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C21.2                          SIZE           1
+ C22.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C22.2                          SIZE           1
+ C23.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  20  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to board drawing                                       |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C23.2                          SIZE           1
+ C24.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C24.2                          SIZE           1
+ C25.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C25.2                          SIZE           1
+ C26.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C26.2                          SIZE           1
+ C27.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C27.2                          SIZE           1
+ C28.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C28.2                          SIZE           1
+ C29.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C29.2                          SIZE           1
+ C30.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C30.2                          SIZE           1
+ C31.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C31.2                          SIZE           1
+ C32.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C32.2                          SIZE           1
+ C33.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C33.2                          SIZE           1
+ C34.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C34.2                          SIZE           1
+ C35.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C35.2                          SIZE           1
+ C36.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C36.2                          SIZE           1
+ C37.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C37.2                          SIZE           1
+ C38.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C38.2                          SIZE           1
+ C39.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C39.2                          SIZE           1
+ C40.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C40.2                          SIZE           1
+ C41.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C41.2                          SIZE           1
+ C42.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C42.2                          SIZE           1
+ IC1.10                         PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/max9601/chips/chips.prt
+ IC1.10                         SIZE           1
+ IC1.11                         PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/max9601/chips/chips.prt
+ IC1.11                         SIZE           1
+ IC2.6                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_logic/sn65lvds20/chips/chips.prt
+ IC3.6                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_logic/sn65lvds20/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  21  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to board drawing                                       |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ IC4.10                         PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/max9601/chips/chips.prt
+ IC4.10                         SIZE           1
+ IC4.11                         PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/max9601/chips/chips.prt
+ IC4.11                         SIZE           1
+ IC5.6                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_logic/sn65lvds20/chips/chips.prt
+ IC6.6                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_logic/sn65lvds20/chips/chips.prt
+ IC7.6                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/adr421/chips/chips.prt
+ IC8.1                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/opa4277/chips/chips.prt
+ IC8.1                          SIZE           1
+ IC8.7                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/opa4277/chips/chips.prt
+ IC8.7                          SIZE           1
+ IC8.8                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/opa4277/chips/chips.prt
+ IC8.8                          SIZE           1
+ IC8.14                         PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/opa4277/chips/chips.prt
+ IC8.14                         SIZE           1
+ J1.D9                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con160p_40cdgh/chips/chips.prt
+ J1.H9                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con160p_40cdgh/chips/chips.prt
+ PX1.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/plemo2ci/chips/chips.prt
+ PX2.1                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ PX3.1                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ PX4.1                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ PX5.1                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ R1.2                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R1.2                           SIZE           1
+ R2.2                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R2.2                           SIZE           1
+ R3.2                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R3.2                           SIZE           1
+ R4.2                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R4.2                           SIZE           1
+ R5.2                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R5.2                           SIZE           1
+ R6.2                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R6.2                           SIZE           1
+ R7.2                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R7.2                           SIZE           1
+ R8.2                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R8.2                           SIZE           1
+ R9.2                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R9.2                           SIZE           1
+ R10.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R10.2                          SIZE           1
+ R11.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R11.2                          SIZE           1
+ R12.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  22  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to board drawing                                       |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R12.2                          SIZE           1
+ R13.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R13.2                          SIZE           1
+ R14.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R14.2                          SIZE           1
+ R15.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R15.2                          SIZE           1
+ R16.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R16.2                          SIZE           1
+ R17.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R17.2                          SIZE           1
+ R18.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R18.2                          SIZE           1
+ R19.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R19.2                          SIZE           1
+ R20.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R20.2                          SIZE           1
+ R21.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R21.2                          SIZE           1
+ R22.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R22.2                          SIZE           1
+ R23.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R23.2                          SIZE           1
+ R24.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R24.2                          SIZE           1
+ R25.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R25.2                          SIZE           1
+ R26.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R26.2                          SIZE           1
+ R27.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R27.2                          SIZE           1
+ R28.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R28.2                          SIZE           1
+ R29.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R29.2                          SIZE           1
+ R30.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R30.2                          SIZE           1
+ R31.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R31.2                          SIZE           1
+ R32.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R32.2                          SIZE           1
+ R33.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R33.2                          SIZE           1
+ R34.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R34.2                          SIZE           1
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  23  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to board drawing                                       |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R35.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R35.2                          SIZE           1
+ R36.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R36.2                          SIZE           1
+ R37.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R37.2                          SIZE           1
+ R38.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R38.2                          SIZE           1
+ R39.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R39.2                          SIZE           1
+ R40.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R40.2                          SIZE           1
+ U1.9                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_analogue/ad5316/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  24  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to board drawing                                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.1                           CDS_PINID      A(0)
+ C1.2                           CDS_PINID      B(0)
+ C2.1                           CDS_PINID      A(0)
+ C2.2                           CDS_PINID      B(0)
+ C3.1                           CDS_PINID      A(0)
+ C3.2                           CDS_PINID      B(0)
+ C4.1                           CDS_PINID      A(0)
+ C4.2                           CDS_PINID      B(0)
+ C5.1                           CDS_PINID      A(0)
+ C5.2                           CDS_PINID      B(0)
+ C6.1                           CDS_PINID      A(0)
+ C6.2                           CDS_PINID      B(0)
+ C7.1                           CDS_PINID      A(0)
+ C7.2                           CDS_PINID      B(0)
+ C8.1                           CDS_PINID      A(0)
+ C8.2                           CDS_PINID      B(0)
+ C9.1                           CDS_PINID      A(0)
+ C9.2                           CDS_PINID      B(0)
+ C10.1                          CDS_PINID      A(0)
+ C10.2                          CDS_PINID      B(0)
+ C11.1                          CDS_PINID      A(0)
+ C11.2                          CDS_PINID      B(0)
+ C12.1                          CDS_PINID      A(0)
+ C12.2                          CDS_PINID      B(0)
+ C13.1                          CDS_PINID      A(0)
+ C13.2                          CDS_PINID      B(0)
+ C14.1                          CDS_PINID      A(0)
+ C14.2                          CDS_PINID      B(0)
+ C15.1                          CDS_PINID      A(0)
+ C15.2                          CDS_PINID      B(0)
+ C16.1                          CDS_PINID      A(0)
+ C16.2                          CDS_PINID      B(0)
+ C17.1                          CDS_PINID      A(0)
+ C17.2                          CDS_PINID      B(0)
+ C18.1                          CDS_PINID      A(0)
+ C18.2                          CDS_PINID      B(0)
+ C19.1                          CDS_PINID      A(0)
+ C19.2                          CDS_PINID      B(0)
+ C20.1                          CDS_PINID      A(0)
+ C20.2                          CDS_PINID      B(0)
+ C21.1                          CDS_PINID      A(0)
+ C21.2                          CDS_PINID      B(0)
+ C22.1                          CDS_PINID      A(0)
+ C22.2                          CDS_PINID      B(0)
+ C23.1                          CDS_PINID      A(0)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  25  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to board drawing                                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C23.2                          CDS_PINID      B(0)
+ C24.1                          CDS_PINID      A(0)
+ C24.2                          CDS_PINID      B(0)
+ C25.1                          CDS_PINID      A(0)
+ C25.2                          CDS_PINID      B(0)
+ C26.1                          CDS_PINID      A(0)
+ C26.2                          CDS_PINID      B(0)
+ C27.1                          CDS_PINID      A(0)
+ C27.2                          CDS_PINID      B(0)
+ C28.1                          CDS_PINID      A(0)
+ C28.2                          CDS_PINID      B(0)
+ C29.1                          CDS_PINID      A(0)
+ C29.2                          CDS_PINID      B(0)
+ C30.1                          CDS_PINID      A(0)
+ C30.2                          CDS_PINID      B(0)
+ C31.1                          CDS_PINID      A(0)
+ C31.2                          CDS_PINID      B(0)
+ C32.1                          CDS_PINID      A(0)
+ C32.2                          CDS_PINID      B(0)
+ C33.1                          CDS_PINID      A(0)
+ C33.2                          CDS_PINID      B(0)
+ C34.1                          CDS_PINID      A(0)
+ C34.2                          CDS_PINID      B(0)
+ C35.1                          CDS_PINID      A(0)
+ C35.2                          CDS_PINID      B(0)
+ C36.1                          CDS_PINID      A(0)
+ C36.2                          CDS_PINID      B(0)
+ C37.1                          CDS_PINID      A(0)
+ C37.2                          CDS_PINID      B(0)
+ C38.1                          CDS_PINID      A(0)
+ C38.2                          CDS_PINID      B(0)
+ C39.1                          CDS_PINID      A(0)
+ C39.2                          CDS_PINID      B(0)
+ C40.1                          CDS_PINID      A(0)
+ C40.2                          CDS_PINID      B(0)
+ C41.1                          CDS_PINID      A(0)
+ C41.2                          CDS_PINID      B(0)
+ C42.1                          CDS_PINID      A(0)
+ C42.2                          CDS_PINID      B(0)
+ IC1.1                          CDS_PINID      Q(0)
+ IC1.2                          CDS_PINID      \q*\(0)
+ IC1.3                          CDS_PINID      \vcco_\(0)
+ IC1.4                          CDS_PINID      LE(0)
+ IC1.5                          CDS_PINID      \le*\(0)
+ IC1.6                          CDS_PINID      VEE(0)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  26  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to board drawing                                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ IC1.7                          CDS_PINID      VCC(0)
+ IC1.8                          CDS_PINID      HYS(0)
+ IC1.9                          CDS_PINID      \in-\(0)
+ IC1.10                         CDS_PINID      \in+\(0)
+ IC1.11                         CDS_PINID      \in+\(0)
+ IC1.12                         CDS_PINID      \in-\(0)
+ IC1.13                         CDS_PINID      HYS(0)
+ IC1.14                         CDS_PINID      VCC(1)
+ IC1.15                         CDS_PINID      VEE(1)
+ IC1.16                         CDS_PINID      \le*\(0)
+ IC1.17                         CDS_PINID      LE(0)
+ IC1.18                         CDS_PINID      \vcco_\(1)
+ IC1.19                         CDS_PINID      \q*\(0)
+ IC1.20                         CDS_PINID      Q(0)
+ IC2.2                          CDS_PINID      A
+ IC2.3                          CDS_PINID      B
+ IC2.4                          CDS_PINID      VBB
+ IC2.5                          CDS_PINID      \en*\
+ IC2.6                          CDS_PINID      Z
+ IC2.7                          CDS_PINID      Y
+ IC2.8                          CDS_PINID      VCC
+ IC2.9                          CDS_PINID      GND
+ IC3.2                          CDS_PINID      A
+ IC3.3                          CDS_PINID      B
+ IC3.4                          CDS_PINID      VBB
+ IC3.5                          CDS_PINID      \en*\
+ IC3.6                          CDS_PINID      Z
+ IC3.7                          CDS_PINID      Y
+ IC3.8                          CDS_PINID      VCC
+ IC3.9                          CDS_PINID      GND
+ IC4.1                          CDS_PINID      Q(0)
+ IC4.2                          CDS_PINID      \q*\(0)
+ IC4.3                          CDS_PINID      \vcco_\(0)
+ IC4.4                          CDS_PINID      LE(0)
+ IC4.5                          CDS_PINID      \le*\(0)
+ IC4.6                          CDS_PINID      VEE(0)
+ IC4.7                          CDS_PINID      VCC(0)
+ IC4.8                          CDS_PINID      HYS(0)
+ IC4.9                          CDS_PINID      \in-\(0)
+ IC4.10                         CDS_PINID      \in+\(0)
+ IC4.11                         CDS_PINID      \in+\(0)
+ IC4.12                         CDS_PINID      \in-\(0)
+ IC4.13                         CDS_PINID      HYS(0)
+ IC4.14                         CDS_PINID      VCC(1)
+ IC4.15                         CDS_PINID      VEE(1)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  27  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to board drawing                                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ IC4.16                         CDS_PINID      \le*\(0)
+ IC4.17                         CDS_PINID      LE(0)
+ IC4.18                         CDS_PINID      \vcco_\(1)
+ IC4.19                         CDS_PINID      \q*\(0)
+ IC4.20                         CDS_PINID      Q(0)
+ IC5.2                          CDS_PINID      A
+ IC5.3                          CDS_PINID      B
+ IC5.4                          CDS_PINID      VBB
+ IC5.5                          CDS_PINID      \en*\
+ IC5.6                          CDS_PINID      Z
+ IC5.7                          CDS_PINID      Y
+ IC5.8                          CDS_PINID      VCC
+ IC5.9                          CDS_PINID      GND
+ IC6.2                          CDS_PINID      A
+ IC6.3                          CDS_PINID      B
+ IC6.4                          CDS_PINID      VBB
+ IC6.5                          CDS_PINID      \en*\
+ IC6.6                          CDS_PINID      Z
+ IC6.7                          CDS_PINID      Y
+ IC6.8                          CDS_PINID      VCC
+ IC6.9                          CDS_PINID      GND
+ IC7.2                          CDS_PINID      VIN
+ IC7.4                          CDS_PINID      GND
+ IC7.5                          CDS_PINID      TRIM
+ IC7.6                          CDS_PINID      VOUT
+ IC8.1                          CDS_PINID      \out\(0)
+ IC8.2                          CDS_PINID      MIN(0)
+ IC8.3                          CDS_PINID      PIN(0)
+ IC8.4                          CDS_PINID      \v+\
+ IC8.5                          CDS_PINID      PIN(0)
+ IC8.6                          CDS_PINID      MIN(0)
+ IC8.7                          CDS_PINID      \out\(0)
+ IC8.8                          CDS_PINID      \out\(0)
+ IC8.9                          CDS_PINID      MIN(0)
+ IC8.10                         CDS_PINID      PIN(0)
+ IC8.11                         CDS_PINID      \v-\
+ IC8.12                         CDS_PINID      PIN(0)
+ IC8.13                         CDS_PINID      MIN(0)
+ IC8.14                         CDS_PINID      \out\(0)
+ J1.C1                          CDS_PINID      C(1)
+ J1.C2                          CDS_PINID      C(2)
+ J1.C3                          CDS_PINID      C(3)
+ J1.C4                          CDS_PINID      C(4)
+ J1.C5                          CDS_PINID      C(5)
+ J1.C6                          CDS_PINID      C(6)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  28  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to board drawing                                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J1.C7                          CDS_PINID      C(7)
+ J1.C8                          CDS_PINID      C(8)
+ J1.C9                          CDS_PINID      C(9)
+ J1.C10                         CDS_PINID      C(10)
+ J1.C11                         CDS_PINID      C(11)
+ J1.C12                         CDS_PINID      C(12)
+ J1.C13                         CDS_PINID      C(13)
+ J1.C14                         CDS_PINID      C(14)
+ J1.C15                         CDS_PINID      C(15)
+ J1.C16                         CDS_PINID      C(16)
+ J1.C17                         CDS_PINID      C(17)
+ J1.C18                         CDS_PINID      C(18)
+ J1.C19                         CDS_PINID      C(19)
+ J1.C20                         CDS_PINID      C(20)
+ J1.C21                         CDS_PINID      C(21)
+ J1.C22                         CDS_PINID      C(22)
+ J1.C23                         CDS_PINID      C(23)
+ J1.C24                         CDS_PINID      C(24)
+ J1.C25                         CDS_PINID      C(25)
+ J1.C26                         CDS_PINID      C(26)
+ J1.C27                         CDS_PINID      C(27)
+ J1.C28                         CDS_PINID      C(28)
+ J1.C29                         CDS_PINID      C(29)
+ J1.C30                         CDS_PINID      C(30)
+ J1.C31                         CDS_PINID      C(31)
+ J1.C32                         CDS_PINID      C(32)
+ J1.C33                         CDS_PINID      C(33)
+ J1.C34                         CDS_PINID      C(34)
+ J1.C35                         CDS_PINID      C(35)
+ J1.C36                         CDS_PINID      C(36)
+ J1.C37                         CDS_PINID      C(37)
+ J1.C38                         CDS_PINID      C(38)
+ J1.C39                         CDS_PINID      C(39)
+ J1.C40                         CDS_PINID      C(40)
+ J1.D1                          CDS_PINID      D(1)
+ J1.D2                          CDS_PINID      D(2)
+ J1.D3                          CDS_PINID      D(3)
+ J1.D4                          CDS_PINID      D(4)
+ J1.D5                          CDS_PINID      D(5)
+ J1.D6                          CDS_PINID      D(6)
+ J1.D7                          CDS_PINID      D(7)
+ J1.D8                          CDS_PINID      D(8)
+ J1.D9                          CDS_PINID      D(9)
+ J1.D10                         CDS_PINID      D(10)
+ J1.D11                         CDS_PINID      D(11)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  29  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to board drawing                                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J1.D12                         CDS_PINID      D(12)
+ J1.D13                         CDS_PINID      D(13)
+ J1.D14                         CDS_PINID      D(14)
+ J1.D15                         CDS_PINID      D(15)
+ J1.D16                         CDS_PINID      D(16)
+ J1.D17                         CDS_PINID      D(17)
+ J1.D18                         CDS_PINID      D(18)
+ J1.D19                         CDS_PINID      D(19)
+ J1.D20                         CDS_PINID      D(20)
+ J1.D21                         CDS_PINID      D(21)
+ J1.D22                         CDS_PINID      D(22)
+ J1.D23                         CDS_PINID      D(23)
+ J1.D24                         CDS_PINID      D(24)
+ J1.D25                         CDS_PINID      D(25)
+ J1.D26                         CDS_PINID      D(26)
+ J1.D27                         CDS_PINID      D(27)
+ J1.D28                         CDS_PINID      D(28)
+ J1.D29                         CDS_PINID      D(29)
+ J1.D30                         CDS_PINID      D(30)
+ J1.D31                         CDS_PINID      D(31)
+ J1.D32                         CDS_PINID      D(32)
+ J1.D33                         CDS_PINID      D(33)
+ J1.D34                         CDS_PINID      D(34)
+ J1.D35                         CDS_PINID      D(35)
+ J1.D36                         CDS_PINID      D(36)
+ J1.D37                         CDS_PINID      D(37)
+ J1.D38                         CDS_PINID      D(38)
+ J1.D39                         CDS_PINID      D(39)
+ J1.D40                         CDS_PINID      D(40)
+ J1.G1                          CDS_PINID      G(1)
+ J1.G2                          CDS_PINID      G(2)
+ J1.G3                          CDS_PINID      G(3)
+ J1.G4                          CDS_PINID      G(4)
+ J1.G5                          CDS_PINID      G(5)
+ J1.G6                          CDS_PINID      G(6)
+ J1.G7                          CDS_PINID      G(7)
+ J1.G8                          CDS_PINID      G(8)
+ J1.G9                          CDS_PINID      G(9)
+ J1.G10                         CDS_PINID      G(10)
+ J1.G11                         CDS_PINID      G(11)
+ J1.G12                         CDS_PINID      G(12)
+ J1.G13                         CDS_PINID      G(13)
+ J1.G14                         CDS_PINID      G(14)
+ J1.G15                         CDS_PINID      G(15)
+ J1.G16                         CDS_PINID      G(16)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  30  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to board drawing                                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J1.G17                         CDS_PINID      G(17)
+ J1.G18                         CDS_PINID      G(18)
+ J1.G19                         CDS_PINID      G(19)
+ J1.G20                         CDS_PINID      G(20)
+ J1.G21                         CDS_PINID      G(21)
+ J1.G22                         CDS_PINID      G(22)
+ J1.G23                         CDS_PINID      G(23)
+ J1.G24                         CDS_PINID      G(24)
+ J1.G25                         CDS_PINID      G(25)
+ J1.G26                         CDS_PINID      G(26)
+ J1.G27                         CDS_PINID      G(27)
+ J1.G28                         CDS_PINID      G(28)
+ J1.G29                         CDS_PINID      G(29)
+ J1.G30                         CDS_PINID      G(30)
+ J1.G31                         CDS_PINID      G(31)
+ J1.G32                         CDS_PINID      G(32)
+ J1.G33                         CDS_PINID      G(33)
+ J1.G34                         CDS_PINID      G(34)
+ J1.G35                         CDS_PINID      G(35)
+ J1.G36                         CDS_PINID      G(36)
+ J1.G37                         CDS_PINID      G(37)
+ J1.G38                         CDS_PINID      G(38)
+ J1.G39                         CDS_PINID      G(39)
+ J1.G40                         CDS_PINID      G(40)
+ J1.H1                          CDS_PINID      H(1)
+ J1.H2                          CDS_PINID      H(2)
+ J1.H3                          CDS_PINID      H(3)
+ J1.H4                          CDS_PINID      H(4)
+ J1.H5                          CDS_PINID      H(5)
+ J1.H6                          CDS_PINID      H(6)
+ J1.H7                          CDS_PINID      H(7)
+ J1.H8                          CDS_PINID      H(8)
+ J1.H9                          CDS_PINID      H(9)
+ J1.H10                         CDS_PINID      H(10)
+ J1.H11                         CDS_PINID      H(11)
+ J1.H12                         CDS_PINID      H(12)
+ J1.H13                         CDS_PINID      H(13)
+ J1.H14                         CDS_PINID      H(14)
+ J1.H15                         CDS_PINID      H(15)
+ J1.H16                         CDS_PINID      H(16)
+ J1.H17                         CDS_PINID      H(17)
+ J1.H18                         CDS_PINID      H(18)
+ J1.H19                         CDS_PINID      H(19)
+ J1.H20                         CDS_PINID      H(20)
+ J1.H21                         CDS_PINID      H(21)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  31  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to board drawing                                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J1.H22                         CDS_PINID      H(22)
+ J1.H23                         CDS_PINID      H(23)
+ J1.H24                         CDS_PINID      H(24)
+ J1.H25                         CDS_PINID      H(25)
+ J1.H26                         CDS_PINID      H(26)
+ J1.H27                         CDS_PINID      H(27)
+ J1.H28                         CDS_PINID      H(28)
+ J1.H29                         CDS_PINID      H(29)
+ J1.H30                         CDS_PINID      H(30)
+ J1.H31                         CDS_PINID      H(31)
+ J1.H32                         CDS_PINID      H(32)
+ J1.H33                         CDS_PINID      H(33)
+ J1.H34                         CDS_PINID      H(34)
+ J1.H35                         CDS_PINID      H(35)
+ J1.H36                         CDS_PINID      H(36)
+ J1.H37                         CDS_PINID      H(37)
+ J1.H38                         CDS_PINID      H(38)
+ J1.H39                         CDS_PINID      H(39)
+ J1.H40                         CDS_PINID      H(40)
+ PX1.1                          CDS_PINID      A
+ PX1.2                          CDS_PINID      B
+ PX2.1                          CDS_PINID      A
+ PX3.1                          CDS_PINID      A
+ PX4.1                          CDS_PINID      A
+ PX5.1                          CDS_PINID      A
+ R1.1                           CDS_PINID      A(0)
+ R1.2                           CDS_PINID      B(0)
+ R2.1                           CDS_PINID      A(0)
+ R2.2                           CDS_PINID      B(0)
+ R3.1                           CDS_PINID      A(0)
+ R3.2                           CDS_PINID      B(0)
+ R4.1                           CDS_PINID      A(0)
+ R4.2                           CDS_PINID      B(0)
+ R5.1                           CDS_PINID      A(0)
+ R5.2                           CDS_PINID      B(0)
+ R6.1                           CDS_PINID      A(0)
+ R6.2                           CDS_PINID      B(0)
+ R7.1                           CDS_PINID      A(0)
+ R7.2                           CDS_PINID      B(0)
+ R8.1                           CDS_PINID      A(0)
+ R8.2                           CDS_PINID      B(0)
+ R9.1                           CDS_PINID      A(0)
+ R9.2                           CDS_PINID      B(0)
+ R10.1                          CDS_PINID      A(0)
+ R10.2                          CDS_PINID      B(0)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  32  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to board drawing                                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R11.1                          CDS_PINID      A(0)
+ R11.2                          CDS_PINID      B(0)
+ R12.1                          CDS_PINID      A(0)
+ R12.2                          CDS_PINID      B(0)
+ R13.1                          CDS_PINID      A(0)
+ R13.2                          CDS_PINID      B(0)
+ R14.1                          CDS_PINID      A(0)
+ R14.2                          CDS_PINID      B(0)
+ R15.1                          CDS_PINID      A(0)
+ R15.2                          CDS_PINID      B(0)
+ R16.1                          CDS_PINID      A(0)
+ R16.2                          CDS_PINID      B(0)
+ R17.1                          CDS_PINID      A(0)
+ R17.2                          CDS_PINID      B(0)
+ R18.1                          CDS_PINID      A(0)
+ R18.2                          CDS_PINID      B(0)
+ R19.1                          CDS_PINID      A(0)
+ R19.2                          CDS_PINID      B(0)
+ R20.1                          CDS_PINID      A(0)
+ R20.2                          CDS_PINID      B(0)
+ R21.1                          CDS_PINID      A(0)
+ R21.2                          CDS_PINID      B(0)
+ R22.1                          CDS_PINID      A(0)
+ R22.2                          CDS_PINID      B(0)
+ R23.1                          CDS_PINID      A(0)
+ R23.2                          CDS_PINID      B(0)
+ R24.1                          CDS_PINID      A(0)
+ R24.2                          CDS_PINID      B(0)
+ R25.1                          CDS_PINID      A(0)
+ R25.2                          CDS_PINID      B(0)
+ R26.1                          CDS_PINID      A(0)
+ R26.2                          CDS_PINID      B(0)
+ R27.1                          CDS_PINID      A(0)
+ R27.2                          CDS_PINID      B(0)
+ R28.1                          CDS_PINID      A(0)
+ R28.2                          CDS_PINID      B(0)
+ R29.1                          CDS_PINID      A(0)
+ R29.2                          CDS_PINID      B(0)
+ R30.1                          CDS_PINID      A(0)
+ R30.2                          CDS_PINID      B(0)
+ R31.1                          CDS_PINID      A(0)
+ R31.2                          CDS_PINID      B(0)
+ R32.1                          CDS_PINID      A(0)
+ R32.2                          CDS_PINID      B(0)
+ R33.1                          CDS_PINID      A(0)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  33  |
+|------------------------------------------------------------------------------|
+|  .../worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd         |
+|                                                    Fri Mar  4 13:47:56 2011  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to board drawing                                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R33.2                          CDS_PINID      B(0)
+ R34.1                          CDS_PINID      A(0)
+ R34.2                          CDS_PINID      B(0)
+ R35.1                          CDS_PINID      A(0)
+ R35.2                          CDS_PINID      B(0)
+ R36.1                          CDS_PINID      A(0)
+ R36.2                          CDS_PINID      B(0)
+ R37.1                          CDS_PINID      A(0)
+ R37.2                          CDS_PINID      B(0)
+ R38.1                          CDS_PINID      A(0)
+ R38.2                          CDS_PINID      B(0)
+ R39.1                          CDS_PINID      A(0)
+ R39.2                          CDS_PINID      B(0)
+ R40.1                          CDS_PINID      A(0)
+ R40.2                          CDS_PINID      B(0)
+ U1.1                           CDS_PINID      \ldac*\
+ U1.2                           CDS_PINID      VDD
+ U1.3                           CDS_PINID      VOUTA
+ U1.4                           CDS_PINID      VOUTB
+ U1.5                           CDS_PINID      VOUTC
+ U1.6                           CDS_PINID      VREFA
+ U1.7                           CDS_PINID      VREFB
+ U1.8                           CDS_PINID      VREFC
+ U1.9                           CDS_PINID      VREFD
+ U1.10                          CDS_PINID      \pd*\
+ U1.11                          CDS_PINID      VOUTD
+ U1.12                          CDS_PINID      GND
+ U1.13                          CDS_PINID      SDA
+ U1.14                          CDS_PINID      SCL
+ U1.15                          CDS_PINID      A0
+ U1.16                          CDS_PINID      A1
+|------------------------------------------------------------------------------|
+|   total ECO changes reported  1255                                           |
+|------------------------------------------------------------------------------|

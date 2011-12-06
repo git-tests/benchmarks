@@ -1,0 +1,250 @@
+FILE_TYPE = LIBRARY_PARTS;
+{ Packager-XL run on 15-Feb-2008 AT 10:36:47 }
+primitive 'AD5316_TSSOP-AD';
+  pin
+    'VDD':
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'VOUTA':
+      PIN_NUMBER='(3)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'VOUTB':
+      PIN_NUMBER='(4)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'VOUTC':
+      PIN_NUMBER='(5)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'VREFA':
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'VREFB':
+      PIN_NUMBER='(7)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'VREFC':
+      PIN_NUMBER='(8)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'VREFD':
+      PIN_NUMBER='(9)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'PD*':
+      PIN_NUMBER='(10)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'VOUTD':
+      PIN_NUMBER='(11)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'GND':
+      PIN_NUMBER='(12)';
+      PINUSE='GROUND';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'SDA':
+      PIN_NUMBER='(13)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'SCL':
+      PIN_NUMBER='(14)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'A0':
+      PIN_NUMBER='(15)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'A1':
+      PIN_NUMBER='(16)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'LDAC*':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(-0.01,0.01)';
+      NO_LOAD_CHECK='High';
+      NO_IO_CHECK='High';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+      PART_NAME='AD5316';
+      BODY_NAME='AD5316';
+      JEDEC_TYPE='TSSOP16';
+      PHYS_DES_PREFIX='U';
+      CLASS='IC';
+      CI='!';
+      PART_NUMBER='AD5316BRUZ';
+      PART_DESCRIPTION='4 buffered, 10-bit DACs';
+      OL_COMMENTS='Available Farnell 1079338';
+      KL_COMMENTS='-';
+      PL_COMMENTS='-';
+      PARENT_PART_TYPE='AD5316_TSSOP';
+      PARENT_PPT='AD5316';
+      PARENT_PPT_PART='AD5316_TSSOP-AD';
+  end_body;
+end_primitive;
+primitive 'CAPACITOR_0603-100N,+/-10%,AVXA';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(-0.01,0.01)';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(-0.01,0.01)';
+  end_pin;
+  body
+      JEDEC_TYPE='SMD0603';
+      ALT_SYMBOLS='(T:SMD0603M)';
+      PART_NAME='CAPACITOR';
+      CLASS='DISCRETE';
+      PHYS_DES_PREFIX='C';
+      SIZE='1b';
+      CI='01868A-1';
+      PART_NUMBER='Farnell 1216538';
+      PART_DESCRIPTION='100nF SMD Capacitor, 0603, X7R Dielectric, 16V, 10%';
+      OL_COMMENTS='-';
+      KL_COMMENTS='-';
+      PL_COMMENTS='-';
+      PARENT_PART_TYPE='CAPACITOR_0603';
+      PARENT_PPT='CAPACITOR';
+      PARENT_PPT_PART='CAPACITOR_0603-100N,+/-10%,AVX-KYOCERA';
+  end_body;
+end_primitive;
+primitive 'CAPACITOR_0603-1U0,+/-10%,MURAA';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(-0.01,0.01)';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(-0.01,0.01)';
+  end_pin;
+  body
+      JEDEC_TYPE='SMD0603';
+      ALT_SYMBOLS='(T:SMD0603M)';
+      PART_NAME='CAPACITOR';
+      CLASS='DISCRETE';
+      PHYS_DES_PREFIX='C';
+      SIZE='1b';
+      CI='02708A-1';
+      PART_NUMBER='-';
+      PART_DESCRIPTION='1.0uF SMD Capacitor, 0603, X5R Dielectric, 6.3V, 10%';
+      OL_COMMENTS='-';
+      KL_COMMENTS='-';
+      PL_COMMENTS='-';
+      PARENT_PART_TYPE='CAPACITOR_0603';
+      PARENT_PPT='CAPACITOR';
+      PARENT_PPT_PART='CAPACITOR_0603-1U0,+/-10%,MURATA';
+  end_body;
+end_primitive;
+primitive 'OP4177_SOIC-ANALOG DEVICES';
+  pin
+    'IN':
+      PIN_NUMBER='(3,5,10,12)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'IN*':
+      PIN_NUMBER='(2,6,9,13)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'O/P':
+      PIN_NUMBER='(1,7,8,14)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'V+':
+      PIN_NUMBER='(4*4)';
+      PIN_TYPE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+    'V-':
+      PIN_NUMBER='(11*4)';
+      PIN_TYPE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+  end_pin;
+  body
+      JEDEC_TYPE='SOIC14';
+      CLASS='IC';
+      PHYS_DES_PREFIX='U';
+      PART_NAME='OP4177';
+      CI='04404A-1';
+      PART_NUMBER='Analog Devices OP4177ARZ';
+      PART_DESCRIPTION='Precision Low Noise, Low I/P Bias Current Quad Op-Amp';
+      OL_COMMENTS='Available from Farnell 1266076';
+      KL_COMMENTS='-';
+      PL_COMMENTS='-';
+      PARENT_PART_TYPE='OP4177_SOIC';
+      PARENT_PPT='OP4177';
+      PARENT_PPT_PART='OP4177_SOIC-ANALOG DEVICES';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_0603-1K0,0.1%,MEGGITTA';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+  end_pin;
+  body
+      JEDEC_TYPE='SMD0603';
+      ALT_SYMBOLS='(T:SMD0603M)';
+      PART_NAME='RESISTOR';
+      CLASS='DISCRETE';
+      PHYS_DES_PREFIX='R';
+      SIZE='1b';
+      CI='02729A-1';
+      PART_NUMBER='Farnell 1140398';
+      PART_DESCRIPTION='1K0 SMD Resistor, 0.063W, 0603, 0.1%';
+      OL_COMMENTS='-';
+      KL_COMMENTS='-';
+      PL_COMMENTS='-';
+      PARENT_PART_TYPE='RESISTOR_0603';
+      PARENT_PPT='RESISTOR';
+      PARENT_PPT_PART='RESISTOR_0603-1K0,0.1%,MEGGITT E.C';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_0603-47R,1%,MULTICOMP';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+  end_pin;
+  body
+      JEDEC_TYPE='SMD0603';
+      ALT_SYMBOLS='(T:SMD0603M)';
+      PART_NAME='RESISTOR';
+      CLASS='DISCRETE';
+      PHYS_DES_PREFIX='R';
+      SIZE='1b';
+      CI='02928A-1';
+      PART_NUMBER='Farnell 9331271';
+      PART_DESCRIPTION='47R SMD Resistor, 0.063W, 0603, 1%';
+      OL_COMMENTS='-';
+      KL_COMMENTS='-';
+      PL_COMMENTS='-';
+      PARENT_PART_TYPE='RESISTOR_0603';
+      PARENT_PPT='RESISTOR';
+      PARENT_PPT_PART='RESISTOR_0603-47R,1%,MULTICOMP';
+  end_body;
+end_primitive;
+END.
