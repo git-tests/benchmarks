@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 04-Mar-2011 AT 13:54:49 }
-TIME=' COMPILATION ON 04-Mar-2011 AT 13:54:49';
+{ Packager-XL run on 16-Mar-2012 AT 12:26:19 }
+TIME=' COMPILATION ON 16-Mar-2012 AT 12:26:19';
 primitive 'AD5316_TSSOP-AD';body 'AD5316';
     'VDD':'(2)';
     'VOUTA':'(3)';OUT;
@@ -236,10 +236,6 @@ primitive 'RSMD0402_1/16W-100,1%';body 'RSMD0402';
     'A'<0>:'(1)';BIDI;
     'B'<0>:'(2)';BIDI;
 end_primitive;
-primitive 'RSMD0402_1/16W-220,1%';body 'RSMD0402';
-    'A'<0>:'(1)';BIDI;
-    'B'<0>:'(2)';BIDI;
-end_primitive;
 primitive 'RSMD0603_1/10W-100,1%';body 'RSMD0603';
     'A'<0>:'(1)';BIDI;
     'B'<0>:'(2)';BIDI;
@@ -265,5 +261,13 @@ primitive 'SN65LVDS20_SON-TEXAS INSTRUMENA';body 'SN65LVDS20';
     'VBB':'(4)';
     'Y':'(7)';OUT;
     'Z':'(6)';OUT;
+end_primitive;
+primitive 'USBLC6-2SC6'; body 'USBLC6_2';
+    'I/O11':'(1)';BIDI;
+    'I/O21':'(6)';BIDI;
+    'I/O12':'(3)';BIDI;
+    'I/O22':'(4)';BIDI;
+    'GND':'(2)';
+    'VBUS':'(5)';
 end_primitive;
 END.

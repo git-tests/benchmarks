@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.3-S013 (v16-3-85Y) 7/19/2010 on Fri Mar  4 13:39:35 2011
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.5-S005 (v16-5-13R) 8/23/2011 on Fri Mar 16 15:32:57 2012
 #ISCELL
   bris_cds_standard a3-2000 *
   *
@@ -16,7 +16,16 @@
   page1_i5
 #CELL
   cnconnector plemo2ci *
-  page1_i6
+  page1_i7
+#ISCELL
+  bris_cds_standard a3-2000 *
+  *
+#CELL
+  cnconnector con8p *
+  page4_i1
+#CELL
+  cnconnector con19p *
+  page4_i2
 #ISCELL
   bris_cds_standard a3-2000-ohl *
   *
@@ -51,20 +60,8 @@
   standard gnd_signal *
   page2_i18
 #CELL
-  cnconnector pcoax *
-  page2_i19
-#CELL
   fmc_tlu_v1_lib fmc_tlu_discriminator *
   page2_i2
-#CELL
-  cnconnector pcoax *
-  page2_i20
-#CELL
-  cnconnector pcoax *
-  page2_i21
-#CELL
-  cnconnector pcoax *
-  page2_i22
 #CELL
   cnpassive rsmd0603 *
   page2_i23
@@ -92,6 +89,18 @@
 #ISCELL
   standard gnd_signal *
   page2_i30
+#CELL
+  cnconnector pcoax *
+  page2_i31
+#CELL
+  cnconnector pcoax *
+  page2_i32
+#CELL
+  cnconnector pcoax *
+  page2_i33
+#CELL
+  cnconnector pcoax *
+  page2_i34
 #CELL
   fmc_tlu_v1_lib fmc_tlu_discriminator *
   page2_i4

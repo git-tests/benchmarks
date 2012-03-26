@@ -1,10 +1,12 @@
 
 
+
+
     Cadence Design Systems, Inc.
-    Packager-XL 15.70-s001 lnx86 28-Nov-2006 12:00:00 IST
+    Packager-XL 16.5-S002 (v16-5-13L) lnx86 7/18/2011 12:00:00 IST
     (C) Copyright 1994, Cadence Design Systems, Inc.
 
-    Run on Fri Feb 15 10:36:47 2008
+    Run on Fri Mar 16 12:26:17 2012
 
 
  **********************************************
@@ -14,25 +16,30 @@
 
 
     ANNOTATE  'BODY' 'PIN'
-    COMP_DEF_PROP  'ALT_SYMBOLS' 'JEDEC_TYPE' 'MERGE_NC_PINS' 'MERGE_POWER_PINS'
-                   'NC_PINS' 'PINCOUNT' 'POWER_GROUP' 'POWER_PINS'
-    COMP_INST_PROP  'DEFAULT_SIGNAL_MODEL' 'GROUP' 'REUSE_ID' 'REUSE_INSTANCE'
-                    'REUSE_NAME' 'ROOM' 'SIGNAL_MODEL' 'VOLT_TEMP_SIGNAL_MODEL'
-                    'ISRFELEMENT' 'RFELEMENTTYPE' 'RFLAYER' 'RFLAYER1'
-                    'RFLAYER2' 'RFLAYER3' 'RFLAYER4' 'RFLAYER5' 'RFLAYER6'
-                    'RFLAYER7' 'RFLAYER8' 'RFLAYER9' 'RFLAYER10' 'RFLAYER11'
-                    'RFLAYER12' 'RFLAYER13' 'RFLAYER14' 'RFLAYER15' 'RFLAYER16'
-                    'RFCOUPLINGMODE' 'RFFLIPMODE' 'RFANGLE' 'RFANGLE1' 'RFWIDTH'
-                    'RFWIDTH1' 'RFWIDTH2' 'RFWIDTH3' 'RFWIDTH4' 'RFWIDTH5'
-                    'RFWIDTH6' 'RFWIDTH7' 'RFWIDTH8' 'RFWIDTH9' 'RFWIDTH10'
-                    'RFWIDTH11' 'RFWIDTH12' 'RFWIDTH13' 'RFWIDTH14' 'RFWIDTH15'
-                    'RFWIDTH16' 'RFLENGTH' 'RFLENGTH1' 'RFLENGTH2' 'RFLENGTH3'
-                    'RFLENGTH4' 'RFLENGTH5' 'RFLENGTH6' 'RFLENGTH7' 'RFLENGTH8'
-                    'RFSPACING' 'RFSPACING1' 'RFSPACING2' 'RFSPACING3'
-                    'RFSPACING4' 'RFSPACING5' 'RFSPACING6' 'RFSPACING7'
-                    'RFSPACING8' 'RFSPACING9' 'RFSPACING10' 'RFSPACING11'
-                    'RFSPACING12' 'RFSPACING13' 'RFSPACING14' 'RFSPACING15'
-                    'RFOFFSETX' 'RFOFFSETY' 'RFRADIUS' 'RFDEPTH' 'RFFREQUENCY'
+    COMP_DEF_PROP  'ALT_SYMBOLS' 'JEDEC_TYPE' 'NC_PINS' 'MERGE_NC_PINS'
+                   'POWER_GROUP' 'POWER_PINS' 'MERGE_POWER_PINS' 'PINCOUNT'
+    COMP_INST_PROP  'GROUP' 'ROOM' 'REUSE_INSTANCE' 'REUSE_ID' 'REUSE_NAME'
+                    'SIGNAL_MODEL' 'DEFAULT_SIGNAL_MODEL'
+                    'VOLT_TEMP_SIGNAL_MODEL' 'SYMBOL_EDITED'
+                    'INCLUDE_IN_RF_TOPOLOGY' 'CDS_RF_GROUP'
+                    'CDS_FSP_LIB_PART_MODEL' 'CDS_FSP_IS_FPGA'
+                    'CDS_FSP_INSTANCE_NAME' 'CDS_FSP_INSTANCE_ID'
+                    'NO_XNET_CONNECTION' 'EMBEDDED_PLACEMENT' 'ISRFELEMENT'
+                    'RFELEMENTTYPE' 'RFLAYER' 'RFLAYER1' 'RFLAYER2' 'RFLAYER3'
+                    'RFLAYER4' 'RFLAYER5' 'RFLAYER6' 'RFLAYER7' 'RFLAYER8'
+                    'RFLAYER9' 'RFLAYER10' 'RFLAYER11' 'RFLAYER12' 'RFLAYER13'
+                    'RFLAYER14' 'RFLAYER15' 'RFLAYER16' 'RFCOUPLINGMODE'
+                    'RFFLIPMODE' 'RFANGLE' 'RFANGLE1' 'RFWIDTH' 'RFWIDTH1'
+                    'RFWIDTH2' 'RFWIDTH3' 'RFWIDTH4' 'RFWIDTH5' 'RFWIDTH6'
+                    'RFWIDTH7' 'RFWIDTH8' 'RFWIDTH9' 'RFWIDTH10' 'RFWIDTH11'
+                    'RFWIDTH12' 'RFWIDTH13' 'RFWIDTH14' 'RFWIDTH15' 'RFWIDTH16'
+                    'RFLENGTH' 'RFLENGTH1' 'RFLENGTH2' 'RFLENGTH3' 'RFLENGTH4'
+                    'RFLENGTH5' 'RFLENGTH6' 'RFLENGTH7' 'RFLENGTH8' 'RFSPACING'
+                    'RFSPACING1' 'RFSPACING2' 'RFSPACING3' 'RFSPACING4'
+                    'RFSPACING5' 'RFSPACING6' 'RFSPACING7' 'RFSPACING8'
+                    'RFSPACING9' 'RFSPACING10' 'RFSPACING11' 'RFSPACING12'
+                    'RFSPACING13' 'RFSPACING14' 'RFSPACING15' 'RFOFFSETX'
+                    'RFOFFSETY' 'RFRADIUS' 'RFDEPTH' 'RFFREQUENCY'
                     'RFMITERFRACTION' 'RFBENDMODE' 'RFNUMBERLEGS'
                     'RFNUMBERPAIRS' 'RFNUMBERTURNS' 'RFCAPACITANCE'
                     'RFRESISTANCE' 'RFINDUCTANCE' 'RFPADSTACKNAME'
@@ -40,12 +47,11 @@
                     'RFPADENDLAYER' 'RFPADLINEWIDTH1' 'RFPADLINEWIDTH2'
                     'RFPADDIAMETER1' 'RFPADDIAMETER2' 'RFPADLENGTH1'
                     'RFPADLENGTH2' 'RFHOLEDIAMETER' 'RFPADANGLE' 'RFDRANAME'
-                    'RFPADTYPE' 'RFUID'
+                    'RFPADTYPE' 'RFUID' 'RFBLOCK' 'RFDCNET'
     SUPPRESS_GLOBAL_SHORT_CHECK OFF
     DEBUG    0
     DEFAULT_PHYS_DES_PREFIX U
     FEEDBACK  'OFF'
-    GEN_SUBDESIGN  'PC023A_DAC_VTHRESH'
     MAX_ERRORS 999
     NET_NAME_CHARS   @  -  !  #  %  &  (  )  *  .  /  :  ?  [  ]  ^  _  `  +
                      =  >  0  1  2  3  4  5  6  7  8  9
@@ -68,130 +74,2484 @@
          /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_analogue/cds_analogue.ptf 
          /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_connectors/cds_connectors~
 .ptf 
+         /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_discrete/cds_discrete.ptf 
          /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_logic/cds_logic.ptf 
          /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_pld/cds_pld.ptf 
          /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_special/cds_special.ptf 
-         /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd14.x/parttables/cnconnector.ptf 
-         /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_analogue/cds_analogue.ptf 
-         /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_connectors/cds_connectors.~
-ptf 
-         /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_discrete/cds_discrete.ptf 
-         /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_logic/cds_logic.ptf 
-         /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_memory/cds_memory.ptf 
-         /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_pld/cds_pld.ptf 
-         /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_special/cds_special.ptf 
-         /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_switches/cds_switches.ptf 
+         /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/parttables/~
+cnconnector.ptf 
+         /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/parttables/~
+cndiscrete.ptf 
+         /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/parttables/~
+cnpassive.ptf 
     REF_DES_LENGTH 31
     REPACKAGE OFF
     ELECTRICAL_CONSTRAINTS OFF
     OVERWRITE_CONSTRAINTS OFF
-    RUN_DIR /home/phdgc/cad/designs/uob-hep-pc023a/trunk/design_files/worklib/~
-pc023a_dac_vthresh/packaged/
+    RUN_DIR ./worklib/pc023a_dac_vthresh/packaged/
     STRICT_PACKAGE_PROP  'REUSE_INSTANCE'
     USE_LIBRARY_PPT ON
     USE_STATE ON
     WARNINGS ON
-    LIBRARY  'uob_hep_pc023a_lib' 'bris_cds_analogue' 'bris_cds_connectors'
-             'bris_cds_logic' 'bris_cds_memory' 'bris_cds_pld'
-             'bris_cds_special' 'bris_cds_standard' 'bris_cds_switches'
-             'cds_analogue' 'cds_connectors' 'cds_discrete' 'bris_cds_discrete'
-             'cds_logic' 'cds_memory' 'cds_pld' 'cds_special' 'standard'
-             'cds_standard' 'cds_switches' 'cncmos' 'ver_74hcmos' 'ver_74ttl'
-             'cnconnector'
+    LIBRARY  'bris_cds_analogue' 'bris_cds_connectors' 'bris_cds_logic'
+             'bris_cds_memory' 'bris_cds_pld' 'bris_cds_special'
+             'bris_cds_standard' 'bris_cds_switches' 'cnconnector' 'cninterface'
+             'cnpower' 'cnlinear' 'cnpassive' 'cndiscrete' 'bris_cds_discrete'
+             'fmc_tlu_v1_lib' 'standard' 'cds_analogue' 'cds_discrete'
+             'cds_standard'
     CDSPROP_FILE 
     VIEW_PTF part_table
     VIEW_PACKAGER packaged
-    VIEW_CONSTRAINTS constraints
-    DESIGN_LIBRARY uob_hep_pc023a_lib
+    VIEW_CONSTRAINTS sch_1
+    DESIGN_LIBRARY fmc_tlu_v1_lib
     DESIGN_NAME pc023a_dac_vthresh
     VIEW_CONFIG_PHYSICAL cfg_package
     SD_SUFFIX_SEPARATOR _
     STOP_PST_GEN_ON_PTF_MISMATCH ON
     IGNORE_PRIM_BINDING OFF
+    LOG_INST_PHYS_PATH ON
+    ANNOTATE_VISIBLE_SEC OFF
+    PTF_MISMATCH_EXCLUDE_INJ_PROP  'ALL'
+    IMPORT_HFS_HARDSEC_ON_SWAP_PINS OFF
+    ALLOW_PTFVALUE_INITIAL_BLANKS ON
+    PRESERVE_UNSUBSTITUTED_MACROS OFF
+    DETECT_SYS_NETSHORTS_PKG ON
 
  **************************************************************
- *  End processing project file and command line  (00:00:00)  *
+ *  End processing project file and command line  (00:00:01)  *
  **************************************************************
 
 
 Creating Configuration "cfg_package" for Design "pc023a_dac_vthresh"
 
-Loading /opt/CAD/Cadence/SPB15.7/share/cdssetup/cdsprop.tmf.
-Loading /opt/CAD/Cadence/SPB15.7/share/cdssetup/cdsprop.paf.
-Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_analogue/cds_analo~
-gue.ptf.
-Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_connectors/cds_con~
-nectors.ptf.
-Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_logic/cds_logic.pt~
-f.
-Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_pld/cds_pld.ptf.
-Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_special/cds_specia~
-l.ptf.
-Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd14.x/parttables/cnconnector~
-.ptf.
-Loading /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_analogue/cds_analog~
-ue.ptf.
-Loading /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_connectors/cds_conn~
-ectors.ptf.
-Loading /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_discrete/cds_discre~
-te.ptf.
-Loading /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_logic/cds_logic.ptf.
-Loading /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_memory/cds_memory.p~
-tf.
-Loading /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_pld/cds_pld.ptf.
-Loading /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_special/cds_special~
-.ptf.
-Loading /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/cds_switches/cds_switch~
-es.ptf.
+Processing Constraints File ./worklib/pc023a_dac_vthresh/sch_1/pc023a_dac_vthr~
+esh.dcf. 
+INFO(SPCODD-181): Loading /software/CAD/Cadence/SPB_16.50/share/cdssetup/cdspr~
+op.tmf.
+INFO(SPCODD-181): Loading /software/CAD/Cadence/SPB_16.50/share/cdssetup/cdspr~
+op.paf.
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_~
+analogue/cds_analogue.ptf.
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_~
+connectors/cds_connectors.ptf.
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_~
+discrete/cds_discrete.ptf.
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_~
+logic/cds_logic.ptf.
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_~
+pld/cds_pld.ptf.
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_~
+special/cds_special.ptf.
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
+ept_libs/pe16/parttables/cnconnector.ptf.
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
+ept_libs/pe16/parttables/cndiscrete.ptf.
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
+ept_libs/pe16/parttables/cnpassive.ptf.
 
  *********************************
  *  Loading the design database  *
  *********************************
 
-Loading occurrence properties from /home/phdgc/cad/designs/uob-hep-pc023a/trun~
-k/design_files/worklib/pc023a_dac_vthresh/opf/props.opf.
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
+ept_libs/pe16/pe_cern_lib/cnlinear/opa4277/part_table/part.ptf.
 
  *************************
  *  Loading State Files  *
  *************************
 
-Loading /home/phdgc/cad/designs/uob-hep-pc023a/trunk/design_files/worklib/pc02~
-3a_dac_vthresh/packaged/pxl.state. 
+Loading ./worklib/pc023a_dac_vthresh/packaged/pxl.state. 
+ #1   ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
 
- *****************************************
- *  End loading State Files  (00:00:00)  *
- *****************************************
+Part Name: CAPACITOR_2220-1N,+/-20%,WIMA
+Key properties:
+Property: PACK_TYPE = 2220
+Property: VALUE = 1N
+Property: TOLERANCE = +/-20%
+Property: MANUF = WIMA
+Injected properties:
+Property: CI = 03509A-1
+Property: PART_NUMBER = WIMA 2220-1N-100V
+Property: PART_DESCRIPTION = 1nF SMD Capacitor, 2220,100V
+Property: JEDEC_TYPE = SMD2220
+Property: OL_COMMENTS = Available from Farnell 568855
+Property: KL_COMMENTS = -
+Property: PL_COMMENTS = -
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_discret~
+e/cds_discrete.ptf
+ #2   ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
 
+Part Name: CAPACITOR_2220-10N,+/-20%,WIMA
+Key properties:
+Property: PACK_TYPE = 2220
+Property: VALUE = 10N
+Property: TOLERANCE = +/-20%
+Property: MANUF = WIMA
+Injected properties:
+Property: CI = 03509A-1
+Property: PART_NUMBER = WIMA 2220-10N-100V
+Property: PART_DESCRIPTION = 10nF SMD Capacitor, 2220,100V
+Property: JEDEC_TYPE = SMD2220
+Property: OL_COMMENTS = Available from Farnell 570266
+Property: KL_COMMENTS = -
+Property: PL_COMMENTS = -
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_discret~
+e/cds_discrete.ptf
+ #3   ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
 
- ****************************************
- *  Starting to assign physical parts.  *
- ****************************************
+Part Name: CAPACITOR_2220-100N,+/-20%,WIMA
+Key properties:
+Property: PACK_TYPE = 2220
+Property: VALUE = 100N
+Property: TOLERANCE = +/-20%
+Property: MANUF = WIMA
+Injected properties:
+Property: CI = 03509A-1
+Property: PART_NUMBER = WIMA 2220-100N-100V
+Property: PART_DESCRIPTION = 100nF SMD Capacitor, 2220,100V
+Property: JEDEC_TYPE = SMD2220
+Property: OL_COMMENTS = Available from Farnell 570321
+Property: KL_COMMENTS = -
+Property: PL_COMMENTS = -
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_discret~
+e/cds_discrete.ptf
+ #4   ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
 
+Part Name: CAPACITOR_2220-1U,+/-20%,AVX
+Key properties:
+Property: PACK_TYPE = 2220
+Property: VALUE = 1U
+Property: TOLERANCE = +/-20%
+Property: MANUF = AVX
+Injected properties:
+Property: CI = 03509A-1
+Property: PART_NUMBER = 22201C105KAT1A
+Property: PART_DESCRIPTION = 1uF SMD Capacitor, 2220,100V
+Property: JEDEC_TYPE = SMD2220
+Property: OL_COMMENTS = Available from Farnell 7569459
+Property: KL_COMMENTS = -
+Property: PL_COMMENTS = -
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_discret~
+e/cds_discrete.ptf
+ #5   ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
 
- ***********************************************
- *  End assigning physical parts.  (00:00:00)  *
- ***********************************************
+Part Name: CAPACITOR_ELECTROLYTIC-1-6800U,+/-20%,PANASONIC
+Key properties:
+Property: PACK_TYPE = ELECTROLYTIC-1
+Property: VALUE = 6800U
+Property: TOLERANCE = +/-20%
+Property: MANUF = Panasonic
+Injected properties:
+Property: CI = 03261A-1
+Property: PART_NUMBER = Panasonic EEUFM0J682
+Property: PART_DESCRIPTION = 6800uF 6.3V Radial Electrolytic
+Property: JEDEC_TYPE = CAP_EL_6K8UF
+Property: OL_COMMENTS = Farnell 1219452
+Property: KL_COMMENTS = -
+Property: PL_COMMENTS = -
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_discret~
+e/cds_discrete.ptf
+ #6   ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
 
+Part Name: CAPACITOR_CASE-E-1500U,+/-10%,AVX
+Key properties:
+Property: PACK_TYPE = CASE-E
+Property: VALUE = 1500U
+Property: TOLERANCE = +/-10%
+Property: MANUF = AVX
+Injected properties:
+Property: CI = 03263A-1
+Property: PART_NUMBER = EPCOS TPME158K004R0018
+Property: PART_DESCRIPTION = 1500uF 4V tantalum SMD capacitor, Case size: E
+Property: JEDEC_TYPE = CASE_E
+Property: OL_COMMENTS = Digikey 478-3627-1-ND
+Property: KL_COMMENTS = -
+Property: PL_COMMENTS = -
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_discret~
+e/cds_discrete.ptf
+ #7   ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
 
- ***************
- *  Packaging  *
- ***************
+Part Name: CAPACITOR_GS-2XX-800M,+/-20%,CAP-X
+Key properties:
+Property: PACK_TYPE = GS-2XX
+Property: VALUE = 800M
+Property: TOLERANCE = +/-20%
+Property: MANUF = CAP-X
+Injected properties:
+Property: CI = 03267A-1
+Property: PART_NUMBER = CAP-X GS208D
+Property: PART_DESCRIPTION = 800mF 4.5V SuperCapacitor
+Property: JEDEC_TYPE = GS-2XX
+Property: OL_COMMENTS = Free samples
+Property: KL_COMMENTS = -
+Property: PL_COMMENTS = -
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_discret~
+e/cds_discrete.ptf
+ #8   ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
 
+Part Name: CAPACITOR_1206-10N,+/-5%,AVX
+Key properties:
+Property: PACK_TYPE = 1206
+Property: VALUE = 10N
+Property: TOLERANCE = +/-5%
+Property: MANUF = AVX
+Injected properties:
+Property: CI = 03267B-1
+Property: PART_NUMBER = AXV 12063A103JAT2A
+Property: PART_DESCRIPTION = 10nF 25V 1206 C0G/NP0 +/- 30ppm/K
+Property: JEDEC_TYPE = SMD1206
+Property: OL_COMMENTS = Farnell 1658883
+Property: KL_COMMENTS = -
+Property: PL_COMMENTS = -
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_discret~
+e/cds_discrete.ptf
+ #9   ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
 
- *******************************
- *  End packaging  (00:00:00)  *
- *******************************
+Part Name: CAPACITOR_1206-10P,+/-5%,AVX
+Key properties:
+Property: PACK_TYPE = 1206
+Property: VALUE = 10P
+Property: TOLERANCE = +/-5%
+Property: MANUF = AVX
+Injected properties:
+Property: CI = 03267C-1
+Property: PART_NUMBER = AXV 1206GA100JAT2A
+Property: PART_DESCRIPTION = 10pF 2000V 1206 C0G/NP0 +/- 30ppm/K
+Property: JEDEC_TYPE = SMD1206
+Property: OL_COMMENTS = Farnell 1658883
+Property: KL_COMMENTS = -
+Property: PL_COMMENTS = -
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_discret~
+e/cds_discrete.ptf
+ #10  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
 
-Generating state file for subdesign PC023A_DAC_VTHRESH
+Part Name: CAPACITOR_MICA-10PF,160V
+Key properties:
+Property: VALUE = 10pF
+Property: VOLTAGE = 160V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 10pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 10PF 10% 100V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #11  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
 
-No errors detected
-No warnings detected
-    Start time   10:36:47
-    End time     10:36:48
+Part Name: CAPACITOR_MICA-12PF,160V
+Key properties:
+Property: VALUE = 12pF
+Property: VOLTAGE = 160V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 12pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 12PF 10% 100V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #12  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-15PF,160V
+Key properties:
+Property: VALUE = 15pF
+Property: VOLTAGE = 160V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 15pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 15PF 10% 100V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #13  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-18PF,160V
+Key properties:
+Property: VALUE = 18pF
+Property: VOLTAGE = 160V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 18pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 18PF 10% 100V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #14  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-22PF,160V
+Key properties:
+Property: VALUE = 22pF
+Property: VOLTAGE = 160V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 22pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 22PF 10% 100V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #15  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-27PF,160V
+Key properties:
+Property: VALUE = 27pF
+Property: VOLTAGE = 160V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 27pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 27PF 10% 100V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #16  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-33PF,160V
+Key properties:
+Property: VALUE = 33pF
+Property: VOLTAGE = 160V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 33pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 33PF 10% 100V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #17  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-39PF,160V
+Key properties:
+Property: VALUE = 39pF
+Property: VOLTAGE = 160V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 39pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 39PF 10% 100V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #18  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-47PF,160V
+Key properties:
+Property: VALUE = 47pF
+Property: VOLTAGE = 160V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 47pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 47PF 10% 100V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #19  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-56PF,160V
+Key properties:
+Property: VALUE = 56pF
+Property: VOLTAGE = 160V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 56pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 56PF 10% 100V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #20  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-68PF,160V
+Key properties:
+Property: VALUE = 68pF
+Property: VOLTAGE = 160V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 68pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 68PF 10% 100V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #21  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-82PF,160V
+Key properties:
+Property: VALUE = 82pF
+Property: VOLTAGE = 160V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 82pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 82PF 10% 100V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #22  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-100PF,160V
+Key properties:
+Property: VALUE = 100pF
+Property: VOLTAGE = 160V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 100pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 100PF 10% 100V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #23  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-120PF,160V
+Key properties:
+Property: VALUE = 120pF
+Property: VOLTAGE = 160V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 120pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 120PF 10% 100V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #24  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-150PF,160V
+Key properties:
+Property: VALUE = 150pF
+Property: VOLTAGE = 160V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 150pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 150PF 10% 100V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #25  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-180PF,160V
+Key properties:
+Property: VALUE = 180pF
+Property: VOLTAGE = 160V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 180pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 180PF 10% 100V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #26  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-220PF,160V
+Key properties:
+Property: VALUE = 220pF
+Property: VOLTAGE = 160V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 220pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 220PF 10% 100V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #27  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-270PF,160V
+Key properties:
+Property: VALUE = 270pF
+Property: VOLTAGE = 160V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 270pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 270PF 10% 100V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #28  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-330PF,160V
+Key properties:
+Property: VALUE = 330pF
+Property: VOLTAGE = 160V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 330pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 330PF 10% 100V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #29  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-470PF,160V
+Key properties:
+Property: VALUE = 470pF
+Property: VOLTAGE = 160V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 470pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 470PF 10% 100V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #30  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-470PF,63V
+Key properties:
+Property: VALUE = 470pF
+Property: VOLTAGE = 63V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 470pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 470PF 10% 63V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #31  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-560PF,63V
+Key properties:
+Property: VALUE = 560pF
+Property: VOLTAGE = 63V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 560pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 560PF 10% 63V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #32  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-680PF,63V
+Key properties:
+Property: VALUE = 680pF
+Property: VOLTAGE = 63V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 680pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 680PF 10% 63V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #33  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-820PF,63V
+Key properties:
+Property: VALUE = 820pF
+Property: VOLTAGE = 63V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 820pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 820PF 10% 63V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #34  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-1000PF,63V
+Key properties:
+Property: VALUE = 1000pF
+Property: VOLTAGE = 63V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 1000pF
+Property: JEDEC_TYPE = MIC60X35
+Property: PART_NUMBER = CA152 1000PF 10% 63V
+Property: MANUFACTURER = EUROFARAD
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #35  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-1.5NF,250V
+Key properties:
+Property: VALUE = 1.5nF
+Property: VOLTAGE = 250V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 1.5nF
+Property: JEDEC_TYPE = MIC131X48
+Property: PART_NUMBER = 10.16.05.215.5
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #36  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-1.8NF,250V
+Key properties:
+Property: VALUE = 1.8nF
+Property: VOLTAGE = 250V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 1.8nF
+Property: JEDEC_TYPE = MIC131X48
+Property: PART_NUMBER = 10.16.05.218.2
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #37  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-2.2NF,250V
+Key properties:
+Property: VALUE = 2.2nF
+Property: VOLTAGE = 250V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 2.2nF
+Property: JEDEC_TYPE = MIC131X48
+Property: PART_NUMBER = 10.16.05.222.6
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #38  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-2.7NF,250V
+Key properties:
+Property: VALUE = 2.7nF
+Property: VOLTAGE = 250V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 2.7nF
+Property: JEDEC_TYPE = MIC131X48
+Property: PART_NUMBER = 10.16.05.227.1
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #39  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-3.3NF,100V
+Key properties:
+Property: VALUE = 3.3nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 3.3nF
+Property: JEDEC_TYPE = MIC131X48
+Property: PART_NUMBER = 10.16.05.233.3
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #40  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-3.9NF,100V
+Key properties:
+Property: VALUE = 3.9nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 3.9nF
+Property: JEDEC_TYPE = MIC131X48
+Property: PART_NUMBER = 10.16.05.239.7
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #41  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-4.7NF,100V
+Key properties:
+Property: VALUE = 4.7nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 4.7nF
+Property: JEDEC_TYPE = MIC131X48
+Property: PART_NUMBER = 10.16.05.247.7
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #42  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-5.6NF,100V
+Key properties:
+Property: VALUE = 5.6nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 5.6nF
+Property: JEDEC_TYPE = MIC131X48
+Property: PART_NUMBER = 10.16.05.256.6
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #43  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-6.8NF,100V
+Key properties:
+Property: VALUE = 6.8nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 6.8nF
+Property: JEDEC_TYPE = MIC131X48
+Property: PART_NUMBER = 10.16.05.268.2
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #44  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MICA-8.2NF,100V
+Key properties:
+Property: VALUE = 8.2nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = MICA
+Injected properties:
+Property: VALUE = 8.2nF
+Property: JEDEC_TYPE = MIC131X48
+Property: PART_NUMBER = 10.16.05.282.4
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #45  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY2.54-10NF,50V
+Key properties:
+Property: VALUE = 10nF
+Property: VOLTAGE = 50V
+Property: PACK_TYPE = POLY2.54
+Injected properties:
+Property: VALUE = 10nF
+Property: JEDEC_TYPE = C50X32
+Property: PART_NUMBER = 10.35.06.300.7
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #46  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY2.54-15NF,50V
+Key properties:
+Property: VALUE = 15nF
+Property: VOLTAGE = 50V
+Property: PACK_TYPE = POLY2.54
+Injected properties:
+Property: VALUE = 15nF
+Property: JEDEC_TYPE = C50X32
+Property: PART_NUMBER = 10.35.06.315.0
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #47  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY2.54-22NF,50V
+Key properties:
+Property: VALUE = 22nF
+Property: VOLTAGE = 50V
+Property: PACK_TYPE = POLY2.54
+Injected properties:
+Property: VALUE = 22nF
+Property: JEDEC_TYPE = C50X32
+Property: PART_NUMBER = 10.35.06.322.1
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #48  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY2.54-33NF,50V
+Key properties:
+Property: VALUE = 33nF
+Property: VOLTAGE = 50V
+Property: PACK_TYPE = POLY2.54
+Injected properties:
+Property: VALUE = 33nF
+Property: JEDEC_TYPE = C50X32
+Property: PART_NUMBER = 10.35.06.333.8
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #49  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY2.54-47NF,50V
+Key properties:
+Property: VALUE = 47nF
+Property: VOLTAGE = 50V
+Property: PACK_TYPE = POLY2.54
+Injected properties:
+Property: VALUE = 47nF
+Property: JEDEC_TYPE = C50X32
+Property: PART_NUMBER = 10.35.06.347.2
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #50  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY2.54-68NF,50V
+Key properties:
+Property: VALUE = 68nF
+Property: VOLTAGE = 50V
+Property: PACK_TYPE = POLY2.54
+Injected properties:
+Property: VALUE = 68nF
+Property: JEDEC_TYPE = C50X32
+Property: PART_NUMBER = 10.35.06.368.7
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #51  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY2.54-100NF,50V
+Key properties:
+Property: VALUE = 100nF
+Property: VOLTAGE = 50V
+Property: PACK_TYPE = POLY2.54
+Injected properties:
+Property: VALUE = 100nF
+Property: JEDEC_TYPE = C50X32
+Property: PART_NUMBER = 10.35.06.400.4
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #52  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY5.08-1NF,63V
+Key properties:
+Property: VALUE = 1nF
+Property: VOLTAGE = 63V
+Property: PACK_TYPE = POLY5.08
+Injected properties:
+Property: VALUE = 1nF
+Property: JEDEC_TYPE = C72X25
+Property: PART_NUMBER = 10.35.07.200.6
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #53  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY5.08-1.5NF,63V
+Key properties:
+Property: VALUE = 1.5nF
+Property: VOLTAGE = 63V
+Property: PACK_TYPE = POLY5.08
+Injected properties:
+Property: VALUE = 1.5nF
+Property: JEDEC_TYPE = C72X25
+Property: PART_NUMBER = 10.35.07.215.9
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #54  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY5.08-2.2NF,63V
+Key properties:
+Property: VALUE = 2.2nF
+Property: VOLTAGE = 63V
+Property: PACK_TYPE = POLY5.08
+Injected properties:
+Property: VALUE = 2.2nF
+Property: JEDEC_TYPE = C72X25
+Property: PART_NUMBER = 10.35.07.222.0
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #55  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY5.08-3.3NF,63V
+Key properties:
+Property: VALUE = 3.3nF
+Property: VOLTAGE = 63V
+Property: PACK_TYPE = POLY5.08
+Injected properties:
+Property: VALUE = 3.3nF
+Property: JEDEC_TYPE = C72X25
+Property: PART_NUMBER = 10.35.07.233.7
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #56  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY5.08-4.7NF,63V
+Key properties:
+Property: VALUE = 4.7nF
+Property: VOLTAGE = 63V
+Property: PACK_TYPE = POLY5.08
+Injected properties:
+Property: VALUE = 4.7nF
+Property: JEDEC_TYPE = C72X25
+Property: PART_NUMBER = 10.35.07.247.1
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #57  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY5.08-6.8NF,63V
+Key properties:
+Property: VALUE = 6.8nF
+Property: VOLTAGE = 63V
+Property: PACK_TYPE = POLY5.08
+Injected properties:
+Property: VALUE = 6.8nF
+Property: JEDEC_TYPE = C72X25
+Property: PART_NUMBER = 10.35.07.268.6
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #58  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY5.08-10NF,63V
+Key properties:
+Property: VALUE = 10nF
+Property: VOLTAGE = 63V
+Property: PACK_TYPE = POLY5.08
+Injected properties:
+Property: VALUE = 10nF
+Property: JEDEC_TYPE = C72X25
+Property: PART_NUMBER = 10.35.07.300.3
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #59  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY5.08-15NF,63V
+Key properties:
+Property: VALUE = 15nF
+Property: VOLTAGE = 63V
+Property: PACK_TYPE = POLY5.08
+Injected properties:
+Property: VALUE = 15nF
+Property: JEDEC_TYPE = C72X25
+Property: PART_NUMBER = 10.35.07.315.6
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #60  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY5.08-22NF,63V
+Key properties:
+Property: VALUE = 22nF
+Property: VOLTAGE = 63V
+Property: PACK_TYPE = POLY5.08
+Injected properties:
+Property: VALUE = 22nF
+Property: JEDEC_TYPE = C72X25
+Property: PART_NUMBER = 10.35.07.322.7
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #61  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY5.08-33NF,63V
+Key properties:
+Property: VALUE = 33nF
+Property: VOLTAGE = 63V
+Property: PACK_TYPE = POLY5.08
+Injected properties:
+Property: VALUE = 33nF
+Property: JEDEC_TYPE = C72X25
+Property: PART_NUMBER = 10.35.07.333.4
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #62  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY5.08-47NF,63V
+Key properties:
+Property: VALUE = 47nF
+Property: VOLTAGE = 63V
+Property: PACK_TYPE = POLY5.08
+Injected properties:
+Property: VALUE = 47nF
+Property: JEDEC_TYPE = C72X25
+Property: PART_NUMBER = 10.35.07.347.8
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #63  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY5.08-68NF,63V
+Key properties:
+Property: VALUE = 68nF
+Property: VOLTAGE = 63V
+Property: PACK_TYPE = POLY5.08
+Injected properties:
+Property: VALUE = 68nF
+Property: JEDEC_TYPE = C72X25
+Property: PART_NUMBER = 10.35.07.368.3
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #64  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY5.08-100NF,50V
+Key properties:
+Property: VALUE = 100nF
+Property: VOLTAGE = 50V
+Property: PACK_TYPE = POLY5.08
+Injected properties:
+Property: VALUE = 100nF
+Property: JEDEC_TYPE = C72X25
+Property: PART_NUMBER = 10.35.07.400.0
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #65  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY5.08-150NF,50V
+Key properties:
+Property: VALUE = 150nF
+Property: VOLTAGE = 50V
+Property: PACK_TYPE = POLY5.08
+Injected properties:
+Property: VALUE = 150nF
+Property: JEDEC_TYPE = C72X25
+Property: PART_NUMBER = 10.35.07.415.3
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #66  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY5.08-220NF,50V
+Key properties:
+Property: VALUE = 220nF
+Property: VOLTAGE = 50V
+Property: PACK_TYPE = POLY5.08
+Injected properties:
+Property: VALUE = 220nF
+Property: JEDEC_TYPE = C72X35
+Property: PART_NUMBER = 10.35.07.422.4
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #67  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY5.08-330NF,50V
+Key properties:
+Property: VALUE = 330nF
+Property: VOLTAGE = 50V
+Property: PACK_TYPE = POLY5.08
+Injected properties:
+Property: VALUE = 330nF
+Property: JEDEC_TYPE = C72X35
+Property: PART_NUMBER = 10.35.07.433.1
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #68  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY5.08-470NF,50V
+Key properties:
+Property: VALUE = 470nF
+Property: VOLTAGE = 50V
+Property: PACK_TYPE = POLY5.08
+Injected properties:
+Property: VALUE = 470nF
+Property: JEDEC_TYPE = C72X55
+Property: PART_NUMBER = 10.35.07.447.5
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #69  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY5.08-680NF,50V
+Key properties:
+Property: VALUE = 680nF
+Property: VOLTAGE = 50V
+Property: PACK_TYPE = POLY5.08
+Injected properties:
+Property: VALUE = 680nF
+Property: JEDEC_TYPE = C72X55
+Property: PART_NUMBER = 10.35.07.468.0
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #70  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLY5.08-1000NF,50V
+Key properties:
+Property: VALUE = 1000nF
+Property: VOLTAGE = 50V
+Property: PACK_TYPE = POLY5.08
+Injected properties:
+Property: VALUE = 1000nF
+Property: JEDEC_TYPE = C72X55
+Property: PART_NUMBER = 10.35.07.500.7
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #71  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYMET-1NF,100V
+Key properties:
+Property: VALUE = 1nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYMET
+Injected properties:
+Property: VALUE = 1nF
+Property: JEDEC_TYPE = C105X50
+Property: PART_NUMBER = 10.36.01.010.8
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #72  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYMET-1.5NF,100V
+Key properties:
+Property: VALUE = 1.5nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYMET
+Injected properties:
+Property: VALUE = 1.5nF
+Property: JEDEC_TYPE = C105X50
+Property: PART_NUMBER = 10.36.01.015.3
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #73  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYMET-2.2NF,100V
+Key properties:
+Property: VALUE = 2.2nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYMET
+Injected properties:
+Property: VALUE = 2.2nF
+Property: JEDEC_TYPE = C105X50
+Property: PART_NUMBER = 10.36.01.022.4
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #74  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYMET-3.3NF,100V
+Key properties:
+Property: VALUE = 3.3nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYMET
+Injected properties:
+Property: VALUE = 3.3nF
+Property: JEDEC_TYPE = C105X50
+Property: PART_NUMBER = 10.36.01.033.1
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #75  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYMET-4.7NF,100V
+Key properties:
+Property: VALUE = 4.7nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYMET
+Injected properties:
+Property: VALUE = 4.7nF
+Property: JEDEC_TYPE = C105X50
+Property: PART_NUMBER = 10.36.01.047.5
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #76  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYMET-6.8NF,100V
+Key properties:
+Property: VALUE = 6.8nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYMET
+Injected properties:
+Property: VALUE = 6.8nF
+Property: JEDEC_TYPE = C105X50
+Property: PART_NUMBER = 10.36.01.068.0
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #77  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYMET-10NF,100V
+Key properties:
+Property: VALUE = 10nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYMET
+Injected properties:
+Property: VALUE = 10nF
+Property: JEDEC_TYPE = C105X50
+Property: PART_NUMBER = 10.36.01.100.7
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #78  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYMET-15NF,100V
+Key properties:
+Property: VALUE = 15nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYMET
+Injected properties:
+Property: VALUE = 15nF
+Property: JEDEC_TYPE = C105X50
+Property: PART_NUMBER = 10.36.01.150.9
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #79  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYMET-22NF,100V
+Key properties:
+Property: VALUE = 22nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYMET
+Injected properties:
+Property: VALUE = 22nF
+Property: JEDEC_TYPE = C105X50
+Property: PART_NUMBER = 10.36.01.220.0
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #80  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYMET-33NF,100V
+Key properties:
+Property: VALUE = 33nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYMET
+Injected properties:
+Property: VALUE = 33nF
+Property: JEDEC_TYPE = C105X50
+Property: PART_NUMBER = 10.36.01.330.5
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #81  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYMET-47NF,100V
+Key properties:
+Property: VALUE = 47nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYMET
+Injected properties:
+Property: VALUE = 47nF
+Property: JEDEC_TYPE = C105X50
+Property: PART_NUMBER = 10.36.01.470.4
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #82  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYMET-68NF,100V
+Key properties:
+Property: VALUE = 68nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYMET
+Injected properties:
+Property: VALUE = 68nF
+Property: JEDEC_TYPE = C105X50
+Property: PART_NUMBER = 10.36.01.680.6
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #83  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYMET-100NF,100V
+Key properties:
+Property: VALUE = 100nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYMET
+Injected properties:
+Property: VALUE = 100nF
+Property: JEDEC_TYPE = C105X50
+Property: PART_NUMBER = 10.36.01.700.9
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #84  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYMET-11NF,100VCC
+Key properties:
+Property: VALUE = 11nF
+Property: VOLTAGE = 100VCC
+Property: PACK_TYPE = POLYMET
+Injected properties:
+Property: VALUE = 11nF
+Property: JEDEC_TYPE = C74X74
+Property: PART_NUMBER = 10.36.PHE425DB5100F
+Property: MANUFACTURER = EVOX-RIFA
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #85  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYMET-12NF,100VCC
+Key properties:
+Property: VALUE = 12nF
+Property: VOLTAGE = 100VCC
+Property: PACK_TYPE = POLYMET
+Injected properties:
+Property: VALUE = 12nF
+Property: JEDEC_TYPE = C74X74
+Property: PART_NUMBER = 10.36.PHE425DB5200F
+Property: MANUFACTURER = EVOX-RIFA
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #86  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYMET-15NF,100VCC
+Key properties:
+Property: VALUE = 15nF
+Property: VOLTAGE = 100VCC
+Property: PACK_TYPE = POLYMET
+Injected properties:
+Property: VALUE = 15nF
+Property: JEDEC_TYPE = C74X74
+Property: PART_NUMBER = 10.36.PHE425DB5150F
+Property: MANUFACTURER = EVOX-RIFA
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #87  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYMET-18NF,100VCC
+Key properties:
+Property: VALUE = 18nF
+Property: VOLTAGE = 100VCC
+Property: PACK_TYPE = POLYMET
+Injected properties:
+Property: VALUE = 18nF
+Property: JEDEC_TYPE = C74X74
+Property: PART_NUMBER = 10.36.PHE425DB5180F
+Property: MANUFACTURER = EVOX-RIFA
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #88  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYMET-22NF,100VCC
+Key properties:
+Property: VALUE = 22nF
+Property: VOLTAGE = 100VCC
+Property: PACK_TYPE = POLYMET
+Injected properties:
+Property: VALUE = 22nF
+Property: JEDEC_TYPE = C74X74
+Property: PART_NUMBER = 10.36.PHE425DB5220F
+Property: MANUFACTURER = EVOX-RIFA
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #89  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYMET-27NF,100VCC
+Key properties:
+Property: VALUE = 27nF
+Property: VOLTAGE = 100VCC
+Property: PACK_TYPE = POLYMET
+Injected properties:
+Property: VALUE = 27nF
+Property: JEDEC_TYPE = C74X74
+Property: PART_NUMBER = 10.36.PHE425DB5270F
+Property: MANUFACTURER = EVOX-RIFA
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #90  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYMET-33NF,100VCC
+Key properties:
+Property: VALUE = 33nF
+Property: VOLTAGE = 100VCC
+Property: PACK_TYPE = POLYMET
+Injected properties:
+Property: VALUE = 33nF
+Property: JEDEC_TYPE = C74X74
+Property: PART_NUMBER = 10.36.PHE425DB5330F
+Property: MANUFACTURER = EVOX-RIFA
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #91  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYMET-75NF,100VCC
+Key properties:
+Property: VALUE = 75nF
+Property: VOLTAGE = 100VCC
+Property: PACK_TYPE = POLYMET
+Injected properties:
+Property: VALUE = 75nF
+Property: JEDEC_TYPE = C74X74
+Property: PART_NUMBER = 10.36.PHE425DB5750F
+Property: MANUFACTURER = EVOX-RIFA
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #92  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYMET-100NF,100VCC
+Key properties:
+Property: VALUE = 100nF
+Property: VOLTAGE = 100VCC
+Property: PACK_TYPE = POLYMET
+Injected properties:
+Property: VALUE = 100nF
+Property: JEDEC_TYPE = C74X74
+Property: PART_NUMBER = 10.36.PHE425DB6100F
+Property: MANUFACTURER = EVOX-RIFA
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #93  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYMET-110NF,100VCC
+Key properties:
+Property: VALUE = 110nF
+Property: VOLTAGE = 100VCC
+Property: PACK_TYPE = POLYMET
+Injected properties:
+Property: VALUE = 110nF
+Property: JEDEC_TYPE = C74X74
+Property: PART_NUMBER = 10.36.PHE425DB6110F
+Property: MANUFACTURER = EVOX-RIFA
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #94  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYPROP-0.01UF,100V
+Key properties:
+Property: VALUE = 0.01uF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYPROP
+Injected properties:
+Property: VALUE = 0.01uF
+Property: JEDEC_TYPE = C75X55
+Property: PART_NUMBER = 10.36.166-6421
+Property: MANUFACTURER = RADIOSPARES
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #95  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYPROP-0.015UF,100V
+Key properties:
+Property: VALUE = 0.015uF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYPROP
+Injected properties:
+Property: VALUE = 0.015uF
+Property: JEDEC_TYPE = C75X55
+Property: PART_NUMBER = 10.36.166-6437
+Property: MANUFACTURER = RADIOSPARES
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #96  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYPROP-0.022UF,100V
+Key properties:
+Property: VALUE = 0.022uF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYPROP
+Injected properties:
+Property: VALUE = 0.022uF
+Property: JEDEC_TYPE = C75X55
+Property: PART_NUMBER = 10.36.166-6443
+Property: MANUFACTURER = RADIOSPARES
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #97  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYPROP-0.033UF,100V
+Key properties:
+Property: VALUE = 0.033uF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYPROP
+Injected properties:
+Property: VALUE = 0.033uF
+Property: JEDEC_TYPE = C75X75
+Property: PART_NUMBER = 10.36.166-6459
+Property: MANUFACTURER = RADIOSPARES
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #98  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYPROP-0.047UF,100V
+Key properties:
+Property: VALUE = 0.047uF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYPROP
+Injected properties:
+Property: VALUE = 0.047uF
+Property: JEDEC_TYPE = C75X75
+Property: PART_NUMBER = 10.36.166-6465
+Property: MANUFACTURER = RADIOSPARES
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #99  ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYPROP-0.068UF,100V
+Key properties:
+Property: VALUE = 0.068uF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYPROP
+Injected properties:
+Property: VALUE = 0.068uF
+Property: JEDEC_TYPE = C75X75
+Property: PART_NUMBER = 10.36.166-6471
+Property: MANUFACTURER = RADIOSPARES
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #100 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYPROP-0.1UF,100V
+Key properties:
+Property: VALUE = 0.1uF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYPROP
+Injected properties:
+Property: VALUE = 0.1uF
+Property: JEDEC_TYPE = C75X90
+Property: PART_NUMBER = 10.36.166-6487
+Property: MANUFACTURER = RADIOSPARES
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #101 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MKL-0.1UF,100V
+Key properties:
+Property: VALUE = 0.1uF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = MKL
+Injected properties:
+Property: VALUE = 0.1uF
+Property: JEDEC_TYPE = CHA185X64
+Property: PART_NUMBER = 10.36.06.210.2
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #102 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MKL-0.22UF,100V
+Key properties:
+Property: VALUE = 0.22uF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = MKL
+Injected properties:
+Property: VALUE = 0.22uF
+Property: JEDEC_TYPE = CHA185X64
+Property: PART_NUMBER = 10.36.06.214.8
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #103 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MKL-0.47UF,100V
+Key properties:
+Property: VALUE = 0.47uF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = MKL
+Injected properties:
+Property: VALUE = 0.47uF
+Property: JEDEC_TYPE = CHA210X94
+Property: PART_NUMBER = 10.36.06.218.4
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #104 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MKL-1UF,100V
+Key properties:
+Property: VALUE = 1uF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = MKL
+Injected properties:
+Property: VALUE = 1uF
+Property: JEDEC_TYPE = CHA210X94
+Property: PART_NUMBER = 10.36.06.222.8
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #105 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MKL-2.2UF,100V
+Key properties:
+Property: VALUE = 2.2uF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = MKL
+Injected properties:
+Property: VALUE = 2.2uF
+Property: JEDEC_TYPE = CHA250X105
+Property: PART_NUMBER = 10.36.06.226.4
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #106 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MKL-4.7UF,100V
+Key properties:
+Property: VALUE = 4.7uF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = MKL
+Injected properties:
+Property: VALUE = 4.7uF
+Property: JEDEC_TYPE = CHA340X117
+Property: PART_NUMBER = 10.36.06.230.8
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #107 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MKL-10UF,100V
+Key properties:
+Property: VALUE = 10uF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = MKL
+Injected properties:
+Property: VALUE = 10uF
+Property: JEDEC_TYPE = CHA340X167
+Property: PART_NUMBER = 10.36.06.234.4
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #108 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MKP-100NF,1250V
+Key properties:
+Property: VALUE = 100nF
+Property: VOLTAGE = 1250V
+Property: PACK_TYPE = MKP
+Injected properties:
+Property: VALUE = 100nF_1250Vcc
+Property: JEDEC_TYPE = C110X265_225
+Property: PART_NUMBER = B32653A7104K
+Property: MANUFACTURER = EPCOS
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #109 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_MKP-150PF,630V
+Key properties:
+Property: VALUE = 150pF
+Property: VOLTAGE = 630V
+Property: PACK_TYPE = MKP
+Injected properties:
+Property: VALUE = 150pF_630Vcc
+Property: JEDEC_TYPE = C180X85
+Property: PART_NUMBER = B32652A6154K
+Property: MANUFACTURER = EPCOS
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #110 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYRECT-10NF,250V
+Key properties:
+Property: VALUE = 10nF
+Property: VOLTAGE = 250V
+Property: PACK_TYPE = POLYRECT
+Injected properties:
+Property: VALUE = 10nF
+Property: JEDEC_TYPE = C125X50
+Property: PART_NUMBER = 10.36.06.610.0
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #111 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYRECT-15NF,250V
+Key properties:
+Property: VALUE = 15nF
+Property: VOLTAGE = 250V
+Property: PACK_TYPE = POLYRECT
+Injected properties:
+Property: VALUE = 15nF
+Property: JEDEC_TYPE = C125X50
+Property: PART_NUMBER = 10.36.06.615.5
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #112 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYRECT-22NF,250V
+Key properties:
+Property: VALUE = 22nF
+Property: VOLTAGE = 250V
+Property: PACK_TYPE = POLYRECT
+Injected properties:
+Property: VALUE = 22nF
+Property: JEDEC_TYPE = C125X50
+Property: PART_NUMBER = 10.36.06.622.6
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #113 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYRECT-33NF,250V
+Key properties:
+Property: VALUE = 33nF
+Property: VOLTAGE = 250V
+Property: PACK_TYPE = POLYRECT
+Injected properties:
+Property: VALUE = 33nF
+Property: JEDEC_TYPE = C125X50
+Property: PART_NUMBER = 10.36.06.633.3
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #114 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYRECT-47NF,250V
+Key properties:
+Property: VALUE = 47nF
+Property: VOLTAGE = 250V
+Property: PACK_TYPE = POLYRECT
+Injected properties:
+Property: VALUE = 47nF
+Property: JEDEC_TYPE = C125X50
+Property: PART_NUMBER = 10.36.06.647.7
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #115 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYRECT-68NF,250V
+Key properties:
+Property: VALUE = 68nF
+Property: VOLTAGE = 250V
+Property: PACK_TYPE = POLYRECT
+Injected properties:
+Property: VALUE = 68nF
+Property: JEDEC_TYPE = C125X50
+Property: PART_NUMBER = 10.36.06.668.2
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #116 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYRECT-100NF,250V
+Key properties:
+Property: VALUE = 100nF
+Property: VOLTAGE = 250V
+Property: PACK_TYPE = POLYRECT
+Injected properties:
+Property: VALUE = 100nF
+Property: JEDEC_TYPE = C125X50
+Property: PART_NUMBER = 10.36.06.700.9
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #117 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYRECT-150NF,250V
+Key properties:
+Property: VALUE = 150nF
+Property: VOLTAGE = 250V
+Property: PACK_TYPE = POLYRECT
+Injected properties:
+Property: VALUE = 150nF
+Property: JEDEC_TYPE = C175X70
+Property: PART_NUMBER = 10.36.06.718.9
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #118 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYRECT-220NF,250V
+Key properties:
+Property: VALUE = 220nF
+Property: VOLTAGE = 250V
+Property: PACK_TYPE = POLYRECT
+Injected properties:
+Property: VALUE = 220nF
+Property: JEDEC_TYPE = C175X70
+Property: PART_NUMBER = 10.36.06.725.0
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #119 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYRECT-330NF,250V
+Key properties:
+Property: VALUE = 330nF
+Property: VOLTAGE = 250V
+Property: PACK_TYPE = POLYRECT
+Injected properties:
+Property: VALUE = 330nF
+Property: JEDEC_TYPE = C175X70
+Property: PART_NUMBER = 10.36.06.738.5
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #120 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYRECT-470NF,250V
+Key properties:
+Property: VALUE = 470nF
+Property: VOLTAGE = 250V
+Property: PACK_TYPE = POLYRECT
+Injected properties:
+Property: VALUE = 470nF
+Property: JEDEC_TYPE = C260X75
+Property: PART_NUMBER = 10.36.06.750.9
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #121 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYRECT-680NF,250V
+Key properties:
+Property: VALUE = 680nF
+Property: VOLTAGE = 250V
+Property: PACK_TYPE = POLYRECT
+Injected properties:
+Property: VALUE = 680nF
+Property: JEDEC_TYPE = C260X75
+Property: PART_NUMBER = 10.36.06.771.4
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #122 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYRECT-1UF,250V
+Key properties:
+Property: VALUE = 1uF
+Property: VOLTAGE = 250V
+Property: PACK_TYPE = POLYRECT
+Injected properties:
+Property: VALUE = 1uF
+Property: JEDEC_TYPE = C260X75
+Property: PART_NUMBER = 10.36.06.803.3
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #123 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYRECT-1.5UF,250V
+Key properties:
+Property: VALUE = 1.5uF
+Property: VOLTAGE = 250V
+Property: PACK_TYPE = POLYRECT
+Injected properties:
+Property: VALUE = 1.5uF
+Property: JEDEC_TYPE = C300X105
+Property: PART_NUMBER = 10.36.06.818.6
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #124 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYRECT-2.2UF,250V
+Key properties:
+Property: VALUE = 2.2uF
+Property: VOLTAGE = 250V
+Property: PACK_TYPE = POLYRECT
+Injected properties:
+Property: VALUE = 2.2uF
+Property: JEDEC_TYPE = C300X105
+Property: PART_NUMBER = 10.36.06.825.7
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #125 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYCARB-0.22NF,100V
+Key properties:
+Property: VALUE = 0.22nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYCARB
+Injected properties:
+Property: VALUE = 0.22nF
+Property: JEDEC_TYPE = C72X25
+Property: PART_NUMBER = 10.41.29.122.2
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #126 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYCARB-0.33NF,100V
+Key properties:
+Property: VALUE = 0.33nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYCARB
+Injected properties:
+Property: VALUE = 0.33nF
+Property: JEDEC_TYPE = C72X25
+Property: PART_NUMBER = 10.41.29.133.9
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #127 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYCARB-0.47NF,100V
+Key properties:
+Property: VALUE = 0.47nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYCARB
+Injected properties:
+Property: VALUE = 0.47nF
+Property: JEDEC_TYPE = C72X25
+Property: PART_NUMBER = 10.41.29.147.3
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #128 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYCARB-0.68NF,100V
+Key properties:
+Property: VALUE = 0.68nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYCARB
+Injected properties:
+Property: VALUE = 0.68nF
+Property: JEDEC_TYPE = C72X25
+Property: PART_NUMBER = 10.41.29.168.8
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #129 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYCARB-1NF,100V
+Key properties:
+Property: VALUE = 1nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYCARB
+Injected properties:
+Property: VALUE = 1nF
+Property: JEDEC_TYPE = C72X25
+Property: PART_NUMBER = 10.41.29.200.5
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #130 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYCARB-1.5NF,100V
+Key properties:
+Property: VALUE = 1.5nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYCARB
+Injected properties:
+Property: VALUE = 1.5nF
+Property: JEDEC_TYPE = C72X25
+Property: PART_NUMBER = 10.41.29.215.8
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #131 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYCARB-2.2NF,100V
+Key properties:
+Property: VALUE = 2.2nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYCARB
+Injected properties:
+Property: VALUE = 2.2nF
+Property: JEDEC_TYPE = C72X25
+Property: PART_NUMBER = 10.41.29.222.9
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #132 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYCARB-3.3NF,100V
+Key properties:
+Property: VALUE = 3.3nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYCARB
+Injected properties:
+Property: VALUE = 3.3nF
+Property: JEDEC_TYPE = C72X25
+Property: PART_NUMBER = 10.41.29.233.6
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #133 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYCARB-4.7NF,100V
+Key properties:
+Property: VALUE = 4.7nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYCARB
+Injected properties:
+Property: VALUE = 4.7nF
+Property: JEDEC_TYPE = C72X25
+Property: PART_NUMBER = 10.41.29.247.0
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #134 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYCARB-6.8NF,100V
+Key properties:
+Property: VALUE = 6.8nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYCARB
+Injected properties:
+Property: VALUE = 6.8nF
+Property: JEDEC_TYPE = C72X45
+Property: PART_NUMBER = 10.41.29.268.5
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #135 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYCARB-10NF,100V
+Key properties:
+Property: VALUE = 10nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYCARB
+Injected properties:
+Property: VALUE = 10nF
+Property: JEDEC_TYPE = C72X45
+Property: PART_NUMBER = 10.41.29.300.2
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #136 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYCARB-150NF,100V
+Key properties:
+Property: VALUE = 150nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYCARB
+Injected properties:
+Property: VALUE = 150nF
+Property: JEDEC_TYPE = C130X50
+Property: PART_NUMBER = 10.41.30.015.5
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #137 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYCARB-220NF,100V
+Key properties:
+Property: VALUE = 220nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYCARB
+Injected properties:
+Property: VALUE = 220nF
+Property: JEDEC_TYPE = C130X50
+Property: PART_NUMBER = 10.41.30.022.6
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #138 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYCARB-330NF,100V
+Key properties:
+Property: VALUE = 330nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYCARB
+Injected properties:
+Property: VALUE = 330nF
+Property: JEDEC_TYPE = C180X70
+Property: PART_NUMBER = 10.41.30.033.3
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #139 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYCARB-470NF,100V
+Key properties:
+Property: VALUE = 470nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYCARB
+Injected properties:
+Property: VALUE = 470nF
+Property: JEDEC_TYPE = C180X70
+Property: PART_NUMBER = 10.41.30.047.7
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #140 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYCARB-680NF,100V
+Key properties:
+Property: VALUE = 680nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYCARB
+Injected properties:
+Property: VALUE = 680nF
+Property: JEDEC_TYPE = C180X70
+Property: PART_NUMBER = 10.41.30.068.2
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #141 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_POLYCARB-1000NF,100V
+Key properties:
+Property: VALUE = 1000nF
+Property: VOLTAGE = 100V
+Property: PACK_TYPE = POLYCARB
+Injected properties:
+Property: VALUE = 1000nF
+Property: JEDEC_TYPE = C180X70
+Property: PART_NUMBER = 10.41.30.300.2
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #142 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_PAPMETAL-0.1UF,700V
+Key properties:
+Property: VALUE = 0.1uF
+Property: VOLTAGE = 700V
+Property: PACK_TYPE = PAPMETAL
+Injected properties:
+Property: VALUE = 0.1uF
+Property: JEDEC_TYPE = C320X160
+Property: PART_NUMBER = 10.31.14.010.1
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #143 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_PAPMETAL-0.25UF,700V
+Key properties:
+Property: VALUE = 0.25uF
+Property: VOLTAGE = 700V
+Property: PACK_TYPE = PAPMETAL
+Injected properties:
+Property: VALUE = 0.25uF
+Property: JEDEC_TYPE = C320X160
+Property: PART_NUMBER = 10.31.14.025.4
+Property: MANUFACTURER = 
+Property: DESCRIPTION = 
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #144 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_PPSMETAL-2.2NF,50V
+Key properties:
+Property: VALUE = 2.2nF
+Property: VOLTAGE = 50V
+Property: PACK_TYPE = PPSMETAL
+Injected properties:
+Property: VALUE = 2.2nF
+Property: JEDEC_TYPE = CAPC2012X90N
+Property: PART_NUMBER = ECHU1H222GX5
+Property: MANUFACTURER = PANASONIC
+Property: DESCRIPTION = Stacked Metallized PPS Film Chip Capacitor
+Property: PREFERRED = NON
+Property: DATASHEET = file://cern.ch/dfs/Services/cdslib/Datasheets/cap_panaso~
+nic_echu.pdf
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #145 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_PPSMETAL-180NF,50V
+Key properties:
+Property: VALUE = 180nF
+Property: VOLTAGE = 50V
+Property: PACK_TYPE = PPSMETAL
+Injected properties:
+Property: VALUE = 180nF
+Property: JEDEC_TYPE = CAPC6041X250N
+Property: PART_NUMBER = ECHU1H184GX9
+Property: MANUFACTURER = PANASONIC
+Property: DESCRIPTION = Stacked Metallized PPS Film Chip Capacitor
+Property: PREFERRED = NON
+Property: DATASHEET = file://cern.ch/dfs/Services/cdslib/Datasheets/cap_panaso~
+nic_echu.pdf
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #146 ERROR(SPCODD-217): Following part row for PPT 'CAPACITOR' was not merged:
+
+Part Name: CAPACITOR_PPSMETAL-220NF,50V
+Key properties:
+Property: VALUE = 220nF
+Property: VOLTAGE = 50V
+Property: PACK_TYPE = PPSMETAL
+Injected properties:
+Property: VALUE = 220nF
+Property: JEDEC_TYPE = CAPC6041X280N
+Property: PART_NUMBER = ECHU1H224GX9
+Property: MANUFACTURER = PANASONIC
+Property: DESCRIPTION = Stacked Metallized PPS Film Chip Capacitor
+Property: PREFERRED = NON
+Property: DATASHEET = file://cern.ch/dfs/Services/cdslib/Datasheets/cap_panaso~
+nic_echu.pdf
+INFO(SPCODD-222): PPT part row loaded from file:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #147 ERROR(SPCODD-221): PPT 'CAPACITOR' was loaded from the following files:
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_discret~
+e/cds_discrete.ptf
+INFO(SPCODD-223): 	/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_lib~
+s/pe16/parttables/cnpassive.ptf
+ #148 ERROR(SPCODD-47): Packaging can not complete because the file /projects/~
+HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/p~
+c023a_dac_vthresh/packaged/pxl.state could not be loaded. There might be synta~
+x errors in this file. Ensure that the syntax is correct before proceeding.
+INFO(SPCOPK-1441): 148 errors detected
+INFO(SPCOPK-1444): No warnings detected
+INFO(SPCOPK-1448): Use Tools->Markers->Packager in ConceptHDL to highlight ins~
+tances for the errors/warnings reported.
+    Start time   12:26:17
+    End time     12:26:18
     CPU time      0:00:00
     Elapsed time  0:00:01
 
- *********************************
- *  Packager-XL execution done.  *
- *********************************
+ **************************************************
+ *  FATAL ERROR PackagerXL exiting with status 2  *
+ **************************************************
 
