@@ -1,0 +1,130 @@
+<schema xmlns="http://www.cadence.com/spb/csschema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.cadence.com/spb/csschema CSSchema002.xsd">
+  <header>
+    <schemaVersion>16.5</schemaVersion>
+    <creatorTool>csnetlister</creatorTool>
+    <modifierTool>csnetlister</modifierTool>
+    <modificationTime>2012-03-16T12:26:14</modificationTime>
+    <savedLibrary>fmc_tlu_v1_lib</savedLibrary>
+  </header>
+  <designs>
+    <design schemaType="nameBased" name="fmc_tlu_2-5ns_delay" view="sch_1">
+      <lastids>
+        <netid>8</netid>
+      </lastids>
+      <cells>
+      </cells>
+      <nets>
+        <net>
+          <id>N1</id>
+          <name>in</name>
+          <scope>interface</scope>
+          <direction>input</direction>
+        </net>
+        <net>
+          <id>N2</id>
+          <name>page1_in</name>
+        </net>
+        <net>
+          <id>N3</id>
+          <name>in*</name>
+          <scope>interface</scope>
+          <direction>input</direction>
+        </net>
+        <net>
+          <id>N4</id>
+          <name>page1_in*</name>
+        </net>
+        <net>
+          <id>N5</id>
+          <name>out</name>
+          <scope>interface</scope>
+          <direction>output</direction>
+        </net>
+        <net>
+          <id>N6</id>
+          <name>page1_out</name>
+        </net>
+        <net>
+          <id>N7</id>
+          <name>out*</name>
+          <scope>interface</scope>
+          <direction>output</direction>
+        </net>
+        <net>
+          <id>N8</id>
+          <name>page1_out*</name>
+        </net>
+      </nets>
+      <aliases>
+        <alias net1="N2" lsb1="-1" msb1="-1" net2="N1" lsb2="-1" msb2="-1" />
+        <alias net1="N4" lsb1="-1" msb1="-1" net2="N3" lsb2="-1" msb2="-1" />
+        <alias net1="N6" lsb1="-1" msb1="-1" net2="N2" lsb2="-1" msb2="-1" />
+        <alias net1="N6" lsb1="-1" msb1="-1" net2="N5" lsb2="-1" msb2="-1" />
+        <alias net1="N8" lsb1="-1" msb1="-1" net2="N4" lsb2="-1" msb2="-1" />
+        <alias net1="N8" lsb1="-1" msb1="-1" net2="N7" lsb2="-1" msb2="-1" />
+      </aliases>
+      <differentialnets>
+      </differentialnets>
+      <differentialbusnets>
+      </differentialbusnets>
+      <netgroups>
+      </netgroups>
+      <netinterfaces>
+      </netinterfaces>
+      <instances>
+      </instances>
+      <templateresolutions>
+      </templateresolutions>
+      <templateinstances>
+      </templateinstances>
+      <extensions>
+        <extension name="schematic_extension">
+        <schematicExtension>
+        <netScopes>
+          <netScope ref="in">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>input</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="in*">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>input</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="out">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>output</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="out*">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>output</direction>
+            </pageScope>
+          </netScope>
+        </netScopes>
+        <pages>
+          <page number="1">
+            <physicalPageNumber>1</physicalPageNumber>
+            <errorStatus>false</errorStatus>
+            <nets>
+              <net ref="in"></net>
+              <net ref="in*"></net>
+              <net ref="out"></net>
+              <net ref="out*"></net>
+            </nets>
+            <instances>
+            </instances>
+          </page>
+        </pages>
+      </schematicExtension>
+        </extension>
+      </extensions>
+    </design>
+  </designs>
+</schema>

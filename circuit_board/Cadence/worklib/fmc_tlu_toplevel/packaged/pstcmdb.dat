@@ -1,0 +1,2530 @@
+; Packager-XL run on 16-Mar-2012 AT 12:26:19 CONSTRAINTS_VIEW_GENERATED
+( ConstraintFile "fmc_tlu_toplevel"
+	( constraintHeader
+		( objectKey
+			( physical )
+		)
+		( version
+			( 16.5 )
+		)
+		( revisionNumber
+			( logicalViewRevNum 3 )
+			( physicalViewRevNum 0 )
+			( otherViewRevNum 0 )
+		)
+		( contents
+			( dictionaryExtensions )
+			( worksheetCustomizations )
+			( electricalConstraints )
+			( netClasses )
+			( properties )
+		)
+		( precision
+			( units mil )
+			( numberOfDecimalPlaces 2 )
+		)
+	)
+	( DictionaryExtensions
+		( Attribute
+			( Name "CDS_LMAN_SYM_OUTLINE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TYPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "DIST" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MAX_TEMP" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NEGTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POSTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POWER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SLOPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC1" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC2" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TOL_ON_OFF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MANUF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "ABBREV" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+	)
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "fmc_tlu_toplevel"
+				( objectFlag fObjectReadOnly )
+				( objectStatus sObjectLogicalNet )
+			)
+			( signal "GND_SIGNAL"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):gnd_signal" )
+			)
+			( signal "P2V5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):p2v5" )
+			)
+			( signal "P3V3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):p3v3" )
+			)
+			( signal "SCL"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):scl" )
+			)
+			( signal "SDA"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):sda" )
+			)
+			( signal "UNNAMED_1_PC036AFMCLPCCONNECTOR"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_1_pc036afmclpcconnector_i2_fmcclk0m2c" )
+			)
+			( signal "UNNAMED_1_PC036AFMCLPCCONNECT_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_1_pc036afmclpcconnector_i2_fmcclk0m2c_1" )
+			)
+			( signal "FMC_LA<0>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(0)" )
+			)
+			( signal "FMC_LA<1>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(1)" )
+			)
+			( signal "FMC_LA<2>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(2)" )
+			)
+			( signal "FMC_LA<3>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(3)" )
+			)
+			( signal "FMC_LA<4>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(4)" )
+			)
+			( signal "FMC_LA<5>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(5)" )
+			)
+			( signal "FMC_LA<6>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(6)" )
+			)
+			( signal "FMC_LA<7>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(7)" )
+			)
+			( signal "FMC_LA<8>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(8)" )
+			)
+			( signal "FMC_LA<9>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(9)" )
+			)
+			( signal "FMC_LA<10>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(10)" )
+			)
+			( signal "FMC_LA<11>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(11)" )
+			)
+			( signal "FMC_LA<12>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(12)" )
+			)
+			( signal "FMC_LA<13>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(13)" )
+			)
+			( signal "FMC_LA<14>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(14)" )
+			)
+			( signal "FMC_LA<15>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(15)" )
+			)
+			( signal "FMC_LA<16>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(16)" )
+			)
+			( signal "FMC_LA<17>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(17)" )
+			)
+			( signal "FMC_LA<18>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(18)" )
+			)
+			( signal "FMC_LA<19>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(19)" )
+			)
+			( signal "FMC_LA<20>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(20)" )
+			)
+			( signal "FMC_LA<21>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(21)" )
+			)
+			( signal "FMC_LA<22>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(22)" )
+			)
+			( signal "FMC_LA<23>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(23)" )
+			)
+			( signal "FMC_LA<24>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(24)" )
+			)
+			( signal "FMC_LA<25>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(25)" )
+			)
+			( signal "FMC_LA<26>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(26)" )
+			)
+			( signal "FMC_LA<27>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(27)" )
+			)
+			( signal "FMC_LA<28>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(28)" )
+			)
+			( signal "FMC_LA<29>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(29)" )
+			)
+			( signal "FMC_LA<30>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(30)" )
+			)
+			( signal "FMC_LA<31>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(31)" )
+			)
+			( signal "FMC_LA<32>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(32)" )
+			)
+			( signal "FMC_LA<33>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(33)" )
+			)
+			( signal "FMC_LA*<0>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(0)" )
+			)
+			( signal "FMC_LA*<1>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(1)" )
+			)
+			( signal "FMC_LA*<2>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(2)" )
+			)
+			( signal "FMC_LA*<3>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(3)" )
+			)
+			( signal "FMC_LA*<4>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(4)" )
+			)
+			( signal "FMC_LA*<5>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(5)" )
+			)
+			( signal "FMC_LA*<6>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(6)" )
+			)
+			( signal "FMC_LA*<7>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(7)" )
+			)
+			( signal "FMC_LA*<8>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(8)" )
+			)
+			( signal "FMC_LA*<9>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(9)" )
+			)
+			( signal "FMC_LA*<10>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(10)" )
+			)
+			( signal "FMC_LA*<11>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(11)" )
+			)
+			( signal "FMC_LA*<12>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(12)" )
+			)
+			( signal "FMC_LA*<13>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(13)" )
+			)
+			( signal "FMC_LA*<14>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(14)" )
+			)
+			( signal "FMC_LA*<15>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(15)" )
+			)
+			( signal "FMC_LA*<16>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(16)" )
+			)
+			( signal "FMC_LA*<17>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(17)" )
+			)
+			( signal "FMC_LA*<18>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(18)" )
+			)
+			( signal "FMC_LA*<19>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(19)" )
+			)
+			( signal "FMC_LA*<20>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(20)" )
+			)
+			( signal "FMC_LA*<21>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(21)" )
+			)
+			( signal "FMC_LA*<22>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(22)" )
+			)
+			( signal "FMC_LA*<23>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(23)" )
+			)
+			( signal "FMC_LA*<24>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(24)" )
+			)
+			( signal "FMC_LA*<25>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(25)" )
+			)
+			( signal "FMC_LA*<26>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(26)" )
+			)
+			( signal "FMC_LA*<27>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(27)" )
+			)
+			( signal "FMC_LA*<28>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(28)" )
+			)
+			( signal "FMC_LA*<29>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(29)" )
+			)
+			( signal "FMC_LA*<30>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(30)" )
+			)
+			( signal "FMC_LA*<31>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(31)" )
+			)
+			( signal "FMC_LA*<32>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(32)" )
+			)
+			( signal "FMC_LA*<33>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(33)" )
+			)
+			( signal "DP0_C2M"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):dp0_c2m" )
+			)
+			( signal "DP0_C2M*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\dp0_c2m*\" )
+			)
+			( signal "DP0_M2C"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):dp0_m2c" )
+			)
+			( signal "DP0_M2C*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\dp0_m2c*\" )
+			)
+			( signal "FMC_CLK1_M2C"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_clk1_m2c" )
+			)
+			( signal "FMC_CLK1_M2C*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_clk1_m2c*\" )
+			)
+			( signal "FMC_PRSNT_M2C_L"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_prsnt_m2c_l" )
+			)
+			( signal "FMC_PWR_GOOD_FLASH_RST_B"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_pwr_good_flash_rst_b" )
+			)
+			( signal "FMC_TCK_BUF"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_tck_buf" )
+			)
+			( signal "FMC_TDO"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_tdo" )
+			)
+			( signal "FMC_TMS_BUF"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_tms_buf" )
+			)
+			( signal "FPGA_TDO"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fpga_tdo" )
+			)
+			( signal "GA0"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):ga0" )
+			)
+			( signal "GA1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):ga1" )
+			)
+			( signal "GBTCLK0_M2C"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):gbtclk0_m2c" )
+			)
+			( signal "GBTCLK0_M2C*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\gbtclk0_m2c*\" )
+			)
+			( signal "P12V"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):p12v" )
+			)
+			( signal "TRST_L"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):trst_l" )
+			)
+			( signal "VREF_A_M2C"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):vref_a_m2c" )
+			)
+			( signal "BEAM_TRIGGER<0>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):beam_trigger(0)" )
+			)
+			( signal "BEAM_TRIGGER<1>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):beam_trigger(1)" )
+			)
+			( signal "BEAM_TRIGGER<2>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):beam_trigger(2)" )
+			)
+			( signal "BEAM_TRIGGER<3>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):beam_trigger(3)" )
+			)
+			( signal "BEAM_TRIGGER*<0>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\beam_trigger*\(0)" )
+			)
+			( signal "BEAM_TRIGGER*<1>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\beam_trigger*\(1)" )
+			)
+			( signal "BEAM_TRIGGER*<2>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\beam_trigger*\(2)" )
+			)
+			( signal "BEAM_TRIGGER*<3>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\beam_trigger*\(3)" )
+			)
+			( signal "UNNAMED_2_FMCTLUDISCRIMINATOR_I"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_2_fmctludiscriminator_i1_ihys" )
+			)
+			( signal "UNNAMED_2_FMCTLUDISCRIMINATOR_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_2_fmctludiscriminator_i1_vin" )
+			)
+			( signal "UNNAMED_2_FMCTLUDISCRIMINATOR_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_2_fmctludiscriminator_i2_ihys" )
+			)
+			( signal "UNNAMED_2_FMCTLUDISCRIMINATOR_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_2_fmctludiscriminator_i2_vin" )
+			)
+			( signal "UNNAMED_2_FMCTLUDISCRIMINATOR_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_2_fmctludiscriminator_i3_ihys" )
+			)
+			( signal "UNNAMED_2_FMCTLUDISCRIMINATOR_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_2_fmctludiscriminator_i3_vin" )
+			)
+			( signal "UNNAMED_2_FMCTLUDISCRIMINATOR_6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_2_fmctludiscriminator_i4_ihys" )
+			)
+			( signal "UNNAMED_2_FMCTLUDISCRIMINATOR_7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_2_fmctludiscriminator_i4_vin" )
+			)
+			( signal "VLATCHBIAS"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):vlatchbias" )
+			)
+			( signal "VLATCHBIAS*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\vlatchbias*\" )
+			)
+			( signal "VTHRESH<0>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):vthresh(0)" )
+			)
+			( signal "VTHRESH<1>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):vthresh(1)" )
+			)
+			( signal "VTHRESH<2>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):vthresh(2)" )
+			)
+			( signal "VTHRESH<3>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):vthresh(3)" )
+			)
+			( signal "M5V"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):m5v" )
+			)
+			( signal "P5V"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):p5v" )
+			)
+			( signal "UNNAMED_1_CAPCERSMDCL2_I16_B"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):unnamed_1_capcersmdcl2_i16_b" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_IN"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):unnamed_1_max9601_i1_in" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_Q"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):unnamed_1_max9601_i1_q" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_Q_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):unnamed_1_max9601_i1_q_1" )
+			)
+			( signal "UNNAMED_1_RSMD0402_I31_B"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):unnamed_1_rsmd0402_i31_b" )
+			)
+			( signal "UNNAMED_1_RSMD0402_I32_B"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):unnamed_1_rsmd0402_i32_b" )
+			)
+			( signal "UNNAMED_1_CAPCERSMDCL2_I16_B_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):unnamed_1_capcersmdcl2_i16_b" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_IN_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):unnamed_1_max9601_i1_in" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_Q_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):unnamed_1_max9601_i1_q" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_Q_1_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):unnamed_1_max9601_i1_q_1" )
+			)
+			( signal "UNNAMED_1_RSMD0402_I31_B_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):unnamed_1_rsmd0402_i31_b" )
+			)
+			( signal "UNNAMED_1_RSMD0402_I32_B_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):unnamed_1_rsmd0402_i32_b" )
+			)
+			( signal "UNNAMED_1_CAPCERSMDCL2_I16_B_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):unnamed_1_capcersmdcl2_i16_b" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_IN_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):unnamed_1_max9601_i1_in" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_Q_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):unnamed_1_max9601_i1_q" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_Q_1_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):unnamed_1_max9601_i1_q_1" )
+			)
+			( signal "UNNAMED_1_RSMD0402_I31_B_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):unnamed_1_rsmd0402_i31_b" )
+			)
+			( signal "UNNAMED_1_RSMD0402_I32_B_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):unnamed_1_rsmd0402_i32_b" )
+			)
+			( signal "UNNAMED_1_CAPCERSMDCL2_I16_B_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):unnamed_1_capcersmdcl2_i16_b" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_IN_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):unnamed_1_max9601_i1_in" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_Q_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):unnamed_1_max9601_i1_q" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_Q_1_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):unnamed_1_max9601_i1_q_1" )
+			)
+			( signal "UNNAMED_1_RSMD0402_I31_B_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):unnamed_1_rsmd0402_i31_b" )
+			)
+			( signal "UNNAMED_1_RSMD0402_I32_B_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):unnamed_1_rsmd0402_i32_b" )
+			)
+			( signal "UNNAMED_1_AD5316_I1_VOUTA"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):unnamed_1_ad5316_i1_vouta" )
+			)
+			( signal "UNNAMED_1_AD5316_I1_VOUTB"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):unnamed_1_ad5316_i1_voutb" )
+			)
+			( signal "UNNAMED_1_AD5316_I1_VOUTC"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):unnamed_1_ad5316_i1_voutc" )
+			)
+			( signal "UNNAMED_1_AD5316_I1_VOUTD"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):unnamed_1_ad5316_i1_voutd" )
+			)
+			( signal "VREF"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):vref" )
+			)
+			( signal "UNNAMED_1_OPA4277_I22_MIN"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):unnamed_1_opa4277_i22_min" )
+			)
+			( signal "UNNAMED_1_OPA4277_I22_MIN_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):unnamed_1_opa4277_i22_min" )
+			)
+			( signal "UNNAMED_1_OPA4277_I22_MIN_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):unnamed_1_opa4277_i22_min" )
+			)
+			( signal "UNNAMED_1_OPA4277_I22_MIN_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):unnamed_1_opa4277_i22_min" )
+			)
+			( gate "J1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1" )
+			)
+			( gate "J1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2" )
+			)
+			( gate "PX1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i6" )
+			)
+			( gate "IC1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1" )
+			)
+			( gate "C1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i16" )
+			)
+			( gate "R6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i17" )
+			)
+			( gate "R5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i18" )
+			)
+			( gate "R7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i19" )
+			)
+			( gate "IC2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29" )
+			)
+			( gate "R10"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i31" )
+			)
+			( gate "R11"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i32" )
+			)
+			( gate "C3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i39" )
+			)
+			( gate "C4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i40" )
+			)
+			( gate "C5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i41" )
+			)
+			( gate "C7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i43" )
+			)
+			( gate "C6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i44" )
+			)
+			( gate "C9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i46" )
+			)
+			( gate "C8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i47" )
+			)
+			( gate "IC9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48" )
+			)
+			( gate "C2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i50" )
+			)
+			( gate "R8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i53" )
+			)
+			( gate "R9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i54" )
+			)
+			( gate "R15"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i56" )
+			)
+			( gate "R16"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i57" )
+			)
+			( gate "IC1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1" )
+			)
+			( gate "C10"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i16" )
+			)
+			( gate "R13"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i17" )
+			)
+			( gate "R12"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i18" )
+			)
+			( gate "R14"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i19" )
+			)
+			( gate "IC3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29" )
+			)
+			( gate "R17"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i31" )
+			)
+			( gate "R18"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i32" )
+			)
+			( gate "C12"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i39" )
+			)
+			( gate "C13"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i40" )
+			)
+			( gate "C14"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i41" )
+			)
+			( gate "C16"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i43" )
+			)
+			( gate "C15"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i44" )
+			)
+			( gate "C18"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i46" )
+			)
+			( gate "C17"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i47" )
+			)
+			( gate "IC10"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48" )
+			)
+			( gate "C11"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i50" )
+			)
+			( gate "R22"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i53" )
+			)
+			( gate "R23"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i54" )
+			)
+			( gate "R29"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i56" )
+			)
+			( gate "R30"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i57" )
+			)
+			( gate "IC4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1" )
+			)
+			( gate "C19"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i16" )
+			)
+			( gate "R20"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i17" )
+			)
+			( gate "R19"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i18" )
+			)
+			( gate "R21"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i19" )
+			)
+			( gate "IC5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29" )
+			)
+			( gate "R24"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i31" )
+			)
+			( gate "R25"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i32" )
+			)
+			( gate "C21"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i39" )
+			)
+			( gate "C22"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i40" )
+			)
+			( gate "C23"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i41" )
+			)
+			( gate "C25"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i43" )
+			)
+			( gate "C24"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i44" )
+			)
+			( gate "C27"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i46" )
+			)
+			( gate "C26"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i47" )
+			)
+			( gate "IC11"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48" )
+			)
+			( gate "C20"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i50" )
+			)
+			( gate "R41"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i53" )
+			)
+			( gate "R42"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i54" )
+			)
+			( gate "R43"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i56" )
+			)
+			( gate "R44"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i57" )
+			)
+			( gate "IC4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1" )
+			)
+			( gate "C28"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i16" )
+			)
+			( gate "R27"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i17" )
+			)
+			( gate "R26"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i18" )
+			)
+			( gate "R28"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i19" )
+			)
+			( gate "IC6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29" )
+			)
+			( gate "R31"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i31" )
+			)
+			( gate "R32"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i32" )
+			)
+			( gate "C30"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i39" )
+			)
+			( gate "C31"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i40" )
+			)
+			( gate "C32"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i41" )
+			)
+			( gate "C34"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i43" )
+			)
+			( gate "C33"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i44" )
+			)
+			( gate "C36"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i46" )
+			)
+			( gate "C35"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i47" )
+			)
+			( gate "IC12"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48" )
+			)
+			( gate "C29"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i50" )
+			)
+			( gate "R45"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i53" )
+			)
+			( gate "R46"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i54" )
+			)
+			( gate "R47"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i56" )
+			)
+			( gate "R48"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i57" )
+			)
+			( gate "U1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1" )
+			)
+			( gate "IC8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22" )
+			)
+			( gate "R34"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23" )
+			)
+			( gate "R33"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24" )
+			)
+			( gate "IC8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22" )
+			)
+			( gate "R36"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23" )
+			)
+			( gate "R35"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24" )
+			)
+			( gate "IC8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22" )
+			)
+			( gate "R38"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23" )
+			)
+			( gate "R37"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24" )
+			)
+			( gate "IC8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22" )
+			)
+			( gate "R40"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23" )
+			)
+			( gate "R39"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24" )
+			)
+			( gate "C42"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i50" )
+			)
+			( gate "C38"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i51" )
+			)
+			( gate "C39"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i52" )
+			)
+			( gate "C41"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i53" )
+			)
+			( gate "C40"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i54" )
+			)
+			( gate "IC7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i56" )
+			)
+			( gate "C37"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i60" )
+			)
+			( gate "PX2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i19" )
+			)
+			( gate "PX5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i20" )
+			)
+			( gate "PX4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i21" )
+			)
+			( gate "PX3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i22" )
+			)
+			( gate "R1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i23" )
+			)
+			( gate "R4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i25" )
+			)
+			( gate "R3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i27" )
+			)
+			( gate "R2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i29" )
+			)
+			( pin "J1.G1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(1)" )
+			)
+			( pin "J1.G2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(2)" )
+			)
+			( pin "J1.G3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(3)" )
+			)
+			( pin "J1.G4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(4)" )
+			)
+			( pin "J1.G5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(5)" )
+			)
+			( pin "J1.G6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(6)" )
+			)
+			( pin "J1.G7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(7)" )
+			)
+			( pin "J1.G8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(8)" )
+			)
+			( pin "J1.G9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(9)" )
+			)
+			( pin "J1.G10"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(10)" )
+			)
+			( pin "J1.G11"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(11)" )
+			)
+			( pin "J1.G12"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(12)" )
+			)
+			( pin "J1.G13"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(13)" )
+			)
+			( pin "J1.G14"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(14)" )
+			)
+			( pin "J1.G15"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(15)" )
+			)
+			( pin "J1.G16"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(16)" )
+			)
+			( pin "J1.G17"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(17)" )
+			)
+			( pin "J1.G18"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(18)" )
+			)
+			( pin "J1.G19"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(19)" )
+			)
+			( pin "J1.G20"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(20)" )
+			)
+			( pin "J1.G21"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(21)" )
+			)
+			( pin "J1.G22"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(22)" )
+			)
+			( pin "J1.G23"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(23)" )
+			)
+			( pin "J1.G24"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(24)" )
+			)
+			( pin "J1.G25"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(25)" )
+			)
+			( pin "J1.G26"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(26)" )
+			)
+			( pin "J1.G27"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(27)" )
+			)
+			( pin "J1.G28"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(28)" )
+			)
+			( pin "J1.G29"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(29)" )
+			)
+			( pin "J1.G30"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(30)" )
+			)
+			( pin "J1.G31"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(31)" )
+			)
+			( pin "J1.G32"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(32)" )
+			)
+			( pin "J1.G33"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(33)" )
+			)
+			( pin "J1.G34"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(34)" )
+			)
+			( pin "J1.G35"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(35)" )
+			)
+			( pin "J1.G36"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(36)" )
+			)
+			( pin "J1.G37"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(37)" )
+			)
+			( pin "J1.G38"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(38)" )
+			)
+			( pin "J1.G39"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(39)" )
+			)
+			( pin "J1.G40"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(40)" )
+			)
+			( pin "J1.H1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(1)" )
+			)
+			( pin "J1.H2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(2)" )
+			)
+			( pin "J1.H3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(3)" )
+			)
+			( pin "J1.H4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(4)" )
+			)
+			( pin "J1.H5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(5)" )
+			)
+			( pin "J1.H6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(6)" )
+			)
+			( pin "J1.H7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(7)" )
+			)
+			( pin "J1.H8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(8)" )
+			)
+			( pin "J1.H9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(9)" )
+			)
+			( pin "J1.H10"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(10)" )
+			)
+			( pin "J1.H11"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(11)" )
+			)
+			( pin "J1.H12"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(12)" )
+			)
+			( pin "J1.H13"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(13)" )
+			)
+			( pin "J1.H14"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(14)" )
+			)
+			( pin "J1.H15"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(15)" )
+			)
+			( pin "J1.H16"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(16)" )
+			)
+			( pin "J1.H17"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(17)" )
+			)
+			( pin "J1.H18"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(18)" )
+			)
+			( pin "J1.H19"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(19)" )
+			)
+			( pin "J1.H20"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(20)" )
+			)
+			( pin "J1.H21"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(21)" )
+			)
+			( pin "J1.H22"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(22)" )
+			)
+			( pin "J1.H23"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(23)" )
+			)
+			( pin "J1.H24"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(24)" )
+			)
+			( pin "J1.H25"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(25)" )
+			)
+			( pin "J1.H26"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(26)" )
+			)
+			( pin "J1.H27"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(27)" )
+			)
+			( pin "J1.H28"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(28)" )
+			)
+			( pin "J1.H29"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(29)" )
+			)
+			( pin "J1.H30"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(30)" )
+			)
+			( pin "J1.H31"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(31)" )
+			)
+			( pin "J1.H32"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(32)" )
+			)
+			( pin "J1.H33"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(33)" )
+			)
+			( pin "J1.H34"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(34)" )
+			)
+			( pin "J1.H35"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(35)" )
+			)
+			( pin "J1.H36"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(36)" )
+			)
+			( pin "J1.H37"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(37)" )
+			)
+			( pin "J1.H38"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(38)" )
+			)
+			( pin "J1.H39"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(39)" )
+			)
+			( pin "J1.H40"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(40)" )
+			)
+			( pin "J1.C1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(1)" )
+			)
+			( pin "J1.C2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(2)" )
+			)
+			( pin "J1.C3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(3)" )
+			)
+			( pin "J1.C4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(4)" )
+			)
+			( pin "J1.C5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(5)" )
+			)
+			( pin "J1.C6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(6)" )
+			)
+			( pin "J1.C7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(7)" )
+			)
+			( pin "J1.C8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(8)" )
+			)
+			( pin "J1.C9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(9)" )
+			)
+			( pin "J1.C10"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(10)" )
+			)
+			( pin "J1.C11"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(11)" )
+			)
+			( pin "J1.C12"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(12)" )
+			)
+			( pin "J1.C13"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(13)" )
+			)
+			( pin "J1.C14"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(14)" )
+			)
+			( pin "J1.C15"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(15)" )
+			)
+			( pin "J1.C16"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(16)" )
+			)
+			( pin "J1.C17"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(17)" )
+			)
+			( pin "J1.C18"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(18)" )
+			)
+			( pin "J1.C19"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(19)" )
+			)
+			( pin "J1.C20"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(20)" )
+			)
+			( pin "J1.C21"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(21)" )
+			)
+			( pin "J1.C22"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(22)" )
+			)
+			( pin "J1.C23"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(23)" )
+			)
+			( pin "J1.C24"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(24)" )
+			)
+			( pin "J1.C25"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(25)" )
+			)
+			( pin "J1.C26"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(26)" )
+			)
+			( pin "J1.C27"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(27)" )
+			)
+			( pin "J1.C28"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(28)" )
+			)
+			( pin "J1.C29"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(29)" )
+			)
+			( pin "J1.C30"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(30)" )
+			)
+			( pin "J1.C31"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(31)" )
+			)
+			( pin "J1.C32"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(32)" )
+			)
+			( pin "J1.C33"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(33)" )
+			)
+			( pin "J1.C34"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(34)" )
+			)
+			( pin "J1.C35"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(35)" )
+			)
+			( pin "J1.C36"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(36)" )
+			)
+			( pin "J1.C37"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(37)" )
+			)
+			( pin "J1.C38"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(38)" )
+			)
+			( pin "J1.C39"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(39)" )
+			)
+			( pin "J1.C40"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(40)" )
+			)
+			( pin "J1.D1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(1)" )
+			)
+			( pin "J1.D2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(2)" )
+			)
+			( pin "J1.D3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(3)" )
+			)
+			( pin "J1.D4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(4)" )
+			)
+			( pin "J1.D5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(5)" )
+			)
+			( pin "J1.D6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(6)" )
+			)
+			( pin "J1.D7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(7)" )
+			)
+			( pin "J1.D8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(8)" )
+			)
+			( pin "J1.D9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(9)" )
+			)
+			( pin "J1.D10"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(10)" )
+			)
+			( pin "J1.D11"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(11)" )
+			)
+			( pin "J1.D12"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(12)" )
+			)
+			( pin "J1.D13"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(13)" )
+			)
+			( pin "J1.D14"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(14)" )
+			)
+			( pin "J1.D15"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(15)" )
+			)
+			( pin "J1.D16"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(16)" )
+			)
+			( pin "J1.D17"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(17)" )
+			)
+			( pin "J1.D18"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(18)" )
+			)
+			( pin "J1.D19"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(19)" )
+			)
+			( pin "J1.D20"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(20)" )
+			)
+			( pin "J1.D21"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(21)" )
+			)
+			( pin "J1.D22"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(22)" )
+			)
+			( pin "J1.D23"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(23)" )
+			)
+			( pin "J1.D24"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(24)" )
+			)
+			( pin "J1.D25"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(25)" )
+			)
+			( pin "J1.D26"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(26)" )
+			)
+			( pin "J1.D27"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(27)" )
+			)
+			( pin "J1.D28"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(28)" )
+			)
+			( pin "J1.D29"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(29)" )
+			)
+			( pin "J1.D30"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(30)" )
+			)
+			( pin "J1.D31"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(31)" )
+			)
+			( pin "J1.D32"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(32)" )
+			)
+			( pin "J1.D33"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(33)" )
+			)
+			( pin "J1.D34"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(34)" )
+			)
+			( pin "J1.D35"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(35)" )
+			)
+			( pin "J1.D36"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(36)" )
+			)
+			( pin "J1.D37"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(37)" )
+			)
+			( pin "J1.D38"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(38)" )
+			)
+			( pin "J1.D39"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(39)" )
+			)
+			( pin "J1.D40"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(40)" )
+			)
+			( pin "PX1.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i6:a" )
+			)
+			( pin "PX1.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i6:b" )
+			)
+			( pin "IC1.8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:hys(0)" )
+			)
+			( pin "IC1.10"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:\in+\(0)" )
+			)
+			( pin "IC1.9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:\in-\(0)" )
+			)
+			( pin "IC1.4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:le(0)" )
+			)
+			( pin "IC1.5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:\le*\(0)" )
+			)
+			( pin "IC1.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:q(0)" )
+			)
+			( pin "IC1.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:\q*\(0)" )
+			)
+			( pin "C1.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i16:a(0)" )
+			)
+			( pin "C1.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i16:b(0)" )
+			)
+			( pin "R6.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i17:a(0)" )
+			)
+			( pin "R6.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i17:b(0)" )
+			)
+			( pin "R5.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i18:a(0)" )
+			)
+			( pin "R5.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i18:b(0)" )
+			)
+			( pin "R7.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i19:a(0)" )
+			)
+			( pin "R7.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i19:b(0)" )
+			)
+			( pin "IC2.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:a" )
+			)
+			( pin "IC2.3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:b" )
+			)
+			( pin "IC2.5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:\en*\" )
+			)
+			( pin "IC2.9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:gnd" )
+			)
+			( pin "IC2.4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:vbb" )
+			)
+			( pin "IC2.8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:vcc" )
+			)
+			( pin "IC2.7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:y" )
+			)
+			( pin "IC2.6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:z" )
+			)
+			( pin "R10.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i31:a(0)" )
+			)
+			( pin "R10.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i31:b(0)" )
+			)
+			( pin "R11.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i32:a(0)" )
+			)
+			( pin "R11.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i32:b(0)" )
+			)
+			( pin "C3.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i39:a(0)" )
+			)
+			( pin "C3.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i39:b(0)" )
+			)
+			( pin "C4.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i40:a(0)" )
+			)
+			( pin "C4.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i40:b(0)" )
+			)
+			( pin "C5.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i41:a(0)" )
+			)
+			( pin "C5.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i41:b(0)" )
+			)
+			( pin "C7.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i43:a(0)" )
+			)
+			( pin "C7.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i43:b(0)" )
+			)
+			( pin "C6.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i44:a(0)" )
+			)
+			( pin "C6.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i44:b(0)" )
+			)
+			( pin "C9.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i46:a(0)" )
+			)
+			( pin "C9.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i46:b(0)" )
+			)
+			( pin "C8.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i47:a(0)" )
+			)
+			( pin "C8.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i47:b(0)" )
+			)
+			( pin "IC9.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48:gnd" )
+			)
+			( pin "IC9.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48:\i/o11\" )
+			)
+			( pin "IC9.3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48:\i/o12\" )
+			)
+			( pin "IC9.6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48:\i/o21\" )
+			)
+			( pin "IC9.4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48:\i/o22\" )
+			)
+			( pin "IC9.5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48:vbus" )
+			)
+			( pin "C2.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i50:a(0)" )
+			)
+			( pin "C2.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i50:b(0)" )
+			)
+			( pin "R8.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i53:a(0)" )
+			)
+			( pin "R8.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i53:b(0)" )
+			)
+			( pin "R9.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i54:a(0)" )
+			)
+			( pin "R9.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i54:b(0)" )
+			)
+			( pin "R15.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i56:a(0)" )
+			)
+			( pin "R15.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i56:b(0)" )
+			)
+			( pin "R16.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i57:a(0)" )
+			)
+			( pin "R16.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i1@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i57:b(0)" )
+			)
+			( pin "IC1.13"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:hys(0)" )
+			)
+			( pin "IC1.11"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:\in+\(0)" )
+			)
+			( pin "IC1.12"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:\in-\(0)" )
+			)
+			( pin "IC1.17"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:le(0)" )
+			)
+			( pin "IC1.16"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:\le*\(0)" )
+			)
+			( pin "IC1.20"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:q(0)" )
+			)
+			( pin "IC1.19"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:\q*\(0)" )
+			)
+			( pin "C10.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i16:a(0)" )
+			)
+			( pin "C10.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i16:b(0)" )
+			)
+			( pin "R13.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i17:a(0)" )
+			)
+			( pin "R13.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i17:b(0)" )
+			)
+			( pin "R12.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i18:a(0)" )
+			)
+			( pin "R12.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i18:b(0)" )
+			)
+			( pin "R14.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i19:a(0)" )
+			)
+			( pin "R14.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i19:b(0)" )
+			)
+			( pin "IC3.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:a" )
+			)
+			( pin "IC3.3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:b" )
+			)
+			( pin "IC3.5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:\en*\" )
+			)
+			( pin "IC3.9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:gnd" )
+			)
+			( pin "IC3.4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:vbb" )
+			)
+			( pin "IC3.8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:vcc" )
+			)
+			( pin "IC3.7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:y" )
+			)
+			( pin "IC3.6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:z" )
+			)
+			( pin "R17.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i31:a(0)" )
+			)
+			( pin "R17.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i31:b(0)" )
+			)
+			( pin "R18.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i32:a(0)" )
+			)
+			( pin "R18.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i32:b(0)" )
+			)
+			( pin "C12.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i39:a(0)" )
+			)
+			( pin "C12.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i39:b(0)" )
+			)
+			( pin "C13.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i40:a(0)" )
+			)
+			( pin "C13.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i40:b(0)" )
+			)
+			( pin "C14.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i41:a(0)" )
+			)
+			( pin "C14.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i41:b(0)" )
+			)
+			( pin "C16.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i43:a(0)" )
+			)
+			( pin "C16.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i43:b(0)" )
+			)
+			( pin "C15.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i44:a(0)" )
+			)
+			( pin "C15.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i44:b(0)" )
+			)
+			( pin "C18.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i46:a(0)" )
+			)
+			( pin "C18.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i46:b(0)" )
+			)
+			( pin "C17.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i47:a(0)" )
+			)
+			( pin "C17.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i47:b(0)" )
+			)
+			( pin "IC10.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48:gnd" )
+			)
+			( pin "IC10.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48:\i/o11\" )
+			)
+			( pin "IC10.3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48:\i/o12\" )
+			)
+			( pin "IC10.6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48:\i/o21\" )
+			)
+			( pin "IC10.4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48:\i/o22\" )
+			)
+			( pin "IC10.5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48:vbus" )
+			)
+			( pin "C11.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i50:a(0)" )
+			)
+			( pin "C11.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i50:b(0)" )
+			)
+			( pin "R22.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i53:a(0)" )
+			)
+			( pin "R22.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i53:b(0)" )
+			)
+			( pin "R23.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i54:a(0)" )
+			)
+			( pin "R23.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i54:b(0)" )
+			)
+			( pin "R29.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i56:a(0)" )
+			)
+			( pin "R29.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i56:b(0)" )
+			)
+			( pin "R30.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i57:a(0)" )
+			)
+			( pin "R30.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i2@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i57:b(0)" )
+			)
+			( pin "IC4.8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:hys(0)" )
+			)
+			( pin "IC4.10"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:\in+\(0)" )
+			)
+			( pin "IC4.9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:\in-\(0)" )
+			)
+			( pin "IC4.4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:le(0)" )
+			)
+			( pin "IC4.5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:\le*\(0)" )
+			)
+			( pin "IC4.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:q(0)" )
+			)
+			( pin "IC4.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:\q*\(0)" )
+			)
+			( pin "C19.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i16:a(0)" )
+			)
+			( pin "C19.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i16:b(0)" )
+			)
+			( pin "R20.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i17:a(0)" )
+			)
+			( pin "R20.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i17:b(0)" )
+			)
+			( pin "R19.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i18:a(0)" )
+			)
+			( pin "R19.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i18:b(0)" )
+			)
+			( pin "R21.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i19:a(0)" )
+			)
+			( pin "R21.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i19:b(0)" )
+			)
+			( pin "IC5.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:a" )
+			)
+			( pin "IC5.3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:b" )
+			)
+			( pin "IC5.5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:\en*\" )
+			)
+			( pin "IC5.9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:gnd" )
+			)
+			( pin "IC5.4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:vbb" )
+			)
+			( pin "IC5.8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:vcc" )
+			)
+			( pin "IC5.7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:y" )
+			)
+			( pin "IC5.6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:z" )
+			)
+			( pin "R24.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i31:a(0)" )
+			)
+			( pin "R24.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i31:b(0)" )
+			)
+			( pin "R25.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i32:a(0)" )
+			)
+			( pin "R25.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i32:b(0)" )
+			)
+			( pin "C21.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i39:a(0)" )
+			)
+			( pin "C21.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i39:b(0)" )
+			)
+			( pin "C22.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i40:a(0)" )
+			)
+			( pin "C22.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i40:b(0)" )
+			)
+			( pin "C23.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i41:a(0)" )
+			)
+			( pin "C23.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i41:b(0)" )
+			)
+			( pin "C25.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i43:a(0)" )
+			)
+			( pin "C25.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i43:b(0)" )
+			)
+			( pin "C24.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i44:a(0)" )
+			)
+			( pin "C24.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i44:b(0)" )
+			)
+			( pin "C27.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i46:a(0)" )
+			)
+			( pin "C27.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i46:b(0)" )
+			)
+			( pin "C26.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i47:a(0)" )
+			)
+			( pin "C26.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i47:b(0)" )
+			)
+			( pin "IC11.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48:gnd" )
+			)
+			( pin "IC11.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48:\i/o11\" )
+			)
+			( pin "IC11.3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48:\i/o12\" )
+			)
+			( pin "IC11.6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48:\i/o21\" )
+			)
+			( pin "IC11.4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48:\i/o22\" )
+			)
+			( pin "IC11.5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48:vbus" )
+			)
+			( pin "C20.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i50:a(0)" )
+			)
+			( pin "C20.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i50:b(0)" )
+			)
+			( pin "R41.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i53:a(0)" )
+			)
+			( pin "R41.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i53:b(0)" )
+			)
+			( pin "R42.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i54:a(0)" )
+			)
+			( pin "R42.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i54:b(0)" )
+			)
+			( pin "R43.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i56:a(0)" )
+			)
+			( pin "R43.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i56:b(0)" )
+			)
+			( pin "R44.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i57:a(0)" )
+			)
+			( pin "R44.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i3@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i57:b(0)" )
+			)
+			( pin "IC4.13"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:hys(0)" )
+			)
+			( pin "IC4.11"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:\in+\(0)" )
+			)
+			( pin "IC4.12"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:\in-\(0)" )
+			)
+			( pin "IC4.17"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:le(0)" )
+			)
+			( pin "IC4.16"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:\le*\(0)" )
+			)
+			( pin "IC4.20"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:q(0)" )
+			)
+			( pin "IC4.19"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i1:\q*\(0)" )
+			)
+			( pin "C28.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i16:a(0)" )
+			)
+			( pin "C28.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i16:b(0)" )
+			)
+			( pin "R27.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i17:a(0)" )
+			)
+			( pin "R27.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i17:b(0)" )
+			)
+			( pin "R26.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i18:a(0)" )
+			)
+			( pin "R26.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i18:b(0)" )
+			)
+			( pin "R28.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i19:a(0)" )
+			)
+			( pin "R28.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i19:b(0)" )
+			)
+			( pin "IC6.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:a" )
+			)
+			( pin "IC6.3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:b" )
+			)
+			( pin "IC6.5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:\en*\" )
+			)
+			( pin "IC6.9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:gnd" )
+			)
+			( pin "IC6.4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:vbb" )
+			)
+			( pin "IC6.8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:vcc" )
+			)
+			( pin "IC6.7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:y" )
+			)
+			( pin "IC6.6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i29:z" )
+			)
+			( pin "R31.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i31:a(0)" )
+			)
+			( pin "R31.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i31:b(0)" )
+			)
+			( pin "R32.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i32:a(0)" )
+			)
+			( pin "R32.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i32:b(0)" )
+			)
+			( pin "C30.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i39:a(0)" )
+			)
+			( pin "C30.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i39:b(0)" )
+			)
+			( pin "C31.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i40:a(0)" )
+			)
+			( pin "C31.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i40:b(0)" )
+			)
+			( pin "C32.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i41:a(0)" )
+			)
+			( pin "C32.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i41:b(0)" )
+			)
+			( pin "C34.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i43:a(0)" )
+			)
+			( pin "C34.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i43:b(0)" )
+			)
+			( pin "C33.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i44:a(0)" )
+			)
+			( pin "C33.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i44:b(0)" )
+			)
+			( pin "C36.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i46:a(0)" )
+			)
+			( pin "C36.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i46:b(0)" )
+			)
+			( pin "C35.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i47:a(0)" )
+			)
+			( pin "C35.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i47:b(0)" )
+			)
+			( pin "IC12.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48:gnd" )
+			)
+			( pin "IC12.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48:\i/o11\" )
+			)
+			( pin "IC12.3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48:\i/o12\" )
+			)
+			( pin "IC12.6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48:\i/o21\" )
+			)
+			( pin "IC12.4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48:\i/o22\" )
+			)
+			( pin "IC12.5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i48:vbus" )
+			)
+			( pin "C29.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i50:a(0)" )
+			)
+			( pin "C29.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i50:b(0)" )
+			)
+			( pin "R45.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i53:a(0)" )
+			)
+			( pin "R45.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i53:b(0)" )
+			)
+			( pin "R46.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i54:a(0)" )
+			)
+			( pin "R46.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i54:b(0)" )
+			)
+			( pin "R47.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i56:a(0)" )
+			)
+			( pin "R47.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i56:b(0)" )
+			)
+			( pin "R48.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i57:a(0)" )
+			)
+			( pin "R48.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@fmc_tlu_v1_lib.fmc_tlu_discriminator(sch_1):page1_i57:b(0)" )
+			)
+			( pin "U1.15"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:a0" )
+			)
+			( pin "U1.16"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:a1" )
+			)
+			( pin "U1.12"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:gnd" )
+			)
+			( pin "U1.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:\ldac*\" )
+			)
+			( pin "U1.10"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:\pd*\" )
+			)
+			( pin "U1.14"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:scl" )
+			)
+			( pin "U1.13"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:sda" )
+			)
+			( pin "U1.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:vdd" )
+			)
+			( pin "U1.3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:vouta" )
+			)
+			( pin "U1.4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:voutb" )
+			)
+			( pin "U1.5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:voutc" )
+			)
+			( pin "U1.11"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:voutd" )
+			)
+			( pin "U1.6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:vrefa" )
+			)
+			( pin "U1.7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:vrefb" )
+			)
+			( pin "U1.8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:vrefc" )
+			)
+			( pin "U1.9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:vrefd" )
+			)
+			( pin "IC8.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:min(0)" )
+			)
+			( pin "IC8.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:\out\(0)" )
+			)
+			( pin "IC8.3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:pin(0)" )
+			)
+			( pin "R34.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23:a(0)" )
+			)
+			( pin "R34.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23:b(0)" )
+			)
+			( pin "R33.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24:a(0)" )
+			)
+			( pin "R33.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24:b(0)" )
+			)
+			( pin "IC8.6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:min(0)" )
+			)
+			( pin "IC8.7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:\out\(0)" )
+			)
+			( pin "IC8.5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:pin(0)" )
+			)
+			( pin "R36.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23:a(0)" )
+			)
+			( pin "R36.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23:b(0)" )
+			)
+			( pin "R35.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24:a(0)" )
+			)
+			( pin "R35.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24:b(0)" )
+			)
+			( pin "IC8.9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:min(0)" )
+			)
+			( pin "IC8.8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:\out\(0)" )
+			)
+			( pin "IC8.10"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:pin(0)" )
+			)
+			( pin "R38.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23:a(0)" )
+			)
+			( pin "R38.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23:b(0)" )
+			)
+			( pin "R37.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24:a(0)" )
+			)
+			( pin "R37.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24:b(0)" )
+			)
+			( pin "IC8.13"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:min(0)" )
+			)
+			( pin "IC8.14"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:\out\(0)" )
+			)
+			( pin "IC8.12"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:pin(0)" )
+			)
+			( pin "R40.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23:a(0)" )
+			)
+			( pin "R40.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23:b(0)" )
+			)
+			( pin "R39.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24:a(0)" )
+			)
+			( pin "R39.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24:b(0)" )
+			)
+			( pin "C42.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i50:a(0)" )
+			)
+			( pin "C42.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i50:b(0)" )
+			)
+			( pin "C38.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i51:a(0)" )
+			)
+			( pin "C38.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i51:b(0)" )
+			)
+			( pin "C39.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i52:a(0)" )
+			)
+			( pin "C39.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i52:b(0)" )
+			)
+			( pin "C41.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i53:a(0)" )
+			)
+			( pin "C41.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i53:b(0)" )
+			)
+			( pin "C40.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i54:a(0)" )
+			)
+			( pin "C40.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i54:b(0)" )
+			)
+			( pin "IC7.4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i56:gnd" )
+			)
+			( pin "IC7.5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i56:trim" )
+			)
+			( pin "IC7.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i56:vin" )
+			)
+			( pin "IC7.6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i56:vout" )
+			)
+			( pin "C37.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i60:a(0)" )
+			)
+			( pin "C37.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i60:b(0)" )
+			)
+			( pin "PX2.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i19:a" )
+			)
+			( pin "PX5.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i20:a" )
+			)
+			( pin "PX4.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i21:a" )
+			)
+			( pin "PX3.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i22:a" )
+			)
+			( pin "R1.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i23:a(0)" )
+			)
+			( pin "R1.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i23:b(0)" )
+			)
+			( pin "R4.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i25:a(0)" )
+			)
+			( pin "R4.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i25:b(0)" )
+			)
+			( pin "R3.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i27:a(0)" )
+			)
+			( pin "R3.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i27:b(0)" )
+			)
+			( pin "R2.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i29:a(0)" )
+			)
+			( pin "R2.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i29:b(0)" )
+			)
+			( bus "FMC_LA"
+				( memberType ( signal ) )
+				( member ( signalRef "FMC_LA<0>") )
+				( member ( signalRef "FMC_LA<1>") )
+				( member ( signalRef "FMC_LA<2>") )
+				( member ( signalRef "FMC_LA<3>") )
+				( member ( signalRef "FMC_LA<4>") )
+				( member ( signalRef "FMC_LA<5>") )
+				( member ( signalRef "FMC_LA<6>") )
+				( member ( signalRef "FMC_LA<7>") )
+				( member ( signalRef "FMC_LA<8>") )
+				( member ( signalRef "FMC_LA<9>") )
+				( member ( signalRef "FMC_LA<10>") )
+				( member ( signalRef "FMC_LA<11>") )
+				( member ( signalRef "FMC_LA<12>") )
+				( member ( signalRef "FMC_LA<13>") )
+				( member ( signalRef "FMC_LA<14>") )
+				( member ( signalRef "FMC_LA<15>") )
+				( member ( signalRef "FMC_LA<16>") )
+				( member ( signalRef "FMC_LA<17>") )
+				( member ( signalRef "FMC_LA<18>") )
+				( member ( signalRef "FMC_LA<19>") )
+				( member ( signalRef "FMC_LA<20>") )
+				( member ( signalRef "FMC_LA<21>") )
+				( member ( signalRef "FMC_LA<22>") )
+				( member ( signalRef "FMC_LA<23>") )
+				( member ( signalRef "FMC_LA<24>") )
+				( member ( signalRef "FMC_LA<25>") )
+				( member ( signalRef "FMC_LA<26>") )
+				( member ( signalRef "FMC_LA<27>") )
+				( member ( signalRef "FMC_LA<28>") )
+				( member ( signalRef "FMC_LA<29>") )
+				( member ( signalRef "FMC_LA<30>") )
+				( member ( signalRef "FMC_LA<31>") )
+				( member ( signalRef "FMC_LA<32>") )
+				( member ( signalRef "FMC_LA<33>") )
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la" )
+			)
+			( bus "FMC_LA*"
+				( memberType ( signal ) )
+				( member ( signalRef "FMC_LA*<0>") )
+				( member ( signalRef "FMC_LA*<1>") )
+				( member ( signalRef "FMC_LA*<2>") )
+				( member ( signalRef "FMC_LA*<3>") )
+				( member ( signalRef "FMC_LA*<4>") )
+				( member ( signalRef "FMC_LA*<5>") )
+				( member ( signalRef "FMC_LA*<6>") )
+				( member ( signalRef "FMC_LA*<7>") )
+				( member ( signalRef "FMC_LA*<8>") )
+				( member ( signalRef "FMC_LA*<9>") )
+				( member ( signalRef "FMC_LA*<10>") )
+				( member ( signalRef "FMC_LA*<11>") )
+				( member ( signalRef "FMC_LA*<12>") )
+				( member ( signalRef "FMC_LA*<13>") )
+				( member ( signalRef "FMC_LA*<14>") )
+				( member ( signalRef "FMC_LA*<15>") )
+				( member ( signalRef "FMC_LA*<16>") )
+				( member ( signalRef "FMC_LA*<17>") )
+				( member ( signalRef "FMC_LA*<18>") )
+				( member ( signalRef "FMC_LA*<19>") )
+				( member ( signalRef "FMC_LA*<20>") )
+				( member ( signalRef "FMC_LA*<21>") )
+				( member ( signalRef "FMC_LA*<22>") )
+				( member ( signalRef "FMC_LA*<23>") )
+				( member ( signalRef "FMC_LA*<24>") )
+				( member ( signalRef "FMC_LA*<25>") )
+				( member ( signalRef "FMC_LA*<26>") )
+				( member ( signalRef "FMC_LA*<27>") )
+				( member ( signalRef "FMC_LA*<28>") )
+				( member ( signalRef "FMC_LA*<29>") )
+				( member ( signalRef "FMC_LA*<30>") )
+				( member ( signalRef "FMC_LA*<31>") )
+				( member ( signalRef "FMC_LA*<32>") )
+				( member ( signalRef "FMC_LA*<33>") )
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\" )
+			)
+			( bus "BEAM_TRIGGER"
+				( memberType ( signal ) )
+				( member ( signalRef "BEAM_TRIGGER<0>") )
+				( member ( signalRef "BEAM_TRIGGER<1>") )
+				( member ( signalRef "BEAM_TRIGGER<2>") )
+				( member ( signalRef "BEAM_TRIGGER<3>") )
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):beam_trigger" )
+			)
+			( bus "BEAM_TRIGGER*"
+				( memberType ( signal ) )
+				( member ( signalRef "BEAM_TRIGGER*<0>") )
+				( member ( signalRef "BEAM_TRIGGER*<1>") )
+				( member ( signalRef "BEAM_TRIGGER*<2>") )
+				( member ( signalRef "BEAM_TRIGGER*<3>") )
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\beam_trigger*\" )
+			)
+			( bus "VTHRESH"
+				( memberType ( signal ) )
+				( member ( signalRef "VTHRESH<0>") )
+				( member ( signalRef "VTHRESH<1>") )
+				( member ( signalRef "VTHRESH<2>") )
+				( member ( signalRef "VTHRESH<3>") )
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):vthresh" )
+			)
+		)
+	)
+)

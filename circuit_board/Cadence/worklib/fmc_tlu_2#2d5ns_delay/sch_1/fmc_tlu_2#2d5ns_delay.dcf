@@ -1,0 +1,264 @@
+( ConstraintFile "\fmc_tlu_2-5ns_delay\"
+	( constraintHeader
+		( objectKey
+			( logical )
+		)
+		( version
+			( 16.5 )
+		)
+		( revisionNumber
+			( logicalViewRevNum 2 )
+			( physicalViewRevNum 0 )
+			( otherViewRevNum 0 )
+		)
+		( contents
+			( dictionaryExtensions )
+			( worksheetCustomizations )
+			( electricalConstraints )
+			( netClasses )
+			( properties )
+		)
+		( precision
+			( units mil )
+			( numberOfDecimalPlaces 2 )
+		)
+	)
+	( DictionaryExtensions
+		( Attribute
+			( Name "CDS_LMAN_SYM_OUTLINE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TYPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "DIST" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MAX_TEMP" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NEGTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POSTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POWER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SLOPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC1" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC2" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TOL_ON_OFF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MANUF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+	)
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "\fmc_tlu_2-5ns_delay\"
+				( objectStatus "fmc_tlu_2-5ns_delay" )
+			)
+			( signal "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):\in\"
+				( alias ( signalRef "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):page1_in") )
+				( alias ( signalRef "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):page1_out") )
+				( alias ( signalRef "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):\out\") )
+				( objectStatus "in" )
+			)
+			( signal "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):page1_in"
+				( objectFlag fObjectAlias )
+				( objectStatus "page1_in" )
+			)
+			( signal "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):\in*\"
+				( alias ( signalRef "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):\page1_in*\") )
+				( alias ( signalRef "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):\page1_out*\") )
+				( alias ( signalRef "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):\out*\") )
+				( objectStatus "in*" )
+			)
+			( signal "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):\page1_in*\"
+				( objectFlag fObjectAlias )
+				( objectStatus "page1_in*" )
+			)
+			( signal "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):\out\"
+				( objectFlag fObjectAlias )
+				( objectStatus "out" )
+			)
+			( signal "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):page1_out"
+				( objectFlag fObjectAlias )
+				( objectStatus "page1_out" )
+			)
+			( signal "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):\out*\"
+				( objectFlag fObjectAlias )
+				( objectStatus "out*" )
+			)
+			( signal "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):\page1_out*\"
+				( objectFlag fObjectAlias )
+				( objectStatus "page1_out*" )
+			)
+		)
+	)
+)
