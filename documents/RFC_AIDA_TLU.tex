@@ -1,0 +1,163 @@
+%Include "boiler plate" EUDET style
+\input{preamble}
+
+% Title info
+\subject{\includegraphics[scale=0.7]{AIDA-logo_cmyk.pdf}}
+\title{\Large Request for Comments:\\ Specification for an AIDA TLU } 
+\author{\normalsize D.~G.~Cussans\thanks{David.Cussans@bristol.ac.uk}}
+\date{\normalsize \today}
+
+\begin{document}
+
+% Title page
+\maketitle
+\begin{abstract}
+\noindent
+
+Following discussions at
+LLR\cite{ref:calice_aida_nov11,ref:priv_conv_schaefer},
+DESY\cite{ref:wp93_aida_nov11,ref:priv_conv_collins} and CERN\cite{ref:priv_conf_santiago}
+it seems probable that the synchronization and timing needs of the
+TimePix, CALICE, ATLAS, CMS and MAPS communities within the AIDA
+collaboration can be met by a common hardware development. This would
+have the benefit of sharing hardware, firmware and DAQ-Software
+effort.
+ 
+This document set out a specification for an AIDA TLU as a request for
+comments. Note that the specifications are derived from my
+understanding of the requirements of different groups and not from any
+specific TLU hardware restrictions. Please comment if the suggested
+specifications do not fulfill your requiremenets.
+
+\end{abstract}
+
+
+\section{Introduction}
+
+The TLU provides timing and synchronization signals to beam-test
+readout hardware. It can either provide or accept a system clock. It
+provides triggers to systems that need them. It accepts busy signals
+from systems that provide them. It accepts triggers from an external
+source, such as beam-scintillators and provides a time-stamp of
+incoming signals.
+
+\section{Hardware Interfaces}
+
+The TLU is normally under the control of the central DAQ software. It
+can be configured, controlled and the time-stamp information read-out
+by the central DAQ.
+
+\subsection{CALICE}
+
+The signals to/from the CALICE Clock and Control Card (CCC) are as
+follows: Clock(5MHz), Trigger , Busy, Master Clock(50MHz). The Trigger
+and Busy signals are Manchester(Phase) encoded accordinng to IEEE
+802.3 to maintain DC-Balance.  Event matching matching between Calice
+and beam-telescope verified by matching timestamps between TLU and
+CALICE readout within a combined event.
+
+It seems likely that the CALICE CCC system the CALICE Beam Information
+(BIF) system and the beam-telescope TLU could be implemented in the
+same physical hardware.
+
+%pictures of trig/busy signals.
+
+\subsection{TimePix}
+
+The LHCb TimePix telescope is being offered as part of AIDA
+infrastructure and hence needs to be able to synchronize with a device
+under test. Currently this is done using NIM based electronics. If a
+central clock , a trigger signal and an optional synchronization
+signal is distributed then event synchronization between the DUT and
+the TimePix telescope can be done either by timestamp matching.
+
+Event matching by comparing timestamps has the advantage that 
+as long as there is no upset in the timestamp coiunters missing
+triggers are not an issue.
+
+\subsection{LHC}
+
+Either use EUDET-Style signal definitions or Calice-style interface (phase
+encoding is optional). Depending on requirements.
+
+\subsection{Existing EUDAQ Users}
+
+Keep compatibility with EUDAQ TLU.\cite{ref:eudaq_tlu_manual}
+
+\section{Integrating Different Detectors }
+
+\subsection{CALICE}
+
+Integration between CALICE Calorimeter modules and other detectors,
+for example the pixel beam telescope is part of the AIDA
+programme. The purpose is mainly for system integration tests and
+proof of concept.
+
+There are various integration options. Integration at the hardware level will be done by integration of the AIDA TLU with the CALICE CCC. Possibly by making them the same physical object. For software integration, one possibility\cite{ref:vincentb_aida_llr_nov11} is to 
+control CALICE run control from EUDAQ. Write separate files. Combine
+offline. Purpose: 
+concept.
+
+\subsection{TPC}
+
+Integration of XXX , YYYY system almost completed under EUDAQ
+programme\cite{ulf} , martin-killenberg.
+
+\subsection{Triggered Detectors (e.g. ATLAS, CMS Pixels)}
+
+As in EUDET. Beam-telescope and DUT synchronized by TLU hardware
+signasl. DUT data written either via an EUDAQ producer, or by writing
+telescope and DUT data to separate files and comdining offline.
+
+\subsection{TimePix}
+
+Synchronize TimePix and TLU timestamp counter via common system
+clock. Provide DUT with triggers if needed. Write DUT and TimePix data
+to separate files and combine offline. One possible
+refinement\cite{ref:daniel_hyndes} is that the DUT can be ``EUDAQ''
+compatible. Then only one data combiner is needed - TimePix with
+EUDAQ.
+
+
+\section{Specifications}
+
+\begin{tabular}{| l | r |}
+
+\hline
+
+Parameter                                                  & Value \\ \hline \hline
+
+Maximum master clock frequency, $\mathrm{F}_\mathrm{master}$ &  80MHz \\ \hline
+
+Master clock jitter                                        & To Be Decided.\footnote{By default approx XXXps RMS in Mini TLU} \\ \hline
+
+Timestamp precision                                        & 1 ns \\ \hline
+
+Minimum pulse width (time above threshold )                & 5 ns \\ \hline
+
+Latency                                                    &  $<$ XXX cycles \footnote{Unlike EUDET the incoming trigger signals are sampled onto the system clock. Hence the latency will have a jitter of 1/  $\mathrm{F}_\mathrm{master}$} \\ \hline
+
+Maximum instantanous trigger rate \footnote{When used in ``Calice-style'' / high-rate interface}                                                       &  $\mathrm{F}_\mathrm{master}$ \\ \hline
+
+Maximum sustained trigger rate                             &  1 MHz \\ \hline
+\end{tabular}
+
+\section{High Rate Tests}
+
+LHC sensors need $400 \mathrm{MHz}/\mathrm{cm}^2$ for pile-up
+tests. The TLU will not ba able to cope with this rate of triggers
+except by using very small area scintillator. In addition, even if the
+TLU could cope the MAPS telescope sensors would not. However, it has
+been pointed out\cite{ref:andrei_n} that it would still be possible to
+conduct efficiency studies by placing the telescope and DUT in a
+moderate rate beam and then illuminating the DUT with a high flux of
+radation from either a radioactive source or an X-ray generator. That
+is to say, use the same approach as the Gamma Irradiation
+Facility\cite{ref:GIF} at CERN.
+
+
+\bibliographystyle{ClassicCite}
+
+\bibliography{References}
+
+\end{document}

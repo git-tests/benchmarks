@@ -1,0 +1,716 @@
+<schema xmlns="http://www.cadence.com/spb/csschema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.cadence.com/spb/csschema CSSchema002.xsd">
+  <header>
+    <schemaVersion>16.5</schemaVersion>
+    <creatorTool>csnetlister</creatorTool>
+    <modifierTool>csnetlister</modifierTool>
+    <modificationTime>2012-03-16T12:26:15</modificationTime>
+    <savedLibrary>fmc_tlu_v1_lib</savedLibrary>
+  </header>
+  <designs>
+    <design schemaType="nameBased" name="pc036a_fmc_lpc_connector" view="sch_1">
+      <lastids>
+        <instanceid>2</instanceid>
+        <netid>28</netid>
+        <insttermid>4</insttermid>
+      </lastids>
+      <cells>
+        <cell>
+          <id>S2</id>
+          <library>cnconnector</library>
+          <name>con160p_40cdgh</name>
+          <view>sym_2</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T29</id>
+              <name>g</name>
+              <direction>inout</direction>
+              <msb>40</msb>
+              <lsb>1</lsb>
+            </term>
+            <term>
+              <id>T30</id>
+              <name>h</name>
+              <direction>inout</direction>
+              <msb>40</msb>
+              <lsb>1</lsb>
+            </term>
+          </terms>
+        </cell>
+        <cell>
+          <id>S3</id>
+          <library>cnconnector</library>
+          <name>con160p_40cdgh</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T31</id>
+              <name>c</name>
+              <direction>inout</direction>
+              <msb>40</msb>
+              <lsb>1</lsb>
+            </term>
+            <term>
+              <id>T32</id>
+              <name>d</name>
+              <direction>inout</direction>
+              <msb>40</msb>
+              <lsb>1</lsb>
+            </term>
+          </terms>
+        </cell>
+      </cells>
+      <nets>
+        <net>
+          <id>N1</id>
+          <name>dp0_c2m</name>
+          <scope>interface</scope>
+          <direction>inout</direction>
+        </net>
+        <net>
+          <id>N2</id>
+          <name>dp0_c2m*</name>
+          <scope>interface</scope>
+          <direction>inout</direction>
+        </net>
+        <net>
+          <id>N3</id>
+          <name>dp0_m2c</name>
+          <scope>interface</scope>
+          <direction>inout</direction>
+        </net>
+        <net>
+          <id>N4</id>
+          <name>dp0_m2c*</name>
+          <scope>interface</scope>
+          <direction>inout</direction>
+        </net>
+        <net>
+          <id>N5</id>
+          <name>fmc_clk0_m2c</name>
+          <scope>interface</scope>
+          <direction>inout</direction>
+        </net>
+        <net>
+          <id>N6</id>
+          <name>fmc_clk0_m2c*</name>
+          <scope>interface</scope>
+          <direction>inout</direction>
+        </net>
+        <net>
+          <id>N7</id>
+          <name>fmc_clk1_m2c</name>
+          <scope>interface</scope>
+          <direction>inout</direction>
+        </net>
+        <net>
+          <id>N8</id>
+          <name>fmc_clk1_m2c*</name>
+          <scope>interface</scope>
+          <direction>inout</direction>
+        </net>
+        <net>
+          <id>N9</id>
+          <name>fmc_la</name>
+          <scope>interface</scope>
+          <direction>inout</direction>
+          <msb>33</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N10</id>
+          <name>fmc_la*</name>
+          <scope>interface</scope>
+          <direction>inout</direction>
+          <msb>33</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N11</id>
+          <name>fmc_prsnt_m2c_l</name>
+          <scope>interface</scope>
+          <direction>output</direction>
+        </net>
+        <net>
+          <id>N12</id>
+          <name>fmc_pwr_good_flash_rst_b</name>
+          <scope>interface</scope>
+          <direction>output</direction>
+        </net>
+        <net>
+          <id>N13</id>
+          <name>fmc_tck_buf</name>
+          <scope>interface</scope>
+          <direction>input</direction>
+        </net>
+        <net>
+          <id>N14</id>
+          <name>fmc_tdo</name>
+          <scope>interface</scope>
+          <direction>output</direction>
+        </net>
+        <net>
+          <id>N15</id>
+          <name>fmc_tms_buf</name>
+          <scope>interface</scope>
+          <direction>input</direction>
+        </net>
+        <net>
+          <id>N16</id>
+          <name>fpga_tdo</name>
+          <scope>interface</scope>
+          <direction>input</direction>
+        </net>
+        <net>
+          <id>N17</id>
+          <name>ga0</name>
+          <scope>interface</scope>
+          <direction>input</direction>
+        </net>
+        <net>
+          <id>N18</id>
+          <name>ga1</name>
+          <scope>interface</scope>
+          <direction>input</direction>
+        </net>
+        <net>
+          <id>N19</id>
+          <name>gbtclk0_m2c</name>
+          <scope>interface</scope>
+          <direction>input</direction>
+        </net>
+        <net>
+          <id>N20</id>
+          <name>gbtclk0_m2c*</name>
+          <scope>interface</scope>
+          <direction>input</direction>
+        </net>
+        <net>
+          <id>N21</id>
+          <name>gnd</name>
+          <scope>interface</scope>
+          <direction>input</direction>
+        </net>
+        <net>
+          <id>N22</id>
+          <name>iic_scl_main</name>
+          <scope>interface</scope>
+          <direction>input</direction>
+        </net>
+        <net>
+          <id>N23</id>
+          <name>iic_sda_main</name>
+          <scope>interface</scope>
+          <direction>inout</direction>
+        </net>
+        <net>
+          <id>N24</id>
+          <name>p12v</name>
+          <scope>interface</scope>
+          <direction>input</direction>
+        </net>
+        <net>
+          <id>N25</id>
+          <name>p2v5</name>
+          <scope>interface</scope>
+          <direction>input</direction>
+        </net>
+        <net>
+          <id>N26</id>
+          <name>p3v3</name>
+          <scope>interface</scope>
+          <direction>input</direction>
+        </net>
+        <net>
+          <id>N27</id>
+          <name>trst_l</name>
+          <scope>interface</scope>
+          <direction>input</direction>
+        </net>
+        <net>
+          <id>N28</id>
+          <name>vref_a_m2c</name>
+          <scope>interface</scope>
+          <direction>input</direction>
+        </net>
+      </nets>
+      <aliases>
+      </aliases>
+      <differentialnets>
+      </differentialnets>
+      <differentialbusnets>
+      </differentialbusnets>
+      <netgroups>
+      </netgroups>
+      <netinterfaces>
+      </netinterfaces>
+      <instances>
+        <instance>
+          <id>I1</id>
+          <cellid>S2</cellid>
+          <name>page1_i1</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M1</id>
+              <termid>T29</termid>
+              <msb>40</msb>
+              <lsb>1</lsb>
+              <connections>
+                <connection pinmsb="2" pinlsb="2" net="N7" />
+                <connection pinmsb="3" pinlsb="3" net="N8" />
+                <connection pinmsb="6" pinlsb="6" net="N9" netmsb="0" netlsb="0" />
+                <connection pinmsb="9" pinlsb="9" net="N9" netmsb="3" netlsb="3" />
+                <connection pinmsb="12" pinlsb="12" net="N9" netmsb="8" netlsb="8" />
+                <connection pinmsb="15" pinlsb="15" net="N9" netmsb="12" netlsb="12" />
+                <connection pinmsb="18" pinlsb="18" net="N9" netmsb="16" netlsb="16" />
+                <connection pinmsb="21" pinlsb="21" net="N9" netmsb="20" netlsb="20" />
+                <connection pinmsb="24" pinlsb="24" net="N9" netmsb="22" netlsb="22" />
+                <connection pinmsb="27" pinlsb="27" net="N9" netmsb="25" netlsb="25" />
+                <connection pinmsb="30" pinlsb="30" net="N9" netmsb="29" netlsb="29" />
+                <connection pinmsb="33" pinlsb="33" net="N9" netmsb="31" netlsb="31" />
+                <connection pinmsb="36" pinlsb="36" net="N9" netmsb="33" netlsb="33" />
+                <connection pinmsb="7" pinlsb="7" net="N10" netmsb="0" netlsb="0" />
+                <connection pinmsb="10" pinlsb="10" net="N10" netmsb="3" netlsb="3" />
+                <connection pinmsb="13" pinlsb="13" net="N10" netmsb="8" netlsb="8" />
+                <connection pinmsb="16" pinlsb="16" net="N10" netmsb="12" netlsb="12" />
+                <connection pinmsb="19" pinlsb="19" net="N10" netmsb="16" netlsb="16" />
+                <connection pinmsb="22" pinlsb="22" net="N10" netmsb="20" netlsb="20" />
+                <connection pinmsb="25" pinlsb="25" net="N10" netmsb="22" netlsb="22" />
+                <connection pinmsb="28" pinlsb="28" net="N10" netmsb="25" netlsb="25" />
+                <connection pinmsb="31" pinlsb="31" net="N10" netmsb="29" netlsb="29" />
+                <connection pinmsb="34" pinlsb="34" net="N10" netmsb="31" netlsb="31" />
+                <connection pinmsb="37" pinlsb="37" net="N10" netmsb="33" netlsb="33" />
+                <connection pinmsb="40" pinlsb="40" net="N21" />
+                <connection pinmsb="38" pinlsb="38" net="N21" />
+                <connection pinmsb="35" pinlsb="35" net="N21" />
+                <connection pinmsb="32" pinlsb="32" net="N21" />
+                <connection pinmsb="29" pinlsb="29" net="N21" />
+                <connection pinmsb="26" pinlsb="26" net="N21" />
+                <connection pinmsb="23" pinlsb="23" net="N21" />
+                <connection pinmsb="20" pinlsb="20" net="N21" />
+                <connection pinmsb="17" pinlsb="17" net="N21" />
+                <connection pinmsb="14" pinlsb="14" net="N21" />
+                <connection pinmsb="11" pinlsb="11" net="N21" />
+                <connection pinmsb="8" pinlsb="8" net="N21" />
+                <connection pinmsb="5" pinlsb="5" net="N21" />
+                <connection pinmsb="4" pinlsb="4" net="N21" />
+                <connection pinmsb="1" pinlsb="1" net="N21" />
+                <connection pinmsb="39" pinlsb="39" net="N25" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M2</id>
+              <termid>T30</termid>
+              <msb>40</msb>
+              <lsb>1</lsb>
+              <connections>
+                <connection pinmsb="4" pinlsb="4" net="N5" />
+                <connection pinmsb="5" pinlsb="5" net="N6" />
+                <connection pinmsb="7" pinlsb="7" net="N9" netmsb="2" netlsb="2" />
+                <connection pinmsb="10" pinlsb="10" net="N9" netmsb="4" netlsb="4" />
+                <connection pinmsb="13" pinlsb="13" net="N9" netmsb="7" netlsb="7" />
+                <connection pinmsb="16" pinlsb="16" net="N9" netmsb="11" netlsb="11" />
+                <connection pinmsb="19" pinlsb="19" net="N9" netmsb="15" netlsb="15" />
+                <connection pinmsb="22" pinlsb="22" net="N9" netmsb="19" netlsb="19" />
+                <connection pinmsb="25" pinlsb="25" net="N9" netmsb="21" netlsb="21" />
+                <connection pinmsb="28" pinlsb="28" net="N9" netmsb="24" netlsb="24" />
+                <connection pinmsb="31" pinlsb="31" net="N9" netmsb="28" netlsb="28" />
+                <connection pinmsb="34" pinlsb="34" net="N9" netmsb="30" netlsb="30" />
+                <connection pinmsb="37" pinlsb="37" net="N9" netmsb="32" netlsb="32" />
+                <connection pinmsb="8" pinlsb="8" net="N10" netmsb="2" netlsb="2" />
+                <connection pinmsb="11" pinlsb="11" net="N10" netmsb="4" netlsb="4" />
+                <connection pinmsb="14" pinlsb="14" net="N10" netmsb="7" netlsb="7" />
+                <connection pinmsb="17" pinlsb="17" net="N10" netmsb="11" netlsb="11" />
+                <connection pinmsb="20" pinlsb="20" net="N10" netmsb="15" netlsb="15" />
+                <connection pinmsb="23" pinlsb="23" net="N10" netmsb="19" netlsb="19" />
+                <connection pinmsb="26" pinlsb="26" net="N10" netmsb="21" netlsb="21" />
+                <connection pinmsb="29" pinlsb="29" net="N10" netmsb="24" netlsb="24" />
+                <connection pinmsb="32" pinlsb="32" net="N10" netmsb="28" netlsb="28" />
+                <connection pinmsb="35" pinlsb="35" net="N10" netmsb="30" netlsb="30" />
+                <connection pinmsb="38" pinlsb="38" net="N10" netmsb="32" netlsb="32" />
+                <connection pinmsb="2" pinlsb="2" net="N11" />
+                <connection pinmsb="39" pinlsb="39" net="N21" />
+                <connection pinmsb="36" pinlsb="36" net="N21" />
+                <connection pinmsb="33" pinlsb="33" net="N21" />
+                <connection pinmsb="30" pinlsb="30" net="N21" />
+                <connection pinmsb="27" pinlsb="27" net="N21" />
+                <connection pinmsb="24" pinlsb="24" net="N21" />
+                <connection pinmsb="21" pinlsb="21" net="N21" />
+                <connection pinmsb="18" pinlsb="18" net="N21" />
+                <connection pinmsb="15" pinlsb="15" net="N21" />
+                <connection pinmsb="12" pinlsb="12" net="N21" />
+                <connection pinmsb="9" pinlsb="9" net="N21" />
+                <connection pinmsb="6" pinlsb="6" net="N21" />
+                <connection pinmsb="3" pinlsb="3" net="N21" />
+                <connection pinmsb="40" pinlsb="40" net="N25" />
+                <connection pinmsb="1" pinlsb="1" net="N28" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I2</id>
+          <cellid>S3</cellid>
+          <name>page1_i2</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M3</id>
+              <termid>T31</termid>
+              <msb>40</msb>
+              <lsb>1</lsb>
+              <connections>
+                <connection pinmsb="2" pinlsb="2" net="N1" />
+                <connection pinmsb="3" pinlsb="3" net="N2" />
+                <connection pinmsb="6" pinlsb="6" net="N3" />
+                <connection pinmsb="7" pinlsb="7" net="N4" />
+                <connection pinmsb="10" pinlsb="10" net="N9" netmsb="6" netlsb="6" />
+                <connection pinmsb="14" pinlsb="14" net="N9" netmsb="10" netlsb="10" />
+                <connection pinmsb="18" pinlsb="18" net="N9" netmsb="14" netlsb="14" />
+                <connection pinmsb="22" pinlsb="22" net="N9" netmsb="18" netlsb="18" />
+                <connection pinmsb="26" pinlsb="26" net="N9" netmsb="27" netlsb="27" />
+                <connection pinmsb="11" pinlsb="11" net="N10" netmsb="6" netlsb="6" />
+                <connection pinmsb="15" pinlsb="15" net="N10" netmsb="10" netlsb="10" />
+                <connection pinmsb="19" pinlsb="19" net="N10" netmsb="14" netlsb="14" />
+                <connection pinmsb="23" pinlsb="23" net="N10" netmsb="18" netlsb="18" />
+                <connection pinmsb="27" pinlsb="27" net="N10" netmsb="27" netlsb="27" />
+                <connection pinmsb="34" pinlsb="34" net="N17" />
+                <connection pinmsb="40" pinlsb="40" net="N21" />
+                <connection pinmsb="38" pinlsb="38" net="N21" />
+                <connection pinmsb="36" pinlsb="36" net="N21" />
+                <connection pinmsb="33" pinlsb="33" net="N21" />
+                <connection pinmsb="32" pinlsb="32" net="N21" />
+                <connection pinmsb="29" pinlsb="29" net="N21" />
+                <connection pinmsb="28" pinlsb="28" net="N21" />
+                <connection pinmsb="25" pinlsb="25" net="N21" />
+                <connection pinmsb="24" pinlsb="24" net="N21" />
+                <connection pinmsb="21" pinlsb="21" net="N21" />
+                <connection pinmsb="20" pinlsb="20" net="N21" />
+                <connection pinmsb="17" pinlsb="17" net="N21" />
+                <connection pinmsb="16" pinlsb="16" net="N21" />
+                <connection pinmsb="13" pinlsb="13" net="N21" />
+                <connection pinmsb="12" pinlsb="12" net="N21" />
+                <connection pinmsb="9" pinlsb="9" net="N21" />
+                <connection pinmsb="8" pinlsb="8" net="N21" />
+                <connection pinmsb="5" pinlsb="5" net="N21" />
+                <connection pinmsb="4" pinlsb="4" net="N21" />
+                <connection pinmsb="1" pinlsb="1" net="N21" />
+                <connection pinmsb="30" pinlsb="30" net="N22" />
+                <connection pinmsb="31" pinlsb="31" net="N23" />
+                <connection pinmsb="37" pinlsb="37" net="N24" />
+                <connection pinmsb="35" pinlsb="35" net="N24" />
+                <connection pinmsb="39" pinlsb="39" net="N26" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M4</id>
+              <termid>T32</termid>
+              <msb>40</msb>
+              <lsb>1</lsb>
+              <connections>
+                <connection pinmsb="8" pinlsb="8" net="N9" netmsb="1" netlsb="1" />
+                <connection pinmsb="11" pinlsb="11" net="N9" netmsb="5" netlsb="5" />
+                <connection pinmsb="14" pinlsb="14" net="N9" netmsb="9" netlsb="9" />
+                <connection pinmsb="17" pinlsb="17" net="N9" netmsb="13" netlsb="13" />
+                <connection pinmsb="20" pinlsb="20" net="N9" netmsb="17" netlsb="17" />
+                <connection pinmsb="23" pinlsb="23" net="N9" netmsb="23" netlsb="23" />
+                <connection pinmsb="26" pinlsb="26" net="N9" netmsb="26" netlsb="26" />
+                <connection pinmsb="9" pinlsb="9" net="N10" netmsb="1" netlsb="1" />
+                <connection pinmsb="12" pinlsb="12" net="N10" netmsb="5" netlsb="5" />
+                <connection pinmsb="15" pinlsb="15" net="N10" netmsb="9" netlsb="9" />
+                <connection pinmsb="18" pinlsb="18" net="N10" netmsb="13" netlsb="13" />
+                <connection pinmsb="21" pinlsb="21" net="N10" netmsb="17" netlsb="17" />
+                <connection pinmsb="24" pinlsb="24" net="N10" netmsb="23" netlsb="23" />
+                <connection pinmsb="27" pinlsb="27" net="N10" netmsb="26" netlsb="26" />
+                <connection pinmsb="1" pinlsb="1" net="N12" />
+                <connection pinmsb="29" pinlsb="29" net="N13" />
+                <connection pinmsb="31" pinlsb="31" net="N14" />
+                <connection pinmsb="33" pinlsb="33" net="N15" />
+                <connection pinmsb="30" pinlsb="30" net="N16" />
+                <connection pinmsb="35" pinlsb="35" net="N18" />
+                <connection pinmsb="4" pinlsb="4" net="N19" />
+                <connection pinmsb="5" pinlsb="5" net="N20" />
+                <connection pinmsb="39" pinlsb="39" net="N21" />
+                <connection pinmsb="37" pinlsb="37" net="N21" />
+                <connection pinmsb="28" pinlsb="28" net="N21" />
+                <connection pinmsb="25" pinlsb="25" net="N21" />
+                <connection pinmsb="22" pinlsb="22" net="N21" />
+                <connection pinmsb="19" pinlsb="19" net="N21" />
+                <connection pinmsb="16" pinlsb="16" net="N21" />
+                <connection pinmsb="13" pinlsb="13" net="N21" />
+                <connection pinmsb="10" pinlsb="10" net="N21" />
+                <connection pinmsb="7" pinlsb="7" net="N21" />
+                <connection pinmsb="6" pinlsb="6" net="N21" />
+                <connection pinmsb="3" pinlsb="3" net="N21" />
+                <connection pinmsb="2" pinlsb="2" net="N21" />
+                <connection pinmsb="40" pinlsb="40" net="N26" />
+                <connection pinmsb="38" pinlsb="38" net="N26" />
+                <connection pinmsb="36" pinlsb="36" net="N26" />
+                <connection pinmsb="32" pinlsb="32" net="N26" />
+                <connection pinmsb="34" pinlsb="34" net="N27" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+      </instances>
+      <templateresolutions>
+      </templateresolutions>
+      <templateinstances>
+      </templateinstances>
+      <extensions>
+        <extension name="schematic_extension">
+        <schematicExtension>
+        <netScopes>
+          <netScope ref="dp0_c2m">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>inout</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="dp0_c2m*">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>inout</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="dp0_m2c">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>inout</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="dp0_m2c*">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>inout</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="fmc_clk0_m2c">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>inout</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="fmc_clk0_m2c*">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>inout</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="fmc_clk1_m2c">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>inout</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="fmc_clk1_m2c*">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>inout</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="fmc_la">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>inout</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="fmc_la*">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>inout</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="fmc_prsnt_m2c_l">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>output</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="fmc_pwr_good_flash_rst_b">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>output</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="fmc_tck_buf">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>input</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="fmc_tdo">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>output</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="fmc_tms_buf">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>input</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="fpga_tdo">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>input</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="ga0">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>input</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="ga1">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>input</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="gbtclk0_m2c">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>input</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="gbtclk0_m2c*">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>input</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="gnd">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>input</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="iic_scl_main">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>input</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="iic_sda_main">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>inout</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="p12v">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>input</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="p2v5">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>input</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="p3v3">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>input</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="trst_l">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>input</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="vref_a_m2c">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>input</direction>
+            </pageScope>
+          </netScope>
+        </netScopes>
+        <pages>
+          <page number="1">
+            <physicalPageNumber>1</physicalPageNumber>
+            <errorStatus>false</errorStatus>
+            <nets>
+              <net ref="dp0_c2m"></net>
+              <net ref="dp0_c2m*"></net>
+              <net ref="dp0_m2c"></net>
+              <net ref="dp0_m2c*"></net>
+              <net ref="fmc_clk0_m2c"></net>
+              <net ref="fmc_clk0_m2c*"></net>
+              <net ref="fmc_clk1_m2c"></net>
+              <net ref="fmc_clk1_m2c*"></net>
+              <net ref="fmc_la">
+                <msb>33</msb>
+                <lsb>0</lsb>
+              </net>
+              <net ref="fmc_la*">
+                <msb>33</msb>
+                <lsb>0</lsb>
+              </net>
+              <net ref="fmc_prsnt_m2c_l"></net>
+              <net ref="fmc_pwr_good_flash_rst_b"></net>
+              <net ref="fmc_tck_buf"></net>
+              <net ref="fmc_tdo"></net>
+              <net ref="fmc_tms_buf"></net>
+              <net ref="fpga_tdo"></net>
+              <net ref="ga0"></net>
+              <net ref="ga1"></net>
+              <net ref="gbtclk0_m2c"></net>
+              <net ref="gbtclk0_m2c*"></net>
+              <net ref="gnd"></net>
+              <net ref="iic_scl_main"></net>
+              <net ref="iic_sda_main"></net>
+              <net ref="p12v"></net>
+              <net ref="p2v5"></net>
+              <net ref="p3v3"></net>
+              <net ref="trst_l"></net>
+              <net ref="vref_a_m2c"></net>
+            </nets>
+            <instances>
+              <instance ref="i1"></instance>
+              <instance ref="i2"></instance>
+            </instances>
+          </page>
+        </pages>
+      </schematicExtension>
+        </extension>
+      </extensions>
+    </design>
+  </designs>
+</schema>

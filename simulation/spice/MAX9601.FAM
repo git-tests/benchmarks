@@ -1,0 +1,128 @@
+* MAX9601 MACROMODEL
+* ------------------------------
+* Revision 0, 11/2003
+* ------------------------------
+* MAX9601 is a ultra-high-speed dual comparator with extremely low 
+* propogation delay(500 ps). The outputs are complimentary digital 
+* signals, compatible with PECL systems.
+* ------------------------------
+* Connections
+*   1  = QA
+*   2  = QA-
+*   3  = VCCOA
+*   4  = LEA
+*   5  = LEA_
+*   6  = VEE
+*   7  = VCC
+*   8  = HYSA
+*   9  = INA-
+*  10  = INA+
+*  11  = INB+
+*  12  = INB-
+*  13  = HYSB
+*  14  = VCC
+*  15  = VEE
+*  16  = LEB_
+*  17  = LEB
+*  18  = VCCOB
+*  19  = QB
+*  20  = QB_
+*****************
+* NOTE1: OUT_ IS ACTUALLY COMPLIMENTED OUT. 
+* NOTE2: LE_ IS ACTUALLY COMPLIMENTED INPUT.
+* NOTE3: OUTPUT IS MEASURED WITH RESPECT TO VCC0
+* NOTE4: INCLUDE 
+*            .OPTIONS ITL4=50  
+*                             TO ENHANCE CONVERGENCE.
+*****************
+**********************************************
+.SUBCKT MAX9601 1 2 3 4 5 6 7 8 9 10
++               11 12 13 14 15 16 17 18 19 20
+X1 10 9 7 6 3 4 5 8 1 2 MAX9601CMP
+X2 11 12 14 15 18 17 16 13 20 19 MAX9601CMP
+.ENDS 
+**********************************************
+
+
+*****************
+.SUBCKT MAX9601CMP 1 2 3 4 5 6 7 8 9 10
+*INPUT STAGE
+****************
+RPC 3 0 268.817
+RPE 4 0 220.339
+****************
+CIN 2 5 2P
+****************
+VOS 99 100 1M
+****************
+IEE 3 11 400U
+Q1 12 2 11 QX
+Q2 13 99 11 QY
+RC1 12 4 129.3
+RC2 13 4 129.3
+****************
+*INTERMEDIATE STAGE
+GA 5 14 12 13 1
+RA 14 5 100K
+CA 14 5 1E-18
+D1 14 15 DX
+VOH 15 5 -0.94
+D2 16 14 DX
+VOL 16 5 -1.72
+**************
+*HYSTERESIS
+VHIST 125 0 2.5
+RSC 125 88 1
+DHIST 88 8 DX
+ROPEN 8 0 1E12
+HHIST 89 0 VHIST -1
+EHIST2 101 0 89 0 0.4
+GHIST 100 14 POLY(2) 100 14 101 0 0 0 0 0 1  
+RIN 1 100 630.77
+****
+EOUT 19 5 14 5 1
+**************
+*LATCH
+ECCL 33 5 15 5 1
+EEEL 44 5 16 5 1
+M1 19 7 20 20 NMOS 
+M2 20 6 19 19 PMOS
+M3 21 20 44 44 NMOS 
+M4 21 20 33 33 PMOS
+M5 22 21 44 44 NMOS 
+M6 22 21 33 33 PMOS
+M7 22 6 20 20 NMOS
+M8 20 7 22 22 PMOS
+**************
+*DELAY,RISE AND FALL TIME
+EDELQ 102 5 22 5 1
+T1Q 102 5 17 5 ZO=50 TD=166P
+RTERMQ 17 5 50 
+CTERMQ 17 5 0.18P
+GRISEQ 5 23 17 5 1M
+RRISEQ 23 5 1K
+C23 23 5 0.15P
+****
+EDELQB 103 5 21 5 1
+T1QB 103 5 18 5 ZO=50 TD=166P
+RTERMQB 18 5 50 
+CTERMQB 18 5 0.18P
+GRISEQB 5 24 18 5 1M
+RRISEQB 24 5 1K
+C24 24 5 0.15P
+****************
+E1 9 5 23 5 1
+E2 10 5 24 5 1
+****************
+*MODELS USED
+.MODEL QX PNP(BF=34.188)
+.MODEL QY PNP(BF=32.52)
+.MODEL DX D(N=0.001 TT=1E-15)
+.MODEL NMOS NMOS(KP=1 TOX=100U VTO=0.39 W=1U L=1U)
+.MODEL PMOS PMOS(KP=1 TOX=100U VTO=-0.39 W=1U L=1U)
+****************
+.ENDS
+****************
+ 
+
+
