@@ -1,0 +1,203 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    PLACEMENT LOG                                                    )
+(                                                                     )
+(    Drawing          : fmc_tlu_cfd_02.brd                            )
+(    Software Version : 16.5S005                                      )
+(    Date/Time        : Thu May  3 10:33:03 2012                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Autoplace /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_cfd/physical/fmc_tlu_cfd_02.brd 
+ Save as /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_cfd/physical/fmc_tlu_cfd_02.brd 
+
+ Will search while getting acceptable improvement
+ Will not scale complete graph edges
+ Start time Thu May  3 10:33:03 2012
+
+
+ 
+ 	 	 Placement Task Version 1.00 
+ 
+ 
+ Algorithm  : discrete
+ Place within: board
+ Map grid points to: library origin
+ Place leftovers on bottom: YES
+ Allow component overlap: NO
+ Soft boundary: NO
+ Cluster: NO
+ No Rat: NO
+ Remove TAG: NO
+ Components at rotation of 0 degrees are weighted 50
+
+ Components at rotation of 90 degrees are weighted 0
+
+ Components at rotation of 180 degrees are weighted 0
+
+ Components at rotation of 270 degrees are weighted 0
+
+ Board direction of north is weighted 70
+
+ Board direction of east is weighted 50
+
+ Board direction of south is weighted 70
+
+ Board direction of west is weighted 50
+
+ Component mirroring weight is 0
+
+ Component straightness weight is 75
+
+ Placement Keepin
+
+  line seg 	(9.0000,20.0000) (-9.0000,20.0000)
+  line seg 	(-9.0000,20.0000) (-9.0000,-20.0000)
+  line seg 	(-9.0000,-20.0000) (9.0000,-20.0000)
+  line seg 	(9.0000,-20.0000) (9.0000,20.0000)
+
+ Top grid x increment will be 0.2500
+
+ grid y increment will be 0.2500
+
+ Start grid point will be (-8.7500 -19.7500)
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dangling Line and Via Report                                     )
+(                                                                     )
+(    Drawing          : fmc_tlu_cfd_02.brd                            )
+(    Software Version : 16.5S005                                      )
+(    Date/Time        : Thu May  3 10:33:03 2012                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Report methodology:
+  - Dangling lines have at least one end not connected.
+  - Dangling vias have one or no connection
+      - Plus are not a test, thieving or netshort property via.
+  - In all cases output is suppressed if an object has the OK_DANGLE
+    property or is not part of the current partition.
+
+
+
+<< Summary >>
+  Total dangling lines:       0
+  Total dangling vias:        0
+
+    Layout Statistics:
+    -----------------
+        Components:  Placed 8  Unplaced 20  Total 28
+        Nets:  W/Rats 20  No/Rats 0  Total 20
+        Pins:  W/Rats 63  No/Rats 0  Unused 0  Unplaced 40  Total 103
+        Equivalent ICs (1 pin = 1/14 EIC)  7
+        RatTs              0
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 44           0           44
+        Already Connected            0           0            0
+        Missing Connections         44           0           44
+        Dangling Connections                                  0
+        Connection Completion        0.00%       0.00%        0.00%
+        Manh Distance (inches)       7.47
+        Etch Length (inches)         0.00        0.00         0.00
+        Number of vias		     0           0            0
+        Vias per Connection          0.00        0.00         0.00
+        Smd pins with attached clines                         0
+
+
+ Starting Connection Matrix construction.
+
+ Failed placements are marked with an asterisk in the table below
+
+ 
+  ref_des    location_x  location_y  rotation mirror            package
+       R3      -3.2500      9.5000         0                  C0603 (5)
+       R9       5.5000     -3.5000         0                  C0603 (26)
+      R10      -3.5000      2.0000         0                  C0603 (10)
+      R13       5.5000     -5.0000         0                  C0603 (8)
+      R12       6.2500    -16.2500         0                  C0603 (9)
+       R4       6.2500      1.5000         0                  C0402 (4)
+       R7      -3.2500      8.0000         0                  C0603 (25)
+       R5      -3.2500      3.5000         0                  C0603 (24)
+       C2      -3.2500      5.0000         0                  C0603 (22)
+      R11       6.2500     -6.5000         0                  C0603 (7)
+      R14      -6.2500    -16.2500         0                  C0603 (6)
+       R1       6.2500     16.5000         0                  C0402 (3)
+
+ Warning: Unplaced components have no affinity to placed
+      C10      -7.5000    -19.2500         0                  C0603 (21)
+
+ Warning: Unplaced components have no affinity to placed
+       C9       6.2500    -19.2500         0                  C0603 (20)
+
+ Warning: Unplaced components have no affinity to placed
+       C8      -7.5000    -17.7500         0                  C0603 (19)
+
+ Warning: Unplaced components have no affinity to placed
+       C7       6.2500    -17.7500         0                  C0603 (18)
+
+ Warning: Unplaced components have no affinity to placed
+       C4      -7.5000    -14.7500         0                  C0603 (16)
+
+ Warning: Unplaced components have no affinity to placed
+       C3       6.2500    -14.7500         0                  C0603 (15)
+
+ Warning: Unplaced components have no affinity to placed
+       C6      -7.5000    -13.2500         0                  C0603 (14)
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dangling Line and Via Report                                     )
+(                                                                     )
+(    Drawing          : fmc_tlu_cfd_02.brd                            )
+(    Software Version : 16.5S005                                      )
+(    Date/Time        : Thu May  3 10:33:03 2012                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Report methodology:
+  - Dangling lines have at least one end not connected.
+  - Dangling vias have one or no connection
+      - Plus are not a test, thieving or netshort property via.
+  - In all cases output is suppressed if an object has the OK_DANGLE
+    property or is not part of the current partition.
+
+
+
+<< Summary >>
+  Total dangling lines:       0
+  Total dangling vias:        0
+
+    Layout Statistics:
+    -----------------
+        Components:  Placed 27  Unplaced 1  Total 28
+        Nets:  W/Rats 20  No/Rats 0  Total 20
+        Pins:  W/Rats 101  No/Rats 0  Unused 0  Unplaced 2  Total 103
+        Equivalent ICs (1 pin = 1/14 EIC)  7
+        RatTs              0
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 81           0           81
+        Already Connected            0           0            0
+        Missing Connections         81           0           81
+        Dangling Connections                                  0
+        Connection Completion        0.00%       0.00%        0.00%
+        Manh Distance (inches)      15.00
+        Etch Length (inches)         0.00        0.00         0.00
+        Number of vias		     0           0            0
+        Vias per Connection          0.00        0.00         0.00
+        Smd pins with attached clines                         0
+
+
+ Successfully placed 19 components out of 19
+
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Thu May  3 10:33:03 2012
+

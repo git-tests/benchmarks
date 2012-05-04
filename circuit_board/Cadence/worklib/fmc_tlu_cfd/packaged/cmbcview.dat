@@ -1,0 +1,829 @@
+; Packager-XL run on 03-May-2012 AT 10:22:53 CONSTRAINTS_VIEW_GENERATED
+( ConstraintFile "fmc_tlu_cfd"
+	( constraintHeader
+		( objectKey
+			( physical )
+		)
+		( version
+			( 16.5 )
+		)
+		( revisionNumber
+			( logicalViewRevNum 26 )
+			( physicalViewRevNum 0 )
+			( otherViewRevNum 0 )
+		)
+		( contents
+			( dictionaryExtensions )
+			( worksheetCustomizations )
+			( electricalConstraints )
+			( netClasses )
+			( properties )
+		)
+		( precision
+			( units mil )
+			( numberOfDecimalPlaces 2 )
+		)
+	)
+	( DictionaryExtensions
+		( Attribute
+			( Name "CDS_LMAN_SYM_OUTLINE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TYPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "DIST" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MAX_TEMP" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NEGTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POSTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POWER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SLOPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC1" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC2" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TOL_ON_OFF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MANUF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "ABBREV" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "GENDER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "COMPVALUE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "PLACEMENT_REGION" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SLOTXOFY" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SYMNAME" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NO_ASSERT_CHECK" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NO_DIR_CHECK" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "HDL_PINTYPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CASE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+	)
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "fmc_tlu_cfd"
+				( objectFlag fObjectReadOnly )
+				( objectStatus sObjectLogicalNet )
+			)
+			( signal "GND_SIGNAL"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):gnd_signal" )
+			)
+			( signal "M5V"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):m5v" )
+			)
+			( signal "P5V"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):p5v" )
+			)
+			( signal "LEADING_EDGE_OUT*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):\leading_edge_out*\" )
+			)
+			( signal "LEADING_EDGE_OUT"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):leading_edge_out" )
+			)
+			( signal "CFD_OUT*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):\cfd_out*\" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_IN"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_in" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_Q"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_q" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_Q_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_q_1" )
+			)
+			( signal "VIN"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):vin" )
+			)
+			( signal "CFD_OUT"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):cfd_out" )
+			)
+			( signal "VTHRESH"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):vthresh" )
+			)
+			( signal "UNNAMED_1_CAPCERSMDCL2_I78_B"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_capcersmdcl2_i78_b" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_HYS"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_hys" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_IN_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_in_1" )
+			)
+			( signal "UNNAMED_1_MAX9601_I71_HYS"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i71_hys" )
+			)
+			( signal "UNNAMED_1_DELAYLINEGL2L_I140_A1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_a1" )
+			)
+			( signal "UNNAMED_1_DELAYLINEGL2L_I140_A2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_a2" )
+			)
+			( signal "UNNAMED_1_DELAYLINEGL2L_I140_B2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_b2" )
+			)
+			( signal "P2V5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):p2v5" )
+			)
+			( gate "IC2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1" )
+			)
+			( gate "R14"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i104" )
+			)
+			( gate "R12"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i101" )
+			)
+			( gate "C1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i123" )
+			)
+			( gate "D1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i120" )
+			)
+			( gate "C4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i39" )
+			)
+			( gate "C7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i40" )
+			)
+			( gate "C10"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i41" )
+			)
+			( gate "C9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i43" )
+			)
+			( gate "C6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i44" )
+			)
+			( gate "C3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i47" )
+			)
+			( gate "IC2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71" )
+			)
+			( gate "R9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i73" )
+			)
+			( gate "C2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i78" )
+			)
+			( gate "R5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i79" )
+			)
+			( gate "R10"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i81" )
+			)
+			( gate "R6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i148" )
+			)
+			( gate "R7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i92" )
+			)
+			( gate "R3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i93" )
+			)
+			( gate "R2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i94" )
+			)
+			( gate "R13"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i111" )
+			)
+			( gate "R11"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i113" )
+			)
+			( gate "IC1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140" )
+			)
+			( gate "IC3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141" )
+			)
+			( gate "R4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i144" )
+			)
+			( gate "R1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i145" )
+			)
+			( gate "R8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i147" )
+			)
+			( gate "C5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i150" )
+			)
+			( gate "C8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i151" )
+			)
+			( pin "IC2.13"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:hys(0)" )
+			)
+			( pin "IC2.11"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:\in+\(0)" )
+			)
+			( pin "IC2.12"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:\in-\(0)" )
+			)
+			( pin "IC2.17"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:le(0)" )
+			)
+			( pin "IC2.16"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:\le*\(0)" )
+			)
+			( pin "IC2.20"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:q(0)" )
+			)
+			( pin "IC2.19"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:\q*\(0)" )
+			)
+			( pin "R13.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i111:b(0)" )
+			)
+			( pin "R13.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i111:a(0)" )
+			)
+			( pin "R14.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i104:b(0)" )
+			)
+			( pin "R14.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i104:a(0)" )
+			)
+			( pin "C1.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i123:b(0)" )
+			)
+			( pin "C1.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i123:a(0)" )
+			)
+			( pin "D1.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i120:c" )
+			)
+			( pin "D1.3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i120:ac" )
+			)
+			( pin "D1.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i120:a" )
+			)
+			( pin "C4.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i39:a(0)" )
+			)
+			( pin "C4.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i39:b(0)" )
+			)
+			( pin "C7.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i40:a(0)" )
+			)
+			( pin "C7.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i40:b(0)" )
+			)
+			( pin "C10.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i41:a(0)" )
+			)
+			( pin "C10.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i41:b(0)" )
+			)
+			( pin "C9.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i43:a(0)" )
+			)
+			( pin "C9.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i43:b(0)" )
+			)
+			( pin "C6.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i44:a(0)" )
+			)
+			( pin "C6.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i44:b(0)" )
+			)
+			( pin "C3.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i47:a(0)" )
+			)
+			( pin "C3.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i47:b(0)" )
+			)
+			( pin "R12.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i101:b(0)" )
+			)
+			( pin "R12.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i101:a(0)" )
+			)
+			( pin "IC2.8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:hys(0)" )
+			)
+			( pin "IC2.10"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:\in+\(0)" )
+			)
+			( pin "IC2.9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:\in-\(0)" )
+			)
+			( pin "IC2.4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:le(0)" )
+			)
+			( pin "IC2.5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:\le*\(0)" )
+			)
+			( pin "IC2.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:q(0)" )
+			)
+			( pin "IC2.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:\q*\(0)" )
+			)
+			( pin "R9.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i73:a(0)" )
+			)
+			( pin "R9.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i73:b(0)" )
+			)
+			( pin "C2.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i78:a(0)" )
+			)
+			( pin "C2.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i78:b(0)" )
+			)
+			( pin "R5.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i79:a(0)" )
+			)
+			( pin "R5.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i79:b(0)" )
+			)
+			( pin "R10.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i81:a(0)" )
+			)
+			( pin "R10.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i81:b(0)" )
+			)
+			( pin "R6.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i148:b(0)" )
+			)
+			( pin "R6.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i148:a(0)" )
+			)
+			( pin "R7.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i92:a(0)" )
+			)
+			( pin "R7.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i92:b(0)" )
+			)
+			( pin "R3.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i93:a(0)" )
+			)
+			( pin "R3.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i93:b(0)" )
+			)
+			( pin "R2.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i94:b(0)" )
+			)
+			( pin "R2.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i94:a(0)" )
+			)
+			( pin "R11.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i113:a(0)" )
+			)
+			( pin "R11.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i113:b(0)" )
+			)
+			( pin "IC1.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:a1" )
+			)
+			( pin "IC1.15"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:a2" )
+			)
+			( pin "IC1.7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:b1" )
+			)
+			( pin "IC1.10"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:b2" )
+			)
+			( pin "IC1.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(0)" )
+			)
+			( pin "IC1.3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(1)" )
+			)
+			( pin "IC1.4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(2)" )
+			)
+			( pin "IC1.5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(3)" )
+			)
+			( pin "IC1.6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(4)" )
+			)
+			( pin "IC1.8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(5)" )
+			)
+			( pin "IC1.9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(6)" )
+			)
+			( pin "IC1.11"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(7)" )
+			)
+			( pin "IC1.12"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(8)" )
+			)
+			( pin "IC1.13"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(9)" )
+			)
+			( pin "IC1.14"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(10)" )
+			)
+			( pin "IC1.16"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(11)" )
+			)
+			( pin "IC3.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:a1" )
+			)
+			( pin "IC3.15"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:a2" )
+			)
+			( pin "IC3.7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:b1" )
+			)
+			( pin "IC3.10"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:b2" )
+			)
+			( pin "IC3.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(0)" )
+			)
+			( pin "IC3.3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(1)" )
+			)
+			( pin "IC3.4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(2)" )
+			)
+			( pin "IC3.5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(3)" )
+			)
+			( pin "IC3.6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(4)" )
+			)
+			( pin "IC3.8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(5)" )
+			)
+			( pin "IC3.9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(6)" )
+			)
+			( pin "IC3.11"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(7)" )
+			)
+			( pin "IC3.12"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(8)" )
+			)
+			( pin "IC3.13"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(9)" )
+			)
+			( pin "IC3.14"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(10)" )
+			)
+			( pin "IC3.16"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(11)" )
+			)
+			( pin "R4.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i144:a(0)" )
+			)
+			( pin "R4.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i144:b(0)" )
+			)
+			( pin "R1.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i145:a(0)" )
+			)
+			( pin "R1.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i145:b(0)" )
+			)
+			( pin "R8.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i147:b(0)" )
+			)
+			( pin "R8.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i147:a(0)" )
+			)
+			( pin "C5.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i150:a(0)" )
+			)
+			( pin "C5.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i150:b(0)" )
+			)
+			( pin "C8.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i151:a(0)" )
+			)
+			( pin "C8.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i151:b(0)" )
+			)
+		)
+	)
+)
+ 

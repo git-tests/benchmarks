@@ -1,0 +1,1749 @@
+; Packager-XL run on 04-May-2012 AT 08:44:08 CONSTRAINTS_VIEW_GENERATED
+( ConstraintFile "fmc_tlu_cfd"
+	( constraintHeader
+		( objectKey
+			( physical )
+		)
+		( version
+			( 16.5 )
+		)
+		( revisionNumber
+			( logicalViewRevNum 32 )
+			( physicalViewRevNum 1 )
+			( otherViewRevNum 0 )
+		)
+		( contents
+			( drawing )
+			( dictionaryExtensions )
+			( worksheetCustomizations )
+			( crossSection )
+			( electricalConstraints )
+			( physicalConstraints )
+			( spacingConstraints )
+			( sameNetSpacingConstraints )
+			( netClasses )
+			( properties )
+		)
+		( precision
+			( units mm )
+			( numberOfDecimalPlaces 4 )
+		)
+	)
+	( drawing
+		( attribute "DRAWING_EXTENTS" "533.4000,431.8000"
+		)
+		( attribute "DRAWING_LOWER_LEFT" "-50.0000,-50.0000"
+		)
+	)
+	( DictionaryExtensions
+		( Attribute
+			( Name "CDS_LMAN_SYM_OUTLINE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TYPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "DIST" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MAX_TEMP" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NEGTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POSTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POWER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SLOPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC1" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC2" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TOL_ON_OFF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MANUF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "ABBREV" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "GENDER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "COMPVALUE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "PLACEMENT_REGION" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SLOTXOFY" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SYMNAME" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NO_ASSERT_CHECK" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NO_DIR_CHECK" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "HDL_PINTYPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CASE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "$sec" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+	)
+	( crossSection
+		( layer "SURFACE_INDEX_0"
+			( attribute "CDS_LAYER_TYPE" "SURFACE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "AIR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "TOP"
+			( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0180"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_TOP"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.2200"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.200"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "LAYER2"
+			( attribute "CDS_LAYER_TYPE" "PLANE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0350"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "TRUE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_LAYER2"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.3000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.550"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "LAYER3"
+			( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0350"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_LAYER3"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.2032"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.200"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "LAYER4"
+			( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0350"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_LAYER4"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.3000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "LAYER5"
+			( attribute "CDS_LAYER_TYPE" "PLANE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0350"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "TRUE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_LAYER5"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.2200"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.200"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "BOTTOM"
+			( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0180"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "SURFACE_BELOW_BOTTOM"
+			( attribute "CDS_LAYER_TYPE" "SURFACE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "AIR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+	)
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "fmc_tlu_cfd"
+				( physicalCSetRef "DEFAULT" )
+				( spacingCSetRef "DEFAULT" )
+				( sameNetSpacingCSetRef "DEFAULT" )
+				( objectFlag fObjectReadOnly )
+				( objectStatus sObjectLogicalNet )
+			)
+			( physicalCSet "DEFAULT"
+				( attribute "DIFFP_PRIMARY_GAP" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_COUPLED_PLUS" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_COUPLED_MINUS" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_MIN_SPACE" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_LINE_WIDTH" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MAX_LINE_WIDTH" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_NECK_GAP" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_NECK_WIDTH" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MAXIMUM_NECK_LENGTH" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "VIA_LIST" "VIA"
+					( Origin gBackEnd )
+				)
+				( attribute "ALLOW_ON_ETCH_SUBCLASS" "TRUE,TRUE,TRUE,TRUE,TRUE,TRUE"
+					( Origin gBackEnd )
+				)
+				( attribute "TS_ALLOWED" "ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_BVIA_STAGGER" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MAX_BVIA_STAGGER" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "PAD_PAD_DIRECT_CONNECT" "ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED"
+					( Origin gBackEnd )
+				)
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):\DEFAULT\" )
+			)
+			( spacingCSet "DEFAULT"
+				( attribute "THRUPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_PIN_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_VIA_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_LINE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_SHAPE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_HOLE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_BVIA_GAP" "0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_BONDPAD_DIFFP_SPC" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):\DEFAULT\" )
+			)
+			( sameNetSpacingCSet "DEFAULT"
+				( attribute "SAME_NET" "FALSE,FALSE,FALSE,FALSE,FALSE,FALSE"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_PIN_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_VIA_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_LINE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_SHAPE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_HOLE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):\DEFAULT\" )
+			)
+			( signal "GND_SIGNAL"
+				( attribute "WEIGHT" "0"
+					( Origin gBackEnd )
+				)
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):gnd_signal" )
+			)
+			( signal "M5V"
+				( attribute "WEIGHT" "0"
+					( Origin gBackEnd )
+				)
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):m5v" )
+			)
+			( signal "P5V"
+				( attribute "WEIGHT" "0"
+					( Origin gBackEnd )
+				)
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):p5v" )
+			)
+			( signal "LEADING_EDGE_OUT*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):\leading_edge_out*\" )
+			)
+			( signal "LEADING_EDGE_OUT"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):leading_edge_out" )
+			)
+			( signal "CFD_OUT*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):\cfd_out*\" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_IN"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_in" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_Q"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_q" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_Q_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_q_1" )
+			)
+			( signal "VIN"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):vin" )
+			)
+			( signal "CFD_OUT"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):cfd_out" )
+			)
+			( signal "VTHRESH"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):vthresh" )
+			)
+			( signal "UNNAMED_1_CAPCERSMDCL2_I78_B"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_capcersmdcl2_i78_b" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_HYS"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_hys" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_IN_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_in_1" )
+			)
+			( signal "UNNAMED_1_MAX9601_I71_HYS"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i71_hys" )
+			)
+			( signal "UNNAMED_1_DELAYLINEGL2L_I140_A1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_a1" )
+			)
+			( signal "UNNAMED_1_DELAYLINEGL2L_I140_A2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_a2" )
+			)
+			( signal "UNNAMED_1_DELAYLINEGL2L_I140_B2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_b2" )
+			)
+			( signal "P2V5"
+				( attribute "WEIGHT" "0"
+					( Origin gBackEnd )
+				)
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):p2v5" )
+			)
+			( gate "IC2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1" )
+			)
+			( gate "C1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i123" )
+			)
+			( gate "D1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i120" )
+			)
+			( gate "C4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i39" )
+			)
+			( gate "C7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i40" )
+			)
+			( gate "C10"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i41" )
+			)
+			( gate "C9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i43" )
+			)
+			( gate "C6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i44" )
+			)
+			( gate "C3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i47" )
+			)
+			( gate "IC2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71" )
+			)
+			( gate "R9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i73" )
+			)
+			( gate "C2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i78" )
+			)
+			( gate "R5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i79" )
+			)
+			( gate "R10"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i81" )
+			)
+			( gate "R6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i148" )
+			)
+			( gate "R7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i92" )
+			)
+			( gate "R3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i93" )
+			)
+			( gate "R2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i94" )
+			)
+			( gate "R13"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i111" )
+			)
+			( gate "R11"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i113" )
+			)
+			( gate "IC1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140" )
+			)
+			( gate "IC3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141" )
+			)
+			( gate "R4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i144" )
+			)
+			( gate "R1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i145" )
+			)
+			( gate "R8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i147" )
+			)
+			( gate "C5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i150" )
+			)
+			( gate "C8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i151" )
+			)
+			( gate "R14"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i152" )
+			)
+			( gate "R12"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i153" )
+			)
+			( pin "IC2.8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:hys(0)" )
+			)
+			( pin "IC2.10"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:\in+\(0)" )
+			)
+			( pin "IC2.9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:\in-\(0)" )
+			)
+			( pin "IC2.4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:le(0)" )
+			)
+			( pin "IC2.5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:\le*\(0)" )
+			)
+			( pin "IC2.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:q(0)" )
+			)
+			( pin "IC2.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:\q*\(0)" )
+			)
+			( pin "R13.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i111:b(0)" )
+			)
+			( pin "R13.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i111:a(0)" )
+			)
+			( pin "C1.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i123:b(0)" )
+			)
+			( pin "C1.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i123:a(0)" )
+			)
+			( pin "D1.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i120:c" )
+			)
+			( pin "D1.3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i120:ac" )
+			)
+			( pin "D1.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i120:a" )
+			)
+			( pin "C4.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i39:a(0)" )
+			)
+			( pin "C4.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i39:b(0)" )
+			)
+			( pin "C7.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i40:a(0)" )
+			)
+			( pin "C7.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i40:b(0)" )
+			)
+			( pin "C10.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i41:a(0)" )
+			)
+			( pin "C10.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i41:b(0)" )
+			)
+			( pin "C9.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i43:a(0)" )
+			)
+			( pin "C9.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i43:b(0)" )
+			)
+			( pin "C6.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i44:a(0)" )
+			)
+			( pin "C6.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i44:b(0)" )
+			)
+			( pin "C3.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i47:a(0)" )
+			)
+			( pin "C3.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i47:b(0)" )
+			)
+			( pin "IC2.13"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:hys(0)" )
+			)
+			( pin "IC2.11"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:\in+\(0)" )
+			)
+			( pin "IC2.12"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:\in-\(0)" )
+			)
+			( pin "IC2.17"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:le(0)" )
+			)
+			( pin "IC2.16"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:\le*\(0)" )
+			)
+			( pin "IC2.20"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:q(0)" )
+			)
+			( pin "IC2.19"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:\q*\(0)" )
+			)
+			( pin "R9.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i73:a(0)" )
+			)
+			( pin "R9.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i73:b(0)" )
+			)
+			( pin "C2.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i78:a(0)" )
+			)
+			( pin "C2.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i78:b(0)" )
+			)
+			( pin "R5.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i79:a(0)" )
+			)
+			( pin "R5.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i79:b(0)" )
+			)
+			( pin "R10.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i81:a(0)" )
+			)
+			( pin "R10.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i81:b(0)" )
+			)
+			( pin "R6.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i148:b(0)" )
+			)
+			( pin "R6.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i148:a(0)" )
+			)
+			( pin "R7.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i92:a(0)" )
+			)
+			( pin "R7.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i92:b(0)" )
+			)
+			( pin "R3.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i93:a(0)" )
+			)
+			( pin "R3.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i93:b(0)" )
+			)
+			( pin "R2.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i94:b(0)" )
+			)
+			( pin "R2.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i94:a(0)" )
+			)
+			( pin "R11.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i113:a(0)" )
+			)
+			( pin "R11.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i113:b(0)" )
+			)
+			( pin "IC1.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:a1" )
+			)
+			( pin "IC1.15"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:a2" )
+			)
+			( pin "IC1.7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:b1" )
+			)
+			( pin "IC1.10"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:b2" )
+			)
+			( pin "IC1.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(0)" )
+			)
+			( pin "IC1.3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(1)" )
+			)
+			( pin "IC1.4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(2)" )
+			)
+			( pin "IC1.5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(3)" )
+			)
+			( pin "IC1.6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(4)" )
+			)
+			( pin "IC1.8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(5)" )
+			)
+			( pin "IC1.9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(6)" )
+			)
+			( pin "IC1.11"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(7)" )
+			)
+			( pin "IC1.12"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(8)" )
+			)
+			( pin "IC1.13"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(9)" )
+			)
+			( pin "IC1.14"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(10)" )
+			)
+			( pin "IC1.16"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(11)" )
+			)
+			( pin "IC3.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:a1" )
+			)
+			( pin "IC3.15"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:a2" )
+			)
+			( pin "IC3.7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:b1" )
+			)
+			( pin "IC3.10"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:b2" )
+			)
+			( pin "IC3.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(0)" )
+			)
+			( pin "IC3.3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(1)" )
+			)
+			( pin "IC3.4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(2)" )
+			)
+			( pin "IC3.5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(3)" )
+			)
+			( pin "IC3.6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(4)" )
+			)
+			( pin "IC3.8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(5)" )
+			)
+			( pin "IC3.9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(6)" )
+			)
+			( pin "IC3.11"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(7)" )
+			)
+			( pin "IC3.12"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(8)" )
+			)
+			( pin "IC3.13"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(9)" )
+			)
+			( pin "IC3.14"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(10)" )
+			)
+			( pin "IC3.16"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(11)" )
+			)
+			( pin "R4.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i144:a(0)" )
+			)
+			( pin "R4.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i144:b(0)" )
+			)
+			( pin "R1.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i145:a(0)" )
+			)
+			( pin "R1.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i145:b(0)" )
+			)
+			( pin "R8.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i147:b(0)" )
+			)
+			( pin "R8.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i147:a(0)" )
+			)
+			( pin "C5.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i150:a(0)" )
+			)
+			( pin "C5.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i150:b(0)" )
+			)
+			( pin "C8.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i151:a(0)" )
+			)
+			( pin "C8.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i151:b(0)" )
+			)
+			( pin "R14.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i152:a(0)" )
+			)
+			( pin "R14.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i152:b(0)" )
+			)
+			( pin "R12.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i153:a(0)" )
+			)
+			( pin "R12.2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i153:b(0)" )
+			)
+		)
+	)
+)
