@@ -5,15 +5,15 @@
     <schemaVersion>16.5</schemaVersion>
     <creatorTool>csnetlister</creatorTool>
     <modifierTool>csnetlister</modifierTool>
-    <modificationTime>2012-05-04T15:04:46</modificationTime>
+    <modificationTime>2012-05-04T16:25:26</modificationTime>
     <savedLibrary>fmc_tlu_v1_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="fmc_tlu_toplevel" view="sch_1">
       <lastids>
         <instanceid>42</instanceid>
-        <netid>73</netid>
-        <insttermid>384</insttermid>
+        <netid>75</netid>
+        <insttermid>404</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -510,6 +510,11 @@
           <scope>global</scope>
         </net>
         <net>
+          <id>N63</id>
+          <name>frame</name>
+          <scope>global</scope>
+        </net>
+        <net>
           <id>m5v</id>
           <name>m5v</name>
           <scope>global</scope>
@@ -520,11 +525,6 @@
           <name>p5v</name>
           <scope>global</scope>
           <inherited>1</inherited>
-        </net>
-        <net>
-          <id>N63</id>
-          <name>frame</name>
-          <scope>global</scope>
         </net>
       </nets>
       <aliases>
@@ -583,14 +583,14 @@
               <id>M5</id>
               <termid>T8</termid>
               <connections>
-                <connection net="N10" />
+                <connection net="N9" />
               </connections>
             </pin>
             <pin>
               <id>M6</id>
               <termid>T9</termid>
               <connections>
-                <connection net="N9" />
+                <connection net="N10" />
               </connections>
             </pin>
             <pin>
@@ -893,14 +893,14 @@
               <id>M178</id>
               <termid>T32</termid>
               <connections>
-                <connection net="N10" />
+                <connection net="N9" />
               </connections>
             </pin>
             <pin>
               <id>M179</id>
               <termid>T33</termid>
               <connections>
-                <connection net="N9" />
+                <connection net="N10" />
               </connections>
             </pin>
           </pins>

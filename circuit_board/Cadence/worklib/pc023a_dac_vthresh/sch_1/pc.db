@@ -1,10 +1,7 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.5-S005 (v16-5-13R) 8/23/2011 on Tue May  1 16:33:43 2012
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.5-S005 (v16-5-13R) 8/23/2011 on Fri May  4 15:50:30 2012
 #ISCELL
   bris_cds_standard a3-2000 *
   *
-#CELL
-  bris_cds_analogue ad5316 *
-  page1_i1
 #ISCELL
   standard inport *
   page1_i15
@@ -53,12 +50,6 @@
 #ISCELL
   standard gnd_signal *
   page1_i47
-#ISCELL
-  standard gnd_signal *
-  page1_i48
-#ISCELL
-  standard gnd_signal *
-  page1_i49
 #CELL
   cnpassive capcersmdcl2 *
   page1_i50
@@ -71,30 +62,24 @@
 #CELL
   cnpassive capcersmdcl2 *
   page1_i53
-#CELL
-  cnpassive capcersmdcl2 *
-  page1_i54
-#ISCELL
-  cnpower p5v *
-  page1_i55
-#CELL
-  cnlinear adr421 *
-  page1_i56
-#ISCELL
-  standard gnd_signal *
-  page1_i57
 #ISCELL
   standard outport *
   page1_i58
 #ISCELL
-  cnpower p5v *
-  page1_i59
-#CELL
-  cnpassive capcersmdcl2 *
-  page1_i60
-#ISCELL
-  standard gnd_signal *
-  page1_i61
-#ISCELL
   cnpower p3v3 *
   page1_i62
+#CELL
+  cnlinear ad5665r *
+  page1_i63
+#ISCELL
+  standard gnd_signal *
+  page1_i64
+#ISCELL
+  cnpower p3v3 *
+  page1_i65
+#CELL
+  cnpassive capcersmdcl2 *
+  page1_i66
+#ISCELL
+  standard gnd_signal *
+  page1_i67

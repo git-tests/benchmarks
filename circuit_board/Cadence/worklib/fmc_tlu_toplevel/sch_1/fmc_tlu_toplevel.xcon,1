@@ -5,15 +5,15 @@
     <schemaVersion>16.5</schemaVersion>
     <creatorTool>csnetlister</creatorTool>
     <modifierTool>csnetlister</modifierTool>
-    <modificationTime>2012-05-04T12:19:11</modificationTime>
+    <modificationTime>2012-05-04T15:50:31</modificationTime>
     <savedLibrary>fmc_tlu_v1_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="fmc_tlu_toplevel" view="sch_1">
       <lastids>
         <instanceid>42</instanceid>
-        <netid>73</netid>
-        <insttermid>384</insttermid>
+        <netid>75</netid>
+        <insttermid>404</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -510,6 +510,11 @@
           <scope>global</scope>
         </net>
         <net>
+          <id>N63</id>
+          <name>frame</name>
+          <scope>global</scope>
+        </net>
+        <net>
           <id>m5v</id>
           <name>m5v</name>
           <scope>global</scope>
@@ -520,11 +525,6 @@
           <name>p5v</name>
           <scope>global</scope>
           <inherited>1</inherited>
-        </net>
-        <net>
-          <id>N63</id>
-          <name>frame</name>
-          <scope>global</scope>
         </net>
       </nets>
       <aliases>
@@ -850,6 +850,10 @@
           <masks>
           </masks>
           <powers>
+            <power>
+              <name>gnd</name>
+              <override>N65</override>
+            </power>
           </powers>
           <pins>
             <pin>
@@ -1282,6 +1286,10 @@
           <masks>
           </masks>
           <powers>
+            <power>
+              <name>gnd</name>
+              <override>N66</override>
+            </power>
           </powers>
           <pins>
             <pin>

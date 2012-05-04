@@ -7,7 +7,7 @@
 			( 16.5 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 2 )
+			( logicalViewRevNum 3 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -32,7 +32,7 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
@@ -48,7 +48,7 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
@@ -64,7 +64,7 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
@@ -80,7 +80,7 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
@@ -96,7 +96,7 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
@@ -112,7 +112,7 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
@@ -128,7 +128,7 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
@@ -144,7 +144,7 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
@@ -160,7 +160,7 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
@@ -176,7 +176,7 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
@@ -192,7 +192,7 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
@@ -208,10 +208,183 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "ABBREV" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "GENDER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "COMPVALUE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "PLACEMENT_REGION" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SLOTXOFY" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SYMNAME" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NO_ASSERT_CHECK" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NO_DIR_CHECK" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "HDL_PINTYPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CASE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "$sec" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
 			)
 			( Analysis
 			)
@@ -529,6 +702,24 @@
 				( attribute "XY" "(1525,3625)"
 					( Origin gFrontEnd )
 				)
+				( attribute "CHIPS_PART_NAME" "CON160P_40CDGH"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "ASP-134606-01"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "J4"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "J4"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
 				( objectStatus "PAGE1_I1" )
 			)
 			( gate "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2"
@@ -556,327 +747,825 @@
 				( attribute "XY" "(-2400,3650)"
 					( Origin gFrontEnd )
 				)
+				( attribute "CHIPS_PART_NAME" "CON160P_40CDGH"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "ASP-134606-01"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "J4"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "J4"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
 				( objectStatus "PAGE1_I2" )
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(1)"
+				( attribute "PN" "G1"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(2)"
+				( attribute "PN" "G2"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(3)"
+				( attribute "PN" "G3"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(4)"
+				( attribute "PN" "G4"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(5)"
+				( attribute "PN" "G5"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(6)"
+				( attribute "PN" "G6"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(7)"
+				( attribute "PN" "G7"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(8)"
+				( attribute "PN" "G8"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(9)"
+				( attribute "PN" "G9"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(10)"
+				( attribute "PN" "G10"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(11)"
+				( attribute "PN" "G11"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(12)"
+				( attribute "PN" "G12"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(13)"
+				( attribute "PN" "G13"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(14)"
+				( attribute "PN" "G14"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(15)"
+				( attribute "PN" "G15"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(16)"
+				( attribute "PN" "G16"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(17)"
+				( attribute "PN" "G17"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(18)"
+				( attribute "PN" "G18"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(19)"
+				( attribute "PN" "G19"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(20)"
+				( attribute "PN" "G20"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(21)"
+				( attribute "PN" "G21"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(22)"
+				( attribute "PN" "G22"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(23)"
+				( attribute "PN" "G23"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(24)"
+				( attribute "PN" "G24"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(25)"
+				( attribute "PN" "G25"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(26)"
+				( attribute "PN" "G26"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(27)"
+				( attribute "PN" "G27"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(28)"
+				( attribute "PN" "G28"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(29)"
+				( attribute "PN" "G29"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(30)"
+				( attribute "PN" "G30"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(31)"
+				( attribute "PN" "G31"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(32)"
+				( attribute "PN" "G32"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(33)"
+				( attribute "PN" "G33"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(34)"
+				( attribute "PN" "G34"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(35)"
+				( attribute "PN" "G35"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(36)"
+				( attribute "PN" "G36"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(37)"
+				( attribute "PN" "G37"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(38)"
+				( attribute "PN" "G38"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(39)"
+				( attribute "PN" "G39"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:g(40)"
+				( attribute "PN" "G40"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(1)"
+				( attribute "PN" "H1"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(2)"
+				( attribute "PN" "H2"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(3)"
+				( attribute "PN" "H3"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(4)"
+				( attribute "PN" "H4"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(5)"
+				( attribute "PN" "H5"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(6)"
+				( attribute "PN" "H6"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(7)"
+				( attribute "PN" "H7"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(8)"
+				( attribute "PN" "H8"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(9)"
+				( attribute "PN" "H9"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(10)"
+				( attribute "PN" "H10"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(11)"
+				( attribute "PN" "H11"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(12)"
+				( attribute "PN" "H12"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(13)"
+				( attribute "PN" "H13"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(14)"
+				( attribute "PN" "H14"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(15)"
+				( attribute "PN" "H15"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(16)"
+				( attribute "PN" "H16"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(17)"
+				( attribute "PN" "H17"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(18)"
+				( attribute "PN" "H18"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(19)"
+				( attribute "PN" "H19"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(20)"
+				( attribute "PN" "H20"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(21)"
+				( attribute "PN" "H21"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(22)"
+				( attribute "PN" "H22"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(23)"
+				( attribute "PN" "H23"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(24)"
+				( attribute "PN" "H24"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(25)"
+				( attribute "PN" "H25"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(26)"
+				( attribute "PN" "H26"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(27)"
+				( attribute "PN" "H27"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(28)"
+				( attribute "PN" "H28"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(29)"
+				( attribute "PN" "H29"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(30)"
+				( attribute "PN" "H30"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(31)"
+				( attribute "PN" "H31"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(32)"
+				( attribute "PN" "H32"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(33)"
+				( attribute "PN" "H33"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(34)"
+				( attribute "PN" "H34"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(35)"
+				( attribute "PN" "H35"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(36)"
+				( attribute "PN" "H36"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(37)"
+				( attribute "PN" "H37"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(38)"
+				( attribute "PN" "H38"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(39)"
+				( attribute "PN" "H39"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1:h(40)"
+				( attribute "PN" "H40"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(1)"
+				( attribute "PN" "C1"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(2)"
+				( attribute "PN" "C2"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(3)"
+				( attribute "PN" "C3"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(4)"
+				( attribute "PN" "C4"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(5)"
+				( attribute "PN" "C5"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(6)"
+				( attribute "PN" "C6"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(7)"
+				( attribute "PN" "C7"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(8)"
+				( attribute "PN" "C8"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(9)"
+				( attribute "PN" "C9"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(10)"
+				( attribute "PN" "C10"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(11)"
+				( attribute "PN" "C11"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(12)"
+				( attribute "PN" "C12"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(13)"
+				( attribute "PN" "C13"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(14)"
+				( attribute "PN" "C14"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(15)"
+				( attribute "PN" "C15"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(16)"
+				( attribute "PN" "C16"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(17)"
+				( attribute "PN" "C17"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(18)"
+				( attribute "PN" "C18"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(19)"
+				( attribute "PN" "C19"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(20)"
+				( attribute "PN" "C20"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(21)"
+				( attribute "PN" "C21"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(22)"
+				( attribute "PN" "C22"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(23)"
+				( attribute "PN" "C23"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(24)"
+				( attribute "PN" "C24"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(25)"
+				( attribute "PN" "C25"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(26)"
+				( attribute "PN" "C26"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(27)"
+				( attribute "PN" "C27"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(28)"
+				( attribute "PN" "C28"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(29)"
+				( attribute "PN" "C29"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(30)"
+				( attribute "PN" "C30"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(31)"
+				( attribute "PN" "C31"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(32)"
+				( attribute "PN" "C32"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(33)"
+				( attribute "PN" "C33"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(34)"
+				( attribute "PN" "C34"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(35)"
+				( attribute "PN" "C35"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(36)"
+				( attribute "PN" "C36"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(37)"
+				( attribute "PN" "C37"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(38)"
+				( attribute "PN" "C38"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(39)"
+				( attribute "PN" "C39"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:c(40)"
+				( attribute "PN" "C40"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(1)"
+				( attribute "PN" "D1"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(2)"
+				( attribute "PN" "D2"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(3)"
+				( attribute "PN" "D3"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(4)"
+				( attribute "PN" "D4"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(5)"
+				( attribute "PN" "D5"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(6)"
+				( attribute "PN" "D6"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(7)"
+				( attribute "PN" "D7"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(8)"
+				( attribute "PN" "D8"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(9)"
+				( attribute "PN" "D9"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(10)"
+				( attribute "PN" "D10"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(11)"
+				( attribute "PN" "D11"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(12)"
+				( attribute "PN" "D12"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(13)"
+				( attribute "PN" "D13"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(14)"
+				( attribute "PN" "D14"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(15)"
+				( attribute "PN" "D15"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(16)"
+				( attribute "PN" "D16"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(17)"
+				( attribute "PN" "D17"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(18)"
+				( attribute "PN" "D18"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(19)"
+				( attribute "PN" "D19"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(20)"
+				( attribute "PN" "D20"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(21)"
+				( attribute "PN" "D21"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(22)"
+				( attribute "PN" "D22"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(23)"
+				( attribute "PN" "D23"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(24)"
+				( attribute "PN" "D24"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(25)"
+				( attribute "PN" "D25"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(26)"
+				( attribute "PN" "D26"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(27)"
+				( attribute "PN" "D27"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(28)"
+				( attribute "PN" "D28"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(29)"
+				( attribute "PN" "D29"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(30)"
+				( attribute "PN" "D30"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(31)"
+				( attribute "PN" "D31"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(32)"
+				( attribute "PN" "D32"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(33)"
+				( attribute "PN" "D33"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(34)"
+				( attribute "PN" "D34"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(35)"
+				( attribute "PN" "D35"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(36)"
+				( attribute "PN" "D36"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(37)"
+				( attribute "PN" "D37"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(38)"
+				( attribute "PN" "D38"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(39)"
+				( attribute "PN" "D39"
+					( Origin gPackager )
+				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i2:d(40)"
+				( attribute "PN" "D40"
+					( Origin gPackager )
+				)
 			)
 			( bus "@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la"
 				( memberType ( signal ) )

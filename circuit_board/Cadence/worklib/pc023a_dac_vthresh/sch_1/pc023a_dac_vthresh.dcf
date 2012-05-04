@@ -7,7 +7,7 @@
 			( 16.5 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 3 )
+			( logicalViewRevNum 6 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -376,6 +376,19 @@
 			( Analysis
 			)
 		)
+		( Attribute
+			( Name "$sec" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
 	)
 	( designConstraints
 		( ruleChanges
@@ -462,42 +475,14 @@
 				)
 				( objectStatus "sda" )
 			)
-			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):unnamed_1_ad5316_i1_vouta"
-				( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\") )
-				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_AD5316_I1_VOUTA"
-					( Origin gPackager )
-				)
-				( objectStatus "unnamed_1_ad5316_i1_vouta" )
-			)
 			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\"
 				( objectFlag fObjectAlias )
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):unnamed_1_ad5316_i1_voutb"
-				( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\") )
-				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_AD5316_I1_VOUTB"
-					( Origin gPackager )
-				)
-				( objectStatus "unnamed_1_ad5316_i1_voutb" )
 			)
 			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\"
 				( objectFlag fObjectAlias )
 			)
-			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):unnamed_1_ad5316_i1_voutc"
-				( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\") )
-				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_AD5316_I1_VOUTC"
-					( Origin gPackager )
-				)
-				( objectStatus "unnamed_1_ad5316_i1_voutc" )
-			)
 			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\"
 				( objectFlag fObjectAlias )
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):unnamed_1_ad5316_i1_voutd"
-				( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\") )
-				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_AD5316_I1_VOUTD"
-					( Origin gPackager )
-				)
-				( objectStatus "unnamed_1_ad5316_i1_voutd" )
 			)
 			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\"
 				( objectFlag fObjectAlias )
@@ -592,50 +577,21 @@
 				( objectFlag fObjectAlias )
 				( objectStatus "page1_p3v3" )
 			)
-			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1"
-				( attribute "CDS_LIB" "bris_cds_analogue"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,400,125,-400"
-					( Origin gPackager )
-				)
-				( attribute "MANUF" "AD"
-					( Origin gFrontEnd )
-				)
-				( attribute "PACK_TYPE" "TSSOP"
-					( Origin gFrontEnd )
-				)
-				( attribute "PHYS_PAGE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(-1350,1300)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CDS_LOCATION" "U1"
-					( Origin gPackager )
-				)
-				( attribute "LOCATION" "U1"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "CHIPS_PART_NAME" "AD5316"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "AD5316_TSSOP-AD"
-					( Origin gPackager )
-				)
-				( objectStatus "PAGE1_I1" )
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):unnamed_1_ad5665r_i63_vouta"
+				( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\") )
+				( objectStatus "unnamed_1_ad5665r_i63_vouta" )
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):unnamed_1_ad5665r_i63_voutb"
+				( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\") )
+				( objectStatus "unnamed_1_ad5665r_i63_voutb" )
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):unnamed_1_ad5665r_i63_voutc"
+				( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\") )
+				( objectStatus "unnamed_1_ad5665r_i63_voutc" )
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):unnamed_1_ad5665r_i63_voutd"
+				( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\") )
+				( objectStatus "unnamed_1_ad5665r_i63_voutd" )
 			)
 			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22"
 				( attribute "CDS_LIB" "cnlinear"
@@ -1547,13 +1503,25 @@
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-1750,1850)"
+				( attribute "XY" "(-1500,-1500)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-1UF,16V"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C6"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C6"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE1_I50" )
@@ -1584,13 +1552,25 @@
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-3200,-850)"
+				( attribute "XY" "(-3100,-1250)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-1UF,16V"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE1_I51" )
@@ -1621,13 +1601,25 @@
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-3200,-1250)"
+				( attribute "XY" "(-3100,-1650)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-1UF,16V"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C3"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE1_I52" )
@@ -1658,65 +1650,37 @@
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-2000,1850)"
+				( attribute "XY" "(-1750,-1500)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C5"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C5"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE1_I53" )
 			)
-			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i54"
-				( attribute "CDS_LIB" "cnpassive"
-					( Origin gPackager )
-				)
-				( attribute "PACK_TYPE" "0603"
-					( Origin gFrontEnd )
-				)
-				( attribute "PHYS_PAGE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "SIZE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "100NF"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "VOLTAGE" "16V"
-					( Units "uVoltage" "V" 1.000000)
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(-2550,1000)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
-					( Origin gPackager )
-				)
-				( objectStatus "PAGE1_I54" )
-			)
-			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i56"
+			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i63"
 				( attribute "CDS_LIB" "cnlinear"
 					( Origin gPackager )
 				)
-				( attribute "NEEDS_NO_SIZE" "TRUE"
-					( Origin gFrontEnd )
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-275,175,275,-175"
+					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "SOIC"
-					( Origin gFrontEnd )
-				)
-				( attribute "PART_NAME" "ADR421"
+				( attribute "PACK_TYPE" "TSSOP"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "1"
@@ -1725,21 +1689,36 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
+				( attribute "TYPE" "AD5665RBRUZ-1"
+					( Origin gFrontEnd )
+				)
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-3300,1000)"
+				( attribute "XY" "(-1450,1250)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "ADR421"
+				( attribute "CHIPS_PART_NAME" "AD5665R"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "ADR421_SOIC"
+				( attribute "CDS_PART_NAME" "AD5665RBRUZ-1-GND=GND_SIGNAL;VA"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE1_I56" )
+				( attribute "CDS_LOCATION" "IC1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "IC1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I63" )
 			)
-			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i60"
+			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i66"
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
@@ -1765,7 +1744,7 @@
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-3650,1650)"
+				( attribute "XY" "(-1450,550)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
@@ -1774,87 +1753,19 @@
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE1_I60" )
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:a0"
-				( attribute "PN" "15"
+				( attribute "CDS_LOCATION" "C4"
 					( Origin gPackager )
 				)
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:a1"
-				( attribute "PN" "16"
+				( attribute "CDS_SEC" "1"
 					( Origin gPackager )
 				)
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:gnd"
-				( attribute "PN" "12"
+				( attribute "LOCATION" "C4"
 					( Origin gPackager )
 				)
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:\ldac*\"
-				( attribute "PN" "1"
+				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:\pd*\"
-				( attribute "PN" "10"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:scl"
-				( attribute "PN" "14"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:sda"
-				( attribute "PN" "13"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:vdd"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:vouta"
-				( attribute "PN" "3"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:voutb"
-				( attribute "PN" "4"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:voutc"
-				( attribute "PN" "5"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:voutd"
-				( attribute "PN" "11"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:vrefa"
-				( attribute "PN" "6"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:vrefb"
-				( attribute "PN" "7"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:vrefc"
-				( attribute "PN" "8"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1:vrefd"
-				( attribute "PN" "9"
-					( Origin gPackager )
-				)
+				( objectStatus "PAGE1_I66" )
 			)
 			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:min(0)"
 			)
@@ -1953,70 +1864,112 @@
 			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32:vout"
 			)
 			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i50:a(0)"
-				( attribute "PN" "#"
+				( attribute "PN" "1"
 					( Origin gPackager )
 				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i50:b(0)"
-				( attribute "PN" "#"
+				( attribute "PN" "2"
 					( Origin gPackager )
 				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i51:a(0)"
-				( attribute "PN" "#"
+				( attribute "PN" "1"
 					( Origin gPackager )
 				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i51:b(0)"
-				( attribute "PN" "#"
+				( attribute "PN" "2"
 					( Origin gPackager )
 				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i52:a(0)"
-				( attribute "PN" "#"
+				( attribute "PN" "1"
 					( Origin gPackager )
 				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i52:b(0)"
-				( attribute "PN" "#"
+				( attribute "PN" "2"
 					( Origin gPackager )
 				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i53:a(0)"
-				( attribute "PN" "#"
+				( attribute "PN" "1"
 					( Origin gPackager )
 				)
 			)
 			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i53:b(0)"
-				( attribute "PN" "#"
+				( attribute "PN" "2"
 					( Origin gPackager )
 				)
 			)
-			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i54:a(0)"
-				( attribute "PN" "#"
+			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i63:addr1"
+				( attribute "PN" "2"
 					( Origin gPackager )
 				)
 			)
-			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i54:b(0)"
-				( attribute "PN" "#"
+			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i63:addr2"
+				( attribute "PN" "8"
 					( Origin gPackager )
 				)
 			)
-			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i56:gnd"
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i56:trim"
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i56:vin"
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i56:vout"
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i60:a(0)"
-				( attribute "PN" "#"
+			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i63:\clr*\"
+				( attribute "PN" "9"
 					( Origin gPackager )
 				)
 			)
-			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i60:b(0)"
-				( attribute "PN" "#"
+			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i63:\ldac*\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i63:por"
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i63:scl"
+				( attribute "PN" "14"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i63:sda"
+				( attribute "PN" "13"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i63:vouta"
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i63:voutb"
+				( attribute "PN" "11"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i63:voutc"
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i63:voutd"
+				( attribute "PN" "10"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i63:\vrefin/vrefout\"
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i66:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i66:b(0)"
+				( attribute "PN" "2"
 					( Origin gPackager )
 				)
 			)
@@ -2150,7 +2103,7 @@
 			)
 		)
 	)
-	( BaseCopy "pc023a_vthresh_buffer"
+		( BaseCopy "pc023a_vthresh_buffer"
 		( constraintHeader
 			( revisionNumber
 				( logicalViewRevNum 2 )
@@ -2163,232 +2116,232 @@
 				( properties )
 			)
 		)
-	( designConstraints
-		( ruleChanges
-			( allRules )
-			( design "pc023a_vthresh_buffer"
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):m5v"
-				( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_m5v") )
-				( objectStatus "m5v" )
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_m5v"
-				( objectFlag fObjectAlias )
-				( objectStatus "page1_m5v" )
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):p5v"
-				( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_p5v") )
-				( objectStatus "p5v" )
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_p5v"
-				( objectFlag fObjectAlias )
-				( objectStatus "page1_p5v" )
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):unnamed_1_opa4277_i22_min"
-				( objectStatus "unnamed_1_opa4277_i22_min" )
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\"
-				( objectStatus "vin+" )
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin-\"
-				( objectStatus "vin-" )
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):vout"
-				( objectStatus "vout" )
-			)
-			( gate "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22"
-				( attribute "CDS_LIB" "cnlinear"
-					( Origin gPackager )
+		( designConstraints
+			( ruleChanges
+				( allRules )
+				( design "@lib.PSSystem(view):\pc023a_vthresh_buffer\"
 				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,125,125,-125"
-					( Origin gPackager )
+				( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):m5v"
+					( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_m5v") )
+					( objectStatus "m5v" )
 				)
-				( attribute "PACK_TYPE" "SOIC"
-					( Origin gFrontEnd )
+				( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_m5v"
+					( objectFlag fObjectAlias )
+					( objectStatus "page1_m5v" )
 				)
-				( attribute "PHYS_PAGE" "1"
-					( Origin gFrontEnd )
+				( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):p5v"
+					( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_p5v") )
+					( objectStatus "p5v" )
 				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
+				( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_p5v"
+					( objectFlag fObjectAlias )
+					( objectStatus "page1_p5v" )
 				)
-				( attribute "TYPE" "OPA4277UA"
-					( Origin gFrontEnd )
+				( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):unnamed_1_opa4277_i22_min"
+					( objectStatus "unnamed_1_opa4277_i22_min" )
 				)
-				( attribute "VER" "1"
-					( Origin gFrontEnd )
+				( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\"
+					( objectStatus "vin+" )
 				)
-				( attribute "XY" "(-850,1850)"
-					( Origin gFrontEnd )
+				( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin-\"
+					( objectStatus "vin-" )
 				)
-				( attribute "CHIPS_PART_NAME" "OPA4277"
-					( Origin gPackager )
+				( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):vout"
+					( objectStatus "vout" )
 				)
-				( attribute "CDS_PART_NAME" "OPA4277UA"
-					( Origin gPackager )
+				( gate "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22"
+					( attribute "CDS_LIB" "cnlinear"
+						( Origin gPackager )
+					)
+					( attribute "CDS_LMAN_SYM_OUTLINE" "-125,125,125,-125"
+						( Origin gPackager )
+					)
+					( attribute "PACK_TYPE" "SOIC"
+						( Origin gFrontEnd )
+					)
+					( attribute "PHYS_PAGE" "1"
+						( Origin gFrontEnd )
+					)
+					( attribute "ROT" "0"
+						( Origin gFrontEnd )
+					)
+					( attribute "TYPE" "OPA4277UA"
+						( Origin gFrontEnd )
+					)
+					( attribute "VER" "1"
+						( Origin gFrontEnd )
+					)
+					( attribute "XY" "(-850,1850)"
+						( Origin gFrontEnd )
+					)
+					( attribute "CHIPS_PART_NAME" "OPA4277"
+						( Origin gPackager )
+					)
+					( attribute "CDS_PART_NAME" "OPA4277UA"
+						( Origin gPackager )
+					)
+					( objectStatus "PAGE1_I22" )
 				)
-				( objectStatus "PAGE1_I22" )
-			)
-			( gate "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23"
-				( attribute "CDS_LIB" "cnpassive"
-					( Origin gPackager )
+				( gate "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23"
+					( attribute "CDS_LIB" "cnpassive"
+						( Origin gPackager )
+					)
+					( attribute "DIST" "FLAT"
+						( Origin gFrontEnd )
+					)
+					( attribute "LOCATION" "<< NULL >>"
+						( Origin gPackager )
+					)
+					( attribute "MAX_TEMP" "RTMAX"
+						( Origin gFrontEnd )
+					)
+					( attribute "NEGTOL" "RTOL%"
+						( Origin gFrontEnd )
+					)
+					( attribute "PACK_TYPE" "1/10W"
+						( Origin gFrontEnd )
+					)
+					( attribute "PHYS_PAGE" "1"
+						( Origin gFrontEnd )
+					)
+					( attribute "POSTOL" "RTOL%"
+						( Origin gFrontEnd )
+					)
+					( attribute "POWER" "RMAX"
+						( Origin gFrontEnd )
+					)
+					( attribute "ROT" "0"
+						( Origin gFrontEnd )
+					)
+					( attribute "SIZE" "1"
+						( Origin gFrontEnd )
+					)
+					( attribute "SLOPE" "RSMAX"
+						( Origin gFrontEnd )
+					)
+					( attribute "TC1" "RTMPL"
+						( Origin gFrontEnd )
+					)
+					( attribute "TC2" "RTMPQ"
+						( Origin gFrontEnd )
+					)
+					( attribute "TOL" "1%"
+						( Origin gFrontEnd )
+					)
+					( attribute "TOL_ON_OFF" "ON"
+						( Origin gFrontEnd )
+					)
+					( attribute "VALUE" "10K"
+						( Origin gFrontEnd )
+					)
+					( attribute "VER" "2"
+						( Origin gFrontEnd )
+					)
+					( attribute "VOLTAGE" "RVMAX"
+						( Units "uVoltage" "V" 1.000000)
+						( Origin gFrontEnd )
+					)
+					( attribute "XY" "(-850,2400)"
+						( Origin gFrontEnd )
+					)
+					( attribute "CHIPS_PART_NAME" "RSMD0603"
+						( Origin gPackager )
+					)
+					( attribute "CDS_PART_NAME" "RSMD0603_1/10W-10K,1%"
+						( Origin gPackager )
+					)
+					( objectStatus "PAGE1_I23" )
 				)
-				( attribute "DIST" "FLAT"
-					( Origin gFrontEnd )
+				( gate "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24"
+					( attribute "CDS_LIB" "cnpassive"
+						( Origin gPackager )
+					)
+					( attribute "DIST" "FLAT"
+						( Origin gFrontEnd )
+					)
+					( attribute "LOCATION" "<< NULL >>"
+						( Origin gPackager )
+					)
+					( attribute "MAX_TEMP" "RTMAX"
+						( Origin gFrontEnd )
+					)
+					( attribute "NEGTOL" "RTOL%"
+						( Origin gFrontEnd )
+					)
+					( attribute "PACK_TYPE" "1/10W"
+						( Origin gFrontEnd )
+					)
+					( attribute "PHYS_PAGE" "1"
+						( Origin gFrontEnd )
+					)
+					( attribute "POSTOL" "RTOL%"
+						( Origin gFrontEnd )
+					)
+					( attribute "POWER" "RMAX"
+						( Origin gFrontEnd )
+					)
+					( attribute "ROT" "0"
+						( Origin gFrontEnd )
+					)
+					( attribute "SIZE" "1"
+						( Origin gFrontEnd )
+					)
+					( attribute "SLOPE" "RSMAX"
+						( Origin gFrontEnd )
+					)
+					( attribute "TC1" "RTMPL"
+						( Origin gFrontEnd )
+					)
+					( attribute "TC2" "RTMPQ"
+						( Origin gFrontEnd )
+					)
+					( attribute "TOL" "1%"
+						( Origin gFrontEnd )
+					)
+					( attribute "TOL_ON_OFF" "ON"
+						( Origin gFrontEnd )
+					)
+					( attribute "VALUE" "10K"
+						( Origin gFrontEnd )
+					)
+					( attribute "VER" "2"
+						( Origin gFrontEnd )
+					)
+					( attribute "VOLTAGE" "RVMAX"
+						( Units "uVoltage" "V" 1.000000)
+						( Origin gFrontEnd )
+					)
+					( attribute "XY" "(-2100,1800)"
+						( Origin gFrontEnd )
+					)
+					( attribute "CHIPS_PART_NAME" "RSMD0603"
+						( Origin gPackager )
+					)
+					( attribute "CDS_PART_NAME" "RSMD0603_1/10W-10K,1%"
+						( Origin gPackager )
+					)
+					( objectStatus "PAGE1_I24" )
 				)
-				( attribute "LOCATION" "<< NULL >>"
-					( Origin gPackager )
+				( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:min(0)"
 				)
-				( attribute "MAX_TEMP" "RTMAX"
-					( Origin gFrontEnd )
+				( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:\out\(0)"
 				)
-				( attribute "NEGTOL" "RTOL%"
-					( Origin gFrontEnd )
+				( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:pin(0)"
 				)
-				( attribute "PACK_TYPE" "1/10W"
-					( Origin gFrontEnd )
+				( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:\v+\"
 				)
-				( attribute "PHYS_PAGE" "1"
-					( Origin gFrontEnd )
+				( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:\v-\"
 				)
-				( attribute "POSTOL" "RTOL%"
-					( Origin gFrontEnd )
+				( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23:a(0)"
 				)
-				( attribute "POWER" "RMAX"
-					( Origin gFrontEnd )
+				( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23:b(0)"
 				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
+				( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24:a(0)"
 				)
-				( attribute "SIZE" "1"
-					( Origin gFrontEnd )
+				( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24:b(0)"
 				)
-				( attribute "SLOPE" "RSMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "TC1" "RTMPL"
-					( Origin gFrontEnd )
-				)
-				( attribute "TC2" "RTMPQ"
-					( Origin gFrontEnd )
-				)
-				( attribute "TOL" "1%"
-					( Origin gFrontEnd )
-				)
-				( attribute "TOL_ON_OFF" "ON"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "10K"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "2"
-					( Origin gFrontEnd )
-				)
-				( attribute "VOLTAGE" "RVMAX"
-					( Units "uVoltage" "V" 1.000000)
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(-850,2400)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "RSMD0603"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-10K,1%"
-					( Origin gPackager )
-				)
-				( objectStatus "PAGE1_I23" )
-			)
-			( gate "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24"
-				( attribute "CDS_LIB" "cnpassive"
-					( Origin gPackager )
-				)
-				( attribute "DIST" "FLAT"
-					( Origin gFrontEnd )
-				)
-				( attribute "LOCATION" "<< NULL >>"
-					( Origin gPackager )
-				)
-				( attribute "MAX_TEMP" "RTMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "NEGTOL" "RTOL%"
-					( Origin gFrontEnd )
-				)
-				( attribute "PACK_TYPE" "1/10W"
-					( Origin gFrontEnd )
-				)
-				( attribute "PHYS_PAGE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "POSTOL" "RTOL%"
-					( Origin gFrontEnd )
-				)
-				( attribute "POWER" "RMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "SIZE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "SLOPE" "RSMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "TC1" "RTMPL"
-					( Origin gFrontEnd )
-				)
-				( attribute "TC2" "RTMPQ"
-					( Origin gFrontEnd )
-				)
-				( attribute "TOL" "1%"
-					( Origin gFrontEnd )
-				)
-				( attribute "TOL_ON_OFF" "ON"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "10K"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "2"
-					( Origin gFrontEnd )
-				)
-				( attribute "VOLTAGE" "RVMAX"
-					( Units "uVoltage" "V" 1.000000)
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(-2100,1800)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "RSMD0603"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-10K,1%"
-					( Origin gPackager )
-				)
-				( objectStatus "PAGE1_I24" )
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:min(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:\out\(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:pin(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:\v+\"
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:\v-\"
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23:a(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23:b(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24:a(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24:b(0)"
 			)
 		)
-	)
-	( EndBaseCopy )
+		( EndBaseCopy )
 	)
 )

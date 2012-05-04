@@ -3,109 +3,361 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  .../Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_05.brd             |
-|                                                    Fri May  4 09:19:50 2012  |
+|                                                    Fri May  4 15:55:39 2012  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  BEAM_TRIGGER_CFD*<0> pins MOVED FROM this net (to net name listed on right)
-                                 R12_4.2         117.847 13.8300
-                                                       UNNAMED_1_MAX9601_I1_Q_4
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BEAM_TRIGGER_CFD*<1> pins MOVED FROM this net (to net name listed on right)
-                                 R12_3.2         98.8476 13.8300
-                                                       UNNAMED_1_MAX9601_I1_Q_3
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BEAM_TRIGGER_CFD*<2> pins MOVED FROM this net (to net name listed on right)
-                                 R12_2.2         79.8476 13.8300
-                                                       UNNAMED_1_MAX9601_I1_Q_2
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BEAM_TRIGGER_CFD*<3> pins MOVED FROM this net (to net name listed on right)
-                                 R12_1.2         60.8476 13.8300
-                                                       UNNAMED_1_MAX9601_I1_Q_1
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BEAM_TRIGGER_CFD<0> pins MOVED FROM this net (to net name listed on right)
-                                 R14_4.2         129.347 13.8300
-                                                     UNNAMED_1_MAX9601_I1_Q_1_4
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BEAM_TRIGGER_CFD<1> pins MOVED FROM this net (to net name listed on right)
-                                 R14_3.2         110.347 13.8300
-                                                     UNNAMED_1_MAX9601_I1_Q_1_3
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BEAM_TRIGGER_CFD<2> pins MOVED FROM this net (to net name listed on right)
-                                 R14_2.2         91.3476 13.8300
-                                                     UNNAMED_1_MAX9601_I1_Q_1_2
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BEAM_TRIGGER_CFD<3> pins MOVED FROM this net (to net name listed on right)
-                                 R14_1.2         72.3476 13.8300
-                                                     UNNAMED_1_MAX9601_I1_Q_1_1
+  FRAME        pins ADDED TO this new net
+                                 C10.1                          
+                                 C11.1                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   GND          pins MOVED FROM this net (to net name listed on right)
-                                 PX1.3           83.1400 53.5600
-                                                                     GND_SIGNAL
-                                 PX1.4           83.1400 58.6400
-                                                                     GND_SIGNAL
-                                 PX1.5           78.0600 58.6400
-                                                                     GND_SIGNAL
-                                 PX1.6           78.0600 53.5600
-                                                                     GND_SIGNAL
+                                 J1.20            6.3226 58.9000
+                                                                      GND_HDMI1
+                                 J1.21           17.1726 58.9000
+                                                                      GND_HDMI1
+                                 J1.22            6.3226 63.3500
+                                                                      GND_HDMI1
+                                 J1.23           17.1726 63.3500
+                                                                      GND_HDMI1
+                                 J2.20           23.3226 58.9000
+                                                                      GND_HDMI2
+                                 J2.21           34.1726 58.9000
+                                                                      GND_HDMI2
+                                 J2.22           23.3226 63.3500
+                                                                      GND_HDMI2
+                                 J2.23           34.1726 63.3500
+                                                                      GND_HDMI2
+                                 J3.9                           
+                                                                          FRAME
+                                 J3.10                          
+                                                                          FRAME
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND_HDMI1    pins ADDED TO this new net
+                                 C8.1                           
+                                 C9.1                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND_HDMI2    pins ADDED TO this new net
+                                 C7.1                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND_SIGNAL   pins MOVED FROM this net (to net name listed on right)
+                                 C1.1                           
+                                                                      GND_HDMI2
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC1.1                          
+                                 IC1.8                          
+                                 R9.2                           
+                                 R10.2                          
+                                 R11.2                          
+                                 R12.2                          
+                                 R13.2                          
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  .../Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_05.brd             |
-|                                                    Fri May  4 09:19:50 2012  |
+|                                                    Fri May  4 15:55:39 2012  |
 |------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to board drawing                                  |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- PLEMO2CI-PLEMO2-00B-GND=GND_SIA
+                                 R14.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P3V3         pins ADDED TO this existing net (pins not previously on any net)
+                                 IC1.9                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P5V          pins MOVED FROM this net (to net name listed on right)
+                                 C1.2                           
+                                                   UNNAMED_4_CAPCERSMDCL2_I14_B
+                                 IC1.2                          
+                                                                     GND_SIGNAL
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SCL          pins ADDED TO this existing net (pins not previously on any net)
+                                 IC1.14                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SDA          pins ADDED TO this existing net (pins not previously on any net)
+                                 IC1.13                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_AD5316_I1_VOUTA pins MOVED FROM this net (to net name listed on right)
+                                 IC2.3                          
+                                                    UNNAMED_1_AD5665R_I63_VOUTA
+                                 U1.3                           
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_AD5316_I1_VOUTB pins MOVED FROM this net (to net name listed on right)
+                                 IC2.12                         
+                                                    UNNAMED_1_AD5665R_I63_VOUTB
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_AD5316_I1_VOUTC pins MOVED FROM this net (to net name listed on right)
+                                 IC2.10                         
+                                                    UNNAMED_1_AD5665R_I63_VOUTC
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_AD5316_I1_VOUTD pins MOVED FROM this net (to net name listed on right)
+                                 IC2.5                          
+                                                    UNNAMED_1_AD5665R_I63_VOUTD
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_AD5665R_I63_VOUTA pins ADDED TO this new net
+                                 IC1.4                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_AD5665R_I63_VOUTB pins ADDED TO this new net
+                                 IC1.11                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_AD5665R_I63_VOUTC pins ADDED TO this new net
+                                 IC1.5                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_AD5665R_I63_VOUTD pins ADDED TO this new net
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
 |  .../Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_05.brd             |
-|                                                    Fri May  4 09:19:50 2012  |
+|                                                    Fri May  4 15:55:39 2012  |
 |------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in board drawing          |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- PX1                 PLEMO2CI-PLEMO2-00B-GND=GND_SIA 80.6000 55.4650 PLEMO2CI-PLEMO2-00B
+                                 IC1.10                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_CAPCERSMDCL2_I14_B pins ADDED TO this new net
+                                 R9.1                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_CAPCERSMDCL2_I17_B pins ADDED TO this new net
+                                 C7.2                           
+                                 R10.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_CAPCERSMDCL2_I19_B pins ADDED TO this new net
+                                 C10.2                          
+                                 R13.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_CAPCERSMDCL2_I22_B pins ADDED TO this new net
+                                 C11.2                          
+                                 R14.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_CAPCERSMDCL2_I8_B pins ADDED TO this new net
+                                 C9.2                           
+                                 R12.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_CAPCERSMDCL2_I9_B pins ADDED TO this new net
+                                 C8.2                           
+                                 R11.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VREF         pins MOVED FROM this net (to net name listed on right)
+                                 IC1.6                          
+                                                                           P3V3
+                                 U1.8                           
+                                                                            VCC
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC1.7                          
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   4  |
 |------------------------------------------------------------------------------|
 |  .../Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_05.brd             |
-|                                                    Fri May  4 09:19:50 2012  |
+|                                                    Fri May  4 15:55:39 2012  |
 |------------------------------------------------------------------------------|
-| COMPONENT PROPERTIES added to board drawing                                  |
+| COMPONENT DEFINITION added to board drawing                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   ref  des   |   x   |   y   |   property   |             value              |
+|    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R12_1          60.8476 13.0800 REUSE_PID      30
- R12_2          79.8476 13.0800 REUSE_PID      30
- R12_3          98.8476 13.0800 REUSE_PID      30
- R12_4          117.847 13.0800 REUSE_PID      30
- R14_1          72.3476 13.0800 REUSE_PID      29
- R14_2          91.3476 13.0800 REUSE_PID      29
- R14_3          110.347 13.0800 REUSE_PID      29
- R14_4          129.347 13.0800 REUSE_PID      29
+ AD5665RBRUZ-1-GND=GND_SIGNAL,VA
+ CON8P-MOLEX_44661-1011-GND=FRAA
+ MHDMI-19-02-H-TH-L-TR-GND=GND_A
+ MHDMI-19-02-H-TH-L-TR-GND=GND_B
+ PRTR5V0U8S_TSSOP-NXP
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   5  |
 |------------------------------------------------------------------------------|
 |  .../Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_05.brd             |
-|                                                    Fri May  4 09:19:50 2012  |
+|                                                    Fri May  4 15:55:39 2012  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to board drawing                                            |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C7                  CAPCERSMDCL2_0603-100NF,16V 
+ C8                  CAPCERSMDCL2_0603-100NF,16V 
+ C9                  CAPCERSMDCL2_0603-100NF,16V 
+ C10                 CAPCERSMDCL2_0603-100NF,16V 
+ C11                 CAPCERSMDCL2_0603-100NF,16V 
+ R9                  RSMD0603_1/10W-51,1%  
+ R10                 RSMD0603_1/10W-51,1%  
+ R11                 RSMD0603_1/10W-51,1%  
+ R12                 RSMD0603_1/10W-51,1%  
+ R13                 RSMD0603_1/10W-51,1%  
+ R14                 RSMD0603_1/10W-51,1%  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  .../Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_05.brd             |
+|                                                    Fri May  4 15:55:39 2012  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in board drawing          |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ IC1                 AD5665RBRUZ-1-GND=GND_SIGNAL,VA                 ADR421_SOIC
+ J1                  MHDMI-19-02-H-TH-L-TR-GND=GND_A 11.7476 58.0700 MHDMI-19-02-H-TH-L-TR
+ J2                  MHDMI-19-02-H-TH-L-TR-GND=GND_B 28.7476 58.0700 MHDMI-19-02-H-TH-L-TR
+ J3                  CON8P-MOLEX_44661-1011-GND=FRAA                 CON8P-MOLEX_44661-1011
+ U1                  PRTR5V0U8S_TSSOP-NXP                  AD5316_TSSOP-AD
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  .../Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_05.brd             |
+|                                                    Fri May  4 15:55:39 2012  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to board drawing                                       |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- PX1.2          80.6000 55.4650 PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/plemo2ci/chips/chips.prt
- PX1.2          80.6000 55.4650 TYPE           PLEMO2-00B
+ C7.2                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C7.2                           SIZE           1
+ C8.2                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C8.2                           SIZE           1
+ C9.2                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C9.2                           SIZE           1
+ C10.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C10.2                          SIZE           1
+ C11.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C11.2                          SIZE           1
+ IC1.7                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/ad5665r/chips/chips.prt
+ IC1.7                          TYPE           AD5665RBRUZ-1
+ J1.10          11.7476 58.0700 GENDER         RECEPTACLE
+ J1.10          11.7476 58.0700 PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con19p/chips/chips.prt
+ J1.10          11.7476 58.0700 TYPE           SAMTEC_MHDMI-19-02-H-TH-L-TR
+ J2.10          28.7476 58.0700 GENDER         RECEPTACLE
+ J2.10          28.7476 58.0700 PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con19p/chips/chips.prt
+ J2.10          28.7476 58.0700 TYPE           SAMTEC_MHDMI-19-02-H-TH-L-TR
+ J3.8                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con8p/chips/chips.prt
+ J3.8                           TYPE           MOLEX_44661-1011
+ R9.2                           DIST           FLAT
+ R9.2                           MAX_TEMP       RTMAX
+ R9.2                           NEGTOL         RTOL%
+ R9.2                           POSTOL         RTOL%
+ R9.2                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R9.2                           SIZE           1
+ R9.2                           SLOPE          RSMAX
+ R9.2                           TC1            RTMPL
+ R9.2                           TC2            RTMPQ
+ R9.2                           TOL_ON_OFF     ON
+ R10.2                          DIST           FLAT
+ R10.2                          MAX_TEMP       RTMAX
+ R10.2                          NEGTOL         RTOL%
+ R10.2                          POSTOL         RTOL%
+ R10.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R10.2                          SIZE           1
+ R10.2                          SLOPE          RSMAX
+ R10.2                          TC1            RTMPL
+ R10.2                          TC2            RTMPQ
+ R10.2                          TOL_ON_OFF     ON
+ R11.2                          DIST           FLAT
+ R11.2                          MAX_TEMP       RTMAX
+ R11.2                          NEGTOL         RTOL%
+ R11.2                          POSTOL         RTOL%
+ R11.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
 |------------------------------------------------------------------------------|
-|   total ECO changes reported  24                                             |
+|  .../Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_05.brd             |
+|                                                    Fri May  4 15:55:39 2012  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to board drawing                                       |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R11.2                          SIZE           1
+ R11.2                          SLOPE          RSMAX
+ R11.2                          TC1            RTMPL
+ R11.2                          TC2            RTMPQ
+ R11.2                          TOL_ON_OFF     ON
+ R12.2                          DIST           FLAT
+ R12.2                          MAX_TEMP       RTMAX
+ R12.2                          NEGTOL         RTOL%
+ R12.2                          POSTOL         RTOL%
+ R12.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R12.2                          SIZE           1
+ R12.2                          SLOPE          RSMAX
+ R12.2                          TC1            RTMPL
+ R12.2                          TC2            RTMPQ
+ R12.2                          TOL_ON_OFF     ON
+ R13.2                          DIST           FLAT
+ R13.2                          MAX_TEMP       RTMAX
+ R13.2                          NEGTOL         RTOL%
+ R13.2                          POSTOL         RTOL%
+ R13.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R13.2                          SIZE           1
+ R13.2                          SLOPE          RSMAX
+ R13.2                          TC1            RTMPL
+ R13.2                          TC2            RTMPQ
+ R13.2                          TOL_ON_OFF     ON
+ R14.2                          DIST           FLAT
+ R14.2                          MAX_TEMP       RTMAX
+ R14.2                          NEGTOL         RTOL%
+ R14.2                          POSTOL         RTOL%
+ R14.2                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R14.2                          SIZE           1
+ R14.2                          SLOPE          RSMAX
+ R14.2                          TC1            RTMPL
+ R14.2                          TC2            RTMPQ
+ R14.2                          TOL_ON_OFF     ON
+ U1.1                           MANUF          NXP
+ U1.1                           PRIM_FILE      /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_analogue/prtr5v0u8s/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  .../Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_05.brd             |
+|                                                    Fri May  4 15:55:39 2012  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to board drawing                                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C7.1                           CDS_PINID      A(0)
+ C7.2                           CDS_PINID      B(0)
+ C8.1                           CDS_PINID      A(0)
+ C8.2                           CDS_PINID      B(0)
+ C9.1                           CDS_PINID      A(0)
+ C9.2                           CDS_PINID      B(0)
+ C10.1                          CDS_PINID      A(0)
+ C10.2                          CDS_PINID      B(0)
+ C11.1                          CDS_PINID      A(0)
+ C11.2                          CDS_PINID      B(0)
+ IC1.1                          CDS_PINID      \ldac*\
+ IC1.2                          CDS_PINID      ADDR1
+ IC1.4                          CDS_PINID      VOUTA
+ IC1.5                          CDS_PINID      VOUTC
+ IC1.6                          CDS_PINID      POR
+ IC1.7                          CDS_PINID      \vrefin/vrefout\
+ IC1.8                          CDS_PINID      ADDR2
+ IC1.9                          CDS_PINID      \clr*\
+ IC1.10                         CDS_PINID      VOUTD
+ IC1.11                         CDS_PINID      VOUTB
+ IC1.13                         CDS_PINID      SDA
+ IC1.14                         CDS_PINID      SCL
+ R9.1                           CDS_PINID      A(0)
+ R9.2                           CDS_PINID      B(0)
+ R10.1                          CDS_PINID      A(0)
+ R10.2                          CDS_PINID      B(0)
+ R11.1                          CDS_PINID      A(0)
+ R11.2                          CDS_PINID      B(0)
+ R12.1                          CDS_PINID      A(0)
+ R12.2                          CDS_PINID      B(0)
+ R13.1                          CDS_PINID      A(0)
+ R13.2                          CDS_PINID      B(0)
+ R14.1                          CDS_PINID      A(0)
+ R14.2                          CDS_PINID      B(0)
+ U1.1                           CDS_PINID      \in\
+|------------------------------------------------------------------------------|
+|   total ECO changes reported  190                                            |
 |------------------------------------------------------------------------------|

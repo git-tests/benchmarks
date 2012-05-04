@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : fmc_tlu_v1_05.brd                             )
 (    Software Version : 16.5S005                                      )
-(    Date/Time        : Fri May  4 09:19:50 2012                      )
+(    Date/Time        : Fri May  4 15:55:38 2012                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,9 +19,9 @@ Missing symbol has error FALSE;
 SCHEMATIC_DIRECTORY '/projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/packaged';
 BOARD_DIRECTORY '';
 OLD_BOARD_NAME '/projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_05.brd';
-NEW_BOARD_NAME '/projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_05.brd';
+NEW_BOARD_NAME 'fmc_tlu_v1_06.brd';
 
-CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/fmc_tlu_v1.cpm -5 -y 1 -Oo /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_05.brd /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_05.brd -$
+CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/fmc_tlu_v1.cpm -5 -y 1 -Oo /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_05.brd /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_06.brd -$
 
 ------ Preparing to read pst files ------
 
@@ -35,47 +35,15 @@ Starting to read /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circui
 ------ Oversights/Warnings/Errors ------
 
 
-#1   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'R14_4', property 'REUSE_PID'. Value '9' was overwritten by '29'.
-
-#2   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'R14_3', property 'REUSE_PID'. Value '9' was overwritten by '29'.
-
-#3   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'R14_2', property 'REUSE_PID'. Value '9' was overwritten by '29'.
-
-#4   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'R14_1', property 'REUSE_PID'. Value '9' was overwritten by '29'.
-
-#5   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'R12_4', property 'REUSE_PID'. Value '11' was overwritten by '30'.
-
-#6   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'R12_3', property 'REUSE_PID'. Value '11' was overwritten by '30'.
-
-#7   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'R12_2', property 'REUSE_PID'. Value '11' was overwritten by '30'.
-
-#8   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'R12_1', property 'REUSE_PID'. Value '11' was overwritten by '30'.
-
 
 
 ===========================================================
 Start Constraint Override Import
 	Constraint File:    /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/packaged/pstcmdb.dat
-	Start time: Fri May  4 09:19:51 2012
+	Start time: Fri May  4 15:55:39 2012
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Fri May  4 09:19:51 2012
+Finished Constraint Update	Time: Fri May  4 15:55:39 2012
 ===========================================================
 
 ------ Library Paths ------
@@ -124,9 +92,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on May 4 9:19:50 2012
+netrev run on May 4 15:55:38 2012
    DESIGN NAME : 'FMC_TLU_TOPLEVEL'
-   PACKAGING ON 04-May-2012 AT 09:19:46
+   PACKAGING ON 04-May-2012 AT 15:55:35
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -155,8 +123,8 @@ netrev run on May 4 9:19:50 2012
 
  No error detected
  No oversight detected
-  8 warnings detected
+ No warning detected
 
 cpu time      0:00:01
-elapsed time  0:00:01
+elapsed time  0:00:02
 

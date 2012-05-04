@@ -8,8 +8,8 @@
   (design "fmc_tlu_toplevel"
     (lastIds
       (lastInstanceId 42)
-      (lastNetId 73)
-      (lastInstTermId 384)
+      (lastNetId 75)
+      (lastInstTermId 404)
     )
     (cells
       ("S2" "pc036a_fmc_lpc_connector" "fmc_tlu_v1_lib" "sym_1"
@@ -138,9 +138,9 @@
       ("N1" "gnd_signal" -1 -1 2 )
       ("N3" "p2v5" -1 -1 2 )
       ("N5" "p3v3" -1 -1 2 )
+      ("N63" "frame" -1 -1 2 )
       ("m5v" "m5v" -1 -1 2  inherited)
       ("p5v" "p5v" -1 -1 2  inherited)
-      ("N63" "frame" -1 -1 2 )
     )
 
     (alias
@@ -165,12 +165,12 @@
           )
           ("M5" "T8" -1 -1
             (conn
-              ("0" -1 -1 "N10" -1 -1)
+              ("0" -1 -1 "N9" -1 -1)
             )
           )
           ("M6" "T9" -1 -1
             (conn
-              ("0" -1 -1 "N9" -1 -1)
+              ("0" -1 -1 "N10" -1 -1)
             )
           )
           ("M7" "T10" -1 -1
@@ -290,12 +290,12 @@
         (pins
           ("M178" "T32" -1 -1
             (conn
-              ("0" -1 -1 "N10" -1 -1)
+              ("0" -1 -1 "N9" -1 -1)
             )
           )
           ("M179" "T33" -1 -1
             (conn
-              ("0" -1 -1 "N9" -1 -1)
+              ("0" -1 -1 "N10" -1 -1)
             )
           )
         )

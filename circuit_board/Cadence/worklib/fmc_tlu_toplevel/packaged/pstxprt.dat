@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 04-May-2012 AT 09:19:46 }
+{ Packager-XL run on 04-May-2012 AT 16:25:19 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='FMC_TLU_TOPLEVEL';
- POST_TIME='04-May-2012 AT 09:19:46';
+ POST_TIME='04-May-2012 AT 16:25:19';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -11,17 +11,17 @@ PART_NAME
  C1 'CAPCERSMDCL2_0603-100NF,16V':;
 
 SECTION_NUMBER 1
- '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE2_I5@FMC_TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1_I60@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
- C_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_~
-dac_vthresh(sch_1):page1_i60@cnpassive.capcersmdcl2(chips)',
- P_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page3_i5@fmc_tlu_v1_lib.pc023a_~
-dac_vthresh(sch_1):page1_i60@cnpassive.capcersmdcl2(chips)',
- PATH='I60',
- DRAWING='@FMC_TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1',
+ '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4_I14@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i14@cnpassive.capcersmdcl~
+2(chips)',
+ P_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i14@cnpassive.capcersmdcl~
+2(chips)',
+ PATH='I14',
+ DRAWING='@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4',
  SIZE='1',
- PHYS_PAGE='1',
- XY='(-3650,1650)',
- ROT='1',
+ PHYS_PAGE='2',
+ XY='(550,-2800)',
+ ROT='0',
  VER='1',
  VALUE='100NF',
  PACK_TYPE='0603',
@@ -172,7 +172,7 @@ dac_vthresh(sch_1):page1_i51@cnpassive.capcersmdcl2(chips)',
  DRAWING='@FMC_TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1',
  SIZE='1',
  PHYS_PAGE='1',
- XY='(-3200,-850)',
+ XY='(-3100,-1250)',
  ROT='1',
  VER='1',
  VALUE='1UF',
@@ -324,7 +324,7 @@ dac_vthresh(sch_1):page1_i52@cnpassive.capcersmdcl2(chips)',
  DRAWING='@FMC_TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1',
  SIZE='1',
  PHYS_PAGE='1',
- XY='(-3200,-1250)',
+ XY='(-3100,-1650)',
  ROT='1',
  VER='1',
  VALUE='1UF',
@@ -467,16 +467,16 @@ PART_NAME
  C4 'CAPCERSMDCL2_0603-100NF,16V':;
 
 SECTION_NUMBER 1
- '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE2_I5@FMC_TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1_I54@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE2_I5@FMC_TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1_I66@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
  C_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_~
-dac_vthresh(sch_1):page1_i54@cnpassive.capcersmdcl2(chips)',
+dac_vthresh(sch_1):page1_i66@cnpassive.capcersmdcl2(chips)',
  P_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page3_i5@fmc_tlu_v1_lib.pc023a_~
-dac_vthresh(sch_1):page1_i54@cnpassive.capcersmdcl2(chips)',
- PATH='I54',
+dac_vthresh(sch_1):page1_i66@cnpassive.capcersmdcl2(chips)',
+ PATH='I66',
  DRAWING='@FMC_TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1',
  SIZE='1',
  PHYS_PAGE='1',
- XY='(-2550,1000)',
+ XY='(-1450,550)',
  ROT='1',
  VER='1',
  VALUE='100NF',
@@ -628,7 +628,7 @@ dac_vthresh(sch_1):page1_i53@cnpassive.capcersmdcl2(chips)',
  DRAWING='@FMC_TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1',
  SIZE='1',
  PHYS_PAGE='1',
- XY='(-2000,1850)',
+ XY='(-1750,-1500)',
  ROT='1',
  VER='1',
  VALUE='100NF',
@@ -780,7 +780,7 @@ dac_vthresh(sch_1):page1_i50@cnpassive.capcersmdcl2(chips)',
  DRAWING='@FMC_TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1',
  SIZE='1',
  PHYS_PAGE='1',
- XY='(-1750,1850)',
+ XY='(-1500,-1500)',
  ROT='1',
  VER='1',
  VALUE='1UF',
@@ -920,6 +920,30 @@ _cern_lib/cnpassive/capcersmdcl2/chips/chips.prt',
  REUSE_NAME='FMC_TLU_CFD';
 
 PART_NAME
+ C7 'CAPCERSMDCL2_0603-100NF,16V':;
+
+SECTION_NUMBER 1
+ '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4_I17@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i17@cnpassive.capcersmdcl~
+2(chips)',
+ P_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i17@cnpassive.capcersmdcl~
+2(chips)',
+ PATH='I17',
+ DRAWING='@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='2',
+ XY='(550,-3000)',
+ ROT='0',
+ VER='1',
+ VALUE='100NF',
+ PACK_TYPE='0603',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0603-100NF,16V',
+ VOLTAGE='16V',
+ PRIM_FILE='/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe~
+_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
  C7_1 'CAPCERSMDCL2_0603-100NF,16V':
  REUSE_INSTANCE='FMC_TLU_CFD_1',
  REUSE_NAME='FMC_TLU_CFD',
@@ -1046,6 +1070,30 @@ _cern_lib/cnpassive/capcersmdcl2/chips/chips.prt',
  SUBDESIGN_NAME='FMC_TLU_CFD',
  REUSE_INSTANCE='FMC_TLU_CFD_4',
  REUSE_NAME='FMC_TLU_CFD';
+
+PART_NAME
+ C8 'CAPCERSMDCL2_0603-100NF,16V':;
+
+SECTION_NUMBER 1
+ '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4_I9@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i9@cnpassive.capcersmdcl2~
+(chips)',
+ P_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i9@cnpassive.capcersmdcl2~
+(chips)',
+ PATH='I9',
+ DRAWING='@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='2',
+ XY='(600,-200)',
+ ROT='0',
+ VER='1',
+ VALUE='100NF',
+ PACK_TYPE='0603',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0603-100NF,16V',
+ VOLTAGE='16V',
+ PRIM_FILE='/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe~
+_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
 
 PART_NAME
  C8_1 'CAPCERSMDCL2_0603-100NF,16V':
@@ -1176,6 +1224,30 @@ _cern_lib/cnpassive/capcersmdcl2/chips/chips.prt',
  REUSE_NAME='FMC_TLU_CFD';
 
 PART_NAME
+ C9 'CAPCERSMDCL2_0603-100NF,16V':;
+
+SECTION_NUMBER 1
+ '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4_I8@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i8@cnpassive.capcersmdcl2~
+(chips)',
+ P_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i8@cnpassive.capcersmdcl2~
+(chips)',
+ PATH='I8',
+ DRAWING='@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='2',
+ XY='(600,-400)',
+ ROT='0',
+ VER='1',
+ VALUE='100NF',
+ PACK_TYPE='0603',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0603-100NF,16V',
+ VOLTAGE='16V',
+ PRIM_FILE='/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe~
+_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
  C9_1 'CAPCERSMDCL2_0603-100NF,16V':
  REUSE_INSTANCE='FMC_TLU_CFD_1',
  REUSE_NAME='FMC_TLU_CFD',
@@ -1302,6 +1374,30 @@ _cern_lib/cnpassive/capcersmdcl2/chips/chips.prt',
  SUBDESIGN_NAME='FMC_TLU_CFD',
  REUSE_INSTANCE='FMC_TLU_CFD_4',
  REUSE_NAME='FMC_TLU_CFD';
+
+PART_NAME
+ C10 'CAPCERSMDCL2_0603-100NF,16V':;
+
+SECTION_NUMBER 1
+ '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4_I19@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i19@cnpassive.capcersmdcl~
+2(chips)',
+ P_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i19@cnpassive.capcersmdcl~
+2(chips)',
+ PATH='I19',
+ DRAWING='@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='2',
+ XY='(3800,-500)',
+ ROT='0',
+ VER='1',
+ VALUE='100NF',
+ PACK_TYPE='0603',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0603-100NF,16V',
+ VOLTAGE='16V',
+ PRIM_FILE='/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe~
+_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
 
 PART_NAME
  C10_1 'CAPCERSMDCL2_0603-100NF,16V':
@@ -1432,6 +1528,30 @@ _cern_lib/cnpassive/capcersmdcl2/chips/chips.prt',
  REUSE_NAME='FMC_TLU_CFD';
 
 PART_NAME
+ C11 'CAPCERSMDCL2_0603-100NF,16V':;
+
+SECTION_NUMBER 1
+ '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4_I22@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i22@cnpassive.capcersmdcl~
+2(chips)',
+ P_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i22@cnpassive.capcersmdcl~
+2(chips)',
+ PATH='I22',
+ DRAWING='@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='2',
+ XY='(3800,-700)',
+ ROT='0',
+ VER='1',
+ VALUE='100NF',
+ PACK_TYPE='0603',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0603-100NF,16V',
+ VOLTAGE='16V',
+ PRIM_FILE='/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe~
+_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
  D1_1 'HBAT-540C':
  REUSE_INSTANCE='FMC_TLU_CFD_1',
  REUSE_NAME='FMC_TLU_CFD',
@@ -1556,26 +1676,27 @@ _cern_lib/cndiscrete/diode_dual_series/chips/chips.prt',
  REUSE_NAME='FMC_TLU_CFD';
 
 PART_NAME
- IC1 'ADR421_SOIC':;
+ IC1 'AD5665RBRUZ-1-GND=GND_SIGNAL,VA':;
 
 SECTION_NUMBER 1
- '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE2_I5@FMC_TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1_I56@CNLINEAR.ADR421(CHIPS)':
+ '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE2_I5@FMC_TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1_I63@CNLINEAR.AD5665R(CHIPS)':
  C_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_~
-dac_vthresh(sch_1):page1_i56@cnlinear.adr421(chips)',
+dac_vthresh(sch_1):page1_i63@cnlinear.ad5665r(chips)',
  P_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page3_i5@fmc_tlu_v1_lib.pc023a_~
-dac_vthresh(sch_1):page1_i56@cnlinear.adr421(chips)',
- PATH='I56',
+dac_vthresh(sch_1):page1_i63@cnlinear.ad5665r(chips)',
+ PATH='I63',
  DRAWING='@FMC_TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1',
+ POWER_GROUP='GND=GND_SIGNAL;VDD=P3V3',
+ TYPE='AD5665RBRUZ-1',
  PHYS_PAGE='1',
- XY='(-3300,1000)',
+ XY='(-1450,1250)',
  ROT='0',
  VER='1',
- PACK_TYPE='SOIC',
- PART_NAME='ADR421',
+ PACK_TYPE='TSSOP',
  CDS_LIB='cnlinear',
- CDS_PART_NAME='ADR421_SOIC',
+ CDS_PART_NAME='AD5665RBRUZ-1-GND=GND_SIGNAL;VA',
  PRIM_FILE='/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe~
-_cern_lib/cnlinear/adr421/chips/chips.prt';
+_cern_lib/cnlinear/ad5665r/chips/chips.prt';
 
 PART_NAME
  IC1_1 'GL2L5LS050D-C':
@@ -1723,12 +1844,12 @@ dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i
 _cern_lib/cnlinear/opa4277/chips/chips.prt';
 
 SECTION_NUMBER 2
- '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE2_I5@FMC_TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1_I30@FMC_TLU_V1_LIB.PC023A_VTHRESH_BUFFER(SCH_1):PAGE1_I22@CNLINEAR.OPA4277(CHIPS)':
+ '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE2_I5@FMC_TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1_I31@FMC_TLU_V1_LIB.PC023A_VTHRESH_BUFFER(SCH_1):PAGE1_I22@CNLINEAR.OPA4277(CHIPS)':
  C_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_~
-dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i~
+dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i~
 22@cnlinear.opa4277(chips)',
  P_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page3_i5@fmc_tlu_v1_lib.pc023a_~
-dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i~
+dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i~
 22@cnlinear.opa4277(chips)',
  PATH='I22',
  DRAWING='@FMC_TLU_V1_LIB.PC023A_VTHRESH_BUFFER(SCH_1):PAGE1',
@@ -1745,12 +1866,12 @@ dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i
 _cern_lib/cnlinear/opa4277/chips/chips.prt';
 
 SECTION_NUMBER 3
- '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE2_I5@FMC_TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1_I31@FMC_TLU_V1_LIB.PC023A_VTHRESH_BUFFER(SCH_1):PAGE1_I22@CNLINEAR.OPA4277(CHIPS)':
+ '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE2_I5@FMC_TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1_I30@FMC_TLU_V1_LIB.PC023A_VTHRESH_BUFFER(SCH_1):PAGE1_I22@CNLINEAR.OPA4277(CHIPS)':
  C_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_~
-dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i~
+dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i~
 22@cnlinear.opa4277(chips)',
  P_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page3_i5@fmc_tlu_v1_lib.pc023a_~
-dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i~
+dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i~
 22@cnlinear.opa4277(chips)',
  PATH='I22',
  DRAWING='@FMC_TLU_V1_LIB.PC023A_VTHRESH_BUFFER(SCH_1):PAGE1',
@@ -2125,7 +2246,7 @@ _cern_lib/cndiscrete/delay_line_gl2l/chips/chips.prt',
  REUSE_NAME='FMC_TLU_CFD';
 
 PART_NAME
- J1 'MHDMI-19-02-H-TH-L-TR':;
+ J1 'MHDMI-19-02-H-TH-L-TR-GND=GND_A':;
 
 SECTION_NUMBER 1
  '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4_I2@CNCONNECTOR.CON19P(CHIPS)':
@@ -2135,19 +2256,20 @@ ps)',
 ps)',
  PATH='I2',
  DRAWING='@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4',
+ POWER_GROUP='GND=GND_HDMI1',
  GENDER='RECEPTACLE',
  TYPE='SAMTEC_MHDMI-19-02-H-TH-L-TR',
  PHYS_PAGE='2',
- XY='(-400,-650)',
+ XY='(-250,250)',
  ROT='0',
  VER='1',
  CDS_LIB='cnconnector',
- CDS_PART_NAME='MHDMI-19-02-H-TH-L-TR',
+ CDS_PART_NAME='MHDMI-19-02-H-TH-L-TR-GND=GND_A',
  PRIM_FILE='/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe~
 _cern_lib/cnconnector/con19p/chips/chips.prt';
 
 PART_NAME
- J2 'MHDMI-19-02-H-TH-L-TR':;
+ J2 'MHDMI-19-02-H-TH-L-TR-GND=GND_B':;
 
 SECTION_NUMBER 1
  '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4_I3@CNCONNECTOR.CON19P(CHIPS)':
@@ -2157,19 +2279,20 @@ ps)',
 ps)',
  PATH='I3',
  DRAWING='@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4',
+ POWER_GROUP='GND=GND_HDMI2',
  GENDER='RECEPTACLE',
  TYPE='SAMTEC_MHDMI-19-02-H-TH-L-TR',
  PHYS_PAGE='2',
- XY='(-400,-1550)',
+ XY='(-250,-2350)',
  ROT='0',
  VER='1',
  CDS_LIB='cnconnector',
- CDS_PART_NAME='MHDMI-19-02-H-TH-L-TR',
+ CDS_PART_NAME='MHDMI-19-02-H-TH-L-TR-GND=GND_B',
  PRIM_FILE='/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe~
 _cern_lib/cnconnector/con19p/chips/chips.prt';
 
 PART_NAME
- J3 'CON8P-MOLEX_44661-1011':;
+ J3 'CON8P-MOLEX_44661-1011-GND=FRAA':;
 
 SECTION_NUMBER 1
  '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4_I1@CNCONNECTOR.CON8P(CHIPS)':
@@ -2179,13 +2302,14 @@ s)',
 s)',
  PATH='I1',
  DRAWING='@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4',
+ POWER_GROUP='GND=FRAME',
  TYPE='MOLEX_44661-1011',
  PHYS_PAGE='2',
- XY='(-350,150)',
+ XY='(3950,100)',
  ROT='0',
  VER='1',
  CDS_LIB='cnconnector',
- CDS_PART_NAME='CON8P-MOLEX_44661-1011',
+ CDS_PART_NAME='CON8P-MOLEX_44661-1011-GND=FRAA',
  PRIM_FILE='/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe~
 _cern_lib/cnconnector/con8p/chips/chips.prt';
 
@@ -3969,6 +4093,40 @@ _cern_lib/cnpassive/rsmd0805/chips/chips.prt',
  REUSE_NAME='FMC_TLU_CFD';
 
 PART_NAME
+ R9 'RSMD0603_1/10W-51,1%':;
+
+SECTION_NUMBER 1
+ '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4_I13@CNPASSIVE.RSMD0603(CHIPS)':
+ C_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i13@cnpassive.rsmd0603(ch~
+ips)',
+ P_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i13@cnpassive.rsmd0603(ch~
+ips)',
+ PATH='I13',
+ DRAWING='@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='2',
+ XY='(850,-2800)',
+ ROT='0',
+ VER='2',
+ VALUE='51',
+ PACK_TYPE='1/10W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0603_1/10W-51,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe~
+_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
+
+PART_NAME
  R9_1 'RSMD0603_1/10W-33K,1%':
  REUSE_INSTANCE='FMC_TLU_CFD_1',
  REUSE_NAME='FMC_TLU_CFD',
@@ -4135,6 +4293,40 @@ _cern_lib/cnpassive/rsmd0603/chips/chips.prt',
  SUBDESIGN_NAME='FMC_TLU_CFD',
  REUSE_INSTANCE='FMC_TLU_CFD_4',
  REUSE_NAME='FMC_TLU_CFD';
+
+PART_NAME
+ R10 'RSMD0603_1/10W-51,1%':;
+
+SECTION_NUMBER 1
+ '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4_I16@CNPASSIVE.RSMD0603(CHIPS)':
+ C_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i16@cnpassive.rsmd0603(ch~
+ips)',
+ P_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i16@cnpassive.rsmd0603(ch~
+ips)',
+ PATH='I16',
+ DRAWING='@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='2',
+ XY='(850,-3000)',
+ ROT='0',
+ VER='2',
+ VALUE='51',
+ PACK_TYPE='1/10W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0603_1/10W-51,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe~
+_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
 
 PART_NAME
  R10_1 'RSMD0603_1/10W-XX,1%':
@@ -4305,6 +4497,40 @@ _cern_lib/cnpassive/rsmd0603/chips/chips.prt',
  REUSE_NAME='FMC_TLU_CFD';
 
 PART_NAME
+ R11 'RSMD0603_1/10W-51,1%':;
+
+SECTION_NUMBER 1
+ '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4_I10@CNPASSIVE.RSMD0603(CHIPS)':
+ C_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i10@cnpassive.rsmd0603(ch~
+ips)',
+ P_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i10@cnpassive.rsmd0603(ch~
+ips)',
+ PATH='I10',
+ DRAWING='@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='2',
+ XY='(900,-200)',
+ ROT='0',
+ VER='2',
+ VALUE='51',
+ PACK_TYPE='1/10W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0603_1/10W-51,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe~
+_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
+
+PART_NAME
  R11_1 'RSMD0603_1/10W-75,1%':
  REUSE_INSTANCE='FMC_TLU_CFD_1',
  REUSE_NAME='FMC_TLU_CFD',
@@ -4471,6 +4697,40 @@ _cern_lib/cnpassive/rsmd0603/chips/chips.prt',
  SUBDESIGN_NAME='FMC_TLU_CFD',
  REUSE_INSTANCE='FMC_TLU_CFD_4',
  REUSE_NAME='FMC_TLU_CFD';
+
+PART_NAME
+ R12 'RSMD0603_1/10W-51,1%':;
+
+SECTION_NUMBER 1
+ '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4_I11@CNPASSIVE.RSMD0603(CHIPS)':
+ C_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i11@cnpassive.rsmd0603(ch~
+ips)',
+ P_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i11@cnpassive.rsmd0603(ch~
+ips)',
+ PATH='I11',
+ DRAWING='@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='2',
+ XY='(900,-400)',
+ ROT='0',
+ VER='2',
+ VALUE='51',
+ PACK_TYPE='1/10W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0603_1/10W-51,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe~
+_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
 
 PART_NAME
  R12_1 'RSMD0603_1/10W-75,1%':
@@ -4641,6 +4901,40 @@ _cern_lib/cnpassive/rsmd0603/chips/chips.prt',
  REUSE_NAME='FMC_TLU_CFD';
 
 PART_NAME
+ R13 'RSMD0603_1/10W-51,1%':;
+
+SECTION_NUMBER 1
+ '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4_I18@CNPASSIVE.RSMD0603(CHIPS)':
+ C_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i18@cnpassive.rsmd0603(ch~
+ips)',
+ P_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i18@cnpassive.rsmd0603(ch~
+ips)',
+ PATH='I18',
+ DRAWING='@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='2',
+ XY='(4100,-500)',
+ ROT='0',
+ VER='2',
+ VALUE='51',
+ PACK_TYPE='1/10W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0603_1/10W-51,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe~
+_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
+
+PART_NAME
  R13_1 'RSMD0603_1/10W-75,1%':
  REUSE_INSTANCE='FMC_TLU_CFD_1',
  REUSE_NAME='FMC_TLU_CFD',
@@ -4807,6 +5101,40 @@ _cern_lib/cnpassive/rsmd0603/chips/chips.prt',
  SUBDESIGN_NAME='FMC_TLU_CFD',
  REUSE_INSTANCE='FMC_TLU_CFD_4',
  REUSE_NAME='FMC_TLU_CFD';
+
+PART_NAME
+ R14 'RSMD0603_1/10W-51,1%':;
+
+SECTION_NUMBER 1
+ '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4_I21@CNPASSIVE.RSMD0603(CHIPS)':
+ C_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i21@cnpassive.rsmd0603(ch~
+ips)',
+ P_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i21@cnpassive.rsmd0603(ch~
+ips)',
+ PATH='I21',
+ DRAWING='@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='2',
+ XY='(4100,-700)',
+ ROT='0',
+ VER='2',
+ VALUE='51',
+ PACK_TYPE='1/10W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0603_1/10W-51,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe~
+_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
 
 PART_NAME
  R14_1 'RSMD0603_1/10W-75,1%':
@@ -4977,25 +5305,25 @@ _cern_lib/cnpassive/rsmd0603/chips/chips.prt',
  REUSE_NAME='FMC_TLU_CFD';
 
 PART_NAME
- U1 'AD5316_TSSOP-AD':;
+ U1 'PRTR5V0U8S_TSSOP-NXP':;
 
 SECTION_NUMBER 1
- '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE2_I5@FMC_TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1_I1@BRIS_CDS_ANALOGUE.AD5316(CHIPS)':
- C_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_~
-dac_vthresh(sch_1):page1_i1@bris_cds_analogue.ad5316(chips)',
- P_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page3_i5@fmc_tlu_v1_lib.pc023a_~
-dac_vthresh(sch_1):page1_i1@bris_cds_analogue.ad5316(chips)',
- PATH='I1',
- DRAWING='@FMC_TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1',
- MANUF='AD',
- PHYS_PAGE='1',
- XY='(-1350,1300)',
- ROT='0',
+ '@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4_I4@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)':
+ C_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i4@bris_cds_analogue.prtr~
+5v0u8s(chips)',
+ P_PATH='@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i4@bris_cds_analogue.prtr~
+5v0u8s(chips)',
+ PATH='I4',
+ DRAWING='@FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE4',
+ MANUF='NXP',
+ PHYS_PAGE='2',
+ XY='(4950,50)',
+ ROT='1',
  VER='1',
  PACK_TYPE='TSSOP',
  CDS_LIB='bris_cds_analogue',
- CDS_PART_NAME='AD5316_TSSOP-AD',
- PRIM_FILE='/afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_analogue/ad5316/~
-chips/chips.prt';
+ CDS_PART_NAME='PRTR5V0U8S_TSSOP-NXP',
+ PRIM_FILE='/afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_analogue/prtr5v0~
+u8s/chips/chips.prt';
 
 END.

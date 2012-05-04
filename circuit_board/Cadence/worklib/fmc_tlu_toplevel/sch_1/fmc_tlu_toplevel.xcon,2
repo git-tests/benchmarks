@@ -5,12 +5,11 @@
     <schemaVersion>16.5</schemaVersion>
     <creatorTool>csnetlister</creatorTool>
     <modifierTool>csnetlister</modifierTool>
-    <modificationTime>2012-05-04T12:18:43</modificationTime>
+    <modificationTime>2012-05-04T15:04:46</modificationTime>
     <savedLibrary>fmc_tlu_v1_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="fmc_tlu_toplevel" view="sch_1">
-      <external_errors>true</external_errors>
       <lastids>
         <instanceid>42</instanceid>
         <netid>73</netid>
@@ -818,6 +817,10 @@
           <masks>
           </masks>
           <powers>
+            <power>
+              <name>gnd</name>
+              <override>N63</override>
+            </power>
           </powers>
           <pins>
             <pin>
@@ -847,6 +850,10 @@
           <masks>
           </masks>
           <powers>
+            <power>
+              <name>gnd</name>
+              <override>N65</override>
+            </power>
           </powers>
           <pins>
             <pin>
@@ -1279,6 +1286,10 @@
           <masks>
           </masks>
           <powers>
+            <power>
+              <name>gnd</name>
+              <override>N66</override>
+            </power>
           </powers>
           <pins>
             <pin>
@@ -1894,7 +1905,7 @@
           </page>
           <page number="4">
             <physicalPageNumber>2</physicalPageNumber>
-            <errorStatus>true</errorStatus>
+            <errorStatus>false</errorStatus>
             <nets>
               <net ref="frame"></net>
               <net ref="gnd_hdmi1"></net>

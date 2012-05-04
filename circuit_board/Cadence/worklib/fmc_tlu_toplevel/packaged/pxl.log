@@ -6,13 +6,14 @@
     Packager-XL 16.5-S002 (v16-5-13L) lnx86 7/18/2011 12:00:00 IST
     (C) Copyright 1994, Cadence Design Systems, Inc.
 
-    Run on Fri May  4 09:19:46 2012
+    Run on Fri May  4 16:25:20 2012
 
 
  **********************************************
  *  Processing project file and command line  *
  **********************************************
 
+INFO(SPCOPK-1043): Setting REPACKAGE=OFF because running in FEEDBACK mode
 
 
     ANNOTATE  'BODY' 'PIN'
@@ -51,7 +52,7 @@
     SUPPRESS_GLOBAL_SHORT_CHECK OFF
     DEBUG    0
     DEFAULT_PHYS_DES_PREFIX U
-    FEEDBACK  'OFF'
+    FEEDBACK  'ALLEGRO'
     FORCE_SUBDESIGN  'FMC_TLU_CFD'
     MAX_ERRORS 999
     NET_NAME_CHARS   @  -  !  #  %  &  (  )  *  .  /  :  ?  [  ]  ^  _  `  +
@@ -124,8 +125,6 @@
 
 Creating Configuration "cfg_package" for Design "fmc_tlu_toplevel"
 
-Processing Constraints File ./worklib/fmc_tlu_toplevel/sch_1/fmc_tlu_toplevel.~
-dcf. 
 INFO(SPCODD-181): Loading /software/CAD/Cadence/SPB_16.50/share/cdssetup/cdspr~
 op.tmf.
 INFO(SPCODD-181): Loading /software/CAD/Cadence/SPB_16.50/share/cdssetup/cdspr~
@@ -156,6 +155,8 @@ ept_libs/pe16/pe_cern_lib/cnconnector/con160p_40cdgh/part_table/part.ptf.
 INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
 ept_libs/pe16/pe_cern_lib/cnlinear/opa4277/part_table/part.ptf.
 INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
+ept_libs/pe16/pe_cern_lib/cnlinear/ad5665r/part_table/part.ptf.
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
 ept_libs/pe16/pe_cern_lib/cndiscrete/diode_dual_series/part_table/diode_dual_s~
 eries.ptf.
 INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
@@ -180,6 +181,78 @@ INFO(SPCODD-181): Loading ./worklib/fmc_tlu_cfd/packaged/pxl_FMC_TLU_CFD.state.
  *****************************************
 
 
+ ***************************
+ *  Starting to feedback.  *
+ ***************************
+
+INFO(SPCOPF-2011): Feedback is changing SEC from 2 to 3.
+        Design instance: @FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE2_I5@FMC_~
+TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1_I30@FMC_TLU_V1_LIB.PC023A_VTHRESH_B~
+UFFER(SCH_1):PAGE1_I22@CNLINEAR.OPA4277(CHIPS)
+        Physical Path: @fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page3_i5@fmc_tl~
+u_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buf~
+fer(sch_1):page1_i22@cnlinear.opa4277(chips)
+INFO(SPCOPF-2012): Feedback is changing PN from 6 to 9.
+        Design instance: @FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE2_I5@FMC_~
+TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1_I30@FMC_TLU_V1_LIB.PC023A_VTHRESH_B~
+UFFER(SCH_1):PAGE1_I22@CNLINEAR.OPA4277(CHIPS)
+        Physical Path: @fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page3_i5@fmc_tl~
+u_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buf~
+fer(sch_1):page1_i22@cnlinear.opa4277(chips)
+        Pin name: MIN<0>
+INFO(SPCOPF-2012): Feedback is changing PN from 7 to 8.
+        Design instance: @FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE2_I5@FMC_~
+TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1_I30@FMC_TLU_V1_LIB.PC023A_VTHRESH_B~
+UFFER(SCH_1):PAGE1_I22@CNLINEAR.OPA4277(CHIPS)
+        Physical Path: @fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page3_i5@fmc_tl~
+u_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buf~
+fer(sch_1):page1_i22@cnlinear.opa4277(chips)
+        Pin name: OUT<0>
+INFO(SPCOPF-2012): Feedback is changing PN from 5 to 10.
+        Design instance: @FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE2_I5@FMC_~
+TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1_I30@FMC_TLU_V1_LIB.PC023A_VTHRESH_B~
+UFFER(SCH_1):PAGE1_I22@CNLINEAR.OPA4277(CHIPS)
+        Physical Path: @fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page3_i5@fmc_tl~
+u_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buf~
+fer(sch_1):page1_i22@cnlinear.opa4277(chips)
+        Pin name: PIN<0>
+INFO(SPCOPF-2011): Feedback is changing SEC from 3 to 2.
+        Design instance: @FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE2_I5@FMC_~
+TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1_I31@FMC_TLU_V1_LIB.PC023A_VTHRESH_B~
+UFFER(SCH_1):PAGE1_I22@CNLINEAR.OPA4277(CHIPS)
+        Physical Path: @fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page3_i5@fmc_tl~
+u_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buf~
+fer(sch_1):page1_i22@cnlinear.opa4277(chips)
+INFO(SPCOPF-2012): Feedback is changing PN from 9 to 6.
+        Design instance: @FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE2_I5@FMC_~
+TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1_I31@FMC_TLU_V1_LIB.PC023A_VTHRESH_B~
+UFFER(SCH_1):PAGE1_I22@CNLINEAR.OPA4277(CHIPS)
+        Physical Path: @fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page3_i5@fmc_tl~
+u_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buf~
+fer(sch_1):page1_i22@cnlinear.opa4277(chips)
+        Pin name: MIN<0>
+INFO(SPCOPF-2012): Feedback is changing PN from 8 to 7.
+        Design instance: @FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE2_I5@FMC_~
+TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1_I31@FMC_TLU_V1_LIB.PC023A_VTHRESH_B~
+UFFER(SCH_1):PAGE1_I22@CNLINEAR.OPA4277(CHIPS)
+        Physical Path: @fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page3_i5@fmc_tl~
+u_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buf~
+fer(sch_1):page1_i22@cnlinear.opa4277(chips)
+        Pin name: OUT<0>
+INFO(SPCOPF-2012): Feedback is changing PN from 10 to 5.
+        Design instance: @FMC_TLU_V1_LIB.FMC_TLU_TOPLEVEL(SCH_1):PAGE2_I5@FMC_~
+TLU_V1_LIB.PC023A_DAC_VTHRESH(SCH_1):PAGE1_I31@FMC_TLU_V1_LIB.PC023A_VTHRESH_B~
+UFFER(SCH_1):PAGE1_I22@CNLINEAR.OPA4277(CHIPS)
+        Physical Path: @fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page3_i5@fmc_tl~
+u_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buf~
+fer(sch_1):page1_i22@cnlinear.opa4277(chips)
+        Pin name: PIN<0>
+
+ *******************************
+ *  End feedback.  (00:00:00)  *
+ *******************************
+
+
  ****************************************
  *  Starting to assign physical parts.  *
  ****************************************
@@ -201,13 +274,498 @@ INFO(SPCODD-181): Loading ./worklib/fmc_tlu_cfd/packaged/pxl_FMC_TLU_CFD.state.
 
 INFO(SPCOPK-1442): No errors detected
 INFO(SPCOPK-1444): No warnings detected
-    Start time    9:19:46
-    End time      9:19:48
+    Start time   16:25:19
+    End time     16:25:22
     CPU time      0:00:01
-    Elapsed time  0:00:02
+    Elapsed time  0:00:03
 
  ***************************************************************************
  *  Packager-XL execution done.
  ***************************************************************************
-Starting to audit ECsets in the design...
+Constraint Directory: /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk~
+/circuit_board/Cadence/worklib/fmc_tlu_toplevel/sch_1/
+
+"/software/CAD/Cadence/SPB_16.50/tools/bin/cmfeedback.exe" -overwrite -noComp ~
+-s "temp/tmp_synch_props.cfg" -c "/projects/HEP_Instrumentation/cad/designs/fm~
+c-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/sch_1//update.scr"~
+ -rt "/projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/C~
+adence/temp/cmfeedback.log" physical in "/projects/HEP_Instrumentation/cad/des~
+igns/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/sch_1/fmc_t~
+lu_toplevel.dcf" "/projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/cir~
+cuit_board/Cadence/worklib/fmc_tlu_toplevel/packaged/cmdbview.dat"
+---------------------------------------------------------
+Design: fmc_tlu_toplevel
+     Changing : DESIGN_UNITS to "6,4" from "2,2"
+---------------------------------------------------------
+Create Layer: SURFACE_INDEX_0
+     Adding   : CDS_LAYER_TYPE value "SURFACE"
+     Adding   : CDS_LAYER_MATERIAL value "AIR"
+     Adding   : CDS_LAYER_THICKNESS value "0.0000"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0.0000"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.0000"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "1.000"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.0000"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
+---------------------------------------------------------
+Create Layer: TOP
+     Adding   : CDS_LAYER_TYPE value "CONDUCTOR"
+     Adding   : CDS_LAYER_MATERIAL value "COPPER"
+     Adding   : CDS_LAYER_THICKNESS value "0.0180"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "595900"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.0000"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.500"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.0000"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
+     Adding   : CDS_LAYER_IS_NAMED value "1"
+     Adding   : CDS_LAYER_ETCH_FACTOR value "90.00"
+     Adding   : CDS_LAYER_EMBEDDED_STATUS value "NOT_EMBEDDED"
+---------------------------------------------------------
+Create Layer: DIELECTRIC_BELOW_TOP
+     Adding   : CDS_LAYER_TYPE value "DIELECTRIC"
+     Adding   : CDS_LAYER_MATERIAL value "FR-4"
+     Adding   : CDS_LAYER_THICKNESS value "0.2200"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0.0000"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.200"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
+---------------------------------------------------------
+Create Layer: LAYER2
+     Adding   : CDS_LAYER_TYPE value "PLANE"
+     Adding   : CDS_LAYER_MATERIAL value "COPPER"
+     Adding   : CDS_LAYER_THICKNESS value "0.0350"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "595900"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.500"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "TRUE"
+     Adding   : CDS_LAYER_IS_NAMED value "1"
+     Adding   : CDS_LAYER_ETCH_FACTOR value "90.00"
+     Adding   : CDS_LAYER_EMBEDDED_STATUS value "NOT_EMBEDDED"
+---------------------------------------------------------
+Create Layer: DIELECTRIC_BELOW_LAYER2
+     Adding   : CDS_LAYER_TYPE value "DIELECTRIC"
+     Adding   : CDS_LAYER_MATERIAL value "FR-4"
+     Adding   : CDS_LAYER_THICKNESS value "0.3000"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0.0000"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.550"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
+---------------------------------------------------------
+Create Layer: LAYER3
+     Adding   : CDS_LAYER_TYPE value "CONDUCTOR"
+     Adding   : CDS_LAYER_MATERIAL value "COPPER"
+     Adding   : CDS_LAYER_THICKNESS value "0.0350"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "595900"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.500"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
+     Adding   : CDS_LAYER_IS_NAMED value "1"
+     Adding   : CDS_LAYER_ETCH_FACTOR value "90.00"
+     Adding   : CDS_LAYER_EMBEDDED_STATUS value "NOT_EMBEDDED"
+---------------------------------------------------------
+Create Layer: DIELECTRIC_BELOW_LAYER3
+     Adding   : CDS_LAYER_TYPE value "DIELECTRIC"
+     Adding   : CDS_LAYER_MATERIAL value "FR-4"
+     Adding   : CDS_LAYER_THICKNESS value "0.2032"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0.0000"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.200"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
+---------------------------------------------------------
+Create Layer: LAYER4
+     Adding   : CDS_LAYER_TYPE value "CONDUCTOR"
+     Adding   : CDS_LAYER_MATERIAL value "COPPER"
+     Adding   : CDS_LAYER_THICKNESS value "0.0350"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "595900"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.500"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
+     Adding   : CDS_LAYER_IS_NAMED value "1"
+     Adding   : CDS_LAYER_ETCH_FACTOR value "90.00"
+     Adding   : CDS_LAYER_EMBEDDED_STATUS value "NOT_EMBEDDED"
+---------------------------------------------------------
+Create Layer: DIELECTRIC_BELOW_LAYER4
+     Adding   : CDS_LAYER_TYPE value "DIELECTRIC"
+     Adding   : CDS_LAYER_MATERIAL value "FR-4"
+     Adding   : CDS_LAYER_THICKNESS value "0.3000"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0.0000"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.500"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
+---------------------------------------------------------
+Create Layer: LAYER5
+     Adding   : CDS_LAYER_TYPE value "PLANE"
+     Adding   : CDS_LAYER_MATERIAL value "COPPER"
+     Adding   : CDS_LAYER_THICKNESS value "0.0350"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "595900"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.500"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "TRUE"
+     Adding   : CDS_LAYER_IS_NAMED value "1"
+     Adding   : CDS_LAYER_ETCH_FACTOR value "90.00"
+     Adding   : CDS_LAYER_EMBEDDED_STATUS value "NOT_EMBEDDED"
+---------------------------------------------------------
+Create Layer: DIELECTRIC_BELOW_LAYER5
+     Adding   : CDS_LAYER_TYPE value "DIELECTRIC"
+     Adding   : CDS_LAYER_MATERIAL value "FR-4"
+     Adding   : CDS_LAYER_THICKNESS value "0.2200"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0.0000"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.0000"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.200"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
+---------------------------------------------------------
+Create Layer: BOTTOM
+     Adding   : CDS_LAYER_TYPE value "CONDUCTOR"
+     Adding   : CDS_LAYER_MATERIAL value "COPPER"
+     Adding   : CDS_LAYER_THICKNESS value "0.0180"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "595900"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.0000"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.500"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.0000"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
+     Adding   : CDS_LAYER_IS_NAMED value "1"
+     Adding   : CDS_LAYER_ETCH_FACTOR value "90.00"
+     Adding   : CDS_LAYER_EMBEDDED_STATUS value "NOT_EMBEDDED"
+---------------------------------------------------------
+Create Layer: SURFACE_BELOW_BOTTOM
+     Adding   : CDS_LAYER_TYPE value "SURFACE"
+     Adding   : CDS_LAYER_MATERIAL value "AIR"
+     Adding   : CDS_LAYER_THICKNESS value "0.0000"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0.0000"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.0000"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "1.000"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.0000"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
+---------------------------------------------------------
+Design: fmc_tlu_toplevel
+     Adding   : DRAWING_EXTENTS value "533.4000,431.8000"
+     Adding   : DRAWING_LOWER_LEFT value "-50.0000,-50.0000"
+     Adding   : PhysicalCSet association "DEFAULT"
+     Adding   : SpacingCSet association "DEFAULT"
+     Adding   : SameNetSpacingCSet association "DEFAULT"
+---------------------------------------------------------
+Net: P2V5
+     Adding   : WEIGHT value "0"
+---------------------------------------------------------
+Create PhysicalCSet: DEFAULT
+     Adding   : DIFFP_PRIMARY_GAP value "0.0000,0.0000,0.0000,0.0000,0.0000,0.~
+0000"
+     Adding   : DIFFP_COUPLED_PLUS value "0.0000,0.0000,0.0000,0.0000,0.0000,0~
+.0000"
+     Adding   : DIFFP_COUPLED_MINUS value "0.0000,0.0000,0.0000,0.0000,0.0000,~
+0.0000"
+     Adding   : DIFFP_MIN_SPACE value "0.0000,0.0000,0.0000,0.0000,0.0000,0.00~
+00"
+     Adding   : MIN_LINE_WIDTH value "0.1270,0.1270,0.1270,0.1270,0.1270,0.127~
+0"
+     Adding   : MAX_LINE_WIDTH value "0.0000,0.0000,0.0000,0.0000,0.0000,0.000~
+0"
+     Adding   : DIFFP_NECK_GAP value "0.0000,0.0000,0.0000,0.0000,0.0000,0.000~
+0"
+     Adding   : MIN_NECK_WIDTH value "0.1270,0.1270,0.1270,0.1270,0.1270,0.127~
+0"
+     Adding   : MAXIMUM_NECK_LENGTH value "0.0000,0.0000,0.0000,0.0000,0.0000,~
+0.0000"
+     Adding   : VIA_LIST value "VIA"
+     Adding   : ALLOW_ON_ETCH_SUBCLASS value "TRUE,TRUE,TRUE,TRUE,TRUE,TRUE"
+     Adding   : TS_ALLOWED value "ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE~
+,ANYWHERE"
+     Adding   : MIN_BVIA_STAGGER value "0.1270,0.1270,0.1270,0.1270,0.1270,0.1~
+270"
+     Adding   : MAX_BVIA_STAGGER value "0.0000,0.0000,0.0000,0.0000,0.0000,0.0~
+000"
+     Adding   : PAD_PAD_DIRECT_CONNECT value "ALL_ALLOWED,ALL_ALLOWED,ALL_ALLO~
+WED,ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED"
+---------------------------------------------------------
+Create SpacingCSet: DEFAULT
+     Adding   : THRUPIN_TO_THRUPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : THRUPIN_TO_SMDPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : TESTPIN_TO_THRUPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : THRUPIN_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : TESTVIA_TO_THRUPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : BBV_TO_THRUPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0.12~
+70,0.1270"
+     Adding   : THRUPIN_TO_BONDPAD_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : LINE_TO_THRUPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : THRUPIN_TO_SHAPE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.~
+1270,0.1270"
+     Adding   : SMDPIN_TO_SMDPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0.~
+1270,0.1270"
+     Adding   : SMDPIN_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : SMDPIN_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : SMDPIN_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : BBV_TO_SMDPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0.127~
+0,0.1270"
+     Adding   : SMDPIN_TO_BONDPAD_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : LINE_TO_SMDPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0.12~
+70,0.1270"
+     Adding   : SHAPE_TO_SMDPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : TESTPIN_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : TESTPIN_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : TESTPIN_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : BBV_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0.12~
+70,0.1270"
+     Adding   : BONDPAD_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : LINE_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : SHAPE_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0.~
+1270,0.1270"
+     Adding   : THRUVIA_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : TESTVIA_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : BBV_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0.12~
+70,0.1270"
+     Adding   : BONDPAD_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : LINE_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : SHAPE_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0.~
+1270,0.1270"
+     Adding   : TESTVIA_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : BBV_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0.12~
+70,0.1270"
+     Adding   : BONDPAD_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : LINE_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : SHAPE_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0.~
+1270,0.1270"
+     Adding   : BBV_TO_BBV_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1270,0~
+.1270"
+     Adding   : BONDPAD_TO_BBV_SPACING value "0.1270,0.1270,0.1270,0.1270,0.12~
+70,0.1270"
+     Adding   : BBV_TO_LINE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1270,~
+0.1270"
+     Adding   : BBV_TO_SHAPE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1270~
+,0.1270"
+     Adding   : BONDPAD_TO_BONDPAD_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : BONDPAD_TO_LINE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : BONDPAD_TO_SHAPE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.~
+1270,0.1270"
+     Adding   : LINE_TO_LINE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1270~
+,0.1270"
+     Adding   : LINE_TO_SHAPE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.127~
+0,0.1270"
+     Adding   : SHAPE_TO_SHAPE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.12~
+70,0.1270"
+     Adding   : HOLE_TO_PIN_SPACING value "0.2032,0.2032,0.2032,0.2032,0.2032,~
+0.2032"
+     Adding   : HOLE_TO_VIA_SPACING value "0.2032,0.2032,0.2032,0.2032,0.2032,~
+0.2032"
+     Adding   : HOLE_TO_LINE_SPACING value "0.2032,0.2032,0.2032,0.2032,0.2032~
+,0.2032"
+     Adding   : HOLE_TO_SHAPE_SPACING value "0.2032,0.2032,0.2032,0.2032,0.203~
+2,0.2032"
+     Adding   : HOLE_TO_HOLE_SPACING value "0.2032,0.2032,0.2032,0.2032,0.2032~
+,0.2032"
+     Adding   : MVIA_TO_MVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1270~
+,0.1270"
+     Adding   : MVIA_TO_THRUPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : MVIA_TO_SMDPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0.12~
+70,0.1270"
+     Adding   : MVIA_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : MVIA_TO_BBV_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1270,~
+0.1270"
+     Adding   : MVIA_TO_LINE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1270~
+,0.1270"
+     Adding   : MVIA_TO_SHAPE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.127~
+0,0.1270"
+     Adding   : MVIA_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : MVIA_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : BONDPAD_TO_MVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : MIN_BVIA_GAP value "0.1270"
+     Adding   : BONDPAD_TO_BONDPAD_DIFFP_SPC value "0.1270,0.1270,0.1270,0.127~
+0,0.1270,0.1270"
+---------------------------------------------------------
+Create SameNetSpacingCSet: DEFAULT
+     Adding   : SAME_NET value "FALSE,FALSE,FALSE,FALSE,FALSE,FALSE"
+     Adding   : SN_THRUPIN_TO_THRUPIN_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_THRUPIN_TO_SMDPIN_SPACING value "0.1270,0.1270,0.1270,0.127~
+0,0.1270,0.1270"
+     Adding   : SN_TESTPIN_TO_THRUPIN_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_THRUPIN_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_TESTVIA_TO_THRUPIN_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_BBV_TO_THRUPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : SN_THRUPIN_TO_BONDPAD_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_LINE_TO_THRUPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : SN_THRUPIN_TO_SHAPE_SPACING value "0.1270,0.1270,0.1270,0.1270~
+,0.1270,0.1270"
+     Adding   : SN_SMDPIN_TO_SMDPIN_SPACING value "0.1270,0.1270,0.1270,0.1270~
+,0.1270,0.1270"
+     Adding   : SN_SMDPIN_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.127~
+0,0.1270,0.1270"
+     Adding   : SN_SMDPIN_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.127~
+0,0.1270,0.1270"
+     Adding   : SN_SMDPIN_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.127~
+0,0.1270,0.1270"
+     Adding   : SN_BBV_TO_SMDPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0.~
+1270,0.1270"
+     Adding   : SN_SMDPIN_TO_BONDPAD_SPACING value "0.1270,0.1270,0.1270,0.127~
+0,0.1270,0.1270"
+     Adding   : SN_LINE_TO_SMDPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : SN_SHAPE_TO_SMDPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : SN_TESTPIN_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_TESTPIN_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_TESTPIN_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_BBV_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : SN_BONDPAD_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_LINE_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : SN_SHAPE_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.1270~
+,0.1270,0.1270"
+     Adding   : SN_THRUVIA_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_TESTVIA_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_BBV_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : SN_BONDPAD_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_LINE_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : SN_SHAPE_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270~
+,0.1270,0.1270"
+     Adding   : SN_TESTVIA_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_BBV_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : SN_BONDPAD_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_LINE_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : SN_SHAPE_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.1270~
+,0.1270,0.1270"
+     Adding   : SN_BBV_TO_BBV_SPACING value "0.1270,0.1270,0.1270,0.1270,0.127~
+0,0.1270"
+     Adding   : SN_BONDPAD_TO_BBV_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : SN_BBV_TO_LINE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.12~
+70,0.1270"
+     Adding   : SN_BBV_TO_SHAPE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : SN_BONDPAD_TO_BONDPAD_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_BONDPAD_TO_LINE_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : SN_BONDPAD_TO_SHAPE_SPACING value "0.1270,0.1270,0.1270,0.1270~
+,0.1270,0.1270"
+     Adding   : SN_LINE_TO_LINE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : SN_LINE_TO_SHAPE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.~
+1270,0.1270"
+     Adding   : SN_SHAPE_TO_SHAPE_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : SN_HOLE_TO_PIN_SPACING value "0.2032,0.2032,0.2032,0.2032,0.20~
+32,0.2032"
+     Adding   : SN_HOLE_TO_VIA_SPACING value "0.2032,0.2032,0.2032,0.2032,0.20~
+32,0.2032"
+     Adding   : SN_HOLE_TO_LINE_SPACING value "0.2032,0.2032,0.2032,0.2032,0.2~
+032,0.2032"
+     Adding   : SN_HOLE_TO_SHAPE_SPACING value "0.2032,0.2032,0.2032,0.2032,0.~
+2032,0.2032"
+     Adding   : SN_HOLE_TO_HOLE_SPACING value "0.2032,0.2032,0.2032,0.2032,0.2~
+032,0.2032"
+     Adding   : SN_MVIA_TO_MVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : SN_MVIA_TO_THRUPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : SN_MVIA_TO_SMDPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : SN_MVIA_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : SN_MVIA_TO_BBV_SPACING value "0.1270,0.1270,0.1270,0.1270,0.12~
+70,0.1270"
+     Adding   : SN_MVIA_TO_LINE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : SN_MVIA_TO_SHAPE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.~
+1270,0.1270"
+     Adding   : SN_MVIA_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : SN_MVIA_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : SN_BONDPAD_TO_MVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+---------------------------------------------------------
+Clear Net: p2v5
+     Deleting : WEIGHT value "0"
+---------------------------------------------------------
+Clear Net: p2v5
+     Deleting : WEIGHT value "0"
+---------------------------------------------------------
+Clear Net: p2v5
+     Deleting : WEIGHT value "0"
+---------------------------------------------------------
+Clear Net: p2v5
+     Deleting : WEIGHT value "0"
+---------------------------------------------------------
+
+Summary:
+
+Constraint changes found: 276 additions, 0 deletions, 1 changes.
+
+Association changes found: 3 additions, 0 deletions.
+
+4 objects cleared.
+
+
 Audit completed successfully.
