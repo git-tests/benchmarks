@@ -7,20 +7,31 @@
 			( 16.5 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 5 )
-			( physicalViewRevNum 0 )
+			( logicalViewRevNum 32 )
+			( physicalViewRevNum 1 )
 			( otherViewRevNum 0 )
 		)
 		( contents
+			( drawing )
 			( dictionaryExtensions )
 			( worksheetCustomizations )
+			( crossSection )
 			( electricalConstraints )
+			( physicalConstraints )
+			( spacingConstraints )
+			( sameNetSpacingConstraints )
 			( netClasses )
 			( properties )
 		)
 		( precision
-			( units mil )
-			( numberOfDecimalPlaces 2 )
+			( units mm )
+			( numberOfDecimalPlaces 4 )
+		)
+	)
+	( drawing
+		( attribute "DRAWING_EXTENTS" "533.4000,431.8000"
+		)
+		( attribute "DRAWING_LOWER_LEFT" "-50.0000,-50.0000"
 		)
 	)
 	( DictionaryExtensions
@@ -360,108 +371,1091 @@
 			( Analysis
 			)
 		)
+		( Attribute
+			( Name "CASE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "$sec" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+	)
+	( crossSection
+		( layer "SURFACE_INDEX_0"
+			( attribute "CDS_LAYER_TYPE" "SURFACE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "AIR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "TOP"
+			( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0180"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_TOP"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.2200"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.200"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "LAYER2"
+			( attribute "CDS_LAYER_TYPE" "PLANE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0350"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "TRUE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_LAYER2"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.3000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.550"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "LAYER3"
+			( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0350"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_LAYER3"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.2032"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.200"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "LAYER4"
+			( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0350"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_LAYER4"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.3000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "LAYER5"
+			( attribute "CDS_LAYER_TYPE" "PLANE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0350"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "TRUE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_LAYER5"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.2200"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.200"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "BOTTOM"
+			( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0180"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "SURFACE_BELOW_BOTTOM"
+			( attribute "CDS_LAYER_TYPE" "SURFACE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "AIR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
 	)
 	( designConstraints
 		( ruleChanges
 			( allRules )
 			( design "fmc_tlu_cfd"
+				( physicalCSetRef "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):\DEFAULT\" )
+				( spacingCSetRef "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):\DEFAULT\" )
+				( sameNetSpacingCSetRef "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):\DEFAULT\" )
+				( attribute "PHYSICAL_CONSTRAINT_SET" "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):\DEFAULT\"
+					( Origin gBackEnd )
+				)
+				( attribute "SPACING_CONSTRAINT_SET" "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):\DEFAULT\"
+					( Origin gBackEnd )
+				)
+				( attribute "SAME_NET_SPACING_CONSTRAINT_SET" "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):\DEFAULT\"
+					( Origin gBackEnd )
+				)
+				( attribute "CDS_EXPORT_CONTENTS_MASK" "37567"
+				)
+				( attribute "CDS_EDIT_PNS_STATUS" "1"
+					( Origin gFrontEnd )
+				)
+			)
+			( physicalCSet "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):\DEFAULT\"
+				( attribute "DIFFP_PRIMARY_GAP" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_COUPLED_PLUS" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_COUPLED_MINUS" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_MIN_SPACE" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_LINE_WIDTH" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MAX_LINE_WIDTH" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_NECK_GAP" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_NECK_WIDTH" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MAXIMUM_NECK_LENGTH" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "VIA_LIST" "VIA"
+					( Origin gBackEnd )
+				)
+				( attribute "ALLOW_ON_ETCH_SUBCLASS" "TRUE,TRUE,TRUE,TRUE,TRUE,TRUE"
+					( Origin gBackEnd )
+				)
+				( attribute "TS_ALLOWED" "ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_BVIA_STAGGER" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MAX_BVIA_STAGGER" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "PAD_PAD_DIRECT_CONNECT" "ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED"
+					( Origin gBackEnd )
+				)
+				( objectStatus "DEFAULT" )
+			)
+			( spacingCSet "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):\DEFAULT\"
+				( attribute "THRUPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_PIN_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_VIA_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_LINE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_SHAPE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_HOLE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_BVIA_GAP" "0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_BONDPAD_DIFFP_SPC" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( objectStatus "DEFAULT" )
+			)
+			( sameNetSpacingCSet "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):\DEFAULT\"
+				( attribute "SAME_NET" "FALSE,FALSE,FALSE,FALSE,FALSE,FALSE"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_PIN_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_VIA_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_LINE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_SHAPE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_HOLE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( objectStatus "DEFAULT" )
 			)
 			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):gnd_signal"
 				( alias ( signalRef "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_gnd_signal") )
-				( objectStatus "gnd_signal" )
+				( attribute "CDS_PHYS_NET_NAME" "GND_SIGNAL"
+					( Origin gPackager )
+				)
+				( attribute "WEIGHT" "0"
+					( Origin gBackEnd )
+				)
+				( objectStatus "GND_SIGNAL" )
 			)
 			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_gnd_signal"
 				( objectFlag fObjectAlias )
 				( objectStatus "page1_gnd_signal" )
 			)
-			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):ihys"
-				( objectStatus "ihys" )
-			)
 			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):m5v"
 				( alias ( signalRef "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_m5v") )
-				( objectStatus "m5v" )
+				( attribute "CDS_PHYS_NET_NAME" "M5V"
+					( Origin gPackager )
+				)
+				( attribute "WEIGHT" "0"
+					( Origin gBackEnd )
+				)
+				( objectStatus "M5V" )
 			)
 			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_m5v"
 				( objectFlag fObjectAlias )
 				( objectStatus "page1_m5v" )
 			)
-			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):p2v5"
-				( alias ( signalRef "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_p2v5") )
-				( objectStatus "p2v5" )
-			)
-			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_p2v5"
-				( objectFlag fObjectAlias )
-				( objectStatus "page1_p2v5" )
-			)
-			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):p3v3"
-				( alias ( signalRef "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_p3v3") )
-				( objectStatus "p3v3" )
-			)
-			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_p3v3"
-				( objectFlag fObjectAlias )
-				( objectStatus "page1_p3v3" )
-			)
 			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):p5v"
 				( alias ( signalRef "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_p5v") )
-				( objectStatus "p5v" )
+				( attribute "CDS_PHYS_NET_NAME" "P5V"
+					( Origin gPackager )
+				)
+				( attribute "WEIGHT" "0"
+					( Origin gBackEnd )
+				)
+				( objectStatus "P5V" )
 			)
 			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_p5v"
 				( objectFlag fObjectAlias )
 				( objectStatus "page1_p5v" )
 			)
-			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):q"
-				( objectStatus "q" )
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):\leading_edge_out*\"
+				( attribute "CDS_PHYS_NET_NAME" "LEADING_EDGE_OUT*"
+					( Origin gPackager )
+				)
+				( objectStatus "LEADING_EDGE_OUT*" )
 			)
-			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):\q*\"
-				( objectStatus "q*" )
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):leading_edge_out"
+				( attribute "CDS_PHYS_NET_NAME" "LEADING_EDGE_OUT"
+					( Origin gPackager )
+				)
+				( objectStatus "LEADING_EDGE_OUT" )
 			)
-			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_capcersmdcl2_i16_b"
-				( objectStatus "unnamed_1_capcersmdcl2_i16_b" )
-			)
-			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):\unnamed_1_fmctlu2-5nsdelay_i49_out\"
-				( alias ( signalRef "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i49@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):\in*\") )
-				( objectFlag fObjectAlias )
-				( objectStatus "unnamed_1_fmctlu2-5nsdelay_i49_out" )
-			)
-			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i49@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):\in*\"
-				( objectFlag fObjectAlias )
-			)
-			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):\unnamed_1_fmctlu2-5nsdelay_i49_out_1\"
-				( alias ( signalRef "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i49@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):\in\") )
-				( objectFlag fObjectAlias )
-				( objectStatus "unnamed_1_fmctlu2-5nsdelay_i49_out_1" )
-			)
-			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i49@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):\in\"
-				( objectFlag fObjectAlias )
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):\cfd_out*\"
+				( attribute "CDS_PHYS_NET_NAME" "CFD_OUT*"
+					( Origin gPackager )
+				)
+				( objectStatus "CFD_OUT*" )
 			)
 			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_in"
-				( objectStatus "unnamed_1_max9601_i1_in" )
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_MAX9601_I1_IN"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_MAX9601_I1_IN" )
 			)
 			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_q"
-				( objectStatus "unnamed_1_max9601_i1_q" )
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_MAX9601_I1_Q"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_MAX9601_I1_Q" )
 			)
 			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_q_1"
-				( objectStatus "unnamed_1_max9601_i1_q_1" )
-			)
-			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_rsmd0402_i31_b"
-				( objectStatus "unnamed_1_rsmd0402_i31_b" )
-			)
-			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_rsmd0402_i32_b"
-				( objectStatus "unnamed_1_rsmd0402_i32_b" )
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_MAX9601_I1_Q_1"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_MAX9601_I1_Q_1" )
 			)
 			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):vin"
-				( objectStatus "vin" )
+				( attribute "CDS_PHYS_NET_NAME" "VIN"
+					( Origin gPackager )
+				)
+				( objectStatus "VIN" )
 			)
-			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):vlatchbias"
-				( alias ( signalRef "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):\unnamed_1_fmctlu2-5nsdelay_i49_out_1\") )
-				( objectStatus "vlatchbias" )
-			)
-			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):\vlatchbias*\"
-				( alias ( signalRef "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):\unnamed_1_fmctlu2-5nsdelay_i49_out\") )
-				( objectStatus "vlatchbias*" )
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):cfd_out"
+				( attribute "CDS_PHYS_NET_NAME" "CFD_OUT"
+					( Origin gPackager )
+				)
+				( objectStatus "CFD_OUT" )
 			)
 			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):vthresh"
-				( objectStatus "vthresh" )
+				( attribute "CDS_PHYS_NET_NAME" "VTHRESH"
+					( Origin gPackager )
+				)
+				( objectStatus "VTHRESH" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_capcersmdcl2_i78_b"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_CAPCERSMDCL2_I78_B"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_CAPCERSMDCL2_I78_B" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_hys"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_MAX9601_I1_HYS"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_MAX9601_I1_HYS" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_in_1"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_MAX9601_I1_IN_1"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_MAX9601_I1_IN_1" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i71_hys"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_MAX9601_I71_HYS"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_MAX9601_I71_HYS" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_a1"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_DELAYLINEGL2L_I140_A1"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_DELAYLINEGL2L_I140_A1" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_a2"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_DELAYLINEGL2L_I140_A2"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_DELAYLINEGL2L_I140_A2" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_b2"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_DELAYLINEGL2L_I140_B2"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_DELAYLINEGL2L_I140_B2" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):p2v5"
+				( alias ( signalRef "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_p2v5") )
+				( attribute "CDS_PHYS_NET_NAME" "P2V5"
+					( Origin gPackager )
+				)
+				( attribute "WEIGHT" "0"
+					( Origin gBackEnd )
+				)
+				( objectStatus "P2V5" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_p2v5"
+				( objectFlag fObjectAlias )
+				( objectStatus "page1_p2v5" )
 			)
 			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1"
 				( attribute "CDS_LIB" "cnlinear"
@@ -482,7 +1476,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(2200,-850)"
+				( attribute "XY" "(1550,-1450)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "MAX9601"
@@ -491,9 +1485,21 @@
 				( attribute "CDS_PART_NAME" "MAX9601_TSSOP"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE1_I1" )
+				( attribute "CDS_LOCATION" "IC2"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "IC2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "IC2" )
 			)
-			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i16"
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i123"
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
@@ -509,403 +1515,83 @@
 				( attribute "SIZE" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "10NF"
+				( attribute "VALUE" "100NF"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "50V"
+				( attribute "VOLTAGE" "16V"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(1250,-1150)"
+				( attribute "XY" "(-350,-500)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-10NF,50V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE1_I16" )
+				( attribute "CDS_LOCATION" "C1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C1" )
 			)
-			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i17"
-				( attribute "CDS_LIB" "cnpassive"
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i120"
+				( attribute "CASE" "SOT23"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_LIB" "cndiscrete"
 					( Origin gPackager )
 				)
-				( attribute "DIST" "FLAT"
-					( Origin gFrontEnd )
-				)
-				( attribute "MAX_TEMP" "RTMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "NEGTOL" "RTOL%"
-					( Origin gFrontEnd )
-				)
-				( attribute "PACK_TYPE" "1/10W"
+				( attribute "PACK_TYPE" "A1-C2-AC3"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "POSTOL" "RTOL%"
-					( Origin gFrontEnd )
-				)
-				( attribute "POWER" "RMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "SIZE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "SLOPE" "RSMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "TC1" "RTMPL"
-					( Origin gFrontEnd )
-				)
-				( attribute "TC2" "RTMPQ"
-					( Origin gFrontEnd )
-				)
-				( attribute "TOL" "1%"
-					( Origin gFrontEnd )
-				)
-				( attribute "TOL_ON_OFF" "ON"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "100"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "2"
-					( Origin gFrontEnd )
-				)
-				( attribute "VOLTAGE" "RVMAX"
-					( Units "uVoltage" "V" 1.000000)
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(800,-950)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "RSMD0603"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-100,1%"
-					( Origin gPackager )
-				)
-				( attribute "LOCATION" "<< NULL >>"
-					( Origin gPackager )
-				)
-				( objectStatus "PAGE1_I17" )
-			)
-			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i18"
-				( attribute "CDS_LIB" "cnpassive"
-					( Origin gPackager )
-				)
-				( attribute "DIST" "FLAT"
-					( Origin gFrontEnd )
-				)
-				( attribute "MAX_TEMP" "RTMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "NEGTOL" "RTOL%"
-					( Origin gFrontEnd )
-				)
-				( attribute "PACK_TYPE" "1/10W"
-					( Origin gFrontEnd )
-				)
-				( attribute "PHYS_PAGE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "POSTOL" "RTOL%"
-					( Origin gFrontEnd )
-				)
-				( attribute "POWER" "RMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "SIZE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "SLOPE" "RSMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "TC1" "RTMPL"
-					( Origin gFrontEnd )
-				)
-				( attribute "TC2" "RTMPQ"
-					( Origin gFrontEnd )
-				)
-				( attribute "TOL" "1%"
-					( Origin gFrontEnd )
-				)
-				( attribute "TOL_ON_OFF" "ON"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "24"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "2"
-					( Origin gFrontEnd )
-				)
-				( attribute "VOLTAGE" "RVMAX"
-					( Units "uVoltage" "V" 1.000000)
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(550,-500)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "RSMD0603"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-24,1%"
-					( Origin gPackager )
-				)
-				( attribute "LOCATION" "<< NULL >>"
-					( Origin gPackager )
-				)
-				( objectStatus "PAGE1_I18" )
-			)
-			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i19"
-				( attribute "CDS_LIB" "cnpassive"
-					( Origin gPackager )
-				)
-				( attribute "DIST" "FLAT"
-					( Origin gFrontEnd )
-				)
-				( attribute "MAX_TEMP" "RTMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "NEGTOL" "RTOL%"
-					( Origin gFrontEnd )
-				)
-				( attribute "PACK_TYPE" "1/10W"
-					( Origin gFrontEnd )
-				)
-				( attribute "PHYS_PAGE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "POSTOL" "RTOL%"
-					( Origin gFrontEnd )
-				)
-				( attribute "POWER" "RMAX"
 					( Origin gFrontEnd )
 				)
 				( attribute "ROT" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "SIZE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "SLOPE" "RSMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "TC1" "RTMPL"
-					( Origin gFrontEnd )
-				)
-				( attribute "TC2" "RTMPQ"
-					( Origin gFrontEnd )
-				)
-				( attribute "TOL" "1%"
-					( Origin gFrontEnd )
-				)
-				( attribute "TOL_ON_OFF" "ON"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "24"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "2"
-					( Origin gFrontEnd )
-				)
-				( attribute "VOLTAGE" "RVMAX"
-					( Units "uVoltage" "V" 1.000000)
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(1000,-650)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "RSMD0603"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-24,1%"
-					( Origin gPackager )
-				)
-				( attribute "LOCATION" "<< NULL >>"
-					( Origin gPackager )
-				)
-				( objectStatus "PAGE1_I19" )
-			)
-			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i29"
-				( attribute "CDS_LIB" "bris_cds_logic"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-200,275,200,-150"
-					( Origin gPackager )
-				)
-				( attribute "MANUF" "TEXAS INSTRUMENTS"
-					( Origin gFrontEnd )
-				)
-				( attribute "PACK_TYPE" "SON"
-					( Origin gFrontEnd )
-				)
-				( attribute "PHYS_PAGE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "0"
+				( attribute "TYPE" "HBAT-540C"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(4950,-1000)"
+				( attribute "XY" "(0,-500)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "SN65LVDS20"
+				( attribute "CHIPS_PART_NAME" "DIODE_DUAL_SERIES"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SN65LVDS20_SON-TEXAS INSTRUMENA"
+				( attribute "CDS_PART_NAME" "HBAT-540C"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE1_I29" )
-			)
-			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i31"
-				( attribute "CDS_LIB" "cnpassive"
+				( attribute "CDS_LOCATION" "D1"
 					( Origin gPackager )
 				)
-				( attribute "DIST" "FLAT"
-					( Origin gFrontEnd )
-				)
-				( attribute "MAX_TEMP" "RTMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "NEGTOL" "RTOL%"
-					( Origin gFrontEnd )
-				)
-				( attribute "PACK_TYPE" "1/16W"
-					( Origin gFrontEnd )
-				)
-				( attribute "PHYS_PAGE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "POSTOL" "RTOL%"
-					( Origin gFrontEnd )
-				)
-				( attribute "POWER" "RMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "SIZE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "SLOPE" "RSMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "TC1" "RTMPL"
-					( Origin gFrontEnd )
-				)
-				( attribute "TC2" "RTMPQ"
-					( Origin gFrontEnd )
-				)
-				( attribute "TOL" "1%"
-					( Origin gFrontEnd )
-				)
-				( attribute "TOL_ON_OFF" "ON"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "100"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "2"
-					( Origin gFrontEnd )
-				)
-				( attribute "VOLTAGE" "RVMAX"
-					( Units "uVoltage" "V" 1.000000)
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(3900,-1200)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "RSMD0402"
+				( attribute "LOCATION" "D1"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-100,1%"
+				( attribute "CDS_SEC" "1"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE1_I31" )
-			)
-			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i32"
-				( attribute "CDS_LIB" "cnpassive"
+				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
-				( attribute "DIST" "FLAT"
-					( Origin gFrontEnd )
-				)
-				( attribute "MAX_TEMP" "RTMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "NEGTOL" "RTOL%"
-					( Origin gFrontEnd )
-				)
-				( attribute "PACK_TYPE" "1/16W"
-					( Origin gFrontEnd )
-				)
-				( attribute "PHYS_PAGE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "POSTOL" "RTOL%"
-					( Origin gFrontEnd )
-				)
-				( attribute "POWER" "RMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "SIZE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "SLOPE" "RSMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "TC1" "RTMPL"
-					( Origin gFrontEnd )
-				)
-				( attribute "TC2" "RTMPQ"
-					( Origin gFrontEnd )
-				)
-				( attribute "TOL" "1%"
-					( Origin gFrontEnd )
-				)
-				( attribute "TOL_ON_OFF" "ON"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "100"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "2"
-					( Origin gFrontEnd )
-				)
-				( attribute "VOLTAGE" "RVMAX"
-					( Units "uVoltage" "V" 1.000000)
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(4100,-1200)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "RSMD0402"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-100,1%"
-					( Origin gPackager )
-				)
-				( objectStatus "PAGE1_I32" )
+				( objectStatus "D1" )
 			)
 			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i39"
 				( attribute "CDS_LIB" "cnpassive"
@@ -933,7 +1619,7 @@
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(3750,400)"
+				( attribute "XY" "(5600,-450)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
@@ -942,7 +1628,19 @@
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-1.0UF,6.3V"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE1_I39" )
+				( attribute "CDS_LOCATION" "C4"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C4"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C4" )
 			)
 			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i40"
 				( attribute "CDS_LIB" "cnpassive"
@@ -970,7 +1668,7 @@
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(4050,400)"
+				( attribute "XY" "(5900,-450)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
@@ -979,7 +1677,19 @@
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE1_I40" )
+				( attribute "CDS_LOCATION" "C7"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C7"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C7" )
 			)
 			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i41"
 				( attribute "CDS_LIB" "cnpassive"
@@ -1007,7 +1717,7 @@
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(4350,400)"
+				( attribute "XY" "(6200,-450)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
@@ -1016,7 +1726,19 @@
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE1_I41" )
+				( attribute "CDS_LOCATION" "C10"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C10"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C10" )
 			)
 			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i43"
 				( attribute "CDS_LIB" "cnpassive"
@@ -1044,7 +1766,7 @@
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(5150,400)"
+				( attribute "XY" "(6150,-1600)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
@@ -1053,7 +1775,19 @@
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE1_I43" )
+				( attribute "CDS_LOCATION" "C9"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C9"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C9" )
 			)
 			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i44"
 				( attribute "CDS_LIB" "cnpassive"
@@ -1081,7 +1815,7 @@
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(4850,400)"
+				( attribute "XY" "(5850,-1600)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
@@ -1090,44 +1824,19 @@
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-1.0UF,6.3V"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE1_I44" )
-			)
-			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i46"
-				( attribute "CDS_LIB" "cnpassive"
+				( attribute "CDS_LOCATION" "C6"
 					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "0603"
-					( Origin gFrontEnd )
-				)
-				( attribute "PHYS_PAGE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "SIZE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "100NF"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "VOLTAGE" "16V"
-					( Units "uVoltage" "V" 1.000000)
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(5900,400)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+				( attribute "LOCATION" "C6"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
+				( attribute "CDS_SEC" "1"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE1_I46" )
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C6" )
 			)
 			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i47"
 				( attribute "CDS_LIB" "cnpassive"
@@ -1155,7 +1864,7 @@
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(5600,400)"
+				( attribute "XY" "(5450,600)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
@@ -1164,16 +1873,28 @@
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-1.0UF,6.3V"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE1_I47" )
+				( attribute "CDS_LOCATION" "C3"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C3"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C3" )
 			)
-			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i48"
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71"
 				( attribute "CDS_LIB" "cnlinear"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,125,125,-125"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-250,250,325,-250"
 					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "SOT23"
+				( attribute "PACK_TYPE" "TSSOP"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "1"
@@ -1182,24 +1903,112 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "TYPE" "USBLC6-2SC6"
-					( Origin gFrontEnd )
-				)
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(150,-50)"
+				( attribute "XY" "(1550,200)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "USBLC6-2"
+				( attribute "CHIPS_PART_NAME" "MAX9601"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "USBLC6-2SC6"
+				( attribute "CDS_PART_NAME" "MAX9601_TSSOP"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE1_I48" )
+				( attribute "CDS_LOCATION" "IC2"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "IC2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "IC2" )
 			)
-			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i50"
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i73"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R9"
+					( Origin gPackager )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "33K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(1150,-150)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-33K,1%"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R9"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R9" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i78"
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
@@ -1225,7 +2034,7 @@
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(3600,-2000)"
+				( attribute "XY" "(750,500)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
@@ -1234,14 +2043,29 @@
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-10NF,50V"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE1_I50" )
+				( attribute "CDS_LOCATION" "C2"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C2" )
 			)
-			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i53"
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i79"
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
 				( attribute "DIST" "FLAT"
 					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R5"
+					( Origin gPackager )
 				)
 				( attribute "MAX_TEMP" "RTMAX"
 					( Origin gFrontEnd )
@@ -1249,7 +2073,165 @@
 				( attribute "NEGTOL" "RTOL%"
 					( Origin gFrontEnd )
 				)
-				( attribute "PACK_TYPE" "1/16W"
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(500,700)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-100,1%"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R5"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R5" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i81"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R10"
+					( Origin gPackager )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "XX"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(1150,-1800)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-XX,1%"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R10"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R10" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i148"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R6"
+					( Origin gPackager )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "125MW"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "1"
@@ -1292,23 +2274,35 @@
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(2650,-1200)"
+				( attribute "XY" "(700,-1800)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "RSMD0402"
+				( attribute "CHIPS_PART_NAME" "RSMD0805"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-100,1%"
+				( attribute "CDS_PART_NAME" "RSMD0805_125MW-100,1%"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE1_I53" )
+				( attribute "CDS_LOCATION" "R6"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R6" )
 			)
-			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i54"
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i92"
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
 				( attribute "DIST" "FLAT"
 					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R7"
+					( Origin gPackager )
 				)
 				( attribute "MAX_TEMP" "RTMAX"
 					( Origin gFrontEnd )
@@ -1316,7 +2310,7 @@
 				( attribute "NEGTOL" "RTOL%"
 					( Origin gFrontEnd )
 				)
-				( attribute "PACK_TYPE" "1/16W"
+				( attribute "PACK_TYPE" "1/10W"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "1"
@@ -1359,23 +2353,35 @@
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(2950,-1200)"
+				( attribute "XY" "(900,-1250)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "RSMD0402"
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-100,1%"
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-100,1%"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE1_I54" )
+				( attribute "CDS_LOCATION" "R7"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R7" )
 			)
-			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i56"
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i93"
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
 				( attribute "DIST" "FLAT"
 					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R3"
+					( Origin gPackager )
 				)
 				( attribute "MAX_TEMP" "RTMAX"
 					( Origin gFrontEnd )
@@ -1383,7 +2389,7 @@
 				( attribute "NEGTOL" "RTOL%"
 					( Origin gFrontEnd )
 				)
-				( attribute "PACK_TYPE" "1/16W"
+				( attribute "PACK_TYPE" "1/10W"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "1"
@@ -1416,7 +2422,7 @@
 				( attribute "TOL_ON_OFF" "ON"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "100"
+				( attribute "VALUE" "51"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "2"
@@ -1426,23 +2432,35 @@
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(3600,-750)"
+				( attribute "XY" "(100,-1100)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "RSMD0402"
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-100,1%"
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-51,1%"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE1_I56" )
+				( attribute "CDS_LOCATION" "R3"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R3" )
 			)
-			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i57"
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i94"
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
 				( attribute "DIST" "FLAT"
 					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R2"
+					( Origin gPackager )
 				)
 				( attribute "MAX_TEMP" "RTMAX"
 					( Origin gFrontEnd )
@@ -1450,7 +2468,7 @@
 				( attribute "NEGTOL" "RTOL%"
 					( Origin gFrontEnd )
 				)
-				( attribute "PACK_TYPE" "1/16W"
+				( attribute "PACK_TYPE" "125MW"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "1"
@@ -1483,7 +2501,7 @@
 				( attribute "TOL_ON_OFF" "ON"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "100"
+				( attribute "VALUE" "12"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "2"
@@ -1493,372 +2511,236 @@
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(3600,-950)"
+				( attribute "XY" "(100,100)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "RSMD0402"
+				( attribute "CHIPS_PART_NAME" "RSMD0805"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-100,1%"
+				( attribute "CDS_PART_NAME" "RSMD0805_125MW-12,1%"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE1_I57" )
+				( attribute "CDS_LOCATION" "R2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R2" )
 			)
-			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i58"
-				( attribute "CDS_LIB" "cn100e"
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i111"
+				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "SOIC"
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R13"
+					( Origin gPackager )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "ROT" "0"
+				( attribute "POSTOL" "RTOL%"
 					( Origin gFrontEnd )
 				)
-				( attribute "TYPE" "MC100LVEL29DWG"
+				( attribute "POWER" "RMAX"
 					( Origin gFrontEnd )
 				)
-				( attribute "VER" "1"
+				( attribute "ROT" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(0,-2300)"
+				( attribute "SIZE" "1"
 					( Origin gFrontEnd )
 				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "75"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(3800,-250)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-75,1%"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R13"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R13" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i113"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R11"
+					( Origin gPackager )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "75"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(3500,-250)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-75,1%"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R11"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R11" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i87"
 				( attribute "CHIPS_PART_NAME" "MC100EL29"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "MC100LVEL29DWG"
-					( Origin gPackager )
-				)
-				( objectStatus "PAGE1_I58" )
 			)
-			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i59"
-				( attribute "CDS_LIB" "bris_cds_logic"
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140"
+				( attribute "CDS_LIB" "cndiscrete"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-250,250,250,-250"
-					( Origin gPackager )
-				)
-				( attribute "COMPVALUE" "<< NULL >>"
-					( Origin gFrontEnd )
-				)
-				( attribute "MANUF" "TEXAS INSTRUMENTS"
-					( Origin gFrontEnd )
-				)
-				( attribute "PACK_TYPE" "SOIC"
+				( attribute "PACK_TYPE" "SOP"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "PLACEMENT_REGION" "<< NULL >>"
-					( Origin gFrontEnd )
-				)
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "SYMNAME" "sn65lvdt101dg4"
+				( attribute "TYPE" "GL2L5LS050D-C"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(1100,-2300)"
+				( attribute "XY" "(-100,-1650)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "SN65LVDT101DG4"
+				( attribute "CHIPS_PART_NAME" "DELAY_LINE_GL2L"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SN65LVDT101DG4_SOIC-TEXAS INSTA"
+				( attribute "CDS_PART_NAME" "GL2L5LS050D-C"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE1_I59" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:hys(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:\in+\(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:\in-\(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:le(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:\le*\(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:q(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:\q*\(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:vcc(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:vcc(1)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:\vcco_\(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:\vcco_\(1)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:vee(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:vee(1)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i16:a(0)"
-				( attribute "PN" "#"
+				( attribute "CDS_LOCATION" "IC1"
 					( Origin gPackager )
 				)
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i16:b(0)"
-				( attribute "PN" "#"
+				( attribute "LOCATION" "IC1"
 					( Origin gPackager )
 				)
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i17:a(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i17:b(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i18:a(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i18:b(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i19:a(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i19:b(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i29:a"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i29:b"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i29:\en*\"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i29:gnd"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i29:vbb"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i29:vcc"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i29:y"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i29:z"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i31:a(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i31:b(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i32:a(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i32:b(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i39:a(0)"
-				( attribute "PN" "#"
+				( attribute "CDS_SEC" "1"
 					( Origin gPackager )
 				)
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i39:b(0)"
-				( attribute "PN" "#"
+				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( objectStatus "IC1" )
 			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i40:a(0)"
-				( attribute "PN" "#"
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141"
+				( attribute "CDS_LIB" "cndiscrete"
 					( Origin gPackager )
 				)
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i40:b(0)"
-				( attribute "PN" "#"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i41:a(0)"
-				( attribute "PN" "#"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i41:b(0)"
-				( attribute "PN" "#"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i43:a(0)"
-				( attribute "PN" "#"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i43:b(0)"
-				( attribute "PN" "#"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i44:a(0)"
-				( attribute "PN" "#"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i44:b(0)"
-				( attribute "PN" "#"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i46:a(0)"
-				( attribute "PN" "#"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i46:b(0)"
-				( attribute "PN" "#"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i47:a(0)"
-				( attribute "PN" "#"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i47:b(0)"
-				( attribute "PN" "#"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i48:gnd"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i48:\i/o11\"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i48:\i/o12\"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i48:\i/o21\"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i48:\i/o22\"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i48:vbus"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i49:\in\"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i49:\in*\"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i49:\out\"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i49:\out*\"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i50:a(0)"
-				( attribute "PN" "#"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i50:b(0)"
-				( attribute "PN" "#"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i53:a(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i53:b(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i54:a(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i54:b(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i56:a(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i56:b(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i57:a(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i57:b(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i58:cl(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i58:clock(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i58:\clock*\(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i58:d(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i58:\d*\(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i58:pr(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i58:q(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i58:\q*\(0)"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i58:vbb"
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i59:a"
-				( attribute "NO_ASSERT_CHECK" "<< NULL >>"
-					( Origin gFrontEnd )
-				)
-				( attribute "NO_DIR_CHECK" "<< NULL >>"
-					( Origin gFrontEnd )
-				)
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i59:b"
-				( attribute "NO_ASSERT_CHECK" "<< NULL >>"
-					( Origin gFrontEnd )
-				)
-				( attribute "NO_DIR_CHECK" "<< NULL >>"
-					( Origin gFrontEnd )
-				)
-				( attribute "PN" "3"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i59:gnd"
-				( attribute "NO_ASSERT_CHECK" "<< NULL >>"
-					( Origin gFrontEnd )
-				)
-				( attribute "NO_DIR_CHECK" "<< NULL >>"
-					( Origin gFrontEnd )
-				)
-				( attribute "PN" "5"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i59:v_cc"
-				( attribute "HDL_PINTYPE" "Power"
-					( Origin gFrontEnd )
-				)
-				( attribute "NO_ASSERT_CHECK" "<< NULL >>"
-					( Origin gFrontEnd )
-				)
-				( attribute "NO_DIR_CHECK" "<< NULL >>"
-					( Origin gFrontEnd )
-				)
-				( attribute "PN" "8"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i59:y"
-				( attribute "NO_ASSERT_CHECK" "<< NULL >>"
-					( Origin gFrontEnd )
-				)
-				( attribute "NO_DIR_CHECK" "<< NULL >>"
-					( Origin gFrontEnd )
-				)
-				( attribute "PN" "7"
-					( Origin gPackager )
-				)
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i59:z"
-				( attribute "NO_ASSERT_CHECK" "<< NULL >>"
-					( Origin gFrontEnd )
-				)
-				( attribute "NO_DIR_CHECK" "<< NULL >>"
-					( Origin gFrontEnd )
-				)
-				( attribute "PN" "6"
-					( Origin gPackager )
-				)
-			)
-			( designInst "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i49"
-				( attribute "BLOCK" "TRUE"
-					( Origin gFrontEnd )
-				)
-				( attribute "CDS_LIB" "fmc_tlu_v1_lib"
-					( Origin gPackager )
-				)
-				( attribute "LIBRARY1" "ieee"
+				( attribute "PACK_TYPE" "SOP"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "1"
@@ -1867,79 +2749,1115 @@
 				( attribute "ROT" "2"
 					( Origin gFrontEnd )
 				)
-				( attribute "USE1" "ieee.std_logic_1164.all"
-					( Origin gFrontEnd )
-				)
-				( attribute "USE2" "work.all"
+				( attribute "TYPE" "GL2L5LS100D-C"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(2800,-2000)"
+				( attribute "XY" "(3500,-1450)"
 					( Origin gFrontEnd )
 				)
-				( objectStatus "page1_i49 (fmc_tlu_2-5ns_delay)" )
+				( attribute "CHIPS_PART_NAME" "DELAY_LINE_GL2L"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "GL2L5LS100D-C"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "IC3"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "IC3"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "IC3" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i58"
+				( attribute "CHIPS_PART_NAME" "MC100EL29"
+					( Origin gPackager )
+				)
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i144"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R4"
+					( Origin gPackager )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/16W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "51"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(350,-1750)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0402"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-51,1%"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R4"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R4" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i145"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R1"
+					( Origin gPackager )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/16W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "51"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-550,-1750)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0402"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-51,1%"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R1" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i147"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R8"
+					( Origin gPackager )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "125MW"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(900,-1800)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0805"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0805_125MW-100,1%"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R8"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R8" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i150"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(5750,600)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C5"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C5"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C5" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i151"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(6050,600)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C8"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C8"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C8" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i152"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R14"
+					( Origin gPackager )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "75"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(2450,-1750)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-75,1%"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R14"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R14" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i153"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R12"
+					( Origin gPackager )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "75"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(2150,-1750)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-75,1%"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R12"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R12" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:hys(0)"
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( objectStatus "IC2.8" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:\in+\(0)"
+				( attribute "PN" "10"
+					( Origin gPackager )
+				)
+				( objectStatus "IC2.10" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:\in-\(0)"
+				( attribute "PN" "9"
+					( Origin gPackager )
+				)
+				( objectStatus "IC2.9" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:le(0)"
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( objectStatus "IC2.4" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:\le*\(0)"
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( objectStatus "IC2.5" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:q(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "IC2.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:\q*\(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "IC2.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i111:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "R13.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i111:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R13.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i123:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "C1.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i123:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C1.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i120:c"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "D1.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i120:ac"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( objectStatus "D1.3" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i120:a"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "D1.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i39:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C4.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i39:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "C4.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i40:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C7.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i40:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "C7.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i41:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C10.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i41:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "C10.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i43:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C9.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i43:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "C9.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i44:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C6.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i44:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "C6.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i47:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C3.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i47:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "C3.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:hys(0)"
+				( attribute "PN" "13"
+					( Origin gPackager )
+				)
+				( objectStatus "IC2.13" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:\in+\(0)"
+				( attribute "PN" "11"
+					( Origin gPackager )
+				)
+				( objectStatus "IC2.11" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:\in-\(0)"
+				( attribute "PN" "12"
+					( Origin gPackager )
+				)
+				( objectStatus "IC2.12" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:le(0)"
+				( attribute "PN" "17"
+					( Origin gPackager )
+				)
+				( objectStatus "IC2.17" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:\le*\(0)"
+				( attribute "PN" "16"
+					( Origin gPackager )
+				)
+				( objectStatus "IC2.16" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:q(0)"
+				( attribute "PN" "20"
+					( Origin gPackager )
+				)
+				( objectStatus "IC2.20" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:\q*\(0)"
+				( attribute "PN" "19"
+					( Origin gPackager )
+				)
+				( objectStatus "IC2.19" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i73:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R9.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i73:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "R9.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i78:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C2.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i78:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "C2.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i79:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R5.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i79:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "R5.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i81:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R10.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i81:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "R10.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i148:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "R6.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i148:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R6.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i92:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R7.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i92:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "R7.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i93:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R3.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i93:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "R3.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i94:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "R2.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i94:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R2.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i113:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R11.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i113:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "R11.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:a1"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "IC1.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:a2"
+				( attribute "PN" "15"
+					( Origin gPackager )
+				)
+				( objectStatus "IC1.15" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:b1"
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( objectStatus "IC1.7" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:b2"
+				( attribute "PN" "10"
+					( Origin gPackager )
+				)
+				( objectStatus "IC1.10" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "IC1.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(1)"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( objectStatus "IC1.3" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(2)"
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( objectStatus "IC1.4" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(3)"
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( objectStatus "IC1.5" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(4)"
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( objectStatus "IC1.6" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(5)"
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( objectStatus "IC1.8" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(6)"
+				( attribute "PN" "9"
+					( Origin gPackager )
+				)
+				( objectStatus "IC1.9" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(7)"
+				( attribute "PN" "11"
+					( Origin gPackager )
+				)
+				( objectStatus "IC1.11" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(8)"
+				( attribute "PN" "12"
+					( Origin gPackager )
+				)
+				( objectStatus "IC1.12" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(9)"
+				( attribute "PN" "13"
+					( Origin gPackager )
+				)
+				( objectStatus "IC1.13" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(10)"
+				( attribute "PN" "14"
+					( Origin gPackager )
+				)
+				( objectStatus "IC1.14" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(11)"
+				( attribute "PN" "16"
+					( Origin gPackager )
+				)
+				( objectStatus "IC1.16" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:a1"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "IC3.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:a2"
+				( attribute "PN" "15"
+					( Origin gPackager )
+				)
+				( objectStatus "IC3.15" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:b1"
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( objectStatus "IC3.7" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:b2"
+				( attribute "PN" "10"
+					( Origin gPackager )
+				)
+				( objectStatus "IC3.10" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "IC3.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(1)"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( objectStatus "IC3.3" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(2)"
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( objectStatus "IC3.4" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(3)"
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( objectStatus "IC3.5" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(4)"
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( objectStatus "IC3.6" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(5)"
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( objectStatus "IC3.8" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(6)"
+				( attribute "PN" "9"
+					( Origin gPackager )
+				)
+				( objectStatus "IC3.9" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(7)"
+				( attribute "PN" "11"
+					( Origin gPackager )
+				)
+				( objectStatus "IC3.11" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(8)"
+				( attribute "PN" "12"
+					( Origin gPackager )
+				)
+				( objectStatus "IC3.12" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(9)"
+				( attribute "PN" "13"
+					( Origin gPackager )
+				)
+				( objectStatus "IC3.13" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(10)"
+				( attribute "PN" "14"
+					( Origin gPackager )
+				)
+				( objectStatus "IC3.14" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(11)"
+				( attribute "PN" "16"
+					( Origin gPackager )
+				)
+				( objectStatus "IC3.16" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i144:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R4.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i144:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "R4.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i145:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R1.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i145:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "R1.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i147:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "R8.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i147:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R8.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i150:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C5.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i150:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "C5.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i151:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C8.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i151:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "C8.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i152:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R14.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i152:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "R14.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i153:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R12.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i153:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "R12.2" )
 			)
 		)
-	)
-	( BaseCopy "\fmc_tlu_2-5ns_delay\"
-		( constraintHeader
-			( revisionNumber
-				( logicalViewRevNum 2 )
-				( physicalViewRevNum 0 )
-				( otherViewRevNum 0 )
-			)
-			( contents
-				( electricalConstraints )
-				( netClasses )
-				( properties )
-			)
-		)
-    ( designConstraints
-		( ruleChanges
-			( allRules )
-			( design "\fmc_tlu_2-5ns_delay\"
-				( objectStatus "fmc_tlu_2-5ns_delay" )
-			)
-			( signal "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):\in\"
-				( alias ( signalRef "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):page1_in") )
-				( alias ( signalRef "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):page1_out") )
-				( alias ( signalRef "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):\out\") )
-				( objectStatus "in" )
-			)
-			( signal "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):page1_in"
-				( objectFlag fObjectAlias )
-				( objectStatus "page1_in" )
-			)
-			( signal "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):page1_out"
-				( objectFlag fObjectAlias )
-				( objectStatus "page1_out" )
-			)
-			( signal "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):\out\"
-				( objectFlag fObjectAlias )
-				( objectStatus "out" )
-			)
-			( signal "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):\in*\"
-				( alias ( signalRef "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):\page1_in*\") )
-				( alias ( signalRef "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):\page1_out*\") )
-				( alias ( signalRef "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):\out*\") )
-				( objectStatus "in*" )
-			)
-			( signal "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):\page1_in*\"
-				( objectFlag fObjectAlias )
-				( objectStatus "page1_in*" )
-			)
-			( signal "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):\page1_out*\"
-				( objectFlag fObjectAlias )
-				( objectStatus "page1_out*" )
-			)
-			( signal "@fmc_tlu_v1_lib.\fmc_tlu_2-5ns_delay\(sch_1):\out*\"
-				( objectFlag fObjectAlias )
-				( objectStatus "out*" )
-			)
-		)
-	)
-	( EndBaseCopy )
 	)
 )

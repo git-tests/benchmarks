@@ -7,7 +7,7 @@
 			( 16.5 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 2 )
+			( logicalViewRevNum 3 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -32,7 +32,7 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
@@ -48,7 +48,7 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
@@ -64,7 +64,7 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
@@ -80,7 +80,7 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
@@ -96,7 +96,7 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
@@ -112,7 +112,7 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
@@ -128,7 +128,7 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
@@ -144,7 +144,7 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
@@ -160,7 +160,7 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
@@ -176,7 +176,7 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
@@ -192,7 +192,7 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
@@ -208,7 +208,167 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "ABBREV" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "GENDER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "COMPVALUE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "PLACEMENT_REGION" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SLOTXOFY" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SYMNAME" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NO_ASSERT_CHECK" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NO_DIR_CHECK" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "HDL_PINTYPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CASE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
@@ -254,6 +414,18 @@
 				( objectFlag fObjectAlias )
 				( objectStatus "page1_m5v" )
 			)
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):m5v"
+				( objectFlag fObjectAlias )
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):m5v"
+				( objectFlag fObjectAlias )
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):m5v"
+				( objectFlag fObjectAlias )
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):m5v"
+				( objectFlag fObjectAlias )
+			)
 			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):p5v"
 				( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_p5v") )
 				( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):p5v") )
@@ -265,6 +437,18 @@
 			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_p5v"
 				( objectFlag fObjectAlias )
 				( objectStatus "page1_p5v" )
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):p5v"
+				( objectFlag fObjectAlias )
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):p5v"
+				( objectFlag fObjectAlias )
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):p5v"
+				( objectFlag fObjectAlias )
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):p5v"
+				( objectFlag fObjectAlias )
 			)
 			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):scl"
 				( attribute "CDS_PHYS_NET_NAME" "SCL"
@@ -285,12 +469,18 @@
 				)
 				( objectStatus "unnamed_1_ad5316_i1_vouta" )
 			)
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\"
+				( objectFlag fObjectAlias )
+			)
 			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):unnamed_1_ad5316_i1_voutb"
 				( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\") )
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_AD5316_I1_VOUTB"
 					( Origin gPackager )
 				)
 				( objectStatus "unnamed_1_ad5316_i1_voutb" )
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\"
+				( objectFlag fObjectAlias )
 			)
 			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):unnamed_1_ad5316_i1_voutc"
 				( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\") )
@@ -299,12 +489,18 @@
 				)
 				( objectStatus "unnamed_1_ad5316_i1_voutc" )
 			)
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\"
+				( objectFlag fObjectAlias )
+			)
 			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):unnamed_1_ad5316_i1_voutd"
 				( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\") )
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_AD5316_I1_VOUTD"
 					( Origin gPackager )
 				)
 				( objectStatus "unnamed_1_ad5316_i1_voutd" )
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\"
+				( objectFlag fObjectAlias )
 			)
 			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):vref"
 				( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin-\") )
@@ -316,6 +512,18 @@
 				)
 				( objectStatus "vref" )
 			)
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin-\"
+				( objectFlag fObjectAlias )
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin-\"
+				( objectFlag fObjectAlias )
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin-\"
+				( objectFlag fObjectAlias )
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin-\"
+				( objectFlag fObjectAlias )
+			)
 			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):vthresh(0)"
 				( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):vout") )
 				( attribute "CDS_PHYS_NET_NAME" "VTHRESH<0>"
@@ -325,6 +533,9 @@
 					( Origin gPackager )
 				)
 				( objectStatus "vthresh<0>" )
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):vout"
+				( objectFlag fObjectAlias )
 			)
 			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):vthresh(1)"
 				( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):vout") )
@@ -336,6 +547,9 @@
 				)
 				( objectStatus "vthresh<1>" )
 			)
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):vout"
+				( objectFlag fObjectAlias )
+			)
 			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):vthresh(2)"
 				( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):vout") )
 				( attribute "CDS_PHYS_NET_NAME" "VTHRESH<2>"
@@ -345,6 +559,9 @@
 					( Origin gPackager )
 				)
 				( objectStatus "vthresh<2>" )
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):vout"
+				( objectFlag fObjectAlias )
 			)
 			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):vthresh(3)"
 				( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):vout") )
@@ -356,73 +573,24 @@
 				)
 				( objectStatus "vthresh<3>" )
 			)
-			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):m5v"
-				( objectFlag fObjectAlias )
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):p5v"
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):vout"
 				( objectFlag fObjectAlias )
 			)
 			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):unnamed_1_opa4277_i22_min"
 			)
-			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\"
-				( objectFlag fObjectAlias )
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin-\"
-				( objectFlag fObjectAlias )
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):vout"
-				( objectFlag fObjectAlias )
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):m5v"
-				( objectFlag fObjectAlias )
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):p5v"
-				( objectFlag fObjectAlias )
-			)
 			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):unnamed_1_opa4277_i22_min"
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\"
-				( objectFlag fObjectAlias )
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin-\"
-				( objectFlag fObjectAlias )
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):vout"
-				( objectFlag fObjectAlias )
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):m5v"
-				( objectFlag fObjectAlias )
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):p5v"
-				( objectFlag fObjectAlias )
 			)
 			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):unnamed_1_opa4277_i22_min"
 			)
-			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\"
-				( objectFlag fObjectAlias )
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin-\"
-				( objectFlag fObjectAlias )
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):vout"
-				( objectFlag fObjectAlias )
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):m5v"
-				( objectFlag fObjectAlias )
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):p5v"
-				( objectFlag fObjectAlias )
-			)
 			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):unnamed_1_opa4277_i22_min"
 			)
-			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\"
-				( objectFlag fObjectAlias )
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):p3v3"
+				( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_p3v3") )
+				( objectStatus "p3v3" )
 			)
-			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin-\"
+			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_p3v3"
 				( objectFlag fObjectAlias )
-			)
-			( signal "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):vout"
-				( objectFlag fObjectAlias )
+				( objectStatus "page1_p3v3" )
 			)
 			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i1"
 				( attribute "CDS_LIB" "bris_cds_analogue"
@@ -461,6 +629,12 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CHIPS_PART_NAME" "AD5316"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "AD5316_TSSOP-AD"
+					( Origin gPackager )
+				)
 				( objectStatus "PAGE1_I1" )
 			)
 			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22"
@@ -495,6 +669,13 @@
 				( attribute "XY" "(-850,1850)"
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "OPA4277"
+					( Status sBlockFlattened )
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "OPA4277UA"
+					( Origin gPackager )
 				)
 			)
 			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23"
@@ -579,6 +760,13 @@
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Status sBlockFlattened )
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-10K,1%"
+					( Origin gPackager )
+				)
 			)
 			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24"
 				( attribute "CDS_LIB" "cnpassive"
@@ -662,6 +850,13 @@
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Status sBlockFlattened )
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-10K,1%"
+					( Origin gPackager )
+				)
 			)
 			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22"
 				( attribute "CDS_LIB" "cnlinear"
@@ -695,6 +890,13 @@
 				( attribute "XY" "(-850,1850)"
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "OPA4277"
+					( Status sBlockFlattened )
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "OPA4277UA"
+					( Origin gPackager )
 				)
 			)
 			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23"
@@ -779,6 +981,13 @@
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Status sBlockFlattened )
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-10K,1%"
+					( Origin gPackager )
+				)
 			)
 			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24"
 				( attribute "CDS_LIB" "cnpassive"
@@ -862,6 +1071,13 @@
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Status sBlockFlattened )
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-10K,1%"
+					( Origin gPackager )
+				)
 			)
 			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22"
 				( attribute "CDS_LIB" "cnlinear"
@@ -895,6 +1111,13 @@
 				( attribute "XY" "(-850,1850)"
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "OPA4277"
+					( Status sBlockFlattened )
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "OPA4277UA"
+					( Origin gPackager )
 				)
 			)
 			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23"
@@ -979,6 +1202,13 @@
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Status sBlockFlattened )
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-10K,1%"
+					( Origin gPackager )
+				)
 			)
 			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24"
 				( attribute "CDS_LIB" "cnpassive"
@@ -1062,6 +1292,13 @@
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Status sBlockFlattened )
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-10K,1%"
+					( Origin gPackager )
+				)
 			)
 			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22"
 				( attribute "CDS_LIB" "cnlinear"
@@ -1095,6 +1332,13 @@
 				( attribute "XY" "(-850,1850)"
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "OPA4277"
+					( Status sBlockFlattened )
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "OPA4277UA"
+					( Origin gPackager )
 				)
 			)
 			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23"
@@ -1179,6 +1423,13 @@
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Status sBlockFlattened )
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-10K,1%"
+					( Origin gPackager )
+				)
 			)
 			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24"
 				( attribute "CDS_LIB" "cnpassive"
@@ -1262,6 +1513,13 @@
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Status sBlockFlattened )
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-10K,1%"
+					( Origin gPackager )
+				)
 			)
 			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i50"
 				( attribute "CDS_LIB" "cnpassive"
@@ -1291,6 +1549,12 @@
 				)
 				( attribute "XY" "(-1750,1850)"
 					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-1UF,16V"
+					( Origin gPackager )
 				)
 				( objectStatus "PAGE1_I50" )
 			)
@@ -1323,6 +1587,12 @@
 				( attribute "XY" "(-3200,-850)"
 					( Origin gFrontEnd )
 				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-1UF,16V"
+					( Origin gPackager )
+				)
 				( objectStatus "PAGE1_I51" )
 			)
 			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i52"
@@ -1353,6 +1623,12 @@
 				)
 				( attribute "XY" "(-3200,-1250)"
 					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-1UF,16V"
+					( Origin gPackager )
 				)
 				( objectStatus "PAGE1_I52" )
 			)
@@ -1385,6 +1661,12 @@
 				( attribute "XY" "(-2000,1850)"
 					( Origin gFrontEnd )
 				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
+					( Origin gPackager )
+				)
 				( objectStatus "PAGE1_I53" )
 			)
 			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i54"
@@ -1416,6 +1698,12 @@
 				( attribute "XY" "(-2550,1000)"
 					( Origin gFrontEnd )
 				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
+					( Origin gPackager )
+				)
 				( objectStatus "PAGE1_I54" )
 			)
 			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i56"
@@ -1442,6 +1730,12 @@
 				)
 				( attribute "XY" "(-3300,1000)"
 					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "ADR421"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "ADR421_SOIC"
+					( Origin gPackager )
 				)
 				( objectStatus "PAGE1_I56" )
 			)
@@ -1473,6 +1767,12 @@
 				)
 				( attribute "XY" "(-3650,1650)"
 					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
+					( Origin gPackager )
 				)
 				( objectStatus "PAGE1_I60" )
 			)
@@ -1921,6 +2221,12 @@
 				( attribute "XY" "(-850,1850)"
 					( Origin gFrontEnd )
 				)
+				( attribute "CHIPS_PART_NAME" "OPA4277"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "OPA4277UA"
+					( Origin gPackager )
+				)
 				( objectStatus "PAGE1_I22" )
 			)
 			( gate "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23"
@@ -1985,6 +2291,12 @@
 				( attribute "XY" "(-850,2400)"
 					( Origin gFrontEnd )
 				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-10K,1%"
+					( Origin gPackager )
+				)
 				( objectStatus "PAGE1_I23" )
 			)
 			( gate "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24"
@@ -2048,6 +2360,12 @@
 				)
 				( attribute "XY" "(-2100,1800)"
 					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-10K,1%"
+					( Origin gPackager )
 				)
 				( objectStatus "PAGE1_I24" )
 			)

@@ -6,7 +6,7 @@
     Packager-XL 16.5-S002 (v16-5-13L) lnx86 7/18/2011 12:00:00 IST
     (C) Copyright 1994, Cadence Design Systems, Inc.
 
-    Run on Fri Mar 16 12:26:19 2012
+    Run on Fri May  4 09:19:46 2012
 
 
  **********************************************
@@ -52,6 +52,7 @@
     DEBUG    0
     DEFAULT_PHYS_DES_PREFIX U
     FEEDBACK  'OFF'
+    FORCE_SUBDESIGN  'FMC_TLU_CFD'
     MAX_ERRORS 999
     NET_NAME_CHARS   @  -  !  #  %  &  (  )  *  .  /  :  ?  [  ]  ^  _  `  +
                      =  >  0  1  2  3  4  5  6  7  8  9
@@ -74,31 +75,30 @@
          /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_analogue/cds_analogue.ptf 
          /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_connectors/cds_connectors~
 .ptf 
-         /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_discrete/cds_discrete.ptf 
          /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_logic/cds_logic.ptf 
          /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_pld/cds_pld.ptf 
          /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_special/cds_special.ptf 
-         /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/parttables/~
-cnconnector.ptf 
-         /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/parttables/~
-cndiscrete.ptf 
-         /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/parttables/~
-cnpassive.ptf 
+         /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib~
+/parttables/cnconnector.ptf 
+         /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib~
+/parttables/cndiscrete.ptf 
+         /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib~
+/parttables/cnpassive.ptf 
     REF_DES_LENGTH 31
     REPACKAGE OFF
-    ELECTRICAL_CONSTRAINTS OFF
-    OVERWRITE_CONSTRAINTS OFF
+    ELECTRICAL_CONSTRAINTS ON
+    OVERWRITE_CONSTRAINTS ON
     RUN_DIR ./worklib/fmc_tlu_toplevel/packaged/
     STRICT_PACKAGE_PROP  'REUSE_INSTANCE'
     USE_LIBRARY_PPT ON
     USE_STATE ON
     WARNINGS ON
-    LIBRARY  'bris_cds_analogue' 'bris_cds_connectors' 'bris_cds_logic'
-             'bris_cds_memory' 'bris_cds_pld' 'bris_cds_special'
-             'bris_cds_standard' 'bris_cds_switches' 'cnconnector' 'cninterface'
-             'cnpower' 'cnlinear' 'cnpassive' 'cndiscrete' 'bris_cds_discrete'
-             'fmc_tlu_v1_lib' 'standard' 'cds_analogue' 'cds_discrete'
-             'cds_standard'
+    LIBRARY  'fmc_tlu_v1_lib' 'bris_cds_analogue' 'bris_cds_connectors'
+             'bris_cds_logic' 'bris_cds_memory' 'bris_cds_pld'
+             'bris_cds_special' 'bris_cds_standard' 'bris_cds_switches'
+             'cnconnector' 'cninterface' 'cnpower' 'cnlinear' 'cnpassive'
+             'cndiscrete' 'standard' 'cds_analogue' 'cds_standard' 'cn100e'
+             'pc017a_lib'
     CDSPROP_FILE 
     VIEW_PTF part_table
     VIEW_PACKAGER packaged
@@ -135,19 +135,17 @@ analogue/cds_analogue.ptf.
 INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_~
 connectors/cds_connectors.ptf.
 INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_~
-discrete/cds_discrete.ptf.
-INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_~
 logic/cds_logic.ptf.
 INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_~
 pld/cds_pld.ptf.
 INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_~
 special/cds_special.ptf.
 INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
-ept_libs/pe16/parttables/cnconnector.ptf.
+ept_libs/pe16/pe_cern_lib/parttables/cnconnector.ptf.
 INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
-ept_libs/pe16/parttables/cndiscrete.ptf.
+ept_libs/pe16/pe_cern_lib/parttables/cndiscrete.ptf.
 INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
-ept_libs/pe16/parttables/cnpassive.ptf.
+ept_libs/pe16/pe_cern_lib/parttables/cnpassive.ptf.
 
  *********************************
  *  Loading the design database  *
@@ -156,15 +154,26 @@ ept_libs/pe16/parttables/cnpassive.ptf.
 INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
 ept_libs/pe16/pe_cern_lib/cnconnector/con160p_40cdgh/part_table/part.ptf.
 INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
-ept_libs/pe16/pe_cern_lib/cnlinear/usblc6_2/part_table/part.ptf.
-INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
 ept_libs/pe16/pe_cern_lib/cnlinear/opa4277/part_table/part.ptf.
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
+ept_libs/pe16/pe_cern_lib/cndiscrete/diode_dual_series/part_table/diode_dual_s~
+eries.ptf.
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
+ept_libs/pe16/pe_cern_lib/cndiscrete/delay_line_gl2l/part_table/delay_line_gl2~
+l.ptf.
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
+ept_libs/pe16/pe_cern_lib/cnconnector/con8p/part_table/con8p.ptf.
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
+ept_libs/pe16/pe_cern_lib/cnconnector/pcoax/part_table/pcoax.ptf.
+INFO(SPCODD-336): Loading occurrence properties from ./worklib/fmc_tlu_topleve~
+l/opf/props.opf.
 
  *************************
  *  Loading State Files  *
  *************************
 
 Loading ./worklib/fmc_tlu_toplevel/packaged/pxl.state. 
+INFO(SPCODD-181): Loading ./worklib/fmc_tlu_cfd/packaged/pxl_FMC_TLU_CFD.state.
 
  *****************************************
  *  End loading State Files  (00:00:00)  *
@@ -192,8 +201,8 @@ Loading ./worklib/fmc_tlu_toplevel/packaged/pxl.state.
 
 INFO(SPCOPK-1442): No errors detected
 INFO(SPCOPK-1444): No warnings detected
-    Start time   12:26:19
-    End time     12:26:21
+    Start time    9:19:46
+    End time      9:19:48
     CPU time      0:00:01
     Elapsed time  0:00:02
 

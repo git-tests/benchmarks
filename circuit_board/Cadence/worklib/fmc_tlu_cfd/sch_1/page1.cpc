@@ -5,56 +5,98 @@
   cnlinear max9601 *
   page1_i1
 #ISCELL
+  standard outport *
+  page1_i106
+#ISCELL
+  standard outport *
+  page1_i107
+#ISCELL
+  standard outport *
+  page1_i108
+#ISCELL
+  standard outport *
+  page1_i109
+#CELL
+  cnpassive rsmd0603 *
+  page1_i111
+#CELL
+  cnpassive rsmd0603 *
+  page1_i113
+#ISCELL
   standard gnd_signal *
-  page1_i12
+  page1_i114
 #ISCELL
-  standard outport *
-  page1_i14
+  standard gnd_signal *
+  page1_i115
+#CELL
+  cndiscrete diode_dual_series *
+  page1_i120
 #ISCELL
-  standard outport *
-  page1_i15
+  cnpower p5v *
+  page1_i121
+#ISCELL
+  cnpower m5v *
+  page1_i122
 #CELL
   cnpassive capcersmdcl2 *
-  page1_i16
+  page1_i123
+#ISCELL
+  standard gnd_signal *
+  page1_i124
+#ISCELL
+  cnpower p2v5 *
+  page1_i125
+#ISCELL
+  standard gnd_signal *
+  page1_i126
+#CELL
+  cndiscrete delay_line_gl2l *
+  page1_i140
+#CELL
+  cndiscrete delay_line_gl2l *
+  page1_i141
+#ISCELL
+  standard gnd_signal *
+  page1_i143
+#CELL
+  cnpassive rsmd0402 *
+  page1_i144
+#CELL
+  cnpassive rsmd0402 *
+  page1_i145
+#ISCELL
+  standard gnd_signal *
+  page1_i146
+#CELL
+  cnpassive rsmd0805 *
+  page1_i147
+#CELL
+  cnpassive rsmd0805 *
+  page1_i148
+#ISCELL
+  standard gnd_signal *
+  page1_i149
+#CELL
+  cnpassive capcersmdcl2 *
+  page1_i150
+#CELL
+  cnpassive capcersmdcl2 *
+  page1_i151
 #CELL
   cnpassive rsmd0603 *
-  page1_i17
+  page1_i152
 #CELL
   cnpassive rsmd0603 *
-  page1_i18
-#CELL
-  cnpassive rsmd0603 *
-  page1_i19
+  page1_i153
+#ISCELL
+  standard gnd_signal *
+  page1_i154
+#ISCELL
+  standard gnd_signal *
+  page1_i155
 #ISCELL
   standard gnd_signal *
   page1_i20
-#ISCELL
-  standard inport *
-  page1_i21
-#ISCELL
-  standard inport *
-  page1_i22
-#ISCELL
-  standard inport *
-  page1_i23
-#ISCELL
-  standard gnd_signal *
-  page1_i28
-#CELL
-  bris_cds_logic sn65lvds20 *
-  page1_i29
-#ISCELL
-  standard gnd_signal *
-  page1_i3
-#ISCELL
-  cnpower p2v5 *
-  page1_i30
-#CELL
-  cnpassive rsmd0402 *
-  page1_i31
-#CELL
-  cnpassive rsmd0402 *
-  page1_i32
 #ISCELL
   cnpower p5v *
   page1_i35
@@ -64,9 +106,6 @@
 #ISCELL
   standard gnd_signal *
   page1_i37
-#ISCELL
-  cnpower p2v5 *
-  page1_i38
 #CELL
   cnpassive capcersmdcl2 *
   page1_i39
@@ -87,46 +126,73 @@
   page1_i44
 #CELL
   cnpassive capcersmdcl2 *
-  page1_i46
-#CELL
-  cnpassive capcersmdcl2 *
   page1_i47
-#CELL
-  cnlinear usblc6_2 *
-  page1_i48
-#CELL
-  fmc_tlu_v1_lib fmc_tlu_2-5ns_delay *
-  page1_i49
 #ISCELL
   cnpower m5v *
   page1_i5
+#ISCELL
+  cnpower p2v5 *
+  page1_i55
+#ISCELL
+  standard gnd_signal *
+  page1_i61
+#ISCELL
+  cnpower p2v5 *
+  page1_i64
+#ISCELL
+  standard gnd_signal *
+  page1_i65
+#ISCELL
+  cnpower m5v *
+  page1_i66
+#ISCELL
+  cnpower p5v *
+  page1_i67
+#ISCELL
+  cnpower p2v5 *
+  page1_i68
+#ISCELL
+  cnpower p2v5 *
+  page1_i69
+#ISCELL
+  standard gnd_signal *
+  page1_i70
+#CELL
+  cnlinear max9601 *
+  page1_i71
+#ISCELL
+  standard gnd_signal *
+  page1_i72
+#CELL
+  cnpassive rsmd0603 *
+  page1_i73
+#ISCELL
+  standard inport *
+  page1_i75
+#ISCELL
+  standard gnd_signal *
+  page1_i77
 #CELL
   cnpassive capcersmdcl2 *
-  page1_i50
+  page1_i78
+#CELL
+  cnpassive rsmd0603 *
+  page1_i79
 #ISCELL
   standard inport *
-  page1_i51
+  page1_i80
+#CELL
+  cnpassive rsmd0603 *
+  page1_i81
 #ISCELL
-  standard inport *
-  page1_i52
+  standard gnd_signal *
+  page1_i91
 #CELL
-  cnpassive rsmd0402 *
-  page1_i53
+  cnpassive rsmd0603 *
+  page1_i92
 #CELL
-  cnpassive rsmd0402 *
-  page1_i54
-#ISCELL
-  cnpower p3v3 *
-  page1_i55
+  cnpassive rsmd0603 *
+  page1_i93
 #CELL
-  cnpassive rsmd0402 *
-  page1_i56
-#CELL
-  cnpassive rsmd0402 *
-  page1_i57
-#CELL
-  cn100e mc100el29 *
-  page1_i58
-#CELL
-  bris_cds_logic sn65lvdt101dg4 *
-  page1_i59
+  cnpassive rsmd0805 *
+  page1_i94

@@ -8,8 +8,8 @@
   (design "pc023a_dac_vthresh"
     (lastIds
       (lastInstanceId 12)
-      (lastNetId 16)
-      (lastInstTermId 52)
+      (lastNetId 18)
+      (lastInstTermId 60)
     )
     (cells
       ("S2" "ad5316" "bris_cds_analogue" "sym_1"
@@ -72,15 +72,18 @@
       ("N14" "unnamed_1_ad5316_i1_voutd" -1 -1 0 )
       ("N15" "vref" -1 -1 1 2)
       ("N16" "vthresh" 3 0 1 2)
+      ("N18" "page1_p3v3" -1 -1 0 )
       ("N3" "gnd_signal" -1 -1 2 )
       ("N5" "m5v" -1 -1 2 )
       ("N7" "p5v" -1 -1 2 )
+      ("N17" "p3v3" -1 -1 2 )
     )
 
     (alias
       ("N4" -1 -1 "N3" -1 -1)
       ("N6" -1 -1 "N5" -1 -1)
       ("N8" -1 -1 "N7" -1 -1)
+      ("N18" -1 -1 "N17" -1 -1)
     )
 
     (instances
@@ -123,7 +126,7 @@
           )
           ("M8" "T17" -1 -1
             (conn
-              ("0" -1 -1 "N7" -1 -1)
+              ("0" -1 -1 "N17" -1 -1)
             )
           )
           ("M9" "T18" -1 -1
@@ -253,7 +256,7 @@
           )
           ("M38" "T32" 0 0
             (conn
-              ("0" 0 0 "N7" -1 -1)
+              ("0" 0 0 "N17" -1 -1)
             )
           )
         )
@@ -295,7 +298,7 @@
           )
           ("M44" "T32" 0 0
             (conn
-              ("0" 0 0 "N7" -1 -1)
+              ("0" 0 0 "N17" -1 -1)
             )
           )
         )

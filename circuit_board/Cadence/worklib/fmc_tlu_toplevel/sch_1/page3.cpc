@@ -1,9 +1,6 @@
 #ISCELL
   bris_cds_standard a3-2000-ohl *
   *
-#CELL
-  fmc_tlu_v1_lib fmc_tlu_discriminator *
-  page2_i1
 #ISCELL
   standard tap *
   page2_i10
@@ -32,36 +29,6 @@
   standard gnd_signal *
   page2_i18
 #CELL
-  fmc_tlu_v1_lib fmc_tlu_discriminator *
-  page2_i2
-#CELL
-  cnpassive rsmd0603 *
-  page2_i23
-#ISCELL
-  standard gnd_signal *
-  page2_i24
-#CELL
-  cnpassive rsmd0603 *
-  page2_i25
-#ISCELL
-  standard gnd_signal *
-  page2_i26
-#CELL
-  cnpassive rsmd0603 *
-  page2_i27
-#ISCELL
-  standard gnd_signal *
-  page2_i28
-#CELL
-  cnpassive rsmd0603 *
-  page2_i29
-#CELL
-  fmc_tlu_v1_lib fmc_tlu_discriminator *
-  page2_i3
-#ISCELL
-  standard gnd_signal *
-  page2_i30
-#CELL
   cnconnector pcoax *
   page2_i31
 #CELL
@@ -74,8 +41,41 @@
   cnconnector pcoax *
   page2_i34
 #CELL
-  fmc_tlu_v1_lib fmc_tlu_discriminator *
-  page2_i4
+  fmc_tlu_v1_lib fmc_tlu_cfd *
+  page2_i35
+#CELL
+  fmc_tlu_v1_lib fmc_tlu_cfd *
+  page2_i36
+#CELL
+  fmc_tlu_v1_lib fmc_tlu_cfd *
+  page2_i37
+#CELL
+  fmc_tlu_v1_lib fmc_tlu_cfd *
+  page2_i38
+#ISCELL
+  standard tap *
+  page2_i39
+#ISCELL
+  standard tap *
+  page2_i40
+#ISCELL
+  standard tap *
+  page2_i41
+#ISCELL
+  standard tap *
+  page2_i42
+#ISCELL
+  standard tap *
+  page2_i43
+#ISCELL
+  standard tap *
+  page2_i44
+#ISCELL
+  standard tap *
+  page2_i45
+#ISCELL
+  standard tap *
+  page2_i46
 #CELL
   fmc_tlu_v1_lib pc023a_dac_vthresh *
   page2_i5

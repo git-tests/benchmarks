@@ -1,5 +1,8 @@
 DEFINE fmc_tlu_v1_lib worklib
 
+# Include EUDET TLU to get hold of pin-out
+DEFINE pc017a_lib ../../../../uob-hep-pc017a/trunk/worklib
+
 INCLUDE $RAL_CDSLIB/cds.lib
 INCLUDE $BRIS_CDSLIB/cds.lib
 INCLUDE $CERN_CDSLIB/lib_psd16.x/cds.lib

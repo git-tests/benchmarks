@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : double_width_FMC_template.brd                 )
-(    Software Version : 16.3S013                                      )
-(    Date/Time        : Fri Mar  4 13:54:50 2011                      )
+(    Drawing          : fmc_tlu_v1_05.brd                             )
+(    Software Version : 16.5S005                                      )
+(    Date/Time        : Fri May  4 09:19:50 2012                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -12,33 +12,77 @@
 ------ Directives ------
 
 RIPUP_ETCH FALSE;
+RIPUP_DELETE_FIRST_SEGMENT FALSE;
+RIPUP_RETAIN_BONDWIRE FALSE;
 RIPUP_SYMBOLS ALWAYS;
 Missing symbol has error FALSE;
-SCHEMATIC_DIRECTORY '/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/packaged';
+SCHEMATIC_DIRECTORY '/projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/packaged';
 BOARD_DIRECTORY '';
-OLD_BOARD_NAME '/afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd';
-NEW_BOARD_NAME 'fmc_tlu_v1_01.brd';
+OLD_BOARD_NAME '/projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_05.brd';
+NEW_BOARD_NAME '/projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_05.brd';
 
-CmdLine: /software/CAD/Cadence/SPB_16.30/tools/pcb/bin/netrev.exe -proj /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/fmc_tlu_v1.cpm -5 -y 1 /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/double_width_FMC_template.brd /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_01.brd -$
+CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/fmc_tlu_v1.cpm -5 -y 1 -Oo /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_05.brd /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_05.brd -$
 
 ------ Preparing to read pst files ------
 
-Starting to read /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/packaged/pstchip.dat 
-   Finished reading /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/packaged/pstchip.dat (00:00:00.10)
-Starting to read /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/packaged/pstxprt.dat 
-   Finished reading /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/packaged/pstxprt.dat (00:00:00.00)
-Starting to read /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/packaged/pstxnet.dat 
-   Finished reading /afs/phy.bris.ac.uk/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/packaged/pstxnet.dat (00:00:00.00)
+Starting to read /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/packaged/pstchip.dat 
+   Finished reading /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/packaged/pstchip.dat (00:00:00.17)
+Starting to read /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/packaged/pstxprt.dat 
+   Finished reading /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/packaged/pstxprt.dat (00:00:00.00)
+Starting to read /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/packaged/pstxnet.dat 
+   Finished reading /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/packaged/pstxnet.dat (00:00:00.00)
 
 ------ Oversights/Warnings/Errors ------
 
+
+#1   WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'R14_4', property 'REUSE_PID'. Value '9' was overwritten by '29'.
+
+#2   WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'R14_3', property 'REUSE_PID'. Value '9' was overwritten by '29'.
+
+#3   WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'R14_2', property 'REUSE_PID'. Value '9' was overwritten by '29'.
+
+#4   WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'R14_1', property 'REUSE_PID'. Value '9' was overwritten by '29'.
+
+#5   WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'R12_4', property 'REUSE_PID'. Value '11' was overwritten by '30'.
+
+#6   WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'R12_3', property 'REUSE_PID'. Value '11' was overwritten by '30'.
+
+#7   WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'R12_2', property 'REUSE_PID'. Value '11' was overwritten by '30'.
+
+#8   WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'R12_1', property 'REUSE_PID'. Value '11' was overwritten by '30'.
+
+
+
+===========================================================
+Start Constraint Override Import
+	Constraint File:    /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/packaged/pstcmdb.dat
+	Start time: Fri May  4 09:19:51 2012
+===========================================================
+===========================================================
+Finished Constraint Update	Time: Fri May  4 09:19:51 2012
+===========================================================
 
 ------ Library Paths ------
 MODULEPATH =  . 
            /cadence/psd15.1/share/local/pcb/modules 
            ../../../modules 
-           ../../pc035a_helix/physical 
-           ../../pc035a_helix_motherboard_single_connector/physical 
+           ../../fmc_tlu_cfd/physical 
 
 PSMPATH =  . 
            symbols 
@@ -55,11 +99,12 @@ PSMPATH =  .
            /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/symbols/qfp 
            /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/symbols/cap 
            /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/symbols/res 
-           /software/CAD/Cadence/SPB_16.30/share/pcb/pcb_lib/symbols 
+           /software/CAD/Cadence/SPB_16.50/share/pcb/pcb_lib/symbols 
            /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/symbols 
            /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/formats 
            /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/padstacks/mechanical 
            /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/padstacks/orgmechanical 
+           /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/symbols/sp 
 
 PADPATH =  . 
            symbols 
@@ -79,9 +124,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Mar 4 13:54:50 2011
+netrev run on May 4 9:19:50 2012
    DESIGN NAME : 'FMC_TLU_TOPLEVEL'
-   PACKAGING ON 04-Mar-2011 AT 13:54:49
+   PACKAGING ON 04-May-2012 AT 09:19:46
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -90,12 +135,12 @@ netrev run on Mar 4 13:54:50 2011
    FEEDBACK OFF
    INCREMENTAL OFF
    INTERFACE_TYPE PHYSICAL
-   LIBRARIES  'bris_cds_analogue' 'bris_cds_connectors' 'bris_cds_logic'
-              'bris_cds_memory' 'bris_cds_pld' 'bris_cds_special'
-              'bris_cds_standard' 'bris_cds_switches' 'cnconnector'
-              'cninterface' 'cnpower' 'cnlinear' 'cnpassive' 'cndiscrete'
-              'bris_cds_discrete' 'fmc_tlu_v1_lib' 'standard' 'cds_analogue'
-              'cds_discrete' 'cds_standard'
+   LIBRARIES  'fmc_tlu_v1_lib' 'bris_cds_analogue' 'bris_cds_connectors'
+              'bris_cds_logic' 'bris_cds_memory' 'bris_cds_pld'
+              'bris_cds_special' 'bris_cds_standard' 'bris_cds_switches'
+              'cnconnector' 'cninterface' 'cnpower' 'cnlinear' 'cnpassive'
+              'cndiscrete' 'standard' 'cds_analogue' 'cds_standard' 'cn100e'
+              'pc017a_lib'
    MASTER_LIBRARIES  <none>
    MAX_ERRORS 500
    MERGE_MINIMUM 5
@@ -110,7 +155,7 @@ netrev run on Mar 4 13:54:50 2011
 
  No error detected
  No oversight detected
- No warning detected
+  8 warnings detected
 
 cpu time      0:00:01
 elapsed time  0:00:01

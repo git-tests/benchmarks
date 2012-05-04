@@ -5,15 +5,15 @@
     <schemaVersion>16.5</schemaVersion>
     <creatorTool>csnetlister</creatorTool>
     <modifierTool>csnetlister</modifierTool>
-    <modificationTime>2012-03-16T12:26:13</modificationTime>
+    <modificationTime>2012-05-01T16:33:44</modificationTime>
     <savedLibrary>fmc_tlu_v1_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="pc023a_dac_vthresh" view="sch_1">
       <lastids>
         <instanceid>12</instanceid>
-        <netid>16</netid>
-        <insttermid>52</insttermid>
+        <netid>18</netid>
+        <insttermid>60</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -254,6 +254,10 @@
           <lsb>0</lsb>
         </net>
         <net>
+          <id>N18</id>
+          <name>page1_p3v3</name>
+        </net>
+        <net>
           <id>N3</id>
           <name>gnd_signal</name>
           <scope>global</scope>
@@ -268,11 +272,17 @@
           <name>p5v</name>
           <scope>global</scope>
         </net>
+        <net>
+          <id>N17</id>
+          <name>p3v3</name>
+          <scope>global</scope>
+        </net>
       </nets>
       <aliases>
         <alias net1="N4" lsb1="-1" msb1="-1" net2="N3" lsb2="-1" msb2="-1" />
         <alias net1="N6" lsb1="-1" msb1="-1" net2="N5" lsb2="-1" msb2="-1" />
         <alias net1="N8" lsb1="-1" msb1="-1" net2="N7" lsb2="-1" msb2="-1" />
+        <alias net1="N18" lsb1="-1" msb1="-1" net2="N17" lsb2="-1" msb2="-1" />
       </aliases>
       <differentialnets>
       </differentialnets>
@@ -347,7 +357,7 @@
               <id>M8</id>
               <termid>T17</termid>
               <connections>
-                <connection net="N7" />
+                <connection net="N17" />
               </connections>
             </pin>
             <pin>
@@ -610,7 +620,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N7" />
+                <connection pinmsb="0" pinlsb="0" net="N17" />
               </connections>
             </pin>
           </pins>
@@ -727,7 +737,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N7" />
+                <connection pinmsb="0" pinlsb="0" net="N17" />
               </connections>
             </pin>
           </pins>
@@ -897,6 +907,11 @@
               <scope>global</scope>
             </pageScope>
           </netScope>
+          <netScope ref="p3v3">
+            <pageScope number="1">
+              <scope>global</scope>
+            </pageScope>
+          </netScope>
           <netScope ref="p5v">
             <pageScope number="1">
               <scope>global</scope>
@@ -936,6 +951,7 @@
               <net ref="a1"></net>
               <net ref="gnd_signal"></net>
               <net ref="m5v"></net>
+              <net ref="p3v3"></net>
               <net ref="p5v"></net>
               <net ref="scl"></net>
               <net ref="sda"></net>
