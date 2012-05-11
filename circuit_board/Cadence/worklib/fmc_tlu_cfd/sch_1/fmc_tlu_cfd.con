@@ -7,9 +7,9 @@
   (library "fmc_tlu_v1_lib")
   (design "fmc_tlu_cfd"
     (lastIds
-      (lastInstanceId 75)
+      (lastInstanceId 82)
       (lastNetId 54)
-      (lastInstTermId 211)
+      (lastInstTermId 218)
     )
     (cells
       ("S2" "max9601" "cnlinear" "sym_1"
@@ -79,6 +79,14 @@
         (terms
           ("T152" "a<SIZE-1..0>" -1 -1 3)
           ("T153" "b<SIZE-1..0>" -1 -1 3)
+        )
+      )
+      ("S16" "tp" "cnpassive" "sym_1"
+        (params
+          ("size" "1")
+        )
+        (terms
+          ("T164" "a<SIZE-1..0>" -1 -1 3)
         )
       )
     )
@@ -663,6 +671,69 @@
           ("M211" "T26" 0 0
             (conn
               ("0" 0 0 "N18" -1 -1)
+            )
+          )
+        )
+      )
+      ("I76" "page1_i159" "S16"
+        (pins
+          ("M212" "T164" 0 0
+            (conn
+              ("0" 0 0 "N40" -1 -1)
+            )
+          )
+        )
+      )
+      ("I77" "page1_i160" "S16"
+        (pins
+          ("M213" "T164" 0 0
+            (conn
+              ("0" 0 0 "N41" -1 -1)
+            )
+          )
+        )
+      )
+      ("I78" "page1_i161" "S16"
+        (pins
+          ("M214" "T164" 0 0
+            (conn
+              ("0" 0 0 "N1" -1 -1)
+            )
+          )
+        )
+      )
+      ("I79" "page1_i162" "S16"
+        (pins
+          ("M215" "T164" 0 0
+            (conn
+              ("0" 0 0 "N28" -1 -1)
+            )
+          )
+        )
+      )
+      ("I80" "page1_i163" "S16"
+        (pins
+          ("M216" "T164" 0 0
+            (conn
+              ("0" 0 0 "N19" -1 -1)
+            )
+          )
+        )
+      )
+      ("I81" "page1_i164" "S16"
+        (pins
+          ("M217" "T164" 0 0
+            (conn
+              ("0" 0 0 "N18" -1 -1)
+            )
+          )
+        )
+      )
+      ("I82" "page1_i165" "S16"
+        (pins
+          ("M218" "T164" 0 0
+            (conn
+              ("0" 0 0 "N1" -1 -1)
             )
           )
         )

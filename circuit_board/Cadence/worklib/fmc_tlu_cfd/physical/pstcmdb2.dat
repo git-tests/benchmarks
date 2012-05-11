@@ -1,4 +1,4 @@
-( ConstraintFile "fmc_tlu_cfd_03"
+( ConstraintFile "fmc_tlu_cfd_04"
 	( constraintHeader
 		( objectKey
 			( physical )
@@ -7,7 +7,7 @@
 			( 16.5 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 32 )
+			( logicalViewRevNum 34 )
 			( physicalViewRevNum 1 )
 			( otherViewRevNum 0 )
 		)
@@ -380,6 +380,22 @@
 			)
 			( Objects
 				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SYMMAP" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
 			)
 			( Analysis
 			)
@@ -847,7 +863,7 @@
 	( designConstraints
 		( ruleChanges
 			( allRules )
-			( design "fmc_tlu_cfd_03"
+			( design "fmc_tlu_cfd_04"
 				( physicalCSetRef "DEFAULT" )
 				( spacingCSetRef "DEFAULT" )
 				( sameNetSpacingCSetRef "DEFAULT" )
@@ -1430,6 +1446,27 @@
 			)
 			( gate "R12"
 				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i153" )
+			)
+			( gate "TP2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i159" )
+			)
+			( gate "TP3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i160" )
+			)
+			( gate "TP4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i161" )
+			)
+			( gate "TP1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i162" )
+			)
+			( gate "TP5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i163" )
+			)
+			( gate "TP6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i164" )
+			)
+			( gate "TP7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i165" )
 			)
 		)
 	)

@@ -1,12 +1,12 @@
 FILE_TYPE = PXL_HDL_CENTRIC_STATE_FILE;
 VERSION = PXL_HDL_CENTRIC_VERSION_1;
-TIME = '04-May-2012 AT 08:44:10.00';
+TIME = '10-May-2012 AT 13:12:43.00';
 
 {--------------------------------------------------------------------------}
 
 BEGIN_MODULE: 'FMC_TLU_CFD' = '@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1)';
 PAGE = '1';
-REUSE_ID = '30';
+REUSE_ID = '37';
 
 BEGIN_PRIM:
 PATH_NAME  = '@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1):PAGE1_I1@CNLINEAR.MAX9601(CHIPS)';
@@ -437,6 +437,111 @@ BEGIN_LIB_INFO:
 END_LIB_INFO;
 END_PRIM;
 
+BEGIN_PRIM:
+PATH_NAME  = '@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1):PAGE1_I159@CNPASSIVE.TP(CHIPS)';
+LOCATION   = 'TP2';
+SEC = '1';
+REUSE_ID  = '36';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+ PART_NAME = 'TP_HOLE-0.8MM';
+ PARENT_PPT = 'TP';
+ PARENT_PPT_PART = 'TP_HOLE-0.8MM';
+ PARENT_CHIPS_PHYS_PART = 'TP_HOLE';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1):PAGE1_I160@CNPASSIVE.TP(CHIPS)';
+LOCATION   = 'TP3';
+SEC = '1';
+REUSE_ID  = '35';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+ PART_NAME = 'TP_HOLE-0.8MM';
+ PARENT_PPT = 'TP';
+ PARENT_PPT_PART = 'TP_HOLE-0.8MM';
+ PARENT_CHIPS_PHYS_PART = 'TP_HOLE';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1):PAGE1_I161@CNPASSIVE.TP(CHIPS)';
+LOCATION   = 'TP4';
+SEC = '1';
+REUSE_ID  = '34';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+ PART_NAME = 'TP_HOLE-0.8MM';
+ PARENT_PPT = 'TP';
+ PARENT_PPT_PART = 'TP_HOLE-0.8MM';
+ PARENT_CHIPS_PHYS_PART = 'TP_HOLE';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1):PAGE1_I162@CNPASSIVE.TP(CHIPS)';
+LOCATION   = 'TP1';
+SEC = '1';
+REUSE_ID  = '37';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+ PART_NAME = 'TP_HOLE-0.8MM';
+ PARENT_PPT = 'TP';
+ PARENT_PPT_PART = 'TP_HOLE-0.8MM';
+ PARENT_CHIPS_PHYS_PART = 'TP_HOLE';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1):PAGE1_I163@CNPASSIVE.TP(CHIPS)';
+LOCATION   = 'TP5';
+SEC = '1';
+REUSE_ID  = '33';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+ PART_NAME = 'TP_HOLE-0.8MM';
+ PARENT_PPT = 'TP';
+ PARENT_PPT_PART = 'TP_HOLE-0.8MM';
+ PARENT_CHIPS_PHYS_PART = 'TP_HOLE';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1):PAGE1_I164@CNPASSIVE.TP(CHIPS)';
+LOCATION   = 'TP6';
+SEC = '1';
+REUSE_ID  = '32';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+ PART_NAME = 'TP_HOLE-0.8MM';
+ PARENT_PPT = 'TP';
+ PARENT_PPT_PART = 'TP_HOLE-0.8MM';
+ PARENT_CHIPS_PHYS_PART = 'TP_HOLE';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1):PAGE1_I165@CNPASSIVE.TP(CHIPS)';
+LOCATION   = 'TP7';
+SEC = '1';
+REUSE_ID  = '31';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+ PART_NAME = 'TP_HOLE-0.8MM';
+ PARENT_PPT = 'TP';
+ PARENT_PPT_PART = 'TP_HOLE-0.8MM';
+ PARENT_CHIPS_PHYS_PART = 'TP_HOLE';
+END_LIB_INFO;
+END_PRIM;
+
 BEGIN_SIGNAL:
 CANON_SIGNAL = '@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1):GND_SIGNAL';
 LOG_SIGNAL = '@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1):GND_SIGNAL';
@@ -561,5 +666,5 @@ END_MODULE; { end of module '@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1)'}
 
 BEGIN_REFDES_LIST:
 C1, C2, C3, C4, C5, C6, C7, C8, C9, R1, R2, R3, R4, R5, R6, R7, D1, R8, R9, ~
-C10, IC1, IC2, IC3, R10, R11, R12, R13, R14;
+TP1, TP2, TP3, TP4, TP5, TP6, TP7, C10, IC1, IC2, IC3, R10, R11, R12, R13, R14;
 END_REFDES_LIST; { end of REFDES_LIST }

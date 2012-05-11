@@ -7,9 +7,9 @@
   (library "fmc_tlu_v1_lib")
   (design "pc023a_dac_vthresh"
     (lastIds
-      (lastInstanceId 14)
+      (lastInstanceId 16)
       (lastNetId 22)
-      (lastInstTermId 82)
+      (lastInstTermId 92)
     )
     (cells
       ("S3" "pc023a_vthresh_buffer" "fmc_tlu_v1_lib" "sym_1"
@@ -42,6 +42,14 @@
           ("T58" "voutc" -1 -1 2)
           ("T59" "voutd" -1 -1 2)
           ("T60" "vrefin/vrefout" -1 -1 1)
+        )
+      )
+      ("S7" "tp" "cnpassive" "sym_1"
+        (params
+          ("size" "1")
+        )
+        (terms
+          ("T73" "a<SIZE-1..0>" -1 -1 3)
         )
       )
     )
@@ -285,6 +293,24 @@
           ("M82" "T32" 0 0
             (conn
               ("0" 0 0 "N15" -1 -1)
+            )
+          )
+        )
+      )
+      ("I15" "page1_i68" "S7"
+        (pins
+          ("M91" "T73" 0 0
+            (conn
+              ("0" 0 0 "N15" -1 -1)
+            )
+          )
+        )
+      )
+      ("I16" "page1_i69" "S7"
+        (pins
+          ("M92" "T73" 0 0
+            (conn
+              ("0" 0 0 "N19" -1 -1)
             )
           )
         )

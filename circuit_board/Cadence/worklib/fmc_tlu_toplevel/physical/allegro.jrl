@@ -1,766 +1,3708 @@
-\t (00:00:14) allegro 16.5 S005 (v16-5-13Q) Linux IA32
-\t (00:00:14)     Journal start - Fri May  4 15:59:11 2012
-\t (00:00:14)         Host=calgary.phy.bris.ac.uk User=phdgc Pid=18221 CPUs=4
-\t (00:00:14) 
-\t (00:00:15) Opening existing design...
-\d (00:00:15) Database opened: /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_06.brd
-\i (00:00:16) trapsize 1433
-\i (00:00:16) trapsize 1407
-\i (00:00:16) trapsize 1438
-\i (00:00:16) trapsize 1450
-\i (00:00:17) trapsize 1261
-\i (00:00:17) trapsize 1261
-\i (00:00:18) generaledit 
-\i (00:01:23) trapsize 1257
-\i (00:01:28) zoom out 
-\i (00:01:28) setwindow pcb
-\i (00:01:28) zoom out 24.2426 61.0904
-\i (00:01:28) trapsize 2513
-\i (00:01:29) zoom out 
-\i (00:01:29) setwindow pcb
-\i (00:01:29) zoom out 24.2426 61.0903
-\i (00:01:29) trapsize 5027
-\i (00:01:29) zoom out 
-\i (00:01:29) setwindow pcb
-\i (00:01:29) zoom out 42.2933 61.0904
-\i (00:01:29) trapsize 10054
-\i (00:01:34) zoom points 
-\t (00:01:34) Pick 1st corner of the new window.
-\i (00:01:35) pick 48.7277 57.8732
-\t (00:01:35) last pick:  48.7277  57.8732
-\t (00:01:35) Pick to complete the window.
-\i (00:01:36) pick 114.4791 5.1916
-\t (00:01:36) last pick:  114.4791  5.1916
-\i (00:01:36) trapsize 2808
-\i (00:01:36) generaledit 
-\i (00:01:40) show element 
-\i (00:01:43) setwindow form.find
-\i (00:01:43) FORM find all_off  
-\i (00:01:44) FORM find groups YES 
-\i (00:01:46) setwindow pcb
-\i (00:01:46) pick grid 131.2884 48.8870
-\t (00:01:46) last pick:  131.3976  48.7800
-\i (00:01:48) show element 
-\i (00:02:10) delete 
-\i (00:02:13) setwindow form.find
-\i (00:02:13) FORM find all_off  
-\i (00:02:14) FORM find groups YES 
-\i (00:02:16) setwindow pcb
-\i (00:02:16) pick grid 61.4207 43.8322
-\t (00:02:16) last pick:  61.3976  43.7800
-\t (00:02:16) Module "Fmc_Tlu_Cfd_1"
-\i (00:02:17) pick grid 61.4207 43.8322
-\t (00:02:17) last pick:  61.3976  43.7800
-\i (00:02:21) place manual 
-\i (00:02:24) setwindow form.plc_manual
-\i (00:02:24) FORM plc_manual categories Module instances 
-\i (00:02:26) FORM plc_manual tree 'MULTISEL YES' FMC_TLU_CFD/FMC_TLU_CFD_1 'Module instances' 
-\i (00:02:26) FORM plc_manual tree  FMC_TLU_CFD/FMC_TLU_CFD_1 'Module instances' 
-\i (00:02:29) setwindow pcb
-\i (00:02:29) pick grid 63.9481 48.7185
-\t (00:02:29) last pick:  64.3976  48.7800
-\i (00:02:33) delete 
-\i (00:02:36) delete 
-\i (00:02:40) setwindow form.find
-\i (00:02:40) FORM find groups YES 
-\i (00:02:42) setwindow pcb
-\i (00:02:42) pick grid 89.9519 50.6842
-\t (00:02:42) last pick:  90.3976  50.7800
-\t (00:02:42) Module "Fmc_Tlu_Cfd_2"
-\i (00:02:43) pick grid 89.9519 50.6842
-\t (00:02:43) last pick:  90.3976  50.7800
-\i (00:02:48) place manual 
-\i (00:02:49) setwindow form.plc_manual
-\i (00:02:49) FORM plc_manual tree 'MULTISEL YES' FMC_TLU_CFD/FMC_TLU_CFD_2 'Module instances' 
-\i (00:02:49) FORM plc_manual tree  FMC_TLU_CFD/FMC_TLU_CFD_2 'Module instances' 
-\i (00:02:51) FORM plc_manual done  
-\i (00:02:52) setwindow pcb
-\i (00:02:52) generaledit 
-\i (00:02:55) place manual 
-\i (00:02:57) setwindow form.plc_manual
-\i (00:02:57) FORM plc_manual tree 'MULTISEL YES' FMC_TLU_CFD/FMC_TLU_CFD_2 'Module instances' 
-\i (00:02:57) FORM plc_manual tree  FMC_TLU_CFD/FMC_TLU_CFD_2 'Module instances' 
-\i (00:02:59) setwindow pcb
-\i (00:02:59) pick grid 83.8862 48.9993
-\t (00:02:59) last pick:  83.3976  48.7800
-\i (00:03:02) setwindow form.plc_manual
-\i (00:03:02) FORM plc_manual done  
-\i (00:03:02) setwindow pcb
-\i (00:03:02) generaledit 
-\i (00:03:04) delete 
-\i (00:03:08) setwindow form.find
-\i (00:03:08) FORM find groups YES 
-\i (00:03:10) setwindow pcb
-\i (00:03:10) pick grid 112.8667 50.5719
-\t (00:03:10) last pick:  112.3976  50.7800
-\t (00:03:10) Module "Fmc_Tlu_Cfd_3"
-\i (00:03:11) pick grid 112.8667 50.5719
-\t (00:03:11) last pick:  112.3976  50.7800
-\i (00:03:15) place manual 
-\i (00:03:17) setwindow form.plc_manual
-\i (00:03:17) FORM plc_manual tree 'MULTISEL YES' FMC_TLU_CFD/FMC_TLU_CFD_3 'Module instances' 
-\i (00:03:17) FORM plc_manual tree  FMC_TLU_CFD/FMC_TLU_CFD_3 'Module instances' 
-\i (00:03:23) setwindow pcb
-\i (00:03:23) pick grid 102.5887 48.3253
-\t (00:03:23) last pick:  102.3976  48.7800
-\i (00:08:31) delete 
-\i (00:08:34) setwindow form.find
-\i (00:08:34) FORM find groups YES 
-\i (00:08:35) setwindow pcb
-\i (00:08:35) pick grid 127.7501 32.9365
-\t (00:08:35) last pick:  127.3976  32.7800
-\t (00:08:35) Module "Fmc_Tlu_Cfd_4"
-\i (00:08:35) pick grid dbl 127.7501 32.9365
-\t (00:08:35) last pick:  127.3976  32.7800
-\i (00:08:39) place manual 
-\i (00:08:41) setwindow form.plc_manual
-\i (00:08:41) FORM plc_manual tree 'MULTISEL YES' FMC_TLU_CFD/FMC_TLU_CFD_4 'Module instances' 
-\i (00:08:41) FORM plc_manual tree  FMC_TLU_CFD/FMC_TLU_CFD_4 'Module instances' 
+\t (00:00:02) allegro 16.5 S005 (v16-5-13Q) Linux IA32
+\t (00:00:02)     Journal start - Thu May 10 17:57:19 2012
+\t (00:00:02)         Host=calgary.phy.bris.ac.uk User=phdgc Pid=27871 CPUs=4
+\t (00:00:02) 
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Database opened: /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_16.brd
+\t (00:00:04) Grids are drawn 0.1600, 0.1600 apart for enhanced viewability.
+\i (00:00:04) trapsize 1015
+\i (00:00:04) trapsize 996
+\i (00:00:05) trapsize 1018
+\i (00:00:05) trapsize 893
+\i (00:00:05) trapsize 893
+\i (00:00:06) generaledit 
+\i (00:00:17) diff pairs 
+   (00:00:17) Loading cmds.cxt 
+   (00:00:17) Loading axlcore.cxt 
+   (00:00:17) Loading fputil.cxt 
+\i (00:00:23) setwindow form.fpconsdiff
+\i (00:00:23) FORM fpconsdiff autogen  
+\i (00:00:30) setwindow form.diffpairauto
+\i (00:00:30) FORM diffpairauto net2 * 
+\i (00:00:30) FORM diffpairauto generate  
+\i (00:00:36) setwindow form.fpconsdiff
+\i (00:00:36) FORM fpconsdiff done  
+\i (00:00:36) setwindow pcb
+\i (00:00:36) generaledit 
+\i (00:00:39) setwindow text
+\i (00:00:39) close 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) add connect 
+\t (00:00:42) Pick first element.
+\i (00:00:43) pick grid 6.9793 55.2961
+\t (00:00:43) last pick:  6.9800  55.3000
+\t (00:00:43) last pick:  7.2500  55.2600
+\t (00:00:43) last pick:  7.2500  55.2600
+\i (00:00:44) prepopup 5.8544 54.9211
+\i (00:00:46) oops 
+\t (00:00:46) last pick:  7.2500  55.2600
+\t (00:00:46) Pick first element.
+\i (00:00:51) save_as 
+\i (00:00:56) fillin "fmc_tlu_v1_17.brd"
+\i (00:00:56) generaledit 
+\i (00:01:10) cmgr 
+\i (00:01:11) setwindow cmgr
+\i (00:01:11) cm fetch DRC_IS_UPTODATE ( System "System" ) System
+\i (00:01:11) cm fetch ONLINE_DRC ( System "System" ) System
+\i (00:01:12) setwindow pcb
+\i (00:01:12) generaledit 
+\i (00:01:20) setwindow cmgr
+\i (00:01:20) cm newView ( worksheet 53:Electrical "1:Electrical Constraint Set" 7:Routing "32:Differential Pair" )
+\i (00:01:20) cm fetch DIFFP_MIN_SPACE ( Design "fmc_tlu_v1_17" ) Design
+\i (00:01:20) cm fetch DIFFP_MIN_SPACE ( Design "fmc_tlu_v1_17" ) "Physical CSet"
+\i (00:01:24) cm fetch DIFFP_PRIMARY_GAP ( Design "fmc_tlu_v1_17" ) Design
+\i (00:01:24) cm fetch DIFFP_PRIMARY_GAP ( Design "fmc_tlu_v1_17" ) "Physical CSet"
+\i (00:01:24) cm fetch MIN_LINE_WIDTH ( Design "fmc_tlu_v1_17" ) Design
+\i (00:01:24) cm fetch MIN_LINE_WIDTH ( Design "fmc_tlu_v1_17" ) "Physical CSet"
+\i (00:01:24) cm fetch DIFFP_NECK_GAP ( Design "fmc_tlu_v1_17" ) Design
+\i (00:01:24) cm fetch MIN_NECK_WIDTH ( Design "fmc_tlu_v1_17" ) Design
+\i (00:01:24) cm fetch MIN_NECK_WIDTH ( Design "fmc_tlu_v1_17" ) "Physical CSet"
+\i (00:01:24) cm fetch DIFFP_COUPLED_PLUS ( Design "fmc_tlu_v1_17" ) Design
+\i (00:01:24) cm fetch DIFFP_COUPLED_PLUS ( Design "fmc_tlu_v1_17" ) "Physical CSet"
+\i (00:01:24) cm fetch DIFFP_COUPLED_MINUS ( Design "fmc_tlu_v1_17" ) Design
+\i (00:01:24) cm fetch DIFFP_COUPLED_MINUS ( Design "fmc_tlu_v1_17" ) "Physical CSet"
+\i (00:01:24) cm fetch DIFFP_NECK_GAP ( Design "fmc_tlu_v1_17" ) "Physical CSet"
+\i (00:01:34) cm fetch PHYSICAL_CONSTRAINT_SET ( Design "fmc_tlu_v1_17" ) Design
+\i (00:01:34) cm fetch SPACING_CONSTRAINT_SET ( Design "fmc_tlu_v1_17" ) Design
+\i (00:01:34) cm fetch SAME_NET_SPACING_CONSTRAINT_SET ( Design "fmc_tlu_v1_17" ) Design
+\i (00:01:41) cm startUndoBlock 1
+\i (00:01:41) cm create "Electrical CSet" ( Design "fmc_tlu_v1_17" ) "DIFFSET1" AltName= @fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\\DIFFSET1\\
+\i (00:01:44) cm endUndoBlock
+\i (00:01:51) cm expand ( row ( Design "fmc_tlu_v1_17" ) )
+\i (00:01:51) cm fetch DIFFP_GATHER_CONTROL ( Design "fmc_tlu_v1_17" ) "Electrical CSet"
+\i (00:01:51) cm fetch DIFFP_UNCOUPLED_LENGTH ( Design "fmc_tlu_v1_17" ) "Electrical CSet"
+\i (00:01:51) cm fetch DIFFP_PRIMARY_GAP ( Design "fmc_tlu_v1_17" ) "Electrical CSet"
+\i (00:01:51) cm fetch DIFFP_COUPLED_PLUS ( Design "fmc_tlu_v1_17" ) "Electrical CSet"
+\i (00:01:51) cm fetch DIFFP_COUPLED_MINUS ( Design "fmc_tlu_v1_17" ) "Electrical CSet"
+\i (00:01:51) cm fetch DIFFP_PHASE_TOL ( Design "fmc_tlu_v1_17" ) "Electrical CSet"
+\i (00:01:51) cm fetch DIFFP_MIN_SPACE ( Design "fmc_tlu_v1_17" ) "Electrical CSet"
+\i (00:01:51) cm fetch MIN_LINE_WIDTH ( Design "fmc_tlu_v1_17" ) "Electrical CSet"
+\i (00:01:51) cm fetch DIFFP_NECK_GAP ( Design "fmc_tlu_v1_17" ) "Electrical CSet"
+\i (00:01:51) cm fetch MIN_NECK_WIDTH ( Design "fmc_tlu_v1_17" ) "Electrical CSet"
+\i (00:01:59) cm scope Design "fmc_tlu_v1_17"
+\i (00:01:59) cm putValue ( "Electrical CSet" "DIFFSET1" ) DIFFP_GATHER_CONTROL Ignore 0
+\i (00:01:59) cm endUndoBlock
+\i (00:02:03) cm putValue ( "Electrical CSet" "DIFFSET1" ) DIFFP_UNCOUPLED_LENGTH 10 0
+\i (00:02:03) cm endUndoBlock
+\i (00:02:09) cm putValue ( "Electrical CSet" "DIFFSET1" ) DIFFP_PHASE_TOL 0.5 0
+\i (00:02:09) cm endUndoBlock
+\i (00:02:15) cm putValue ( "Electrical CSet" "DIFFSET1" ) DIFFP_PRIMARY_GAP 0.3 7
+\i (00:02:15) cm endUndoBlock
+\i (00:02:25) cm putValue ( "Electrical CSet" "DIFFSET1" ) DIFFP_PRIMARY_GAP 0.25 7
+\i (00:02:25) cm endUndoBlock
+\i (00:02:39) cm putValue ( "Electrical CSet" "DIFFSET1" ) MIN_LINE_WIDTH 0.3 7
+\i (00:02:39) cm endUndoBlock
+\i (00:04:02) cm fetch ELECTRICAL_CONSTRAINT_SET ( Design "fmc_tlu_v1_17" ) XNet
+\i (00:04:02) cm fetch ELECTRICAL_CONSTRAINT_SET ( Design "fmc_tlu_v1_17" ) "Diff Pair"
+\i (00:04:02) cm fetch ELECTRICAL_CONSTRAINT_SET ( Design "fmc_tlu_v1_17" ) NetGroup
+\i (00:04:02) cm fetch ELECTRICAL_CONSTRAINT_SET ( Design "fmc_tlu_v1_17" ) "Net Class"
+\i (00:04:02) cm fetch ELECTRICAL_CONSTRAINT_SET ( Design "fmc_tlu_v1_17" ) Bus
+\i (00:04:02) cm fetch ELECTRICAL_CONSTRAINT_SET ( Design "fmc_tlu_v1_17" ) Net
+\i (00:04:02) cm fetchObjects ( Design "fmc_tlu_v1_17" ) Bus
+\i (00:05:20) cm startUndoBlock 1
+\i (00:05:20) cm startTransaction ( Design "fmc_tlu_v1_17" ) ( "Electrical CSet" "DIFFSET1" ) TS_PERF
+\i (00:05:20) cm commitTransaction ( Design "fmc_tlu_v1_17" ) ( "Electrical CSet" "DIFFSET1" ) TS_PERF
+\i (00:05:22) cm add ( "Diff Pair" "BEAM_TRIGGER_CFD0" ) to ( "Electrical CSet" "DIFFSET1" )
+\i (00:05:22) cm add ( "Diff Pair" "BEAM_TRIGGER_CFD1" ) to ( "Electrical CSet" "DIFFSET1" )
+\i (00:05:22) cm add ( "Diff Pair" "BEAM_TRIGGER_CFD2" ) to ( "Electrical CSet" "DIFFSET1" )
+\i (00:05:22) cm add ( "Diff Pair" "BEAM_TRIGGER_CFD3" ) to ( "Electrical CSet" "DIFFSET1" )
+\i (00:05:22) cm add ( "Diff Pair" "BEAM_TRIGGER0" ) to ( "Electrical CSet" "DIFFSET1" )
+\i (00:05:22) cm add ( "Diff Pair" "BEAM_TRIGGER1" ) to ( "Electrical CSet" "DIFFSET1" )
+\i (00:05:22) cm add ( "Diff Pair" "BEAM_TRIGGER2" ) to ( "Electrical CSet" "DIFFSET1" )
+\i (00:05:22) cm add ( "Diff Pair" "BEAM_TRIGGER3" ) to ( "Electrical CSet" "DIFFSET1" )
+\i (00:05:22) cm add ( "Diff Pair" "BUSY0" ) to ( "Electrical CSet" "DIFFSET1" )
+\i (00:05:22) cm add ( "Diff Pair" "BUSY1" ) to ( "Electrical CSet" "DIFFSET1" )
+\i (00:05:22) cm add ( "Diff Pair" "BUSY2" ) to ( "Electrical CSet" "DIFFSET1" )
+\i (00:05:22) cm add ( "Diff Pair" "CLK1" ) to ( "Electrical CSet" "DIFFSET1" )
+\i (00:05:22) cm add ( "Diff Pair" "CLK2" ) to ( "Electrical CSet" "DIFFSET1" )
+\i (00:05:22) cm add ( "Diff Pair" "CONT0" ) to ( "Electrical CSet" "DIFFSET1" )
+\i (00:05:22) cm add ( "Diff Pair" "CONT1" ) to ( "Electrical CSet" "DIFFSET1" )
+\i (00:05:22) cm add ( "Diff Pair" "CONT2" ) to ( "Electrical CSet" "DIFFSET1" )
+\i (00:05:22) cm add ( "Diff Pair" "SPARE1" ) to ( "Electrical CSet" "DIFFSET1" )
+\i (00:05:22) cm add ( "Diff Pair" "SPARE2" ) to ( "Electrical CSet" "DIFFSET1" )
+\i (00:05:22) cm add ( "Diff Pair" "TRIG0" ) to ( "Electrical CSet" "DIFFSET1" )
+\i (00:05:22) cm add ( "Diff Pair" "TRIG1" ) to ( "Electrical CSet" "DIFFSET1" )
+\i (00:05:22) cm add ( "Diff Pair" "TRIG2" ) to ( "Electrical CSet" "DIFFSET1" )
+\i (00:05:23) cm endUndoBlock
+\i (00:05:30) setwindow pcb
+\i (00:05:30) save 
+\i (00:05:32) fillin yes 
+\i (00:06:05) generaledit 
+\i (00:06:10) setwindow cmgr
+\i (00:06:10) cm exit
+\i (00:06:14) setwindow pcb
+\i (00:06:14) add connect 
+\t (00:06:14) Pick first element.
+\i (00:06:16) pick grid 6.8900 55.1890
+\t (00:06:16) last pick:  6.8900  55.1900
+\t (00:06:16) last pick:  7.2500  55.2600
+\t (00:06:16) last pick:  7.2500  55.2600
+\i (00:07:03) pick grid 5.5330 55.3854
+\t (00:07:03) last pick:  5.5300  55.3900
+\t (00:07:03) DRC error(s) created.
+\i (00:07:03) mouse_pos 5.5330 55.3854
+\i (00:07:03) mouse_pos 5.0509 54.0641
+\i (00:07:05) prepopup 4.8902 55.2425
+\i (00:07:07) done 
+\i (00:07:07) generaledit 
+\i (00:07:09) zoom points 
+\t (00:07:09) Pick 1st corner of the new window.
+\i (00:07:09) pick 4.5510 56.1889
+\t (00:07:09) last pick:  4.5510  56.1889
+\t (00:07:09) Pick to complete the window.
+\i (00:07:10) pick 7.1578 52.8857
+\t (00:07:10) last pick:  7.1578  52.8857
+\t (00:07:10) Grids are drawn 0.0400, 0.0400 apart for enhanced viewability.
+\i (00:07:10) trapsize 185
+\i (00:07:10) generaledit 
+\i (00:07:16) show element 
+\i (00:07:21) setwindow form.find
+\i (00:07:21) FORM find drc_errors YES 
+\i (00:07:30) setwindow pcb
+\i (00:07:30) roam start
+\i (00:07:30) roam y 32
+\i (00:07:30) roam y 32
+\i (00:07:30) roam y 16
+\i (00:07:30) roam y 16
+\i (00:07:30) roam y 32
+\i (00:07:30) roam x 16
+\i (00:07:30) roam y 16
+\i (00:07:30) roam x 16
+\i (00:07:30) roam y 32
+\i (00:07:31) roam x 16
+\i (00:07:31) roam y -16
+\i (00:07:31) roam y -16
+\i (00:07:31) roam y -16
+\i (00:07:31) roam x 16
+\i (00:07:31) roam y -16
+\i (00:07:31) roam y -16
+\i (00:07:31) roam y -16
+\i (00:07:31) roam y -16
+\i (00:07:31) roam y -16
+\i (00:07:31) roam y -16
+\i (00:07:31) roam y -16
+\i (00:07:31) roam y -16
+\i (00:07:31) roam x 16
+\i (00:07:31) roam y -16
+\i (00:07:32) roam y 16
+\i (00:07:32) roam y 16
+\i (00:07:32) roam y 16
+\i (00:07:32) roam x 16
+\i (00:07:32) roam y 16
+\i (00:07:32) roam y 16
+\i (00:07:32) roam x 16
+\i (00:07:32) roam x 16
+\i (00:07:32) roam y 16
+\i (00:07:33) roam y 16
+\i (00:07:33) roam x 16
+\i (00:07:33) roam y -16
+\i (00:07:33) roam y -16
+\i (00:07:33) roam x 16
+\i (00:07:33) roam y -16
+\i (00:07:33) roam y -16
+\i (00:07:33) roam x 16
+\i (00:07:33) roam y -16
+\i (00:07:33) roam y -16
+\i (00:07:33) roam x 16
+\i (00:07:33) roam y -16
+\i (00:07:33) roam y -16
+\i (00:07:33) roam x 16
+\i (00:07:33) roam y -16
+\i (00:07:33) roam y -16
+\i (00:07:33) roam y -16
+\i (00:07:33) roam y -16
+\i (00:07:34) roam y -16
+\i (00:07:34) roam y -16
+\i (00:07:34) roam y -16
+\i (00:07:34) roam y -16
+\i (00:07:34) roam y -16
+\i (00:07:34) roam y -16
+\i (00:07:34) roam y -16
+\i (00:07:34) roam y -16
+\i (00:07:34) roam y -16
+\i (00:07:34) roam y -16
+\i (00:07:34) roam y -16
+\i (00:07:34) roam x 16
+\i (00:07:34) roam y -32
+\i (00:07:34) roam y -16
+\i (00:07:34) roam y -48
+\i (00:07:34) roam x 16
+\i (00:07:34) roam y -16
+\i (00:07:34) roam x 16
+\i (00:07:34) roam y -64
+\i (00:07:34) roam x 16
+\i (00:07:34) roam y -16
+\i (00:07:34) roam x 16
+\i (00:07:34) roam y -48
+\i (00:07:34) roam x 16
+\i (00:07:34) roam y -32
+\i (00:07:34) roam x 16
+\i (00:07:34) roam y -48
+\i (00:07:34) roam x 16
+\i (00:07:34) roam y -16
+\i (00:07:34) roam x 16
+\i (00:07:34) roam y -48
+\i (00:07:34) roam x 16
+\i (00:07:34) roam y -48
+\i (00:07:34) roam x 16
+\i (00:07:34) roam y -32
+\i (00:07:34) roam x 16
+\i (00:07:34) roam y -16
+\i (00:07:34) roam y -32
+\i (00:07:34) roam x 16
+\i (00:07:34) roam y -32
+\i (00:07:34) roam y -16
+\i (00:07:34) roam x 16
+\i (00:07:34) roam y -16
+\i (00:07:34) roam y -16
+\i (00:07:34) roam x 16
+\i (00:07:34) roam y -16
+\i (00:07:34) roam x 16
+\i (00:07:34) roam y -16
+\i (00:07:34) roam y -16
+\i (00:07:34) roam x 16
+\i (00:07:35) roam y -16
+\i (00:07:35) roam x 16
+\i (00:07:35) roam x 16
+\i (00:07:35) roam y -16
+\i (00:07:35) roam x 16
+\i (00:07:35) roam x 16
+\i (00:07:35) roam y -16
+\i (00:07:35) roam x 16
+\i (00:07:35) roam y -16
+\i (00:07:35) roam x 32
+\i (00:07:35) roam y -16
+\i (00:07:35) roam x 32
+\i (00:07:35) roam y -16
+\i (00:07:35) roam x 16
+\i (00:07:35) roam y -16
+\i (00:07:35) roam x 16
+\i (00:07:35) roam x 32
+\i (00:07:35) roam y -16
+\i (00:07:35) roam x 16
+\i (00:07:35) roam y -16
+\i (00:07:35) roam x 32
+\i (00:07:35) roam y -16
+\i (00:07:35) roam x 32
+\i (00:07:35) roam x 16
+\i (00:07:35) roam y -16
+\i (00:07:35) roam y -16
+\i (00:07:35) roam x 16
+\i (00:07:35) roam x 16
+\i (00:07:35) roam y -16
+\i (00:07:35) roam x 16
+\i (00:07:35) roam y -16
+\i (00:07:35) roam x 16
+\i (00:07:35) roam x 16
+\i (00:07:35) roam x 16
+\i (00:07:35) roam y -16
+\i (00:07:35) roam x 16
+\i (00:07:35) roam x 16
+\i (00:07:35) roam x 16
+\i (00:07:35) roam x 16
+\i (00:07:35) roam x 16
+\i (00:07:35) roam y 16
+\i (00:07:35) roam x 16
+\i (00:07:35) roam x 16
+\i (00:07:35) roam y 16
+\i (00:07:35) roam x 16
+\i (00:07:35) roam y 16
+\i (00:07:35) roam x 16
+\i (00:07:36) roam y 16
+\i (00:07:36) roam x 16
+\i (00:07:36) roam y 16
+\i (00:07:36) roam y 16
+\i (00:07:36) roam y 16
+\i (00:07:36) roam y 16
+\i (00:07:36) roam y 16
+\i (00:07:36) roam y 16
+\i (00:07:36) roam y 16
+\i (00:07:36) roam y 16
+\i (00:07:36) roam y 16
+\i (00:07:36) roam x -16
+\i (00:07:36) roam y 16
+\i (00:07:36) roam y 16
+\i (00:07:36) roam y 16
+\i (00:07:36) roam y 16
+\i (00:07:36) roam y 16
+\i (00:07:36) roam y 16
+\i (00:07:36) roam y 16
+\i (00:07:36) roam y 32
+\i (00:07:36) roam x 16
+\i (00:07:36) roam y 32
+\i (00:07:36) roam y 48
+\i (00:07:36) roam x 16
+\i (00:07:36) roam y 32
+\i (00:07:36) roam y 32
+\i (00:07:36) roam y 16
+\i (00:07:36) roam x 16
+\i (00:07:36) roam y 48
+\i (00:07:36) roam y 32
+\i (00:07:36) roam x 16
+\i (00:07:36) roam y 48
+\i (00:07:36) roam y 16
+\i (00:07:36) roam x 16
+\i (00:07:36) roam y 48
+\i (00:07:37) roam y 32
+\i (00:07:37) roam y 16
+\i (00:07:37) roam x 16
+\i (00:07:37) roam y 16
+\i (00:07:37) roam y 32
+\i (00:07:37) roam x 16
+\i (00:07:37) roam y 32
+\i (00:07:37) roam x 16
+\i (00:07:37) roam y 16
+\i (00:07:37) roam y 16
+\i (00:07:37) roam x 16
+\i (00:07:37) roam x 16
+\i (00:07:37) roam x 16
+\i (00:07:37) roam x 16
+\i (00:07:37) roam x 32
+\i (00:07:37) roam x 32
+\i (00:07:37) roam x 48
+\i (00:07:37) roam x 48
+\i (00:07:37) roam x 32
+\i (00:07:37) roam x 64
+\i (00:07:37) roam x 48
+\i (00:07:37) roam x 32
+\i (00:07:37) roam x 64
+\i (00:07:37) roam x 32
+\i (00:07:37) roam x 64
+\i (00:07:37) roam x 48
+\i (00:07:37) roam x 64
+\i (00:07:37) roam x 32
+\i (00:07:37) roam x 48
+\i (00:07:37) roam x 16
+\i (00:07:37) roam x 64
+\i (00:07:37) roam x 48
+\i (00:07:37) roam x 48
+\i (00:07:37) roam x 48
+\i (00:07:37) roam x 48
+\i (00:07:37) roam y 16
+\i (00:07:37) roam x 32
+\i (00:07:37) roam x 48
+\i (00:07:37) roam y 16
+\i (00:07:37) roam x 48
+\i (00:07:37) roam x 32
+\i (00:07:37) roam x 64
+\i (00:07:37) roam x 16
+\i (00:07:37) roam x 16
+\i (00:07:37) roam x 16
+\i (00:07:37) roam x 16
+\i (00:07:37) roam x 16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x 16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x 16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x -16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x -16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x -16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x -16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x -16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x -16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x -16
+\i (00:07:38) roam x -16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x -32
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x -16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x -16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x -16
+\i (00:07:38) roam x -16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x -32
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x -16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x -16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x -16
+\i (00:07:38) roam x -16
+\i (00:07:38) roam x -16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x -32
+\i (00:07:38) roam x -32
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x -16
+\i (00:07:38) roam x -32
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x -48
+\i (00:07:38) roam x -16
+\i (00:07:38) roam x -32
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x -48
+\i (00:07:38) roam x -48
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x -16
+\i (00:07:38) roam x -48
+\i (00:07:38) roam x -48
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x -64
+\i (00:07:38) roam x -16
+\i (00:07:38) roam x -80
+\i (00:07:38) roam x -48
+\i (00:07:38) roam x -32
+\i (00:07:38) roam x -48
+\i (00:07:38) roam x -48
+\i (00:07:38) roam x -32
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x -32
+\i (00:07:38) roam x -48
+\i (00:07:38) roam x -16
+\i (00:07:38) roam y -16
+\i (00:07:38) roam x -32
+\i (00:07:38) roam x -16
+\i (00:07:38) roam y -16
+\i (00:07:39) roam x -16
+\i (00:07:39) roam x -16
+\i (00:07:39) roam y 16
+\i (00:07:39) roam x -16
+\i (00:07:39) roam y 16
+\i (00:07:39) roam y 16
+\i (00:07:39) roam x -16
+\i (00:07:39) roam y 16
+\i (00:07:39) roam x -16
+\i (00:07:39) roam y 16
+\i (00:07:39) roam y 16
+\i (00:07:39) roam x -16
+\i (00:07:39) roam y 16
+\i (00:07:39) roam y 16
+\i (00:07:39) roam x -16
+\i (00:07:39) roam y 16
+\i (00:07:39) roam y 16
+\i (00:07:39) roam x -16
+\i (00:07:39) roam y 16
+\i (00:07:39) roam x -16
+\i (00:07:39) roam y 16
+\i (00:07:39) roam x -16
+\i (00:07:39) roam x -16
+\i (00:07:39) roam y 16
+\i (00:07:39) roam x -16
+\i (00:07:39) roam y 16
+\i (00:07:39) roam x -16
+\i (00:07:39) roam y 16
+\i (00:07:39) roam x -16
+\i (00:07:39) roam y 16
+\i (00:07:39) roam x -32
+\i (00:07:39) roam y 16
+\i (00:07:39) roam y 16
+\i (00:07:39) roam x -16
+\i (00:07:39) roam y 16
+\i (00:07:40) roam x -32
+\i (00:07:40) roam y 32
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 32
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 32
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 32
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 32
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 32
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 16
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 16
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 16
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -16
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -16
+\i (00:07:40) roam x -16
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -32
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -16
+\i (00:07:40) roam x -16
+\i (00:07:40) roam x -80
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -80
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -80
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -64
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -48
+\i (00:07:40) roam x -16
+\i (00:07:40) roam x -48
+\i (00:07:40) roam y 16
+\i (00:07:40) roam x -16
+\i (00:07:40) roam x -32
+\i (00:07:40) roam x -32
+\i (00:07:40) roam y 16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam x -48
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -32
+\i (00:07:41) roam x -16
+\i (00:07:41) roam x -32
+\i (00:07:41) roam x -16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam x -32
+\i (00:07:41) roam x -16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam x -48
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam x -32
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -32
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -32
+\i (00:07:41) roam x -32
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -32
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -48
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam x -64
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -32
+\i (00:07:41) roam x -48
+\i (00:07:41) roam x -32
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -64
+\i (00:07:41) roam x -32
+\i (00:07:41) roam x -48
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -64
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -48
+\i (00:07:41) roam x -48
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam x -48
+\i (00:07:41) roam x -16
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -32
+\i (00:07:41) roam x -16
+\i (00:07:41) roam x -32
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -32
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam x -32
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam x -32
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -32
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -32
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam x -48
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -48
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -48
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -16
+\i (00:07:41) roam y 16
+\i (00:07:41) roam x -32
+\i (00:07:41) roam y 16
+\i (00:07:42) roam x -48
+\i (00:07:42) roam y 16
+\i (00:07:42) roam x -16
+\i (00:07:42) roam y 16
+\i (00:07:42) roam x -48
+\i (00:07:42) roam y 32
+\i (00:07:42) roam x -32
+\i (00:07:42) roam y 32
+\i (00:07:42) roam x -16
+\i (00:07:42) roam y 32
+\i (00:07:42) roam x -32
+\i (00:07:42) roam y 32
+\i (00:07:42) roam x -16
+\i (00:07:42) roam y 16
+\i (00:07:42) roam x -16
+\i (00:07:42) roam y 16
+\i (00:07:42) roam x -16
+\i (00:07:42) roam y 16
+\i (00:07:42) roam x -16
+\i (00:07:42) roam y 32
+\i (00:07:42) roam x -16
+\i (00:07:42) roam y 16
+\i (00:07:42) roam y 48
+\i (00:07:42) roam x -16
+\i (00:07:42) roam y 16
+\i (00:07:42) roam y 32
+\i (00:07:42) roam x -16
+\i (00:07:42) roam y 16
+\i (00:07:42) roam y 16
+\i (00:07:42) roam y 16
+\i (00:07:42) roam y 16
+\i (00:07:42) roam y 16
+\i (00:07:42) roam y 16
+\i (00:07:42) roam x 16
+\i (00:07:42) roam x 16
+\i (00:07:42) roam y 16
+\i (00:07:42) roam x 16
+\i (00:07:42) roam x 48
+\i (00:07:42) roam y 16
+\i (00:07:42) roam x 16
+\i (00:07:42) roam y 16
+\i (00:07:42) roam x 32
+\i (00:07:42) roam y 16
+\i (00:07:42) roam x 64
+\i (00:07:42) roam y 32
+\i (00:07:42) roam x 32
+\i (00:07:42) roam x 32
+\i (00:07:42) roam y 16
+\i (00:07:42) roam x 80
+\i (00:07:42) roam y 48
+\i (00:07:42) roam x 48
+\i (00:07:42) roam y 16
+\i (00:07:42) roam x 32
+\i (00:07:42) roam y 16
+\i (00:07:42) roam x 80
+\i (00:07:42) roam y 32
+\i (00:07:42) roam x 32
+\i (00:07:42) roam y 32
+\i (00:07:42) roam x 48
+\i (00:07:42) roam y 16
+\i (00:07:42) roam x 32
+\i (00:07:42) roam y 16
+\i (00:07:42) roam x 64
+\i (00:07:42) roam y 48
+\i (00:07:42) roam x 32
+\i (00:07:42) roam y 16
+\i (00:07:42) roam x 64
+\i (00:07:42) roam y 32
+\i (00:07:42) roam x 16
+\i (00:07:42) roam y 32
+\i (00:07:42) roam x 48
+\i (00:07:42) roam y 32
+\i (00:07:42) roam x 16
+\i (00:07:42) roam y 16
+\i (00:07:42) roam x 32
+\i (00:07:42) roam y 16
+\i (00:07:42) roam x 16
+\i (00:07:42) roam y 16
+\i (00:07:42) roam x 16
+\i (00:07:42) roam y 16
+\i (00:07:42) roam x 16
+\i (00:07:42) roam y 16
+\i (00:07:42) roam x 16
+\i (00:07:42) roam y -16
+\i (00:07:42) roam x 16
+\i (00:07:42) roam y -16
+\i (00:07:42) roam y -16
+\i (00:07:42) roam y -16
+\i (00:07:42) roam y -16
+\i (00:07:42) roam y -16
+\i (00:07:42) roam y -16
+\i (00:07:42) roam y -16
+\i (00:07:42) roam y -16
+\i (00:07:42) roam y -16
+\i (00:07:42) roam y -16
+\i (00:07:42) roam y -32
+\i (00:07:43) roam y -16
+\i (00:07:43) roam y -32
+\i (00:07:43) roam y -16
+\i (00:07:43) roam x -16
+\i (00:07:43) roam y -48
+\i (00:07:43) roam y -16
+\i (00:07:43) roam y -64
+\i (00:07:43) roam y -16
+\i (00:07:43) roam y -48
+\i (00:07:43) roam y -16
+\i (00:07:43) roam y -32
+\i (00:07:43) roam y -16
+\i (00:07:43) roam y -16
+\i (00:07:43) roam x -16
+\i (00:07:43) roam y 16
+\i (00:07:43) roam x -16
+\i (00:07:43) roam y 32
+\i (00:07:43) roam x -16
+\i (00:07:43) roam y 16
+\i (00:07:43) roam y 32
+\i (00:07:43) roam x -32
+\i (00:07:43) roam y 48
+\i (00:07:43) roam x -16
+\i (00:07:43) roam y 32
+\i (00:07:43) roam x -16
+\i (00:07:43) roam y 32
+\i (00:07:43) roam x -32
+\i (00:07:43) roam y 80
+\i (00:07:43) roam x -16
+\i (00:07:43) roam y 32
+\i (00:07:43) roam x -32
+\i (00:07:43) roam y 80
+\i (00:07:43) roam x -16
+\i (00:07:43) roam y 32
+\i (00:07:43) roam x -32
+\i (00:07:43) roam y 80
+\i (00:07:43) roam x -16
+\i (00:07:43) roam y 32
+\i (00:07:43) roam x -32
+\i (00:07:43) roam y 80
+\i (00:07:43) roam x -16
+\i (00:07:43) roam y 32
+\i (00:07:43) roam x -16
+\i (00:07:43) roam y 32
+\i (00:07:43) roam x -32
+\i (00:07:43) roam y 64
+\i (00:07:43) roam x -16
+\i (00:07:43) roam y 32
+\i (00:07:43) roam x -16
+\i (00:07:43) roam y 64
+\i (00:07:43) roam x -16
+\i (00:07:43) roam y 16
+\i (00:07:43) roam y 32
+\i (00:07:43) roam x -16
+\i (00:07:43) roam y 32
+\i (00:07:43) roam x -16
+\i (00:07:43) roam y 32
+\i (00:07:43) roam y 16
+\i (00:07:43) roam y 16
+\i (00:07:43) roam y 16
+\i (00:07:43) roam x -16
+\i (00:07:43) roam y 16
+\i (00:07:43) roam y 16
+\i (00:07:43) roam y 16
+\i (00:07:43) roam y 16
+\i (00:07:43) roam y 16
+\i (00:07:43) roam y 16
+\i (00:07:43) roam y 16
+\i (00:07:43) roam y 16
+\i (00:07:43) roam y 16
+\i (00:07:43) roam y 16
+\i (00:07:43) roam y 16
+\i (00:07:43) roam y 16
+\i (00:07:43) roam y 16
+\i (00:07:43) roam x 16
+\i (00:07:43) roam x 16
+\i (00:07:43) roam x 16
+\i (00:07:43) roam y 16
+\i (00:07:43) roam x 32
+\i (00:07:44) roam x -16
+\i (00:07:44) roam x -80
+\i (00:07:44) roam y 16
+\i (00:07:44) roam x -80
+\i (00:07:44) roam y 16
+\i (00:07:44) roam x -48
+\i (00:07:44) roam y 48
+\i (00:07:44) roam x -32
+\i (00:07:44) roam y 16
+\i (00:07:44) roam x -16
+\i (00:07:44) roam y 32
+\i (00:07:44) roam x -48
+\i (00:07:44) roam y 48
+\i (00:07:44) roam x -16
+\i (00:07:44) roam y 32
+\i (00:07:44) roam x -32
+\i (00:07:44) roam y 64
+\i (00:07:44) roam x -16
+\i (00:07:44) roam y 80
+\i (00:07:44) roam y 32
+\i (00:07:44) roam y 48
+\i (00:07:44) roam y 80
+\i (00:07:44) roam y 48
+\i (00:07:44) roam y 32
+\i (00:07:44) roam y 80
+\i (00:07:44) roam y 48
+\i (00:07:44) roam y 32
+\i (00:07:44) roam x 16
+\i (00:07:44) roam y 80
+\i (00:07:44) roam y 32
+\i (00:07:44) roam x 16
+\i (00:07:44) roam y 64
+\i (00:07:44) roam x 16
+\i (00:07:44) roam y 48
+\i (00:07:44) roam x 16
+\i (00:07:44) roam y 32
+\i (00:07:44) roam y 32
+\i (00:07:44) roam x 32
+\i (00:07:44) roam y 64
+\i (00:07:44) roam x 48
+\i (00:07:44) roam y 80
+\i (00:07:44) roam x 16
+\i (00:07:44) roam y 32
+\i (00:07:44) roam x 32
+\i (00:07:44) roam y 64
+\i (00:07:44) roam x 16
+\i (00:07:44) roam y 32
+\i (00:07:44) roam x 16
+\i (00:07:44) roam y 16
+\i (00:07:44) roam x 32
+\i (00:07:44) roam y 48
+\i (00:07:44) roam x 16
+\i (00:07:44) roam y 16
+\i (00:07:44) roam x 16
+\i (00:07:44) roam y 32
+\i (00:07:44) roam x 32
+\i (00:07:44) roam y 32
+\i (00:07:44) roam x 16
+\i (00:07:44) roam y 16
+\i (00:07:44) roam y 16
+\i (00:07:44) roam x 16
+\i (00:07:44) roam y 32
+\i (00:07:44) roam x 16
+\i (00:07:44) roam y 16
+\i (00:07:44) roam x 16
+\i (00:07:44) roam y 16
+\i (00:07:44) roam x 16
+\i (00:07:44) roam x 16
+\i (00:07:44) roam y 16
+\i (00:07:44) roam x 16
+\i (00:07:44) roam y -16
+\i (00:07:44) roam y -16
+\i (00:07:44) roam y -16
+\i (00:07:44) roam y -16
+\i (00:07:44) roam y -16
+\i (00:07:44) roam y -32
+\i (00:07:44) roam y -16
+\i (00:07:44) roam y -32
+\i (00:07:44) roam y -80
+\i (00:07:44) roam y -32
+\i (00:07:44) roam y -32
+\i (00:07:45) roam y -48
+\i (00:07:45) roam x -16
+\i (00:07:45) roam y -80
+\i (00:07:45) roam y -48
+\i (00:07:45) roam x -16
+\i (00:07:45) roam y -80
+\i (00:07:45) roam y -48
+\i (00:07:45) roam y -80
+\i (00:07:45) roam y -32
+\i (00:07:45) roam y -48
+\i (00:07:45) roam y -80
+\i (00:07:45) roam y -48
+\i (00:07:45) roam x 16
+\i (00:07:45) roam y -80
+\i (00:07:45) roam y -48
+\i (00:07:45) roam x 16
+\i (00:07:45) roam y -32
+\i (00:07:45) roam x 16
+\i (00:07:45) roam y -80
+\i (00:07:45) roam x 16
+\i (00:07:45) roam y -32
+\i (00:07:45) roam x 32
+\i (00:07:45) roam y -48
+\i (00:07:45) roam x 16
+\i (00:07:45) roam y -48
+\i (00:07:45) roam x 48
+\i (00:07:45) roam y -48
+\i (00:07:45) roam x 16
+\i (00:07:45) roam y -16
+\i (00:07:45) roam x 48
+\i (00:07:45) roam y -32
+\i (00:07:45) roam x 16
+\i (00:07:45) roam y -16
+\i (00:07:45) roam x 16
+\i (00:07:45) roam y -16
+\i (00:07:45) roam x 32
+\i (00:07:45) roam x 16
+\i (00:07:45) roam x 32
+\i (00:07:45) roam x 16
+\i (00:07:45) roam x 32
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 32
+\i (00:07:45) roam x 32
+\i (00:07:45) roam y 32
+\i (00:07:45) roam x 32
+\i (00:07:45) roam x 48
+\i (00:07:45) roam y 32
+\i (00:07:45) roam x 32
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 64
+\i (00:07:45) roam y 32
+\i (00:07:45) roam x 32
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 80
+\i (00:07:45) roam y 32
+\i (00:07:45) roam x 32
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 48
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 80
+\i (00:07:45) roam y 32
+\i (00:07:45) roam x 48
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 80
+\i (00:07:45) roam y 32
+\i (00:07:45) roam x 64
+\i (00:07:45) roam y 48
+\i (00:07:45) roam x 48
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 80
+\i (00:07:45) roam y 32
+\i (00:07:45) roam x 32
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 48
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 64
+\i (00:07:45) roam y 32
+\i (00:07:45) roam x 48
+\i (00:07:45) roam x 32
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 32
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 64
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 32
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 32
+\i (00:07:45) roam x 32
+\i (00:07:45) roam x 48
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 16
+\i (00:07:45) roam x 32
+\i (00:07:45) roam x 32
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 32
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 16
+\i (00:07:45) roam x 16
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 48
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 16
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 16
+\i (00:07:45) roam x 16
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 16
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 16
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 16
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 16
+\i (00:07:45) roam x 16
+\i (00:07:45) roam x 16
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 16
+\i (00:07:45) roam x 16
+\i (00:07:45) roam y 16
+\i (00:07:45) roam x 16
+\i (00:07:45) roam x 16
+\i (00:07:45) roam x 16
+\i (00:07:45) roam x 16
+\i (00:07:45) roam x 16
+\i (00:07:45) roam x 16
+\i (00:07:45) roam x 16
+\i (00:07:45) roam x 16
+\i (00:07:45) roam y -16
+\i (00:07:45) roam x 16
+\i (00:07:45) roam y -16
+\i (00:07:45) roam y -16
+\i (00:07:46) roam y -16
+\i (00:07:46) roam end
+\i (00:07:47) zoom out 
+\i (00:07:47) setwindow pcb
+\i (00:07:47) zoom out 10.1312 42.9186
+\i (00:07:47) trapsize 370
+\i (00:07:47) zoom out 
+\i (00:07:47) setwindow pcb
+\i (00:07:47) zoom out 10.1312 42.9186
+\t (00:07:47) Grids are drawn 0.1600, 0.1600 apart for enhanced viewability.
+\i (00:07:47) trapsize 741
+\i (00:07:48) zoom out 
+\i (00:07:48) setwindow pcb
+\i (00:07:48) zoom out 10.1311 42.9186
+\i (00:07:48) trapsize 1481
+\i (00:07:49) roam start
+\i (00:07:49) roam y -80
+\i (00:07:49) roam y -16
+\i (00:07:49) roam x -16
+\i (00:07:49) roam y -112
+\i (00:07:49) roam x -16
+\i (00:07:49) roam y -16
+\i (00:07:49) roam y -32
+\i (00:07:49) roam y -16
+\i (00:07:49) roam y -32
+\i (00:07:49) roam y -16
+\i (00:07:50) roam y -16
+\i (00:07:50) roam end
+\i (00:08:00) undo 
+\i (00:08:30) trapsize 893
+\i (00:08:30) generaledit 
+\i (00:08:33) pick grid 10.8717 49.0468
+\t (00:08:33) last pick:  10.8700  49.0500
+\i (00:08:42) cmgr_phys 
+\i (00:08:43) setwindow cmgr
+\i (00:08:43) cm newView ( worksheet 53:Electrical "1:Electrical Constraint Set" 7:Routing "32:Differential Pair" )
+\i (00:08:43) cm newView ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:08:43) cm fetch DRC_IS_UPTODATE ( System "System" ) System
+\i (00:08:43) cm fetch ONLINE_DRC ( System "System" ) System
+\i (00:08:44) cm fetch MIN_LINE_WIDTH ( Design "fmc_tlu_v1_17" ) Design
+\i (00:08:44) cm fetch MIN_LINE_WIDTH ( Design "fmc_tlu_v1_17" ) "Physical CSet"
+\i (00:08:44) cm fetch MAX_LINE_WIDTH ( Design "fmc_tlu_v1_17" ) Design
+\i (00:08:44) cm fetch MAX_LINE_WIDTH ( Design "fmc_tlu_v1_17" ) "Physical CSet"
+\i (00:08:44) cm fetch MIN_NECK_WIDTH ( Design "fmc_tlu_v1_17" ) Design
+\i (00:08:44) cm fetch MIN_NECK_WIDTH ( Design "fmc_tlu_v1_17" ) "Physical CSet"
+\i (00:08:44) cm fetch MAXIMUM_NECK_LENGTH ( Design "fmc_tlu_v1_17" ) Design
+\i (00:08:44) cm fetch MAXIMUM_NECK_LENGTH ( Design "fmc_tlu_v1_17" ) "Physical CSet"
+\i (00:08:44) cm fetch DIFFP_MIN_SPACE ( Design "fmc_tlu_v1_17" ) Design
+\i (00:08:44) cm fetch DIFFP_MIN_SPACE ( Design "fmc_tlu_v1_17" ) "Physical CSet"
+\i (00:08:44) cm fetch DIFFP_PRIMARY_GAP ( Design "fmc_tlu_v1_17" ) Design
+\i (00:08:44) cm fetch DIFFP_PRIMARY_GAP ( Design "fmc_tlu_v1_17" ) "Physical CSet"
+\i (00:08:44) cm fetch DIFFP_NECK_GAP ( Design "fmc_tlu_v1_17" ) Design
+\i (00:08:44) cm fetch DIFFP_COUPLED_PLUS ( Design "fmc_tlu_v1_17" ) Design
+\i (00:08:44) cm fetch DIFFP_COUPLED_PLUS ( Design "fmc_tlu_v1_17" ) "Physical CSet"
+\i (00:08:44) cm fetch DIFFP_COUPLED_MINUS ( Design "fmc_tlu_v1_17" ) Design
+\i (00:08:44) cm fetch DIFFP_COUPLED_MINUS ( Design "fmc_tlu_v1_17" ) "Physical CSet"
+\i (00:08:44) cm fetch DIFFP_NECK_GAP ( Design "fmc_tlu_v1_17" ) "Physical CSet"
+\i (00:08:44) cm fetch VIA_LIST ( Design "fmc_tlu_v1_17" ) Design
+\i (00:08:44) cm fetch VIA_LIST ( Design "fmc_tlu_v1_17" ) "Physical CSet"
 \i (00:08:44) setwindow pcb
-\i (00:08:44) pick grid 121.8529 48.6623
-\t (00:08:44) last pick:  121.3976  48.7800
-\i (00:08:46) prepopup 139.5444 38.3844
-\i (00:08:47) done 
-\i (00:08:47) generaledit 
-\i (00:08:51) save 
-\i (00:08:53) fillin yes 
-\i (00:08:54) generaledit 
-\i (00:08:55) roam start
-\i (00:08:55) roam x -32
-\i (00:08:55) roam y -48
-\i (00:08:55) roam x -80
-\i (00:08:55) roam y -48
-\i (00:08:55) roam x -368
-\i (00:08:55) roam x -496
-\i (00:08:55) roam x -144
-\i (00:08:55) roam y -32
-\i (00:08:55) roam x -192
-\i (00:08:55) roam x -32
-\i (00:08:55) roam y 16
-\i (00:08:55) roam x -80
-\i (00:08:55) roam y 80
-\i (00:08:56) roam x -32
-\i (00:08:56) roam y 48
-\i (00:08:56) roam x -32
-\i (00:08:56) roam y 64
-\i (00:08:56) roam x -16
-\i (00:08:56) roam y 64
-\i (00:08:56) roam y 16
-\i (00:08:56) roam x 16
-\i (00:08:56) roam x 32
-\i (00:08:56) roam y 16
-\i (00:08:56) roam x 16
-\i (00:08:56) roam x 32
-\i (00:08:56) roam x 64
-\i (00:08:56) roam x 48
-\i (00:08:56) roam x 48
-\i (00:08:56) roam x 48
-\i (00:08:56) roam x 16
-\i (00:08:56) roam y -16
-\i (00:08:56) roam x 16
-\i (00:08:56) roam y -16
-\i (00:08:56) roam y -16
-\i (00:08:56) roam x 16
-\i (00:08:56) roam y -32
-\i (00:08:56) roam x 16
-\i (00:08:56) roam y -16
-\i (00:08:56) roam x 32
-\i (00:08:56) roam y -80
-\i (00:08:56) roam y -32
-\i (00:08:57) roam y -16
-\i (00:08:57) roam y -32
-\i (00:08:57) roam y -16
-\i (00:08:57) roam y -16
-\i (00:08:57) roam y -16
-\i (00:08:57) roam x 16
-\i (00:08:57) roam x 16
-\i (00:08:57) roam y -16
-\i (00:08:57) roam x 16
-\i (00:08:57) roam y 16
-\i (00:08:58) roam y -16
-\i (00:08:58) roam x 16
-\i (00:08:58) roam y -16
-\i (00:08:59) roam y 16
-\i (00:08:59) roam x 16
-\i (00:08:59) roam y 16
-\i (00:08:59) roam x 32
-\i (00:08:59) roam y 128
-\i (00:08:59) roam x 16
-\i (00:08:59) roam y 80
-\i (00:08:59) roam x 32
-\i (00:08:59) roam y 112
-\i (00:08:59) roam x 32
-\i (00:08:59) roam y 48
-\i (00:08:59) roam y 32
-\i (00:08:59) roam x 16
-\i (00:09:00) roam y 16
-\i (00:09:00) roam y 16
-\i (00:09:00) roam x 16
-\i (00:09:00) roam x 16
-\i (00:09:00) roam x 48
-\i (00:09:00) roam x 368
-\i (00:09:00) roam x 160
-\i (00:09:00) roam y 16
-\i (00:09:00) roam x 432
-\i (00:09:00) roam y 48
-\i (00:09:00) roam x 288
-\i (00:09:00) roam y 32
-\i (00:09:00) roam x 80
-\i (00:09:00) roam y 16
-\i (00:09:01) roam x -16
-\i (00:09:01) roam x -96
-\i (00:09:01) roam x -512
-\i (00:09:01) roam x -320
-\i (00:09:01) roam x -592
-\i (00:09:01) roam y -160
-\i (00:09:01) roam x -112
-\i (00:09:01) roam y -48
-\i (00:09:01) roam x -192
-\i (00:09:01) roam y -96
-\i (00:09:01) roam x -32
-\i (00:09:01) roam y -16
-\i (00:09:01) roam x -32
-\i (00:09:01) roam y -16
-\i (00:09:01) roam x -64
-\i (00:09:01) roam y -64
-\i (00:09:01) roam x -16
-\i (00:09:01) roam y -32
-\i (00:09:01) roam y -16
-\i (00:09:01) roam x -16
-\i (00:09:01) roam y -80
-\i (00:09:01) roam y -16
-\i (00:09:01) roam y -32
-\i (00:09:02) roam x 16
-\i (00:09:02) roam y -64
-\i (00:09:02) roam y -16
-\i (00:09:02) roam x 16
-\i (00:09:02) roam y -16
-\i (00:09:02) roam y -32
-\i (00:09:02) roam x 16
-\i (00:09:04) roam x 16
-\i (00:09:04) roam y 16
-\i (00:09:04) roam x 16
-\i (00:09:04) roam y 16
-\i (00:09:04) roam x 32
-\i (00:09:04) roam y 48
-\i (00:09:04) roam x 32
-\i (00:09:04) roam y 16
-\i (00:09:04) roam x 16
-\i (00:09:04) roam y 16
-\i (00:09:04) roam x 32
-\i (00:09:04) roam y 32
-\i (00:09:04) roam x 16
-\i (00:09:04) roam y 16
-\i (00:09:04) roam x 16
-\i (00:09:04) roam x 16
-\i (00:09:04) roam x 16
-\i (00:09:04) roam y -16
-\i (00:09:04) roam x 16
-\i (00:09:05) roam x 16
-\i (00:09:05) roam x 16
-\i (00:09:05) roam x 192
-\i (00:09:05) roam y -16
-\i (00:09:05) roam x 112
-\i (00:09:05) roam y -16
-\i (00:09:05) roam x 224
-\i (00:09:05) roam y 16
-\i (00:09:05) roam x 16
-\i (00:09:06) roam x 16
-\i (00:09:06) roam x 16
-\i (00:09:06) roam x 32
-\i (00:09:06) roam end
-\i (00:09:10) place manual 
-\i (00:09:14) setwindow form.plc_manual
-\i (00:09:14) FORM plc_manual categories Components by refdes 
-\i (00:09:17) FORM plc_manual tree 'MULTISEL YES' J3 'Components by refdes' 
-\t (00:09:17) Placing J3 / CON8P-MOLEX_44661-1011-GND=FRAA / MOLEX_44661-1011 on Top.
-\i (00:09:17) FORM plc_manual tree  J3 'Components by refdes' 
-\i (00:09:37) setwindow pcb
-\i (00:09:37) pick grid 45.3099 46.3208
-\t (00:09:37) last pick:  45.3976  46.7800
-\i (00:09:52) undo 
-\i (00:09:52) trapsize 2808
-\i (00:09:52) generaledit 
-\i (00:10:06) save_as 
-\i (00:10:10) fillin "fmc_tlu_v1_07.brd"
-\i (00:10:10) generaledit 
-\i (00:10:12) open 
-\i (00:10:13) fillin "fmc_tlu_v1_06.brd"
-\t (00:10:13) Opening existing design...
-\i (00:10:13) trapsize 2808
-\d (00:10:13) Database opened: /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_06.brd
-\i (00:10:14) generaledit 
-\i (00:10:14) roam start
-\i (00:10:14) roam x -80
-\i (00:10:14) roam y -16
-\i (00:10:14) roam x -176
-\i (00:10:14) roam y -32
-\i (00:10:15) roam x -320
-\i (00:10:15) roam y -128
-\i (00:10:15) roam x -80
-\i (00:10:15) roam y -16
-\i (00:10:15) roam x -16
-\i (00:10:16) roam x 16
-\i (00:10:16) roam x 16
-\i (00:10:16) roam x 32
-\i (00:10:16) roam y 16
-\i (00:10:16) roam x 96
-\i (00:10:16) roam y 32
-\i (00:10:16) roam x 16
-\i (00:10:16) roam y 16
-\i (00:10:16) roam x 16
-\i (00:10:16) roam y 16
-\i (00:10:16) roam x 16
-\i (00:10:16) roam y 16
-\i (00:10:16) roam x 16
-\i (00:10:16) roam x 16
-\i (00:10:16) roam y -32
-\i (00:10:17) roam x 48
-\i (00:10:17) roam y -48
-\i (00:10:17) roam x 48
-\i (00:10:17) roam y -48
-\i (00:10:17) roam x 32
-\i (00:10:17) roam y -32
-\i (00:10:17) roam x 16
-\i (00:10:17) roam x 16
-\i (00:10:17) roam y 16
-\i (00:10:18) roam y 16
-\i (00:10:18) roam y 16
-\i (00:10:18) roam x 16
-\i (00:10:18) roam y 64
-\i (00:10:18) roam y 96
-\i (00:10:18) roam y 16
-\i (00:10:19) roam x -16
-\i (00:10:19) roam x -128
-\i (00:10:19) roam y -16
-\i (00:10:19) roam x -240
-\i (00:10:19) roam y -48
-\i (00:10:19) roam x -112
-\i (00:10:19) roam y -32
-\i (00:10:19) roam end
-\i (00:10:21) open 
-\i (00:10:23) fillin "fmc_tlu_v1_05.brd"
-\t (00:10:23) Opening existing design...
-\i (00:10:23) trapsize 1257
-\d (00:10:23) Database opened: /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_05.brd
-\i (00:10:23) generaledit 
-\i (00:10:24) roam start
-\i (00:10:24) roam x 32
-\i (00:10:24) roam x 32
-\i (00:10:24) roam y 16
-\i (00:10:24) roam x 16
-\i (00:10:24) roam y 16
-\i (00:10:24) roam x 112
-\i (00:10:24) roam y 16
-\i (00:10:24) roam x 112
-\i (00:10:24) roam y 16
-\i (00:10:24) roam x 112
-\i (00:10:24) roam y 16
-\i (00:10:24) roam x 32
-\i (00:10:24) roam y 16
-\i (00:10:24) roam x 128
-\i (00:10:24) roam y 16
-\i (00:10:24) roam x 32
-\i (00:10:24) roam x 128
-\i (00:10:24) roam y 32
-\i (00:10:24) roam x 112
-\i (00:10:24) roam y 16
-\i (00:10:24) roam x 96
-\i (00:10:24) roam x 48
-\i (00:10:24) roam x 48
-\i (00:10:25) roam x -16
-\i (00:10:25) roam x -16
-\i (00:10:25) roam x -64
-\i (00:10:25) roam x -128
-\i (00:10:25) roam y 32
-\i (00:10:25) roam x -32
-\i (00:10:25) roam x -96
-\i (00:10:25) roam y 16
-\i (00:10:25) roam x -96
-\i (00:10:25) roam y 16
-\i (00:10:25) roam x -96
-\i (00:10:25) roam y 16
-\i (00:10:25) roam x -32
-\i (00:10:25) roam x -80
-\i (00:10:25) roam y 16
-\i (00:10:25) roam x -80
-\i (00:10:25) roam y 16
-\i (00:10:25) roam x -32
-\i (00:10:25) roam x -64
-\i (00:10:25) roam x -48
-\i (00:10:25) roam y 16
-\i (00:10:25) roam x -16
-\i (00:10:25) roam x -48
-\i (00:10:25) roam x -16
-\i (00:10:25) roam x -16
-\i (00:10:25) roam x -16
-\i (00:10:25) roam y -16
-\i (00:10:25) roam y -16
-\i (00:10:25) roam x -16
-\i (00:10:25) roam y -16
-\i (00:10:25) roam x -16
-\i (00:10:25) roam y -16
-\i (00:10:25) roam x -16
-\i (00:10:25) roam y -16
-\i (00:10:25) roam y -16
-\i (00:10:25) roam x -16
-\i (00:10:25) roam y -16
-\i (00:10:25) roam x -16
-\i (00:10:25) roam y -16
-\i (00:10:25) roam x -16
-\i (00:10:25) roam y -16
-\i (00:10:25) roam y -16
-\i (00:10:25) roam x -16
-\i (00:10:25) roam y -16
-\i (00:10:25) roam y -16
-\i (00:10:25) roam x -16
-\i (00:10:25) roam y -16
-\i (00:10:25) roam x -16
-\i (00:10:26) roam end
-\i (00:10:27) open 
-\i (00:10:29) fillin "fmc_tlu_v1_03.brd"
-\t (00:10:29) Opening existing design...
-\i (00:10:32) fillin yes 
-\w (00:10:32) WARNING(SPMHDB-214): Allegro PCB Designer opening an Allegro XL design.
-\w (00:10:32) WARNING(SPMHDB-213): DRC set to "out of date". This product supports a different DRC set than last product used on drawing.
-\w (00:10:32) WARNING(SPMHOD-33): Design was last saved by a higher capability product (Allegro XL). There may be constraints and other design data that may be ignored at the tool's current license levels.
-\i (00:10:33) fillin confirm
-\i (00:10:33) trapsize 4559
-\d (00:10:34) Database opened: /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_03.brd
-\i (00:10:34) generaledit 
-\i (00:10:35) roam start
-\i (00:10:35) roam x -96
-\i (00:10:35) roam x -32
-\i (00:10:35) roam x -96
-\i (00:10:35) roam x -64
-\i (00:10:35) roam x -112
-\i (00:10:35) roam x -64
-\i (00:10:35) roam x -48
-\i (00:10:35) roam y -16
-\i (00:10:35) roam y -16
-\i (00:10:35) roam end
-\i (00:10:37) open 
-\i (00:10:42) fillin "fmc_tlu_v1_04.brd"
-\t (00:10:42) Opening existing design...
-\i (00:10:42) trapsize 6723
-\d (00:10:42) Database opened: /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_04.brd
-\i (00:10:42) generaledit 
-\i (00:10:48) show element 
-\i (00:10:58) show element 
-\i (00:10:58) show element 
-\i (00:11:00) setwindow form.find
-\i (00:11:00) FORM find symbols YES 
-\i (00:11:02) setwindow pcb
-\i (00:11:02) pick grid 39.8130 55.8799
-\t (00:11:02) last pick:  39.3976  55.7800
-\i (00:11:15) open 
-\i (00:11:17) fillin "fmc_tlu_v1_07.brd"
-\t (00:11:17) Opening existing design...
-\i (00:11:17) trapsize 2808
-\d (00:11:17) Database opened: /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_07.brd
-\i (00:11:17) generaledit 
-\i (00:11:22) define grid 
-\t (00:11:22) Spacing fields allow simple equations to aid calculations; prefix with =
-\i (00:11:22) generaledit 
-\i (00:11:29) setwindow form.grid
-\i (00:11:29) FORM grid non_etch non_etch_x_grids 100 
-\i (00:11:30) FORM grid non_etch non_etch_y_grids 100 
-\i (00:11:38) FORM grid non_etch non_etch_x_offset 47.2476 
-\i (00:11:45) FORM grid non_etch non_etch_y_offset 57.7600 
-\i (00:11:45) FORM grid done  
-\i (00:11:51) setwindow pcb
-\i (00:11:51) place manual 
-\i (00:11:55) setwindow form.plc_manual
-\i (00:11:55) FORM plc_manual tree 'MULTISEL YES' J3 'Components by refdes' 
-\t (00:11:55) Placing J3 / CON8P-MOLEX_44661-1011-GND=FRAA / MOLEX_44661-1011 on Top.
-\i (00:11:55) FORM plc_manual tree  J3 'Components by refdes' 
-\i (00:11:56) setwindow pcb
-\i (00:11:56) pick grid 95.6326 50.2523
-\t (00:11:56) last pick:  47.2476  57.7600
-\i (00:11:59) prepopup 47.9496 54.7454
-\i (00:12:02) oops 
-\t (00:12:02) Placing J3 / CON8P-MOLEX_44661-1011-GND=FRAA / MOLEX_44661-1011 on Top.
-\i (00:12:03) prepopup 47.4441 54.4084
-\i (00:12:05) rotate 
-\t (00:12:05) Spin the element(s).
-\i (00:12:07) iangle -90.000
-\t (00:12:07) last angle:  +270.000 Degrees
-\i (00:12:09) prepopup 65.9220 59.9686
-\i (00:12:10) done 
-\i (00:12:10) generaledit 
-\i (00:12:18) zoom out 
-\i (00:12:18) setwindow pcb
-\i (00:12:18) zoom out 67.8877 40.4236
-\i (00:12:18) trapsize 5616
-\i (00:12:23) place manual 
-\i (00:12:26) setwindow form.plc_manual
-\i (00:12:26) FORM plc_manual tree 'MULTISEL YES' J3 'Components by refdes' 
-\t (00:12:26) Placing J3 / CON8P-MOLEX_44661-1011-GND=FRAA / MOLEX_44661-1011 on Top.
-\i (00:12:26) FORM plc_manual tree  J3 'Components by refdes' 
-\i (00:12:29) setwindow pcb
-\i (00:12:29) prepopup 50.1400 58.1714
-\i (00:12:31) rotate 
-\t (00:12:31) Spin the element(s).
-\i (00:12:33) iangle -90.000
-\t (00:12:33) last angle:  +270.000 Degrees
-\i (00:12:36) prepopup 24.7540 85.4670
-\i (00:12:37) done 
-\i (00:12:37) generaledit 
-\i (00:13:05) place manual 
-\i (00:13:08) setwindow form.plc_manual
-\i (00:13:08) FORM plc_manual tree 'MULTISEL YES' J3 'Components by refdes' 
-\t (00:13:08) Placing J3 / CON8P-MOLEX_44661-1011-GND=FRAA / MOLEX_44661-1011 on Top.
-\i (00:13:08) FORM plc_manual tree  J3 'Components by refdes' 
-\i (00:13:11) setwindow pcb
-\i (00:13:11) pick grid 97.0929 39.1881
-\t (00:13:11) last pick:  47.2476  57.7600
-\i (00:13:13) pick grid -24.4455 75.3575
-\t (00:13:13) last pick:  -52.7524  57.7600
-\i (00:13:15) save 
-\i (00:13:18) fillin yes 
-\i (00:13:18) generaledit 
-\i (00:13:21) open 
-\i (00:13:22) fillin "fmc_tlu_v1_07.brd"
-\t (00:13:22) Opening existing design...
-\i (00:13:22) trapsize 5616
-\d (00:13:23) Database opened: /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_07.brd
-\i (00:13:23) generaledit 
-\i (00:13:30) spin 
-\t (00:13:30) Select element(s) to spin.
-\i (00:13:31) pick grid 49.9153 49.7469
-\t (00:13:31) last pick:  47.2476  57.7600
-\t (00:13:31) Moving J3 / CON8P-MOLEX_44661-1011-GND=FRAA / MOLEX_44661-1011.
-\i (00:13:32) iangle -90.000
-\t (00:13:32) last angle:  270.000 Degrees
-\t (00:13:32) Select element(s) to spin.
-\i (00:13:35) prepopup 25.5403 81.9848
-\i (00:13:36) done 
-\i (00:13:36) generaledit 
-\i (00:13:39) zoom points 
-\t (00:13:39) Pick 1st corner of the new window.
-\i (00:13:40) pick 23.7430 71.8754
-\t (00:13:40) last pick:  23.7430  71.8754
-\t (00:13:40) Pick to complete the window.
-\i (00:13:40) pick 47.4441 37.9525
-\t (00:13:40) last pick:  47.4441  37.9525
-\i (00:13:40) trapsize 1808
-\i (00:13:40) generaledit 
-\i (00:13:42) roam start
-\i (00:13:42) roam x -64
-\i (00:13:42) roam y -16
-\i (00:13:42) roam x -80
-\i (00:13:42) roam y -32
-\i (00:13:42) roam x -16
-\i (00:13:42) roam x -32
-\i (00:13:42) roam x -32
-\i (00:13:43) roam y -16
-\i (00:13:43) roam x -16
-\i (00:13:43) roam y -16
-\i (00:13:43) roam x -16
-\i (00:13:43) roam y -16
-\i (00:13:43) roam y -16
-\i (00:13:43) roam x -16
-\i (00:13:43) roam y -16
-\i (00:13:50) roam y -16
-\i (00:13:50) roam x -16
-\i (00:13:50) roam x -32
-\i (00:13:50) roam y -48
-\i (00:13:50) roam y -32
-\i (00:13:50) roam x -16
-\i (00:13:50) roam y -16
-\i (00:13:50) roam y -32
-\i (00:13:51) roam x -16
-\i (00:13:51) roam y 16
-\i (00:13:51) roam y 16
-\i (00:13:51) roam y 16
-\i (00:13:52) roam y 16
-\i (00:13:52) roam y 16
-\i (00:13:52) roam y 16
-\i (00:13:52) roam y 16
-\i (00:13:52) roam y 16
-\i (00:13:52) roam y 16
-\i (00:13:55) roam y 16
-\i (00:13:55) roam y 16
-\i (00:13:55) roam y 16
-\i (00:13:55) roam y 16
-\i (00:13:55) roam y 16
-\i (00:13:55) roam y 16
-\i (00:14:00) roam y -16
-\i (00:14:00) roam x -16
-\i (00:14:00) roam y -16
-\i (00:14:00) roam x -16
-\i (00:14:00) roam y -16
-\i (00:14:00) roam x -16
-\i (00:14:03) roam end
-\i (00:14:06) save 
-\i (00:14:08) fillin yes 
-\i (00:14:08) generaledit 
-\i (00:14:11) zoom out 
-\i (00:14:11) setwindow pcb
-\i (00:14:11) zoom out 42.4743 57.7360
-\i (00:14:11) trapsize 3617
-\i (00:14:12) zoom out 
-\i (00:14:12) setwindow pcb
-\i (00:14:12) zoom out 42.4743 57.7360
-\i (00:14:12) trapsize 7233
-\i (00:14:46) define grid 
-\t (00:14:46) Spacing fields allow simple equations to aid calculations; prefix with =
-\i (00:14:46) generaledit 
-\i (00:14:50) setwindow form.grid
-\i (00:14:50) FORM grid non_etch non_etch_x_grids 0.5 
-\i (00:14:51) FORM grid non_etch non_etch_y_grids 0.5 
-\i (00:14:53) FORM grid non_etch non_etch_x_offset 0.0000 
-\i (00:14:53) FORM grid non_etch non_etch_y_offset 0.0000 
-\i (00:14:54) FORM grid done  
-\t (00:14:54) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
-\i (00:14:57) setwindow pcb
-\i (00:14:57) show element 
-\i (00:14:58) pick grid 70.5023 65.2583
-\t (00:14:58) last pick:  70.5000  65.5000
-\i (00:15:02) setwindow form.find
-\i (00:15:02) FORM find shapes YES 
-\i (00:15:08) FORM find lines YES 
-\i (00:15:10) setwindow pcb
-\i (00:15:10) pick grid 128.5111 65.4030
-\t (00:15:10) last pick:  128.5000  65.5000
-\i (00:15:23) define grid 
-\t (00:15:23) Spacing fields allow simple equations to aid calculations; prefix with =
-\i (00:15:26) setwindow form.grid
-\i (00:15:26) FORM grid non_etch non_etch_x_grids 0.1 
-\i (00:15:27) FORM grid non_etch non_etch_y_grids 0.1 
-\i (00:15:27) FORM grid done  
-\t (00:15:27) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
-\i (00:15:32) setwindow pcb
-\i (00:15:32) roam start
-\i (00:15:32) roam y -64
-\i (00:15:32) roam y -96
-\i (00:15:32) roam y -16
-\i (00:15:32) roam y 144
-\i (00:15:32) roam y 96
-\i (00:15:32) roam y 112
-\i (00:15:33) roam x 16
-\i (00:15:33) roam y 16
-\i (00:15:33) roam end
-\i (00:20:29) pick grid 158.3112 27.2488
-\t (00:20:29) last pick:  158.3000  27.2000
-\i (00:20:33) save 
-\i (00:20:35) fillin yes 
-\i (00:20:35) generaledit 
-\i (00:20:52) place manual 
-\i (00:20:54) setwindow form.plc_manual
-\i (00:20:54) FORM plc_manual tree 'MULTISEL YES' U1 'Components by refdes' 
-\t (00:20:54) Placing U1 / PRTR5V0U8S_TSSOP-NXP / SOT552-1 on Top.
-\i (00:20:54) FORM plc_manual tree  U1 'Components by refdes' 
-\i (00:21:05) setwindow pcb
-\i (00:21:05) pick grid 29.2740 51.5517
-\t (00:21:05) last pick:  29.3000  51.6000
-\i (00:21:08) setwindow form.plc_manual
-\i (00:21:08) FORM plc_manual tree 'MULTISEL YES' IC1 'Components by refdes' 
-\t (00:21:08) Placing IC1 / AD5665RBRUZ-1-GND=GND_SIGNAL,VA / SOP65P640X120-14N on Top.
-\i (00:21:08) FORM plc_manual tree  IC1 'Components by refdes' 
-\i (00:21:43) setwindow pcb
-\i (00:21:43) pick grid 51.6964 34.4818
-\t (00:21:43) last pick:  51.7000  34.5000
-\i (00:22:02) setwindow form.plc_manual
-\i (00:22:02) FORM plc_manual tree 'MULTISEL YES' IC2 'Components by refdes' 
-\t (00:22:02) Placing IC2 / OPA4277UA / SOIC127P600X175-14N on Top.
-\i (00:22:02) FORM plc_manual tree  IC2 'Components by refdes' 
-\i (00:22:08) setwindow pcb
-\i (00:22:08) pick grid 43.4508 25.0788
-\t (00:22:08) last pick:  43.5000  25.1000
-\i (00:22:11) zoom points 
-\t (00:22:11) Pick 1st corner of the new window.
-\i (00:22:12) pick 20.8837 53.7216
-\t (00:22:12) last pick:  20.8837  53.7216
-\t (00:22:12) Pick to complete the window.
-\i (00:22:12) pick 54.1556 -0.9601
-\t (00:22:12) last pick:  54.1556  -0.9601
-\t (00:22:12) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
-\i (00:22:12) trapsize 2915
-\i (00:22:29) move 
-\t (00:22:29) Select element(s) to move.
-\i (00:22:30) pick grid 52.7717 34.0175
-\t (00:22:30) last pick:  52.8000  34.0000
-\i (00:22:33) setwindow form.find
-\i (00:22:33) FORM find symbols YES 
-\i (00:22:34) setwindow pcb
-\i (00:22:34) pick grid 51.0228 34.1924
-\t (00:22:34) last pick:  51.0000  34.2000
-\t (00:22:34) last pick:  51.7000  34.5000
-\t (00:22:34) Moving IC1 / AD5665RBRUZ-1-GND=GND_SIGNAL,VA / SOP65P640X120-14N.
-\t (00:22:34) Pick new location for the element(s).
-\i (00:22:35) pick grid 51.2560 27.0220
-\t (00:22:35) last pick:  51.3000  27.0000
-\i (00:22:36) pick grid 43.3860 23.5243
-\t (00:22:36) last pick:  43.4000  23.5000
-\t (00:22:36) last pick:  43.5000  25.1000
-\t (00:22:36) Moving IC2 / OPA4277UA / SOIC127P600X175-14N.
-\t (00:22:36) Pick new location for the element(s).
-\i (00:22:42) prepopup 50.6730 35.5332
-\i (00:22:44) rotate 
-\t (00:22:44) Spin the element(s).
-\i (00:22:45) iangle -90.000
-\t (00:22:45) last angle:  270.000 Degrees
-\i (00:22:55) pick grid 51.2560 35.4749
-\t (00:22:55) last pick:  51.3000  35.5000
-\i (00:23:00) pick grid 52.8882 24.8651
-\t (00:23:00) last pick:  52.9000  24.9000
-\t (00:23:00) last pick:  51.3000  27.0000
-\t (00:23:00) Moving IC1 / AD5665RBRUZ-1-GND=GND_SIGNAL,VA / SOP65P640X120-14N.
-\t (00:23:00) Pick new location for the element(s).
-\i (00:23:02) prepopup 50.6730 26.2642
-\i (00:23:04) rotate 
-\t (00:23:04) Spin the element(s).
-\i (00:23:05) iangle 180.000
-\t (00:23:05) last angle:  180.000 Degrees
-\i (00:23:11) prepopup 41.4622 34.8337
-\i (00:23:13) rotate 
-\t (00:23:13) Spin the element(s).
-\i (00:23:15) iangle -90.000
-\t (00:23:15) last angle:  270.000 Degrees
-\i (00:23:23) pick grid 42.5115 35.4167
-\t (00:23:23) last pick:  42.5000  35.4000
-\i (00:23:26) zoom points 
-\t (00:23:26) Pick 1st corner of the new window.
-\i (00:23:27) pick 33.2425 42.4705
-\t (00:23:27) last pick:  33.2425  42.4705
-\t (00:23:27) Pick to complete the window.
-\i (00:23:27) pick 53.8210 24.4570
-\t (00:23:27) last pick:  53.8210  24.4570
-\i (00:23:27) trapsize 960
-\i (00:23:30) prepopup 46.9735 41.2606
-\i (00:23:31) done 
-\i (00:23:31) generaledit 
-\i (00:24:00) setwindow form.find
-\i (00:24:00) FORM find all_off  
-\i (00:24:00) FORM find nets YES 
-\i (00:24:17) setwindow pcb
-\i (00:24:17) swap functions 
-\t (00:24:17) Pick a function you wish to swap.
-\i (00:24:19) pick grid 49.8733 38.1303
-\t (00:24:19) last pick:  49.9000  38.1000
-\t (00:24:19) Pick a function to swap with from those hilighted ...
-\i (00:24:20) pick grid 49.8733 33.0220
-\t (00:24:20) last pick:  49.9000  33.0000
-\w (00:24:20) WARNING(SPMHA2-12): Pick NEXT/DONE or pick the first function of the next swap.
-\i (00:24:22) prepopup 49.7389 35.4034
-\i (00:24:22) done 
-\i (00:24:23) generaledit 
-\i (00:24:49) zoom out 
-\i (00:24:49) setwindow pcb
-\i (00:24:49) zoom out 50.8719 33.4445
-\i (00:24:49) trapsize 1920
-\i (00:24:49) zoom out 
-\i (00:24:49) setwindow pcb
-\i (00:24:49) zoom out 50.8719 33.4446
-\i (00:24:49) trapsize 3841
-\i (00:25:35) zoom out 
-\i (00:25:35) setwindow pcb
-\i (00:25:35) zoom out 50.8720 33.4446
-\t (00:25:35) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
-\i (00:25:35) trapsize 7682
-\i (00:25:37) save 
-\i (00:25:39) fillin yes 
-\i (00:25:40) generaledit 
-\i (00:41:01) exit 
-\t (00:41:02)     Journal end - Fri May  4 16:39:58 2012
+\i (00:08:44) generaledit 
+\i (00:09:05) setwindow cmgr
+\i (00:09:05) cm fetch MIN_BVIA_STAGGER ( Design "fmc_tlu_v1_17" ) Design
+\i (00:09:05) cm fetch MIN_BVIA_STAGGER ( Design "fmc_tlu_v1_17" ) "Physical CSet"
+\i (00:09:06) cm fetch MAX_BVIA_STAGGER ( Design "fmc_tlu_v1_17" ) Design
+\i (00:09:06) cm fetch MAX_BVIA_STAGGER ( Design "fmc_tlu_v1_17" ) "Physical CSet"
+\i (00:09:06) cm fetch PAD_PAD_DIRECT_CONNECT ( Design "fmc_tlu_v1_17" ) Design
+\i (00:09:06) cm fetch PAD_PAD_DIRECT_CONNECT ( Design "fmc_tlu_v1_17" ) "Physical CSet"
+\i (00:09:06) cm fetch ALLOW_ON_ETCH_SUBCLASS ( Design "fmc_tlu_v1_17" ) Design
+\i (00:09:06) cm fetch ALLOW_ON_ETCH_SUBCLASS ( Design "fmc_tlu_v1_17" ) "Physical CSet"
+\i (00:09:09) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:09:09) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:09:09) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:09:11) cm select ( frame ( workbook 53:Electrical "1:Electrical Constraint Set" 7:Routing ) )
+\i (00:09:11) cm fetch DIFFP_GATHER_CONTROL ( Design "fmc_tlu_v1_17" ) "Electrical CSet"
+\i (00:09:11) cm fetch DIFFP_UNCOUPLED_LENGTH ( Design "fmc_tlu_v1_17" ) "Electrical CSet"
+\i (00:09:11) cm fetch DIFFP_PRIMARY_GAP ( Design "fmc_tlu_v1_17" ) "Electrical CSet"
+\i (00:09:11) cm fetch DIFFP_COUPLED_PLUS ( Design "fmc_tlu_v1_17" ) "Electrical CSet"
+\i (00:09:11) cm fetch DIFFP_COUPLED_MINUS ( Design "fmc_tlu_v1_17" ) "Electrical CSet"
+\i (00:09:11) cm fetch DIFFP_PHASE_TOL ( Design "fmc_tlu_v1_17" ) "Electrical CSet"
+\i (00:09:14) cm fetch DIFFP_MIN_SPACE ( Design "fmc_tlu_v1_17" ) "Electrical CSet"
+\i (00:09:14) cm fetch MIN_LINE_WIDTH ( Design "fmc_tlu_v1_17" ) "Electrical CSet"
+\i (00:09:14) cm fetch DIFFP_NECK_GAP ( Design "fmc_tlu_v1_17" ) "Electrical CSet"
+\i (00:09:14) cm fetch MIN_NECK_WIDTH ( Design "fmc_tlu_v1_17" ) "Electrical CSet"
+\i (00:09:25) cm scope Design "fmc_tlu_v1_17"
+\i (00:09:25) cm putValue ( "Electrical CSet" "DIFFSET1" ) MIN_LINE_WIDTH 0.25 7
+\i (00:09:25) cm endUndoBlock
+\i (00:09:30) cm putValue ( "Electrical CSet" "DIFFSET1" ) DIFFP_PRIMARY_GAP 0.2000 7
+\i (00:09:30) cm endUndoBlock
+\i (00:09:38) cm exit
+\i (00:09:48) setwindow pcb
+\i (00:09:48) xsection 
+   (00:09:48) Loading floor.cxt 
+   (00:09:48) Loading skillExt.cxt 
+\i (00:09:48) setwindow form.fplyrstack
+\i (00:09:48) FORM fplyrstack lsgrid cell 1,number 
+\i (00:09:50) FORM fplyrstack lsgrid cell 2,linewidth 
+\i (00:09:58) FORM fplyrstack lsgrid change 2,linewidth 0.25 
+\i (00:10:00) FORM fplyrstack lsgrid cell 2,linespacing 
+\i (00:10:04) FORM fplyrstack lsgrid change 2,linespacing 0.2 
+\i (00:10:13) FORM fplyrstack done  
+\i (00:10:13) setwindow pcb
+\i (00:10:13) generaledit 
+\i (00:10:16) add connect 
+\t (00:10:16) Pick first element.
+\i (00:10:18) pick grid 6.9793 55.2961
+\t (00:10:18) last pick:  6.9800  55.3000
+\t (00:10:18) last pick:  7.2500  55.2600
+\t (00:10:18) last pick:  7.2500  55.2600
+\i (00:10:23) pick grid 5.1223 54.7069
+\t (00:10:23) last pick:  5.1200  54.7100
+\t (00:10:23) DRC error(s) created.
+\i (00:10:30) pick grid 4.8367 48.4754
+\t (00:10:30) last pick:  4.8400  48.4800
+\t (00:10:30) DRC error(s) created.
+\t (00:10:30) last pick:  4.6645  48.6555
+\i (00:10:31) prepopup 4.7652 48.4754
+\i (00:10:32) next 
+\t (00:10:32) Pick first element.
+\i (00:10:35) pick grid 6.7472 53.6534
+\t (00:10:35) last pick:  6.7500  53.6500
+\t (00:10:35) last pick:  7.2500  53.7600
+\t (00:10:35) last pick:  7.2500  53.7600
+\i (00:10:39) pick grid 5.9972 48.6718
+\t (00:10:39) last pick:  6.0000  48.6700
+\t (00:10:39) No DRC errors detected.
+\i (00:10:40) prepopup 8.3184 49.3325
+\i (00:10:42) next 
+\t (00:10:42) Pick first element.
+\i (00:10:48) pick grid 11.9252 53.2785
+\t (00:10:48) last pick:  11.9300  53.2800
+\t (00:10:48) last pick:  11.5500  53.2600
+\t (00:10:48) last pick:  11.5500  53.2600
+\i (00:10:52) pick grid 11.9430 48.3861
+\t (00:10:52) last pick:  11.9400  48.3900
+\t (00:10:52) No DRC errors detected.
+\i (00:10:53) prepopup 11.9430 48.3861
+\i (00:10:54) next 
+\t (00:10:54) Pick first element.
+\i (00:10:55) pick grid 11.7645 54.7426
+\t (00:10:55) last pick:  11.7600  54.7400
+\t (00:10:55) last pick:  11.5500  54.7600
+\t (00:10:55) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:10:55) last pick:  11.5500  54.7600
+\w (00:10:55) Using Default Impedance and Default PropVelocity for segment on layer TOP
+\i (00:11:02) setwindow text
+\i (00:11:02) close 
+\w (00:11:02)  Timing feedback is disabled because timed based rules are not allowed.
+\w (00:11:02)  With this product, you must define delay rules in length units.
+\i (00:11:07) setwindow pcb
+\i (00:11:07) pick grid 13.0322 53.8855
+\t (00:11:07) last pick:  13.0300  53.8900
+\t (00:11:07) No DRC errors detected.
+\w (00:11:07)  Timing feedback is disabled because timed based rules are not allowed.
+\w (00:11:07)  With this product, you must define delay rules in length units.
+\i (00:11:11) pick grid 13.0500 47.1720
+\t (00:11:11) last pick:  13.0500  47.1700
+\t (00:11:11) No DRC errors detected.
+\t (00:11:11) last pick:  13.0300  47.1700
+\w (00:11:11)  Timing feedback is disabled because timed based rules are not allowed.
+\w (00:11:11)  With this product, you must define delay rules in length units.
+\i (00:11:11) prepopup 13.0500 47.1720
+\i (00:11:13) next 
+\t (00:11:13) Pick first element.
+\i (00:11:16) pick grid 15.5319 52.2072
+\t (00:11:16) last pick:  15.5300  52.2100
+\t (00:11:16) last pick:  15.5500  52.0800
+\t (00:11:16) Target Symbol Pin is defined on TOP.
+\t (00:11:16) last pick:  15.5500  52.0800
+\w (00:11:16)  Timing feedback is disabled because timed based rules are not allowed.
+\w (00:11:16)  With this product, you must define delay rules in length units.
+\i (00:11:19) pick grid 15.5498 47.1541
+\t (00:11:19) last pick:  15.5500  47.1500
+\t (00:11:19) No DRC errors detected.
+\t (00:11:19) last pick:  15.5750  47.1500
+\w (00:11:19)  Timing feedback is disabled because timed based rules are not allowed.
+\w (00:11:19)  With this product, you must define delay rules in length units.
+\i (00:11:19) prepopup 15.5319 47.1541
+\i (00:11:21) next 
+\t (00:11:21) Pick first element.
+\i (00:11:22) roam start
+\i (00:11:22) roam x -48
+\i (00:11:22) roam y -64
+\i (00:11:22) roam x -16
+\i (00:11:22) roam y -16
+\i (00:11:22) roam x -32
+\i (00:11:22) roam y -48
+\i (00:11:22) roam y -16
+\i (00:11:22) roam x -16
+\i (00:11:22) roam y -16
+\i (00:11:22) roam y -16
+\i (00:11:22) roam x -32
+\i (00:11:22) roam x -16
+\i (00:11:22) roam x -48
+\i (00:11:22) roam y 32
+\i (00:11:22) roam x -32
+\i (00:11:22) roam y 16
+\i (00:11:22) roam x -64
+\i (00:11:22) roam y 80
+\i (00:11:22) roam x -16
+\i (00:11:22) roam y 16
+\i (00:11:22) roam y 48
+\i (00:11:22) roam y 16
+\i (00:11:22) roam y 32
+\i (00:11:23) roam x 32
+\i (00:11:23) roam y 48
+\i (00:11:23) roam x 16
+\i (00:11:23) roam y 16
+\i (00:11:23) roam x 32
+\i (00:11:23) roam y 16
+\i (00:11:23) roam x 32
+\i (00:11:23) roam y 32
+\i (00:11:23) roam x 64
+\i (00:11:23) roam y 16
+\i (00:11:23) roam x 48
+\i (00:11:23) roam y 32
+\i (00:11:23) roam x 48
+\i (00:11:23) roam x 96
+\i (00:11:23) roam y 16
+\i (00:11:23) roam x 16
+\i (00:11:23) roam x 32
+\i (00:11:23) roam y 16
+\i (00:11:23) roam x 16
+\i (00:11:23) roam x 32
+\i (00:11:23) roam x 16
+\i (00:11:23) roam x 16
+\i (00:11:23) roam x 32
+\i (00:11:23) roam y -16
+\i (00:11:23) roam x 80
+\i (00:11:23) roam y -32
+\i (00:11:23) roam x 48
+\i (00:11:23) roam y -16
+\i (00:11:23) roam x 64
+\i (00:11:23) roam y -32
+\i (00:11:23) roam x 112
+\i (00:11:23) roam y -48
+\i (00:11:23) roam x 48
+\i (00:11:23) roam y -16
+\i (00:11:23) roam x 64
+\i (00:11:23) roam y -48
+\i (00:11:23) roam x 48
+\i (00:11:23) roam y -32
+\i (00:11:23) roam x 96
+\i (00:11:23) roam y -64
+\i (00:11:23) roam x 16
+\i (00:11:23) roam y -16
+\i (00:11:23) roam x 32
+\i (00:11:23) roam y -16
+\i (00:11:23) roam x 32
+\i (00:11:23) roam y -16
+\i (00:11:23) roam y -16
+\i (00:11:23) roam x 16
+\i (00:11:23) roam y -16
+\i (00:11:23) roam y -16
+\i (00:11:24) roam x -16
+\i (00:11:24) roam y 16
+\i (00:11:24) roam x -16
+\i (00:11:24) roam y 16
+\i (00:11:24) roam x -16
+\i (00:11:24) roam y 16
+\i (00:11:24) roam y 16
+\i (00:11:24) roam x -16
+\i (00:11:24) roam y 16
+\i (00:11:25) roam x -16
+\i (00:11:25) roam x -16
+\i (00:11:25) roam x -16
+\i (00:11:25) roam x -16
+\i (00:11:25) roam x -16
+\i (00:11:26) roam x -16
+\i (00:11:26) roam y 16
+\i (00:11:26) roam x -16
+\i (00:11:26) roam end
+\i (00:11:27) roam start
+\i (00:11:27) roam x -80
+\i (00:11:28) roam x -32
+\i (00:11:28) roam x -64
+\i (00:11:28) roam x -64
+\i (00:11:28) roam x -112
+\i (00:11:28) roam y -32
+\i (00:11:28) roam x -16
+\i (00:11:28) roam x -16
+\i (00:11:28) roam x -16
+\i (00:11:28) roam y 32
+\i (00:11:28) roam y 16
+\i (00:11:28) roam y 16
+\i (00:11:28) roam y 16
+\i (00:11:28) roam y 16
+\i (00:11:28) roam y 16
+\i (00:11:29) roam y 16
+\i (00:11:30) roam y -16
+\i (00:11:30) roam y -16
+\i (00:11:30) roam y -16
+\i (00:11:30) roam y -16
+\i (00:11:30) roam y -16
+\i (00:11:30) roam y -16
+\i (00:11:30) roam x -16
+\i (00:11:30) roam y -16
+\i (00:11:31) roam x 16
+\i (00:11:31) roam x 16
+\i (00:11:32) roam y 16
+\i (00:11:32) roam y 16
+\i (00:11:32) roam y 16
+\i (00:11:32) roam y 16
+\i (00:11:32) roam y 16
+\i (00:11:32) roam x 16
+\i (00:11:32) roam x 16
+\i (00:11:32) roam x 32
+\i (00:11:32) roam x 16
+\i (00:11:32) roam y 16
+\i (00:11:33) roam x 32
+\i (00:11:33) roam x 256
+\i (00:11:33) roam y 32
+\i (00:11:33) roam x 16
+\i (00:11:33) roam x 16
+\i (00:11:33) roam x 16
+\i (00:11:33) roam x 16
+\i (00:11:33) roam y -16
+\i (00:11:33) roam x 16
+\i (00:11:33) roam x 16
+\i (00:11:33) roam y -16
+\i (00:11:33) roam x 16
+\i (00:11:33) roam x 16
+\i (00:11:33) roam y -16
+\i (00:11:33) roam x -16
+\i (00:11:34) roam x -16
+\i (00:11:34) roam x -16
+\i (00:11:34) roam x -16
+\i (00:11:34) roam x -32
+\i (00:11:34) roam x -16
+\i (00:11:34) roam x -32
+\i (00:11:34) roam y 16
+\i (00:11:34) roam x -16
+\i (00:11:34) roam y 16
+\i (00:11:34) roam x -16
+\i (00:11:34) roam y 16
+\i (00:11:34) roam x -16
+\i (00:11:34) roam x -16
+\i (00:11:34) roam y 16
+\i (00:11:34) roam x -16
+\i (00:11:34) roam y 16
+\i (00:11:34) roam x -16
+\i (00:11:35) roam end
+\i (00:11:36) roam start
+\i (00:11:36) roam x -16
+\i (00:11:36) roam y -64
+\i (00:11:36) roam y -16
+\i (00:11:36) roam x -32
+\i (00:11:36) roam y -80
+\i (00:11:36) roam x -16
+\i (00:11:36) roam y -16
+\i (00:11:36) roam y -32
+\i (00:11:36) roam y -16
+\i (00:11:37) roam y 16
+\i (00:11:37) roam y 16
+\i (00:11:37) roam y 48
+\i (00:11:37) roam y 16
+\i (00:11:37) roam y 32
+\i (00:11:37) roam y 16
+\i (00:11:37) roam x -16
+\i (00:11:37) roam y 16
+\i (00:11:37) roam y 16
+\i (00:11:37) roam x -16
+\i (00:11:37) roam y 16
+\i (00:11:37) roam y 16
+\i (00:11:37) roam y 16
+\i (00:11:37) roam x -16
+\i (00:11:37) roam y 32
+\i (00:11:37) roam y 16
+\i (00:11:37) roam y 16
+\i (00:11:37) roam y 32
+\i (00:11:37) roam y 16
+\i (00:11:37) roam y 16
+\i (00:11:38) roam y 16
+\i (00:11:38) roam y 16
+\i (00:11:38) roam y 16
+\i (00:11:38) roam y 16
+\i (00:11:38) roam x -16
+\i (00:11:38) roam y 16
+\i (00:11:38) roam y 16
+\i (00:11:38) roam end
+\i (00:11:39) roam start
+\i (00:11:39) roam x 16
+\i (00:11:39) roam y -64
+\i (00:11:39) roam x 32
+\i (00:11:39) roam y -64
+\i (00:11:39) roam x 16
+\i (00:11:39) roam y -32
+\i (00:11:39) roam y -32
+\i (00:11:40) roam y -16
+\i (00:11:40) roam y -16
+\i (00:11:40) roam x 16
+\i (00:11:40) roam y -16
+\i (00:11:40) roam end
+\i (00:11:41) move 
+\t (00:11:41) Select element(s) to move.
+\i (00:11:42) drag_start grid 16.9391 52.2388
+\i (00:11:43) drag_stop 23.9205 44.1325
+\i (00:11:44) roam start
+\i (00:11:45) roam x 80
+\i (00:11:45) roam x 48
+\i (00:11:45) roam y -16
+\i (00:11:45) roam x 32
+\i (00:11:45) roam x 16
+\i (00:11:45) roam x -48
+\i (00:11:45) roam x -368
+\i (00:11:45) roam y 48
+\i (00:11:45) roam x -112
+\i (00:11:45) roam y 16
+\i (00:11:45) roam x -224
+\i (00:11:45) roam x -16
+\i (00:11:45) roam x -32
+\i (00:11:45) roam y -16
+\i (00:11:45) roam x -16
+\i (00:11:46) roam x -32
+\i (00:11:46) roam y -16
+\i (00:11:46) roam x -16
+\i (00:11:46) roam x -64
+\i (00:11:46) roam x -16
+\i (00:11:46) roam y 16
+\i (00:11:46) roam x 16
+\i (00:11:46) roam x 16
+\i (00:11:46) roam x 96
+\i (00:11:46) roam y 16
+\i (00:11:46) roam x 16
+\i (00:11:46) roam end
+\i (00:11:48) pick grid 17.8141 49.5963
+\t (00:11:48) last pick:  17.8100  49.6000
+\t (00:11:48) Moving TP12 / TP_HOLE-0.8MM / TP_HOLE_08.
+\t (00:11:48) Moving TP11 / TP_HOLE-0.8MM / TP_HOLE_08.
+\t (00:11:48) Moving IC4 / SN74LVC1G07DCK-GND=GND_SIGNAL,A / SOT65P210X110-5N.
+\t (00:11:48) Moving T1 / TRANS MOSFET_GSD-FDV301N,SOT23 / SOT23.
+\t (00:11:48) Moving IC6 / SN74LVC1G07DCK-GND=GND_SIGNAL,A / SOT65P210X110-5N.
+\t (00:11:48) Moving T2 / TRANS MOSFET_GSD-FDV301N,SOT23 / SOT23.
+\t (00:11:48) Pick new location for the element(s).
+\i (00:11:51) pick grid 16.8320 46.9894
+\t (00:11:51) last pick:  16.8300  46.9900
+\i (00:11:52) roam start
+\i (00:11:52) roam x 64
+\i (00:11:52) roam x 64
+\i (00:11:52) roam y -16
+\i (00:11:52) roam x 16
+\i (00:11:52) roam x 80
+\i (00:11:52) roam y -16
+\i (00:11:53) roam x 48
+\i (00:11:53) roam end
+\i (00:11:53) prepopup 26.7952 48.4179
+\i (00:11:54) done 
+\i (00:11:54) generaledit 
+\i (00:11:55) roam start
+\i (00:11:55) roam x 64
+\i (00:11:55) roam y -48
+\i (00:11:55) roam x 16
+\i (00:11:55) roam y -16
+\i (00:11:55) roam x 16
+\i (00:11:55) roam y -16
+\i (00:11:55) roam x 80
+\i (00:11:55) roam y -64
+\i (00:11:55) roam x 16
+\i (00:11:55) roam x 16
+\i (00:11:55) roam y -16
+\i (00:11:55) roam x 16
+\i (00:11:55) roam y -32
+\i (00:11:55) roam x 16
+\i (00:11:55) roam y -16
+\i (00:11:55) roam x 16
+\i (00:11:55) roam x 16
+\i (00:11:55) roam y 32
+\i (00:11:55) roam y 16
+\i (00:11:56) roam x 16
+\i (00:11:56) roam y 32
+\i (00:11:56) roam x 16
+\i (00:11:56) roam y 16
+\i (00:11:56) roam x 16
+\i (00:11:56) roam x 16
+\i (00:11:56) roam x 16
+\i (00:11:56) roam y 16
+\i (00:11:56) roam x 16
+\i (00:11:56) roam x 16
+\i (00:11:56) roam x 16
+\i (00:11:56) roam x 16
+\i (00:11:56) roam y 16
+\i (00:11:56) roam x 16
+\i (00:11:56) roam x 16
+\i (00:11:56) roam end
+\i (00:12:00) add connect 
+\t (00:12:00) Pick first element.
+\i (00:12:02) pick grid 23.9384 53.3459
+\t (00:12:02) last pick:  23.9400  53.3500
+\t (00:12:02) last pick:  24.3500  53.3000
+\t (00:12:02) last pick:  24.3500  53.3000
+\i (00:12:08) pick grid 23.4206 53.1852
+\t (00:12:08) last pick:  23.4200  53.1900
+\t (00:12:08) No DRC errors detected.
+\i (00:12:08) mouse_pos 23.4206 53.1852
+\i (00:12:08) mouse_pos 23.4027 52.8638
+\i (00:12:14) prepopup 23.5277 51.2211
+\i (00:12:16) oops 
+\t (00:12:16) last pick:  24.3500  53.3000
+\i (00:12:19) pick grid 24.0098 51.5782
+\t (00:12:19) last pick:  24.0100  51.5800
+\t (00:12:19) No DRC errors detected.
+\i (00:12:22) pick grid 25.9381 49.3106
+\t (00:12:22) last pick:  25.9400  49.3100
+\t (00:12:22) No DRC errors detected.
+\i (00:12:24) pick grid 25.7953 46.2931
+\t (00:12:24) last pick:  25.8000  46.2900
+\t (00:12:24) No DRC errors detected.
+\t (00:12:24) last pick:  25.9400  46.4300
+\i (00:12:24) prepopup 25.7953 46.2931
+\i (00:12:25) next 
+\t (00:12:25) Pick first element.
+\i (00:12:27) pick grid 24.1883 54.7743
+\t (00:12:27) last pick:  24.1900  54.7700
+\t (00:12:27) last pick:  24.3500  54.3000
+\t (00:12:27) Target Symbol Pin is defined on TOP.
+\t (00:12:27) last pick:  24.3500  54.3000
+\i (00:12:28) prepopup 22.8313 54.7386
+\i (00:12:30) next 
+\t (00:12:30) Pick first element.
+\i (00:12:31) pick grid 24.0633 55.2028
+\t (00:12:31) last pick:  24.0600  55.2000
+\t (00:12:31) last pick:  24.3500  55.3000
+\t (00:12:31) last pick:  24.3500  55.3000
+\i (00:12:40) pick grid 22.6171 55.3278
+\t (00:12:40) last pick:  22.6200  55.3300
+\t (00:12:40) No DRC errors detected.
+\i (00:12:44) pick grid 22.1707 51.1140
+\t (00:12:44) last pick:  22.1700  51.1100
+\t (00:12:44) No DRC errors detected.
+\t (00:12:44) last pick:  21.4200  51.1100
+\i (00:12:47) pick grid 23.5277 48.8285
+\t (00:12:47) last pick:  23.5300  48.8300
+\t (00:12:47) No DRC errors detected.
+\i (00:12:48) pick grid 23.5098 46.5788
+\t (00:12:48) last pick:  23.5100  46.5800
+\t (00:12:48) No DRC errors detected.
+\t (00:12:48) last pick:  23.5300  46.6000
+\i (00:12:48) prepopup 23.5098 46.5788
+\i (00:12:50) next 
+\t (00:12:50) Pick first element.
+\i (00:12:51) roam start
+\i (00:12:51) roam x -80
+\i (00:12:51) roam x -32
+\i (00:12:51) roam x -32
+\i (00:12:51) roam x -80
+\i (00:12:51) roam x -144
+\i (00:12:51) roam x -48
+\i (00:12:51) roam x -48
+\i (00:12:51) roam y 32
+\i (00:12:51) roam x -32
+\i (00:12:51) roam y 48
+\i (00:12:51) roam x -16
+\i (00:12:51) roam y 32
+\i (00:12:51) roam x -16
+\i (00:12:51) roam y 16
+\i (00:12:52) roam x 16
+\i (00:12:52) roam x 176
+\i (00:12:52) roam y 16
+\i (00:12:52) roam x 80
+\i (00:12:52) roam y 16
+\i (00:12:52) roam x 144
+\i (00:12:52) roam x 240
+\i (00:12:52) roam x 96
+\i (00:12:52) roam x 64
+\i (00:12:52) roam x 64
+\i (00:12:52) roam x 128
+\i (00:12:52) roam x 32
+\i (00:12:52) roam x 16
+\i (00:12:52) roam x 16
+\i (00:12:52) roam y -16
+\i (00:12:52) roam x -16
+\i (00:12:52) roam x -32
+\i (00:12:52) roam y -48
+\i (00:12:52) roam y -16
+\i (00:12:52) roam y -32
+\i (00:12:52) roam y -48
+\i (00:12:52) roam y -80
+\i (00:12:52) roam y -16
+\i (00:12:52) roam y -32
+\i (00:12:52) roam y -32
+\i (00:12:52) roam y -16
+\i (00:12:52) roam x 16
+\i (00:12:53) roam end
+\i (00:12:57) pick grid 29.0271 54.8635
+\t (00:12:57) last pick:  29.0300  54.8600
+\t (00:12:57) last pick:  28.6500  54.8000
+\t (00:12:57) last pick:  28.6500  54.8000
+\i (00:13:01) pick grid 29.5806 55.0957
+\t (00:13:01) last pick:  29.5800  55.1000
+\t (00:13:01) No DRC errors detected.
+\i (00:13:04) pick grid 30.2234 54.4529
+\t (00:13:04) last pick:  30.2200  54.4500
+\t (00:13:04) No DRC errors detected.
+\i (00:13:04) mouse_pos 30.2056 54.3279
+\i (00:13:05) mouse_pos 30.0984 52.1138
+\i (00:13:10) pick grid 30.1341 51.7389
+\t (00:13:10) last pick:  30.1300  51.7400
+\t (00:13:10) DRC error(s) created.
+\t (00:13:10) last pick:  30.2200  51.7400
+\i (00:13:12) pick grid 30.2591 47.2394
+\t (00:13:12) last pick:  30.2600  47.2400
+\t (00:13:12) No DRC errors detected.
+\t (00:13:12) last pick:  30.2200  47.2400
+\i (00:13:12) prepopup 30.2591 47.2394
+\i (00:13:14) next 
+\t (00:13:14) Pick first element.
+\i (00:13:15) pick grid 28.8486 53.7030
+\t (00:13:15) last pick:  28.8500  53.7000
+\t (00:13:15) last pick:  28.6500  53.8000
+\t (00:13:15) last pick:  28.6500  53.8000
+\i (00:13:19) pick grid 29.4735 52.2567
+\t (00:13:19) last pick:  29.4700  52.2600
+\t (00:13:19) No DRC errors detected.
+\i (00:13:20) pick grid 29.5092 46.9001
+\t (00:13:20) last pick:  29.5100  46.9000
+\t (00:13:20) No DRC errors detected.
+\t (00:13:20) last pick:  29.4700  46.9000
+\i (00:13:21) prepopup 29.4378 46.9180
+\i (00:13:23) next 
+\t (00:13:23) Pick first element.
+\i (00:13:25) pick grid 32.4553 51.6139
+\t (00:13:25) last pick:  32.4600  51.6100
+\t (00:13:25) last pick:  32.4900  51.6500
+\t (00:13:25) Target Symbol Pin is defined on TOP.
+\t (00:13:25) last pick:  32.4900  51.6500
+\w (00:13:25)  Timing feedback is disabled because timed based rules are not allowed.
+\w (00:13:25)  With this product, you must define delay rules in length units.
+\i (00:13:27) pick grid 32.4018 46.7394
+\t (00:13:27) last pick:  32.4000  46.7400
+\t (00:13:27) No DRC errors detected.
+\t (00:13:27) last pick:  32.4900  46.8300
+\w (00:13:27)  Timing feedback is disabled because timed based rules are not allowed.
+\w (00:13:27)  With this product, you must define delay rules in length units.
+\i (00:13:27) prepopup 32.4018 46.7394
+\i (00:13:29) next 
+\t (00:13:29) Pick first element.
+\i (00:13:30) roam start
+\i (00:13:30) roam x -64
+\i (00:13:30) roam y -16
+\i (00:13:30) roam x -16
+\i (00:13:30) roam y -16
+\i (00:13:30) roam x -80
+\i (00:13:30) roam y -32
+\i (00:13:30) roam x -96
+\i (00:13:30) roam y -48
+\i (00:13:30) roam x -208
+\i (00:13:30) roam y -80
+\i (00:13:30) roam x -64
+\i (00:13:30) roam y -16
+\i (00:13:30) roam x -80
+\i (00:13:30) roam x -176
+\i (00:13:30) roam x -64
+\i (00:13:30) roam x -64
+\i (00:13:30) roam y 16
+\i (00:13:30) roam x -128
+\i (00:13:30) roam y 80
+\i (00:13:30) roam x -32
+\i (00:13:30) roam y 32
+\i (00:13:30) roam x -32
+\i (00:13:30) roam y 48
+\i (00:13:30) roam x -64
+\i (00:13:30) roam y 80
+\i (00:13:31) roam y 16
+\i (00:13:31) roam x -16
+\i (00:13:31) roam y 16
+\i (00:13:31) roam x -64
+\i (00:13:31) roam y 48
+\i (00:13:31) roam x -16
+\i (00:13:31) roam x -16
+\i (00:13:31) roam y 16
+\i (00:13:31) roam end
+\i (00:13:32) slide 
+\t (00:13:54) Pick element to slide.
+\i (00:13:54) pick grid ext 5.4939 55.0778
+\t (00:13:54) last pick:  5.4900  55.0800
+\t (00:13:54) last pick:  5.4901  55.0801
+\t (00:13:54) Waiting for the destination pick.
+\i (00:13:58) pick grid 4.4048 49.1498
+\t (00:13:58) last pick:  4.4000  49.1500
+\t (00:13:58) DRC errors detected.
+\t (00:13:58) Pick another element to slide.
+\i (00:14:01) pick grid 5.4047 54.8814
+\t (00:14:01) last pick:  5.4000  54.8800
+\t (00:14:01) last pick:  5.4053  54.8750
+\t (00:14:01) Waiting for the destination pick.
+\i (00:14:02) pick grid 5.4047 54.8814
+\t (00:14:02) last pick:  5.4000  54.8800
+\t (00:14:02) DRC errors detected.
+\t (00:14:02) Pick another element to slide.
+\i (00:14:03) roam start
+\i (00:14:03) roam x -64
+\i (00:14:03) roam y -32
+\i (00:14:03) roam y -16
+\i (00:14:03) roam x -16
+\i (00:14:03) roam x -16
+\i (00:14:03) roam x -16
+\i (00:14:03) roam y -16
+\i (00:14:03) roam x -16
+\i (00:14:04) roam end
+\i (00:14:07) zoom points 
+\t (00:14:07) Pick 1st corner of the new window.
+\i (00:14:07) pick 2.1014 56.6848
+\t (00:14:07) last pick:  2.1014  56.6848
+\t (00:14:07) Pick to complete the window.
+\i (00:14:08) pick 4.4226 48.8107
+\t (00:14:08) last pick:  4.4226  48.8107
+\t (00:14:08) Grids are drawn 0.0400, 0.0400 apart for enhanced viewability.
+\i (00:14:08) trapsize 441
+\i (00:14:11) roam start
+\i (00:14:11) roam x 16
+\i (00:14:11) roam y 32
+\i (00:14:11) roam x 32
+\i (00:14:11) roam y 32
+\i (00:14:11) roam y 16
+\i (00:14:11) roam x 16
+\i (00:14:11) roam y 16
+\i (00:14:11) roam x 16
+\i (00:14:11) roam y 16
+\i (00:14:11) roam x 16
+\i (00:14:11) roam y 32
+\i (00:14:11) roam x 16
+\i (00:14:11) roam y 16
+\i (00:14:11) roam x -16
+\i (00:14:12) roam x -48
+\i (00:14:12) roam y -32
+\i (00:14:12) roam x -16
+\i (00:14:12) roam x -16
+\i (00:14:12) roam y -16
+\i (00:14:12) roam x -80
+\i (00:14:12) roam y -32
+\i (00:14:12) roam x -48
+\i (00:14:12) roam y -32
+\i (00:14:12) roam x -48
+\i (00:14:12) roam y -16
+\i (00:14:12) roam x -16
+\i (00:14:12) roam x -16
+\i (00:14:12) roam y -16
+\i (00:14:12) roam y -16
+\i (00:14:12) roam y -16
+\i (00:14:12) roam y -16
+\i (00:14:12) roam x -16
+\i (00:14:13) roam y -16
+\i (00:14:13) roam y -16
+\i (00:14:13) roam x -16
+\i (00:14:13) roam y -16
+\i (00:14:13) roam x -16
+\i (00:14:13) roam y -16
+\i (00:14:13) roam x -32
+\i (00:14:13) roam x -16
+\i (00:14:13) roam y -16
+\i (00:14:13) roam x -16
+\i (00:14:13) roam x -16
+\i (00:14:13) roam x -32
+\i (00:14:13) roam x -64
+\i (00:14:13) roam x -16
+\i (00:14:13) roam x -16
+\i (00:14:13) roam x -16
+\i (00:14:13) roam x -16
+\i (00:14:13) roam y 16
+\i (00:14:13) roam x -16
+\i (00:14:13) roam y 16
+\i (00:14:13) roam y 16
+\i (00:14:13) roam y 16
+\i (00:14:13) roam y 16
+\i (00:14:13) roam y 16
+\i (00:14:13) roam y 16
+\i (00:14:13) roam y 16
+\i (00:14:13) roam y 16
+\i (00:14:13) roam x 16
+\i (00:14:13) roam y 16
+\i (00:14:13) roam y 16
+\i (00:14:13) roam x 16
+\i (00:14:14) roam y 16
+\i (00:14:14) roam x 16
+\i (00:14:14) roam x 16
+\i (00:14:14) roam x 16
+\i (00:14:14) roam x 16
+\i (00:14:14) roam x 16
+\i (00:14:14) roam y 16
+\i (00:14:14) roam x 32
+\i (00:14:14) roam x 32
+\i (00:14:14) roam x 32
+\i (00:14:14) roam x 16
+\i (00:14:14) roam y 16
+\i (00:14:14) roam x 16
+\i (00:14:14) roam x 16
+\i (00:14:14) roam x 16
+\i (00:14:14) roam y 16
+\i (00:14:14) roam x 16
+\i (00:14:14) roam x 16
+\i (00:14:14) roam y -16
+\i (00:14:14) roam x 16
+\i (00:14:14) roam y -16
+\i (00:14:14) roam y -16
+\i (00:14:14) roam x 32
+\i (00:14:14) roam y -80
+\i (00:14:14) roam y -16
+\i (00:14:14) roam x 16
+\i (00:14:14) roam y -16
+\i (00:14:14) roam y -16
+\i (00:14:14) roam y -16
+\i (00:14:15) roam y -16
+\i (00:14:15) roam y -16
+\i (00:14:15) roam y -16
+\i (00:14:15) roam y -16
+\i (00:14:15) roam y -16
+\i (00:14:15) roam y -16
+\i (00:14:15) roam y -16
+\i (00:14:15) roam y -48
+\i (00:14:15) roam y -16
+\i (00:14:15) roam y -16
+\i (00:14:15) roam y -16
+\i (00:14:15) roam x -16
+\i (00:14:15) roam y -32
+\i (00:14:15) roam y -16
+\i (00:14:15) roam y -16
+\i (00:14:15) roam y -32
+\i (00:14:15) roam x -16
+\i (00:14:15) roam y -64
+\i (00:14:15) roam y -32
+\i (00:14:15) roam y -32
+\i (00:14:15) roam x -16
+\i (00:14:15) roam y -16
+\i (00:14:15) roam y -32
+\i (00:14:15) roam y -16
+\i (00:14:16) roam y 16
+\i (00:14:16) roam y 32
+\i (00:14:16) roam y 16
+\i (00:14:16) roam y 16
+\i (00:14:16) roam y 32
+\i (00:14:16) roam y 16
+\i (00:14:16) roam x 16
+\i (00:14:16) roam y 16
+\i (00:14:16) roam y 32
+\i (00:14:16) roam x 32
+\i (00:14:16) roam y 64
+\i (00:14:16) roam y 16
+\i (00:14:16) roam y 16
+\i (00:14:16) roam x 16
+\i (00:14:16) roam y 16
+\i (00:14:16) roam x 16
+\i (00:14:16) roam y 16
+\i (00:14:16) roam y 16
+\i (00:14:16) roam x 16
+\i (00:14:16) roam x 16
+\i (00:14:16) roam x 16
+\i (00:14:16) roam x 16
+\i (00:14:16) roam x 16
+\i (00:14:16) roam x 16
+\i (00:14:16) roam x 16
+\i (00:14:16) roam y 16
+\i (00:14:16) roam x 16
+\i (00:14:16) roam x 16
+\i (00:14:16) roam y 16
+\i (00:14:16) roam y 16
+\i (00:14:16) roam x 16
+\i (00:14:17) roam x 16
+\i (00:14:17) roam y 16
+\i (00:14:17) roam x 16
+\i (00:14:17) roam x 16
+\i (00:14:17) roam x 16
+\i (00:14:17) roam y 16
+\i (00:14:17) roam x 16
+\i (00:14:17) roam x 16
+\i (00:14:17) roam x 16
+\i (00:14:17) roam y 16
+\i (00:14:17) roam x 16
+\i (00:14:17) roam y 16
+\i (00:14:17) roam y 16
+\i (00:14:17) roam x 16
+\i (00:14:17) roam y 16
+\i (00:14:17) roam y 16
+\i (00:14:17) roam y 16
+\i (00:14:19) roam y 16
+\i (00:14:19) roam x 16
+\i (00:14:19) roam y 16
+\i (00:14:19) roam y 16
+\i (00:14:19) roam x 16
+\i (00:14:19) roam y 32
+\i (00:14:19) roam y 32
+\i (00:14:19) roam y 16
+\i (00:14:19) roam x 16
+\i (00:14:19) roam y 16
+\i (00:14:19) roam y 16
+\i (00:14:19) roam x -16
+\i (00:14:19) roam end
+\i (00:14:21) slide 
+\t (00:14:21) Pick element to slide.
+\i (00:14:22) pick grid 6.4429 50.4215
+\t (00:14:22) last pick:  6.4400  50.4200
+\t (00:14:22) last pick:  6.4500  50.4200
+\t (00:14:22) Waiting for the destination pick.
+\i (00:14:25) pick grid 7.2109 50.6068
+\t (00:14:25) last pick:  7.2100  50.6100
+\t (00:14:25) No DRC errors detected.
+\t (00:14:25) Pick another element to slide.
+\i (00:14:26) pick grid 5.9927 50.7393
+\t (00:14:26) last pick:  5.9900  50.7400
+\t (00:14:26) last pick:  6.0000  50.7400
+\t (00:14:26) Waiting for the destination pick.
+\i (00:14:30) pick grid 6.7519 50.8805
+\t (00:14:30) last pick:  6.7500  50.8800
+\t (00:14:30) No DRC errors detected.
+\t (00:14:30) Pick another element to slide.
+\i (00:14:32) pick grid 6.7607 51.9928
+\t (00:14:32) last pick:  6.7600  51.9900
+\t (00:14:32) last pick:  6.7469  51.9900
+\t (00:14:32) Waiting for the destination pick.
+\i (00:14:32) pick grid 6.6460 51.9663
+\t (00:14:32) last pick:  6.6500  51.9700
+\t (00:14:32) No DRC errors detected.
+\t (00:14:32) Pick another element to slide.
+\i (00:14:33) undo 
+\i (00:14:33) trapsize 441
+\i (00:14:33) generaledit 
+\i (00:14:34) undo 
+\i (00:14:34) trapsize 441
+\i (00:14:34) generaledit 
+\i (00:14:35) pick grid 5.9839 51.6926
+\t (00:14:35) last pick:  5.9800  51.6900
+\i (00:14:38) slide 
+\t (00:14:38) Selected item not valid for current operation, ignored: Net "Cont1"
+\t (00:14:38) No valid items selected for the current operation, exiting.
+\i (00:14:38) generaledit 
+\i (00:14:38) pick grid 5.9839 50.7216
+\t (00:14:38) last pick:  5.9800  50.7200
+\i (00:14:40) prepopup 6.3900 50.1213
+\i (00:14:41) pick grid 6.6989 50.4744
+\t (00:14:41) last pick:  6.7000  50.4700
+\i (00:14:43) slide 
+\t (00:14:43) Pick element to slide.
+\i (00:14:44) pick grid 6.0545 50.3508
+\t (00:14:44) last pick:  6.0500  50.3500
+\t (00:14:44) last pick:  6.0000  50.3500
+\t (00:14:44) Waiting for the destination pick.
+\i (00:14:47) pick grid 6.6901 50.3950
+\t (00:14:47) last pick:  6.6900  50.4000
+\t (00:14:47) No DRC errors detected.
+\t (00:14:47) Pick another element to slide.
+\i (00:14:48) roam start
+\i (00:14:48) roam x -80
+\i (00:14:48) roam x -64
+\i (00:14:48) roam y -16
+\i (00:14:48) roam x -32
+\i (00:14:48) roam y -32
+\i (00:14:48) roam x -16
+\i (00:14:48) roam y -16
+\i (00:14:49) roam end
+\i (00:14:50) pick grid 5.1894 54.1467
+\t (00:14:50) last pick:  5.1900  54.1500
+\t (00:14:50) last pick:  5.2233  54.1167
+\t (00:14:50) Waiting for the destination pick.
+\i (00:14:54) pick grid 5.6837 48.9297
+\t (00:14:54) last pick:  5.6800  48.9300
+\t (00:14:54) DRC errors detected.
+\t (00:14:54) Pick another element to slide.
+\i (00:14:56) pick grid 4.7480 50.7128
+\t (00:14:56) last pick:  4.7500  50.7100
+\t (00:14:56) last pick:  4.6645  50.7100
+\t (00:14:56) Waiting for the destination pick.
+\i (00:14:57) pick grid 4.8540 50.7393
+\t (00:14:57) last pick:  4.8500  50.7400
+\t (00:14:57) DRC errors detected.
+\t (00:14:57) Pick another element to slide.
+\i (00:14:58) pick grid 5.4189 54.4292
+\t (00:14:58) last pick:  5.4200  54.4300
+\t (00:14:58) last pick:  5.5083  54.3416
+\t (00:14:58) Waiting for the destination pick.
+\i (00:15:05) pick grid 5.8073 53.6612
+\t (00:15:05) last pick:  5.8100  53.6600
+\t (00:15:05) DRC errors detected.
+\t (00:15:05) Pick another element to slide.
+\i (00:15:05) pick grid 5.3306 52.1782
+\t (00:15:05) last pick:  5.3300  52.1800
+\t (00:15:05) last pick:  5.3515  52.1800
+\t (00:15:05) Waiting for the destination pick.
+\i (00:15:07) pick grid 5.8162 52.1164
+\t (00:15:07) last pick:  5.8200  52.1200
+\t (00:15:07) No DRC errors detected.
+\t (00:15:07) Pick another element to slide.
+\i (00:15:09) pick grid 5.5602 48.8414
+\t (00:15:09) last pick:  5.5600  48.8400
+\t (00:15:09) last pick:  5.5751  48.8251
+\t (00:15:09) Waiting for the destination pick.
+\i (00:15:12) pick grid 5.8426 48.8149
+\t (00:15:12) last pick:  5.8400  48.8100
+\t (00:15:12) No DRC errors detected.
+\t (00:15:12) Pick another element to slide.
+\i (00:15:13) pick grid 4.9069 51.3749
+\t (00:15:13) last pick:  4.9100  51.3700
+\t (00:15:13) last pick:  4.8500  51.3700
+\t (00:15:13) Waiting for the destination pick.
+\i (00:15:16) pick grid 5.3483 51.2866
+\t (00:15:16) last pick:  5.3500  51.2900
+\t (00:15:16) DRC errors detected.
+\t (00:15:16) Pick another element to slide.
+\i (00:15:18) pick grid 5.7985 55.1619
+\t (00:15:18) last pick:  5.8000  55.1600
+\t (00:15:18) last pick:  5.8000  55.2100
+\t (00:15:18) Waiting for the destination pick.
+\i (00:15:19) pick grid 5.8250 55.3208
+\t (00:15:19) last pick:  5.8300  55.3200
+\t (00:15:19) DRC errors detected.
+\t (00:15:19) Pick another element to slide.
+\i (00:15:20) roam start
+\i (00:15:20) roam x -64
+\i (00:15:20) roam y -48
+\i (00:15:20) roam x -16
+\i (00:15:20) roam y -16
+\i (00:15:20) roam x -32
+\i (00:15:20) roam y -32
+\i (00:15:20) roam x -16
+\i (00:15:20) roam y -16
+\i (00:15:20) roam x -16
+\i (00:15:20) roam y -16
+\i (00:15:20) roam x -16
+\i (00:15:20) roam y -16
+\i (00:15:20) roam x -64
+\i (00:15:20) roam y -80
+\i (00:15:20) roam x -16
+\i (00:15:20) roam y -16
+\i (00:15:20) roam x -16
+\i (00:15:20) roam y -32
+\i (00:15:20) roam x -16
+\i (00:15:20) roam y -32
+\i (00:15:21) roam x -16
+\i (00:15:22) roam x 16
+\i (00:15:22) roam y 16
+\i (00:15:22) roam x 16
+\i (00:15:22) roam y 16
+\i (00:15:22) roam y 16
+\i (00:15:22) roam x 32
+\i (00:15:22) roam y 32
+\i (00:15:22) roam x 16
+\i (00:15:22) roam y 16
+\i (00:15:22) roam x 16
+\i (00:15:22) roam y 32
+\i (00:15:22) roam x 16
+\i (00:15:22) roam y 16
+\i (00:15:22) roam x 32
+\i (00:15:22) roam y 32
+\i (00:15:22) roam x 64
+\i (00:15:22) roam y 96
+\i (00:15:22) roam x 32
+\i (00:15:22) roam y 32
+\i (00:15:22) roam x 32
+\i (00:15:22) roam y 48
+\i (00:15:22) roam x 32
+\i (00:15:22) roam y 32
+\i (00:15:22) roam x 32
+\i (00:15:22) roam y 16
+\i (00:15:22) roam x 16
+\i (00:15:22) roam y 16
+\i (00:15:22) roam x 16
+\i (00:15:22) roam y 16
+\i (00:15:23) roam y -16
+\i (00:15:23) roam x 16
+\i (00:15:23) roam y -16
+\i (00:15:23) roam y -16
+\i (00:15:23) roam x 16
+\i (00:15:23) roam y -16
+\i (00:15:23) roam y -16
+\i (00:15:23) roam y -16
+\i (00:15:24) roam end
+\i (00:15:26) pick grid 6.7431 53.5376
+\t (00:15:26) last pick:  6.7400  53.5400
+\t (00:15:26) last pick:  6.6900  53.6450
+\t (00:15:26) Waiting for the destination pick.
+\i (00:15:27) pick grid 6.7519 53.7230
+\t (00:15:27) last pick:  6.7500  53.7200
+\t (00:15:27) No DRC errors detected.
+\t (00:15:27) Pick another element to slide.
+\i (00:15:28) roam start
+\i (00:15:28) roam x 32
+\i (00:15:28) roam y -16
+\i (00:15:28) roam x 32
+\i (00:15:28) roam x 32
+\i (00:15:28) roam x 48
+\i (00:15:28) roam x 48
+\i (00:15:28) roam y -16
+\i (00:15:28) roam x 64
+\i (00:15:28) roam x 32
+\i (00:15:28) roam y -16
+\i (00:15:28) roam x 32
+\i (00:15:28) roam x 16
+\i (00:15:28) roam y -16
+\i (00:15:28) roam x 16
+\i (00:15:28) roam y -16
+\i (00:15:29) roam end
+\i (00:15:30) pick grid 11.8983 52.1340
+\t (00:15:30) last pick:  11.9000  52.1300
+\t (00:15:30) last pick:  11.9400  52.1300
+\t (00:15:30) Waiting for the destination pick.
+\i (00:15:34) pick grid 11.5629 51.9310
+\t (00:15:34) last pick:  11.5600  51.9300
+\t (00:15:34) No DRC errors detected.
+\t (00:15:34) Pick another element to slide.
+\i (00:15:35) pick grid 12.3397 51.6397
+\t (00:15:35) last pick:  12.3400  51.6400
+\t (00:15:35) last pick:  12.3900  51.6400
+\t (00:15:35) Waiting for the destination pick.
+\i (00:15:37) pick grid 12.1014 51.6485
+\t (00:15:37) last pick:  12.1000  51.6500
+\t (00:15:37) No DRC errors detected.
+\t (00:15:37) Pick another element to slide.
+\i (00:15:38) pick grid 11.5276 50.2449
+\t (00:15:38) last pick:  11.5300  50.2400
+\t (00:15:38) last pick:  11.5500  50.2400
+\t (00:15:38) Waiting for the destination pick.
+\i (00:15:41) pick grid 11.6423 50.2361
+\t (00:15:41) last pick:  11.6400  50.2400
+\t (00:15:41) No DRC errors detected.
+\t (00:15:41) Pick another element to slide.
+\i (00:15:41) roam start
+\i (00:15:42) roam y 64
+\i (00:15:42) roam x -16
+\i (00:15:42) roam y 64
+\i (00:15:42) roam y 48
+\i (00:15:42) roam y 32
+\i (00:15:42) roam x -16
+\i (00:15:42) roam y 32
+\i (00:15:42) roam y 48
+\i (00:15:42) roam x -16
+\i (00:15:42) roam y 32
+\i (00:15:42) roam y 48
+\i (00:15:42) roam y 32
+\i (00:15:42) roam y 32
+\i (00:15:42) roam end
+\i (00:15:43) roam start
+\i (00:15:43) roam x -48
+\i (00:15:43) roam y 48
+\i (00:15:43) roam x -16
+\i (00:15:43) roam y 16
+\i (00:15:43) roam x -16
+\i (00:15:43) roam y 16
+\i (00:15:43) roam x -48
+\i (00:15:43) roam y 80
+\i (00:15:43) roam x -80
+\i (00:15:43) roam y 64
+\i (00:15:43) roam x -48
+\i (00:15:43) roam y 48
+\i (00:15:43) roam x -32
+\i (00:15:43) roam y 48
+\i (00:15:43) roam x -80
+\i (00:15:43) roam y 96
+\i (00:15:43) roam x -32
+\i (00:15:43) roam y 32
+\i (00:15:43) roam x -32
+\i (00:15:43) roam y 48
+\i (00:15:43) roam x -32
+\i (00:15:43) roam y 32
+\i (00:15:43) roam x -16
+\i (00:15:43) roam y 16
+\i (00:15:44) roam x -16
+\i (00:15:44) roam y -32
+\i (00:15:44) roam x -32
+\i (00:15:44) roam y -48
+\i (00:15:44) roam x -16
+\i (00:15:44) roam y -48
+\i (00:15:44) roam x -16
+\i (00:15:44) roam y -48
+\i (00:15:44) roam x -64
+\i (00:15:44) roam y -144
+\i (00:15:44) roam y -32
+\i (00:15:44) roam x -32
+\i (00:15:44) roam y -64
+\i (00:15:44) roam x -16
+\i (00:15:44) roam y -80
+\i (00:15:44) roam x -16
+\i (00:15:44) roam y -64
+\i (00:15:44) roam x -16
+\i (00:15:44) roam y -80
+\i (00:15:44) roam y -64
+\i (00:15:44) roam x -16
+\i (00:15:44) roam y -64
+\i (00:15:44) roam y -64
+\i (00:15:44) roam x -16
+\i (00:15:44) roam y -48
+\i (00:15:44) roam y -32
+\i (00:15:44) roam x -16
+\i (00:15:44) roam y -64
+\i (00:15:44) roam y -16
+\i (00:15:44) roam y -16
+\i (00:15:44) roam y -16
+\i (00:15:44) roam x 16
+\i (00:15:44) roam x 16
+\i (00:15:44) roam x 16
+\i (00:15:44) roam y 16
+\i (00:15:44) roam x 16
+\i (00:15:44) roam x 32
+\i (00:15:44) roam x 32
+\i (00:15:44) roam x 64
+\i (00:15:44) roam x 48
+\i (00:15:44) roam x 32
+\i (00:15:44) roam x 48
+\i (00:15:45) roam x 32
+\i (00:15:45) roam x 64
+\i (00:15:45) roam x 16
+\i (00:15:45) roam x 16
+\i (00:15:45) roam x 32
+\i (00:15:45) roam x 32
+\i (00:15:45) roam y 16
+\i (00:15:45) roam x 32
+\i (00:15:45) roam x 32
+\i (00:15:45) roam y 16
+\i (00:15:45) roam x 32
+\i (00:15:45) roam y 16
+\i (00:15:45) roam x 32
+\i (00:15:45) roam y 16
+\i (00:15:45) roam x 64
+\i (00:15:45) roam y 48
+\i (00:15:45) roam x 16
+\i (00:15:45) roam y 16
+\i (00:15:45) roam x 32
+\i (00:15:45) roam y 16
+\i (00:15:45) roam x 32
+\i (00:15:45) roam y 32
+\i (00:15:45) roam x 48
+\i (00:15:45) roam y 48
+\i (00:15:45) roam x 16
+\i (00:15:45) roam y 16
+\i (00:15:45) roam x 16
+\i (00:15:45) roam y 32
+\i (00:15:45) roam y 16
+\i (00:15:45) roam y 32
+\i (00:15:45) roam y 16
+\i (00:15:45) roam y 16
+\i (00:15:45) roam y 16
+\i (00:15:45) roam y 16
+\i (00:15:45) roam x -16
+\i (00:15:45) roam y 16
+\i (00:15:45) roam x -16
+\i (00:15:45) roam x -16
+\i (00:15:45) roam y 16
+\i (00:15:45) roam x -16
+\i (00:15:45) roam x -16
+\i (00:15:45) roam x -16
+\i (00:15:45) roam y 16
+\i (00:15:45) roam x -16
+\i (00:15:45) roam x -16
+\i (00:15:45) roam x -32
+\i (00:15:45) roam y 16
+\i (00:15:45) roam x -16
+\i (00:15:45) roam x -16
+\i (00:15:45) roam x -16
+\i (00:15:45) roam x -16
+\i (00:15:46) roam y -16
+\i (00:15:46) roam y -16
+\i (00:15:46) roam y -16
+\i (00:15:46) roam y -16
+\i (00:15:46) roam y -16
+\i (00:15:46) roam y -16
+\i (00:15:46) roam y -16
+\i (00:15:46) roam y -16
+\i (00:15:46) roam y -32
+\i (00:15:46) roam y -16
+\i (00:15:46) roam x 16
+\i (00:15:46) roam y -80
+\i (00:15:46) roam y -32
+\i (00:15:46) roam x 16
+\i (00:15:46) roam y -32
+\i (00:15:46) roam y -48
+\i (00:15:46) roam x 16
+\i (00:15:46) roam y -48
+\i (00:15:46) roam y -32
+\i (00:15:46) roam y -32
+\i (00:15:46) roam x 16
+\i (00:15:46) roam y -16
+\i (00:15:46) roam y -32
+\i (00:15:46) roam x 16
+\i (00:15:46) roam y -48
+\i (00:15:46) roam y -32
+\i (00:15:46) roam x 16
+\i (00:15:46) roam y -16
+\i (00:15:46) roam y -16
+\i (00:15:47) roam y -16
+\i (00:15:47) roam end
+\i (00:15:48) zoom out 
+\i (00:15:48) setwindow pcb
+\i (00:15:48) zoom out 14.1317 54.9941
+\t (00:15:48) Grids are drawn 0.1600, 0.1600 apart for enhanced viewability.
+\i (00:15:48) trapsize 883
+\i (00:15:49) roam start
+\i (00:15:50) roam x 64
+\i (00:15:50) roam x 16
+\i (00:15:50) roam y 16
+\i (00:15:50) roam x 112
+\i (00:15:50) roam y 16
+\i (00:15:50) roam x 48
+\i (00:15:50) roam x 64
+\i (00:15:50) roam y 16
+\i (00:15:50) roam x 96
+\i (00:15:50) roam y 16
+\i (00:15:50) roam x 16
+\i (00:15:50) roam x 16
+\i (00:15:50) roam x 64
+\i (00:15:50) roam y 16
+\i (00:15:50) roam x 32
+\i (00:15:50) roam y 16
+\i (00:15:50) roam x 32
+\i (00:15:50) roam y 16
+\i (00:15:50) roam x 64
+\i (00:15:50) roam x 48
+\i (00:15:50) roam y 16
+\i (00:15:50) roam x 96
+\i (00:15:50) roam y 16
+\i (00:15:50) roam x 16
+\i (00:15:50) roam x 16
+\i (00:15:50) roam y 16
+\i (00:15:50) roam x 16
+\i (00:15:50) roam y 32
+\i (00:15:50) roam y 16
+\i (00:15:50) roam y 16
+\i (00:15:50) roam y 16
+\i (00:15:50) roam x 16
+\i (00:15:50) roam y 16
+\i (00:15:51) roam y 16
+\i (00:15:51) roam y 16
+\i (00:15:51) roam y 16
+\i (00:15:51) roam y 16
+\i (00:15:51) roam y 16
+\i (00:15:51) roam y 16
+\i (00:15:51) roam x -16
+\i (00:15:51) roam y 16
+\i (00:15:51) roam x -16
+\i (00:15:51) roam x -16
+\i (00:15:52) roam y -16
+\i (00:15:52) roam y -16
+\i (00:15:52) roam end
+\i (00:15:54) zoom out 
+\i (00:15:54) setwindow pcb
+\i (00:15:54) zoom out 27.9644 49.0621
+\i (00:15:54) trapsize 1766
+\i (00:16:00) zoom points 
+\t (00:16:00) Pick 1st corner of the new window.
+\i (00:16:01) pick 39.8638 56.1594
+\t (00:16:01) last pick:  39.8638  56.1594
+\t (00:16:01) Pick to complete the window.
+\i (00:16:02) pick 44.8425 41.7176
+\t (00:16:02) last pick:  44.8425  41.7176
+\i (00:16:02) trapsize 810
+\i (00:16:08) show element 
+\i (00:16:11) prepopup 50.3066 54.3299
+\i (00:16:13) cancel 
+\i (00:16:13) generaledit 
+\i (00:16:13) prepopup 49.6590 54.8156
+\i (00:16:14) pick grid 50.2904 55.2204
+\t (00:16:14) last pick:  50.2900  55.2200
+\i (00:16:15) show element 
+\i (00:16:18) setwindow form.find
+\i (00:16:18) FORM find drc_errors YES 
+\i (00:16:27) setwindow pcb
+\i (00:16:27) roam start
+\i (00:16:27) roam y 32
+\i (00:16:27) roam y 32
+\i (00:16:27) roam y 32
+\i (00:16:27) roam y 32
+\i (00:16:27) roam x -16
+\i (00:16:27) roam y 16
+\i (00:16:27) roam y 32
+\i (00:16:27) roam y 32
+\i (00:16:27) roam y 32
+\i (00:16:27) roam x -16
+\i (00:16:27) roam y 16
+\i (00:16:28) roam y 16
+\i (00:16:28) roam y 16
+\i (00:16:28) roam y 16
+\i (00:16:28) roam y 16
+\i (00:16:28) roam y 16
+\i (00:16:28) roam y 16
+\i (00:16:28) roam x -16
+\i (00:16:28) roam y 16
+\i (00:16:28) roam y -16
+\i (00:16:28) roam y -16
+\i (00:16:28) roam y -16
+\i (00:16:29) roam x -16
+\i (00:16:29) roam y -16
+\i (00:16:29) roam y -16
+\i (00:16:29) roam y -16
+\i (00:16:29) roam y -16
+\i (00:16:29) roam y -16
+\i (00:16:29) roam y -16
+\i (00:16:29) roam y -16
+\i (00:16:29) roam y -16
+\i (00:16:29) roam x -16
+\i (00:16:29) roam y -16
+\i (00:16:29) roam y -16
+\i (00:16:29) roam y -16
+\i (00:16:29) roam y -16
+\i (00:16:29) roam y -16
+\i (00:16:29) roam y -16
+\i (00:16:29) roam y -16
+\i (00:16:29) roam y -16
+\i (00:16:29) roam y -16
+\i (00:16:29) roam y -16
+\i (00:16:29) roam end
+\i (00:16:37) roam start
+\i (00:16:37) roam y 64
+\i (00:16:37) roam x -16
+\i (00:16:37) roam y 16
+\i (00:16:37) roam y 16
+\i (00:16:37) roam y 64
+\i (00:16:37) roam x -16
+\i (00:16:37) roam y 16
+\i (00:16:37) roam y 16
+\i (00:16:37) roam y 16
+\i (00:16:37) roam y 16
+\i (00:16:37) roam y 16
+\i (00:16:37) roam y 16
+\i (00:16:38) roam x -16
+\i (00:16:38) roam y 16
+\i (00:16:38) roam x -16
+\i (00:16:38) roam x -16
+\i (00:16:38) roam y 16
+\i (00:16:38) roam y 16
+\i (00:16:38) roam x -16
+\i (00:16:38) roam x -16
+\i (00:16:38) roam y 16
+\i (00:16:38) roam x -16
+\i (00:16:38) roam y 16
+\i (00:16:38) roam x -16
+\i (00:16:38) roam y 16
+\i (00:16:38) roam y 32
+\i (00:16:38) roam y 16
+\i (00:16:39) roam y 16
+\i (00:16:39) roam y 16
+\i (00:16:39) roam y 16
+\i (00:16:39) roam y 32
+\i (00:16:39) roam y 16
+\i (00:16:39) roam y -16
+\i (00:16:39) roam y -16
+\i (00:16:39) roam y -16
+\i (00:16:39) roam y -16
+\i (00:16:39) roam x 16
+\i (00:16:39) roam y -16
+\i (00:16:40) roam x 16
+\i (00:16:40) roam y -16
+\i (00:16:40) roam y -16
+\i (00:16:40) roam x 16
+\i (00:16:40) roam y -16
+\i (00:16:40) roam end
+\i (00:16:45) add connect 
+\t (00:16:45) Pick first element.
+\i (00:16:47) pick grid 49.8785 45.2157
+\t (00:16:47) last pick:  49.8800  45.2200
+\t (00:16:47) last pick:  49.8500  45.2000
+\t (00:16:47) last pick:  49.8500  45.2000
+\i (00:16:57) prepopup 50.8013 45.1023
+\i (00:17:06) oops 
+\t (00:17:06) last pick:  49.8500  45.2000
+\t (00:17:06) Pick first element.
+\i (00:17:09) pick grid 49.8137 43.2404
+\t (00:17:09) last pick:  49.8100  43.2400
+\t (00:17:09) last pick:  49.8500  43.2000
+\t (00:17:09) last pick:  49.8500  43.2000
+\i (00:17:14) pick grid 51.1899 42.5281
+\t (00:17:14) last pick:  51.1900  42.5300
+\t (00:17:14) No DRC errors detected.
+\i (00:17:15) prepopup 51.1899 42.5281
+\i (00:17:16) next 
+\t (00:17:16) Pick first element.
+\i (00:17:18) pick grid 50.3965 45.1347
+\t (00:17:18) last pick:  50.4000  45.1300
+\t (00:17:18) last pick:  49.8500  45.2000
+\t (00:17:18) last pick:  49.8500  45.2000
+\i (00:17:22) pick grid 51.3842 45.1671
+\t (00:17:22) last pick:  51.3800  45.1700
+\t (00:17:22) No DRC errors detected.
+\i (00:17:22) mouse_pos 51.3842 45.1671
+\i (00:17:22) mouse_pos 51.4651 45.0214
+\i (00:17:24) pick grid 52.5661 40.6985
+\t (00:17:24) last pick:  52.5700  40.7000
+\t (00:17:24) No DRC errors detected.
+\i (00:17:26) pick grid 45.1023 38.1405
+\t (00:17:26) last pick:  45.1000  38.1400
+\t (00:17:26) No DRC errors detected.
+\i (00:17:27) roam start
+\i (00:17:27) roam y 64
+\i (00:17:27) roam y 16
+\i (00:17:27) roam y 16
+\i (00:17:27) roam y 16
+\i (00:17:27) roam y 16
+\i (00:17:27) roam y 16
+\i (00:17:27) roam x -16
+\i (00:17:27) roam y 80
+\i (00:17:27) roam y 16
+\i (00:17:27) roam y 32
+\i (00:17:27) roam y 32
+\i (00:17:27) roam x -16
+\i (00:17:27) roam y 32
+\i (00:17:28) roam end
+\i (00:17:32) pick grid 42.9813 31.7452
+\t (00:17:32) last pick:  42.9800  31.7500
+\t (00:17:32) No DRC errors detected.
+\i (00:17:32) prepopup 42.9813 31.7452
+\i (00:17:34) next 
+\t (00:17:34) Pick first element.
+\i (00:17:36) pick grid 51.1899 42.5928
+\t (00:17:36) last pick:  51.1900  42.5900
+\t (00:17:36) last pick:  51.1900  42.5300
+\t (00:17:36) last pick:  51.1900  42.5300
+\i (00:17:37) prepopup 47.5956 41.0871
+\i (00:17:39) next 
+\t (00:17:39) Pick first element.
+\i (00:17:40) pick grid 51.2384 43.2404
+\t (00:17:40) last pick:  51.2400  43.2400
+\t (00:17:40) last pick:  51.1900  43.1664
+\t (00:17:40) last pick:  51.1900  43.1664
+\i (00:17:40) mouse_pos 51.2384 43.2404
+\i (00:17:41) mouse_pos 51.3842 42.0099
+\i (00:17:42) prepopup 50.6070 41.5404
+\i (00:17:43) oops 
+\t (00:17:43) last pick:  51.1900  43.1664
+\t (00:17:43) Pick first element.
+\i (00:17:45) delete 
+\i (00:17:46) pick grid 50.8499 42.7871
+\t (00:17:46) last pick:  50.8500  42.7900
+\t (00:17:46) Odd-angle Line Segment "Cont0*, Etch/Top"
+\i (00:17:46) pick grid dbl 50.8499 42.7871
+\t (00:17:46) last pick:  50.8500  42.7900
+\i (00:17:47) pick grid 50.5261 43.1918
+\t (00:17:47) last pick:  50.5300  43.1900
+\t (00:17:47) Horizontal Line Segment "Cont0*, Etch/Top"
+\i (00:17:47) pick grid dbl 50.5261 43.1918
+\t (00:17:47) last pick:  50.5300  43.1900
+\t (00:17:47) Odd-angle Line Segment "Cont0*, Etch/Top"
+\i (00:17:48) pick grid 50.7365 43.5642
+\t (00:17:48) last pick:  50.7400  43.5600
+\t (00:17:48) Odd-angle Line Segment "Cont0, Etch/Top"
+\i (00:17:48) pick grid dbl 50.7365 43.5642
+\t (00:17:48) last pick:  50.7400  43.5600
+\t (00:17:48) Horizontal Line Segment "Cont0, Etch/Top"
+\i (00:17:48) pick grid 50.6232 43.5804
+\t (00:17:48) last pick:  50.6200  43.5800
+\t (00:17:48) Odd-angle Line Segment "Cont0, Etch/Top"
+\i (00:17:48) pick grid dbl 50.6232 43.5804
+\t (00:17:48) last pick:  50.6200  43.5800
+\t (00:17:48) Horizontal Line Segment "Cont0, Etch/Top"
+\i (00:17:49) pick grid 50.5099 43.5804
+\t (00:17:49) last pick:  50.5100  43.5800
+\i (00:17:49) pick grid 50.4127 43.2080
+\t (00:17:49) last pick:  50.4100  43.2100
+\t (00:17:49) Horizontal Line Segment "Cont0*, Etch/Top"
+\i (00:17:50) pick grid dbl 50.4127 43.2080
+\t (00:17:50) last pick:  50.4100  43.2100
+\i (00:17:51) roam start
+\i (00:17:51) roam x -32
+\i (00:17:51) roam y -64
+\i (00:17:51) roam x -16
+\i (00:17:51) roam y -16
+\i (00:17:51) roam x -16
+\i (00:17:51) roam x -16
+\i (00:17:51) roam y -16
+\i (00:17:51) roam x -16
+\i (00:17:51) roam y -32
+\i (00:17:51) roam x -16
+\i (00:17:51) roam y -32
+\i (00:17:51) roam end
+\i (00:17:52) add connect 
+\t (00:17:52) Pick first element.
+\i (00:17:54) pick grid 50.2670 43.5966
+\t (00:17:54) last pick:  50.2700  43.6000
+\t (00:17:54) last pick:  49.8500  43.7000
+\t (00:17:54) last pick:  49.8500  43.7000
+\i (00:17:56) pick grid 50.9308 42.5119
+\t (00:17:56) last pick:  50.9300  42.5100
+\t (00:17:56) No DRC errors detected.
+\i (00:18:00) pick grid 41.4595 36.7805
+\t (00:18:00) last pick:  41.4600  36.7800
+\t (00:18:00) No DRC errors detected.
+\i (00:18:03) pick grid 41.4757 32.6034
+\t (00:18:03) last pick:  41.4800  32.6000
+\t (00:18:03) No DRC errors detected.
+\t (00:18:03) last pick:  41.6369  32.7569
+\i (00:18:03) prepopup 41.4757 32.6034
+\i (00:18:04) pop neck 
+\i (00:18:05) roam start
+\i (00:18:05) roam x -16
+\i (00:18:05) roam y 80
+\i (00:18:05) roam y 16
+\i (00:18:05) roam x -16
+\i (00:18:05) roam y 16
+\i (00:18:05) roam y 16
+\i (00:18:05) roam y 16
+\i (00:18:05) roam y 16
+\i (00:18:05) roam x -16
+\i (00:18:05) roam y 16
+\i (00:18:05) roam y 16
+\i (00:18:06) roam end
+\i (00:18:06) prepopup 40.7309 31.9233
+\i (00:18:11) pop neck 
+\i (00:18:13) pick grid 41.5728 31.9071
+\t (00:18:13) last pick:  41.5700  31.9100
+\t (00:18:13) No DRC errors detected.
+\t (00:18:13) last pick:  41.6369  31.9100
+\i (00:18:13) prepopup 41.5728 31.9071
+\i (00:18:16) next 
+\t (00:18:16) Pick first element.
+\i (00:18:16) roam start
+\i (00:18:16) roam y -80
+\i (00:18:16) roam y -64
+\i (00:18:16) roam y -16
+\i (00:18:16) roam y -32
+\i (00:18:16) roam y -16
+\i (00:18:16) roam y -16
+\i (00:18:16) roam y -48
+\i (00:18:16) roam y -16
+\i (00:18:16) roam x -16
+\i (00:18:16) roam y -32
+\i (00:18:17) roam end
+\i (00:18:18) slide 
+\t (00:19:18) Pick element to slide.
+\i (00:19:18) pick grid ext 51.1089 40.8280
+\t (00:19:18) last pick:  51.1100  40.8300
+\t (00:19:18) last pick:  51.0893  40.8507
+\t (00:19:18) Waiting for the destination pick.
+\i (00:19:18) pick grid 50.1537 41.5728
+\t (00:19:18) last pick:  50.1500  41.5700
+\t (00:19:18) No DRC errors detected.
+\t (00:19:18) Pick another element to slide.
+\i (00:19:18) slide 
+\t (00:19:18) Pick element to slide.
+\i (00:19:18) pick grid 51.1251 40.9899
+\t (00:19:18) last pick:  51.1300  40.9900
+\t (00:19:18) Pick element to slide.
+\i (00:19:18) roam start
+\i (00:19:18) roam end
+\i (00:19:25) prepopup 48.2594 41.7994
+\i (00:19:25) done 
+\i (00:19:25) generaledit 
+\i (00:19:26) prepopup 48.3242 41.8156
+\i (00:19:29) undo 
+\i (00:19:29) trapsize 810
+\i (00:19:29) generaledit 
+\i (00:19:33) undo 
+\i (00:19:33) trapsize 810
+\i (00:19:33) generaledit 
+\i (00:19:39) slide 
+\t (00:19:39) Pick element to slide.
+\i (00:19:41) pick grid 51.1413 40.7471
+\t (00:19:41) last pick:  51.1400  40.7500
+\t (00:19:41) last pick:  51.0643  40.8257
+\t (00:19:41) Waiting for the destination pick.
+\i (00:19:43) pick grid 50.6718 41.2652
+\t (00:19:43) last pick:  50.6700  41.2700
+\t (00:19:43) No DRC errors detected.
+\t (00:19:43) Pick another element to slide.
+\i (00:19:45) pick grid 50.7204 42.1071
+\t (00:19:45) last pick:  50.7200  42.1100
+\t (00:19:45) last pick:  50.7436  42.0600
+\t (00:19:45) Waiting for the destination pick.
+\i (00:19:46) pick grid 49.8461 42.1071
+\t (00:19:46) last pick:  49.8500  42.1100
+\t (00:19:46) No DRC errors detected.
+\t (00:19:46) Pick another element to slide.
+\i (00:19:47) pick grid 51.0765 42.1556
+\t (00:19:47) last pick:  51.0800  42.1600
+\t (00:19:47) last pick:  51.1936  42.1600
+\t (00:19:47) Waiting for the destination pick.
+\i (00:19:48) pick grid 50.3318 42.3661
+\t (00:19:48) last pick:  50.3300  42.3700
+\t (00:19:48) No DRC errors detected.
+\t (00:19:48) Pick another element to slide.
+\i (00:19:49) pick grid 50.2023 40.8928
+\t (00:19:49) last pick:  50.2000  40.8900
+\t (00:19:49) last pick:  50.2450  40.8450
+\t (00:19:49) Waiting for the destination pick.
+\i (00:19:50) pick grid 49.8461 41.4432
+\t (00:19:50) last pick:  49.8500  41.4400
+\t (00:19:50) No DRC errors detected.
+\t (00:19:50) Pick another element to slide.
+\i (00:19:51) pick grid 50.8823 43.1432
+\t (00:19:51) last pick:  50.8800  43.1400
+\t (00:19:51) last pick:  50.9200  43.1000
+\t (00:19:51) Waiting for the destination pick.
+\i (00:19:52) pick grid 50.7527 43.1432
+\t (00:19:52) last pick:  50.7500  43.1400
+\t (00:19:52) No DRC errors detected.
+\t (00:19:52) Pick another element to slide.
+\i (00:19:53) roam start
+\i (00:19:54) roam y -32
+\i (00:19:54) roam x 16
+\i (00:19:54) roam y -32
+\i (00:19:54) roam y -32
+\i (00:19:54) roam x 16
+\i (00:19:54) roam y -16
+\i (00:19:54) roam y -32
+\i (00:19:54) roam y -32
+\i (00:19:54) roam y -16
+\i (00:19:54) roam y -16
+\i (00:19:54) roam y -16
+\i (00:19:54) roam x 16
+\i (00:19:55) roam y -16
+\i (00:19:55) roam y -16
+\i (00:19:55) roam y -16
+\i (00:19:55) roam y -16
+\i (00:19:55) roam y -16
+\i (00:19:55) roam y -16
+\i (00:19:55) roam y -16
+\i (00:19:55) roam y -16
+\i (00:19:55) roam end
+\i (00:19:58) roam start
+\i (00:19:58) roam x -48
+\i (00:19:58) roam y 64
+\i (00:19:58) roam x -48
+\i (00:19:58) roam y 64
+\i (00:19:58) roam x -64
+\i (00:19:58) roam y 80
+\i (00:19:58) roam x -16
+\i (00:19:58) roam y 16
+\i (00:19:58) roam x -48
+\i (00:19:58) roam y 64
+\i (00:19:58) roam x -32
+\i (00:19:58) roam y 48
+\i (00:19:58) roam x -32
+\i (00:19:58) roam y 48
+\i (00:19:58) roam x -16
+\i (00:19:58) roam y 32
+\i (00:19:58) roam x -32
+\i (00:19:58) roam y 32
+\i (00:19:58) roam x -32
+\i (00:19:58) roam y 64
+\i (00:19:58) roam y 16
+\i (00:19:58) roam x -16
+\i (00:19:58) roam y 32
+\i (00:19:58) roam x -16
+\i (00:19:58) roam y 32
+\i (00:19:59) roam y 32
+\i (00:19:59) roam y 16
+\i (00:19:59) roam y 16
+\i (00:19:59) roam end
+\i (00:20:00) delete 
+\i (00:21:01) pick grid 42.5604 33.5262
+\t (00:21:01) last pick:  42.5600  33.5300
+\t (00:21:01) Vertical Line Segment "Dut_Clk0, Etch/Top"
+\i (00:22:00) delete 
+\i (00:22:02) pick grid 42.8680 34.4005
+\t (00:22:02) last pick:  42.8700  34.4000
+\t (00:22:02) Vertical Line Segment "Dut_Clk0*, Etch/Top"
+\i (00:22:02) pick grid dbl 42.8680 34.4005
+\t (00:22:02) last pick:  42.8700  34.4000
+\i (00:22:03) pick grid 43.0137 36.0519
+\t (00:22:03) last pick:  43.0100  36.0500
+\t (00:22:03) Odd-angle Line Segment "Dut_Clk0*, Etch/Top"
+\i (00:22:03) pick grid dbl 43.0137 36.0519
+\t (00:22:03) last pick:  43.0100  36.0500
+\i (00:22:04) pick grid 42.7871 36.4405
+\t (00:22:04) last pick:  42.7900  36.4400
+\t (00:22:04) Odd-angle Line Segment "Dut_Clk0, Etch/Top"
+\i (00:22:04) pick grid dbl 42.7871 36.4405
+\t (00:22:04) last pick:  42.7900  36.4400
+\i (00:22:05) pick grid 45.8633 38.1891
+\t (00:22:05) last pick:  45.8600  38.1900
+\t (00:22:05) Horizontal Line Segment "Dut_Clk0*, Etch/Top"
+\i (00:22:05) pick grid dbl 45.8633 38.1891
+\t (00:22:05) last pick:  45.8600  38.1900
+\i (00:22:08) pick grid 46.2680 38.6100
+\t (00:22:08) last pick:  46.2700  38.6100
+\t (00:22:08) Horizontal Line Segment "Dut_Clk0, Etch/Top"
+\i (00:22:08) pick grid dbl 46.2680 38.6100
+\t (00:22:08) last pick:  46.2700  38.6100
+\i (00:22:09) pick grid 50.4613 38.4805
+\t (00:22:09) last pick:  50.4600  38.4800
+\t (00:22:09) Odd-angle Line Segment "Dut_Clk0*, Etch/Top"
+\i (00:22:09) pick grid dbl 50.4613 38.4805
+\t (00:22:09) last pick:  50.4600  38.4800
+\i (00:22:09) pick grid 50.2185 38.8852
+\t (00:22:09) last pick:  50.2200  38.8900
+\t (00:22:09) Odd-angle Line Segment "Dut_Clk0, Etch/Top"
+\i (00:22:09) pick grid dbl 50.2185 38.8852
+\t (00:22:09) last pick:  50.2200  38.8900
+\i (00:22:10) roam start
+\i (00:22:10) roam x 48
+\i (00:22:10) roam y -48
+\i (00:22:10) roam x 48
+\i (00:22:10) roam y -80
+\i (00:22:10) roam x 64
+\i (00:22:10) roam y -80
+\i (00:22:10) roam y -16
+\i (00:22:10) roam x 48
+\i (00:22:10) roam y -64
+\i (00:22:10) roam x 32
+\i (00:22:10) roam y -64
+\i (00:22:10) roam x 32
+\i (00:22:10) roam y -48
+\i (00:22:10) roam y -16
+\i (00:22:10) roam y -16
+\i (00:22:10) roam y -48
+\i (00:22:10) roam end
+\i (00:22:11) pick grid 52.7118 42.9651
+\t (00:22:11) last pick:  52.7100  42.9700
+\t (00:22:11) Vertical Line Segment "Dut_Clk0*, Etch/Top"
+\i (00:22:11) pick grid dbl 52.7118 42.9651
+\t (00:22:11) last pick:  52.7100  42.9700
+\i (00:22:12) pick grid 51.9832 42.8518
+\t (00:22:12) last pick:  51.9800  42.8500
+\t (00:22:12) Vertical Line Segment "Dut_Clk0, Etch/Top"
+\i (00:22:12) pick grid dbl 51.9832 42.8518
+\t (00:22:12) last pick:  51.9800  42.8500
+\i (00:22:13) pick grid 51.9347 44.0337
+\t (00:22:13) last pick:  51.9300  44.0300
+\t (00:22:13) Odd-angle Line Segment "Dut_Clk0, Etch/Top"
+\i (00:22:13) pick grid dbl 51.9347 44.0337
+\t (00:22:13) last pick:  51.9300  44.0300
+\i (00:22:14) pick grid 52.2747 44.4385
+\t (00:22:14) last pick:  52.2700  44.4400
+\t (00:22:14) Odd-angle Line Segment "Dut_Clk0*, Etch/Top"
+\i (00:22:14) pick grid dbl 52.2747 44.4385
+\t (00:22:14) last pick:  52.2700  44.4400
+\i (00:22:15) add connect 
+\t (00:22:15) Pick first element.
+\i (00:22:17) pick grid 51.5299 45.1994
+\t (00:22:17) last pick:  51.5300  45.2000
+\t (00:22:17) last pick:  51.5747  45.1700
+\t (00:22:17) last pick:  51.5747  45.1700
+\i (00:22:17) mouse_pos 51.5299 45.1994
+\i (00:22:17) mouse_pos 51.5461 45.1994
+\i (00:22:17) mouse_pos 51.6594 45.1670
+\i (00:22:17) mouse_pos 51.8537 45.1185
+\i (00:22:18) prepopup 52.3394 44.8432
+\i (00:22:29) prepopup 52.2099 42.3013
+\i (00:22:36) cancel 
+\i (00:22:36) generaledit 
+\i (00:22:39) delete 
+\i (00:22:41) pick grid 51.3842 45.1346
+\t (00:22:41) last pick:  51.3800  45.1300
+\t (00:22:41) Horizontal Line Segment "Dut_Clk0*, Etch/Top"
+\i (00:22:41) pick grid dbl 51.3842 45.1346
+\t (00:22:41) last pick:  51.3800  45.1300
+\t (00:22:41) Odd-angle Line Segment "Dut_Clk0*, Etch/Top"
+\i (00:22:41) pick grid 51.2223 45.1346
+\t (00:22:41) last pick:  51.2200  45.1300
+\t (00:22:41) Horizontal Line Segment "Dut_Clk0*, Etch/Top"
+\i (00:22:42) pick grid dbl 51.2223 45.1346
+\t (00:22:42) last pick:  51.2200  45.1300
+\i (00:22:42) pick grid 51.2223 44.8108
+\t (00:22:42) last pick:  51.2200  44.8100
+\t (00:22:42) Horizontal Line Segment "Dut_Clk0, Etch/Top"
+\i (00:22:42) pick grid dbl 51.2223 44.8108
+\t (00:22:42) last pick:  51.2200  44.8100
+\i (00:22:43) pick grid 50.8661 44.7785
+\t (00:22:43) last pick:  50.8700  44.7800
+\t (00:22:43) Horizontal Line Segment "Dut_Clk0, Etch/Top"
+\i (00:22:43) pick grid dbl 50.8661 44.7785
+\t (00:22:43) last pick:  50.8700  44.7800
+\t (00:22:43) Odd-angle Line Segment "Not On A Net, Etch/Top"
+\i (00:22:43) pick grid 50.9956 44.7785
+\t (00:22:43) last pick:  51.0000  44.7800
+\t (00:22:43) Odd-angle Line Segment "Not On A Net, Etch/Top"
+\i (00:22:44) pick grid dbl 50.9956 44.7785
+\t (00:22:44) last pick:  51.0000  44.7800
+\i (00:22:44) pick grid 50.5747 44.7623
+\t (00:22:44) last pick:  50.5700  44.7600
+\t (00:22:44) Odd-angle Line Segment "Dut_Clk0, Etch/Top"
+\i (00:22:44) pick grid dbl 50.5747 44.7623
+\t (00:22:44) last pick:  50.5700  44.7600
+\t (00:22:44) Horizontal Line Segment "Dut_Clk0, Etch/Top"
+\i (00:22:45) pick grid 50.5099 44.7623
+\t (00:22:45) last pick:  50.5100  44.7600
+\i (00:22:45) pick grid 50.5747 45.2804
+\t (00:22:45) last pick:  50.5700  45.2800
+\t (00:22:45) Odd-angle Line Segment "Dut_Clk0*, Etch/Top"
+\i (00:22:45) pick grid dbl 50.5747 45.2804
+\t (00:22:45) last pick:  50.5700  45.2800
+\i (00:22:46) pick grid 50.5585 45.2804
+\t (00:22:46) last pick:  50.5600  45.2800
+\i (00:22:46) pick grid 50.3966 45.2642
+\t (00:22:46) last pick:  50.4000  45.2600
+\t (00:22:46) Odd-angle Line Segment "Dut_Clk0*, Etch/Top"
+\i (00:22:47) pick grid dbl 50.3966 45.2642
+\t (00:22:47) last pick:  50.4000  45.2600
+\t (00:22:47) Horizontal Line Segment "Dut_Clk0*, Etch/Top"
+\i (00:22:47) pick grid 50.4290 45.2642
+\t (00:22:47) last pick:  50.4300  45.2600
+\i (00:22:49) add connect 
+\t (00:22:49) Pick first element.
+\i (00:22:50) pick grid 50.2832 45.1832
+\t (00:22:50) last pick:  50.2800  45.1800
+\t (00:22:50) last pick:  49.8500  45.2000
+\t (00:22:50) last pick:  49.8500  45.2000
+\i (00:22:55) pick grid 51.4328 45.2642
+\t (00:22:55) last pick:  51.4300  45.2600
+\t (00:22:55) No DRC errors detected.
+\i (00:22:55) mouse_pos 51.4328 45.2642
+\i (00:22:55) mouse_pos 51.5785 45.2804
+\i (00:22:56) prepopup 51.9509 45.2804
+\i (00:23:05) pick grid 51.9509 41.9775
+\t (00:23:05) last pick:  51.9500  41.9800
+\t (00:23:05) No DRC errors detected.
+\t (00:23:05) last pick:  52.4100  41.9800
+\i (00:23:06) prepopup 51.7728 41.3785
+\i (00:23:08) pop neck 
+\i (00:23:10) prepopup 51.5785 41.5080
+\i (00:23:13) pop neck 
+\i (00:23:14) prepopup 51.6270 41.0870
+\i (00:23:15) cancel 
+\i (00:23:16) generaledit 
+\i (00:23:19) add connect 
+\t (00:23:19) Pick first element.
+\i (00:23:20) pick grid 50.0080 45.1670
+\t (00:23:20) last pick:  50.0100  45.1700
+\t (00:23:20) last pick:  49.8500  45.2000
+\t (00:23:20) last pick:  49.8500  45.2000
+\i (00:23:25) pick grid 52.2747 44.2442
+\t (00:23:25) last pick:  52.2700  44.2400
+\t (00:23:25) No DRC errors detected.
+\i (00:23:27) pick grid 49.0852 38.3994
+\t (00:23:27) last pick:  49.0900  38.4000
+\t (00:23:27) No DRC errors detected.
+\i (00:23:28) pick grid 45.2642 38.1890
+\t (00:23:28) last pick:  45.2600  38.1900
+\t (00:23:28) No DRC errors detected.
+\i (00:23:29) roam start
+\i (00:23:29) roam x -32
+\i (00:23:29) roam y 48
+\i (00:23:29) roam x -16
+\i (00:23:29) roam y 48
+\i (00:23:29) roam x -16
+\i (00:23:29) roam y 32
+\i (00:23:29) roam y 32
+\i (00:23:29) roam x -16
+\i (00:23:29) roam y 16
+\i (00:23:29) roam y 32
+\i (00:23:29) roam y 32
+\i (00:23:29) roam x -16
+\i (00:23:29) roam y 16
+\i (00:23:29) roam y 32
+\i (00:23:30) roam y 16
+\i (00:23:30) roam y 16
+\i (00:23:30) roam x -16
+\i (00:23:30) roam y 16
+\i (00:23:30) roam x -16
+\i (00:23:30) roam y 16
+\i (00:23:30) roam y 16
+\i (00:23:30) roam x -16
+\i (00:23:30) roam y 16
+\i (00:23:31) roam x 16
+\i (00:23:31) roam x 16
+\i (00:23:31) roam y 16
+\i (00:23:32) roam end
+\i (00:23:32) pick grid 43.4024 31.7129
+\t (00:23:32) last pick:  43.4000  31.7100
+\t (00:23:32) No DRC errors detected.
+\i (00:23:33) prepopup 43.4024 31.7129
+\i (00:23:33) pop singletrace 
+\i (00:23:34) prepopup 43.5966 32.5386
+\i (00:23:37) done 
+\i (00:23:37) generaledit 
+\i (00:23:39) slide 
+\t (00:23:39) Pick element to slide.
+\i (00:23:40) pick grid 41.1033 33.9795
+\t (00:23:40) last pick:  41.1000  33.9800
+\t (00:23:40) last pick:  41.1869  33.9800
+\t (00:23:40) Waiting for the destination pick.
+\i (00:23:41) pick grid 41.0062 33.9148
+\t (00:23:41) last pick:  41.0100  33.9100
+\t (00:23:41) No DRC errors detected.
+\t (00:23:41) Pick another element to slide.
+\i (00:23:42) pick grid 41.6214 33.9310
+\t (00:23:42) last pick:  41.6200  33.9300
+\t (00:23:42) last pick:  41.6369  33.9300
+\t (00:23:42) Waiting for the destination pick.
+\i (00:23:43) pick grid 41.5243 33.9148
+\t (00:23:43) last pick:  41.5200  33.9100
+\t (00:23:43) No DRC errors detected.
+\t (00:23:43) Pick another element to slide.
+\i (00:23:44) roam start
+\i (00:23:44) roam y -64
+\i (00:23:44) roam y -16
+\i (00:23:44) roam x 16
+\i (00:23:44) roam y -80
+\i (00:23:44) roam x -32
+\i (00:23:44) roam y 32
+\i (00:23:44) roam y 16
+\i (00:23:44) roam x -48
+\i (00:23:44) roam y 32
+\i (00:23:44) roam x -32
+\i (00:23:44) roam y 48
+\i (00:23:44) roam x -48
+\i (00:23:44) roam y 64
+\i (00:23:44) roam x -48
+\i (00:23:44) roam y 64
+\i (00:23:44) roam x -48
+\i (00:23:44) roam y 64
+\i (00:23:44) roam x -48
+\i (00:23:44) roam y 80
+\i (00:23:44) roam x -48
+\i (00:23:44) roam y 64
+\i (00:23:44) roam x -16
+\i (00:23:44) roam y 16
+\i (00:23:45) roam x -32
+\i (00:23:45) roam y 32
+\i (00:23:45) roam x -16
+\i (00:23:45) roam y 48
+\i (00:23:45) roam x -16
+\i (00:23:45) roam y 16
+\i (00:23:45) roam x -16
+\i (00:23:45) roam y -16
+\i (00:23:45) roam y -16
+\i (00:23:45) roam y -16
+\i (00:23:45) roam x -16
+\i (00:23:45) roam y -16
+\i (00:23:45) roam y -32
+\i (00:23:45) roam y -16
+\i (00:23:45) roam y -16
+\i (00:23:45) roam x -16
+\i (00:23:45) roam y -32
+\i (00:23:45) roam y -32
+\i (00:23:45) roam y -32
+\i (00:23:45) roam y -32
+\i (00:23:45) roam y -16
+\i (00:23:45) roam y -16
+\i (00:23:45) roam y -16
+\i (00:23:45) roam y -16
+\i (00:23:45) roam y -16
+\i (00:23:45) roam y -16
+\i (00:23:45) roam y -16
+\i (00:23:45) roam y -16
+\i (00:23:45) roam y -16
+\i (00:23:45) roam x 16
+\i (00:23:45) roam y -16
+\i (00:23:45) roam y -16
+\i (00:23:45) roam y -16
+\i (00:23:45) roam x 16
+\i (00:23:45) roam y -16
+\i (00:23:45) roam y -32
+\i (00:23:45) roam x 16
+\i (00:23:45) roam y -16
+\i (00:23:45) roam x 16
+\i (00:23:45) roam y -16
+\i (00:23:45) roam x 16
+\i (00:23:46) roam y -16
+\i (00:23:46) roam x 16
+\i (00:23:46) roam y -16
+\i (00:23:46) roam x 16
+\i (00:23:46) roam y -16
+\i (00:23:46) roam x 16
+\i (00:23:46) roam y -16
+\i (00:23:46) roam end
+\i (00:23:47) add connect 
+\t (00:23:47) Pick first element.
+\i (00:23:49) pick grid 45.3937 43.1595
+\t (00:23:49) last pick:  45.3900  43.1600
+\t (00:23:49) last pick:  45.5500  43.2000
+\t (00:23:49) last pick:  45.5500  43.2000
+\i (00:23:50) prepopup 43.9042 43.0623
+\i (00:23:53) pop singletrace 
+\i (00:23:58) pick grid 39.5652 38.1081
+\t (00:23:58) last pick:  39.5700  38.1100
+\t (00:23:58) No DRC errors detected.
+\i (00:23:59) roam start
+\i (00:23:59) roam x -16
+\i (00:23:59) roam y 64
+\i (00:23:59) roam y 64
+\i (00:23:59) roam x -16
+\i (00:23:59) roam y 32
+\i (00:23:59) roam end
+\i (00:24:01) pick grid 38.8204 31.9557
+\t (00:24:01) last pick:  38.8200  31.9600
+\t (00:24:01) No DRC errors detected.
+\t (00:24:01) last pick:  38.8186  31.9600
+\i (00:24:02) prepopup 38.8204 31.9557
+\i (00:24:04) next 
+\t (00:24:04) Pick first element.
+\i (00:24:05) roam start
+\i (00:24:05) roam x 32
+\i (00:24:05) roam y -96
+\i (00:24:05) roam x 16
+\i (00:24:05) roam y -16
+\i (00:24:05) roam x 32
+\i (00:24:05) roam y -96
+\i (00:24:05) roam x 48
+\i (00:24:05) roam y -80
+\i (00:24:05) roam x 48
+\i (00:24:05) roam y -96
+\i (00:24:05) roam x 48
+\i (00:24:05) roam y -80
+\i (00:24:05) roam x 48
+\i (00:24:05) roam y -48
+\i (00:24:05) roam x 16
+\i (00:24:05) roam y -64
+\i (00:24:05) roam end
+\i (00:24:06) pick grid 45.2966 44.6814
+\t (00:24:06) last pick:  45.3000  44.6800
+\t (00:24:06) last pick:  45.5500  44.7000
+\t (00:24:06) last pick:  45.5500  44.7000
+\i (00:24:35) prepopup 43.6775 45.0052
+\i (00:24:38) pop neck 
+\i (00:24:41) pick grid 43.7099 44.6814
+\t (00:24:41) last pick:  43.7100  44.6800
+\t (00:24:41) No DRC errors detected.
+\t (00:24:41) last pick:  43.8100  44.7800
+\i (00:24:41) prepopup 43.7099 44.6814
+\i (00:24:44) pop neck 
+\i (00:24:46) roam start
+\i (00:24:46) roam x -32
+\i (00:24:46) roam y 32
+\i (00:24:46) roam x -16
+\i (00:24:46) roam y 16
+\i (00:24:46) roam x -32
+\i (00:24:46) roam y 16
+\i (00:24:46) roam x -32
+\i (00:24:46) roam y 32
+\i (00:24:46) roam x -32
+\i (00:24:46) roam y 16
+\i (00:24:46) roam x -32
+\i (00:24:46) roam y 16
+\i (00:24:46) roam x -16
+\i (00:24:46) roam y 16
+\i (00:24:46) roam x -16
+\i (00:24:46) roam y 32
+\i (00:24:46) roam x -16
+\i (00:24:46) roam y 16
+\i (00:24:46) roam x -16
+\i (00:24:46) roam y 16
+\i (00:24:47) roam x -32
+\i (00:24:47) roam y 32
+\i (00:24:47) roam x -16
+\i (00:24:47) roam y 16
+\i (00:24:47) roam x -16
+\i (00:24:47) roam y 16
+\i (00:24:48) roam end
+\i (00:24:50) pick grid 36.1329 38.1080
+\t (00:24:50) last pick:  36.1300  38.1100
+\t (00:24:50) No DRC errors detected.
+\i (00:24:54) roam start
+\i (00:24:54) roam y 16
+\i (00:24:54) roam x -16
+\i (00:24:54) roam y 16
+\i (00:24:54) roam y 48
+\i (00:24:54) roam x -32
+\i (00:24:54) roam y 64
+\i (00:24:54) roam x -16
+\i (00:24:54) roam y 32
+\i (00:24:54) roam x -16
+\i (00:24:54) roam y 48
+\i (00:24:54) roam y 48
+\i (00:24:54) roam x -16
+\i (00:24:54) roam y 64
+\i (00:24:54) roam x -16
+\i (00:24:54) roam y 64
+\i (00:24:54) roam y 80
+\i (00:24:54) roam x -16
+\i (00:24:54) roam y 48
+\i (00:24:54) roam y 32
+\i (00:24:54) roam x -16
+\i (00:24:54) roam y 48
+\i (00:24:54) roam y 48
+\i (00:24:54) roam y 16
+\i (00:24:54) roam y 16
+\i (00:24:54) roam x -16
+\i (00:24:54) roam y 16
+\i (00:24:54) roam y -16
+\i (00:24:54) roam x 16
+\i (00:24:54) roam y -16
+\i (00:24:54) roam y -16
+\i (00:24:54) roam x 32
+\i (00:24:54) roam y -16
+\i (00:24:54) roam y -16
+\i (00:24:54) roam x 16
+\i (00:24:54) roam y -16
+\i (00:24:54) roam x 16
+\i (00:24:54) roam y -32
+\i (00:24:54) roam x 16
+\i (00:24:54) roam y -16
+\i (00:24:54) roam x 32
+\i (00:24:54) roam y -32
+\i (00:24:54) roam y -16
+\i (00:24:54) roam x 16
+\i (00:24:54) roam y -16
+\i (00:24:54) roam y -16
+\i (00:24:54) roam y -16
+\i (00:24:54) roam x 16
+\i (00:24:54) roam y -16
+\i (00:24:54) roam y -16
+\i (00:24:55) roam end
+\i (00:24:57) pick grid 36.0034 31.8910
+\t (00:24:57) last pick:  36.0000  31.8900
+\t (00:24:57) No DRC errors detected.
+\i (00:24:57) prepopup 36.0034 31.8910
+\i (00:24:59) prepopup 35.7929 32.3281
+\i (00:25:01) done 
+\i (00:25:01) generaledit 
+\i (00:25:02) slide 
+\t (00:25:02) Pick element to slide.
+\i (00:25:04) pick grid 39.0310 37.9138
+\t (00:25:04) last pick:  39.0300  37.9100
+\t (00:25:04) last pick:  38.9666  37.9733
+\t (00:25:04) Waiting for the destination pick.
+\i (00:25:04) pick grid 39.2576 37.4767
+\t (00:25:04) last pick:  39.2600  37.4800
+\t (00:25:05) No DRC errors detected.
+\t (00:25:05) Pick another element to slide.
+\i (00:25:05) pick grid 39.2252 37.9948
+\t (00:25:05) last pick:  39.2300  37.9900
+\t (00:25:05) last pick:  39.2086  38.0112
+\t (00:25:05) Waiting for the destination pick.
+\i (00:25:07) pick grid 39.3710 37.8976
+\t (00:25:07) last pick:  39.3700  37.9000
+\t (00:25:07) No DRC errors detected.
+\t (00:25:07) Pick another element to slide.
+\i (00:25:07) pick grid 38.9500 37.3148
+\t (00:25:07) last pick:  38.9500  37.3100
+\t (00:25:07) last pick:  39.0686  37.3100
+\t (00:25:07) Waiting for the destination pick.
+\i (00:25:08) pick grid 38.7719 37.3148
+\t (00:25:08) last pick:  38.7700  37.3100
+\t (00:25:08) No DRC errors detected.
+\t (00:25:08) Pick another element to slide.
+\i (00:25:08) pick grid 38.4805 38.2700
+\t (00:25:08) last pick:  38.4800  38.2700
+\t (00:25:08) last pick:  38.5534  38.1966
+\t (00:25:08) Waiting for the destination pick.
+\i (00:25:09) pick grid 38.5452 37.9138
+\t (00:25:09) last pick:  38.5500  37.9100
+\t (00:25:09) No DRC errors detected.
+\t (00:25:09) Pick another element to slide.
+\i (00:25:10) pick grid 39.4195 38.6100
+\t (00:25:10) last pick:  39.4200  38.6100
+\t (00:25:10) last pick:  39.3453  38.6847
+\t (00:25:10) Waiting for the destination pick.
+\i (00:25:12) pick grid 39.4357 38.8043
+\t (00:25:12) last pick:  39.4400  38.8000
+\t (00:25:12) No DRC errors detected.
+\t (00:25:12) Pick another element to slide.
+\i (00:25:13) pick grid 39.2091 38.6100
+\t (00:25:13) last pick:  39.2100  38.6100
+\t (00:25:13) last pick:  39.2800  38.6194
+\t (00:25:13) Waiting for the destination pick.
+\i (00:25:14) pick grid 39.0471 38.6100
+\t (00:25:14) last pick:  39.0500  38.6100
+\t (00:25:14) No DRC errors detected.
+\t (00:25:14) Pick another element to slide.
+\i (00:25:15) pick grid 38.9014 38.4481
+\t (00:25:15) last pick:  38.9000  38.4500
+\t (00:25:15) last pick:  38.9949  38.3550
+\t (00:25:15) Waiting for the destination pick.
+\i (00:25:15) pick grid 38.7719 38.3024
+\t (00:25:15) last pick:  38.7700  38.3000
+\t (00:25:15) No DRC errors detected.
+\t (00:25:15) Pick another element to slide.
+\i (00:25:16) pick grid 38.5938 37.9624
+\t (00:25:16) last pick:  38.5900  37.9600
+\t (00:25:16) last pick:  38.5950  37.9550
+\t (00:25:16) Waiting for the destination pick.
+\i (00:25:16) pick grid 38.3995 37.9624
+\t (00:25:16) last pick:  38.4000  37.9600
+\t (00:25:16) No DRC errors detected.
+\t (00:25:16) Pick another element to slide.
+\i (00:25:17) pick grid 39.5329 37.9948
+\t (00:25:17) last pick:  39.5300  37.9900
+\t (00:25:17) last pick:  39.4900  38.0300
+\t (00:25:17) Waiting for the destination pick.
+\i (00:25:18) pick grid 39.1281 38.0110
+\t (00:25:18) last pick:  39.1300  38.0100
+\t (00:25:18) No DRC errors detected.
+\t (00:25:18) Pick another element to slide.
+\i (00:25:19) pick grid 39.0795 37.7195
+\t (00:25:19) last pick:  39.0800  37.7200
+\t (00:25:19) last pick:  39.1348  37.6648
+\t (00:25:19) Waiting for the destination pick.
+\i (00:25:20) pick grid 38.7881 37.7519
+\t (00:25:20) last pick:  38.7900  37.7500
+\t (00:25:20) No DRC errors detected.
+\t (00:25:20) Pick another element to slide.
+\i (00:25:20) roam start
+\i (00:25:20) roam x 48
+\i (00:25:20) roam y -64
+\i (00:25:20) roam x 48
+\i (00:25:20) roam y -64
+\i (00:25:20) roam x 32
+\i (00:25:20) roam y -64
+\i (00:25:20) roam x 16
+\i (00:25:20) roam y -48
+\i (00:25:20) roam x 16
+\i (00:25:20) roam y -32
+\i (00:25:20) roam x 16
+\i (00:25:20) roam y -32
+\i (00:25:21) roam x -32
+\i (00:25:21) roam y 32
+\i (00:25:21) roam x -32
+\i (00:25:21) roam y 48
+\i (00:25:21) roam x -32
+\i (00:25:21) roam y 48
+\i (00:25:21) roam x -16
+\i (00:25:21) roam y 16
+\i (00:25:21) roam x -32
+\i (00:25:21) roam y 80
+\i (00:25:21) roam x -16
+\i (00:25:21) roam y 32
+\i (00:25:21) roam x -32
+\i (00:25:21) roam y 64
+\i (00:25:21) roam x -32
+\i (00:25:21) roam y 64
+\i (00:25:21) roam x -16
+\i (00:25:21) roam y 48
+\i (00:25:21) roam x -16
+\i (00:25:21) roam y 64
+\i (00:25:21) roam y 32
+\i (00:25:21) roam x -16
+\i (00:25:21) roam y 80
+\i (00:25:21) roam y 64
+\i (00:25:21) roam x -16
+\i (00:25:21) roam y 32
+\i (00:25:21) roam y 32
+\i (00:25:21) roam x -16
+\i (00:25:21) roam y 64
+\i (00:25:21) roam y 48
+\i (00:25:21) roam y 48
+\i (00:25:21) roam y 48
+\i (00:25:21) roam y 64
+\i (00:25:21) roam y 16
+\i (00:25:21) roam y 32
+\i (00:25:21) roam y 16
+\i (00:25:21) roam y 16
+\i (00:25:22) roam x 16
+\i (00:25:22) roam y -16
+\i (00:25:22) roam x 16
+\i (00:25:22) roam x 16
+\i (00:25:22) roam x 16
+\i (00:25:22) roam x 16
+\i (00:25:22) roam x 16
+\i (00:25:22) roam x 16
+\i (00:25:22) roam x 16
+\i (00:25:22) roam x 16
+\i (00:25:22) roam x 16
+\i (00:25:22) roam x 32
+\i (00:25:22) roam x 32
+\i (00:25:22) roam x 48
+\i (00:25:22) roam x 16
+\i (00:25:22) roam x 16
+\i (00:25:22) roam y -16
+\i (00:25:22) roam x 32
+\i (00:25:22) roam x 48
+\i (00:25:22) roam y -16
+\i (00:25:22) roam x 32
+\i (00:25:22) roam y -16
+\i (00:25:22) roam x 64
+\i (00:25:22) roam y -32
+\i (00:25:22) roam x 32
+\i (00:25:22) roam y -16
+\i (00:25:22) roam x 48
+\i (00:25:22) roam y -16
+\i (00:25:22) roam x 16
+\i (00:25:22) roam y -16
+\i (00:25:22) roam x 48
+\i (00:25:22) roam y -48
+\i (00:25:22) roam x 32
+\i (00:25:22) roam y -16
+\i (00:25:22) roam y -16
+\i (00:25:22) roam x 16
+\i (00:25:22) roam y -16
+\i (00:25:22) roam y -16
+\i (00:25:22) roam x 16
+\i (00:25:22) roam y -16
+\i (00:25:22) roam y -16
+\i (00:25:22) roam x 16
+\i (00:25:22) roam y -32
+\i (00:25:22) roam y -16
+\i (00:25:22) roam y -32
+\i (00:25:22) roam y -64
+\i (00:25:22) roam x -16
+\i (00:25:22) roam y -32
+\i (00:25:22) roam x -16
+\i (00:25:22) roam y -32
+\i (00:25:22) roam x -16
+\i (00:25:22) roam y -32
+\i (00:25:23) roam x -64
+\i (00:25:23) roam y -48
+\i (00:25:23) roam x -32
+\i (00:25:23) roam y -16
+\i (00:25:23) roam x -32
+\i (00:25:23) roam y -16
+\i (00:25:23) roam x -32
+\i (00:25:23) roam y -16
+\i (00:25:23) roam x -32
+\i (00:25:23) roam y -16
+\i (00:25:23) roam x -16
+\i (00:25:23) roam y -16
+\i (00:25:23) roam x -16
+\i (00:25:23) roam x -16
+\i (00:25:23) roam x -16
+\i (00:25:23) roam y -16
+\i (00:25:23) roam x -32
+\i (00:25:23) roam x -32
+\i (00:25:23) roam x -16
+\i (00:25:23) roam x -32
+\i (00:25:23) roam y -16
+\i (00:25:23) roam x -32
+\i (00:25:23) roam x -16
+\i (00:25:23) roam x -16
+\i (00:25:23) roam y -16
+\i (00:25:23) roam x -16
+\i (00:25:23) roam x -32
+\i (00:25:23) roam x -16
+\i (00:25:23) roam x -16
+\i (00:25:23) roam y -16
+\i (00:25:23) roam x -16
+\i (00:25:23) roam x -16
+\i (00:25:23) roam x -32
+\i (00:25:23) roam x -32
+\i (00:25:23) roam x -32
+\i (00:25:23) roam x -64
+\i (00:25:23) roam x -64
+\i (00:25:23) roam x -48
+\i (00:25:23) roam x -80
+\i (00:25:23) roam x -64
+\i (00:25:23) roam y -16
+\i (00:25:23) roam x -48
+\i (00:25:23) roam x -32
+\i (00:25:23) roam y -16
+\i (00:25:23) roam x -96
+\i (00:25:23) roam x -112
+\i (00:25:23) roam y -32
+\i (00:25:23) roam x -32
+\i (00:25:23) roam x -80
+\i (00:25:23) roam y -16
+\i (00:25:23) roam x -64
+\i (00:25:23) roam x -80
+\i (00:25:23) roam y -16
+\i (00:25:23) roam x -64
+\i (00:25:23) roam y -16
+\i (00:25:23) roam x -32
+\i (00:25:23) roam x -96
+\i (00:25:23) roam y -32
+\i (00:25:23) roam x -32
+\i (00:25:23) roam x -80
+\i (00:25:23) roam x -32
+\i (00:25:23) roam x -64
+\i (00:25:23) roam x -32
+\i (00:25:23) roam x -48
+\i (00:25:23) roam x -64
+\i (00:25:23) roam y 16
+\i (00:25:23) roam x -48
+\i (00:25:23) roam y 32
+\i (00:25:23) roam x -32
+\i (00:25:23) roam y 16
+\i (00:25:23) roam x -48
+\i (00:25:23) roam y 16
+\i (00:25:23) roam x -32
+\i (00:25:23) roam y 16
+\i (00:25:23) roam x -16
+\i (00:25:23) roam y 16
+\i (00:25:23) roam x -32
+\i (00:25:23) roam y 16
+\i (00:25:23) roam x -16
+\i (00:25:23) roam y 16
+\i (00:25:23) roam x -16
+\i (00:25:23) roam y 16
+\i (00:25:23) roam x -16
+\i (00:25:23) roam x -16
+\i (00:25:23) roam y 32
+\i (00:25:24) roam x -16
+\i (00:25:24) roam y 16
+\i (00:25:24) roam x -32
+\i (00:25:24) roam y 32
+\i (00:25:24) roam x -16
+\i (00:25:24) roam y 32
+\i (00:25:24) roam y 16
+\i (00:25:24) roam x -16
+\i (00:25:24) roam y 16
+\i (00:25:24) roam x -16
+\i (00:25:24) roam y 16
+\i (00:25:24) roam x -16
+\i (00:25:24) roam y 16
+\i (00:25:24) roam x -16
+\i (00:25:24) roam y 16
+\i (00:25:24) roam y 16
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 16
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 16
+\i (00:25:24) roam x 16
+\i (00:25:24) roam x 32
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 16
+\i (00:25:24) roam x 64
+\i (00:25:24) roam x 48
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 80
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 96
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 64
+\i (00:25:24) roam x 112
+\i (00:25:24) roam y -32
+\i (00:25:24) roam x 64
+\i (00:25:24) roam x 128
+\i (00:25:24) roam y -32
+\i (00:25:24) roam x 128
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 112
+\i (00:25:24) roam y -32
+\i (00:25:24) roam x 112
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 128
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 112
+\i (00:25:24) roam y -32
+\i (00:25:24) roam x 96
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 48
+\i (00:25:24) roam x 96
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 80
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 112
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 48
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 64
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 64
+\i (00:25:24) roam x 64
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 32
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 48
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 16
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 48
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 16
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 16
+\i (00:25:24) roam x 32
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 32
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 48
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 48
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 32
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 32
+\i (00:25:24) roam y -16
+\i (00:25:24) roam x 16
+\i (00:25:25) roam end
+\i (00:25:26) zoom out 
+\i (00:25:26) setwindow pcb
+\i (00:25:26) zoom out 47.4175 40.6176
+\i (00:25:26) trapsize 1619
+\i (00:25:26) zoom in 
+\i (00:25:26) setwindow pcb
+\i (00:25:26) zoom in 47.4175 40.6176
+\i (00:25:26) trapsize 810
+\i (00:25:29) zoom out 
+\i (00:25:29) setwindow pcb
+\i (00:25:29) zoom out 47.4175 40.6176
+\i (00:25:29) trapsize 1619
+\i (00:25:29) zoom out 
+\i (00:25:29) setwindow pcb
+\i (00:25:29) zoom out 47.4175 40.6176
+\t (00:25:29) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:25:29) trapsize 3238
+\i (00:25:51) save 
+\i (00:25:53) fillin yes 
+\i (00:25:53) generaledit 
+\i (00:26:19) roam start
+\i (00:26:19) roam x -16
+\i (00:26:19) roam y 80
+\i (00:26:19) roam x -64
+\i (00:26:19) roam y 432
+\i (00:26:19) roam x -16
+\i (00:26:19) roam y 128
+\i (00:26:19) roam x -32
+\i (00:26:19) roam y 240
+\i (00:26:19) roam x -16
+\i (00:26:19) roam y 64
+\i (00:26:20) roam x 16
+\i (00:26:20) roam x 16
+\i (00:26:20) roam x 32
+\i (00:26:20) roam x 64
+\i (00:26:20) roam y -16
+\i (00:26:20) roam x 48
+\i (00:26:20) roam x 64
+\i (00:26:20) roam y -16
+\i (00:26:20) roam x 96
+\i (00:26:20) roam y -16
+\i (00:26:20) roam x 80
+\i (00:26:20) roam x 112
+\i (00:26:20) roam y -16
+\i (00:26:20) roam x 64
+\i (00:26:20) roam y -16
+\i (00:26:20) roam x 80
+\i (00:26:20) roam y -16
+\i (00:26:20) roam x 144
+\i (00:26:20) roam y -16
+\i (00:26:20) roam x 32
+\i (00:26:20) roam x 16
+\i (00:26:20) roam y -16
+\i (00:26:20) roam x 16
+\i (00:26:20) roam y -16
+\i (00:26:20) roam y -16
+\i (00:26:20) roam x 16
+\i (00:26:20) roam y -32
+\i (00:26:20) roam y -16
+\i (00:26:20) roam y -16
+\i (00:26:20) roam x 16
+\i (00:26:20) roam y -16
+\i (00:26:21) roam y -16
+\i (00:26:21) roam y -48
+\i (00:26:21) roam y -16
+\i (00:26:21) roam y -16
+\i (00:26:21) roam y -16
+\i (00:26:21) roam y -16
+\i (00:26:21) roam x 32
+\i (00:26:21) roam y -112
+\i (00:26:21) roam y -80
+\i (00:26:21) roam y -32
+\i (00:26:21) roam y -16
+\i (00:26:22) roam y -16
+\i (00:26:26) roam end
+\i (00:26:29) add connect 
+\t (00:26:29) Pick first element.
+\i (00:26:31) pick grid 66.3117 10.0987
+\t (00:26:31) last pick:  66.3100  10.1000
+\t (00:26:31) last pick:  66.1500  10.3500
+\t (00:26:31) last pick:  66.1500  10.3500
+\i (00:26:35) prepopup 67.5422 7.7673
+\i (00:26:46) prepopup 65.4051 7.2492
+\i (00:26:48) cancel 
+\i (00:26:48) generaledit 
+\i (00:26:58) roam start
+\i (00:26:58) roam x -64
+\i (00:26:58) roam y -16
+\i (00:26:59) roam x -272
+\i (00:26:59) roam y -16
+\i (00:26:59) roam x -160
+\i (00:26:59) roam x -128
+\i (00:26:59) roam y -32
+\i (00:26:59) roam x -208
+\i (00:26:59) roam y -32
+\i (00:26:59) roam x -80
+\i (00:27:00) roam end
+\i (00:27:05) exit 
+\t (00:27:05)     Journal end - Thu May 10 18:24:22 2012

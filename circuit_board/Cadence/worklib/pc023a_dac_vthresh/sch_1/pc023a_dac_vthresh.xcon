@@ -5,15 +5,15 @@
     <schemaVersion>16.5</schemaVersion>
     <creatorTool>csnetlister</creatorTool>
     <modifierTool>csnetlister</modifierTool>
-    <modificationTime>2012-05-04T16:25:28</modificationTime>
+    <modificationTime>2012-05-10T14:48:21</modificationTime>
     <savedLibrary>fmc_tlu_v1_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="pc023a_dac_vthresh" view="sch_1">
       <lastids>
-        <instanceid>14</instanceid>
+        <instanceid>16</instanceid>
         <netid>22</netid>
-        <insttermid>82</insttermid>
+        <insttermid>92</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -132,6 +132,25 @@
               <id>T60</id>
               <name>vrefin/vrefout</name>
               <direction>input</direction>
+            </term>
+          </terms>
+        </cell>
+        <cell>
+          <id>S7</id>
+          <library>cnpassive</library>
+          <name>tp</name>
+          <view>sym_1</view>
+          <parameters>
+            <parameter>
+              <name>size</name>
+              <value>1</value>
+            </parameter>
+          </parameters>
+          <terms>
+            <term>
+              <id>T73</id>
+              <name>a&lt;SIZE-1..0&gt;</name>
+              <direction>inout</direction>
             </term>
           </terms>
         </cell>
@@ -719,6 +738,66 @@
           <portinterfaces>
           </portinterfaces>
         </instance>
+        <instance>
+          <id>I15</id>
+          <cellid>S7</cellid>
+          <name>page1_i68</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M91</id>
+              <termid>T73</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N15" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I16</id>
+          <cellid>S7</cellid>
+          <name>page1_i69</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M92</id>
+              <termid>T73</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N19" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -819,6 +898,8 @@
               <instance ref="i53"></instance>
               <instance ref="i63"></instance>
               <instance ref="i66"></instance>
+              <instance ref="i68"></instance>
+              <instance ref="i69"></instance>
             </instances>
           </page>
         </pages>

@@ -7,7 +7,7 @@
 			( 16.5 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 32 )
+			( logicalViewRevNum 34 )
 			( physicalViewRevNum 1 )
 			( otherViewRevNum 0 )
 		)
@@ -396,6 +396,22 @@
 			)
 			( Objects
 				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SYMMAP" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
 			)
 			( Analysis
 			)
@@ -3276,6 +3292,363 @@
 				)
 				( objectStatus "R12" )
 			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i159"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "HOLE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "TP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SYMMAP" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "0.8MM"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(2750,400)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "TP"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "TP_HOLE-0.8MM"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "TP2"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "TP2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "TP2" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i160"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "HOLE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "TP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SYMMAP" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "0.8MM"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(2750,200)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "TP"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "TP_HOLE-0.8MM"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "TP3"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "TP3"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "TP3" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i161"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "HOLE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "TP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SYMMAP" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "0.8MM"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(2750,0)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "TP"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "TP_HOLE-0.8MM"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "TP4"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "TP4"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "TP4" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i162"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "HOLE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "TP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SYMMAP" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "0.8MM"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(1000,800)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "TP"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "TP_HOLE-0.8MM"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "TP1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "TP1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "TP1" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i163"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "HOLE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "TP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SYMMAP" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "0.8MM"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(2750,-1250)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "TP"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "TP_HOLE-0.8MM"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "TP5"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "TP5"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "TP5" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i164"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "HOLE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "TP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SYMMAP" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "0.8MM"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(2750,-1550)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "TP"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "TP_HOLE-0.8MM"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "TP6"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "TP6"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "TP6" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i165"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "HOLE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "TP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SYMMAP" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "0.8MM"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(2750,-1750)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "TP"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "TP_HOLE-0.8MM"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "TP7"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "TP7"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "TP7" )
+			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:hys(0)"
 				( attribute "PN" "8"
 					( Origin gPackager )
@@ -3857,6 +4230,48 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R12.2" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i159:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "TP2.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i160:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "TP3.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i161:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "TP4.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i162:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "TP1.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i163:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "TP5.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i164:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "TP6.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i165:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "TP7.1" )
 			)
 		)
 	)

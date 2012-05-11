@@ -1,5 +1,67 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 04-May-2012 AT 16:25:19 }
+{ Packager-XL run on 10-May-2012 AT 15:39:00 }
+primitive '24AA025E48';
+  pin
+    'VCC':
+      PIN_NUMBER='(8)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'VSS':
+      PIN_NUMBER='(4)';
+      PINUSE='GROUND';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'SDA':
+      PIN_NUMBER='(5)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'SCL':
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'A0':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'A1':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'A2':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+  end_pin;
+  body
+      PART_NAME='24AA025E48';
+      BODY_NAME='24AA025E48';
+      PHYS_DES_PREFIX='IC';
+      CLASS='IC';
+      NC_PINS='(7)';
+      STATUS='Preferred';
+      PART_NUMBER='24AA025E48';
+      MANUFACTURER='MICROCHIP';
+      DESCRIPTION='2K I2C Serial EEPROM with EUI-48 Node Identity';
+      DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/24aa02e48.pdf~
+';
+      PINCOUNT='8';
+      SMD='YES';
+      CASE='SOIC-8';
+      JEDEC_TYPE='SOIC127P600X175-8N';
+      PARENT_PART_TYPE='24AA025E48_SOIC';
+      PARENT_PPT='24AA025E48';
+      PARENT_PPT_PART='24AA025E48';
+  end_body;
+end_primitive;
 primitive 'AD5665RBRUZ-1-GND=GND_SIGNAL,VA';
   pin
     'LDAC*':
@@ -1913,7 +1975,7 @@ primitive 'OPA4277UA';
       PARENT_PPT_PART='OPA4277UA';
   end_body;
 end_primitive;
-primitive 'PCOAX-PLEMO00C';
+primitive 'PCOAX-PLEMO00C-GND=GND_SIGNAL';
   pin
     'A':
       PIN_NUMBER='(1)';
@@ -1922,7 +1984,6 @@ primitive 'PCOAX-PLEMO00C';
   body
       PART_NAME='PCOAX';
       BODY_NAME='PCOAX';
-      POWER_PINS='(GND:2,3,4,5)';
       ALLOW_CONNECT='TRUE';
       NO_IO_CHECK='TRUE';
       UNKNOWN_LOADING='TRUE';
@@ -1940,7 +2001,9 @@ primitive 'PCOAX-PLEMO00C';
       JEDEC_TYPE='PLEMO80';
       SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=09.46.~
 11.180.6';
+      POWER_PINS='(GND_SIGNAL:2,3,4,5)';
       PARENT_PART_TYPE='PCOAX';
+      SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='PCOAX';
       PARENT_PPT_PART='PCOAX-PLEMO00C';
   end_body;
@@ -1976,7 +2039,7 @@ le) Socket With Key';
       PARENT_PPT_PART='PLEMO2CI-PLEMO2-00B';
   end_body;
 end_primitive;
-primitive 'PRTR5V0U8S_TSSOP-NXP';
+primitive 'PRTR5V0U8S_TSSOP-NXP-GND=GND_SA';
   pin
     'IN':
       PIN_NUMBER='(1,2,4,5,6,7,9,10)';
@@ -1994,15 +2057,15 @@ primitive 'PRTR5V0U8S_TSSOP-NXP';
       JEDEC_TYPE='SOT552-1';
       PHYS_DES_PREFIX='U';
       CLASS='IC';
-      POWER_PINS='(VCC:8)';
-      POWER_PINS='(GND:3)';
       CI='009692A-6';
       PART_NUMBER='PRTR5V0U8S';
       PART_DESCRIPTION='ESD Protection Diodes 5.5V Octal TSSOP10 ';
       OL_COMMENTS='RS  725-8739 , Farnell 1829284';
       KL_COMMENTS='-';
       PL_COMMENTS='-';
+      POWER_PINS='(P2V5:8;GND_SIGNAL:3)';
       PARENT_PART_TYPE='PRTR5V0U8S_TSSOP';
+      SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='PRTR5V0U8S';
       PARENT_PPT_PART='PRTR5V0U8S_TSSOP-NXP';
   end_body;
@@ -2044,6 +2107,47 @@ primitive 'RSMD0402_1/16W-51,1%';
       PARENT_PART_TYPE='RSMD0402_1/16W';
       PARENT_PPT='RSMD0402';
       PARENT_PPT_PART='RSMD0402_1/16W-51,1%';
+  end_body;
+end_primitive;
+primitive 'RSMD0603_-00,';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='RSMD0603';
+      BODY_NAME='RSMD0603';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='0603 Size SMD Jumper';
+      CASE='0603';
+      SMD='YES';
+      STATUS='Preferred';
+      PART_NUMBER='R0603_00_JUMPER';
+      VALUE='00';
+      TOL='';
+      PWR='';
+      JEDEC_TYPE='C0603';
+      MANUFACTURER='GENERIC';
+      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
+03.000.5';
+      PARENT_PART_TYPE='RSMD0603_';
+      PARENT_PPT='RSMD0603';
+      PARENT_PPT_PART='RSMD0603_-00,';
   end_body;
 end_primitive;
 primitive 'RSMD0603_1/10W-100,1%';
@@ -2126,6 +2230,47 @@ primitive 'RSMD0603_1/10W-10K,1%';
       PARENT_PART_TYPE='RSMD0603_1/10W';
       PARENT_PPT='RSMD0603';
       PARENT_PPT_PART='RSMD0603_1/10W-10K,1%';
+  end_body;
+end_primitive;
+primitive 'RSMD0603_1/10W-1K,1%';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='RSMD0603';
+      BODY_NAME='RSMD0603';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='SMD Resistor';
+      CASE='0603';
+      SMD='YES';
+      STATUS='Preferred';
+      PART_NUMBER='R0603_1K_1%_0.1W_100PPM';
+      VALUE='1k';
+      TOL='1%';
+      PWR='0.1W';
+      JEDEC_TYPE='C0603';
+      MANUFACTURER='GENERIC';
+      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
+03.300.6';
+      PARENT_PART_TYPE='RSMD0603_1/10W';
+      PARENT_PPT='RSMD0603';
+      PARENT_PPT_PART='RSMD0603_1/10W-1K,1%';
   end_body;
 end_primitive;
 primitive 'RSMD0603_1/10W-33K,1%';
@@ -2369,6 +2514,169 @@ primitive 'RSMD0805_125MW-12,1%';
       PARENT_PART_TYPE='RSMD0805_125MW';
       PARENT_PPT='RSMD0805';
       PARENT_PPT_PART='RSMD0805_125MW-12,1%';
+  end_body;
+end_primitive;
+primitive 'SN74LVC1G07DCK-GND=GND_SIGNAL,A';
+  pin
+    'A':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'Y':
+      PIN_NUMBER='(4)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+  end_pin;
+  body
+      PART_NAME='74LVC1G07';
+      BODY_NAME='74LVC1G07';
+      PHYS_DES_PREFIX='IC';
+      CLASS='IC';
+      GROUND_NETS='GND';
+      NC_PINS='(1)';
+      STATUS='Preferred';
+      PART_NUMBER='SN74LVC1G07DCK';
+      MANUFACTURER='TEXAS INSTRUMENTS';
+      DESCRIPTION='Single Buffer/Driver with Open-Drain Output';
+      DATASHEET_URL='file://dfs/Services/cdslib/Datasheets/sn74lvc1g07';
+      PINCOUNT='5';
+      SMD='YES';
+      CASE='SC70';
+      JEDEC_TYPE='SOT65P210X110-5N';
+      POWER_PINS='(P2V5:5;GND_SIGNAL:3)';
+      PARENT_PART_TYPE='74LVC1G07_SC70';
+      SCH_MODIFIED_PART='TRUE';
+      PARENT_PPT='74LVC1G07';
+      PARENT_PPT_PART='SN74LVC1G07DCK';
+  end_body;
+end_primitive;
+primitive 'TP_HOLE-0.8MM';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+      PINCOUNT='1';
+      PART_NAME='TP';
+      BODY_NAME='TP';
+      PHYS_DES_PREFIX='TP';
+      CLASS='IO';
+      JEDEC_TYPE='TP_HOLE_08';
+      PART_NUMBER='TP_HOLE_0.8mm';
+      MANUFACTURER='';
+      DESCRIPTION='Stand-Alone 0.8mm Hole for Test Probe';
+      MOUNTED='NO';
+      DATASHEET_URL='';
+      PARENT_PART_TYPE='TP_HOLE';
+      PARENT_PPT='TP';
+      PARENT_PPT_PART='TP_HOLE-0.8MM';
+  end_body;
+end_primitive;
+primitive 'TRANS MOSFET_GSD-FDV301N,SOT23';
+  pin
+    'S':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'G':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'D':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+      CLASS='DISCRETE';
+      PART_NAME='TRANS MOSFET';
+      PHYS_DES_PREFIX='T';
+      ALLOW_CONNECT='TRUE';
+      UNKNOWN_LOADING='TRUE';
+      BODY_NAME='TRANS MOSFET';
+      STATUS='';
+      JEDEC_TYPE='SOT23';
+      PINCOUNT='3';
+      PART_NUMBER='FDV301N';
+      MANUFACTURER='FAIRCHILD SEMICONDUCTOR';
+      DESCRIPTION='Digital FET, N_Channel';
+      PARENT_PART_TYPE='TRANS MOSFET_GSD';
+      PARENT_PPT='TRANS MOSFET';
+      PARENT_PPT_PART='TRANS MOSFET_GSD-FDV301N,SOT23';
+  end_body;
+end_primitive;
+primitive 'USBLC6-2SC6';
+  pin
+    'I/O11':
+      PIN_NUMBER='(1)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'I/O21':
+      PIN_NUMBER='(6)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'I/O12':
+      PIN_NUMBER='(3)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'I/O22':
+      PIN_NUMBER='(4)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='GROUND';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'VBUS':
+      PIN_NUMBER='(5)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+      PART_NAME='USBLC6-2';
+      BODY_NAME='USBLC6_2';
+      PHYS_DES_PREFIX='IC';
+      CLASS='IC';
+      STATUS='Preferred';
+      PART_NUMBER='USBLC6-2SC6';
+      MANUFACTURER='ST MICROELECTRONICS';
+      DESCRIPTION='Very Low Capacitance ESD Protection';
+      DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/usblc6-2.pdf';
+      PINCOUNT='6';
+      SMD='YES';
+      CASE='SOT23-6L';
+      JEDEC_TYPE='SOT95P280X145-6N';
+      PARENT_PART_TYPE='USBLC6-2_SOT23';
+      PARENT_PPT='USBLC6-2';
+      PARENT_PPT_PART='USBLC6-2SC6';
   end_body;
 end_primitive;
 END.

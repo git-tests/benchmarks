@@ -2,37 +2,37 @@ FILE_TYPE = CONNECTIVITY;
 {Allegro Design Entry HDL 16.5-S005 (v16-5-13R) 8/23/2011}
 "PAGE_NUMBER" = 2;
 0"NC";
-1"SCL";
-2"SDA";
-3"BEAM_TRIGGER_CFD<2>";
-4"BEAM_TRIGGER_CFD*<2>";
-5"BEAM_TRIGGER<2>";
-6"BEAM_TRIGGER*<2>";
-7"BEAM_TRIGGER_CFD<1>";
-8"BEAM_TRIGGER_CFD*<1>";
-9"BEAM_TRIGGER<1>";
-10"BEAM_TRIGGER*<1>";
-11"BEAM_TRIGGER_CFD<0>";
-12"BEAM_TRIGGER_CFD*<0>";
-13"BEAM_TRIGGER<0>";
-14"BEAM_TRIGGER*<0>";
-15"VTHRESH<2>";
-16"BEAM_TRIGGER*<3>";
-17"BEAM_TRIGGER<3>";
-18"BEAM_TRIGGER_CFD*<3>";
-19"BEAM_TRIGGER_CFD<3>";
-20"VTHRESH<1>";
-21"IN<0>";
-22"IN<1>";
-23"IN<2>";
-24"IN<3>";
-25"VTHRESH<0>";
-26"VTHRESH<3>";
-27"VTHRESH<3..0>";
-28"BEAM_TRIGGER*<3..0>";
-29"BEAM_TRIGGER<3..0>";
-30"BEAM_TRIGGER_CFD*<3..0>";
-31"BEAM_TRIGGER_CFD<3..0>";
+1"VTHRESH<3..0>";
+2"BEAM_TRIGGER_CFD<3..0>";
+3"BEAM_TRIGGER_CFD*<3..0>";
+4"BEAM_TRIGGER<3..0>";
+5"BEAM_TRIGGER*<3..0>";
+6"SCL";
+7"SDA";
+8"BEAM_TRIGGER_CFD<2>";
+9"BEAM_TRIGGER_CFD*<2>";
+10"BEAM_TRIGGER<2>";
+11"BEAM_TRIGGER*<2>";
+12"BEAM_TRIGGER_CFD<1>";
+13"BEAM_TRIGGER_CFD*<1>";
+14"BEAM_TRIGGER<1>";
+15"BEAM_TRIGGER*<1>";
+16"BEAM_TRIGGER_CFD<0>";
+17"BEAM_TRIGGER_CFD*<0>";
+18"BEAM_TRIGGER<0>";
+19"BEAM_TRIGGER*<0>";
+20"VTHRESH<2>";
+21"BEAM_TRIGGER*<3>";
+22"BEAM_TRIGGER<3>";
+23"BEAM_TRIGGER_CFD*<3>";
+24"BEAM_TRIGGER_CFD<3>";
+25"VTHRESH<1>";
+26"IN<0>";
+27"IN<1>";
+28"IN<2>";
+29"IN<3>";
+30"VTHRESH<0>";
+31"VTHRESH<3>";
 32"GND_SIGNAL\g";
 %"TAP"
 "1","(4650,2300)","0","standard","I10";
@@ -40,72 +40,72 @@ FILE_TYPE = CONNECTIVITY;
 CDS_LIB"standard"
 HDL_TAP"TRUE"
 BODY_TYPE"PLUMBING";
-"B \NAC \NWC"29;
+"B \NAC \NWC"4;
 "S \NAC"
-BN"3"17;
+BN"3"22;
 %"TAP"
 "1","(4400,2200)","0","standard","I11";
 ;
 BODY_TYPE"PLUMBING"
 HDL_TAP"TRUE"
 CDS_LIB"standard";
-"B \NAC \NWC"28;
+"B \NAC \NWC"5;
 "S \NAC"
-BN"3"16;
+BN"3"21;
 %"TAP"
 "1","(4400,-50)","0","standard","I12";
 ;
 CDS_LIB"standard"
 HDL_TAP"TRUE"
 BODY_TYPE"PLUMBING";
-"B \NAC \NWC"28;
+"B \NAC \NWC"5;
 "S \NAC"
-BN"0"14;
+BN"0"19;
 %"TAP"
 "1","(4400,700)","0","standard","I13";
 ;
 CDS_LIB"standard"
 HDL_TAP"TRUE"
 BODY_TYPE"PLUMBING";
-"B \NAC \NWC"28;
+"B \NAC \NWC"5;
 "S \NAC"
-BN"1"10;
+BN"1"15;
 %"TAP"
 "1","(4400,1450)","0","standard","I14";
 ;
 CDS_LIB"standard"
 HDL_TAP"TRUE"
 BODY_TYPE"PLUMBING";
-"B \NAC \NWC"28;
+"B \NAC \NWC"5;
 "S \NAC"
-BN"2"6;
+BN"2"11;
 %"TAP"
 "1","(4650,50)","0","standard","I15";
 ;
 BODY_TYPE"PLUMBING"
 HDL_TAP"TRUE"
 CDS_LIB"standard";
-"B \NAC \NWC"29;
+"B \NAC \NWC"4;
 "S \NAC"
-BN"0"13;
+BN"0"18;
 %"TAP"
 "1","(4650,800)","0","standard","I16";
 ;
 BODY_TYPE"PLUMBING"
 HDL_TAP"TRUE"
 CDS_LIB"standard";
-"B \NAC \NWC"29;
+"B \NAC \NWC"4;
 "S \NAC"
-BN"1"9;
+BN"1"14;
 %"TAP"
 "1","(4650,1550)","0","standard","I17";
 ;
 BODY_TYPE"PLUMBING"
 HDL_TAP"TRUE"
 CDS_LIB"standard";
-"B \NAC \NWC"29;
+"B \NAC \NWC"4;
 "S \NAC"
-BN"2"5;
+BN"2"10;
 %"GND_SIGNAL"
 "1","(-1450,1050)","0","standard","I18";
 ;
@@ -116,51 +116,55 @@ BODY_TYPE"PLUMBING";
 %"PCOAX"
 "1","(1750,2300)","2","cnconnector","I31";
 ;
+POWER_GROUP"GND=GND_SIGNAL"
+TYPE"PLEMO00C"
+NEEDS_NO_SIZE"TRUE"
+CDS_LIB"cnconnector"
 $LOCATION"PX2"
 CDS_LOCATION"PX2"
 $SEC"1"
-CDS_SEC"1"
-TYPE"PLEMO00C"
-NEEDS_NO_SIZE"TRUE"
-CDS_LIB"cnconnector";
+CDS_SEC"1";
 "A\NAC"
-$PN"1"24;
+$PN"1"29;
 %"PCOAX"
 "1","(1750,1550)","2","cnconnector","I32";
 ;
+POWER_GROUP"GND=GND_SIGNAL"
+TYPE"PLEMO00C"
+NEEDS_NO_SIZE"TRUE"
+CDS_LIB"cnconnector"
 $LOCATION"PX3"
 CDS_LOCATION"PX3"
 $SEC"1"
-CDS_SEC"1"
-TYPE"PLEMO00C"
-NEEDS_NO_SIZE"TRUE"
-CDS_LIB"cnconnector";
+CDS_SEC"1";
 "A\NAC"
-$PN"1"23;
+$PN"1"28;
 %"PCOAX"
 "1","(1750,800)","2","cnconnector","I33";
 ;
+POWER_GROUP"GND=GND_SIGNAL"
+TYPE"PLEMO00C"
+NEEDS_NO_SIZE"TRUE"
+CDS_LIB"cnconnector"
 $LOCATION"PX4"
 CDS_LOCATION"PX4"
 $SEC"1"
-CDS_SEC"1"
-TYPE"PLEMO00C"
-NEEDS_NO_SIZE"TRUE"
-CDS_LIB"cnconnector";
+CDS_SEC"1";
 "A\NAC"
-$PN"1"22;
+$PN"1"27;
 %"PCOAX"
 "1","(1750,50)","2","cnconnector","I34";
 ;
+POWER_GROUP"GND=GND_SIGNAL"
+TYPE"PLEMO00C"
+CDS_LIB"cnconnector"
+NEEDS_NO_SIZE"TRUE"
 $LOCATION"PX5"
 CDS_LOCATION"PX5"
 $SEC"1"
-CDS_SEC"1"
-TYPE"PLEMO00C"
-CDS_LIB"cnconnector"
-NEEDS_NO_SIZE"TRUE";
+CDS_SEC"1";
 "A\NAC"
-$PN"1"21;
+$PN"1"26;
 %"FMC_TLU_CFD"
 "1","(3250,2350)","0","fmc_tlu_v1_lib","I35";
 ;
@@ -171,22 +175,22 @@ USE2"work.all"
 BLOCK"TRUE";
 "VIN"
 VHDL_SCALAR_TYPE"std_logic"
-VHDL_MODE"in"24;
+VHDL_MODE"in"29;
 "VTHRESH"
 VHDL_MODE"in"
-VHDL_SCALAR_TYPE"std_logic"26;
+VHDL_SCALAR_TYPE"std_logic"31;
 "CFD_OUT"
 VHDL_MODE"out"
-VHDL_SCALAR_TYPE"std_logic"19;
+VHDL_SCALAR_TYPE"std_logic"24;
 "cfd_out* \B"
 VHDL_MODE"out"
-VHDL_SCALAR_TYPE"std_logic"18;
+VHDL_SCALAR_TYPE"std_logic"23;
 "LEADING_EDGE_OUT"
 VHDL_MODE"out"
-VHDL_SCALAR_TYPE"std_logic"17;
+VHDL_SCALAR_TYPE"std_logic"22;
 "leading_edge_out* \B"
 VHDL_MODE"out"
-VHDL_SCALAR_TYPE"std_logic"16;
+VHDL_SCALAR_TYPE"std_logic"21;
 %"FMC_TLU_CFD"
 "1","(3250,1600)","0","fmc_tlu_v1_lib","I36";
 ;
@@ -197,22 +201,22 @@ LIBRARY1"ieee"
 CDS_LIB"fmc_tlu_v1_lib";
 "VIN"
 VHDL_SCALAR_TYPE"std_logic"
-VHDL_MODE"in"23;
+VHDL_MODE"in"28;
 "VTHRESH"
 VHDL_SCALAR_TYPE"std_logic"
-VHDL_MODE"in"15;
+VHDL_MODE"in"20;
 "CFD_OUT"
 VHDL_SCALAR_TYPE"std_logic"
-VHDL_MODE"out"3;
+VHDL_MODE"out"8;
 "cfd_out* \B"
 VHDL_SCALAR_TYPE"std_logic"
-VHDL_MODE"out"4;
+VHDL_MODE"out"9;
 "LEADING_EDGE_OUT"
 VHDL_SCALAR_TYPE"std_logic"
-VHDL_MODE"out"5;
+VHDL_MODE"out"10;
 "leading_edge_out* \B"
 VHDL_SCALAR_TYPE"std_logic"
-VHDL_MODE"out"6;
+VHDL_MODE"out"11;
 %"FMC_TLU_CFD"
 "1","(3250,850)","0","fmc_tlu_v1_lib","I37";
 ;
@@ -223,22 +227,22 @@ USE2"work.all"
 BLOCK"TRUE";
 "VIN"
 VHDL_MODE"in"
-VHDL_SCALAR_TYPE"std_logic"22;
+VHDL_SCALAR_TYPE"std_logic"27;
 "VTHRESH"
 VHDL_MODE"in"
-VHDL_SCALAR_TYPE"std_logic"20;
+VHDL_SCALAR_TYPE"std_logic"25;
 "CFD_OUT"
 VHDL_MODE"out"
-VHDL_SCALAR_TYPE"std_logic"7;
+VHDL_SCALAR_TYPE"std_logic"12;
 "cfd_out* \B"
 VHDL_MODE"out"
-VHDL_SCALAR_TYPE"std_logic"8;
+VHDL_SCALAR_TYPE"std_logic"13;
 "LEADING_EDGE_OUT"
 VHDL_MODE"out"
-VHDL_SCALAR_TYPE"std_logic"9;
+VHDL_SCALAR_TYPE"std_logic"14;
 "leading_edge_out* \B"
 VHDL_MODE"out"
-VHDL_SCALAR_TYPE"std_logic"10;
+VHDL_SCALAR_TYPE"std_logic"15;
 %"FMC_TLU_CFD"
 "1","(3250,100)","0","fmc_tlu_v1_lib","I38";
 ;
@@ -249,94 +253,94 @@ USE2"work.all"
 BLOCK"TRUE";
 "VIN"
 VHDL_MODE"in"
-VHDL_SCALAR_TYPE"std_logic"21;
+VHDL_SCALAR_TYPE"std_logic"26;
 "VTHRESH"
 VHDL_MODE"in"
-VHDL_SCALAR_TYPE"std_logic"25;
+VHDL_SCALAR_TYPE"std_logic"30;
 "CFD_OUT"
 VHDL_MODE"out"
-VHDL_SCALAR_TYPE"std_logic"11;
+VHDL_SCALAR_TYPE"std_logic"16;
 "cfd_out* \B"
 VHDL_MODE"out"
-VHDL_SCALAR_TYPE"std_logic"12;
+VHDL_SCALAR_TYPE"std_logic"17;
 "LEADING_EDGE_OUT"
 VHDL_MODE"out"
-VHDL_SCALAR_TYPE"std_logic"13;
+VHDL_SCALAR_TYPE"std_logic"18;
 "leading_edge_out* \B"
 VHDL_MODE"out"
-VHDL_SCALAR_TYPE"std_logic"14;
+VHDL_SCALAR_TYPE"std_logic"19;
 %"TAP"
 "1","(5450,2500)","0","standard","I39";
 ;
 CDS_LIB"standard"
 HDL_TAP"TRUE"
 BODY_TYPE"PLUMBING";
-"B \NAC \NWC"31;
+"B \NAC \NWC"2;
 "S \NAC"
-BN"3"19;
+BN"3"24;
 %"TAP"
 "1","(5200,2400)","0","standard","I40";
 ;
 BODY_TYPE"PLUMBING"
 HDL_TAP"TRUE"
 CDS_LIB"standard";
-"B \NAC \NWC"30;
+"B \NAC \NWC"3;
 "S \NAC"
-BN"3"18;
+BN"3"23;
 %"TAP"
 "1","(5450,1750)","0","standard","I41";
 ;
 BODY_TYPE"PLUMBING"
 HDL_TAP"TRUE"
 CDS_LIB"standard";
-"B \NAC \NWC"31;
+"B \NAC \NWC"2;
 "S \NAC"
-BN"2"3;
+BN"2"8;
 %"TAP"
 "1","(5200,1650)","0","standard","I42";
 ;
 CDS_LIB"standard"
 HDL_TAP"TRUE"
 BODY_TYPE"PLUMBING";
-"B \NAC \NWC"30;
+"B \NAC \NWC"3;
 "S \NAC"
-BN"2"4;
+BN"2"9;
 %"TAP"
 "1","(5450,1000)","0","standard","I43";
 ;
 BODY_TYPE"PLUMBING"
 HDL_TAP"TRUE"
 CDS_LIB"standard";
-"B \NAC \NWC"31;
+"B \NAC \NWC"2;
 "S \NAC"
-BN"1"7;
+BN"1"12;
 %"TAP"
 "1","(5200,900)","0","standard","I44";
 ;
 CDS_LIB"standard"
 HDL_TAP"TRUE"
 BODY_TYPE"PLUMBING";
-"B \NAC \NWC"30;
+"B \NAC \NWC"3;
 "S \NAC"
-BN"1"8;
+BN"1"13;
 %"TAP"
 "1","(5450,250)","0","standard","I45";
 ;
 BODY_TYPE"PLUMBING"
 HDL_TAP"TRUE"
 CDS_LIB"standard";
-"B \NAC \NWC"31;
+"B \NAC \NWC"2;
 "S \NAC"
-BN"0"11;
+BN"0"16;
 %"TAP"
 "1","(5200,150)","0","standard","I46";
 ;
 BODY_TYPE"PLUMBING"
 HDL_TAP"TRUE"
 CDS_LIB"standard";
-"B \NAC \NWC"30;
+"B \NAC \NWC"3;
 "S \NAC"
-BN"0"12;
+BN"0"17;
 %"PC023A_DAC_VTHRESH"
 "1","(-200,950)","0","fmc_tlu_v1_lib","I5";
 ;
@@ -350,13 +354,13 @@ VHDL_MODE"out"
 VHDL_SCALAR_TYPE"std_logic"0;
 "VTHRESH<3..0>"
 VHDL_VECTOR_TYPE"std_logic_vector"
-VHDL_MODE"out"27;
+VHDL_MODE"out"1;
 "SDA"
 VHDL_MODE"in"
-VHDL_SCALAR_TYPE"std_logic"2;
+VHDL_SCALAR_TYPE"std_logic"7;
 "SCL"
 VHDL_MODE"in"
-VHDL_SCALAR_TYPE"std_logic"1;
+VHDL_SCALAR_TYPE"std_logic"6;
 "A1"
 VHDL_MODE"in"
 VHDL_SCALAR_TYPE"std_logic"32;
@@ -369,34 +373,34 @@ VHDL_SCALAR_TYPE"std_logic"32;
 HDL_TAP"TRUE"
 BODY_TYPE"PLUMBING"
 CDS_LIB"standard";
-"B \NAC \NWC"27;
+"B \NAC \NWC"1;
 "S \NAC"
-BN"3"26;
+BN"3"31;
 %"TAP"
 "1","(1400,-50)","2","standard","I7";
 ;
 CDS_LIB"standard"
 BODY_TYPE"PLUMBING"
 HDL_TAP"TRUE";
-"B \NAC \NWC"27;
+"B \NAC \NWC"1;
 "S \NAC"
-BN"0"25;
+BN"0"30;
 %"TAP"
 "1","(1400,700)","2","standard","I8";
 ;
 CDS_LIB"standard"
 BODY_TYPE"PLUMBING"
 HDL_TAP"TRUE";
-"B \NAC \NWC"27;
+"B \NAC \NWC"1;
 "S \NAC"
-BN"1"20;
+BN"1"25;
 %"TAP"
 "1","(1400,1450)","2","standard","I9";
 ;
 CDS_LIB"standard"
 BODY_TYPE"PLUMBING"
 HDL_TAP"TRUE";
-"B \NAC \NWC"27;
+"B \NAC \NWC"1;
 "S \NAC"
-BN"2"15;
+BN"2"20;
 END.

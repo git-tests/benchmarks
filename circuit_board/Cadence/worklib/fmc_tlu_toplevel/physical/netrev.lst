@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : fmc_tlu_v1_05.brd                             )
+(    Drawing          : fmc_tlu_v1_14.brd                             )
 (    Software Version : 16.5S005                                      )
-(    Date/Time        : Fri May  4 15:55:38 2012                      )
+(    Date/Time        : Thu May 10 15:39:06 2012                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -18,10 +18,10 @@ RIPUP_SYMBOLS ALWAYS;
 Missing symbol has error FALSE;
 SCHEMATIC_DIRECTORY '/projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/packaged';
 BOARD_DIRECTORY '';
-OLD_BOARD_NAME '/projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_05.brd';
-NEW_BOARD_NAME 'fmc_tlu_v1_06.brd';
+OLD_BOARD_NAME '/projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_14.brd';
+NEW_BOARD_NAME 'fmc_tlu_v1_15.brd';
 
-CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/fmc_tlu_v1.cpm -5 -y 1 -Oo /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_05.brd /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_06.brd -$
+CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/fmc_tlu_v1.cpm -5 -y 1 -Oo /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_14.brd /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_15.brd -$
 
 ------ Preparing to read pst files ------
 
@@ -40,10 +40,10 @@ Starting to read /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circui
 ===========================================================
 Start Constraint Override Import
 	Constraint File:    /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/packaged/pstcmdb.dat
-	Start time: Fri May  4 15:55:39 2012
+	Start time: Thu May 10 15:39:06 2012
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Fri May  4 15:55:39 2012
+Finished Constraint Update	Time: Thu May 10 15:39:07 2012
 ===========================================================
 
 ------ Library Paths ------
@@ -65,14 +65,7 @@ PSMPATH =  .
            /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/symbols/so 
            /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/symbols/bga 
            /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/symbols/qfp 
-           /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/symbols/cap 
-           /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/symbols/res 
-           /software/CAD/Cadence/SPB_16.50/share/pcb/pcb_lib/symbols 
-           /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/symbols 
-           /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/formats 
-           /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/padstacks/mechanical 
-           /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/padstacks/orgmechanical 
-           /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/symbols/sp 
+           /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/symbols/passif 
 
 PADPATH =  . 
            symbols 
@@ -84,7 +77,6 @@ PADPATH =  .
            /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/padstacks/padstack5 
            /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/padstacks/padstackm 
            /afs/phy.bris.ac.uk/cad/designs/uob-hep-pc036a/trunk/design_files/worklib/cbc_symbol/physical 
-           /afs/phy.bris.ac.uk/cad/ral_cdslib/lib_psd15.x/pads 
            /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/padstacks/orgmechanical 
            /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/padstacks/mechanical 
 
@@ -92,9 +84,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on May 4 15:55:38 2012
+netrev run on May 10 15:39:06 2012
    DESIGN NAME : 'FMC_TLU_TOPLEVEL'
-   PACKAGING ON 04-May-2012 AT 15:55:35
+   PACKAGING ON 10-May-2012 AT 15:39:00
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -104,11 +96,11 @@ netrev run on May 4 15:55:38 2012
    INCREMENTAL OFF
    INTERFACE_TYPE PHYSICAL
    LIBRARIES  'fmc_tlu_v1_lib' 'bris_cds_analogue' 'bris_cds_connectors'
-              'bris_cds_logic' 'bris_cds_memory' 'bris_cds_pld'
-              'bris_cds_special' 'bris_cds_standard' 'bris_cds_switches'
-              'cnconnector' 'cninterface' 'cnpower' 'cnlinear' 'cnpassive'
-              'cndiscrete' 'standard' 'cds_analogue' 'cds_standard' 'cn100e'
-              'pc017a_lib'
+              'bris_cds_logic' 'bris_cds_memory' 'bris_cds_special'
+              'bris_cds_standard' 'bris_cds_switches' 'cnconnector'
+              'cninterface' 'cnpower' 'cnlinear' 'cnpassive' 'cndiscrete'
+              'standard' 'cds_analogue' 'cn100e' 'cn74lv' 'cn74tiac' 'cn75als'
+              'cncmos' 'cnfast' 'cnmemory'
    MASTER_LIBRARIES  <none>
    MAX_ERRORS 500
    MERGE_MINIMUM 5
@@ -126,5 +118,5 @@ netrev run on May 4 15:55:38 2012
  No warning detected
 
 cpu time      0:00:01
-elapsed time  0:00:02
+elapsed time  0:00:01
 

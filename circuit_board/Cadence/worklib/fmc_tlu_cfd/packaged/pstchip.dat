@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 04-May-2012 AT 08:44:08 }
+{ Packager-XL run on 10-May-2012 AT 13:12:43 }
 primitive 'CAPCERSMDCL2_0603-1.0UF,6.3V';
   pin
     'A'<0>:
@@ -864,6 +864,34 @@ primitive 'RSMD0805_125MW-12,1%';
       PARENT_PART_TYPE='RSMD0805_125MW';
       PARENT_PPT='RSMD0805';
       PARENT_PPT_PART='RSMD0805_125MW-12,1%';
+  end_body;
+end_primitive;
+primitive 'TP_HOLE-0.8MM';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+      PINCOUNT='1';
+      PART_NAME='TP';
+      BODY_NAME='TP';
+      PHYS_DES_PREFIX='TP';
+      CLASS='IO';
+      JEDEC_TYPE='TP_HOLE_08';
+      PART_NUMBER='TP_HOLE_0.8mm';
+      MANUFACTURER='';
+      DESCRIPTION='Stand-Alone 0.8mm Hole for Test Probe';
+      MOUNTED='NO';
+      DATASHEET_URL='';
+      PARENT_PART_TYPE='TP_HOLE';
+      PARENT_PPT='TP';
+      PARENT_PPT_PART='TP_HOLE-0.8MM';
   end_body;
 end_primitive;
 END.

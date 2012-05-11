@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 04-May-2012 AT 08:44:08 }
+{ Packager-XL run on 10-May-2012 AT 13:12:43 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='FMC_TLU_CFD';
- POST_TIME='04-May-2012 AT 08:44:08';
+ POST_TIME='10-May-2012 AT 13:12:43';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -871,5 +871,180 @@ SECTION_NUMBER 1
  PRIM_FILE='/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe~
 _cern_lib/cnpassive/rsmd0603/chips/chips.prt',
  REUSE_ID='29';
+
+PART_NAME
+ TP1 'TP_HOLE-0.8MM':
+ REUSE_ID='37';
+
+SECTION_NUMBER 1
+ '@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1):PAGE1_I162@CNPASSIVE.TP(CHIPS)':
+ C_PATH='@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i162@cnpassive.tp(chips)',
+ P_PATH='@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i162@cnpassive.tp(chips)',
+ PATH='I162',
+ DRAWING='@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1):PAGE1',
+ SIZE='1',
+ SYMMAP='TRUE',
+ PHYS_PAGE='1',
+ XY='(1000,800)',
+ ROT='0',
+ VER='1',
+ VALUE='0.8MM',
+ PACK_TYPE='HOLE',
+ PART_NAME='TP',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='TP_HOLE-0.8MM',
+ PRIM_FILE='/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe~
+_cern_lib/cnpassive/tp/chips/chips.prt',
+ REUSE_ID='37';
+
+PART_NAME
+ TP2 'TP_HOLE-0.8MM':
+ REUSE_ID='36';
+
+SECTION_NUMBER 1
+ '@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1):PAGE1_I159@CNPASSIVE.TP(CHIPS)':
+ C_PATH='@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i159@cnpassive.tp(chips)',
+ P_PATH='@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i159@cnpassive.tp(chips)',
+ PATH='I159',
+ DRAWING='@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1):PAGE1',
+ SIZE='1',
+ SYMMAP='TRUE',
+ PHYS_PAGE='1',
+ XY='(2750,400)',
+ ROT='0',
+ VER='1',
+ VALUE='0.8MM',
+ PACK_TYPE='HOLE',
+ PART_NAME='TP',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='TP_HOLE-0.8MM',
+ PRIM_FILE='/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe~
+_cern_lib/cnpassive/tp/chips/chips.prt',
+ REUSE_ID='36';
+
+PART_NAME
+ TP3 'TP_HOLE-0.8MM':
+ REUSE_ID='35';
+
+SECTION_NUMBER 1
+ '@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1):PAGE1_I160@CNPASSIVE.TP(CHIPS)':
+ C_PATH='@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i160@cnpassive.tp(chips)',
+ P_PATH='@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i160@cnpassive.tp(chips)',
+ PATH='I160',
+ DRAWING='@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1):PAGE1',
+ SIZE='1',
+ SYMMAP='TRUE',
+ PHYS_PAGE='1',
+ XY='(2750,200)',
+ ROT='0',
+ VER='1',
+ VALUE='0.8MM',
+ PACK_TYPE='HOLE',
+ PART_NAME='TP',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='TP_HOLE-0.8MM',
+ PRIM_FILE='/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe~
+_cern_lib/cnpassive/tp/chips/chips.prt',
+ REUSE_ID='35';
+
+PART_NAME
+ TP4 'TP_HOLE-0.8MM':
+ REUSE_ID='34';
+
+SECTION_NUMBER 1
+ '@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1):PAGE1_I161@CNPASSIVE.TP(CHIPS)':
+ C_PATH='@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i161@cnpassive.tp(chips)',
+ P_PATH='@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i161@cnpassive.tp(chips)',
+ PATH='I161',
+ DRAWING='@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1):PAGE1',
+ SIZE='1',
+ SYMMAP='TRUE',
+ PHYS_PAGE='1',
+ XY='(2750,0)',
+ ROT='0',
+ VER='1',
+ VALUE='0.8MM',
+ PACK_TYPE='HOLE',
+ PART_NAME='TP',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='TP_HOLE-0.8MM',
+ PRIM_FILE='/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe~
+_cern_lib/cnpassive/tp/chips/chips.prt',
+ REUSE_ID='34';
+
+PART_NAME
+ TP5 'TP_HOLE-0.8MM':
+ REUSE_ID='33';
+
+SECTION_NUMBER 1
+ '@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1):PAGE1_I163@CNPASSIVE.TP(CHIPS)':
+ C_PATH='@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i163@cnpassive.tp(chips)',
+ P_PATH='@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i163@cnpassive.tp(chips)',
+ PATH='I163',
+ DRAWING='@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1):PAGE1',
+ SIZE='1',
+ SYMMAP='TRUE',
+ PHYS_PAGE='1',
+ XY='(2750,-1250)',
+ ROT='0',
+ VER='1',
+ VALUE='0.8MM',
+ PACK_TYPE='HOLE',
+ PART_NAME='TP',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='TP_HOLE-0.8MM',
+ PRIM_FILE='/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe~
+_cern_lib/cnpassive/tp/chips/chips.prt',
+ REUSE_ID='33';
+
+PART_NAME
+ TP6 'TP_HOLE-0.8MM':
+ REUSE_ID='32';
+
+SECTION_NUMBER 1
+ '@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1):PAGE1_I164@CNPASSIVE.TP(CHIPS)':
+ C_PATH='@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i164@cnpassive.tp(chips)',
+ P_PATH='@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i164@cnpassive.tp(chips)',
+ PATH='I164',
+ DRAWING='@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1):PAGE1',
+ SIZE='1',
+ SYMMAP='TRUE',
+ PHYS_PAGE='1',
+ XY='(2750,-1550)',
+ ROT='0',
+ VER='1',
+ VALUE='0.8MM',
+ PACK_TYPE='HOLE',
+ PART_NAME='TP',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='TP_HOLE-0.8MM',
+ PRIM_FILE='/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe~
+_cern_lib/cnpassive/tp/chips/chips.prt',
+ REUSE_ID='32';
+
+PART_NAME
+ TP7 'TP_HOLE-0.8MM':
+ REUSE_ID='31';
+
+SECTION_NUMBER 1
+ '@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1):PAGE1_I165@CNPASSIVE.TP(CHIPS)':
+ C_PATH='@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i165@cnpassive.tp(chips)',
+ P_PATH='@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i165@cnpassive.tp(chips)',
+ PATH='I165',
+ DRAWING='@FMC_TLU_V1_LIB.FMC_TLU_CFD(SCH_1):PAGE1',
+ SIZE='1',
+ SYMMAP='TRUE',
+ PHYS_PAGE='1',
+ XY='(2750,-1750)',
+ ROT='0',
+ VER='1',
+ VALUE='0.8MM',
+ PACK_TYPE='HOLE',
+ PART_NAME='TP',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='TP_HOLE-0.8MM',
+ PRIM_FILE='/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe~
+_cern_lib/cnpassive/tp/chips/chips.prt',
+ REUSE_ID='31';
 
 END.

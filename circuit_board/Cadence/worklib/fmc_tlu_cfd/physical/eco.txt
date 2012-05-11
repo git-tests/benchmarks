@@ -2,33 +2,122 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../circuit_board/Cadence/worklib/fmc_tlu_cfd/physical/fmc_tlu_cfd_03.brd   |
-|                                                    Fri May  4 08:44:12 2012  |
+|  .../circuit_board/Cadence/worklib/fmc_tlu_cfd/physical/fmc_tlu_cfd_04.brd   |
+|                                                    Thu May 10 13:12:45 2012  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  CFD_OUT      pins MOVED FROM this net (to net name listed on right)
-                                 R14.2            5.8000 -16.450
-                                                       UNNAMED_1_MAX9601_I1_Q_1
+  GND_SIGNAL   pins ADDED TO this existing net (pins not previously on any net)
+                                 TP4.1                          
+                                 TP7.1                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CFD_OUT*     pins MOVED FROM this net (to net name listed on right)
-                                 R12.2           -5.7000 -16.450
-                                                         UNNAMED_1_MAX9601_I1_Q
+  LEADING_EDGE_OUT pins ADDED TO this existing net (pins not previously on any net)
+                                 TP2.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LEADING_EDGE_OUT* pins ADDED TO this existing net (pins not previously on any net)
+                                 TP3.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_CAPCERSMDCL2_I78_B pins ADDED TO this existing net (pins not previously on any net)
+                                 TP1.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_MAX9601_I1_Q pins ADDED TO this existing net (pins not previously on any net)
+                                 TP6.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_MAX9601_I1_Q_1 pins ADDED TO this existing net (pins not previously on any net)
+                                 TP5.1                          
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  .../circuit_board/Cadence/worklib/fmc_tlu_cfd/physical/fmc_tlu_cfd_03.brd   |
-|                                                    Fri May  4 08:44:12 2012  |
+|  .../circuit_board/Cadence/worklib/fmc_tlu_cfd/physical/fmc_tlu_cfd_04.brd   |
+|                                                    Thu May 10 13:12:45 2012  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to board drawing                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ TP_HOLE-0.8MM
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  .../circuit_board/Cadence/worklib/fmc_tlu_cfd/physical/fmc_tlu_cfd_04.brd   |
+|                                                    Thu May 10 13:12:45 2012  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to board drawing                                            |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ TP1                 TP_HOLE-0.8MM         
+ TP2                 TP_HOLE-0.8MM         
+ TP3                 TP_HOLE-0.8MM         
+ TP4                 TP_HOLE-0.8MM         
+ TP5                 TP_HOLE-0.8MM         
+ TP6                 TP_HOLE-0.8MM         
+ TP7                 TP_HOLE-0.8MM         
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  .../circuit_board/Cadence/worklib/fmc_tlu_cfd/physical/fmc_tlu_cfd_04.brd   |
+|                                                    Thu May 10 13:12:45 2012  |
 |------------------------------------------------------------------------------|
 | COMPONENT PROPERTIES added to board drawing                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   ref  des   |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R12            -5.7000 -17.200 REUSE_ID       30
- R14             5.8000 -17.200 REUSE_ID       29
+ TP1                            REUSE_ID       37
+ TP2                            REUSE_ID       36
+ TP3                            REUSE_ID       35
+ TP4                            REUSE_ID       34
+ TP5                            REUSE_ID       33
+ TP6                            REUSE_ID       32
+ TP7                            REUSE_ID       31
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
 |------------------------------------------------------------------------------|
-|   total ECO changes reported  4                                              |
+|  .../circuit_board/Cadence/worklib/fmc_tlu_cfd/physical/fmc_tlu_cfd_04.brd   |
+|                                                    Thu May 10 13:12:45 2012  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to board drawing                                       |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ TP1.1                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP1.1                          SIZE           1
+ TP2.1                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP2.1                          SIZE           1
+ TP3.1                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP3.1                          SIZE           1
+ TP4.1                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP4.1                          SIZE           1
+ TP5.1                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP5.1                          SIZE           1
+ TP6.1                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP6.1                          SIZE           1
+ TP7.1                          PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP7.1                          SIZE           1
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  .../circuit_board/Cadence/worklib/fmc_tlu_cfd/physical/fmc_tlu_cfd_04.brd   |
+|                                                    Thu May 10 13:12:45 2012  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to board drawing                                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ TP1.1                          CDS_PINID      A(0)
+ TP2.1                          CDS_PINID      A(0)
+ TP3.1                          CDS_PINID      A(0)
+ TP4.1                          CDS_PINID      A(0)
+ TP5.1                          CDS_PINID      A(0)
+ TP6.1                          CDS_PINID      A(0)
+ TP7.1                          CDS_PINID      A(0)
+|------------------------------------------------------------------------------|
+|   total ECO changes reported  43                                             |
 |------------------------------------------------------------------------------|

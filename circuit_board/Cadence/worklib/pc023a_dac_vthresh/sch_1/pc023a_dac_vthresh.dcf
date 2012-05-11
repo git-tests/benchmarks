@@ -7,7 +7,7 @@
 			( 16.5 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 6 )
+			( logicalViewRevNum 7 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -385,6 +385,22 @@
 			)
 			( Objects
 				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SYMMAP" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
 			)
 			( Analysis
 			)
@@ -1767,6 +1783,84 @@
 				)
 				( objectStatus "PAGE1_I66" )
 			)
+			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i68"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "HOLE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "TP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SYMMAP" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "0.8MM"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-950,700)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "TP"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "TP_HOLE-0.8MM"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I68" )
+			)
+			( gate "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i69"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "HOLE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "TP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SYMMAP" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "0.8MM"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-700,1350)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "TP"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "TP_HOLE-0.8MM"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I69" )
+			)
 			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:min(0)"
 			)
 			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:\out\(0)"
@@ -1973,6 +2067,16 @@
 					( Origin gPackager )
 				)
 			)
+			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i68:a(0)"
+				( attribute "PN" "#"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i69:a(0)"
+				( attribute "PN" "#"
+					( Origin gPackager )
+				)
+			)
 			( bus "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):vthresh"
 				( memberType ( signal ) )
 				( member ( signalRef "@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):vthresh(0)") )
@@ -2103,7 +2207,7 @@
 			)
 		)
 	)
-		( BaseCopy "pc023a_vthresh_buffer"
+	( BaseCopy "pc023a_vthresh_buffer"
 		( constraintHeader
 			( revisionNumber
 				( logicalViewRevNum 2 )
@@ -2116,232 +2220,232 @@
 				( properties )
 			)
 		)
-		( designConstraints
-			( ruleChanges
-				( allRules )
-				( design "@lib.PSSystem(view):\pc023a_vthresh_buffer\"
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "pc023a_vthresh_buffer"
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):m5v"
+				( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_m5v") )
+				( objectStatus "m5v" )
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_m5v"
+				( objectFlag fObjectAlias )
+				( objectStatus "page1_m5v" )
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):p5v"
+				( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_p5v") )
+				( objectStatus "p5v" )
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_p5v"
+				( objectFlag fObjectAlias )
+				( objectStatus "page1_p5v" )
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):unnamed_1_opa4277_i22_min"
+				( objectStatus "unnamed_1_opa4277_i22_min" )
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\"
+				( objectStatus "vin+" )
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin-\"
+				( objectStatus "vin-" )
+			)
+			( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):vout"
+				( objectStatus "vout" )
+			)
+			( gate "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22"
+				( attribute "CDS_LIB" "cnlinear"
+					( Origin gPackager )
 				)
-				( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):m5v"
-					( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_m5v") )
-					( objectStatus "m5v" )
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,125,125,-125"
+					( Origin gPackager )
 				)
-				( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_m5v"
-					( objectFlag fObjectAlias )
-					( objectStatus "page1_m5v" )
+				( attribute "PACK_TYPE" "SOIC"
+					( Origin gFrontEnd )
 				)
-				( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):p5v"
-					( alias ( signalRef "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_p5v") )
-					( objectStatus "p5v" )
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
 				)
-				( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_p5v"
-					( objectFlag fObjectAlias )
-					( objectStatus "page1_p5v" )
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
 				)
-				( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):unnamed_1_opa4277_i22_min"
-					( objectStatus "unnamed_1_opa4277_i22_min" )
+				( attribute "TYPE" "OPA4277UA"
+					( Origin gFrontEnd )
 				)
-				( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin+\"
-					( objectStatus "vin+" )
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
 				)
-				( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):\vin-\"
-					( objectStatus "vin-" )
+				( attribute "XY" "(-850,1850)"
+					( Origin gFrontEnd )
 				)
-				( signal "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):vout"
-					( objectStatus "vout" )
+				( attribute "CHIPS_PART_NAME" "OPA4277"
+					( Origin gPackager )
 				)
-				( gate "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22"
-					( attribute "CDS_LIB" "cnlinear"
-						( Origin gPackager )
-					)
-					( attribute "CDS_LMAN_SYM_OUTLINE" "-125,125,125,-125"
-						( Origin gPackager )
-					)
-					( attribute "PACK_TYPE" "SOIC"
-						( Origin gFrontEnd )
-					)
-					( attribute "PHYS_PAGE" "1"
-						( Origin gFrontEnd )
-					)
-					( attribute "ROT" "0"
-						( Origin gFrontEnd )
-					)
-					( attribute "TYPE" "OPA4277UA"
-						( Origin gFrontEnd )
-					)
-					( attribute "VER" "1"
-						( Origin gFrontEnd )
-					)
-					( attribute "XY" "(-850,1850)"
-						( Origin gFrontEnd )
-					)
-					( attribute "CHIPS_PART_NAME" "OPA4277"
-						( Origin gPackager )
-					)
-					( attribute "CDS_PART_NAME" "OPA4277UA"
-						( Origin gPackager )
-					)
-					( objectStatus "PAGE1_I22" )
+				( attribute "CDS_PART_NAME" "OPA4277UA"
+					( Origin gPackager )
 				)
-				( gate "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23"
-					( attribute "CDS_LIB" "cnpassive"
-						( Origin gPackager )
-					)
-					( attribute "DIST" "FLAT"
-						( Origin gFrontEnd )
-					)
-					( attribute "LOCATION" "<< NULL >>"
-						( Origin gPackager )
-					)
-					( attribute "MAX_TEMP" "RTMAX"
-						( Origin gFrontEnd )
-					)
-					( attribute "NEGTOL" "RTOL%"
-						( Origin gFrontEnd )
-					)
-					( attribute "PACK_TYPE" "1/10W"
-						( Origin gFrontEnd )
-					)
-					( attribute "PHYS_PAGE" "1"
-						( Origin gFrontEnd )
-					)
-					( attribute "POSTOL" "RTOL%"
-						( Origin gFrontEnd )
-					)
-					( attribute "POWER" "RMAX"
-						( Origin gFrontEnd )
-					)
-					( attribute "ROT" "0"
-						( Origin gFrontEnd )
-					)
-					( attribute "SIZE" "1"
-						( Origin gFrontEnd )
-					)
-					( attribute "SLOPE" "RSMAX"
-						( Origin gFrontEnd )
-					)
-					( attribute "TC1" "RTMPL"
-						( Origin gFrontEnd )
-					)
-					( attribute "TC2" "RTMPQ"
-						( Origin gFrontEnd )
-					)
-					( attribute "TOL" "1%"
-						( Origin gFrontEnd )
-					)
-					( attribute "TOL_ON_OFF" "ON"
-						( Origin gFrontEnd )
-					)
-					( attribute "VALUE" "10K"
-						( Origin gFrontEnd )
-					)
-					( attribute "VER" "2"
-						( Origin gFrontEnd )
-					)
-					( attribute "VOLTAGE" "RVMAX"
-						( Units "uVoltage" "V" 1.000000)
-						( Origin gFrontEnd )
-					)
-					( attribute "XY" "(-850,2400)"
-						( Origin gFrontEnd )
-					)
-					( attribute "CHIPS_PART_NAME" "RSMD0603"
-						( Origin gPackager )
-					)
-					( attribute "CDS_PART_NAME" "RSMD0603_1/10W-10K,1%"
-						( Origin gPackager )
-					)
-					( objectStatus "PAGE1_I23" )
+				( objectStatus "PAGE1_I22" )
+			)
+			( gate "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
 				)
-				( gate "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24"
-					( attribute "CDS_LIB" "cnpassive"
-						( Origin gPackager )
-					)
-					( attribute "DIST" "FLAT"
-						( Origin gFrontEnd )
-					)
-					( attribute "LOCATION" "<< NULL >>"
-						( Origin gPackager )
-					)
-					( attribute "MAX_TEMP" "RTMAX"
-						( Origin gFrontEnd )
-					)
-					( attribute "NEGTOL" "RTOL%"
-						( Origin gFrontEnd )
-					)
-					( attribute "PACK_TYPE" "1/10W"
-						( Origin gFrontEnd )
-					)
-					( attribute "PHYS_PAGE" "1"
-						( Origin gFrontEnd )
-					)
-					( attribute "POSTOL" "RTOL%"
-						( Origin gFrontEnd )
-					)
-					( attribute "POWER" "RMAX"
-						( Origin gFrontEnd )
-					)
-					( attribute "ROT" "0"
-						( Origin gFrontEnd )
-					)
-					( attribute "SIZE" "1"
-						( Origin gFrontEnd )
-					)
-					( attribute "SLOPE" "RSMAX"
-						( Origin gFrontEnd )
-					)
-					( attribute "TC1" "RTMPL"
-						( Origin gFrontEnd )
-					)
-					( attribute "TC2" "RTMPQ"
-						( Origin gFrontEnd )
-					)
-					( attribute "TOL" "1%"
-						( Origin gFrontEnd )
-					)
-					( attribute "TOL_ON_OFF" "ON"
-						( Origin gFrontEnd )
-					)
-					( attribute "VALUE" "10K"
-						( Origin gFrontEnd )
-					)
-					( attribute "VER" "2"
-						( Origin gFrontEnd )
-					)
-					( attribute "VOLTAGE" "RVMAX"
-						( Units "uVoltage" "V" 1.000000)
-						( Origin gFrontEnd )
-					)
-					( attribute "XY" "(-2100,1800)"
-						( Origin gFrontEnd )
-					)
-					( attribute "CHIPS_PART_NAME" "RSMD0603"
-						( Origin gPackager )
-					)
-					( attribute "CDS_PART_NAME" "RSMD0603_1/10W-10K,1%"
-						( Origin gPackager )
-					)
-					( objectStatus "PAGE1_I24" )
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
 				)
-				( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:min(0)"
+				( attribute "LOCATION" "<< NULL >>"
+					( Origin gPackager )
 				)
-				( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:\out\(0)"
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
 				)
-				( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:pin(0)"
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
 				)
-				( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:\v+\"
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
 				)
-				( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:\v-\"
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
 				)
-				( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23:a(0)"
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
 				)
-				( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23:b(0)"
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
 				)
-				( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24:a(0)"
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
 				)
-				( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24:b(0)"
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
 				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "10K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-850,2400)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-10K,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I23" )
+			)
+			( gate "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "<< NULL >>"
+					( Origin gPackager )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "10K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2100,1800)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-10K,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I24" )
+			)
+			( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:min(0)"
+			)
+			( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:\out\(0)"
+			)
+			( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:pin(0)"
+			)
+			( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:\v+\"
+			)
+			( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22:\v-\"
+			)
+			( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23:a(0)"
+			)
+			( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23:b(0)"
+			)
+			( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24:a(0)"
+			)
+			( pin "@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24:b(0)"
 			)
 		)
-		( EndBaseCopy )
+	)
+	( EndBaseCopy )
 	)
 )

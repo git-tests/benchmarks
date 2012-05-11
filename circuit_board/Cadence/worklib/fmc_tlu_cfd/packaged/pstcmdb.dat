@@ -1,4 +1,4 @@
-; Packager-XL run on 04-May-2012 AT 08:44:08 CONSTRAINTS_VIEW_GENERATED
+; Packager-XL run on 10-May-2012 AT 13:12:43 CONSTRAINTS_VIEW_GENERATED
 ( ConstraintFile "fmc_tlu_cfd"
 	( constraintHeader
 		( objectKey
@@ -8,7 +8,7 @@
 			( 16.5 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 32 )
+			( logicalViewRevNum 34 )
 			( physicalViewRevNum 1 )
 			( otherViewRevNum 0 )
 		)
@@ -397,6 +397,22 @@
 			)
 			( Objects
 				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SYMMAP" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
 			)
 			( Analysis
 			)
@@ -1453,6 +1469,27 @@
 			( gate "R12"
 				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i153" )
 			)
+			( gate "TP2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i159" )
+			)
+			( gate "TP3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i160" )
+			)
+			( gate "TP4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i161" )
+			)
+			( gate "TP1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i162" )
+			)
+			( gate "TP5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i163" )
+			)
+			( gate "TP6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i164" )
+			)
+			( gate "TP7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i165" )
+			)
 			( pin "IC2.8"
 				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:hys(0)" )
 			)
@@ -1743,6 +1780,27 @@
 			)
 			( pin "R12.2"
 				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i153:b(0)" )
+			)
+			( pin "TP2.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i159:a(0)" )
+			)
+			( pin "TP3.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i160:a(0)" )
+			)
+			( pin "TP4.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i161:a(0)" )
+			)
+			( pin "TP1.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i162:a(0)" )
+			)
+			( pin "TP5.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i163:a(0)" )
+			)
+			( pin "TP6.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i164:a(0)" )
+			)
+			( pin "TP7.1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i165:a(0)" )
 			)
 		)
 	)

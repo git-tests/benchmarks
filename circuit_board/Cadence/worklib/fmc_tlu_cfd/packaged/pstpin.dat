@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 04-May-2012 AT 08:44:08 }
-TIME=' COMPILATION ON 04-May-2012 AT 08:44:08';
+{ Packager-XL run on 10-May-2012 AT 13:12:43 }
+TIME=' COMPILATION ON 10-May-2012 AT 13:12:43';
 primitive 'CAPCERSMDCL2_0603-1.0UF,6.3V';body 'CAPCERSMDCL2';
     'A'<0>:'(1)';BIDI;
     'B'<0>:'(2)';BIDI;
@@ -100,5 +100,8 @@ end_primitive;
 primitive 'RSMD0805_125MW-12,1%';body 'RSMD0805';
     'A'<0>:'(1)';BIDI;
     'B'<0>:'(2)';BIDI;
+end_primitive;
+primitive 'TP_HOLE-0.8MM';body 'TP';
+    'A'<0>:'(1)';
 end_primitive;
 END.

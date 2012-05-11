@@ -1,6 +1,33 @@
 #ISCELL
   bris_cds_standard a3-2000 *
   *
+#ISCELL
+  standard gnd_signal *
+  page1_i10
+#CELL
+  cnpassive capcersmdcl2 *
+  page1_i11
+#CELL
+  cnpassive rsmd0603 *
+  page1_i12
+#CELL
+  cnpassive rsmd0603 *
+  page1_i13
+#CELL
+  cnpassive rsmd0603 *
+  page1_i14
+#CELL
+  cnpassive rsmd0603 *
+  page1_i15
+#CELL
+  cnpassive rsmd0603 *
+  page1_i16
+#CELL
+  cnpassive rsmd0603 *
+  page1_i17
+#ISCELL
+  standard gnd_signal *
+  page1_i18
 #CELL
   fmc_tlu_v1_lib pc036a_fmc_lpc_connector *
   page1_i2
@@ -16,3 +43,9 @@
 #CELL
   cnconnector plemo2ci *
   page1_i7
+#CELL
+  cnmemory 24aa025e48 *
+  page1_i8
+#ISCELL
+  cnpower p3v3 *
+  page1_i9
