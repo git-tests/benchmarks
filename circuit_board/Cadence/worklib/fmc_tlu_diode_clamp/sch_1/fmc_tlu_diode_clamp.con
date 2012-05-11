@@ -1,0 +1,173 @@
+(
+  (version 16.5)
+  (tool
+    (creator "Concept")
+    (last "Concept")
+  )
+  (library "fmc_tlu_v1_lib")
+  (design "fmc_tlu_diode_clamp"
+    (lastIds
+      (lastInstanceId 35)
+      (lastNetId 44)
+      (lastInstTermId 65)
+    )
+    (cells
+      ("S4" "capcersmdcl2" "cnpassive" "sym_1"
+        (params
+          ("size" "1")
+        )
+        (terms
+          ("T35" "a<SIZE-1..0>" -1 -1 3)
+          ("T36" "b<SIZE-1..0>" -1 -1 3)
+        )
+      )
+      ("S5" "prtr5v0u8s" "bris_cds_analogue" "sym_1"
+        (terms
+          ("T37" "in" -1 -1 3)
+        )
+      )
+    )
+
+    (nets
+      ("N23" "sig0" -1 -1 1 1)
+      ("N24" "sig1" -1 -1 1 1)
+      ("N25" "sig2" -1 -1 1 1)
+      ("N26" "sig3" -1 -1 1 1)
+      ("N27" "sig4" -1 -1 1 1)
+      ("N28" "sig5" -1 -1 1 1)
+      ("N29" "sig6" -1 -1 1 1)
+      ("N30" "sig7" -1 -1 1 1)
+      ("N41" "page1_gnd_signal" -1 -1 0 )
+      ("N43" "page1_p2v5" -1 -1 0 )
+      ("N40" "gnd_signal" -1 -1 2 )
+      ("N42" "p2v5" -1 -1 2 )
+    )
+
+    (alias
+      ("N41" -1 -1 "N40" -1 -1)
+      ("N43" -1 -1 "N42" -1 -1)
+    )
+
+    (instances
+      ("I12" "page1_i7" "S5"
+        (power_overrides
+          ( "vcc" "N42" )
+          ( "gnd" "N40" )
+        )
+        (pins
+          ("M41" "T37" -1 -1
+            (conn
+              ("0" -1 -1 "N23" -1 -1)
+            )
+          )
+        )
+      )
+      ("I13" "page1_i9" "S4"
+        (pins
+          ("M42" "T35" 0 0
+            (conn
+              ("0" 0 0 "N40" -1 -1)
+            )
+          )
+          ("M43" "T36" 0 0
+            (conn
+              ("0" 0 0 "N42" -1 -1)
+            )
+          )
+        )
+      )
+      ("I28" "page1_i43" "S5"
+        (power_overrides
+          ( "vcc" "N42" )
+          ( "gnd" "N40" )
+        )
+        (pins
+          ("M58" "T37" -1 -1
+            (conn
+              ("0" -1 -1 "N29" -1 -1)
+            )
+          )
+        )
+      )
+      ("I29" "page1_i44" "S5"
+        (power_overrides
+          ( "vcc" "N42" )
+          ( "gnd" "N40" )
+        )
+        (pins
+          ("M59" "T37" -1 -1
+            (conn
+              ("0" -1 -1 "N28" -1 -1)
+            )
+          )
+        )
+      )
+      ("I30" "page1_i45" "S5"
+        (power_overrides
+          ( "vcc" "N42" )
+          ( "gnd" "N40" )
+        )
+        (pins
+          ("M60" "T37" -1 -1
+            (conn
+              ("0" -1 -1 "N27" -1 -1)
+            )
+          )
+        )
+      )
+      ("I31" "page1_i46" "S5"
+        (power_overrides
+          ( "vcc" "N42" )
+          ( "gnd" "N40" )
+        )
+        (pins
+          ("M61" "T37" -1 -1
+            (conn
+              ("0" -1 -1 "N26" -1 -1)
+            )
+          )
+        )
+      )
+      ("I32" "page1_i47" "S5"
+        (power_overrides
+          ( "vcc" "N42" )
+          ( "gnd" "N40" )
+        )
+        (pins
+          ("M62" "T37" -1 -1
+            (conn
+              ("0" -1 -1 "N25" -1 -1)
+            )
+          )
+        )
+      )
+      ("I33" "page1_i48" "S5"
+        (power_overrides
+          ( "vcc" "N42" )
+          ( "gnd" "N40" )
+        )
+        (pins
+          ("M63" "T37" -1 -1
+            (conn
+              ("0" -1 -1 "N24" -1 -1)
+            )
+          )
+        )
+      )
+      ("I35" "page1_i50" "S5"
+        (power_overrides
+          ( "vcc" "N42" )
+          ( "gnd" "N40" )
+        )
+        (pins
+          ("M65" "T37" -1 -1
+            (conn
+              ("0" -1 -1 "N30" -1 -1)
+            )
+          )
+        )
+      )
+    )
+
+  )
+)

@@ -1,0 +1,842 @@
+( ConstraintFile "fmc_tlu_diode_clamp"
+	( constraintHeader
+		( objectKey
+			( logical )
+		)
+		( version
+			( 16.5 )
+		)
+		( revisionNumber
+			( logicalViewRevNum 12 )
+			( physicalViewRevNum 0 )
+			( otherViewRevNum 0 )
+		)
+		( contents
+			( dictionaryExtensions )
+			( worksheetCustomizations )
+			( electricalConstraints )
+			( netClasses )
+			( properties )
+		)
+		( precision
+			( units mil )
+			( numberOfDecimalPlaces 2 )
+		)
+	)
+	( DictionaryExtensions
+		( Attribute
+			( Name "CDS_LMAN_SYM_OUTLINE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TYPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "DIST" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MAX_TEMP" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NEGTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POSTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POWER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SLOPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC1" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC2" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TOL_ON_OFF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MANUF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "ABBREV" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "GENDER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "COMPVALUE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "PLACEMENT_REGION" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SLOTXOFY" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SYMNAME" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NO_ASSERT_CHECK" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NO_DIR_CHECK" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "HDL_PINTYPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CASE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "$sec" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+	)
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "fmc_tlu_diode_clamp"
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):sig5"
+				( objectStatus "sig5" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):sig7"
+				( objectStatus "sig7" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):sig4"
+				( objectStatus "sig4" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):sig6"
+				( objectStatus "sig6" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):sig0"
+				( objectStatus "sig0" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):sig1"
+				( objectStatus "sig1" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):sig3"
+				( objectStatus "sig3" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):sig2"
+				( objectStatus "sig2" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):gnd_signal"
+				( alias ( signalRef "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_gnd_signal") )
+				( objectStatus "gnd_signal" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_gnd_signal"
+				( objectFlag fObjectAlias )
+				( objectStatus "page1_gnd_signal" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):p2v5"
+				( alias ( signalRef "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_p2v5") )
+				( objectStatus "p2v5" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_p2v5"
+				( objectFlag fObjectAlias )
+				( objectStatus "page1_p2v5" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i9"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(4450,500)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I9" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i11"
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i13"
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i15"
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i17"
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i19"
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i21"
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i23"
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i7"
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(350,550)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-VCC=P2V5;A"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I7" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i40"
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i39"
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i38"
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i37"
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i36"
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i35"
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i34"
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i43"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(350,-2750)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-VCC=P2V5;A"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I43" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i44"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(350,-2200)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-VCC=P2V5;A"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I44" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i45"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(350,-1650)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-VCC=P2V5;A"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I45" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i46"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(350,-1100)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-VCC=P2V5;A"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I46" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i47"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(350,-550)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-VCC=P2V5;A"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I47" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i48"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(350,0)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-VCC=P2V5;A"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I48" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i49"
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i50"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(350,-3300)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-VCC=P2V5;A"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I50" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i50:\in\"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i9:b(0)"
+				( attribute "PN" "#"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i9:a(0)"
+				( attribute "PN" "#"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i7:\in\"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i43:\in\"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i44:\in\"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i45:\in\"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i46:\in\"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i47:\in\"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i48:\in\"
+			)
+		)
+	)
+)
