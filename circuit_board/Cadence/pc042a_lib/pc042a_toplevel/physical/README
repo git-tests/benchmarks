@@ -1,0 +1,90 @@
+
+PC024a_toplevel
+
+This file describes PCB fabrication details of a 
+"bridge board" between ETH FPGA-based Pixel ROC test-stand and 
+CMS Phase-0 upgrade ROC
+
+contact:	David.Cussans@bristol.ac.uk
+		tel: 0117 95 46879
+		     0117 33 17199
+		fax: 0117 925 5624
+
+		S.J.Nash@bristol.ac.uk
+		tel: 0117 928 7927
+
+
+Files produced by Cadence Allegro PE16.3
+
+Artwork:
+--------
+
+Format: Gerber RS-274X , parameters described in art_param.txt. 
+All layers viewed from top
+
+Build:
+------
+
+Six Layers as follows:
+
+PC042A_TOP.art
+PC042A_L2.art
+PC042A_L3.art
+PC042A_L4.art
+PC042A_L5.art
+PC042A_BOTTOM.art
+
+
+Solder Masks
+------------
+
+PC042A_SOLDERMASK_TOP.art
+PC042A_SOLDERMASK_BOTTOM.art
+
+Solderpaste mask
+-----------------
+
+PC042A_PASTEMASK_TOP.art
+PC042A_PASTEMASK_BOTTOM.art
+
+Silk screen
+-----------
+
+PC042A_SILKSCREEN_TOP.art
+PC042A_SILKSCREEN_BOTTOM.art
+
+Assembly Diagram
+-----------------
+
+PC042A_ASSEMBLY_TOP.art
+PC042A_ASSEMBLY_BOTTOM.art
+
+
+Board outline: (Gerber RS-274X)
+-------------------------------
+
+PC042A_OUTLINE.art
+
+Drill figure: ( illustration of hole sizes and position )
+-------------
+
+DRILL_FIGURE.art
+
+Drill information ( Excellon format, described in nc_param.txt )
+-----------------
+
+pc042a_toplevel-1-6.drl
+
+Bill of Materials
+-----------------
+
+pc042a_toplevel.xls
+
+Component placement
+-------------------
+
+placement_pin1.txt
+
+( Position of pin-1 in mm and rotation in degrees of each component )
+
+

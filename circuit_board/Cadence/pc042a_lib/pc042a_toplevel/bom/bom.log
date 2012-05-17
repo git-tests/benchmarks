@@ -1,0 +1,120 @@
+
+
+    Cadence Design Systems, Inc.
+    Bomhdl 16.3-S002 (v16-3-85M) 2/1/2010
+    Copyright 2009 Cadence Design Systems, Inc, Cadence Design Systems, Inc.
+
+    Run on Tue Sep 20 09:59:04 2011
+
+
+*****************************
+*  Processing project file  *
+*****************************
+
+    DESIGN_LIBRARY 'uob_hep_pc036a_lib'
+    DESIGN_NAME 'pc042a_toplevel'
+    VIEW_SCHEMATIC 'sch_1'
+    VIEW_PACKAGER 'packaged'
+    VIEW_VARIANT 'variant'
+    VIEW_BOM 'variant'
+    VIEW_CONFIG_PHYSICAL 'cfg_package'
+    PPT '/afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_analogue/cds_analogue.ptf' '/afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_connectors/cds_connectors.ptf' '/afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_discrete/cds_discrete.ptf' '/afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_logic/cds_logic.ptf' '/afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_pld/cds_pld.ptf' '/afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_special/cds_special.ptf' '/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/parttables/cnconnector.ptf' '/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/parttables/cndiscrete.ptf' '/afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/parttables/cnpassive.ptf'
+    USE_LIBRARY_PPT 'on'
+    MERGE_PPT 'on'
+    INCLUDE_PPT 'on'
+    EXCLUDE_PPT 'on'
+    SPREADSHEET 'OFF'
+    LAST_OUTPUT_FILE './worklib/pc042a_toplevel/bom/BOM.rpt'
+    TEMPLATE_FILE 'template.bom'
+    LAST_TEMPLATE_FILE '/afs/phy.bris.ac.uk/cad/tools/cadence_templates/spreadsheet-format.bom'
+    LAST_STANDARD_OPTION '1'
+    LAST_WHAT_TO_OUTPUT '0'
+    LAST_VARIANT_FILE ''
+    LAST_SS_DELIMITER 'Colon :'
+    USE_FILTERS '0'
+    LAST_CALLOUT_FILE './bom.callouts'
+    LAST_VARIANT ''
+
+*********************************
+*  End processing project file  *
+*********************************
+
+ 
+Initializing tool communication modules... 
+Checking the presence of variant and BOM view. 
+Set the DDBPI message handlers and Tool start time. 
+Initialize jlg string table. 
+
+*********************************
+*  Loading the design database  *
+*********************************
+
+Start loading the design. 
+Loading logical design view of pc042a_toplevel 
+Setting design view directives...
+ 
+Loading pstX files...
+ 
+
+Loading... /afs/phy.bris.ac.uk/cad/designs/uob-hep-pc042a/trunk/design_files/worklib/pc042a_toplevel/packaged/pstchip.dat
+ 
+
+Loading... /afs/phy.bris.ac.uk/cad/designs/uob-hep-pc042a/trunk/design_files/worklib/pc042a_toplevel/packaged/pstxprt.dat
+ 
+
+Loading... /afs/phy.bris.ac.uk/cad/designs/uob-hep-pc042a/trunk/design_files/worklib/pc042a_toplevel/packaged/pstxnet.dat
+ 
+packaging the design view... 
+End loading logical design view of pc042a_toplevel 
+Reading cell level PPTs... 
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_analogue/cds_analogue.ptf.
+ 
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_connectors/cds_connectors.ptf.
+ 
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_discrete/cds_discrete.ptf.
+ 
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_logic/cds_logic.ptf.
+ 
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_pld/cds_pld.ptf.
+ 
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/cds_special/cds_special.ptf.
+ 
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/parttables/cnconnector.ptf.
+ 
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/parttables/cndiscrete.ptf.
+ 
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/parttables/cnpassive.ptf.
+ 
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con160p_40cdgh/part_table/part.ptf.
+ 
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/adcmp604/part_table/part.ptf.
+ 
+Design loaded successfully. 
+
+
+******************************************
+*  Finished loading the design database  *
+******************************************
+
+
+**********************************
+*  Start generating bom reports. *
+**********************************
+
+Report generated successfully.
+
+Output file list :
+/afs/phy.bris.ac.uk/cad/designs/uob-hep-pc042a/trunk/design_files/worklib/pc042a_toplevel/bom/pc042a_toplevel.csv
+
+*********************************
+*  End generating bom reports   *
+*********************************
+
+    Start time    9:59:04
+    End time      9:59:52
+    Elapsed time  0:00:48
+
+*********************************
+*  BOM-HDL execution done.      *
+*********************************
+

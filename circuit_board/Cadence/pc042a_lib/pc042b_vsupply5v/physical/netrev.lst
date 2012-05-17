@@ -1,0 +1,215 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : pc042b_vsupply5v_06.brd                       )
+(    Software Version : 16.5S005                                      )
+(    Date/Time        : Wed May 16 15:53:59 2012                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------
+
+RIPUP_ETCH FALSE;
+RIPUP_DELETE_FIRST_SEGMENT FALSE;
+RIPUP_RETAIN_BONDWIRE FALSE;
+RIPUP_SYMBOLS ALWAYS;
+Missing symbol has error FALSE;
+SCHEMATIC_DIRECTORY '/projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/pc042a_lib/pc042b_vsupply5v/packaged';
+BOARD_DIRECTORY '';
+OLD_BOARD_NAME '/projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/pc042a_lib/pc042b_vsupply5v/physical/pc042b_vsupply5v_06.brd';
+NEW_BOARD_NAME 'pc042b_vsupply5v_07.brd';
+
+CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence//pc042b_vsupply5v.cpm -5 -y 1 -O /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/pc042a_lib/pc042b_vsupply5v/physical/pc042b_vsupply5v_06.brd /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/pc042a_lib/pc042b_vsupply5v/physical/pc042b_vsupply5v_07.brd -$
+
+------ Preparing to read pst files ------
+
+Starting to read /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/pc042a_lib/pc042b_vsupply5v/packaged/pstchip.dat 
+   Finished reading /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/pc042a_lib/pc042b_vsupply5v/packaged/pstchip.dat (00:00:00.17)
+Starting to read /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/pc042a_lib/pc042b_vsupply5v/packaged/pstxprt.dat 
+   Finished reading /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/pc042a_lib/pc042b_vsupply5v/packaged/pstxprt.dat (00:00:00.00)
+Starting to read /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/pc042a_lib/pc042b_vsupply5v/packaged/pstxnet.dat 
+   Finished reading /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/pc042a_lib/pc042b_vsupply5v/packaged/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+#1   WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'R4', property 'REUSE_ID'. Value '16' was overwritten by '14'.
+
+#2   WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'R5', property 'REUSE_ID'. Value '6' was overwritten by '15'.
+
+#3   WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'R2', property 'REUSE_ID'. Value '10' was overwritten by '27'.
+
+#4   WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'R1', property 'REUSE_ID'. Value '21' was overwritten by '26'.
+
+#5   WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'R6', property 'REUSE_ID'. Value '5' was overwritten by '16'.
+
+#6   WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'R3', property 'REUSE_ID'. Value '15' was overwritten by '13'.
+
+#7   WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'IC1', property 'REUSE_ID'. Value '19' was overwritten by '30'.
+
+#8   WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'L3', property 'REUSE_ID'. Value '14' was overwritten by '29'.
+
+#9   WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'L2', property 'REUSE_ID'. Value '13' was overwritten by '18'.
+
+#10  WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'L1', property 'REUSE_ID'. Value '4' was overwritten by '28'.
+
+#11  WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'L5', property 'REUSE_ID'. Value '23' was overwritten by '10'.
+
+#12  WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'L4', property 'REUSE_ID'. Value '3' was overwritten by '11'.
+
+#13  WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'D2', property 'REUSE_ID'. Value '12' was overwritten by '3'.
+
+#14  WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'D1', property 'REUSE_ID'. Value '8' was overwritten by '9'.
+
+#15  WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'C8', property 'REUSE_ID'. Value '1' was overwritten by '20'.
+
+#16  WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'C1', property 'REUSE_ID'. Value '24' was overwritten by '1'.
+
+#17  WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'C3', property 'REUSE_ID'. Value '20' was overwritten by '24'.
+
+#18  WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'C2', property 'REUSE_ID'. Value '9' was overwritten by '25'.
+
+#19  WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'C7', property 'REUSE_ID'. Value '11' was overwritten by '17'.
+
+#20  WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'C5', property 'REUSE_ID'. Value '22' was overwritten by '23'.
+
+#21  WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'C4', property 'REUSE_ID'. Value '18' was overwritten by '19'.
+
+#22  WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'C9', property 'REUSE_ID'. Value '17' was overwritten by '21'.
+
+#23  WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'C6', property 'REUSE_ID'. Value '7' was overwritten by '22'.
+
+
+
+===========================================================
+Start Constraint Override Import
+	Constraint File:    /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/pc042a_lib/pc042b_vsupply5v/packaged/pstcmdb.dat
+	Start time: Wed May 16 15:53:59 2012
+===========================================================
+===========================================================
+Finished Constraint Update	Time: Wed May 16 15:53:59 2012
+===========================================================
+
+------ Library Paths ------
+MODULEPATH =  . 
+           /cadence/psd15.1/share/local/pcb/modules 
+           ../../../modules 
+           ../../fmc_tlu_cfd/physical 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/symbols 
+           /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/formats 
+           /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/symbols/connector 
+           /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/symbols/soic 
+           /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/symbols/discrete 
+           /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/symbols/dip 
+           /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/symbols/so 
+           /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/symbols/bga 
+           /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/symbols/qfp 
+           /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/symbols/passif 
+           /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/symbols/cap 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/pads 
+           /opt/CAD/Cadence/SPB15.2/share/pcb/pcb_lib/symbols 
+           /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/padstacks/padstack_smd 
+           /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/padstacks/padstack5 
+           /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/padstacks/padstackm 
+           /afs/phy.bris.ac.uk/cad/designs/uob-hep-pc036a/trunk/design_files/worklib/cbc_symbol/physical 
+           /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/padstacks/orgmechanical 
+           /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe16/padstacks/mechanical 
+
+
+------ Summary Statistics ------
+
+
+netrev run on May 16 15:53:59 2012
+   DESIGN NAME : 'PC042B_VSUPPLY5V'
+   PACKAGING ON 16-May-2012 AT 15:53:56
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   DIRECTORIES  <none>
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   LIBRARIES  'bris_cds_analogue' 'bris_cds_connectors' 'bris_cds_logic'
+              'bris_cds_memory' 'bris_cds_pld' 'bris_cds_special'
+              'bris_cds_standard' 'bris_cds_switches' 'cnconnector'
+              'cninterface' 'cnpower' 'cnlinear' 'cnpassive' 'cndiscrete'
+              'standard' 'cncmos' 'cn74lv' 'cn74tiac' 'cn75als' 'cds_analogue'
+              'uob_hep_pc036a_lib'
+   MASTER_LIBRARIES  <none>
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ 23 warnings detected
+
+cpu time      0:00:01
+elapsed time  0:00:00
+

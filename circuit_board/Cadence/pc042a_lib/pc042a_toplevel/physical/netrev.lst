@@ -1,0 +1,104 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Netrev Allegro Import Logic                                      )
+(                                                                     )
+(    Drawing          : pc042a_toplevel_25.brd                        )
+(    Software Version : 16.3p004                                      )
+(    Date/Time        : Mon Apr 02 12:15:18 2012                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------
+
+RIPUP_ETCH FALSE;
+RIPUP_SYMBOLS ALWAYS;
+Missing symbol has error FALSE;
+SCHEMATIC_DIRECTORY 'G:\cad\designs\uob-hep-pc042a\trunk\design_files\worklib\pc042b_toplevel\packaged';
+BOARD_DIRECTORY '';
+OLD_BOARD_NAME 'G:/cad/designs/uob-hep-pc042a/trunk/design_files/worklib/pc042b_toplevel/physical/pc042a_toplevel_25.brd';
+NEW_BOARD_NAME 'pc042b_toplevel_26.brd';
+
+CmdLine: netrev -proj G:\cad\designs\uob-hep-pc042a\trunk\design_files\pc042b_toplevel.cpm -5 -y 1 G:\cad\designs\uob-hep-pc042a\trunk\design_files\worklib\pc042b_toplevel\physical\pc042a_toplevel_25.brd G:\cad\designs\uob-hep-pc042a\trunk\design_files\worklib\pc042a_toplevel\physical\pc042b_toplevel_26.brd -$
+
+------ Preparing to read pst files ------
+
+Starting to read G:/cad/designs/uob-hep-pc042a/trunk/design_files/worklib/pc042b_toplevel/packaged/pstchip.dat 
+   Finished reading G:/cad/designs/uob-hep-pc042a/trunk/design_files/worklib/pc042b_toplevel/packaged/pstchip.dat (00:00:00.37)
+Starting to read G:/cad/designs/uob-hep-pc042a/trunk/design_files/worklib/pc042b_toplevel/packaged/pstxprt.dat 
+   Finished reading G:/cad/designs/uob-hep-pc042a/trunk/design_files/worklib/pc042b_toplevel/packaged/pstxprt.dat (00:00:00.01)
+Starting to read G:/cad/designs/uob-hep-pc042a/trunk/design_files/worklib/pc042b_toplevel/packaged/pstxnet.dat 
+   Finished reading G:/cad/designs/uob-hep-pc042a/trunk/design_files/worklib/pc042b_toplevel/packaged/pstxnet.dat (00:00:00.17)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_16.3/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.3/share/local/pcb/symbols 
+           C:/Cadence/SPB_16.3/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.3/share/pcb/allegrolib/symbols 
+           g:\cad\cern_cdslib/lib_psd16.x/allegro_libs/pe16/symbols/discrete 
+           g:\cad\bris_cdslib\lib_psd14.x/symbols 
+
+PADPATH =  g:\cad\ral_cdslib\lib_psd15.x/pads 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_16.2/share/pcb/pcb_lib/symbols 
+           g:\cad\cern_cdslib/lib_psd16.x/allegro_libs/pe16/padstacks/padstack_smd 
+           C:/Cadence/SPB_16.2/share/pcb/allegrolib/symbols 
+           g:\cad\bris_cdslib\lib_psd14.x/pads 
+           g:\cad\cern_cdslib/lib_psd16.x/allegro_libs/pe16/padstacks/padstack3 
+           g:\cad\cern_cdslib/lib_psd16.x/allegro_libs/pe16/padstacks/padstackm 
+           g:\cad\bris_cdslib\lib_psd14.x/pads/opt/cad/cadence/spb15.2/share/pcb/pcb_libs/symbols 
+           g:\cad\cern_cdslib/lib_psd16.x/alleg 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Apr 2 12:15:18 2012
+   DESIGN NAME : 'PC042B_TOPLEVEL'
+   PACKAGING ON 02-Apr-2012 AT 12:15:10
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   DIRECTORIES  <none>
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   LIBRARIES  'uob_hep_pc036a_lib' 'bris_cds_analogue' 'bris_cds_connectors'
+              'bris_cds_logic' 'bris_cds_memory' 'bris_cds_pld'
+              'bris_cds_special' 'bris_cds_standard' 'bris_cds_switches'
+              'cnconnector' 'cninterface' 'cnpower' 'cnlinear' 'cnpassive'
+              'cndiscrete' 'standard' 'bris_cds_discrete' 'cncmos' 'cn74lv'
+              'cn74tiac' 'cn75als' 'cds_analogue'
+   MASTER_LIBRARIES  <none>
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:08:48
+elapsed time  0:00:03
+
