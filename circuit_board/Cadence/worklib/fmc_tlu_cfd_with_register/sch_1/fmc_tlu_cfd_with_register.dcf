@@ -1,0 +1,3891 @@
+( ConstraintFile "fmc_tlu_cfd_with_register"
+	( constraintHeader
+		( objectKey
+			( logical )
+		)
+		( version
+			( 16.5 )
+		)
+		( revisionNumber
+			( logicalViewRevNum 2 )
+			( physicalViewRevNum 0 )
+			( otherViewRevNum 0 )
+		)
+		( contents
+			( dictionaryExtensions )
+			( worksheetCustomizations )
+			( electricalConstraints )
+			( netClasses )
+			( properties )
+		)
+		( precision
+			( units mil )
+			( numberOfDecimalPlaces 2 )
+		)
+	)
+	( DictionaryExtensions
+		( Attribute
+			( Name "CDS_LMAN_SYM_OUTLINE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TYPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "DIST" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MAX_TEMP" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NEGTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POSTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POWER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SLOPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC1" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC2" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TOL_ON_OFF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MANUF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "ABBREV" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "GENDER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "COMPVALUE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "PLACEMENT_REGION" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SLOTXOFY" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SYMNAME" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NO_ASSERT_CHECK" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NO_DIR_CHECK" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "HDL_PINTYPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CASE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+	)
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "fmc_tlu_cfd_with_register"
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):cfd_out"
+				( objectStatus "cfd_out" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):\cfd_out*\"
+				( objectStatus "cfd_out*" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):gnd_signal"
+				( alias ( signalRef "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_gnd_signal") )
+				( objectStatus "gnd_signal" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_gnd_signal"
+				( objectFlag fObjectAlias )
+				( objectStatus "page1_gnd_signal" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):leading_edge_out"
+				( objectStatus "leading_edge_out" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):\leading_edge_out*\"
+				( objectStatus "leading_edge_out*" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):m5v"
+				( alias ( signalRef "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_m5v") )
+				( objectStatus "m5v" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_m5v"
+				( objectFlag fObjectAlias )
+				( objectStatus "page1_m5v" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):p3v3"
+				( alias ( signalRef "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_p3v3") )
+				( objectStatus "p3v3" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_p3v3"
+				( objectFlag fObjectAlias )
+				( objectStatus "page1_p3v3" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):p5v"
+				( alias ( signalRef "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_p5v") )
+				( objectStatus "p5v" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_p5v"
+				( objectFlag fObjectAlias )
+				( objectStatus "page1_p5v" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):rst_lvds"
+				( objectStatus "rst_lvds" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):\rst_lvds*\"
+				( objectStatus "rst_lvds*" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):unnamed_1_capcersmdcl2_i78_b"
+				( objectStatus "unnamed_1_capcersmdcl2_i78_b" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):unnamed_1_delaylinegl2l_i140_a1"
+				( objectStatus "unnamed_1_delaylinegl2l_i140_a1" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):unnamed_1_delaylinegl2l_i140_a2"
+				( objectStatus "unnamed_1_delaylinegl2l_i140_a2" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):unnamed_1_delaylinegl2l_i140_b2"
+				( objectStatus "unnamed_1_delaylinegl2l_i140_b2" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):unnamed_1_delaylinegl2l_i141_b1"
+				( objectStatus "unnamed_1_delaylinegl2l_i141_b1" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):unnamed_1_delaylinegl2l_i141_b2"
+				( objectStatus "unnamed_1_delaylinegl2l_i141_b2" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):unnamed_1_max9601_i1_hys"
+				( objectStatus "unnamed_1_max9601_i1_hys" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):unnamed_1_max9601_i1_in"
+				( objectStatus "unnamed_1_max9601_i1_in" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):unnamed_1_max9601_i1_in_1"
+				( objectStatus "unnamed_1_max9601_i1_in_1" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):unnamed_1_max9601_i1_q"
+				( objectStatus "unnamed_1_max9601_i1_q" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):unnamed_1_max9601_i1_q_1"
+				( objectStatus "unnamed_1_max9601_i1_q_1" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):unnamed_1_max9601_i71_hys"
+				( objectStatus "unnamed_1_max9601_i71_hys" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):unnamed_1_max9601_i71_q"
+				( objectStatus "unnamed_1_max9601_i71_q" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):unnamed_1_max9601_i71_q_1"
+				( objectStatus "unnamed_1_max9601_i71_q_1" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):unnamed_1_mc100el29_i58_cl"
+				( objectStatus "unnamed_1_mc100el29_i58_cl" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):unnamed_1_mc100el29_i58_d"
+				( objectStatus "unnamed_1_mc100el29_i58_d" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):unnamed_1_mc100el29_i58_d_1"
+				( objectStatus "unnamed_1_mc100el29_i58_d_1" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):unnamed_1_mc100el29_i58_q"
+				( objectStatus "unnamed_1_mc100el29_i58_q" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):unnamed_1_mc100el29_i58_q_1"
+				( objectStatus "unnamed_1_mc100el29_i58_q_1" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):unnamed_1_mc100el29_i87_q"
+				( objectStatus "unnamed_1_mc100el29_i87_q" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):unnamed_1_mc100el29_i87_q_1"
+				( objectStatus "unnamed_1_mc100el29_i87_q_1" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):unnamed_1_rsmd0402_i127_a"
+				( objectStatus "unnamed_1_rsmd0402_i127_a" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):unnamed_1_rsmd0402_i136_a"
+				( objectStatus "unnamed_1_rsmd0402_i136_a" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):unnamed_1_rsmd0603_i96_b"
+				( objectStatus "unnamed_1_rsmd0603_i96_b" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):vin"
+				( objectStatus "vin" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):vthresh"
+				( objectStatus "vthresh" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i1"
+				( attribute "CDS_LIB" "cnlinear"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-250,250,325,-250"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(950,-1450)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "MAX9601"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "MAX9601_TSSOP"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I1" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i39"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "1.0UF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "6.3V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(5600,-450)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-1.0UF,6.3V"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I39" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i40"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(5900,-450)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I40" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i41"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(6200,-450)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I41" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i43"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(6150,-1600)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I43" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i44"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "1.0UF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "6.3V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(5850,-1600)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-1.0UF,6.3V"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I44" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i46"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(6200,600)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I46" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i47"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "1.0UF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "6.3V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(5900,600)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-1.0UF,6.3V"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I47" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i58"
+				( attribute "CDS_LIB" "cn100e"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "SOIC"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "MC100LVEL29DWG"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(2550,300)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "MC100EL29"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "MC100LVEL29DWG-VCC=P3V3;VEE=GNA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I58" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i59"
+				( attribute "CDS_LIB" "bris_cds_logic"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-250,250,250,-250"
+					( Origin gPackager )
+				)
+				( attribute "COMPVALUE" "<< NULL >>"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "TEXAS INSTRUMENTS"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SOIC"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PLACEMENT_REGION" "<< NULL >>"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SYMNAME" "sn65lvdt101dg4"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(450,-3050)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "SN65LVDT101DG4"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "SN65LVDT101DG4_SOIC-TEXAS INSTA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I59" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i71"
+				( attribute "CDS_LIB" "cnlinear"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-250,250,325,-250"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(950,200)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "MAX9601"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "MAX9601_TSSOP"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I71" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i73"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "33K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(550,-150)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-33K,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I73" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i78"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "10NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "50V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(150,500)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-10NF,50V"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I78" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i79"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-100,700)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-100,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I79" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i81"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "XX"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(550,-1800)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-XX,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I81" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i86"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-50,-3050)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-100,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I86" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i87"
+				( attribute "CDS_LIB" "cn100e"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "SOIC"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "MC100LVEL29DWG"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(3600,-1350)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "MC100EL29"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "MC100LVEL29DWG-VCC=P3V3;VEE=GNA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I87" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i92"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(300,-1250)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-100,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I92" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i93"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "51"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-500,-1100)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-51,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I93" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i94"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "125MW"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "12"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-500,100)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0805"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0805_125MW-12,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I94" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i96"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(1100,-3300)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-100,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I96" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i98"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(1350,-3300)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-100,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I98" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i100"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "75"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(4350,-1550)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-75,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I100" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i101"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "75"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(4350,-1950)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-75,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I101" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i103"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "75"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(4650,-1550)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-75,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I103" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i104"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "75"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(4650,-1950)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-75,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I104" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i110"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "75"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(3900,150)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-75,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I110" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i111"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "75"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(3900,-250)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-75,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I111" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i112"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "75"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(3600,150)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-75,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I112" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i113"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "75"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(3600,-250)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-75,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I113" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i116"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "1K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(2050,400)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-1K,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I116" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i117"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/10W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "1K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(1750,550)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0603"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-1K,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I117" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i120"
+				( attribute "CASE" "SOT23"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_LIB" "cndiscrete"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "A1-C2-AC3"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "HBAT-540C"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-600,-500)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "DIODE_DUAL_SERIES"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "HBAT-540C"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I120" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i123"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-950,-500)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I123" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i127"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/16W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "51"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(3050,-1750)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0402"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-51,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I127" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i129"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/16W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "51"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(2800,-1750)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0402"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-51,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I129" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i135"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/16W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "82"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(2950,-2000)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0402"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-82,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I135" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i136"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/16W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "51"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(2050,50)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0402"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-51,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I136" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i137"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/16W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "51"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(1800,50)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0402"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-51,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I137" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i139"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/16W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "82"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(1950,-200)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0402"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-82,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I139" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i140"
+				( attribute "CDS_LIB" "cndiscrete"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "SOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "GL2L5LS050D-C"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-700,-1650)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "DELAY_LINE_GL2L"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "GL2L5LS050D-C"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I140" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i141"
+				( attribute "CDS_LIB" "cndiscrete"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "SOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "GL2L5LS100D-C"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(2050,-1450)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "DELAY_LINE_GL2L"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "GL2L5LS100D-C"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I141" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i142"
+				( attribute "CDS_LIB" "cndiscrete"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "SI"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "1N4148_CMS"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(1750,850)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "DIODE"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "DIODE_SI-1N4148_CMS"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I142" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i144"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/16W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "51"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-250,-1750)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0402"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-51,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I144" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i145"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/16W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "51"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-1150,-1750)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0402"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-51,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I145" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i147"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "125MW"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(300,-1800)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0805"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0805_125MW-100,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I147" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i148"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "125MW"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(100,-1800)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0805"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0805_125MW-100,1%"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I148" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i1:hys(0)"
+				( attribute "PN" "13"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i1:\in+\(0)"
+				( attribute "PN" "11"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i1:\in-\(0)"
+				( attribute "PN" "12"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i1:le(0)"
+				( attribute "PN" "17"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i1:\le*\(0)"
+				( attribute "PN" "16"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i1:q(0)"
+				( attribute "PN" "20"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i1:\q*\(0)"
+				( attribute "PN" "19"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i1:vcc(0)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i1:vcc(1)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i1:\vcco_\(0)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i1:\vcco_\(1)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i1:vee(0)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i1:vee(1)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i39:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i39:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i40:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i40:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i41:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i41:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i43:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i43:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i44:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i44:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i46:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i46:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i47:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i47:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i58:cl(0)"
+				( attribute "PN" "10"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i58:clock(0)"
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i58:\clock*\(0)"
+				( attribute "PN" "9"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i58:d(0)"
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i58:\d*\(0)"
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i58:pr(0)"
+				( attribute "PN" "15"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i58:q(0)"
+				( attribute "PN" "13"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i58:\q*\(0)"
+				( attribute "PN" "12"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i58:vbb"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i59:a"
+				( attribute "NO_ASSERT_CHECK" "<< NULL >>"
+					( Origin gFrontEnd )
+				)
+				( attribute "NO_DIR_CHECK" "<< NULL >>"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i59:b"
+				( attribute "NO_ASSERT_CHECK" "<< NULL >>"
+					( Origin gFrontEnd )
+				)
+				( attribute "NO_DIR_CHECK" "<< NULL >>"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i59:gnd"
+				( attribute "NO_ASSERT_CHECK" "<< NULL >>"
+					( Origin gFrontEnd )
+				)
+				( attribute "NO_DIR_CHECK" "<< NULL >>"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i59:v_cc"
+				( attribute "HDL_PINTYPE" "Power"
+					( Origin gFrontEnd )
+				)
+				( attribute "NO_ASSERT_CHECK" "<< NULL >>"
+					( Origin gFrontEnd )
+				)
+				( attribute "NO_DIR_CHECK" "<< NULL >>"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i59:y"
+				( attribute "NO_ASSERT_CHECK" "<< NULL >>"
+					( Origin gFrontEnd )
+				)
+				( attribute "NO_DIR_CHECK" "<< NULL >>"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i59:z"
+				( attribute "NO_ASSERT_CHECK" "<< NULL >>"
+					( Origin gFrontEnd )
+				)
+				( attribute "NO_DIR_CHECK" "<< NULL >>"
+					( Origin gFrontEnd )
+				)
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i71:hys(0)"
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i71:\in+\(0)"
+				( attribute "PN" "10"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i71:\in-\(0)"
+				( attribute "PN" "9"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i71:le(0)"
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i71:\le*\(0)"
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i71:q(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i71:\q*\(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i71:vcc(0)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i71:vcc(1)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i71:\vcco_\(0)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i71:\vcco_\(1)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i71:vee(0)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i71:vee(1)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i73:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i73:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i78:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i78:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i79:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i79:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i81:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i81:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i86:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i86:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i87:cl(0)"
+				( attribute "PN" "20"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i87:clock(0)"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i87:\clock*\(0)"
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i87:d(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i87:\d*\(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i87:pr(0)"
+				( attribute "PN" "16"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i87:q(0)"
+				( attribute "PN" "18"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i87:\q*\(0)"
+				( attribute "PN" "17"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i87:vbb"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i92:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i92:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i93:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i93:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i94:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i94:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i96:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i96:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i98:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i98:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i100:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i100:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i101:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i101:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i103:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i103:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i104:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i104:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i110:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i110:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i111:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i111:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i112:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i112:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i113:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i113:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i116:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i116:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i117:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i117:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i120:a"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i120:ac"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i120:c"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i123:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i123:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i127:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i127:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i129:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i129:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i135:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i135:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i136:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i136:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i137:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i137:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i139:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i139:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i140:a1"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i140:a2"
+				( attribute "PN" "15"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i140:b1"
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i140:b2"
+				( attribute "PN" "10"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i140:sh(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i140:sh(1)"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i140:sh(2)"
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i140:sh(3)"
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i140:sh(4)"
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i140:sh(5)"
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i140:sh(6)"
+				( attribute "PN" "9"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i140:sh(7)"
+				( attribute "PN" "11"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i140:sh(8)"
+				( attribute "PN" "12"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i140:sh(9)"
+				( attribute "PN" "13"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i140:sh(10)"
+				( attribute "PN" "14"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i140:sh(11)"
+				( attribute "PN" "16"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i141:a1"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i141:a2"
+				( attribute "PN" "15"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i141:b1"
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i141:b2"
+				( attribute "PN" "10"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i141:sh(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i141:sh(1)"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i141:sh(2)"
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i141:sh(3)"
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i141:sh(4)"
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i141:sh(5)"
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i141:sh(6)"
+				( attribute "PN" "9"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i141:sh(7)"
+				( attribute "PN" "11"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i141:sh(8)"
+				( attribute "PN" "12"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i141:sh(9)"
+				( attribute "PN" "13"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i141:sh(10)"
+				( attribute "PN" "14"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i141:sh(11)"
+				( attribute "PN" "16"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i142:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i142:k(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i144:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i144:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i145:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i145:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i147:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i147:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i148:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd_with_register(sch_1):page1_i148:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+		)
+	)
+)

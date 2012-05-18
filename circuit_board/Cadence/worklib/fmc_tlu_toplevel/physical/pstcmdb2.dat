@@ -1,0 +1,3062 @@
+( ConstraintFile "fmc_tlu_v1_20"
+	( constraintHeader
+		( objectKey
+			( physical )
+		)
+		( version
+			( 16.5 )
+		)
+		( revisionNumber
+			( logicalViewRevNum 74 )
+			( physicalViewRevNum 3 )
+			( otherViewRevNum 0 )
+		)
+		( contents
+			( drawing )
+			( dictionaryExtensions )
+			( worksheetCustomizations )
+			( crossSection )
+			( electricalConstraints )
+			( physicalConstraints )
+			( spacingConstraints )
+			( sameNetSpacingConstraints )
+			( netClasses )
+			( properties )
+		)
+		( precision
+			( units mm )
+			( numberOfDecimalPlaces 4 )
+		)
+	)
+	( drawing
+		( attribute "DRAWING_EXTENTS" "533.4000,431.8000"
+		)
+		( attribute "DRAWING_LOWER_LEFT" "-50.0000,-50.0000"
+		)
+	)
+	( DictionaryExtensions
+		( Attribute
+			( Name "CDS_LMAN_SYM_OUTLINE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TYPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "DIST" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MAX_TEMP" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NEGTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POSTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SLOPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC1" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC2" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TOL_ON_OFF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MANUF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "ABBREV" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "GENDER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "COMPVALUE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "PLACEMENT_REGION" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SLOTXOFY" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SYMNAME" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NO_ASSERT_CHECK" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NO_DIR_CHECK" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "HDL_PINTYPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CASE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "$sec" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SYMMAP" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MODEL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "KL_COMMENTS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "OL_COMMENTS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "PL_COMMENTS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+	)
+	( crossSection
+		( layer "SURFACE_INDEX_0"
+			( attribute "CDS_LAYER_TYPE" "SURFACE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "AIR"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0000"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+		)
+		( layer "TOP"
+			( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0180"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_TOP"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.2200"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.200"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+		)
+		( layer "LAYER2"
+			( attribute "CDS_LAYER_TYPE" "PLANE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0350"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "TRUE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_LAYER2"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.3000"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.550"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+		)
+		( layer "LAYER3"
+			( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0350"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_LAYER3"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.2032"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.200"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+		)
+		( layer "LAYER4"
+			( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0350"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_LAYER4"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.3000"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+		)
+		( layer "LAYER5"
+			( attribute "CDS_LAYER_TYPE" "PLANE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0350"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "TRUE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_LAYER5"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.2200"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.200"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+		)
+		( layer "BOTTOM"
+			( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0180"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+		)
+		( layer "SURFACE_BELOW_BOTTOM"
+			( attribute "CDS_LAYER_TYPE" "SURFACE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "AIR"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0000"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Status sBlockFlattened )
+				( Origin gBackEnd )
+			)
+		)
+	)
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "fmc_tlu_v1_20"
+				( physicalCSetRef "DEFAULT" )
+				( spacingCSetRef "DEFAULT" )
+				( sameNetSpacingCSetRef "DEFAULT" )
+			)
+			( physicalCSet "DEFAULT"
+				( attribute "DIFFP_PRIMARY_GAP" "0.3000,0.3000,0.3000,0.3000,0.3000,0.3000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_COUPLED_PLUS" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_COUPLED_MINUS" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_MIN_SPACE" "0.1700,0.1700,0.1700,0.1700,0.1700,0.1700"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_LINE_WIDTH" "0.1700,0.1700,0.1700,0.1700,0.1700,0.1700"
+					( Origin gBackEnd )
+				)
+				( attribute "MAX_LINE_WIDTH" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_NECK_GAP" "0.1800,0.1800,0.1800,0.1800,0.1800,0.1800"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_NECK_WIDTH" "0.1600,0.1600,0.1600,0.1600,0.1600,0.1600"
+					( Origin gBackEnd )
+				)
+				( attribute "MAXIMUM_NECK_LENGTH" "10.0000,10.0000,10.0000,10.0000,10.0000,10.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "VIA_LIST" "VIA36RD0-4D,VIA23RD0-3D,VIA,VIA22RD0-3D"
+					( Origin gBackEnd )
+				)
+				( attribute "ALLOW_ON_ETCH_SUBCLASS" "TRUE,TRUE,TRUE,TRUE,TRUE,TRUE"
+					( Origin gBackEnd )
+				)
+				( attribute "TS_ALLOWED" "ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_BVIA_STAGGER" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MAX_BVIA_STAGGER" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "PAD_PAD_DIRECT_CONNECT" "ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED"
+					( Origin gBackEnd )
+				)
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\DEFAULT\" )
+			)
+			( spacingCSet "DEFAULT"
+				( attribute "THRUPIN_TO_THRUPIN_SPACING" "0.1600,0.1600,0.1600,0.1600,0.1600,0.1600"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_SMDPIN_SPACING" "0.1600,0.1600,0.1600,0.1600,0.1600,0.1600"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_THRUPIN_SPACING" "0.1600,0.1600,0.1600,0.1600,0.1600,0.1600"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_THRUVIA_SPACING" "0.1600,0.1600,0.1600,0.1600,0.1600,0.1600"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_THRUPIN_SPACING" "0.1600,0.1600,0.1600,0.1600,0.1600,0.1600"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_THRUPIN_SPACING" "0.1600,0.1600,0.1600,0.1600,0.1600,0.1600"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_SHAPE_SPACING" "0.2500,0.2500,0.2500,0.2500,0.2500,0.2500"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_SMDPIN_SPACING" "0.1600,0.1600,0.1600,0.1600,0.1600,0.1600"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_TESTPIN_SPACING" "0.1600,0.1600,0.1600,0.1600,0.1600,0.1600"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_THRUVIA_SPACING" "0.1600,0.1600,0.1600,0.1600,0.1600,0.1600"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_SMDPIN_SPACING" "0.1600,0.1600,0.1600,0.1600,0.1600,0.1600"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_SMDPIN_SPACING" "0.1600,0.1600,0.1600,0.1600,0.1600,0.1600"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_SMDPIN_SPACING" "0.2000,0.2000,0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_TESTPIN_SPACING" "0.1600,0.1600,0.1600,0.1600,0.1600,0.1600"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUVIA_TO_THRUVIA_SPACING" "0.1700,0.1700,0.1700,0.1700,0.1700,0.1700"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_THRUVIA_SPACING" "0.1600,0.1600,0.1600,0.1600,0.1600,0.1600"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_THRUVIA_SPACING" "0.2500,0.2500,0.2500,0.2500,0.2500,0.2500"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_TESTVIA_SPACING" "0.1600,0.1600,0.1600,0.1600,0.1600,0.1600"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_LINE_SPACING" "0.1600,0.1600,0.1600,0.1600,0.1600,0.1600"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_LINE_SPACING" "0.2000,0.2000,0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_LINE_SPACING" "0.1600,0.1600,0.1600,0.1600,0.1600,0.1600"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_SHAPE_SPACING" "0.2000,0.2000,0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_SHAPE_SPACING" "0.2500,0.2500,0.2500,0.2500,0.2500,0.2500"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_PIN_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_VIA_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_LINE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_SHAPE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_HOLE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_BVIA_GAP" "0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_BONDPAD_DIFFP_SPC" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\DEFAULT\" )
+			)
+			( sameNetSpacingCSet "DEFAULT"
+				( attribute "SAME_NET" "FALSE,FALSE,FALSE,FALSE,FALSE,FALSE"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_PIN_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_VIA_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_LINE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_SHAPE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_HOLE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\DEFAULT\" )
+			)
+			( signal "GND_SIGNAL"
+				( attribute "WEIGHT" "0"
+					( Status sBlockFlattened )
+					( Origin gBackEnd )
+				)
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):gnd_signal" )
+			)
+			( signal "BUSY2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):busy2" )
+			)
+			( signal "P2V5"
+				( attribute "WEIGHT" "0"
+					( Origin gBackEnd )
+				)
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):p2v5" )
+			)
+			( signal "P3V3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):p3v3" )
+			)
+			( signal "SCL"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):scl" )
+			)
+			( signal "SDA"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):sda" )
+			)
+			( signal "UNNAMED_1_PC036AFMCLPCCONNECTOR"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_1_pc036afmclpcconnector_i2_fmcclk0m2c" )
+			)
+			( signal "UNNAMED_1_PC036AFMCLPCCONNECT_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_1_pc036afmclpcconnector_i2_fmcclk0m2c_1" )
+			)
+			( signal "FMC_LA<0>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(0)" )
+			)
+			( signal "FMC_LA<1>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(1)" )
+			)
+			( signal "FMC_LA<2>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(2)" )
+			)
+			( signal "FMC_LA<3>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(3)" )
+			)
+			( signal "FMC_LA<4>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(4)" )
+			)
+			( signal "FMC_LA<5>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(5)" )
+			)
+			( signal "FMC_LA<6>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(6)" )
+			)
+			( signal "FMC_LA<7>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(7)" )
+			)
+			( signal "FMC_LA<8>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(8)" )
+			)
+			( signal "FMC_LA<9>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(9)" )
+			)
+			( signal "FMC_LA<10>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(10)" )
+			)
+			( signal "FMC_LA<11>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(11)" )
+			)
+			( signal "FMC_LA<12>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(12)" )
+			)
+			( signal "FMC_LA<13>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(13)" )
+			)
+			( signal "FMC_LA<14>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(14)" )
+			)
+			( signal "FMC_LA<15>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(15)" )
+			)
+			( signal "FMC_LA<16>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(16)" )
+			)
+			( signal "FMC_LA<17>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(17)" )
+			)
+			( signal "FMC_LA<18>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(18)" )
+			)
+			( signal "FMC_LA<19>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(19)" )
+			)
+			( signal "FMC_LA<20>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(20)" )
+			)
+			( signal "FMC_LA<21>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(21)" )
+			)
+			( signal "FMC_LA<22>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(22)" )
+			)
+			( signal "FMC_LA<23>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(23)" )
+			)
+			( signal "FMC_LA<24>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(24)" )
+			)
+			( signal "FMC_LA<25>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(25)" )
+			)
+			( signal "FMC_LA<26>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(26)" )
+			)
+			( signal "FMC_LA<27>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(27)" )
+			)
+			( signal "FMC_LA<28>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(28)" )
+			)
+			( signal "FMC_LA<29>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(29)" )
+			)
+			( signal "FMC_LA<30>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(30)" )
+			)
+			( signal "FMC_LA<31>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(31)" )
+			)
+			( signal "FMC_LA<32>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(32)" )
+			)
+			( signal "FMC_LA<33>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la(33)" )
+			)
+			( signal "FMC_LA*<0>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(0)" )
+			)
+			( signal "FMC_LA*<1>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(1)" )
+			)
+			( signal "FMC_LA*<2>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(2)" )
+			)
+			( signal "FMC_LA*<3>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(3)" )
+			)
+			( signal "FMC_LA*<4>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(4)" )
+			)
+			( signal "FMC_LA*<5>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(5)" )
+			)
+			( signal "FMC_LA*<6>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(6)" )
+			)
+			( signal "FMC_LA*<7>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(7)" )
+			)
+			( signal "FMC_LA*<8>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(8)" )
+			)
+			( signal "FMC_LA*<9>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(9)" )
+			)
+			( signal "FMC_LA*<10>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(10)" )
+			)
+			( signal "FMC_LA*<11>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(11)" )
+			)
+			( signal "FMC_LA*<12>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(12)" )
+			)
+			( signal "FMC_LA*<13>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(13)" )
+			)
+			( signal "FMC_LA*<14>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(14)" )
+			)
+			( signal "FMC_LA*<15>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(15)" )
+			)
+			( signal "FMC_LA*<16>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(16)" )
+			)
+			( signal "FMC_LA*<17>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(17)" )
+			)
+			( signal "FMC_LA*<18>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(18)" )
+			)
+			( signal "FMC_LA*<19>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(19)" )
+			)
+			( signal "FMC_LA*<20>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(20)" )
+			)
+			( signal "FMC_LA*<21>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(21)" )
+			)
+			( signal "FMC_LA*<22>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(22)" )
+			)
+			( signal "FMC_LA*<23>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(23)" )
+			)
+			( signal "FMC_LA*<24>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(24)" )
+			)
+			( signal "FMC_LA*<25>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(25)" )
+			)
+			( signal "FMC_LA*<26>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(26)" )
+			)
+			( signal "FMC_LA*<27>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(27)" )
+			)
+			( signal "FMC_LA*<28>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(28)" )
+			)
+			( signal "FMC_LA*<29>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(29)" )
+			)
+			( signal "FMC_LA*<30>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(30)" )
+			)
+			( signal "FMC_LA*<31>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(31)" )
+			)
+			( signal "FMC_LA*<32>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(32)" )
+			)
+			( signal "FMC_LA*<33>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\(33)" )
+			)
+			( signal "DP0_C2M"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):dp0_c2m" )
+			)
+			( signal "DP0_C2M*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\dp0_c2m*\" )
+			)
+			( signal "DP0_M2C"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):dp0_m2c" )
+			)
+			( signal "DP0_M2C*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\dp0_m2c*\" )
+			)
+			( signal "FMC_CLK1_M2C"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_clk1_m2c" )
+			)
+			( signal "FMC_CLK1_M2C*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_clk1_m2c*\" )
+			)
+			( signal "FMC_PRSNT_M2C_L"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_prsnt_m2c_l" )
+			)
+			( signal "FMC_PWR_GOOD_FLASH_RST_B"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_pwr_good_flash_rst_b" )
+			)
+			( signal "FMC_TCK_BUF"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_tck_buf" )
+			)
+			( signal "FMC_TDO"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_tdo" )
+			)
+			( signal "FMC_TMS_BUF"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_tms_buf" )
+			)
+			( signal "FPGA_TDO"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fpga_tdo" )
+			)
+			( signal "GA0"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):ga0" )
+			)
+			( signal "GA1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):ga1" )
+			)
+			( signal "GBTCLK0_M2C"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):gbtclk0_m2c" )
+			)
+			( signal "GBTCLK0_M2C*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\gbtclk0_m2c*\" )
+			)
+			( signal "P12V"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):p12v" )
+			)
+			( signal "TRST_L"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):trst_l" )
+			)
+			( signal "VREF_A_M2C"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):vref_a_m2c" )
+			)
+			( signal "BEAM_TRIGGER<0>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):beam_trigger(0)" )
+			)
+			( signal "BEAM_TRIGGER<1>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):beam_trigger(1)" )
+			)
+			( signal "BEAM_TRIGGER<2>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):beam_trigger(2)" )
+			)
+			( signal "BEAM_TRIGGER<3>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):beam_trigger(3)" )
+			)
+			( signal "BEAM_TRIGGER*<0>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\beam_trigger*\(0)" )
+			)
+			( signal "BEAM_TRIGGER*<1>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\beam_trigger*\(1)" )
+			)
+			( signal "BEAM_TRIGGER*<2>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\beam_trigger*\(2)" )
+			)
+			( signal "BEAM_TRIGGER*<3>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\beam_trigger*\(3)" )
+			)
+			( signal "BEAM_TRIGGER_CFD*<3>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\beam_trigger_cfd*\(3)" )
+			)
+			( signal "BEAM_TRIGGER_CFD*<2>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\beam_trigger_cfd*\(2)" )
+			)
+			( signal "BEAM_TRIGGER_CFD<3>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):beam_trigger_cfd(3)" )
+			)
+			( signal "BEAM_TRIGGER_CFD*<1>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\beam_trigger_cfd*\(1)" )
+			)
+			( signal "BEAM_TRIGGER_CFD<2>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):beam_trigger_cfd(2)" )
+			)
+			( signal "BEAM_TRIGGER_CFD*<0>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\beam_trigger_cfd*\(0)" )
+			)
+			( signal "BEAM_TRIGGER_CFD<1>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):beam_trigger_cfd(1)" )
+			)
+			( signal "BEAM_TRIGGER_CFD<0>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):beam_trigger_cfd(0)" )
+			)
+			( signal "VTHRESH<0>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):vthresh(0)" )
+			)
+			( signal "VTHRESH<1>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):vthresh(1)" )
+			)
+			( signal "VTHRESH<2>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):vthresh(2)" )
+			)
+			( signal "VTHRESH<3>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):vthresh(3)" )
+			)
+			( signal "M5V"
+				( attribute "WEIGHT" "0"
+					( Status sBlockFlattened )
+					( Origin gBackEnd )
+				)
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):m5v" )
+			)
+			( signal "P5V"
+				( attribute "WEIGHT" "0"
+					( Status sBlockFlattened )
+					( Origin gBackEnd )
+				)
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):p5v" )
+			)
+			( signal "UNNAMED_4_CAPCERSMDCL2_I9_B"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_4_capcersmdcl2_i9_b" )
+			)
+			( signal "UNNAMED_1_AD5665R_I63_VOUTB"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):unnamed_1_ad5665r_i63_voutb" )
+			)
+			( signal "VREF"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):vref" )
+			)
+			( signal "UNNAMED_1_OPA4277_I22_MIN"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):unnamed_1_opa4277_i22_min" )
+			)
+			( signal "UNNAMED_1_OPA4277_I22_MIN_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):unnamed_1_opa4277_i22_min" )
+			)
+			( signal "IN<1>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\in\(1)" )
+			)
+			( signal "UNNAMED_1_DELAYLINEGL2L_I14_2_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_b2" )
+			)
+			( signal "UNNAMED_1_DELAYLINEGL2L_I140__4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_a1" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_IN_1_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_in_1" )
+			)
+			( signal "UNNAMED_1_OPA4277_I22_MIN_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):unnamed_1_opa4277_i22_min" )
+			)
+			( signal "UNNAMED_1_OPA4277_I22_MIN_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):unnamed_1_opa4277_i22_min" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_IN_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_in" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_Q_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_q" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_Q_1_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_q_1" )
+			)
+			( signal "UNNAMED_1_CAPCERSMDCL2_I78_B_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_capcersmdcl2_i78_b" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_HYS_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_hys" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_IN_1_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_in_1" )
+			)
+			( signal "UNNAMED_1_MAX9601_I71_HYS_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i71_hys" )
+			)
+			( signal "UNNAMED_1_DELAYLINEGL2L_I140__1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_a1" )
+			)
+			( signal "UNNAMED_1_DELAYLINEGL2L_I14_1_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_a2" )
+			)
+			( signal "UNNAMED_1_DELAYLINEGL2L_I14_2_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_b2" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_IN_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_in" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_Q_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_q" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_Q_1_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_q_1" )
+			)
+			( signal "UNNAMED_1_CAPCERSMDCL2_I78_B_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_capcersmdcl2_i78_b" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_HYS_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_hys" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_IN_1_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_in_1" )
+			)
+			( signal "UNNAMED_1_MAX9601_I71_HYS_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i71_hys" )
+			)
+			( signal "UNNAMED_1_DELAYLINEGL2L_I140__2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_a1" )
+			)
+			( signal "UNNAMED_1_DELAYLINEGL2L_I14_1_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_a2" )
+			)
+			( signal "UNNAMED_1_DELAYLINEGL2L_I14_2_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_b2" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_IN_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_in" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_Q_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_q" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_Q_1_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_q_1" )
+			)
+			( signal "UNNAMED_1_CAPCERSMDCL2_I78_B_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_capcersmdcl2_i78_b" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_HYS_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_hys" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_IN_1_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_in_1" )
+			)
+			( signal "UNNAMED_1_MAX9601_I71_HYS_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i71_hys" )
+			)
+			( signal "UNNAMED_1_DELAYLINEGL2L_I140__3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_a1" )
+			)
+			( signal "UNNAMED_1_DELAYLINEGL2L_I14_1_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_a2" )
+			)
+			( signal "UNNAMED_1_DELAYLINEGL2L_I14_2_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_b2" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_IN_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_in" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_Q_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_q" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_Q_1_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_q_1" )
+			)
+			( signal "UNNAMED_1_CAPCERSMDCL2_I78_B_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_capcersmdcl2_i78_b" )
+			)
+			( signal "UNNAMED_1_MAX9601_I1_HYS_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i1_hys" )
+			)
+			( signal "UNNAMED_1_MAX9601_I71_HYS_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i71_hys" )
+			)
+			( signal "UNNAMED_1_DELAYLINEGL2L_I14_1_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_a2" )
+			)
+			( signal "IN<0>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\in\(0)" )
+			)
+			( signal "IN<2>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\in\(2)" )
+			)
+			( signal "IN<3>"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\in\(3)" )
+			)
+			( signal "FRAME"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):frame" )
+			)
+			( signal "GND_HDMI1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):gnd_hdmi1" )
+			)
+			( signal "GND_HDMI2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):gnd_hdmi2" )
+			)
+			( signal "UNNAMED_4_CAPCERSMDCL2_I19_B"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_4_capcersmdcl2_i19_b" )
+			)
+			( signal "UNNAMED_4_CAPCERSMDCL2_I22_B"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_4_capcersmdcl2_i22_b" )
+			)
+			( signal "UNNAMED_1_AD5665R_I63_VOUTD"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):unnamed_1_ad5665r_i63_voutd" )
+			)
+			( signal "UNNAMED_4_CAPCERSMDCL2_I8_B"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_4_capcersmdcl2_i8_b" )
+			)
+			( signal "UNNAMED_1_AD5665R_I63_VOUTA"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):unnamed_1_ad5665r_i63_vouta" )
+			)
+			( signal "UNNAMED_1_AD5665R_I63_VOUTC"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):unnamed_1_ad5665r_i63_voutc" )
+			)
+			( signal "CONT0*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\cont0*\" )
+			)
+			( signal "CONT0"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):cont0" )
+			)
+			( signal "CLK1*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\clk1*\" )
+			)
+			( signal "CLK1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):clk1" )
+			)
+			( signal "BUSY1*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\busy1*\" )
+			)
+			( signal "BUSY1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):busy1" )
+			)
+			( signal "BUSY0*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\busy0*\" )
+			)
+			( signal "BUSY0"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):busy0" )
+			)
+			( signal "SPARE1*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\spare1*\" )
+			)
+			( signal "SPARE1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):spare1" )
+			)
+			( signal "UNNAMED_4_CON19P_I2_A"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_4_con19p_i2_a" )
+			)
+			( signal "CONT1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):cont1" )
+			)
+			( signal "CONT1*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\cont1*\" )
+			)
+			( signal "DUT_CLK0"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):dut_clk0" )
+			)
+			( signal "DUT_CLK0*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\dut_clk0*\" )
+			)
+			( signal "TRIG0"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):trig0" )
+			)
+			( signal "TRIG0*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\trig0*\" )
+			)
+			( signal "TRIG1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):trig1" )
+			)
+			( signal "TRIG1*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\trig1*\" )
+			)
+			( signal "HDMI_POWER_ENABLE1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):hdmi_power_enable1" )
+			)
+			( signal "UNNAMED_4_74LVC1G07_I28_Y"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_4_74lvc1g07_i28_y" )
+			)
+			( signal "BUSY2*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\busy2*\" )
+			)
+			( signal "CLK2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):clk2" )
+			)
+			( signal "CLK2*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\clk2*\" )
+			)
+			( signal "CONT2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):cont2" )
+			)
+			( signal "CONT2*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\cont2*\" )
+			)
+			( signal "HDMI_POWER_ENABLE2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):hdmi_power_enable2" )
+			)
+			( signal "SPARE2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):spare2" )
+			)
+			( signal "SPARE2*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\spare2*\" )
+			)
+			( signal "TRIG2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):trig2" )
+			)
+			( signal "TRIG2*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\trig2*\" )
+			)
+			( signal "UNNAMED_4_74LVC1G07_I40_Y"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_4_74lvc1g07_i40_y" )
+			)
+			( signal "UNNAMED_4_CAPCERSMDCL2_I41_B"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_4_capcersmdcl2_i41_b" )
+			)
+			( signal "UNNAMED_4_CAPCERSMDCL2_I42_B"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_4_capcersmdcl2_i42_b" )
+			)
+			( signal "UNNAMED_4_CON19P_I3_A"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_4_con19p_i3_a" )
+			)
+			( signal "page4_vbus"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_vbus" )
+			)
+			( signal "UNNAMED_1_24AA025E48_I8_A0"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_1_24aa025e48_i8_a0" )
+			)
+			( signal "UNNAMED_1_24AA025E48_I8_A1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_1_24aa025e48_i8_a1" )
+			)
+			( signal "UNNAMED_1_24AA025E48_I8_A2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):unnamed_1_24aa025e48_i8_a2" )
+			)
+			( signal "+VOUT_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):\+vout\" )
+			)
+			( signal "-VOUT_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):\-vout\" )
+			)
+			( signal "UNNAMED_1_CAPCERSMDCL1_I12_B_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):unnamed_1_capcersmdcl1_i12_b" )
+			)
+			( signal "UNNAMED_1_CAPCERSMDCL1_I13_B_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):unnamed_1_capcersmdcl1_i13_b" )
+			)
+			( signal "UNNAMED_1_CAPCERSMDCL2_I10_B_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):unnamed_1_capcersmdcl2_i10_b" )
+			)
+			( signal "UNNAMED_1_CAPCERSMDCL2_I11_A_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):unnamed_1_capcersmdcl2_i11_a" )
+			)
+			( signal "UNNAMED_1_CAPCERSMDCL2_I11_B_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):unnamed_1_capcersmdcl2_i11_b" )
+			)
+			( signal "UNNAMED_1_CAPCERSMDCL2_I15_B_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):unnamed_1_capcersmdcl2_i15_b" )
+			)
+			( signal "UNNAMED_1_CAPCERSMDCL2_I17_B_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):unnamed_1_capcersmdcl2_i17_b" )
+			)
+			( signal "UNNAMED_1_CAPCERSMDCL2_I20_B_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):unnamed_1_capcersmdcl2_i20_b" )
+			)
+			( signal "UNNAMED_1_CAPCERSMDCL2_I9_B_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):unnamed_1_capcersmdcl2_i9_b" )
+			)
+			( signal "UNNAMED_1_DIODE_I48_A_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):unnamed_1_diode_i48_a" )
+			)
+			( signal "CTRIG1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):ctrig1" )
+			)
+			( signal "CTRIG1*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\ctrig1*\" )
+			)
+			( signal "CTRIG2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):ctrig2" )
+			)
+			( signal "CTRIG2*"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\ctrig2*\" )
+			)
+			( gate "J4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):page1_i1" )
+			)
+			( gate "IC2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i22" )
+			)
+			( gate "R2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23" )
+			)
+			( gate "R1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i29@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24" )
+			)
+			( gate "R4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23" )
+			)
+			( gate "R3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i30@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24" )
+			)
+			( gate "R6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23" )
+			)
+			( gate "R5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i31@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24" )
+			)
+			( gate "R8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i23" )
+			)
+			( gate "R7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i32@fmc_tlu_v1_lib.pc023a_vthresh_buffer(sch_1):page1_i24" )
+			)
+			( gate "C6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i50" )
+			)
+			( gate "C2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i51" )
+			)
+			( gate "C3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i52" )
+			)
+			( gate "C5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i53" )
+			)
+			( gate "C8_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i151" )
+			)
+			( gate "R14_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i152" )
+			)
+			( gate "C5_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i150" )
+			)
+			( gate "IC2_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1" )
+			)
+			( gate "J3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i1" )
+			)
+			( gate "J1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i2" )
+			)
+			( gate "PX1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i7" )
+			)
+			( gate "PX2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i31" )
+			)
+			( gate "PX3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i32" )
+			)
+			( gate "PX4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i33" )
+			)
+			( gate "PX5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i34" )
+			)
+			( gate "R12_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i153" )
+			)
+			( gate "C1_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i123" )
+			)
+			( gate "D1_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i120" )
+			)
+			( gate "C4_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i39" )
+			)
+			( gate "C7_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i40" )
+			)
+			( gate "C10_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i41" )
+			)
+			( gate "C9_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i43" )
+			)
+			( gate "C6_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i44" )
+			)
+			( gate "C3_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i47" )
+			)
+			( gate "R9_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i73" )
+			)
+			( gate "C2_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i78" )
+			)
+			( gate "R5_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i79" )
+			)
+			( gate "R10_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i81" )
+			)
+			( gate "R6_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i148" )
+			)
+			( gate "R7_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i92" )
+			)
+			( gate "R3_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i93" )
+			)
+			( gate "R2_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i94" )
+			)
+			( gate "R13_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i111" )
+			)
+			( gate "R11_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i113" )
+			)
+			( gate "IC1_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140" )
+			)
+			( gate "IC3_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141" )
+			)
+			( gate "R4_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i144" )
+			)
+			( gate "R1_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i145" )
+			)
+			( gate "R8_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i147" )
+			)
+			( gate "IC2_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1" )
+			)
+			( gate "C5_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i150" )
+			)
+			( gate "R14_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i152" )
+			)
+			( gate "C8_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i151" )
+			)
+			( gate "R12_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i153" )
+			)
+			( gate "C1_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i123" )
+			)
+			( gate "D1_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i120" )
+			)
+			( gate "C4_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i39" )
+			)
+			( gate "C7_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i40" )
+			)
+			( gate "C10_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i41" )
+			)
+			( gate "C9_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i43" )
+			)
+			( gate "C6_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i44" )
+			)
+			( gate "C3_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i47" )
+			)
+			( gate "R9_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i73" )
+			)
+			( gate "C2_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i78" )
+			)
+			( gate "R5_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i79" )
+			)
+			( gate "R10_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i81" )
+			)
+			( gate "R6_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i148" )
+			)
+			( gate "R7_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i92" )
+			)
+			( gate "R3_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i93" )
+			)
+			( gate "R2_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i94" )
+			)
+			( gate "R13_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i111" )
+			)
+			( gate "R11_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i113" )
+			)
+			( gate "IC1_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140" )
+			)
+			( gate "IC3_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141" )
+			)
+			( gate "R4_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i144" )
+			)
+			( gate "R1_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i145" )
+			)
+			( gate "R8_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i147" )
+			)
+			( gate "IC2_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1" )
+			)
+			( gate "C5_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i150" )
+			)
+			( gate "R14_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i152" )
+			)
+			( gate "C8_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i151" )
+			)
+			( gate "R12_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i153" )
+			)
+			( gate "C1_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i123" )
+			)
+			( gate "D1_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i120" )
+			)
+			( gate "C4_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i39" )
+			)
+			( gate "C7_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i40" )
+			)
+			( gate "C10_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i41" )
+			)
+			( gate "C9_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i43" )
+			)
+			( gate "C6_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i44" )
+			)
+			( gate "C3_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i47" )
+			)
+			( gate "R9_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i73" )
+			)
+			( gate "C2_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i78" )
+			)
+			( gate "R5_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i79" )
+			)
+			( gate "R10_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i81" )
+			)
+			( gate "R6_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i148" )
+			)
+			( gate "R7_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i92" )
+			)
+			( gate "R3_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i93" )
+			)
+			( gate "R2_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i94" )
+			)
+			( gate "R13_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i111" )
+			)
+			( gate "R11_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i113" )
+			)
+			( gate "IC1_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140" )
+			)
+			( gate "IC3_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141" )
+			)
+			( gate "R4_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i144" )
+			)
+			( gate "R1_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i145" )
+			)
+			( gate "R8_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i147" )
+			)
+			( gate "IC2_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1" )
+			)
+			( gate "C1_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i123" )
+			)
+			( gate "D1_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i120" )
+			)
+			( gate "C4_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i39" )
+			)
+			( gate "C7_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i40" )
+			)
+			( gate "C10_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i41" )
+			)
+			( gate "C9_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i43" )
+			)
+			( gate "C6_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i44" )
+			)
+			( gate "C3_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i47" )
+			)
+			( gate "R9_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i73" )
+			)
+			( gate "C2_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i78" )
+			)
+			( gate "R5_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i79" )
+			)
+			( gate "R10_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i81" )
+			)
+			( gate "R6_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i148" )
+			)
+			( gate "R7_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i92" )
+			)
+			( gate "R3_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i93" )
+			)
+			( gate "R2_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i94" )
+			)
+			( gate "R13_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i111" )
+			)
+			( gate "R11_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i113" )
+			)
+			( gate "IC1_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140" )
+			)
+			( gate "IC3_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141" )
+			)
+			( gate "R4_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i144" )
+			)
+			( gate "R1_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i145" )
+			)
+			( gate "R8_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i147" )
+			)
+			( gate "J2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i3" )
+			)
+			( gate "C5_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i150" )
+			)
+			( gate "C8_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i151" )
+			)
+			( gate "R14_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i152" )
+			)
+			( gate "R12_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i153" )
+			)
+			( gate "C9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i8" )
+			)
+			( gate "C8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i9" )
+			)
+			( gate "R11"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i10" )
+			)
+			( gate "R12"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i11" )
+			)
+			( gate "C13"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i60" )
+			)
+			( gate "C1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i56" )
+			)
+			( gate "R13"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i18" )
+			)
+			( gate "C10"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i19" )
+			)
+			( gate "R14"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i21" )
+			)
+			( gate "C11"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i22" )
+			)
+			( gate "IC1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i63" )
+			)
+			( gate "C4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i66" )
+			)
+			( gate "T1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i26" )
+			)
+			( gate "IC4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i28" )
+			)
+			( gate "R15"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i29" )
+			)
+			( gate "IC3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i33" )
+			)
+			( gate "R9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i38" )
+			)
+			( gate "R10"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i39" )
+			)
+			( gate "IC6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i40" )
+			)
+			( gate "C7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i41" )
+			)
+			( gate "C12"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i42" )
+			)
+			( gate "R16"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i44" )
+			)
+			( gate "T2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i45" )
+			)
+			( gate "IC5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i49" )
+			)
+			( gate "C14"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i62@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i9" )
+			)
+			( gate "U1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i62@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i7" )
+			)
+			( gate "C15"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i63@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i9" )
+			)
+			( gate "U2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i63@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i7" )
+			)
+			( gate "C16"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i64@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i9" )
+			)
+			( gate "U3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i64@fmc_tlu_v1_lib.fmc_tlu_diode_clamp(sch_1):page1_i7" )
+			)
+			( gate "TP2_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i159" )
+			)
+			( gate "TP3_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i160" )
+			)
+			( gate "TP4_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i161" )
+			)
+			( gate "TP1_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i162" )
+			)
+			( gate "TP5_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i163" )
+			)
+			( gate "TP6_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i164" )
+			)
+			( gate "TP7_1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i35@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i165" )
+			)
+			( gate "TP2_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i159" )
+			)
+			( gate "TP3_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i160" )
+			)
+			( gate "TP4_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i161" )
+			)
+			( gate "TP1_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i162" )
+			)
+			( gate "TP5_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i163" )
+			)
+			( gate "TP6_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i164" )
+			)
+			( gate "TP7_2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i36@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i165" )
+			)
+			( gate "TP2_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i159" )
+			)
+			( gate "TP3_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i160" )
+			)
+			( gate "TP4_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i161" )
+			)
+			( gate "TP1_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i162" )
+			)
+			( gate "TP5_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i163" )
+			)
+			( gate "TP6_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i164" )
+			)
+			( gate "TP7_3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i37@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i165" )
+			)
+			( gate "TP2_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i159" )
+			)
+			( gate "TP3_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i160" )
+			)
+			( gate "TP4_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i161" )
+			)
+			( gate "TP1_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i162" )
+			)
+			( gate "TP5_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i163" )
+			)
+			( gate "TP6_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i164" )
+			)
+			( gate "TP7_4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i38@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i165" )
+			)
+			( gate "TP11"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i65" )
+			)
+			( gate "TP12"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i66" )
+			)
+			( gate "TP4"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i67" )
+			)
+			( gate "TP9"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i68" )
+			)
+			( gate "TP10"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i69" )
+			)
+			( gate "TP3"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i70" )
+			)
+			( gate "TP7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i71" )
+			)
+			( gate "TP8"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i72" )
+			)
+			( gate "TP5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i73" )
+			)
+			( gate "TP6"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i74" )
+			)
+			( gate "TP1"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i75" )
+			)
+			( gate "TP2"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page4_i76" )
+			)
+			( gate "TP13"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i68" )
+			)
+			( gate "TP14"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i5@fmc_tlu_v1_lib.pc023a_dac_vthresh(sch_1):page1_i69" )
+			)
+			( gate "IC7"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i8" )
+			)
+			( gate "C17"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i11" )
+			)
+			( gate "R18"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i12" )
+			)
+			( gate "R20"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i13" )
+			)
+			( gate "R22"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i14" )
+			)
+			( gate "R17"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i15" )
+			)
+			( gate "R19"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i16" )
+			)
+			( gate "R21"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i17" )
+			)
+			( gate "IC1_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i1" )
+			)
+			( gate "L3_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i3" )
+			)
+			( gate "L1_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i4" )
+			)
+			( gate "R2_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i7" )
+			)
+			( gate "R1_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i8" )
+			)
+			( gate "C2_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i9" )
+			)
+			( gate "C3_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i10" )
+			)
+			( gate "C5_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i11" )
+			)
+			( gate "C6_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i12" )
+			)
+			( gate "C9_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i13" )
+			)
+			( gate "C8_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i15" )
+			)
+			( gate "C4_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i17" )
+			)
+			( gate "L2_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i18" )
+			)
+			( gate "C7_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i20" )
+			)
+			( gate "R6_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i30" )
+			)
+			( gate "R5_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i31" )
+			)
+			( gate "R4_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i32" )
+			)
+			( gate "R3_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i33" )
+			)
+			( gate "REG1_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i40" )
+			)
+			( gate "L4_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i42" )
+			)
+			( gate "L5_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i44" )
+			)
+			( gate "D1_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i48" )
+			)
+			( gate "VR1_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i50" )
+			)
+			( gate "C10_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i52" )
+			)
+			( gate "C11_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i54" )
+			)
+			( gate "C13_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i56" )
+			)
+			( gate "C12_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i58" )
+			)
+			( gate "D2_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i60" )
+			)
+			( gate "C14_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i61" )
+			)
+			( gate "C1_5"
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page2_i47@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i63" )
+			)
+			( bus "FMC_LA"
+				( memberType ( signal ) )
+				( member ( signalRef "FMC_LA<0>") )
+				( member ( signalRef "FMC_LA<1>") )
+				( member ( signalRef "FMC_LA<2>") )
+				( member ( signalRef "FMC_LA<3>") )
+				( member ( signalRef "FMC_LA<4>") )
+				( member ( signalRef "FMC_LA<5>") )
+				( member ( signalRef "FMC_LA<6>") )
+				( member ( signalRef "FMC_LA<7>") )
+				( member ( signalRef "FMC_LA<8>") )
+				( member ( signalRef "FMC_LA<9>") )
+				( member ( signalRef "FMC_LA<10>") )
+				( member ( signalRef "FMC_LA<11>") )
+				( member ( signalRef "FMC_LA<12>") )
+				( member ( signalRef "FMC_LA<13>") )
+				( member ( signalRef "FMC_LA<14>") )
+				( member ( signalRef "FMC_LA<15>") )
+				( member ( signalRef "FMC_LA<16>") )
+				( member ( signalRef "FMC_LA<17>") )
+				( member ( signalRef "FMC_LA<18>") )
+				( member ( signalRef "FMC_LA<19>") )
+				( member ( signalRef "FMC_LA<20>") )
+				( member ( signalRef "FMC_LA<21>") )
+				( member ( signalRef "FMC_LA<22>") )
+				( member ( signalRef "FMC_LA<23>") )
+				( member ( signalRef "FMC_LA<24>") )
+				( member ( signalRef "FMC_LA<25>") )
+				( member ( signalRef "FMC_LA<26>") )
+				( member ( signalRef "FMC_LA<27>") )
+				( member ( signalRef "FMC_LA<28>") )
+				( member ( signalRef "FMC_LA<29>") )
+				( member ( signalRef "FMC_LA<30>") )
+				( member ( signalRef "FMC_LA<31>") )
+				( member ( signalRef "FMC_LA<32>") )
+				( member ( signalRef "FMC_LA<33>") )
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):fmc_la" )
+			)
+			( bus "FMC_LA*"
+				( memberType ( signal ) )
+				( member ( signalRef "FMC_LA*<0>") )
+				( member ( signalRef "FMC_LA*<1>") )
+				( member ( signalRef "FMC_LA*<2>") )
+				( member ( signalRef "FMC_LA*<3>") )
+				( member ( signalRef "FMC_LA*<4>") )
+				( member ( signalRef "FMC_LA*<5>") )
+				( member ( signalRef "FMC_LA*<6>") )
+				( member ( signalRef "FMC_LA*<7>") )
+				( member ( signalRef "FMC_LA*<8>") )
+				( member ( signalRef "FMC_LA*<9>") )
+				( member ( signalRef "FMC_LA*<10>") )
+				( member ( signalRef "FMC_LA*<11>") )
+				( member ( signalRef "FMC_LA*<12>") )
+				( member ( signalRef "FMC_LA*<13>") )
+				( member ( signalRef "FMC_LA*<14>") )
+				( member ( signalRef "FMC_LA*<15>") )
+				( member ( signalRef "FMC_LA*<16>") )
+				( member ( signalRef "FMC_LA*<17>") )
+				( member ( signalRef "FMC_LA*<18>") )
+				( member ( signalRef "FMC_LA*<19>") )
+				( member ( signalRef "FMC_LA*<20>") )
+				( member ( signalRef "FMC_LA*<21>") )
+				( member ( signalRef "FMC_LA*<22>") )
+				( member ( signalRef "FMC_LA*<23>") )
+				( member ( signalRef "FMC_LA*<24>") )
+				( member ( signalRef "FMC_LA*<25>") )
+				( member ( signalRef "FMC_LA*<26>") )
+				( member ( signalRef "FMC_LA*<27>") )
+				( member ( signalRef "FMC_LA*<28>") )
+				( member ( signalRef "FMC_LA*<29>") )
+				( member ( signalRef "FMC_LA*<30>") )
+				( member ( signalRef "FMC_LA*<31>") )
+				( member ( signalRef "FMC_LA*<32>") )
+				( member ( signalRef "FMC_LA*<33>") )
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):page1_i2@fmc_tlu_v1_lib.pc036a_fmc_lpc_connector(sch_1):\fmc_la*\" )
+			)
+			( bus "BEAM_TRIGGER"
+				( memberType ( signal ) )
+				( member ( signalRef "BEAM_TRIGGER<0>") )
+				( member ( signalRef "BEAM_TRIGGER<1>") )
+				( member ( signalRef "BEAM_TRIGGER<2>") )
+				( member ( signalRef "BEAM_TRIGGER<3>") )
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):beam_trigger" )
+			)
+			( bus "BEAM_TRIGGER*"
+				( memberType ( signal ) )
+				( member ( signalRef "BEAM_TRIGGER*<0>") )
+				( member ( signalRef "BEAM_TRIGGER*<1>") )
+				( member ( signalRef "BEAM_TRIGGER*<2>") )
+				( member ( signalRef "BEAM_TRIGGER*<3>") )
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\beam_trigger*\" )
+			)
+			( bus "VTHRESH"
+				( memberType ( signal ) )
+				( member ( signalRef "VTHRESH<0>") )
+				( member ( signalRef "VTHRESH<1>") )
+				( member ( signalRef "VTHRESH<2>") )
+				( member ( signalRef "VTHRESH<3>") )
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):vthresh" )
+			)
+			( bus "BEAM_TRIGGER_CFD"
+				( memberType ( signal ) )
+				( member ( signalRef "BEAM_TRIGGER_CFD<0>") )
+				( member ( signalRef "BEAM_TRIGGER_CFD<1>") )
+				( member ( signalRef "BEAM_TRIGGER_CFD<2>") )
+				( member ( signalRef "BEAM_TRIGGER_CFD<3>") )
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):beam_trigger_cfd" )
+			)
+			( bus "BEAM_TRIGGER_CFD*"
+				( memberType ( signal ) )
+				( member ( signalRef "BEAM_TRIGGER_CFD*<0>") )
+				( member ( signalRef "BEAM_TRIGGER_CFD*<1>") )
+				( member ( signalRef "BEAM_TRIGGER_CFD*<2>") )
+				( member ( signalRef "BEAM_TRIGGER_CFD*<3>") )
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\beam_trigger_cfd*\" )
+			)
+			( bus "IN"
+				( memberType ( signal ) )
+				( member ( signalRef "IN<0>") )
+				( member ( signalRef "IN<1>") )
+				( member ( signalRef "IN<2>") )
+				( member ( signalRef "IN<3>") )
+				( objectStatus "@fmc_tlu_v1_lib.fmc_tlu_toplevel(sch_1):\in\" )
+			)
+		)
+	)
+)
