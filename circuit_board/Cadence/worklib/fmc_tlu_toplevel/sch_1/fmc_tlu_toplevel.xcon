@@ -5,15 +5,16 @@
     <schemaVersion>16.5</schemaVersion>
     <creatorTool>csnetlister</creatorTool>
     <modifierTool>csnetlister</modifierTool>
-    <modificationTime>2012-05-17T09:45:52</modificationTime>
+    <modificationTime>2012-05-22T17:32:07</modificationTime>
     <savedLibrary>fmc_tlu_v1_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="fmc_tlu_toplevel" view="sch_1">
+      <external_errors>true</external_errors>
       <lastids>
         <instanceid>83</instanceid>
-        <netid>164</netid>
-        <insttermid>766</insttermid>
+        <netid>186</netid>
+        <insttermid>793</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -896,6 +897,94 @@
           <name>ctrig2*</name>
         </net>
         <net>
+          <id>N167</id>
+          <name>page1_beam_trigger</name>
+          <msb>3</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N168</id>
+          <name>page1_beam_trigger*</name>
+          <msb>3</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N169</id>
+          <name>page1_beam_trigger_cfd</name>
+          <msb>3</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N170</id>
+          <name>page1_beam_trigger_cfd*</name>
+          <msb>3</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N171</id>
+          <name>page1_busy1</name>
+        </net>
+        <net>
+          <id>N172</id>
+          <name>page1_busy1*</name>
+        </net>
+        <net>
+          <id>N173</id>
+          <name>page1_clk1</name>
+        </net>
+        <net>
+          <id>N174</id>
+          <name>page1_clk1*</name>
+        </net>
+        <net>
+          <id>N175</id>
+          <name>page1_cont1</name>
+        </net>
+        <net>
+          <id>N176</id>
+          <name>page1_cont1*</name>
+        </net>
+        <net>
+          <id>N177</id>
+          <name>page1_spare1</name>
+        </net>
+        <net>
+          <id>N178</id>
+          <name>page1_spare1*</name>
+        </net>
+        <net>
+          <id>N179</id>
+          <name>page1_trig1</name>
+        </net>
+        <net>
+          <id>N180</id>
+          <name>page1_trig1*</name>
+        </net>
+        <net>
+          <id>N183</id>
+          <name>fmc_la</name>
+          <msb>33</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N184</id>
+          <name>page1_fmc_la</name>
+          <msb>33</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N185</id>
+          <name>fmc_la*</name>
+          <msb>33</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N186</id>
+          <name>page1_fmc_la*</name>
+          <msb>33</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
           <id>N1</id>
           <name>gnd_signal</name>
           <scope>global</scope>
@@ -939,6 +1028,50 @@
         <alias net1="m5v" lsb1="-1" msb1="-1" net2="N156" lsb2="-1" msb2="-1" />
         <alias net1="p5v" lsb1="-1" msb1="-1" net2="N117" lsb2="-1" msb2="-1" />
         <alias net1="p5v" lsb1="-1" msb1="-1" net2="N158" lsb2="-1" msb2="-1" />
+        <alias net1="N167" lsb1="0" msb1="3" net2="N11" lsb2="0" msb2="3" />
+        <alias net1="N168" lsb1="0" msb1="3" net2="N12" lsb2="0" msb2="3" />
+        <alias net1="N169" lsb1="0" msb1="3" net2="N40" lsb2="0" msb2="3" />
+        <alias net1="N170" lsb1="0" msb1="3" net2="N53" lsb2="0" msb2="3" />
+        <alias net1="N171" lsb1="-1" msb1="-1" net2="N96" lsb2="-1" msb2="-1" />
+        <alias net1="N172" lsb1="-1" msb1="-1" net2="N97" lsb2="-1" msb2="-1" />
+        <alias net1="N173" lsb1="-1" msb1="-1" net2="N98" lsb2="-1" msb2="-1" />
+        <alias net1="N174" lsb1="-1" msb1="-1" net2="N99" lsb2="-1" msb2="-1" />
+        <alias net1="N175" lsb1="-1" msb1="-1" net2="N102" lsb2="-1" msb2="-1" />
+        <alias net1="N176" lsb1="-1" msb1="-1" net2="N103" lsb2="-1" msb2="-1" />
+        <alias net1="N177" lsb1="-1" msb1="-1" net2="N112" lsb2="-1" msb2="-1" />
+        <alias net1="N178" lsb1="-1" msb1="-1" net2="N113" lsb2="-1" msb2="-1" />
+        <alias net1="N179" lsb1="-1" msb1="-1" net2="N108" lsb2="-1" msb2="-1" />
+        <alias net1="N180" lsb1="-1" msb1="-1" net2="N109" lsb2="-1" msb2="-1" />
+        <alias net1="N184" lsb1="1" msb1="1" net2="N167" lsb2="0" msb2="0" />
+        <alias net1="N184" lsb1="3" msb1="3" net2="N167" lsb2="1" msb2="1" />
+        <alias net1="N184" lsb1="5" msb1="5" net2="N167" lsb2="2" msb2="2" />
+        <alias net1="N184" lsb1="7" msb1="7" net2="N167" lsb2="3" msb2="3" />
+        <alias net1="N184" lsb1="0" msb1="0" net2="N169" lsb2="0" msb2="0" />
+        <alias net1="N184" lsb1="2" msb1="2" net2="N169" lsb2="1" msb2="1" />
+        <alias net1="N184" lsb1="4" msb1="4" net2="N169" lsb2="2" msb2="2" />
+        <alias net1="N184" lsb1="6" msb1="6" net2="N169" lsb2="3" msb2="3" />
+        <alias net1="N184" lsb1="15" msb1="15" net2="N171" lsb2="-1" msb2="-1" />
+        <alias net1="N184" lsb1="11" msb1="11" net2="N174" lsb2="-1" msb2="-1" />
+        <alias net1="N184" lsb1="16" msb1="16" net2="N175" lsb2="-1" msb2="-1" />
+        <alias net1="N184" lsb1="12" msb1="12" net2="N176" lsb2="-1" msb2="-1" />
+        <alias net1="N184" lsb1="20" msb1="20" net2="N177" lsb2="-1" msb2="-1" />
+        <alias net1="N184" lsb1="19" msb1="19" net2="N179" lsb2="-1" msb2="-1" />
+        <alias net1="N184" lsb1="0" msb1="33" net2="N183" lsb2="0" msb2="33" />
+        <alias net1="N186" lsb1="7" msb1="7" net2="N168" lsb2="3" msb2="3" />
+        <alias net1="N186" lsb1="5" msb1="5" net2="N168" lsb2="2" msb2="2" />
+        <alias net1="N186" lsb1="3" msb1="3" net2="N168" lsb2="1" msb2="1" />
+        <alias net1="N186" lsb1="1" msb1="1" net2="N168" lsb2="0" msb2="0" />
+        <alias net1="N186" lsb1="0" msb1="0" net2="N170" lsb2="0" msb2="0" />
+        <alias net1="N186" lsb1="6" msb1="6" net2="N170" lsb2="3" msb2="3" />
+        <alias net1="N186" lsb1="4" msb1="4" net2="N170" lsb2="2" msb2="2" />
+        <alias net1="N186" lsb1="2" msb1="2" net2="N170" lsb2="1" msb2="1" />
+        <alias net1="N186" lsb1="15" msb1="15" net2="N172" lsb2="-1" msb2="-1" />
+        <alias net1="N186" lsb1="11" msb1="11" net2="N173" lsb2="-1" msb2="-1" />
+        <alias net1="N186" lsb1="12" msb1="12" net2="N175" lsb2="-1" msb2="-1" />
+        <alias net1="N186" lsb1="16" msb1="16" net2="N176" lsb2="-1" msb2="-1" />
+        <alias net1="N186" lsb1="20" msb1="20" net2="N178" lsb2="-1" msb2="-1" />
+        <alias net1="N186" lsb1="19" msb1="19" net2="N180" lsb2="-1" msb2="-1" />
+        <alias net1="N186" lsb1="0" msb1="33" net2="N185" lsb2="0" msb2="33" />
       </aliases>
       <differentialnets>
       </differentialnets>
@@ -1016,6 +1149,7 @@
               <msb>33</msb>
               <lsb>0</lsb>
               <connections>
+                <connection pinmsb="33" pinlsb="0" net="N183" netmsb="33" netlsb="0" />
               </connections>
             </pin>
             <pin>
@@ -1024,6 +1158,7 @@
               <msb>33</msb>
               <lsb>0</lsb>
               <connections>
+                <connection pinmsb="33" pinlsb="0" net="N185" netmsb="33" netlsb="0" />
               </connections>
             </pin>
             <pin>
@@ -3728,13 +3863,47 @@
         <pages>
           <page number="1">
             <physicalPageNumber>1</physicalPageNumber>
-            <errorStatus>false</errorStatus>
+            <errorStatus>true</errorStatus>
             <nets>
+              <net ref="beam_trigger">
+                <msb>3</msb>
+                <lsb>0</lsb>
+              </net>
+              <net ref="beam_trigger*">
+                <msb>3</msb>
+                <lsb>0</lsb>
+              </net>
+              <net ref="beam_trigger_cfd">
+                <msb>3</msb>
+                <lsb>0</lsb>
+              </net>
+              <net ref="beam_trigger_cfd*">
+                <msb>3</msb>
+                <lsb>0</lsb>
+              </net>
+              <net ref="busy1"></net>
+              <net ref="busy1*"></net>
+              <net ref="clk1"></net>
+              <net ref="clk1*"></net>
+              <net ref="cont1"></net>
+              <net ref="cont1*"></net>
+              <net ref="fmc_la">
+                <msb>33</msb>
+                <lsb>0</lsb>
+              </net>
+              <net ref="fmc_la*">
+                <msb>33</msb>
+                <lsb>0</lsb>
+              </net>
               <net ref="gnd_signal"></net>
               <net ref="p2v5"></net>
               <net ref="p3v3"></net>
               <net ref="scl"></net>
               <net ref="sda"></net>
+              <net ref="spare1"></net>
+              <net ref="spare1*"></net>
+              <net ref="trig1"></net>
+              <net ref="trig1*"></net>
               <net ref="unnamed_1_24aa025e48_i8_a0"></net>
               <net ref="unnamed_1_24aa025e48_i8_a1"></net>
               <net ref="unnamed_1_24aa025e48_i8_a2"></net>

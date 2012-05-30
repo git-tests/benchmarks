@@ -5,15 +5,15 @@
     <schemaVersion>16.5</schemaVersion>
     <creatorTool>csnetlister</creatorTool>
     <modifierTool>csnetlister</modifierTool>
-    <modificationTime>2012-05-16T16:15:03</modificationTime>
+    <modificationTime>2012-05-17T09:26:07</modificationTime>
     <savedLibrary>fmc_tlu_v1_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="fmc_tlu_toplevel" view="sch_1">
       <lastids>
         <instanceid>83</instanceid>
-        <netid>155</netid>
-        <insttermid>739</insttermid>
+        <netid>164</netid>
+        <insttermid>766</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -868,6 +868,34 @@
           <name>unnamed_1_24aa025e48_i8_a2</name>
         </net>
         <net>
+          <id>N156</id>
+          <name>page2_m5v</name>
+        </net>
+        <net>
+          <id>N157</id>
+          <name>page2_p3v3</name>
+        </net>
+        <net>
+          <id>N158</id>
+          <name>page2_p5v</name>
+        </net>
+        <net>
+          <id>N161</id>
+          <name>ctrig1</name>
+        </net>
+        <net>
+          <id>N162</id>
+          <name>ctrig1*</name>
+        </net>
+        <net>
+          <id>N163</id>
+          <name>ctrig2</name>
+        </net>
+        <net>
+          <id>N164</id>
+          <name>ctrig2*</name>
+        </net>
+        <net>
           <id>N1</id>
           <name>gnd_signal</name>
           <scope>global</scope>
@@ -891,7 +919,6 @@
           <id>m5v</id>
           <name>m5v</name>
           <scope>global</scope>
-          <inherited>1</inherited>
         </net>
         <net>
           <id>p5v</id>
@@ -908,7 +935,10 @@
         <alias net1="N67" lsb1="-1" msb1="-1" net2="N1" lsb2="-1" msb2="-1" />
         <alias net1="N121" lsb1="-1" msb1="-1" net2="N3" lsb2="-1" msb2="-1" />
         <alias net1="N137" lsb1="-1" msb1="-1" net2="N5" lsb2="-1" msb2="-1" />
+        <alias net1="N157" lsb1="-1" msb1="-1" net2="N5" lsb2="-1" msb2="-1" />
+        <alias net1="m5v" lsb1="-1" msb1="-1" net2="N156" lsb2="-1" msb2="-1" />
         <alias net1="p5v" lsb1="-1" msb1="-1" net2="N117" lsb2="-1" msb2="-1" />
+        <alias net1="p5v" lsb1="-1" msb1="-1" net2="N158" lsb2="-1" msb2="-1" />
       </aliases>
       <differentialnets>
       </differentialnets>
@@ -1256,11 +1286,11 @@
                 <connection pinmsb="0" pinlsb="0" net="N99" />
                 <connection pinmsb="3" pinlsb="3" net="N102" />
                 <connection pinmsb="5" pinlsb="5" net="N103" />
-                <connection pinmsb="14" pinlsb="14" net="N108" />
-                <connection pinmsb="15" pinlsb="15" net="N109" />
                 <connection pinmsb="13" pinlsb="13" net="N111" />
                 <connection pinmsb="9" pinlsb="9" net="N112" />
                 <connection pinmsb="11" pinlsb="11" net="N113" />
+                <connection pinmsb="14" pinlsb="14" net="N161" />
+                <connection pinmsb="15" pinlsb="15" net="N162" />
               </connections>
             </pin>
           </pins>
@@ -1726,9 +1756,9 @@
                 <connection pinmsb="5" pinlsb="5" net="N127" />
                 <connection pinmsb="9" pinlsb="9" net="N129" />
                 <connection pinmsb="11" pinlsb="11" net="N130" />
-                <connection pinmsb="14" pinlsb="14" net="N131" />
-                <connection pinmsb="15" pinlsb="15" net="N132" />
                 <connection pinmsb="13" pinlsb="13" net="N136" />
+                <connection pinmsb="14" pinlsb="14" net="N163" />
+                <connection pinmsb="15" pinlsb="15" net="N164" />
               </connections>
             </pin>
           </pins>
@@ -2199,7 +2229,7 @@
               <id>M499</id>
               <termid>T188</termid>
               <connections>
-                <connection net="N108" />
+                <connection net="N161" />
               </connections>
             </pin>
             <pin>
@@ -2213,7 +2243,7 @@
               <id>M501</id>
               <termid>T190</termid>
               <connections>
-                <connection net="N109" />
+                <connection net="N162" />
               </connections>
             </pin>
             <pin>
@@ -2542,7 +2572,7 @@
               <id>M534</id>
               <termid>T188</termid>
               <connections>
-                <connection net="N131" />
+                <connection net="N163" />
               </connections>
             </pin>
             <pin>
@@ -2556,7 +2586,7 @@
               <id>M536</id>
               <termid>T190</termid>
               <connections>
-                <connection net="N132" />
+                <connection net="N164" />
               </connections>
             </pin>
             <pin>
@@ -3089,7 +3119,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N108" />
+                <connection pinmsb="0" pinlsb="0" net="N161" />
               </connections>
             </pin>
           </pins>
@@ -3119,7 +3149,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N109" />
+                <connection pinmsb="0" pinlsb="0" net="N162" />
               </connections>
             </pin>
           </pins>
@@ -3610,18 +3640,21 @@
               <id>M737</id>
               <termid>T274</termid>
               <connections>
+                <connection net="p5v" />
               </connections>
             </pin>
             <pin>
               <id>M738</id>
               <termid>T275</termid>
               <connections>
+                <connection net="m5v" />
               </connections>
             </pin>
             <pin>
               <id>M739</id>
               <termid>T276</termid>
               <connections>
+                <connection net="N5" />
               </connections>
             </pin>
           </pins>
@@ -3659,6 +3692,11 @@
               <scope>global</scope>
             </pageScope>
           </netScope>
+          <netScope ref="m5v">
+            <pageScope number="2">
+              <scope>global</scope>
+            </pageScope>
+          </netScope>
           <netScope ref="p2v5">
             <pageScope number="1">
               <scope>global</scope>
@@ -3671,11 +3709,17 @@
             <pageScope number="1">
               <scope>global</scope>
             </pageScope>
+            <pageScope number="2">
+              <scope>global</scope>
+            </pageScope>
             <pageScope number="4">
               <scope>global</scope>
             </pageScope>
           </netScope>
           <netScope ref="p5v">
+            <pageScope number="2">
+              <scope>global</scope>
+            </pageScope>
             <pageScope number="4">
               <scope>global</scope>
             </pageScope>
@@ -3735,6 +3779,9 @@
                 <msb>3</msb>
                 <lsb>0</lsb>
               </net>
+              <net ref="m5v"></net>
+              <net ref="p3v3"></net>
+              <net ref="p5v"></net>
               <net ref="scl"></net>
               <net ref="sda"></net>
               <net ref="vthresh">
@@ -3775,6 +3822,10 @@
               <net ref="cont1*"></net>
               <net ref="cont2"></net>
               <net ref="cont2*"></net>
+              <net ref="ctrig1"></net>
+              <net ref="ctrig1*"></net>
+              <net ref="ctrig2"></net>
+              <net ref="ctrig2*"></net>
               <net ref="dut_clk0"></net>
               <net ref="dut_clk0*"></net>
               <net ref="frame"></net>
