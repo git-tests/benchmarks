@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.5-S005 (v16-5-13R) 8/23/2011 on Tue May 22 11:47:31 2012
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.5-S005 (v16-5-13R) 8/23/2011 on Tue Sep 25 13:59:04 2012
 #ISCELL
   bris_cds_standard a3-2000 *
   *
@@ -246,14 +246,17 @@
   standard tap *
   page1_i84
 #ISCELL
+  standard tap *
+  page1_i85
+#ISCELL
+  standard tap *
+  page1_i86
+#ISCELL
   cnpower p3v3 *
   page1_i9
 #ISCELL
   bris_cds_standard a3-2000 *
   *
-#CELL
-  cnconnector con8p *
-  page4_i1
 #CELL
   cnpassive rsmd0603 *
   page4_i10
@@ -423,6 +426,9 @@
   standard gnd_signal *
   page4_i77
 #CELL
+  cnconnector con8p *
+  page4_i78
+#CELL
   cnpassive capcersmdcl2 *
   page4_i8
 #CELL
@@ -458,18 +464,6 @@
 #ISCELL
   standard gnd_signal *
   page2_i18
-#CELL
-  cnconnector pcoax *
-  page2_i31
-#CELL
-  cnconnector pcoax *
-  page2_i32
-#CELL
-  cnconnector pcoax *
-  page2_i33
-#CELL
-  cnconnector pcoax *
-  page2_i34
 #CELL
   fmc_tlu_v1_lib fmc_tlu_cfd *
   page2_i35
@@ -521,6 +515,18 @@
 #ISCELL
   cnpower p3v3 *
   page2_i50
+#CELL
+  cnconnector pcoax *
+  page2_i51
+#CELL
+  cnconnector pcoax *
+  page2_i52
+#CELL
+  cnconnector pcoax *
+  page2_i53
+#CELL
+  cnconnector pcoax *
+  page2_i54
 #ISCELL
   standard tap *
   page2_i6

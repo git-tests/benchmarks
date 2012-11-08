@@ -7,7 +7,7 @@
 			( 16.5 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 12 )
+			( logicalViewRevNum 13 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -389,6 +389,86 @@
 			( Analysis
 			)
 		)
+		( Attribute
+			( Name "SYMMAP" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MODEL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "KL_COMMENTS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "OL_COMMENTS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "PL_COMMENTS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
 	)
 	( designConstraints
 		( ruleChanges
@@ -535,7 +615,7 @@
 				( attribute "XY" "(350,550)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-VCC=P2V5;A"
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE1_I7" )
@@ -603,7 +683,7 @@
 				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-VCC=P2V5;A"
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE1_I43" )
@@ -636,7 +716,7 @@
 				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-VCC=P2V5;A"
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE1_I44" )
@@ -669,7 +749,7 @@
 				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-VCC=P2V5;A"
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE1_I45" )
@@ -702,7 +782,7 @@
 				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-VCC=P2V5;A"
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE1_I46" )
@@ -735,7 +815,7 @@
 				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-VCC=P2V5;A"
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE1_I47" )
@@ -768,7 +848,7 @@
 				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-VCC=P2V5;A"
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE1_I48" )
@@ -806,7 +886,7 @@
 				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-VCC=P2V5;A"
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
 					( Origin gPackager )
 				)
 				( objectStatus "PAGE1_I50" )

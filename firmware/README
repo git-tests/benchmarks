@@ -1,0 +1,44 @@
+
+Firmware for AIDA miniTLU
+-------------------------
+
+Needs "IPBus" to communuicate via Ethernet to host.
+
+To build firmware
+
+Check out AIDA mTLU firmware from OHWR:
+
+http://svn.ohwr.org/fmc-mtlu/trunk/firmware fmc-tlu-mtlu-firmware
+
+Check out IPBus firmware from HEPForge:
+
+svn co http://cactus.hepforge.org/svn/tags/IPbusFirmware_pre_131_RAL IPbusFirmware
+
+Copy ise_project directory ( it will be where all the files produced by the ISE tools will end up ):
+
+cp -r  fmc-tlu-mtlu-firmware/ise_projects/fmc_tlu_top_sp601 .
+
+move into the newly created directory:
+
+cd fmc_tlu_top_sp601
+
+Create some soft links to the IPBus and FMC-TLU directories:
+
+ln -s ../IPbusFirmware_pre_131_RAL/firmware ipbus-firmware
+ln -s ../fmc-tlu-mtlu-firmware .
+
+Run setup script to create a directory to store output from CoreGen
+
+./setup_ipcore_dir.sh
+
+Run ise
+
+The messages about missing IPCores need to be solved by:
+
+Start the core generator GUI from the Tools menu. Double check that coregen has the correct part settings (doesn't always work), and select: 
+
+    'Project' -> 'Regenerate all project IP'
+
+    And then wait a while.
+
+    Exit coregen GUI once done.

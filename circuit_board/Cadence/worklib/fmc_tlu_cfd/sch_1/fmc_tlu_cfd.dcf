@@ -7,7 +7,7 @@
 			( 16.5 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 34 )
+			( logicalViewRevNum 36 )
 			( physicalViewRevNum 1 )
 			( otherViewRevNum 0 )
 		)
@@ -402,6 +402,70 @@
 		)
 		( Attribute
 			( Name "SYMMAP" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MODEL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "KL_COMMENTS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "OL_COMMENTS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "PL_COMMENTS" )
 			( Description " " )
 			( Value
 				( DataType ( dString ) )
@@ -1441,24 +1505,6 @@
 				)
 				( objectStatus "UNNAMED_1_MAX9601_I71_HYS" )
 			)
-			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_a1"
-				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_DELAYLINEGL2L_I140_A1"
-					( Origin gPackager )
-				)
-				( objectStatus "UNNAMED_1_DELAYLINEGL2L_I140_A1" )
-			)
-			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_a2"
-				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_DELAYLINEGL2L_I140_A2"
-					( Origin gPackager )
-				)
-				( objectStatus "UNNAMED_1_DELAYLINEGL2L_I140_A2" )
-			)
-			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_b2"
-				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_DELAYLINEGL2L_I140_B2"
-					( Origin gPackager )
-				)
-				( objectStatus "UNNAMED_1_DELAYLINEGL2L_I140_B2" )
-			)
 			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):p2v5"
 				( alias ( signalRef "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_p2v5") )
 				( attribute "CDS_PHYS_NET_NAME" "P2V5"
@@ -1472,6 +1518,15 @@
 			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_p2v5"
 				( objectFlag fObjectAlias )
 				( objectStatus "page1_p2v5" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_max9601_i71_in"
+				( objectStatus "unnamed_1_max9601_i71_in" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_a2"
+				( objectStatus "unnamed_1_delaylinegl2l_i140_a2" )
+			)
+			( signal "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):unnamed_1_delaylinegl2l_i140_b2"
+				( objectStatus "unnamed_1_delaylinegl2l_i140_b2" )
 			)
 			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1"
 				( attribute "CDS_LIB" "cnlinear"
@@ -1501,16 +1556,7 @@
 				( attribute "CDS_PART_NAME" "MAX9601_TSSOP"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "IC2"
-					( Origin gPackager )
-				)
 				( attribute "LOCATION" "IC2"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
 					( Origin gPackager )
 				)
 				( objectStatus "IC2" )
@@ -1550,64 +1596,10 @@
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "C1"
-					( Origin gPackager )
-				)
 				( attribute "LOCATION" "C1"
 					( Origin gPackager )
 				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "C1" )
-			)
-			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i120"
-				( attribute "CASE" "SOT23"
-					( Origin gFrontEnd )
-				)
-				( attribute "CDS_LIB" "cndiscrete"
-					( Origin gPackager )
-				)
-				( attribute "PACK_TYPE" "A1-C2-AC3"
-					( Origin gFrontEnd )
-				)
-				( attribute "PHYS_PAGE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "TYPE" "HBAT-540C"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(0,-500)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "DIODE_DUAL_SERIES"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "HBAT-540C"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "D1"
-					( Origin gPackager )
-				)
-				( attribute "LOCATION" "D1"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "D1" )
 			)
 			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i39"
 				( attribute "CDS_LIB" "cnpassive"
@@ -1644,16 +1636,7 @@
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-1.0UF,6.3V"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "C4"
-					( Origin gPackager )
-				)
 				( attribute "LOCATION" "C4"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
 				( objectStatus "C4" )
@@ -1693,16 +1676,7 @@
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "C7"
-					( Origin gPackager )
-				)
 				( attribute "LOCATION" "C7"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
 				( objectStatus "C7" )
@@ -1742,16 +1716,7 @@
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "C10"
-					( Origin gPackager )
-				)
 				( attribute "LOCATION" "C10"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
 				( objectStatus "C10" )
@@ -1791,16 +1756,7 @@
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "C9"
-					( Origin gPackager )
-				)
 				( attribute "LOCATION" "C9"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
 				( objectStatus "C9" )
@@ -1840,16 +1796,7 @@
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-1.0UF,6.3V"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "C6"
-					( Origin gPackager )
-				)
 				( attribute "LOCATION" "C6"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
 				( objectStatus "C6" )
@@ -1889,16 +1836,7 @@
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-1.0UF,6.3V"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "C3"
-					( Origin gPackager )
-				)
 				( attribute "LOCATION" "C3"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
 				( objectStatus "C3" )
@@ -1931,16 +1869,7 @@
 				( attribute "CDS_PART_NAME" "MAX9601_TSSOP"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "IC2"
-					( Origin gPackager )
-				)
 				( attribute "LOCATION" "IC2"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "2"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "2"
 					( Origin gPackager )
 				)
 				( objectStatus "IC2" )
@@ -2013,15 +1942,6 @@
 				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-33K,1%"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "R9"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "R9" )
 			)
 			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i78"
@@ -2059,16 +1979,7 @@
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-10NF,50V"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "C2"
-					( Origin gPackager )
-				)
 				( attribute "LOCATION" "C2"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
 				( objectStatus "C2" )
@@ -2141,15 +2052,6 @@
 				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-100,1%"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "R5"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "R5" )
 			)
 			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i81"
@@ -2218,15 +2120,6 @@
 					( Origin gPackager )
 				)
 				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-XX,1%"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "R10"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
 				( objectStatus "R10" )
@@ -2299,15 +2192,6 @@
 				( attribute "CDS_PART_NAME" "RSMD0805_125MW-100,1%"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "R6"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "R6" )
 			)
 			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i92"
@@ -2376,15 +2260,6 @@
 					( Origin gPackager )
 				)
 				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-100,1%"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "R7"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
 				( objectStatus "R7" )
@@ -2457,15 +2332,6 @@
 				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-51,1%"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "R3"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "R3" )
 			)
 			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i94"
@@ -2534,15 +2400,6 @@
 					( Origin gPackager )
 				)
 				( attribute "CDS_PART_NAME" "RSMD0805_125MW-12,1%"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "R2"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
 				( objectStatus "R2" )
@@ -2615,15 +2472,6 @@
 				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-75,1%"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "R13"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "R13" )
 			)
 			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i113"
@@ -2694,105 +2542,12 @@
 				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-75,1%"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "R11"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "R11" )
 			)
 			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i87"
 				( attribute "CHIPS_PART_NAME" "MC100EL29"
 					( Origin gPackager )
 				)
-			)
-			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140"
-				( attribute "CDS_LIB" "cndiscrete"
-					( Origin gPackager )
-				)
-				( attribute "PACK_TYPE" "SOP"
-					( Origin gFrontEnd )
-				)
-				( attribute "PHYS_PAGE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "TYPE" "GL2L5LS050D-C"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(-100,-1650)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "DELAY_LINE_GL2L"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "GL2L5LS050D-C"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "IC1"
-					( Origin gPackager )
-				)
-				( attribute "LOCATION" "IC1"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "IC1" )
-			)
-			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141"
-				( attribute "CDS_LIB" "cndiscrete"
-					( Origin gPackager )
-				)
-				( attribute "PACK_TYPE" "SOP"
-					( Origin gFrontEnd )
-				)
-				( attribute "PHYS_PAGE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "2"
-					( Origin gFrontEnd )
-				)
-				( attribute "TYPE" "GL2L5LS100D-C"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(3500,-1450)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "DELAY_LINE_GL2L"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "GL2L5LS100D-C"
-					( Origin gPackager )
-				)
-				( attribute "LOCATION" "IC3"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "IC3"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "IC3" )
 			)
 			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i58"
 				( attribute "CHIPS_PART_NAME" "MC100EL29"
@@ -2867,15 +2622,6 @@
 				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-51,1%"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "R4"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "R4" )
 			)
 			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i145"
@@ -2944,15 +2690,6 @@
 					( Origin gPackager )
 				)
 				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-51,1%"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "R1"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
 				( objectStatus "R1" )
@@ -3025,15 +2762,6 @@
 				( attribute "CDS_PART_NAME" "RSMD0805_125MW-100,1%"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "R8"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "R8" )
 			)
 			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i150"
@@ -3071,16 +2799,7 @@
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "C5"
-					( Origin gPackager )
-				)
 				( attribute "LOCATION" "C5"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
 				( objectStatus "C5" )
@@ -3120,16 +2839,7 @@
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "C8"
-					( Origin gPackager )
-				)
 				( attribute "LOCATION" "C8"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
 				( objectStatus "C8" )
@@ -3202,15 +2912,6 @@
 				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-75,1%"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "R14"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "R14" )
 			)
 			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i153"
@@ -3281,15 +2982,6 @@
 				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-75,1%"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "R12"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "R12" )
 			)
 			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i159"
@@ -3327,18 +3019,6 @@
 					( Origin gPackager )
 				)
 				( attribute "CDS_PART_NAME" "TP_HOLE-0.8MM"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "TP2"
-					( Origin gPackager )
-				)
-				( attribute "LOCATION" "TP2"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
 				( objectStatus "TP2" )
@@ -3380,18 +3060,6 @@
 				( attribute "CDS_PART_NAME" "TP_HOLE-0.8MM"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "TP3"
-					( Origin gPackager )
-				)
-				( attribute "LOCATION" "TP3"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "TP3" )
 			)
 			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i161"
@@ -3429,18 +3097,6 @@
 					( Origin gPackager )
 				)
 				( attribute "CDS_PART_NAME" "TP_HOLE-0.8MM"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "TP4"
-					( Origin gPackager )
-				)
-				( attribute "LOCATION" "TP4"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
 				( objectStatus "TP4" )
@@ -3482,18 +3138,6 @@
 				( attribute "CDS_PART_NAME" "TP_HOLE-0.8MM"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "TP1"
-					( Origin gPackager )
-				)
-				( attribute "LOCATION" "TP1"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "TP1" )
 			)
 			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i163"
@@ -3531,18 +3175,6 @@
 					( Origin gPackager )
 				)
 				( attribute "CDS_PART_NAME" "TP_HOLE-0.8MM"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "TP5"
-					( Origin gPackager )
-				)
-				( attribute "LOCATION" "TP5"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
 				( objectStatus "TP5" )
@@ -3584,18 +3216,6 @@
 				( attribute "CDS_PART_NAME" "TP_HOLE-0.8MM"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "TP6"
-					( Origin gPackager )
-				)
-				( attribute "LOCATION" "TP6"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "TP6" )
 			)
 			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i165"
@@ -3635,72 +3255,135 @@
 				( attribute "CDS_PART_NAME" "TP_HOLE-0.8MM"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "TP7"
-					( Origin gPackager )
-				)
-				( attribute "LOCATION" "TP7"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "TP7" )
 			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:hys(0)"
-				( attribute "PN" "8"
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i120"
+				( attribute "CASE" "SOT23"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_LIB" "cndiscrete"
 					( Origin gPackager )
 				)
+				( attribute "LOCATION" "D1"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "A1-C2-AC3"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "HBAT-540C"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(0,-500)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "DIODE_DUAL_SERIES"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "HBAT-540C"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I120" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140"
+				( attribute "CDS_LIB" "cndiscrete"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "IC1"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "SOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "GL2L5LS050D-C"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-100,-1650)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "DELAY_LINE_GL2L"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "GL2L5LS050D-C"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I140" )
+			)
+			( gate "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141"
+				( attribute "CDS_LIB" "cndiscrete"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "IC3"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "SOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "GL2L5LS100D-C"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(3500,-1450)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "DELAY_LINE_GL2L"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "GL2L5LS100D-C"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I141" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:hys(0)"
 				( objectStatus "IC2.8" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:\in+\(0)"
-				( attribute "PN" "10"
-					( Origin gPackager )
-				)
 				( objectStatus "IC2.10" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:\in-\(0)"
-				( attribute "PN" "9"
-					( Origin gPackager )
-				)
 				( objectStatus "IC2.9" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:le(0)"
-				( attribute "PN" "4"
-					( Origin gPackager )
-				)
 				( objectStatus "IC2.4" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:\le*\(0)"
-				( attribute "PN" "5"
-					( Origin gPackager )
-				)
 				( objectStatus "IC2.5" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:q(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "IC2.1" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i1:\q*\(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
 				( objectStatus "IC2.2" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i111:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
 				( objectStatus "R13.2" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i111:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "R13.1" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i123:b(0)"
@@ -3714,24 +3397,6 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C1.1" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i120:c"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "D1.2" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i120:ac"
-				( attribute "PN" "3"
-					( Origin gPackager )
-				)
-				( objectStatus "D1.3" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i120:a"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "D1.1" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i39:a(0)"
 				( attribute "PN" "1"
@@ -3806,57 +3471,30 @@
 				( objectStatus "C3.2" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:hys(0)"
-				( attribute "PN" "13"
-					( Origin gPackager )
-				)
 				( objectStatus "IC2.13" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:\in+\(0)"
-				( attribute "PN" "11"
-					( Origin gPackager )
-				)
 				( objectStatus "IC2.11" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:\in-\(0)"
-				( attribute "PN" "12"
-					( Origin gPackager )
-				)
 				( objectStatus "IC2.12" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:le(0)"
-				( attribute "PN" "17"
-					( Origin gPackager )
-				)
 				( objectStatus "IC2.17" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:\le*\(0)"
-				( attribute "PN" "16"
-					( Origin gPackager )
-				)
 				( objectStatus "IC2.16" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:q(0)"
-				( attribute "PN" "20"
-					( Origin gPackager )
-				)
 				( objectStatus "IC2.20" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i71:\q*\(0)"
-				( attribute "PN" "19"
-					( Origin gPackager )
-				)
 				( objectStatus "IC2.19" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i73:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "R9.1" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i73:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
 				( objectStatus "R9.2" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i78:a(0)"
@@ -3872,27 +3510,15 @@
 				( objectStatus "C2.2" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i79:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "R5.1" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i79:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
 				( objectStatus "R5.2" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i81:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "R10.1" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i81:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
 				( objectStatus "R10.2" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i148:b(0)"
@@ -3908,27 +3534,15 @@
 				( objectStatus "R6.1" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i92:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "R7.1" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i92:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
 				( objectStatus "R7.2" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i93:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "R3.1" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i93:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
 				( objectStatus "R3.2" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i94:b(0)"
@@ -3944,231 +3558,21 @@
 				( objectStatus "R2.1" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i113:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "R11.1" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i113:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
 				( objectStatus "R11.2" )
 			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:a1"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "IC1.2" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:a2"
-				( attribute "PN" "15"
-					( Origin gPackager )
-				)
-				( objectStatus "IC1.15" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:b1"
-				( attribute "PN" "7"
-					( Origin gPackager )
-				)
-				( objectStatus "IC1.7" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:b2"
-				( attribute "PN" "10"
-					( Origin gPackager )
-				)
-				( objectStatus "IC1.10" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "IC1.1" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(1)"
-				( attribute "PN" "3"
-					( Origin gPackager )
-				)
-				( objectStatus "IC1.3" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(2)"
-				( attribute "PN" "4"
-					( Origin gPackager )
-				)
-				( objectStatus "IC1.4" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(3)"
-				( attribute "PN" "5"
-					( Origin gPackager )
-				)
-				( objectStatus "IC1.5" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(4)"
-				( attribute "PN" "6"
-					( Origin gPackager )
-				)
-				( objectStatus "IC1.6" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(5)"
-				( attribute "PN" "8"
-					( Origin gPackager )
-				)
-				( objectStatus "IC1.8" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(6)"
-				( attribute "PN" "9"
-					( Origin gPackager )
-				)
-				( objectStatus "IC1.9" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(7)"
-				( attribute "PN" "11"
-					( Origin gPackager )
-				)
-				( objectStatus "IC1.11" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(8)"
-				( attribute "PN" "12"
-					( Origin gPackager )
-				)
-				( objectStatus "IC1.12" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(9)"
-				( attribute "PN" "13"
-					( Origin gPackager )
-				)
-				( objectStatus "IC1.13" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(10)"
-				( attribute "PN" "14"
-					( Origin gPackager )
-				)
-				( objectStatus "IC1.14" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(11)"
-				( attribute "PN" "16"
-					( Origin gPackager )
-				)
-				( objectStatus "IC1.16" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:a1"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "IC3.2" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:a2"
-				( attribute "PN" "15"
-					( Origin gPackager )
-				)
-				( objectStatus "IC3.15" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:b1"
-				( attribute "PN" "7"
-					( Origin gPackager )
-				)
-				( objectStatus "IC3.7" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:b2"
-				( attribute "PN" "10"
-					( Origin gPackager )
-				)
-				( objectStatus "IC3.10" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "IC3.1" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(1)"
-				( attribute "PN" "3"
-					( Origin gPackager )
-				)
-				( objectStatus "IC3.3" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(2)"
-				( attribute "PN" "4"
-					( Origin gPackager )
-				)
-				( objectStatus "IC3.4" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(3)"
-				( attribute "PN" "5"
-					( Origin gPackager )
-				)
-				( objectStatus "IC3.5" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(4)"
-				( attribute "PN" "6"
-					( Origin gPackager )
-				)
-				( objectStatus "IC3.6" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(5)"
-				( attribute "PN" "8"
-					( Origin gPackager )
-				)
-				( objectStatus "IC3.8" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(6)"
-				( attribute "PN" "9"
-					( Origin gPackager )
-				)
-				( objectStatus "IC3.9" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(7)"
-				( attribute "PN" "11"
-					( Origin gPackager )
-				)
-				( objectStatus "IC3.11" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(8)"
-				( attribute "PN" "12"
-					( Origin gPackager )
-				)
-				( objectStatus "IC3.12" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(9)"
-				( attribute "PN" "13"
-					( Origin gPackager )
-				)
-				( objectStatus "IC3.13" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(10)"
-				( attribute "PN" "14"
-					( Origin gPackager )
-				)
-				( objectStatus "IC3.14" )
-			)
-			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(11)"
-				( attribute "PN" "16"
-					( Origin gPackager )
-				)
-				( objectStatus "IC3.16" )
-			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i144:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "R4.1" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i144:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
 				( objectStatus "R4.2" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i145:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "R1.1" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i145:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
 				( objectStatus "R1.2" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i147:b(0)"
@@ -4208,27 +3612,15 @@
 				( objectStatus "C8.2" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i152:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "R14.1" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i152:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
 				( objectStatus "R14.2" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i153:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
 				( objectStatus "R12.1" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i153:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
 				( objectStatus "R12.2" )
 			)
 			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i159:a(0)"
@@ -4272,6 +3664,76 @@
 					( Origin gPackager )
 				)
 				( objectStatus "TP7.1" )
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i120:a"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i120:ac"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i120:c"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:a1"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:a2"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:b1"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:b2"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(0)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(1)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(2)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(3)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(4)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(5)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(6)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(7)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(8)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(9)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(10)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i140:sh(11)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:a1"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:a2"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:b1"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:b2"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(0)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(1)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(2)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(3)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(4)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(5)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(6)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(7)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(8)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(9)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(10)"
+			)
+			( pin "@fmc_tlu_v1_lib.fmc_tlu_cfd(sch_1):page1_i141:sh(11)"
 			)
 		)
 	)

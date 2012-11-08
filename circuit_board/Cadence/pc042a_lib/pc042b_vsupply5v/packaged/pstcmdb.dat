@@ -1,4 +1,4 @@
-; Packager-XL run on 16-May-2012 AT 15:53:56 CONSTRAINTS_VIEW_GENERATED
+; Packager-XL run on 26-Sep-2012 AT 09:37:31 CONSTRAINTS_VIEW_GENERATED
 ( ConstraintFile "pc042b_vsupply5v"
 	( constraintHeader
 		( objectKey
@@ -8,7 +8,7 @@
 			( 16.5 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 5 )
+			( logicalViewRevNum 15 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -218,6 +218,195 @@
 			)
 		)
 		( Attribute
+			( Name "ABBREV" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "GENDER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "COMPVALUE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "PLACEMENT_REGION" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SLOTXOFY" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SYMNAME" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NO_ASSERT_CHECK" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NO_DIR_CHECK" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "HDL_PINTYPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CASE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "$sec" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SYMMAP" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
 			( Name "MODEL" )
 			( Description " " )
 			( Value
@@ -331,11 +520,14 @@
 			( signal "UNNAMED_1_CAPCERSMDCL2_I9_B"
 				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):unnamed_1_capcersmdcl2_i9_b" )
 			)
-			( signal "UNNAMED_1_DIODE_I48_A"
-				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):unnamed_1_diode_i48_a" )
-			)
 			( signal "VIN"
 				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):vin" )
+			)
+			( signal "UNNAMED_1_DIODE_I65_A"
+				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):unnamed_1_diode_i65_a" )
+			)
+			( signal "VIN_FILTERED"
+				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):vin_filtered" )
 			)
 			( gate "IC1"
 				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i1" )
@@ -400,12 +592,6 @@
 			( gate "L5"
 				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i44" )
 			)
-			( gate "D1"
-				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i48" )
-			)
-			( gate "VR1"
-				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i50" )
-			)
 			( gate "C10"
 				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i52" )
 			)
@@ -418,14 +604,26 @@
 			( gate "C12"
 				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i58" )
 			)
-			( gate "D2"
-				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i60" )
-			)
 			( gate "C14"
 				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i61" )
 			)
 			( gate "C1"
 				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i63" )
+			)
+			( gate "D2"
+				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i64" )
+			)
+			( gate "D1"
+				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i65" )
+			)
+			( gate "VR1"
+				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i50" )
+			)
+			( gate "L6"
+				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i66" )
+			)
+			( gate "C15"
+				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i67" )
 			)
 			( pin "IC1.2"
 				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i1:fb1" )
@@ -583,24 +781,6 @@
 			( pin "L5.2"
 				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i44:b" )
 			)
-			( pin "D1.A"
-				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i48:a(0)" )
-			)
-			( pin "D1.C"
-				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i48:k(0)" )
-			)
-			( pin "VR1.2"
-				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i50:gnd" )
-			)
-			( pin "VR1.4"
-				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i50:tab" )
-			)
-			( pin "VR1.1"
-				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i50:vin" )
-			)
-			( pin "VR1.3"
-				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i50:vout" )
-			)
 			( pin "C10.1"
 				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i52:a(0)" )
 			)
@@ -625,12 +805,6 @@
 			( pin "C12.2"
 				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i58:b(0)" )
 			)
-			( pin "D2.A"
-				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i60:a(0)" )
-			)
-			( pin "D2.C"
-				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i60:k(0)" )
-			)
 			( pin "C14.1"
 				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i61:a(0)" )
 			)
@@ -642,6 +816,42 @@
 			)
 			( pin "C1.2"
 				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i63:b(0)" )
+			)
+			( pin "D2.A"
+				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i64:a(0)" )
+			)
+			( pin "D2.C"
+				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i64:k(0)" )
+			)
+			( pin "D1.A"
+				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i65:a(0)" )
+			)
+			( pin "D1.C"
+				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i65:k(0)" )
+			)
+			( pin "VR1.2"
+				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i50:gnd" )
+			)
+			( pin "VR1.4"
+				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i50:tab" )
+			)
+			( pin "VR1.1"
+				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i50:vin" )
+			)
+			( pin "VR1.3"
+				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i50:vout" )
+			)
+			( pin "L6.1"
+				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i66:a" )
+			)
+			( pin "L6.2"
+				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i66:b" )
+			)
+			( pin "C15.1"
+				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i67:a(0)" )
+			)
+			( pin "C15.2"
+				( objectStatus "@uob_hep_pc036a_lib.pc042b_vsupply5v(sch_1):page1_i67:b(0)" )
 			)
 		)
 	)

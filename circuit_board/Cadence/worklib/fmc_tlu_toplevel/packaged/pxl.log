@@ -6,14 +6,13 @@
     Packager-XL 16.5-S002 (v16-5-13L) lnx86 7/18/2011 12:00:00 IST
     (C) Copyright 1994, Cadence Design Systems, Inc.
 
-    Run on Thu May 17 10:41:30 2012
+    Run on Wed Sep 26 09:41:53 2012
 
 
  **********************************************
  *  Processing project file and command line  *
  **********************************************
 
-INFO(SPCOPK-1043): Setting REPACKAGE=OFF because running in FEEDBACK mode
 
 
     ANNOTATE  'BODY' 'PIN'
@@ -52,7 +51,7 @@ INFO(SPCOPK-1043): Setting REPACKAGE=OFF because running in FEEDBACK mode
     SUPPRESS_GLOBAL_SHORT_CHECK OFF
     DEBUG    0
     DEFAULT_PHYS_DES_PREFIX U
-    FEEDBACK  'ALLEGRO'
+    FEEDBACK  'OFF'
     FORCE_SUBDESIGN  'FMC_TLU_CFD' 'PC042B_VSUPPLY5V'
     MAX_ERRORS 999
     NET_NAME_CHARS   @  -  !  #  %  &  (  )  *  .  /  :  ?  [  ]  ^  _  `  +
@@ -88,7 +87,7 @@ INFO(SPCOPK-1043): Setting REPACKAGE=OFF because running in FEEDBACK mode
     REF_DES_LENGTH 31
     REPACKAGE OFF
     ELECTRICAL_CONSTRAINTS ON
-    OVERWRITE_CONSTRAINTS ON
+    OVERWRITE_CONSTRAINTS OFF
     RUN_DIR ./worklib/fmc_tlu_toplevel/packaged/
     STRICT_PACKAGE_PROP  'REUSE_INSTANCE'
     USE_LIBRARY_PPT ON
@@ -125,6 +124,8 @@ INFO(SPCOPK-1043): Setting REPACKAGE=OFF because running in FEEDBACK mode
 
 Creating Configuration "cfg_package" for Design "fmc_tlu_toplevel"
 
+Processing Constraints File ./worklib/fmc_tlu_toplevel/sch_1/fmc_tlu_toplevel.~
+dcf. 
 INFO(SPCODD-181): Loading /software/CAD/Cadence/SPB_16.50/share/cdssetup/cdspr~
 op.tmf.
 INFO(SPCODD-181): Loading /software/CAD/Cadence/SPB_16.50/share/cdssetup/cdspr~
@@ -153,6 +154,9 @@ ept_libs/pe16/pe_cern_lib/parttables/cnpassive.ptf.
 INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
 ept_libs/pe16/pe_cern_lib/cnconnector/con160p_40cdgh/part_table/part.ptf.
 INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
+ept_libs/pe16/pe_cern_lib/cnconnector/con160p_40cdgh/part_table/con160p_40cdgh~
+.ptf.
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
 ept_libs/pe16/pe_cern_lib/cnlinear/opa4277/part_table/part.ptf.
 INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
 ept_libs/pe16/pe_cern_lib/cnlinear/ad5665r/part_table/part.ptf.
@@ -171,10 +175,6 @@ ept_libs/pe16/pe_cern_lib/cndiscrete/inductance/part_table/inductance.ptf.
 INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
 ept_libs/pe16/pe_cern_lib/cndiscrete/diode/part_table/diode.ptf.
 INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
-ept_libs/pe16/pe_cern_lib/cnconnector/con8p/part_table/con8p.ptf.
-INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
-ept_libs/pe16/pe_cern_lib/cnconnector/pcoax/part_table/pcoax.ptf.
-INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
 ept_libs/pe16/pe_cern_lib/cninterface/74lvc1g07/part_table/part.ptf.
 INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
 ept_libs/pe16/pe_cern_lib/cninterface/74lvc1g07/part_table/74lvc1g07.ptf.
@@ -182,6 +182,12 @@ INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
 ept_libs/pe16/pe_cern_lib/cnlinear/usblc6_2/part_table/part.ptf.
 INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
 ept_libs/pe16/pe_cern_lib/cnmemory/24aa025e48/part_table/part.ptf.
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
+ept_libs/pe16/pe_cern_lib/cnmemory/24aa025e48/part_table/24aa025e48.ptf.
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
+ept_libs/pe16/pe_cern_lib/cnconnector/pcoax/part_table/pcoax.ptf.
+INFO(SPCODD-181): Loading /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/conc~
+ept_libs/pe16/pe_cern_lib/cnconnector/con8p/part_table/con8p.ptf.
 INFO(SPCODD-336): Loading occurrence properties from ./worklib/fmc_tlu_topleve~
 l/opf/props.opf.
 
@@ -197,16 +203,6 @@ UPPLY5V.state.
  *****************************************
  *  End loading State Files  (00:00:00)  *
  *****************************************
-
-
- ***************************
- *  Starting to feedback.  *
- ***************************
-
-
- *******************************
- *  End feedback.  (00:00:01)  *
- *******************************
 
 
  ****************************************
@@ -230,396 +226,13 @@ UPPLY5V.state.
 
 INFO(SPCOPK-1442): No errors detected
 INFO(SPCOPK-1444): No warnings detected
-    Start time   10:41:30
-    End time     10:41:34
-    CPU time      0:00:02
-    Elapsed time  0:00:04
+    Start time    9:41:53
+    End time      9:41:55
+    CPU time      0:00:01
+    Elapsed time  0:00:02
 
  ***************************************************************************
  *  Packager-XL execution done.
  ***************************************************************************
-Constraint Directory: /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk~
-/circuit_board/Cadence/worklib/fmc_tlu_toplevel/sch_1/
-
-"/software/CAD/Cadence/SPB_16.50/tools/bin/cmfeedback.exe" -overwrite -noComp ~
--s "temp/tmp_synch_props.cfg" -c "/projects/HEP_Instrumentation/cad/designs/fm~
-c-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/sch_1//update.scr"~
- -rt "/projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/C~
-adence/temp/cmfeedback.log" physical in "/projects/HEP_Instrumentation/cad/des~
-igns/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/sch_1/fmc_t~
-lu_toplevel.dcf" "/projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/cir~
-cuit_board/Cadence/worklib/fmc_tlu_toplevel/packaged/cmdbview.dat"
----------------------------------------------------------
-Clear Layer: LAYER2
----------------------------------------------------------
-Clear Layer: DIELECTRIC_BELOW_LAYER2
----------------------------------------------------------
-Clear Layer: LAYER3
----------------------------------------------------------
-Clear Layer: DIELECTRIC_BELOW_LAYER3
----------------------------------------------------------
-Clear Layer: LAYER4
----------------------------------------------------------
-Clear Layer: DIELECTRIC_BELOW_LAYER4
----------------------------------------------------------
-Clear Layer: LAYER5
----------------------------------------------------------
-Clear Layer: DIELECTRIC_BELOW_LAYER5
----------------------------------------------------------
-Create Layer: L2
-     Adding   : CDS_LAYER_TYPE value "PLANE"
-     Adding   : CDS_LAYER_MATERIAL value "COPPER"
-     Adding   : CDS_LAYER_THICKNESS value "0.0350"
-     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "595900"
-     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
-     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.500"
-     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
-     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
-     Adding   : CDS_LAYER_IS_SHIELD value "TRUE"
-     Adding   : CDS_LAYER_IS_NAMED value "1"
-     Adding   : CDS_LAYER_ETCH_FACTOR value "90.00"
-     Adding   : CDS_LAYER_EMBEDDED_STATUS value "NOT_EMBEDDED"
----------------------------------------------------------
-Create Layer: DIELECTRIC_BELOW_L2
-     Adding   : CDS_LAYER_TYPE value "DIELECTRIC"
-     Adding   : CDS_LAYER_MATERIAL value "FR-4"
-     Adding   : CDS_LAYER_THICKNESS value "0.3000"
-     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0.0000"
-     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
-     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.550"
-     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
-     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
-     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
----------------------------------------------------------
-Create Layer: L3
-     Adding   : CDS_LAYER_TYPE value "CONDUCTOR"
-     Adding   : CDS_LAYER_MATERIAL value "COPPER"
-     Adding   : CDS_LAYER_THICKNESS value "0.0350"
-     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "595900"
-     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
-     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.500"
-     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
-     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
-     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
-     Adding   : CDS_LAYER_IS_NAMED value "1"
-     Adding   : CDS_LAYER_ETCH_FACTOR value "90.00"
-     Adding   : CDS_LAYER_EMBEDDED_STATUS value "NOT_EMBEDDED"
----------------------------------------------------------
-Create Layer: DIELECTRIC_BELOW_L3
-     Adding   : CDS_LAYER_TYPE value "DIELECTRIC"
-     Adding   : CDS_LAYER_MATERIAL value "FR-4"
-     Adding   : CDS_LAYER_THICKNESS value "0.2032"
-     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0.0000"
-     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
-     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.200"
-     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
-     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
-     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
----------------------------------------------------------
-Create Layer: L4
-     Adding   : CDS_LAYER_TYPE value "CONDUCTOR"
-     Adding   : CDS_LAYER_MATERIAL value "COPPER"
-     Adding   : CDS_LAYER_THICKNESS value "0.0350"
-     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "595900"
-     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
-     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.500"
-     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
-     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
-     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
-     Adding   : CDS_LAYER_IS_NAMED value "1"
-     Adding   : CDS_LAYER_ETCH_FACTOR value "90.00"
-     Adding   : CDS_LAYER_EMBEDDED_STATUS value "NOT_EMBEDDED"
----------------------------------------------------------
-Create Layer: DIELECTRIC_BELOW_L4
-     Adding   : CDS_LAYER_TYPE value "DIELECTRIC"
-     Adding   : CDS_LAYER_MATERIAL value "FR-4"
-     Adding   : CDS_LAYER_THICKNESS value "0.3000"
-     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0.0000"
-     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
-     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.500"
-     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
-     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
-     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
----------------------------------------------------------
-Create Layer: L5
-     Adding   : CDS_LAYER_TYPE value "PLANE"
-     Adding   : CDS_LAYER_MATERIAL value "COPPER"
-     Adding   : CDS_LAYER_THICKNESS value "0.0350"
-     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "595900"
-     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
-     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.500"
-     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
-     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
-     Adding   : CDS_LAYER_IS_SHIELD value "TRUE"
-     Adding   : CDS_LAYER_IS_NAMED value "1"
-     Adding   : CDS_LAYER_ETCH_FACTOR value "90.00"
-     Adding   : CDS_LAYER_EMBEDDED_STATUS value "NOT_EMBEDDED"
----------------------------------------------------------
-Create Layer: DIELECTRIC_BELOW_L5
-     Adding   : CDS_LAYER_TYPE value "DIELECTRIC"
-     Adding   : CDS_LAYER_MATERIAL value "FR-4"
-     Adding   : CDS_LAYER_THICKNESS value "0.2200"
-     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0.0000"
-     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.0000"
-     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.200"
-     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
-     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
-     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
----------------------------------------------------------
-Create DiffPair: BEAM_TRIGGER0
-     Adding   : Net association "BEAM_TRIGGER*<0>"
-     Adding   : Net association "BEAM_TRIGGER<0>"
----------------------------------------------------------
-Create DiffPair: BEAM_TRIGGER1
-     Adding   : Net association "BEAM_TRIGGER*<1>"
-     Adding   : Net association "BEAM_TRIGGER<1>"
----------------------------------------------------------
-Create DiffPair: BEAM_TRIGGER2
-     Adding   : Net association "BEAM_TRIGGER*<2>"
-     Adding   : Net association "BEAM_TRIGGER<2>"
----------------------------------------------------------
-Create DiffPair: BEAM_TRIGGER3
-     Adding   : Net association "BEAM_TRIGGER*<3>"
-     Adding   : Net association "BEAM_TRIGGER<3>"
----------------------------------------------------------
-Create DiffPair: DP0_C2M
-     Adding   : Net association "DP0_C2M"
-     Adding   : Net association "DP0_C2M*"
----------------------------------------------------------
-Create DiffPair: DP0_M2C
-     Adding   : Net association "DP0_M2C"
-     Adding   : Net association "DP0_M2C*"
----------------------------------------------------------
-Create DiffPair: FMC_CLK1_M2C
-     Adding   : Net association "FMC_CLK1_M2C"
-     Adding   : Net association "FMC_CLK1_M2C*"
----------------------------------------------------------
-Create DiffPair: FMC_LA0
-     Adding   : Net association "FMC_LA*<0>"
-     Adding   : Net association "FMC_LA<0>"
----------------------------------------------------------
-Create DiffPair: FMC_LA10
-     Adding   : Net association "FMC_LA*<10>"
-     Adding   : Net association "FMC_LA<10>"
----------------------------------------------------------
-Create DiffPair: FMC_LA11
-     Adding   : Net association "FMC_LA*<11>"
-     Adding   : Net association "FMC_LA<11>"
----------------------------------------------------------
-Create DiffPair: FMC_LA12
-     Adding   : Net association "FMC_LA*<12>"
-     Adding   : Net association "FMC_LA<12>"
----------------------------------------------------------
-Create DiffPair: FMC_LA13
-     Adding   : Net association "FMC_LA*<13>"
-     Adding   : Net association "FMC_LA<13>"
----------------------------------------------------------
-Create DiffPair: FMC_LA14
-     Adding   : Net association "FMC_LA*<14>"
-     Adding   : Net association "FMC_LA<14>"
----------------------------------------------------------
-Create DiffPair: FMC_LA15
-     Adding   : Net association "FMC_LA*<15>"
-     Adding   : Net association "FMC_LA<15>"
----------------------------------------------------------
-Create DiffPair: FMC_LA16
-     Adding   : Net association "FMC_LA*<16>"
-     Adding   : Net association "FMC_LA<16>"
----------------------------------------------------------
-Create DiffPair: FMC_LA17
-     Adding   : Net association "FMC_LA*<17>"
-     Adding   : Net association "FMC_LA<17>"
----------------------------------------------------------
-Create DiffPair: FMC_LA18
-     Adding   : Net association "FMC_LA*<18>"
-     Adding   : Net association "FMC_LA<18>"
----------------------------------------------------------
-Create DiffPair: FMC_LA19
-     Adding   : Net association "FMC_LA*<19>"
-     Adding   : Net association "FMC_LA<19>"
----------------------------------------------------------
-Create DiffPair: FMC_LA1
-     Adding   : Net association "FMC_LA*<1>"
-     Adding   : Net association "FMC_LA<1>"
----------------------------------------------------------
-Create DiffPair: FMC_LA20
-     Adding   : Net association "FMC_LA*<20>"
-     Adding   : Net association "FMC_LA<20>"
----------------------------------------------------------
-Create DiffPair: FMC_LA21
-     Adding   : Net association "FMC_LA*<21>"
-     Adding   : Net association "FMC_LA<21>"
----------------------------------------------------------
-Create DiffPair: FMC_LA22
-     Adding   : Net association "FMC_LA*<22>"
-     Adding   : Net association "FMC_LA<22>"
----------------------------------------------------------
-Create DiffPair: FMC_LA23
-     Adding   : Net association "FMC_LA*<23>"
-     Adding   : Net association "FMC_LA<23>"
----------------------------------------------------------
-Create DiffPair: FMC_LA24
-     Adding   : Net association "FMC_LA*<24>"
-     Adding   : Net association "FMC_LA<24>"
----------------------------------------------------------
-Create DiffPair: FMC_LA25
-     Adding   : Net association "FMC_LA*<25>"
-     Adding   : Net association "FMC_LA<25>"
----------------------------------------------------------
-Create DiffPair: FMC_LA26
-     Adding   : Net association "FMC_LA*<26>"
-     Adding   : Net association "FMC_LA<26>"
----------------------------------------------------------
-Create DiffPair: FMC_LA27
-     Adding   : Net association "FMC_LA*<27>"
-     Adding   : Net association "FMC_LA<27>"
----------------------------------------------------------
-Create DiffPair: FMC_LA28
-     Adding   : Net association "FMC_LA*<28>"
-     Adding   : Net association "FMC_LA<28>"
----------------------------------------------------------
-Create DiffPair: FMC_LA29
-     Adding   : Net association "FMC_LA*<29>"
-     Adding   : Net association "FMC_LA<29>"
----------------------------------------------------------
-Create DiffPair: FMC_LA2
-     Adding   : Net association "FMC_LA*<2>"
-     Adding   : Net association "FMC_LA<2>"
----------------------------------------------------------
-Create DiffPair: FMC_LA30
-     Adding   : Net association "FMC_LA*<30>"
-     Adding   : Net association "FMC_LA<30>"
----------------------------------------------------------
-Create DiffPair: FMC_LA31
-     Adding   : Net association "FMC_LA*<31>"
-     Adding   : Net association "FMC_LA<31>"
----------------------------------------------------------
-Create DiffPair: FMC_LA32
-     Adding   : Net association "FMC_LA*<32>"
-     Adding   : Net association "FMC_LA<32>"
----------------------------------------------------------
-Create DiffPair: FMC_LA33
-     Adding   : Net association "FMC_LA*<33>"
-     Adding   : Net association "FMC_LA<33>"
----------------------------------------------------------
-Create DiffPair: FMC_LA3
-     Adding   : Net association "FMC_LA*<3>"
-     Adding   : Net association "FMC_LA<3>"
----------------------------------------------------------
-Create DiffPair: FMC_LA4
-     Adding   : Net association "FMC_LA*<4>"
-     Adding   : Net association "FMC_LA<4>"
----------------------------------------------------------
-Create DiffPair: FMC_LA5
-     Adding   : Net association "FMC_LA*<5>"
-     Adding   : Net association "FMC_LA<5>"
----------------------------------------------------------
-Create DiffPair: FMC_LA6
-     Adding   : Net association "FMC_LA*<6>"
-     Adding   : Net association "FMC_LA<6>"
----------------------------------------------------------
-Create DiffPair: FMC_LA7
-     Adding   : Net association "FMC_LA*<7>"
-     Adding   : Net association "FMC_LA<7>"
----------------------------------------------------------
-Create DiffPair: FMC_LA8
-     Adding   : Net association "FMC_LA*<8>"
-     Adding   : Net association "FMC_LA<8>"
----------------------------------------------------------
-Create DiffPair: FMC_LA9
-     Adding   : Net association "FMC_LA*<9>"
-     Adding   : Net association "FMC_LA<9>"
----------------------------------------------------------
-Create DiffPair: GBTCLK0_M2C
-     Adding   : Net association "GBTCLK0_M2C"
-     Adding   : Net association "GBTCLK0_M2C*"
----------------------------------------------------------
-Create DiffPair: BEAM_TRIGGER_CFD0
-     Adding   : Net association "BEAM_TRIGGER_CFD*<0>"
-     Adding   : Net association "BEAM_TRIGGER_CFD<0>"
----------------------------------------------------------
-Create DiffPair: BEAM_TRIGGER_CFD1
-     Adding   : Net association "BEAM_TRIGGER_CFD*<1>"
-     Adding   : Net association "BEAM_TRIGGER_CFD<1>"
----------------------------------------------------------
-Create DiffPair: BEAM_TRIGGER_CFD2
-     Adding   : Net association "BEAM_TRIGGER_CFD*<2>"
-     Adding   : Net association "BEAM_TRIGGER_CFD<2>"
----------------------------------------------------------
-Create DiffPair: BEAM_TRIGGER_CFD3
-     Adding   : Net association "BEAM_TRIGGER_CFD*<3>"
-     Adding   : Net association "BEAM_TRIGGER_CFD<3>"
----------------------------------------------------------
-Create DiffPair: BUSY0
-     Adding   : Net association "BUSY0"
-     Adding   : Net association "BUSY0*"
----------------------------------------------------------
-Create DiffPair: BUSY1
-     Adding   : Net association "BUSY1"
-     Adding   : Net association "BUSY1*"
----------------------------------------------------------
-Create DiffPair: BUSY2
-     Adding   : Net association "BUSY2"
-     Adding   : Net association "BUSY2*"
----------------------------------------------------------
-Create DiffPair: CLK1
-     Adding   : Net association "CLK1"
-     Adding   : Net association "CLK1*"
----------------------------------------------------------
-Create DiffPair: CLK2
-     Adding   : Net association "CLK2"
-     Adding   : Net association "CLK2*"
----------------------------------------------------------
-Create DiffPair: CONT0
-     Adding   : Net association "CONT0"
-     Adding   : Net association "CONT0*"
----------------------------------------------------------
-Create DiffPair: CONT1
-     Adding   : Net association "CONT1"
-     Adding   : Net association "CONT1*"
----------------------------------------------------------
-Create DiffPair: CONT2
-     Adding   : Net association "CONT2"
-     Adding   : Net association "CONT2*"
----------------------------------------------------------
-Create DiffPair: DUT_CLK0
-     Adding   : Net association "DUT_CLK0"
-     Adding   : Net association "DUT_CLK0*"
----------------------------------------------------------
-Create DiffPair: SPARE1
-     Adding   : Net association "SPARE1"
-     Adding   : Net association "SPARE1*"
----------------------------------------------------------
-Create DiffPair: SPARE2
-     Adding   : Net association "SPARE2"
-     Adding   : Net association "SPARE2*"
----------------------------------------------------------
-Create DiffPair: TRIG0
-     Adding   : Net association "TRIG0"
-     Adding   : Net association "TRIG0*"
----------------------------------------------------------
-Create DiffPair: TRIG1
-     Adding   : Net association "TRIG1"
-     Adding   : Net association "TRIG1*"
----------------------------------------------------------
-Create DiffPair: TRIG2
-     Adding   : Net association "TRIG2"
-     Adding   : Net association "TRIG2*"
----------------------------------------------------------
-Create DiffPair: CTRIG1
-     Adding   : Net association "CTRIG1"
-     Adding   : Net association "CTRIG1*"
----------------------------------------------------------
-Create DiffPair: CTRIG2
-     Adding   : Net association "CTRIG2"
-     Adding   : Net association "CTRIG2*"
----------------------------------------------------------
-
-Summary:
-
-Constraint changes found: 84 additions, 0 deletions, 0 changes.
-
-Association changes found: 124 additions, 0 deletions.
-
-
+Starting to audit ECsets in the design...
 Audit completed successfully.

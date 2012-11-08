@@ -1,14 +1,131 @@
-\t (00:47:56) allegro 16.5 S005 (v16-5-13Q) Linux IA32
-\t (00:47:56)     Journal start - Wed May 16 17:21:58 2012
-\t (00:47:56)         Host=calgary.phy.bris.ac.uk User=phdgc Pid=4451 CPUs=4
-\t (00:47:56) 
-\d (00:47:56) Database opened: /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/pc042a_lib/pc042b_vsupply5v/physical/pc042b_vsupply5v_07.brd
-\i (00:47:56) generaledit 
-\i (00:47:59) open 
-\i (00:48:02) fillin "menu_cancel"
-\i (00:48:02) generaledit 
-\i (00:48:18) opencd /projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_18.brd 
-\t (00:48:18) Opening existing design...
-\t (00:48:18) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
-\i (00:48:18) trapsize 2951
-\t (00:48:18)     Journal end - Wed May 16 17:22:20 2012
+\t (00:00:02) allegro 16.5 S005 (v16-5-13Q) Linux IA32
+\t (00:00:02)     Journal start - Wed Sep 26 09:37:54 2012
+\t (00:00:02)         Host=fortis.phy.bris.ac.uk User=phdgc Pid=4062 CPUs=4
+\t (00:00:02) 
+\t (00:00:02) Opening existing design...
+\w (00:00:02) WARNING(SPMHDB-214): Allegro PCB Librarian XL opening an Allegro Editor design.
+\w (00:00:02) WARNING(SPMHDB-213): DRC set to "out of date". This product supports a different DRC set than last product used on drawing.
+\w (00:00:02) WARNING(SPMHOD-34): Design was last saved by lower capability product (Allegro Editor). DRC has been set out-of-date so you may wish to update DRC to reflect current rules.
+\i (00:00:04) fillin confirm
+\d (00:00:04) Database opened: /automount/projects/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/pc042a_lib/pc042b_vsupply5v/physical/pc042b_vsupply5v_10.brd
+\i (00:00:05) trapsize 301
+\i (00:00:05) trapsize 296
+\i (00:00:05) trapsize 302
+\i (00:00:06) trapsize 263
+\i (00:00:06) trapsize 265
+\i (00:00:07) generaledit 
+\i (00:00:11) zoom out 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out -86.6982 55.4089
+\i (00:00:11) trapsize 530
+\i (00:00:11) zoom out 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out -86.6982 55.4088
+\i (00:00:11) trapsize 1059
+\i (00:00:12) roam start
+\i (00:00:12) roam y -96
+\i (00:00:12) roam x 16
+\i (00:00:12) roam y -80
+\i (00:00:12) roam y -112
+\i (00:00:12) roam x 32
+\i (00:00:12) roam y -224
+\i (00:00:12) roam y -96
+\i (00:00:12) roam x 64
+\i (00:00:12) roam y -176
+\i (00:00:12) roam x 32
+\i (00:00:12) roam y -64
+\i (00:00:12) roam x 16
+\i (00:00:12) roam y -48
+\i (00:00:12) roam x 16
+\i (00:00:12) roam y -32
+\i (00:00:12) roam y -16
+\i (00:00:12) roam x 16
+\i (00:00:12) roam y 32
+\i (00:00:12) roam x 16
+\i (00:00:12) roam y 48
+\i (00:00:13) roam x 48
+\i (00:00:13) roam y 64
+\i (00:00:13) roam x 16
+\i (00:00:13) roam y 16
+\i (00:00:13) roam end
+\i (00:00:16) place manual 
+\i (00:00:19) setwindow form.plc_manual
+\i (00:00:19) FORM plc_manual tree 'MULTISEL YES' REG1 'Components by refdes' 
+\w (00:00:19) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:00:19) Placing REG1 / LT1175_SOT_223 / SOT_223 on Bottom.
+\i (00:00:19) FORM plc_manual tree  REG1 'Components by refdes' 
+\i (00:00:21) FORM plc_manual done  
+\i (00:00:21) setwindow pcb
+\i (00:00:21) generaledit 
+\i (00:00:27) place manual 
+\i (00:00:29) setwindow form.plc_manual
+\i (00:00:29) FORM plc_manual tree  'Components by refdes' 
+\i (00:00:29) FORM plc_manual tree 'MULTISEL YES' REG1 'Components by refdes' 
+\w (00:00:29) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:00:29) Placing REG1 / LT1175_SOT_223 / SOT_223 on Bottom.
+\i (00:00:29) FORM plc_manual tree  REG1 'Components by refdes' 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) pick grid -95.9810 75.7960
+\t (00:00:31) last pick:  -95.9800  75.8000
+\i (00:00:33) setwindow form.plc_manual
+\i (00:00:33) FORM plc_manual done  
+\i (00:00:33) setwindow pcb
+\i (00:00:33) generaledit 
+\i (00:00:36) show element 
+\i (00:00:42) setwindow form.find
+\i (00:00:42) FORM find pins YES 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) pick grid -96.5106 79.1011
+\t (00:00:49) last pick:  -96.5100  79.1000
+\i (00:01:04) pick grid -98.4386 72.3849
+\t (00:01:04) last pick:  -98.4400  72.3800
+\i (00:01:18) pick grid -93.5868 72.6179
+\t (00:01:18) last pick:  -93.5900  72.6200
+\i (00:02:01) show element 
+\i (00:02:06) show element 
+\i (00:02:10) setwindow form.find
+\i (00:02:10) FORM find components YES 
+\i (00:02:11) setwindow pcb
+\i (00:02:11) pick grid -95.9810 78.7622
+\t (00:02:11) last pick:  -95.9800  78.7600
+\i (00:02:20) mirror 
+\t (00:02:20) Select element(s) to mirror.
+\i (00:02:21) pick grid -96.1928 78.6986
+\t (00:02:21) last pick:  -96.1900  78.7000
+\t (00:02:21) last pick:  -95.9800  75.8000
+\t (00:02:21) Moving REG1 / LT1175_SOT_223 / SOT_223 to Top.
+\t (00:02:21) Pick new location for the element(s).
+\i (00:02:22) pick grid -96.2140 74.9485
+\t (00:02:22) last pick:  -96.2100  74.9500
+\i (00:02:23) prepopup -89.9215 77.4698
+\i (00:02:24) done 
+\i (00:02:24) generaledit 
+\i (00:02:26) show element 
+\i (00:02:27) pick grid -96.1293 77.3003
+\t (00:02:27) last pick:  -96.1300  77.3000
+\i (00:02:30) pick grid -89.3494 78.8681
+\t (00:02:30) last pick:  -89.3500  78.8700
+\i (00:02:32) show element 
+\i (00:02:35) setwindow form.find
+\i (00:02:35) FORM find components NO 
+\i (00:02:39) setwindow pcb
+\i (00:02:39) pick grid -94.0953 71.5586
+\t (00:02:39) last pick:  -94.1000  71.5600
+\i (00:02:41) pick grid -95.8538 71.5798
+\t (00:02:41) last pick:  -95.8500  71.5800
+\i (00:02:45) pick grid -98.1420 71.0925
+\t (00:02:45) last pick:  -98.1400  71.0900
+\i (00:02:47) pick grid -96.3411 71.3043
+\t (00:02:47) last pick:  -96.3400  71.3000
+\i (00:02:49) pick grid -98.3327 71.1984
+\t (00:02:49) last pick:  -98.3300  71.2000
+\i (00:02:53) pick grid -96.1716 71.3679
+\t (00:02:53) last pick:  -96.1700  71.3700
+\i (00:02:55) pick grid -95.9386 78.1477
+\t (00:02:55) last pick:  -95.9400  78.1500
+\i (00:02:57) pick grid -98.4810 72.2789
+\t (00:02:57) last pick:  -98.4800  72.2800
+\i (00:03:04) exit 
+\e (00:03:04) Do you want to save the changes you made to pc042b_vsupply5v_10.brd?
+\i (00:03:06) fillin no 
+\t (00:03:07)     Journal end - Wed Sep 26 09:40:59 2012

@@ -2,99 +2,28 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_19.brd             |
-|                                                    Thu May 17 09:32:26 2012  |
+|  .../Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_27.brd             |
+|                                                    Tue Sep 25 14:14:40 2012  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  TRIG1        pins MOVED FROM this net (to net name listed on right)
-                                 IC3.1           14.5500 55.0500
-                                                                         CTRIG1
-                                 IC3.3           14.5500 53.1500
-                                                                        CTRIG1*
-                                 J1.15           13.7476 58.0700
-                                                                         CTRIG1
-                                 TP7.1                          
-                                                                         CTRIG1
+  CONT0        pins MOVED FROM this net (to net name listed on right)
+                                 J4.D26          94.5041  2.9535
+                                                                         DUMMY1
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  TRIG2        pins MOVED FROM this net (to net name listed on right)
-                                 IC5.1           31.4900 55.0300
-                                                                         CTRIG2
-                                 IC5.3           31.4900 53.1300
-                                                                        CTRIG2*
-                                 J2.15           30.7476 58.0700
-                                                                         CTRIG2
+  CONT0*       pins MOVED FROM this net (to net name listed on right)
+                                 J4.D27          93.2341  2.9535
+                                                                        DUMMY1*
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  TRIG1*       pins MOVED FROM this net (to net name listed on right)
-                                 IC3.6           17.1500 55.0500
-                                                                          TRIG1
-                                 J1.16           14.1476 58.0700
-                                                                        CTRIG1*
-                                 TP8.1                          
-                                                                        CTRIG1*
+  FMC_LA*<33>  pins MOVED FROM this net (to net name listed on right)
+                                 J4.G37          80.5341 -0.8565
+                                                                         CONT0*
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  TRIG2*       pins MOVED FROM this net (to net name listed on right)
-                                 IC5.6           34.0900 55.0300
-                                                                          TRIG2
-                                 J2.16           31.1476 58.0700
-                                                                        CTRIG2*
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
+  FMC_LA<33>   pins MOVED FROM this net (to net name listed on right)
+                                 J4.G36          81.8041 -0.8565
+                                                                          CONT0
 |------------------------------------------------------------------------------|
-|  .../Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_19.brd             |
-|                                                    Thu May 17 09:32:26 2012  |
-|------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to board drawing                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- USBLC6-2SC6
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  .../Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_19.brd             |
-|                                                    Thu May 17 09:32:26 2012  |
-|------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in board drawing          |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- IC3                 USBLC6-2SC6           15.8500 54.1000 USBLC6-2SC6
- IC5                 USBLC6-2SC6           32.7900 54.0800 USBLC6-2SC6
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  .../Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_19.brd             |
-|                                                    Thu May 17 09:32:26 2012  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to board drawing                                       |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- IC3.5          15.8500 54.1000 PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/usblc6_2/chips/chips.prt
- IC3.5          15.8500 54.1000 TYPE           USBLC6-2SC6
- IC5.5          32.7900 54.0800 PRIM_FILE      /afs/phy.bris.ac.uk/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/usblc6_2/chips/chips.prt
- IC5.5          32.7900 54.0800 TYPE           USBLC6-2SC6
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   5  |
-|------------------------------------------------------------------------------|
-|  .../Cadence/worklib/fmc_tlu_toplevel/physical/fmc_tlu_v1_19.brd             |
-|                                                    Thu May 17 09:32:26 2012  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to board drawing                                        |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- IC3.3          14.5500 53.1500 CDS_PINID      \i/o21\
- IC3.6          17.1500 55.0500 CDS_PINID      \i/o12\
- IC5.3          31.4900 53.1300 CDS_PINID      \i/o21\
- IC5.6          34.0900 55.0300 CDS_PINID      \i/o12\
-|------------------------------------------------------------------------------|
-|   total ECO changes reported  23                                             |
+|   total ECO changes reported  4                                              |
 |------------------------------------------------------------------------------|

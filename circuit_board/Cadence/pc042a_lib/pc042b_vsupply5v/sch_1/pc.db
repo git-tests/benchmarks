@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.3-S013 (v16-3-85Y) 7/19/2010 on Thu May 10 10:30:24 2012
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.5-S005 (v16-5-13R) 8/23/2011 on Tue Sep 25 12:33:15 2012
 #ISCELL
   bris_cds_standard a3-2000 *
   *
@@ -93,9 +93,6 @@
   standard inport *
   page1_i47
 #CELL
-  cndiscrete diode *
-  page1_i48
-#CELL
   bris_cds_analogue lt1129cst-5 *
   page1_i50
 #ISCELL
@@ -126,9 +123,6 @@
   standard gnd_signal *
   page1_i59
 #CELL
-  cndiscrete diode *
-  page1_i60
-#CELL
   cnpassive capcersmdcl2 *
   page1_i61
 #ISCELL
@@ -137,6 +131,21 @@
 #CELL
   cnpassive capcersmdcl2 *
   page1_i63
+#CELL
+  cndiscrete diode *
+  page1_i64
+#CELL
+  cndiscrete diode *
+  page1_i65
+#CELL
+  cndiscrete ferrite *
+  page1_i66
+#CELL
+  cnpassive capcersmdcl2 *
+  page1_i67
+#ISCELL
+  standard gnd_signal *
+  page1_i68
 #CELL
   cnpassive rsmd0603 *
   page1_i7

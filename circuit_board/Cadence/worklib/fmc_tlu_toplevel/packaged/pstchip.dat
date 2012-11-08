@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 17-May-2012 AT 10:41:30 }
+{ Packager-XL run on 26-Sep-2012 AT 09:41:53 }
 primitive '24AA025E48';
   pin
     'VCC':
@@ -1633,6 +1633,41 @@ primitive 'FERRITE_SMD-7427921,WURTH';
       PARENT_PPT_PART='FERRITE_SMD-7427921,WURTH';
   end_body;
 end_primitive;
+primitive 'FERRITE_SMD-BLM41P800S,MURATA';
+  pin
+    'B':
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'A':
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      CLASS='DISCRETE';
+      PART_NAME='FERRITE';
+      BODY_NAME='FERRITE';
+      NO_LOAD_CHECK='TRUE';
+      UNKNOWN_LOADING='TRUE';
+      NO_IO_CHECK='TRUE';
+      PINCOUNT='2';
+      PHYS_DES_PREFIX='L';
+      JEDEC_TYPE='C1806';
+      PART_NUMBER='08.11.BLM41P800S';
+      MANUFACTURER='MURATA';
+      DESCRIPTION='SMD Noise Suppression EMIFIL';
+      PARENT_PART_TYPE='FERRITE_SMD';
+      PARENT_PPT='FERRITE';
+      PARENT_PPT_PART='FERRITE_SMD-BLM41P800S,MURATA';
+  end_body;
+end_primitive;
 primitive 'GL2L5LS050D-C';
   pin
     'A1':
@@ -2035,7 +2070,7 @@ primitive 'LT1129CST-5_SOT223-LINEAR';
       PARENT_PPT_PART='LT1129CST-5_SOT223-LINEAR';
   end_body;
 end_primitive;
-primitive 'LT1175_SOT_223_VER2';
+primitive 'LT1175_SOT_223';
   pin
     'V_OUT':
       PIN_NUMBER='(1)';
@@ -2065,7 +2100,7 @@ primitive 'LT1175_SOT_223_VER2';
   body
       PART_NAME='LT1175';
       BODY_NAME='LT1175';
-      JEDEC_TYPE='SOT_223_VER2';
+      JEDEC_TYPE='SOT_223';
       PHYS_DES_PREFIX='REG';
       CLASS='IC';
       CI='-';
@@ -2944,7 +2979,7 @@ primitive 'RSMD0603_1/16W-20K,1%';
       PARENT_PPT_PART='RSMD0603_1/16W-20K,1%';
   end_body;
 end_primitive;
-primitive 'RSMD0603_1/16W-4K7,5%';
+primitive 'RSMD0603_1/16W-4.7K,5%';
   pin
     'A'<0>:
       PIN_NUMBER='(1)';
@@ -2980,10 +3015,10 @@ primitive 'RSMD0603_1/16W-4K7,5%';
       MANUFACTURER='GENERIC';
       PARENT_PART_TYPE='RSMD0603_1/16W';
       PARENT_PPT='RSMD0603';
-      PARENT_PPT_PART='RSMD0603_1/16W-4K7,5%';
+      PARENT_PPT_PART='RSMD0603_1/16W-4.7K,5%';
   end_body;
 end_primitive;
-primitive 'RSMD0603_1/16W-90K9,1%';
+primitive 'RSMD0603_1/16W-90.9K,1%';
   pin
     'A'<0>:
       PIN_NUMBER='(1)';
@@ -3012,14 +3047,14 @@ primitive 'RSMD0603_1/16W-90K9,1%';
       SMD='YES';
       STATUS='Not Preferred';
       PART_NUMBER='R0603_90K9_1%_0.063W_100PPM';
-      VALUE='90k9';
+      VALUE='90.9k';
       TOL='1%';
       PWR='0.063W';
       JEDEC_TYPE='C0603';
       MANUFACTURER='GENERIC';
       PARENT_PART_TYPE='RSMD0603_1/16W';
       PARENT_PPT='RSMD0603';
-      PARENT_PPT_PART='RSMD0603_1/16W-90K9,1%';
+      PARENT_PPT_PART='RSMD0603_1/16W-90.9K,1%';
   end_body;
 end_primitive;
 primitive 'RSMD0603_100MW-110K,0.1%';

@@ -1,0 +1,82 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : #Taaaaaa07556.tmp                             )
+(    Software Version : 16.5S005                                      )
+(    Date/Time        : Thu Nov  1 18:09:10 2012                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		5.5
+ MACHINE-OFFSET		x:0.000000	y:0.000000
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		METRIC
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	NO
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		YES
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ OPTIMIZE_DRILLING	NO
+ ENHANCED_EXCELLON	YES
+ SCALE			1.000000
+
+ WARNING: This design contains 8 slot holes that can NOT be drilled.
+          They can be processed by NC routing instead.
+
+ WARNING: Can't find tool file (nc_tools.txt)
+          ... will auto-generate tool file (nc_tools_auto.txt)
+
+
+     Auto-generating tool file nc_tools_auto.txt
+     -------------------------------------------
+
+           Size  Plating  Tool        + Tolerance  - Tolerance
+
+         0.3000  P        T01            0.000000     0.000000
+         0.3302  P        T02            0.000000     0.000000
+         0.4064  P        T03            0.000000     0.000000
+         0.6000  P        T04            0.000000     0.000000
+         0.8128  P        T05            0.000000     0.000000
+         0.9000  P        T06            0.000000     0.000000
+         1.6002  P        T07            0.000000     0.000000
+         1.3005  N        T08            0.000000     0.000000
+         3.2500  N        T09            0.000000     0.000000
+
+
+ Drill files being output to directory '/projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/circuit_board/Cadence/worklib/fmc_tlu_toplevel/physical' ...
+
+
+
+     'fmc_tlu_v1_32-1-6.drl' created for holes connecting TOP and BOTTOM
+     -------------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.   0.3000    0.0000/  0.0000      PLATED        174
+     T02    2.   0.3302    0.0000/  0.0000      PLATED          4
+     T03    3.   0.4064    0.0000/  0.0000      PLATED        272
+     T04    4.   0.6000    0.0000/  0.0000      PLATED          2
+     T05    5.   0.8128    0.0000/  0.0000      PLATED         53
+     T06    6.   0.9000    0.0000/  0.0000      PLATED          8
+     T07    7.   1.6002    0.0000/  0.0000      PLATED         11
+     T08    8.   1.3005    0.0000/  0.0000  NON_PLATED          2
+     T09    9.   3.2500    0.0000/  0.0000  NON_PLATED          2
+
+     ---- Total holes:                                        528
+
+     ---- Total head travel:              28.10 feet (8.56 meters)
+

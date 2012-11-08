@@ -1,21 +1,21 @@
 FILE_TYPE = CONNECTIVITY;
-{Allegro Design Entry HDL 16.3-S013 (v16-3-85Y) 7/19/2010}
+{Allegro Design Entry HDL 16.5-S005 (v16-5-13R) 8/23/2011}
 "PAGE_NUMBER" = 1;
 0"NC";
-1"P5V\g";
-2"M5V\g";
-3"VOUT";
-4"VIN+";
-5"VIN-";
-6"UN$1$OPA4277$I22$MIN";
+1"UN$1$OPA4277$I22$MIN";
+2"VIN-";
+3"VIN+";
+4"VOUT";
+5"P5V\g";
+6"M5V\g";
 %"INPORT"
 "1","(-3250,1800)","0","standard","I18";
 ;
-OFFPAGE"TRUE"
-CDS_LIB"standard";
+CDS_LIB"standard"
+OFFPAGE"TRUE";
 "A"
-HDL_PORT"IN"
-VHDL_PORT"IN"5;
+VHDL_PORT"IN"
+HDL_PORT"IN"2;
 %"OUTPORT"
 "1","(1575,1850)","0","standard","I19";
 ;
@@ -23,20 +23,20 @@ CDS_LIB"standard"
 OFFPAGE"TRUE";
 "A"
 HDL_PORT"OUT"
-VHDL_PORT"OUT"3;
+VHDL_PORT"OUT"4;
 %"OPA4277"
 "1","(-850,1850)","0","cnlinear","I22";
 ;
 PACK_TYPE"SOIC"
 TYPE"OPA4277UA"
+$LOCATION"IC?"
 CDS_LIB"cnlinear"
-CDS_LMAN_SYM_OUTLINE"-125,125,125,-125"
-$LOCATION"IC?";
-"V+"1;
-"V-"2;
-"PIN<SIZE-1..0>"4;
-"OUT<SIZE-1..0>"3;
-"MIN<SIZE-1..0>"6;
+CDS_LMAN_SYM_OUTLINE"-125,125,125,-125";
+"V+"5;
+"V-"6;
+"PIN<SIZE-1..0>"3;
+"OUT<SIZE-1..0>"4;
+"MIN<SIZE-1..0>"1;
 %"RSMD0603"
 "2","(-850,2400)","0","cnpassive","I23";
 ;
@@ -56,47 +56,47 @@ POSTOL"RTOL%"
 NEGTOL"RTOL%"
 MAX_TEMP"RTMAX"
 DIST"FLAT";
-"A <SIZE-1..0>\NAC"6;
-"B <SIZE-1..0>\NAC"3;
+"B <SIZE-1..0>\NAC"4;
+"A <SIZE-1..0>\NAC"1;
 %"RSMD0603"
 "2","(-2100,1800)","0","cnpassive","I24";
 ;
-PACK_TYPE"1/10W"
-TOL"1%"
 VALUE"10K"
-CDS_LIB"cnpassive"
-$LOCATION""
-VOLTAGE"RVMAX"
-TOL_ON_OFF"ON"
-TC2"RTMPQ"
-TC1"RTMPL"
-SLOPE"RSMAX"
-SIZE"1B"
-POWER"RMAX"
-POSTOL"RTOL%"
-NEGTOL"RTOL%"
+TOL"1%"
+PACK_TYPE"1/10W"
+DIST"FLAT"
 MAX_TEMP"RTMAX"
-DIST"FLAT";
-"A <SIZE-1..0>\NAC"5;
-"B <SIZE-1..0>\NAC"6;
+NEGTOL"RTOL%"
+POSTOL"RTOL%"
+POWER"RMAX"
+SIZE"1B"
+SLOPE"RSMAX"
+TC1"RTMPL"
+TC2"RTMPQ"
+TOL_ON_OFF"ON"
+VOLTAGE"RVMAX"
+$LOCATION""
+CDS_LIB"cnpassive";
+"B <SIZE-1..0>\NAC"1;
+"A <SIZE-1..0>\NAC"2;
 %"M5V"
 "1","(-600,1300)","0","cnpower","I25";
 ;
-SIZE"1B"
-BODY_TYPE"plumbing"
 HDL_POWER"M5V"
-CDS_LIB"cnpower";
+SIZE"1B"
+CDS_LIB"cnpower"
+BODY_TYPE"plumbing";
 "A<SIZE-1..0>\NAC"
-vhdl_init"0"2;
+vhdl_init"0"6;
 %"P5V"
 "1","(-1100,1300)","0","cnpower","I26";
 ;
-CDS_LIB"cnpower"
 HDL_POWER"P5V"
 SIZE"1B"
+CDS_LIB"cnpower"
 BODY_TYPE"PLUMBING";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"1"1;
+VHDL_INIT"1"5;
 %"INPORT"
 "1","(-3250,1900)","0","standard","I27";
 ;
@@ -104,5 +104,5 @@ CDS_LIB"standard"
 OFFPAGE"TRUE";
 "A"
 VHDL_PORT"IN"
-HDL_PORT"IN"4;
+HDL_PORT"IN"3;
 END.
