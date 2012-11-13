@@ -1,0 +1,26 @@
+[DesignChecker]
+fmc_mTLU_lib = $HDS_PROJECT_DIR/fmc_mTLU_lib/designcheck
+[hdl]
+exemplar = $HDS_HOME/examples/exemplar/hdl
+fmc_mTLU_lib = $HDS_PROJECT_DIR/fmc_mTLU_lib/hdl
+hds_package_library = $HDS_HOME/hdl_libs/hds_package_library/hdl
+renoir_package_library = $HDS_HOME/hdl_libs/renoir_package_library/hdl
+[hds]
+exemplar = $HDS_HOME/examples/exemplar/hds
+fmc_mTLU_lib = $HDS_PROJECT_DIR/fmc_mTLU_lib/hds
+hds_package_library = $HDS_HOME/hdl_libs/hds_package_library/hds
+renoir_package_library = $HDS_HOME/hdl_libs/renoir_package_library/hds
+[hds_settings]
+default_library = fmc_mTLU_lib
+design_root = fmc_mTLU_lib.top_extphy(struct)top_extphy/struct.bd
+project_description = Firmware for AIDA Mini-TLU in FMC format
+version = 2
+[library_files_inclusion]
+fmc_mTLU_lib = specify
+[library_type]
+exemplar = regular
+fmc_mTLU_lib = regular
+hds_package_library = regular
+renoir_package_library = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp
