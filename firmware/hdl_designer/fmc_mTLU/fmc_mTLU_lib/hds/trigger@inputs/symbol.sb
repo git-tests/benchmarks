@@ -10,6 +10,14 @@ unitName "std_logic_1164"
 library "ieee"
 unitName "numeric_std"
 )
+(DmPackageRef
+library "work"
+unitName "ipbus"
+)
+(DmPackageRef
+library "work"
+unitName "fmcTLU"
+)
 ]
 libraryRefs [
 "ieee"
@@ -127,6 +135,7 @@ m 1
 decl (Decl
 n "trigger_times_o"
 t "t_triggerTimeArray"
+b "(NUM_INPUTS-1 DOWNTO 0)"
 eolc "! trigger arrival time ( w.r.t. logic_strobe)"
 preAdd 0
 posAdd 0
@@ -346,7 +355,7 @@ uid 76,0
 *43 (MRCItem
 litem &10
 pos 4
-dimension 100
+dimension 165
 uid 77,0
 )
 *44 (MRCItem
@@ -591,19 +600,19 @@ value "/projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/firmware/hdl_des
 )
 (vvPair
 variable "date"
-value "11/12/12"
+value "11/13/12"
 )
 (vvPair
 variable "day"
-value "Mon"
+value "Tue"
 )
 (vvPair
 variable "day_long"
-value "Monday"
+value "Tuesday"
 )
 (vvPair
 variable "dd"
-value "12"
+value "13"
 )
 (vvPair
 variable "entity_name"
@@ -627,7 +636,7 @@ value "symbol"
 )
 (vvPair
 variable "group"
-value "users"
+value "HEP_Instrumentation"
 )
 (vvPair
 variable "host"
@@ -644,6 +653,10 @@ value "fmc_mTLU_lib"
 (vvPair
 variable "library_downstream_HdsLintPlugin"
 value "$HDS_PROJECT_DIR/fmc_mTLU_lib/designcheck"
+)
+(vvPair
+variable "library_downstream_ModelSimCompiler"
+value "$HDS_PROJECT_DIR/fmc_mTLU_lib/work"
 )
 (vvPair
 variable "mm"
@@ -727,7 +740,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "12:32:22"
+value "14:15:15"
 )
 (vvPair
 variable "unit"
@@ -766,9 +779,9 @@ uid 116,0
 optionalChildren [
 *75 (FFT
 pts [
-"17750,13000"
-"17000,13375"
-"17000,12625"
+"7750,18000"
+"7000,18375"
+"7000,17625"
 ]
 uid 138,0
 ro 90
@@ -778,7 +791,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "17000,12625,17750,13375"
+xt "7000,17625,7750,18375"
 )
 ]
 ps "OnEdgeStrategy"
@@ -789,7 +802,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "16250,12625,17000,13375"
+xt "6250,17625,7000,18375"
 )
 tg (CPTG
 uid 118,0
@@ -800,9 +813,9 @@ uid 119,0
 va (VaSet
 font "courier,8,0"
 )
-xt "18000,12550,24500,13450"
+xt "8000,17550,14500,18450"
 st "clk_4x_logic"
-blo "18000,13250"
+blo "8000,18250"
 tm "CptPortNameMgr"
 )
 )
@@ -812,8 +825,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,2700,76000,3600"
-st "clk_4x_logic      : IN     std_logic  ; -- ! Rising edge active
-"
+st "clk_4x_logic      : IN     std_logic  ; -- ! Rising edge active"
 )
 thePort (LogicalPort
 lang 2
@@ -838,7 +850,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "16250,15625,17000,16375"
+xt "6250,20625,7000,21375"
 )
 tg (CPTG
 uid 123,0
@@ -849,9 +861,9 @@ uid 124,0
 va (VaSet
 font "courier,8,0"
 )
-xt "18000,15550,25500,16450"
+xt "8000,20550,15500,21450"
 st "logic_strobe_i"
-blo "18000,16250"
+blo "8000,21250"
 tm "CptPortNameMgr"
 )
 )
@@ -861,8 +873,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,3600,90500,4500"
-st "logic_strobe_i    : IN     std_logic  ; -- ! Pulses high once every 4 cycles of clk_4x_logic
-"
+st "logic_strobe_i    : IN     std_logic  ; -- ! Pulses high once every 4 cycles of clk_4x_logic"
 )
 thePort (LogicalPort
 lang 2
@@ -887,7 +898,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "16250,18625,17000,19375"
+xt "6250,23625,7000,24375"
 )
 tg (CPTG
 uid 128,0
@@ -898,9 +909,9 @@ uid 129,0
 va (VaSet
 font "courier,8,0"
 )
-xt "18000,18550,36500,19450"
+xt "8000,23550,26500,24450"
 st "threshold_discr_i : (NUM_INPUTS-1:0)"
-blo "18000,19250"
+blo "8000,24250"
 tm "CptPortNameMgr"
 )
 )
@@ -910,8 +921,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,4500,98500,5400"
-st "threshold_discr_i : IN     std_logic_vector (NUM_INPUTS-1 DOWNTO 0) ; -- ! inputs from threshold comparators
-"
+st "threshold_discr_i : IN     std_logic_vector (NUM_INPUTS-1 DOWNTO 0) ; -- ! inputs from threshold comparators"
 )
 thePort (LogicalPort
 lang 2
@@ -937,7 +947,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "16250,21625,17000,22375"
+xt "6250,26625,7000,27375"
 )
 tg (CPTG
 uid 133,0
@@ -948,9 +958,9 @@ uid 134,0
 va (VaSet
 font "courier,8,0"
 )
-xt "18000,21550,33500,22450"
+xt "8000,26550,23500,27450"
 st "cfd_discr_i : (NUM_INPUTS-1:0)"
-blo "18000,22250"
+blo "8000,27250"
 tm "CptPortNameMgr"
 )
 )
@@ -960,8 +970,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,1800,79000,2700"
-st "cfd_discr_i       : IN     std_logic_vector (NUM_INPUTS-1 DOWNTO 0) ;
-"
+st "cfd_discr_i       : IN     std_logic_vector (NUM_INPUTS-1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 lang 2
@@ -985,7 +994,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "57000,13625,57750,14375"
+xt "47000,18625,47750,19375"
 )
 tg (CPTG
 uid 147,0
@@ -996,10 +1005,10 @@ uid 148,0
 va (VaSet
 font "courier,8,0"
 )
-xt "48000,13550,56000,14450"
-st "trigger_times_o"
+xt "28500,18550,46000,19450"
+st "trigger_times_o : (NUM_INPUTS-1:0)"
 ju 2
-blo "56000,14250"
+blo "46000,19250"
 tm "CptPortNameMgr"
 )
 )
@@ -1008,9 +1017,8 @@ uid 149,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,5400,93000,6300"
-st "trigger_times_o   : OUT    t_triggerTimeArray  ; -- ! trigger arrival time ( w.r.t. logic_strobe)
-"
+xt "44000,5400,104500,6300"
+st "trigger_times_o   : OUT    t_triggerTimeArray (NUM_INPUTS-1 DOWNTO 0) ; -- ! trigger arrival time ( w.r.t. logic_strobe)"
 )
 thePort (LogicalPort
 lang 2
@@ -1018,6 +1026,7 @@ m 1
 decl (Decl
 n "trigger_times_o"
 t "t_triggerTimeArray"
+b "(NUM_INPUTS-1 DOWNTO 0)"
 eolc "! trigger arrival time ( w.r.t. logic_strobe)"
 preAdd 0
 posAdd 0
@@ -1036,7 +1045,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "57000,18625,57750,19375"
+xt "47000,23625,47750,24375"
 )
 tg (CPTG
 uid 186,0
@@ -1047,10 +1056,10 @@ uid 187,0
 va (VaSet
 font "courier,8,0"
 )
-xt "41500,18550,56000,19450"
+xt "31500,23550,46000,24450"
 st "trigger_o : (NUM_INPUTS-1:0)"
 ju 2
-blo "56000,19250"
+blo "46000,24250"
 tm "CptPortNameMgr"
 )
 )
@@ -1060,8 +1069,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,6300,94000,7200"
-st "trigger_o         : OUT    std_logic_vector (NUM_INPUTS-1 DOWNTO 0) ; -- ! High when trigger active
-"
+st "trigger_o         : OUT    std_logic_vector (NUM_INPUTS-1 DOWNTO 0) ; -- ! High when trigger active"
 )
 thePort (LogicalPort
 lang 2
@@ -1086,7 +1094,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "16250,24625,17000,25375"
+xt "6250,29625,7000,30375"
 )
 tg (CPTG
 uid 201,0
@@ -1097,9 +1105,9 @@ uid 202,0
 va (VaSet
 font "courier,8,0"
 )
-xt "18000,24550,24000,25450"
+xt "8000,29550,14000,30450"
 st "ipbus_clk_i"
-blo "18000,25250"
+blo "8000,30250"
 tm "CptPortNameMgr"
 )
 )
@@ -1109,8 +1117,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,7200,64000,8100"
-st "ipbus_clk_i       : IN     std_logic  ;
-"
+st "ipbus_clk_i       : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1131,7 +1138,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "16250,27625,17000,28375"
+xt "6250,32625,7000,33375"
 )
 tg (CPTG
 uid 206,0
@@ -1142,9 +1149,9 @@ uid 207,0
 va (VaSet
 font "courier,8,0"
 )
-xt "18000,27550,21500,28450"
+xt "8000,32550,11500,33450"
 st "ipbus_i"
-blo "18000,28250"
+blo "8000,33250"
 tm "CptPortNameMgr"
 )
 )
@@ -1154,8 +1161,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,9000,81500,9900"
-st "ipbus_i           : IN     ipb_wbus  ; -- Signals from IPBus core to slave
-"
+st "ipbus_i           : IN     ipb_wbus  ; -- Signals from IPBus core to slave"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1177,7 +1183,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "57000,24625,57750,25375"
+xt "47000,29625,47750,30375"
 )
 tg (CPTG
 uid 211,0
@@ -1188,10 +1194,10 @@ uid 212,0
 va (VaSet
 font "courier,8,0"
 )
-xt "52500,24550,56000,25450"
+xt "42500,29550,46000,30450"
 st "ipbus_o"
 ju 2
-blo "56000,25250"
+blo "46000,30250"
 tm "CptPortNameMgr"
 )
 )
@@ -1201,8 +1207,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,9900,80500,10800"
-st "ipbus_o           : OUT    ipb_rbus  -- signals from slave to IPBus core
-"
+st "ipbus_o           : OUT    ipb_rbus  -- signals from slave to IPBus core"
 )
 thePort (LogicalPort
 m 1
@@ -1225,7 +1230,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "16250,30625,17000,31375"
+xt "6250,35625,7000,36375"
 )
 tg (CPTG
 uid 216,0
@@ -1236,9 +1241,9 @@ uid 217,0
 va (VaSet
 font "courier,8,0"
 )
-xt "18000,30550,25000,31450"
+xt "8000,35550,15000,36450"
 st "ipbus_reset_i"
-blo "18000,31250"
+blo "8000,36250"
 tm "CptPortNameMgr"
 )
 )
@@ -1248,8 +1253,7 @@ va (VaSet
 font "courier,8,0"
 )
 xt "44000,8100,64000,9000"
-st "ipbus_reset_i     : IN     std_logic  ;
-"
+st "ipbus_reset_i     : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1269,7 +1273,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "17000,11000,57000,33000"
+xt "7000,16000,47000,38000"
 )
 oxt "17000,11000,53000,31000"
 biTextGroup (BiTextGroup
@@ -1281,18 +1285,18 @@ uid 11,0
 va (VaSet
 font "courier,8,1"
 )
-xt "33750,26100,40250,27000"
+xt "23750,31100,30250,32000"
 st "fmc_mTLU_lib"
-blo "33750,26800"
+blo "23750,31800"
 )
 second (Text
 uid 12,0
 va (VaSet
 font "courier,8,1"
 )
-xt "33750,27000,40750,27900"
+xt "23750,32000,30750,32900"
 st "triggerInputs"
-blo "33750,27700"
+blo "23750,32700"
 )
 )
 gi *85 (GenericInterface
@@ -1305,7 +1309,7 @@ uid 15,0
 va (VaSet
 font "courier,8,0"
 )
-xt "30000,7300,41500,10000"
+xt "20000,12300,31500,15000"
 st "Generic Declarations
 
 NUM_INPUTS natural 4  "
@@ -1693,17 +1697,21 @@ uid 51,0
 va (VaSet
 font "courier,8,0"
 )
-xt "0,900,14500,3600"
+xt "0,900,14500,6300"
 st "LIBRARY ieee;
 USE ieee.std_logic_1164.all;
-USE ieee.numeric_std.all;"
+USE ieee.numeric_std.all;
+
+USE work.ipbus.all;
+USE work.fmcTLU.all;
+"
 tm "PackageList"
 )
 ]
 )
-windowSize "2091,389,3276,1166"
-viewArea "-353,5157,85143,59192"
-cachedDiagramExtent "0,0,98500,51000"
+windowSize "1149,240,2334,1017"
+viewArea "-400,-8840,74636,38428"
+cachedDiagramExtent "0,0,104500,51000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
 defaultCommentText (CommentText
@@ -1976,6 +1984,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 269,0
+lastUid 292,0
 activeModelName "Symbol:CDM"
 )

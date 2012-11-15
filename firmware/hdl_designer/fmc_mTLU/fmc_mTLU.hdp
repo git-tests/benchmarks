@@ -1,5 +1,11 @@
 [DesignChecker]
 fmc_mTLU_lib = $HDS_PROJECT_DIR/fmc_mTLU_lib/designcheck
+[ModelSim]
+fmc_mTLU_lib = $HDS_PROJECT_DIR/fmc_mTLU_lib/work
+[QuestaSim]
+simprim = /software/CAD/Xilinx/14.3_64b/14.3/ISE_DS/ISE/vhdl/questasim/10.0d/lin64/simprim
+unisim = /software/CAD/Xilinx/14.3_64b/14.3/ISE_DS/ISE/vhdl/questasim/10.0d/lin64/unisim
+xilinxcorelib = /software/CAD/Xilinx/14.3_64b/14.3/ISE_DS/ISE/vhdl/questasim/10.0d/lin64/xilinxcorelib
 [hdl]
 exemplar = $HDS_HOME/examples/exemplar/hdl
 fmc_mTLU_lib = $HDS_PROJECT_DIR/fmc_mTLU_lib/hdl
@@ -12,15 +18,21 @@ hds_package_library = $HDS_HOME/hdl_libs/hds_package_library/hds
 renoir_package_library = $HDS_HOME/hdl_libs/renoir_package_library/hds
 [hds_settings]
 default_library = fmc_mTLU_lib
-design_root = fmc_mTLU_lib.top_extphy(struct)top_extphy/struct.bd
+design_root = fmc_mTLU_lib.top_extphy()top_extphy/symbol.sb
 project_description = Firmware for AIDA Mini-TLU in FMC format
 version = 2
 [library_files_inclusion]
 fmc_mTLU_lib = specify
+simprim = all
+unisim = all
+xilinxcorelib = all
 [library_type]
 exemplar = regular
 fmc_mTLU_lib = regular
 hds_package_library = regular
 renoir_package_library = regular
+simprim = downstream_only
+unisim = downstream_only
+xilinxcorelib = downstream_only
 [shared]
 others = $HDS_TEAM_HOME/shared.hdp

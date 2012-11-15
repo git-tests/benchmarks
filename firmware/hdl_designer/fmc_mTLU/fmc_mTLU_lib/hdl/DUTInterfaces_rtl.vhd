@@ -41,6 +41,8 @@ LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 USE ieee.numeric_std.all;
 
+USE work.ipbus.all;
+
 ENTITY DUTInterfaces IS
    GENERIC( 
       NUM_DUTS    : positive := 3;

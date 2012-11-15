@@ -10,6 +10,10 @@ unitName "std_logic_1164"
 library "ieee"
 unitName "numeric_std"
 )
+(DmPackageRef
+library "work"
+unitName "ipbus"
+)
 ]
 libraryRefs [
 "ieee"
@@ -562,19 +566,19 @@ value "/projects/HEP_Instrumentation/cad/designs/fmc-mtlu/trunk/firmware/hdl_des
 )
 (vvPair
 variable "date"
-value "11/12/12"
+value "11/13/12"
 )
 (vvPair
 variable "day"
-value "Mon"
+value "Tue"
 )
 (vvPair
 variable "day_long"
-value "Monday"
+value "Tuesday"
 )
 (vvPair
 variable "dd"
-value "12"
+value "13"
 )
 (vvPair
 variable "entity_name"
@@ -598,7 +602,7 @@ value "symbol"
 )
 (vvPair
 variable "group"
-value "users"
+value "HEP_Instrumentation"
 )
 (vvPair
 variable "host"
@@ -615,6 +619,10 @@ value "fmc_mTLU_lib"
 (vvPair
 variable "library_downstream_HdsLintPlugin"
 value "$HDS_PROJECT_DIR/fmc_mTLU_lib/designcheck"
+)
+(vvPair
+variable "library_downstream_ModelSimCompiler"
+value "$HDS_PROJECT_DIR/fmc_mTLU_lib/work"
 )
 (vvPair
 variable "mm"
@@ -698,7 +706,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "13:44:50"
+value "14:13:13"
 )
 (vvPair
 variable "unit"
@@ -1580,16 +1588,18 @@ uid 50,0
 va (VaSet
 font "courier,8,0"
 )
-xt "0,900,14500,3600"
+xt "0,900,14500,5400"
 st "LIBRARY ieee;
 USE ieee.std_logic_1164.all;
-USE ieee.numeric_std.all;"
+USE ieee.numeric_std.all;
+
+USE work.ipbus.all;"
 tm "PackageList"
 )
 ]
 )
-windowSize "748,301,1763,991"
-viewArea "-500,-500,60484,37461"
+windowSize "743,300,1758,990"
+viewArea "-500,-500,49396,30559"
 cachedDiagramExtent "0,0,102500,51000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
@@ -1861,6 +1871,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 172,0
+lastUid 195,0
 activeModelName "Symbol"
 )
