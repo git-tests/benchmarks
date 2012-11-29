@@ -80,7 +80,7 @@ ARCHITECTURE rtl OF IPBusInterface IS
   --! Number of slaves inside the IPBusInterface block.
   constant c_NUM_INTERNAL_SLAVES : positive := 2;
 
- 	signal clk125, clk_fast, ipb_clk, locked, rst_125, rst_ipb: STD_LOGIC;
+ 	signal clk125, locked, rst_125, rst_ipb: STD_LOGIC;
 	signal mac_txd, mac_rxd : STD_LOGIC_VECTOR(7 downto 0);
 	signal mac_txdvld, mac_txack, mac_rxclko, mac_rxdvld, mac_rxgoodframe, mac_rxbadframe : STD_LOGIC;
 	signal ipb_master_out : ipb_wbus;
@@ -103,12 +103,16 @@ BEGIN
           sysclk_n => sysclk_n_i,
           clk_logic_xtal_o => clk_logic_xtal_o,
           clko_125 => clk125,
-          clko_ipb => ipb_clk,
+          clko_ipb => s_ipb_clk,
           locked => clocks_locked_o,
           rsto_125 => rst_125,
           rsto_ipb => rst_ipb,
           onehz => onehz_o
           );
+		
+		-- Connect IPBus clock and reset to output ports.
+		ipb_clk_o <= s_ipb_clk;
+		ipb_rst_o <= rst_ipb;
 		
 	-- leds <= ('0', '0', locked, onehz);
 	
@@ -144,7 +148,7 @@ BEGIN
 -- ipbus control logic
 
 	ipbus: entity work.ipbus_ctrl_udponly port map(
-		ipb_clk => ipb_clk,
+		ipb_clk => s_ipb_clk,
 		rst_ipb => rst_ipb,
 		rst_macclk => rst_125,
 		mac_txclk => clk125,
@@ -169,7 +173,7 @@ BEGIN
   fabric: entity work.ipbus_fabric
     generic map(NSLV => NUM_EXT_SLAVES+c_NUM_INTERNAL_SLAVES)
     port map(
-      ipb_clk => ipb_clk,
+      ipb_clk => s_ipb_clk,
       rst => rst_ipb,
       ipb_in => ipb_master_out,
       ipb_out => ipb_master_in,
@@ -192,7 +196,7 @@ BEGIN
    -- No point in passing host bus out in/out of block.
   hostbus_interface: entity work.ipbus_emac_hostbus
     port map(
-      clk => ipb_clk,
+      clk => s_ipb_clk,
       reset => rst_ipb,
       ipbus_in =>  s_ipbw_internal(NUM_EXT_SLAVES+c_NUM_INTERNAL_SLAVES-1),
       ipbus_out => s_ipbr_internal(NUM_EXT_SLAVES+c_NUM_INTERNAL_SLAVES-1),

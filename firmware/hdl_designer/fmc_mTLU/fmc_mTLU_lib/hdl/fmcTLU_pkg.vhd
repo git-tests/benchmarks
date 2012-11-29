@@ -17,7 +17,8 @@ PACKAGE fmcTLU IS
   constant c_NUM_TRIG_INPUTS : natural := 4;
   constant c_EVENT_DATA_WIDTH : natural := 32;
   
-  subtype t_triggerTime is std_logic_vector(c_NUM_TIME_BITS-1 downto 0);
-  type    t_triggerTimeArray is array(natural range <>) of t_triggerTime;
+  --subtype t_triggerTime is std_logic_vector(c_NUM_TIME_BITS-1 downto 0);
+  --type    t_triggerTimeArray is array(natural range <>) of t_triggerTime;
+  type    t_triggerTimeArray is array(natural range <>) of std_logic_vector(c_NUM_TIME_BITS-1 downto 0) ;
   
 END fmcTLU;

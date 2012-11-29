@@ -45,19 +45,19 @@ USE work.ipbus.all;
 
 ENTITY eventBuffer IS
    GENERIC( 
-      EVENT_DATA_WIDTH : positive := 64;
-      IPBUS_WIDTH      : positive := 32
+      g_EVENT_DATA_WIDTH : positive := 64;
+      g_IPBUS_WIDTH      : positive := 32
    );
    PORT( 
       clk_4x_logic_i    : IN     std_logic;
-      data_strobe_i     : IN     std_logic;                                       -- Indicates data to transfer
-      event_data_i      : IN     std_logic_vector (EVENT_DATA_WIDTH-1 DOWNTO 0);
+      data_strobe_i     : IN     std_logic;                                         -- Indicates data to transfer
+      event_data_i      : IN     std_logic_vector (g_EVENT_DATA_WIDTH-1 DOWNTO 0);
       ipbus_clk_i       : IN     std_logic;
       ipbus_i           : IN     ipb_wbus;
       ipbus_reset_i     : IN     std_logic;
       strobe_4x_logic_i : IN     std_logic;
-      trigger_count_i   : IN     std_logic_vector (IPBUS_WIDTH-1 DOWNTO 0);
-      buffer_full_o     : OUT    std_logic;                                       --! Goes high when event buffer almost full
+      trigger_count_i   : IN     std_logic_vector (g_IPBUS_WIDTH-1 DOWNTO 0);
+      buffer_full_o     : OUT    std_logic;                                         --! Goes high when event buffer almost full
       ipbus_o           : OUT    ipb_rbus
    );
 
@@ -67,6 +67,14 @@ END ENTITY eventBuffer ;
 
 --
 ARCHITECTURE rtl OF eventBuffer IS
+
+  signal s_dummy : std_logic_vector(event_data_i'range);
+  
 BEGIN
+
+  -- DUMMY DUMMY. Just put something in to create a netlist to keep ISE happy
+  --s_dummy <= event_data_i;
+  ipbus_o.ipb_rdata <= event_data_i(g_IPBUS_WIDTH-1 downto 0);
+  
 END ARCHITECTURE rtl;
 

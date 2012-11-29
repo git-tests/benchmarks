@@ -9,7 +9,8 @@
 ------------------------------------------------------------------------------- --
 -- VHDL Architecture fmc_mTLU_lib.eventFormatter.rtl
 --
---! @brief \n
+--! @brief Takes the data delivered on each trigger and turns it into a 64-bit
+--!        word\n
 --! \n
 --
 --! @author David Cussans , David.Cussans@bristol.ac.uk
@@ -65,6 +66,16 @@ END ENTITY eventFormatter ;
 
 --
 ARCHITECTURE rtl OF eventFormatter IS
+  
 BEGIN
+
+  --! DUMMY DUMMY - for now just pass some input data to the output to generate
+  --a netlist. Otherwise ISE won't complete...
+
+  event_data_o(c_NUM_TIME_BITS-1 downto 0) <= trigger_times_i(0);
+  event_data_o(2*c_NUM_TIME_BITS-1 downto c_NUM_TIME_BITS) <= trigger_times_i(1);
+  event_data_o(3*c_NUM_TIME_BITS-1 downto 2*c_NUM_TIME_BITS) <= trigger_times_i(2);
+  event_data_o(4*c_NUM_TIME_BITS-1 downto 3*c_NUM_TIME_BITS) <= trigger_times_i(3);
+    
 END ARCHITECTURE rtl;
 

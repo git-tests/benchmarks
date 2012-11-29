@@ -790,7 +790,7 @@ value "HEP_Instrumentation"
 )
 (vvPair
 variable "host"
-value "kipper.phy.bris.ac.uk"
+value "calgary.phy.bris.ac.uk"
 )
 (vvPair
 variable "language"
@@ -798,15 +798,27 @@ value "VHDL"
 )
 (vvPair
 variable "library"
-value "fmc_mTLU_lib"
+value "work"
 )
 (vvPair
 variable "library_downstream_HdsLintPlugin"
 value "$HDS_PROJECT_DIR/fmc_mTLU_lib/designcheck"
 )
 (vvPair
+variable "library_downstream_ISEPARInvoke"
+value "$HDS_PROJECT_DIR/fmc_mTLU_lib/ise"
+)
+(vvPair
+variable "library_downstream_ImpactInvoke"
+value "$HDS_PROJECT_DIR/fmc_mTLU_lib/ise"
+)
+(vvPair
 variable "library_downstream_ModelSimCompiler"
 value "$HDS_PROJECT_DIR/fmc_mTLU_lib/work"
+)
+(vvPair
+variable "library_downstream_XSTDataPrep"
+value "$HDS_PROJECT_DIR/fmc_mTLU_lib/ise"
 )
 (vvPair
 variable "mm"
@@ -890,7 +902,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "12:02:50"
+value "18:00:57"
 )
 (vvPair
 variable "unit"
@@ -1818,8 +1830,8 @@ uid 11,0
 va (VaSet
 font "courier,8,1"
 )
-xt "14750,32100,21250,33000"
-st "fmc_mTLU_lib"
+xt "14750,32100,16750,33000"
+st "work"
 blo "14750,32800"
 )
 second (Text
@@ -2174,7 +2186,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "courier,8,0"
 )
-xt "32200,49050,46700,49950"
+xt "32200,49050,45700,49950"
 st "
 %library/%unit/%view
 "
@@ -2514,6 +2526,6 @@ xt "30000,800,30000,800"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 390,0
+lastUid 413,0
 activeModelName "Symbol"
 )

@@ -1,0 +1,61 @@
+#NET sysclk_p_i IOSTANDARD = LVDS_25 | DIFF_TERM = TRUE | TNM_NET = tnm_sysclk;
+#NET sysclk_n_i IOSTANDARD = LVDS_25 | DIFF_TERM = TRUE;
+NET sysclk_p_i LOC = K15 | IOSTANDARD = LVDS_25 | DIFF_TERM = TRUE | TNM_NET = tnm_sysclk;
+NET sysclk_n_i LOC = K16 | IOSTANDARD = LVDS_25 | DIFF_TERM = TRUE;
+
+TIMESPEC TS_sysclk = PERIOD tnm_sysclk 200MHz;
+
+#NET ipb_clk TNM_NET = tnm_ipb_clk;
+#NET clk125  TNM_NET = tnm_clk125;
+#TIMESPEC TS_tig_ipb_125 = FROM tnm_ipb_clk TO tnm_clk125 TIG;
+#TIMESPEC TS_tig_125_ipb = FROM tnm_clk125 TO tnm_ipb_clk TIG;
+
+# NET clocks/rst* TIG;
+
+NET leds_o<0> LOC=E13 | IOSTANDARD=LVCMOS25;
+NET leds_o<1> LOC=C14 | IOSTANDARD=LVCMOS25;
+NET leds_o<2> LOC=C4 | IOSTANDARD=LVCMOS25;
+NET leds_o<3> LOC=A4 | IOSTANDARD=LVCMOS25;
+
+NET dip_switch<0> LOC=D14;
+NET dip_switch<1> LOC=E12;
+NET dip_switch<2> LOC=F12;
+NET dip_switch<3> LOC=V13;
+
+# Ethernet PHY
+
+TIMEGRP TG_gmii_tx=PADS("gmii_tx*");
+TIMEGRP TG_gmii_tx OFFSET = OUT AFTER sysclk_p_i REFERENCE_PIN "gmii_gtx_clk_o" RISING;
+
+NET gmii_gtx_clk_o LOC=A9 | IOSTANDARD=LVCMOS25 | SLEW=FAST;
+NET gmii_txd_o<0> LOC=F8 | IOSTANDARD=LVCMOS25;
+NET gmii_txd_o<1> LOC=G8 | IOSTANDARD=LVCMOS25;
+NET gmii_txd_o<2> LOC=A6 | IOSTANDARD=LVCMOS25;
+NET gmii_txd_o<3> LOC=B6 | IOSTANDARD=LVCMOS25;
+NET gmii_txd_o<4> LOC=E6 | IOSTANDARD=LVCMOS25;
+NET gmii_txd_o<5> LOC=F7 | IOSTANDARD=LVCMOS25;
+NET gmii_txd_o<6> LOC=A5 | IOSTANDARD=LVCMOS25;
+NET gmii_txd_o<7> LOC=C5 | IOSTANDARD=LVCMOS25;
+NET gmii_tx_en_o LOC=B8 | IOSTANDARD=LVCMOS25;
+NET gmii_tx_er_o LOC=A8 | IOSTANDARD=LVCMOS25;
+
+NET gmii_rx_clk_i LOC=L16 | IOSTANDARD=LVCMOS25 | TNM_NET= "gmii_rx_clk_i";
+TIMESPEC "TS_GMII_RX_CLK_I" = PERIOD "gmii_rx_clk_i" 125MHz;
+OFFSET = IN 2.5ns VALID 3ns BEFORE gmii_rx_clk_i;
+NET gmii_rxd_i<0> LOC=M14 | IOSTANDARD=LVCMOS25;
+NET gmii_rxd_i<1> LOC=U18 | IOSTANDARD=LVCMOS25;
+NET gmii_rxd_i<2> LOC=U17 | IOSTANDARD=LVCMOS25;
+NET gmii_rxd_i<3> LOC=T18 | IOSTANDARD=LVCMOS25;
+NET gmii_rxd_i<4> LOC=T17 | IOSTANDARD=LVCMOS25;
+NET gmii_rxd_i<5> LOC=N16 | IOSTANDARD=LVCMOS25;
+NET gmii_rxd_i<6> LOC=N15 | IOSTANDARD=LVCMOS25;
+NET gmii_rxd_i<7> LOC=P18 | IOSTANDARD=LVCMOS25;
+NET gmii_rx_dv_i LOC=N18 | IOSTANDARD=LVCMOS25;
+NET gmii_rx_er_i LOC=P17 | IOSTANDARD=LVCMOS25;
+
+NET phy_rstb_o LOC=L13 | IOSTANDARD=LVCMOS25;
+
+# Main I2C bus
+#NET i2c_scl_io LOC=P11 | IOSTANDARD=LVCMOS25;
+#NET i2c_sda_io LOC=N10 | IOSTANDARD=LVCMOS25;
+

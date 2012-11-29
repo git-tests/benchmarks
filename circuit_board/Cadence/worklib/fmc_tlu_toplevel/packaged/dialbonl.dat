@@ -10,7 +10,7 @@ C1_3             CAPCERSMDCL2_0603-100NF,16V 1        M5V
 C1_4             CAPCERSMDCL2_0603-100NF,16V 1        M5V                     
                                   2        P5V                     
 C1_5             CAPCERSMDCL2_0805-4.7UF,10V 1        GND_SIGNAL              
-                                  2        P3V3                    
+                                  2        VIN_FILTERED_5          
 C2               CAPCERSMDCL2_0603-1UF,16V 1        GND_SIGNAL              
                                   2        P5V                     
 C2_1             CAPCERSMDCL2_0603-10NF,50V 1        GND_SIGNAL              
@@ -134,26 +134,28 @@ C13_5            CAPCERSMDCL2_0805-4.7UF,10V 1        GND_SIGNAL
 C14              CAPCERSMDCL2_0603-100NF,16V 1        GND_SIGNAL              
                                   2        P2V5                    
 C14_5            CAPCERSMDCL2_0805-4.7UF,10V 1        GND_SIGNAL              
-                                  2        P3V3                    
+                                  2        VIN_FILTERED_5          
 C15              CAPCERSMDCL2_0603-100NF,16V 1        GND_SIGNAL              
                                   2        P2V5                    
+C15_5            CAPCERSMDCL2_0805-4.7UF,10V 1        GND_SIGNAL              
+                                  2        P3V3                    
 C16              CAPCERSMDCL2_0603-100NF,16V 1        GND_SIGNAL              
                                   2        P2V5                    
 C17              CAPCERSMDCL2_0603-100NF,16V 1        P3V3                    
                                   2        GND_SIGNAL              
 D1_1             HBAT-540C        1        M5V                     
                                   2        P5V                     
-                                  3        UNNAMED_1_DELAYLINEGL2L_I140__1
+                                  3        UNNAMED_1_MAX9601_I71_IN_1
 D1_2             HBAT-540C        1        M5V                     
                                   2        P5V                     
-                                  3        UNNAMED_1_DELAYLINEGL2L_I140__2
+                                  3        UNNAMED_1_MAX9601_I71_IN_2
 D1_3             HBAT-540C        1        M5V                     
                                   2        P5V                     
-                                  3        UNNAMED_1_DELAYLINEGL2L_I140__3
+                                  3        UNNAMED_1_MAX9601_I71_IN_3
 D1_4             HBAT-540C        1        M5V                     
                                   2        P5V                     
-                                  3        UNNAMED_1_DELAYLINEGL2L_I140__4
-D1_5             DIODE_SCHOTTKY_CA-SD101AW A        UNNAMED_1_DIODE_I48_A_5 
+                                  3        UNNAMED_1_MAX9601_I71_IN_4
+D1_5             DIODE_SCHOTTKY_CA-SD101AW A        UNNAMED_1_DIODE_I65_A_5 
                                   C        UNNAMED_1_CAPCERSMDCL2_I15_B_5
 D2_5             DIODE_SCHOTTKY_CA-SD101AW A        UNNAMED_1_CAPCERSMDCL2_I11_B_5
                                   C        GND_SIGNAL              
@@ -170,7 +172,7 @@ IC1              AD5665RBRUZ-1-GND=GND_SIGNAL,VA 1        GND_SIGNAL
                                   13       SDA                     
                                   14       SCL                     
 IC1_1            GL2L5LS050D-C    1        GND_SIGNAL              
-                                  2        UNNAMED_1_DELAYLINEGL2L_I140__1
+                                  2        UNNAMED_1_MAX9601_I71_IN_1
                                   3        GND_SIGNAL              
                                   4        GND_SIGNAL              
                                   5        GND_SIGNAL              
@@ -178,15 +180,15 @@ IC1_1            GL2L5LS050D-C    1        GND_SIGNAL
                                   7        UNNAMED_1_MAX9601_I1_IN_1_1
                                   8        GND_SIGNAL              
                                   9        GND_SIGNAL              
-                                  10       UNNAMED_1_DELAYLINEGL2L_I14_2_1
+                                  10       UNNAMED_1_DELAYLINEGL2L_I14_1_1
                                   11       GND_SIGNAL              
                                   12       GND_SIGNAL              
                                   13       GND_SIGNAL              
                                   14       GND_SIGNAL              
-                                  15       UNNAMED_1_DELAYLINEGL2L_I14_1_1
+                                  15       UNNAMED_1_DELAYLINEGL2L_I140__1
                                   16       GND_SIGNAL              
 IC1_2            GL2L5LS050D-C    1        GND_SIGNAL              
-                                  2        UNNAMED_1_DELAYLINEGL2L_I140__2
+                                  2        UNNAMED_1_MAX9601_I71_IN_2
                                   3        GND_SIGNAL              
                                   4        GND_SIGNAL              
                                   5        GND_SIGNAL              
@@ -194,15 +196,15 @@ IC1_2            GL2L5LS050D-C    1        GND_SIGNAL
                                   7        UNNAMED_1_MAX9601_I1_IN_1_2
                                   8        GND_SIGNAL              
                                   9        GND_SIGNAL              
-                                  10       UNNAMED_1_DELAYLINEGL2L_I14_2_2
+                                  10       UNNAMED_1_DELAYLINEGL2L_I14_1_2
                                   11       GND_SIGNAL              
                                   12       GND_SIGNAL              
                                   13       GND_SIGNAL              
                                   14       GND_SIGNAL              
-                                  15       UNNAMED_1_DELAYLINEGL2L_I14_1_2
+                                  15       UNNAMED_1_DELAYLINEGL2L_I140__2
                                   16       GND_SIGNAL              
 IC1_3            GL2L5LS050D-C    1        GND_SIGNAL              
-                                  2        UNNAMED_1_DELAYLINEGL2L_I140__3
+                                  2        UNNAMED_1_MAX9601_I71_IN_3
                                   3        GND_SIGNAL              
                                   4        GND_SIGNAL              
                                   5        GND_SIGNAL              
@@ -210,15 +212,15 @@ IC1_3            GL2L5LS050D-C    1        GND_SIGNAL
                                   7        UNNAMED_1_MAX9601_I1_IN_1_3
                                   8        GND_SIGNAL              
                                   9        GND_SIGNAL              
-                                  10       UNNAMED_1_DELAYLINEGL2L_I14_2_3
+                                  10       UNNAMED_1_DELAYLINEGL2L_I14_1_3
                                   11       GND_SIGNAL              
                                   12       GND_SIGNAL              
                                   13       GND_SIGNAL              
                                   14       GND_SIGNAL              
-                                  15       UNNAMED_1_DELAYLINEGL2L_I14_1_3
+                                  15       UNNAMED_1_DELAYLINEGL2L_I140__3
                                   16       GND_SIGNAL              
 IC1_4            GL2L5LS050D-C    1        GND_SIGNAL              
-                                  2        UNNAMED_1_DELAYLINEGL2L_I140__4
+                                  2        UNNAMED_1_MAX9601_I71_IN_4
                                   3        GND_SIGNAL              
                                   4        GND_SIGNAL              
                                   5        GND_SIGNAL              
@@ -226,12 +228,12 @@ IC1_4            GL2L5LS050D-C    1        GND_SIGNAL
                                   7        UNNAMED_1_MAX9601_I1_IN_1_4
                                   8        GND_SIGNAL              
                                   9        GND_SIGNAL              
-                                  10       UNNAMED_1_DELAYLINEGL2L_I14_2_4
+                                  10       UNNAMED_1_DELAYLINEGL2L_I14_1_4
                                   11       GND_SIGNAL              
                                   12       GND_SIGNAL              
                                   13       GND_SIGNAL              
                                   14       GND_SIGNAL              
-                                  15       UNNAMED_1_DELAYLINEGL2L_I14_1_4
+                                  15       UNNAMED_1_DELAYLINEGL2L_I140__4
                                   16       GND_SIGNAL              
 IC1_5            LT3471EDD#PBF-EP=GND_SIGNAL 1        UNNAMED_1_CAPCERSMDCL1_I12_B_5
                                   2        UNNAMED_1_CAPCERSMDCL2_I17_B_5
@@ -240,9 +242,9 @@ IC1_5            LT3471EDD#PBF-EP=GND_SIGNAL 1        UNNAMED_1_CAPCERSMDCL1_I12
                                   5        GND_SIGNAL              
                                   6        UNNAMED_1_CAPCERSMDCL2_I11_A_5
                                   7        UNNAMED_1_CAPCERSMDCL2_I10_B_5
-                                  8        P3V3                    
+                                  8        VIN_FILTERED_5          
                                   9        UNNAMED_1_CAPCERSMDCL2_I9_B_5
-                                  10       UNNAMED_1_DIODE_I48_A_5 
+                                  10       UNNAMED_1_DIODE_I65_A_5 
 IC2              OPA4277UA        1        VTHRESH<0>              
                                   2        UNNAMED_1_OPA4277_I22_MIN
                                   3        UNNAMED_1_AD5665R_I63_VOUTA
@@ -268,7 +270,7 @@ IC2_1            MAX9601_TSSOP    1        UNNAMED_1_MAX9601_I1_Q_1_1
                                   9        UNNAMED_1_MAX9601_I1_IN_1_1
                                   10       UNNAMED_1_MAX9601_I1_IN_1
                                   11       UNNAMED_1_CAPCERSMDCL2_I78_B_1
-                                  12       UNNAMED_1_DELAYLINEGL2L_I140__1
+                                  12       UNNAMED_1_MAX9601_I71_IN_1
                                   13       UNNAMED_1_MAX9601_I71_HYS_1
                                   14       P5V                     
                                   15       M5V                     
@@ -288,7 +290,7 @@ IC2_2            MAX9601_TSSOP    1        UNNAMED_1_MAX9601_I1_Q_1_2
                                   9        UNNAMED_1_MAX9601_I1_IN_1_2
                                   10       UNNAMED_1_MAX9601_I1_IN_2
                                   11       UNNAMED_1_CAPCERSMDCL2_I78_B_2
-                                  12       UNNAMED_1_DELAYLINEGL2L_I140__2
+                                  12       UNNAMED_1_MAX9601_I71_IN_2
                                   13       UNNAMED_1_MAX9601_I71_HYS_2
                                   14       P5V                     
                                   15       M5V                     
@@ -308,7 +310,7 @@ IC2_3            MAX9601_TSSOP    1        UNNAMED_1_MAX9601_I1_Q_1_3
                                   9        UNNAMED_1_MAX9601_I1_IN_1_3
                                   10       UNNAMED_1_MAX9601_I1_IN_3
                                   11       UNNAMED_1_CAPCERSMDCL2_I78_B_3
-                                  12       UNNAMED_1_DELAYLINEGL2L_I140__3
+                                  12       UNNAMED_1_MAX9601_I71_IN_3
                                   13       UNNAMED_1_MAX9601_I71_HYS_3
                                   14       P5V                     
                                   15       M5V                     
@@ -328,7 +330,7 @@ IC2_4            MAX9601_TSSOP    1        UNNAMED_1_MAX9601_I1_Q_1_4
                                   9        UNNAMED_1_MAX9601_I1_IN_1_4
                                   10       UNNAMED_1_MAX9601_I1_IN_4
                                   11       UNNAMED_1_CAPCERSMDCL2_I78_B_4
-                                  12       UNNAMED_1_DELAYLINEGL2L_I140__4
+                                  12       UNNAMED_1_MAX9601_I71_IN_4
                                   13       UNNAMED_1_MAX9601_I71_HYS_4
                                   14       P5V                     
                                   15       M5V                     
@@ -340,8 +342,11 @@ IC2_4            MAX9601_TSSOP    1        UNNAMED_1_MAX9601_I1_Q_1_4
 IC3              USBLC6-2SC6      1        CTRIG1*                 
                                   2        GND_SIGNAL              
                                   3        CTRIG1                  
+                                  4        TRIG1                   
                                   5        P2V5                    
+                                  6        TRIG1*                  
 IC3_1            GL2L5LS100D-C    1        GND_SIGNAL              
+                                  2        BEAM_TRIGGER_CFD<3>     
                                   3        GND_SIGNAL              
                                   4        GND_SIGNAL              
                                   5        GND_SIGNAL              
@@ -354,8 +359,10 @@ IC3_1            GL2L5LS100D-C    1        GND_SIGNAL
                                   12       GND_SIGNAL              
                                   13       GND_SIGNAL              
                                   14       GND_SIGNAL              
+                                  15       BEAM_TRIGGER_CFD*<3>    
                                   16       GND_SIGNAL              
 IC3_2            GL2L5LS100D-C    1        GND_SIGNAL              
+                                  2        BEAM_TRIGGER_CFD<2>     
                                   3        GND_SIGNAL              
                                   4        GND_SIGNAL              
                                   5        GND_SIGNAL              
@@ -368,8 +375,10 @@ IC3_2            GL2L5LS100D-C    1        GND_SIGNAL
                                   12       GND_SIGNAL              
                                   13       GND_SIGNAL              
                                   14       GND_SIGNAL              
+                                  15       BEAM_TRIGGER_CFD*<2>    
                                   16       GND_SIGNAL              
 IC3_3            GL2L5LS100D-C    1        GND_SIGNAL              
+                                  2        BEAM_TRIGGER_CFD<1>     
                                   3        GND_SIGNAL              
                                   4        GND_SIGNAL              
                                   5        GND_SIGNAL              
@@ -382,8 +391,10 @@ IC3_3            GL2L5LS100D-C    1        GND_SIGNAL
                                   12       GND_SIGNAL              
                                   13       GND_SIGNAL              
                                   14       GND_SIGNAL              
+                                  15       BEAM_TRIGGER_CFD*<1>    
                                   16       GND_SIGNAL              
 IC3_4            GL2L5LS100D-C    1        GND_SIGNAL              
+                                  2        BEAM_TRIGGER_CFD<0>     
                                   3        GND_SIGNAL              
                                   4        GND_SIGNAL              
                                   5        GND_SIGNAL              
@@ -396,13 +407,18 @@ IC3_4            GL2L5LS100D-C    1        GND_SIGNAL
                                   12       GND_SIGNAL              
                                   13       GND_SIGNAL              
                                   14       GND_SIGNAL              
+                                  15       BEAM_TRIGGER_CFD*<0>    
                                   16       GND_SIGNAL              
-IC4              SN74LVC1G07DCK-GND=GND_SIGNAL,A 4        UNNAMED_4_74LVC1G07_I28_Y
+IC4              SN74LVC1G07DCK-GND=GND_SIGNAL,A 2        HDMI_POWER_ENABLE1      
+                                  4        UNNAMED_4_74LVC1G07_I28_Y
 IC5              USBLC6-2SC6      1        CTRIG2*                 
                                   2        GND_SIGNAL              
                                   3        CTRIG2                  
+                                  4        TRIG2                   
                                   5        P2V5                    
-IC6              SN74LVC1G07DCK-GND=GND_SIGNAL,A 4        UNNAMED_4_74LVC1G07_I40_Y
+                                  6        TRIG2*                  
+IC6              SN74LVC1G07DCK-GND=GND_SIGNAL,A 2        HDMI_POWER_ENABLE2      
+                                  4        UNNAMED_4_74LVC1G07_I40_Y
 IC7              24AA025E48       1        UNNAMED_1_24AA025E48_I8_A0
                                   2        UNNAMED_1_24AA025E48_I8_A1
                                   3        UNNAMED_1_24AA025E48_I8_A2
@@ -455,14 +471,24 @@ J4               ASP-134606-01    C1       GND_SIGNAL
                                   C5       GND_SIGNAL              
                                   C8       GND_SIGNAL              
                                   C9       GND_SIGNAL              
+                                  C10      BUSY0                   
+                                  C11      BUSY0*                  
                                   C12      GND_SIGNAL              
                                   C13      GND_SIGNAL              
+                                  C14      TRIG0                   
+                                  C15      TRIG0*                  
                                   C16      GND_SIGNAL              
                                   C17      GND_SIGNAL              
+                                  C18      BEAM_TRIGGER_CFD<1>     
+                                  C19      BEAM_TRIGGER_CFD*<1>    
                                   C20      GND_SIGNAL              
                                   C21      GND_SIGNAL              
+                                  C22      BEAM_TRIGGER_CFD<2>     
+                                  C23      BEAM_TRIGGER_CFD*<2>    
                                   C24      GND_SIGNAL              
                                   C25      GND_SIGNAL              
+                                  C26      BEAM_TRIGGER_CFD<3>     
+                                  C27      BEAM_TRIGGER_CFD*<3>    
                                   C28      GND_SIGNAL              
                                   C29      GND_SIGNAL              
                                   C30      SCL                     
@@ -479,11 +505,21 @@ J4               ASP-134606-01    C1       GND_SIGNAL
                                   D3       GND_SIGNAL              
                                   D6       GND_SIGNAL              
                                   D7       GND_SIGNAL              
+                                  D8       BEAM_TRIGGER<0>         
+                                  D9       BEAM_TRIGGER*<0>        
                                   D10      GND_SIGNAL              
                                   D13      GND_SIGNAL              
+                                  D14      TRIG2                   
+                                  D15      TRIG2*                  
                                   D16      GND_SIGNAL              
+                                  D17      BEAM_TRIGGER<1>         
+                                  D18      BEAM_TRIGGER*<1>        
                                   D19      GND_SIGNAL              
+                                  D20      SPARE2                  
+                                  D21      SPARE2*                 
                                   D22      GND_SIGNAL              
+                                  D23      BEAM_TRIGGER<2>         
+                                  D24      BEAM_TRIGGER*<2>        
                                   D25      GND_SIGNAL              
                                   D28      GND_SIGNAL              
                                   D32      P3V3                    
@@ -495,38 +531,64 @@ J4               ASP-134606-01    C1       GND_SIGNAL
                                   G1       GND_SIGNAL              
                                   G4       GND_SIGNAL              
                                   G5       GND_SIGNAL              
+                                  G6       BEAM_TRIGGER_CFD<0>     
+                                  G7       BEAM_TRIGGER_CFD*<0>    
                                   G8       GND_SIGNAL              
                                   G11      GND_SIGNAL              
+                                  G12      CONT2                   
+                                  G13      CONT2*                  
                                   G14      GND_SIGNAL              
                                   G17      GND_SIGNAL              
                                   G20      GND_SIGNAL              
                                   G23      GND_SIGNAL              
                                   G26      GND_SIGNAL              
                                   G29      GND_SIGNAL              
+                                  G30      BEAM_TRIGGER<3>         
+                                  G31      BEAM_TRIGGER*<3>        
                                   G32      GND_SIGNAL              
+                                  G33      DUT_CLK0                
+                                  G34      DUT_CLK0*               
                                   G35      GND_SIGNAL              
+                                  G36      CONT0                   
+                                  G37      CONT0*                  
                                   G38      GND_SIGNAL              
                                   G39      P2V5                    
                                   G40      GND_SIGNAL              
                                   H3       GND_SIGNAL              
-                                  H4       UNNAMED_1_PC036AFMCLPCCONNECTOR
-                                  H5       UNNAMED_1_PC036AFMCLPCCONNECT_1
+                                  H4       FRONT_PANEL_CLK         
+                                  H5       FRONT_PANEL_CLK*        
                                   H6       GND_SIGNAL              
+                                  H7       HDMI_POWER_ENABLE1      
+                                  H8       HDMI_POWER_ENABLE2      
                                   H9       GND_SIGNAL              
+                                  H10      CLK2                    
+                                  H11      CLK2*                   
                                   H12      GND_SIGNAL              
+                                  H13      BUSY2                   
+                                  H14      BUSY2*                  
                                   H15      GND_SIGNAL              
                                   H18      GND_SIGNAL              
                                   H21      GND_SIGNAL              
                                   H24      GND_SIGNAL              
+                                  H25      CLK1                    
+                                  H26      CLK1*                   
                                   H27      GND_SIGNAL              
+                                  H28      CONT1                   
+                                  H29      CONT1*                  
                                   H30      GND_SIGNAL              
+                                  H31      BUSY1                   
+                                  H32      BUSY1*                  
                                   H33      GND_SIGNAL              
+                                  H34      SPARE1                  
+                                  H35      SPARE1*                 
                                   H36      GND_SIGNAL              
+                                  H37      TRIG1                   
+                                  H38      TRIG1*                  
                                   H39      GND_SIGNAL              
                                   H40      P2V5                    
-L1_5             INDUCTANCE_XS-10UH_25% 1        P3V3                    
-                                  2        UNNAMED_1_DIODE_I48_A_5 
-L2_5             INDUCTANCE_XS-10UH_25% 1        P3V3                    
+L1_5             INDUCTANCE_XS-10UH_25% 1        VIN_FILTERED_5          
+                                  2        UNNAMED_1_DIODE_I65_A_5 
+L2_5             INDUCTANCE_XS-10UH_25% 1        VIN_FILTERED_5          
                                   2        UNNAMED_1_CAPCERSMDCL2_I11_A_5
 L3_5             INDUCTANCE_XS-10UH_25% 1        UNNAMED_1_CAPCERSMDCL2_I11_B_5
                                   2        UNNAMED_1_CAPCERSMDCL2_I20_B_5
@@ -534,8 +596,10 @@ L4_5             FERRITE_SMD-7427921,WURTH 1        UNNAMED_1_CAPCERSMDCL2_I15_B
                                   2        +VOUT_5                 
 L5_5             FERRITE_SMD-7427921,WURTH 1        UNNAMED_1_CAPCERSMDCL2_I20_B_5
                                   2        -VOUT_5                 
-PX1              PLEMO2CI-PLEMO2-00B-GND=GND_SIA 1        UNNAMED_1_PC036AFMCLPCCONNECTOR
-                                  2        UNNAMED_1_PC036AFMCLPCCONNECT_1
+L6_5             FERRITE_SMD-BLM41P800S,MURATA 1        P3V3                    
+                                  2        VIN_FILTERED_5          
+PX1              PLEMO2CI-PLEMO2-00B-GND=GND_SIA 1        FRONT_PANEL_CLK         
+                                  2        FRONT_PANEL_CLK*        
 PX2              PCOAX-PLEMO00C-GND=GND_SIGNAL 1        IN<3>                   
 PX3              PCOAX-PLEMO00C-GND=GND_SIGNAL 1        IN<2>                   
 PX4              PCOAX-PLEMO00C-GND=GND_SIGNAL 1        IN<1>                   
@@ -543,49 +607,49 @@ PX5              PCOAX-PLEMO00C-GND=GND_SIGNAL 1        IN<0>
 R1               RSMD0603_1/10W-10K,1% 1        VREF                    
                                   2        UNNAMED_1_OPA4277_I22_MIN
 R1_1             RSMD0402_1/16W-51,1% 1        GND_SIGNAL              
-                                  2        UNNAMED_1_DELAYLINEGL2L_I14_1_1
+                                  2        UNNAMED_1_DELAYLINEGL2L_I140__1
 R1_2             RSMD0402_1/16W-51,1% 1        GND_SIGNAL              
-                                  2        UNNAMED_1_DELAYLINEGL2L_I14_1_2
+                                  2        UNNAMED_1_DELAYLINEGL2L_I140__2
 R1_3             RSMD0402_1/16W-51,1% 1        GND_SIGNAL              
-                                  2        UNNAMED_1_DELAYLINEGL2L_I14_1_3
+                                  2        UNNAMED_1_DELAYLINEGL2L_I140__3
 R1_4             RSMD0402_1/16W-51,1% 1        GND_SIGNAL              
-                                  2        UNNAMED_1_DELAYLINEGL2L_I14_1_4
-R1_5             RSMD0603_1/16W-4K7,5% 1        P3V3                    
+                                  2        UNNAMED_1_DELAYLINEGL2L_I140__4
+R1_5             RSMD0603_1/16W-4.7K,5% 1        VIN_FILTERED_5          
                                   2        UNNAMED_1_CAPCERSMDCL2_I10_B_5
 R2               RSMD0603_1/10W-10K,1% 1        UNNAMED_1_OPA4277_I22_MIN
                                   2        VTHRESH<0>              
 R2_1             RSMD0805_125MW-12,1% 1        IN<3>                   
-                                  2        UNNAMED_1_DELAYLINEGL2L_I140__1
+                                  2        UNNAMED_1_MAX9601_I71_IN_1
 R2_2             RSMD0805_125MW-12,1% 1        IN<2>                   
-                                  2        UNNAMED_1_DELAYLINEGL2L_I140__2
+                                  2        UNNAMED_1_MAX9601_I71_IN_2
 R2_3             RSMD0805_125MW-12,1% 1        IN<1>                   
-                                  2        UNNAMED_1_DELAYLINEGL2L_I140__3
+                                  2        UNNAMED_1_MAX9601_I71_IN_3
 R2_4             RSMD0805_125MW-12,1% 1        IN<0>                   
-                                  2        UNNAMED_1_DELAYLINEGL2L_I140__4
-R2_5             RSMD0603_1/16W-4K7,5% 1        P3V3                    
+                                  2        UNNAMED_1_MAX9601_I71_IN_4
+R2_5             RSMD0603_1/16W-4.7K,5% 1        VIN_FILTERED_5          
                                   2        UNNAMED_1_CAPCERSMDCL2_I9_B_5
 R3               RSMD0603_1/10W-10K,1% 1        VREF                    
                                   2        UNNAMED_1_OPA4277_I22_MIN_1
-R3_1             RSMD0603_1/10W-51,1% 1        UNNAMED_1_DELAYLINEGL2L_I140__1
+R3_1             RSMD0603_1/10W-51,1% 1        UNNAMED_1_MAX9601_I71_IN_1
                                   2        UNNAMED_1_MAX9601_I1_IN_1
-R3_2             RSMD0603_1/10W-51,1% 1        UNNAMED_1_DELAYLINEGL2L_I140__2
+R3_2             RSMD0603_1/10W-51,1% 1        UNNAMED_1_MAX9601_I71_IN_2
                                   2        UNNAMED_1_MAX9601_I1_IN_2
-R3_3             RSMD0603_1/10W-51,1% 1        UNNAMED_1_DELAYLINEGL2L_I140__3
+R3_3             RSMD0603_1/10W-51,1% 1        UNNAMED_1_MAX9601_I71_IN_3
                                   2        UNNAMED_1_MAX9601_I1_IN_3
-R3_4             RSMD0603_1/10W-51,1% 1        UNNAMED_1_DELAYLINEGL2L_I140__4
+R3_4             RSMD0603_1/10W-51,1% 1        UNNAMED_1_MAX9601_I71_IN_4
                                   2        UNNAMED_1_MAX9601_I1_IN_4
 R3_5             RSMD0603_1/16W-20K,1% 1        UNNAMED_1_CAPCERSMDCL1_I13_B_5
                                   2        UNNAMED_1_CAPCERSMDCL2_I17_B_5
 R4               RSMD0603_1/10W-10K,1% 1        UNNAMED_1_OPA4277_I22_MIN_1
                                   2        VTHRESH<3>              
 R4_1             RSMD0402_1/16W-51,1% 1        GND_SIGNAL              
-                                  2        UNNAMED_1_DELAYLINEGL2L_I14_2_1
+                                  2        UNNAMED_1_DELAYLINEGL2L_I14_1_1
 R4_2             RSMD0402_1/16W-51,1% 1        GND_SIGNAL              
-                                  2        UNNAMED_1_DELAYLINEGL2L_I14_2_2
+                                  2        UNNAMED_1_DELAYLINEGL2L_I14_1_2
 R4_3             RSMD0402_1/16W-51,1% 1        GND_SIGNAL              
-                                  2        UNNAMED_1_DELAYLINEGL2L_I14_2_3
+                                  2        UNNAMED_1_DELAYLINEGL2L_I14_1_3
 R4_4             RSMD0402_1/16W-51,1% 1        GND_SIGNAL              
-                                  2        UNNAMED_1_DELAYLINEGL2L_I14_2_4
+                                  2        UNNAMED_1_DELAYLINEGL2L_I14_1_4
 R4_5             RSMD0603_100MW-110K,0.1% 1        UNNAMED_1_CAPCERSMDCL2_I20_B_5
                                   2        UNNAMED_1_CAPCERSMDCL1_I13_B_5
 R5               RSMD0603_1/10W-10K,1% 1        VREF                    
@@ -598,7 +662,7 @@ R5_3             RSMD0603_1/10W-100,1% 1        VTHRESH<1>
                                   2        UNNAMED_1_CAPCERSMDCL2_I78_B_3
 R5_4             RSMD0603_1/10W-100,1% 1        VTHRESH<0>              
                                   2        UNNAMED_1_CAPCERSMDCL2_I78_B_4
-R5_5             RSMD0603_1/16W-90K9,1% 1        UNNAMED_1_CAPCERSMDCL2_I15_B_5
+R5_5             RSMD0603_1/16W-90.9K,1% 1        UNNAMED_1_CAPCERSMDCL2_I15_B_5
                                   2        UNNAMED_1_CAPCERSMDCL1_I12_B_5
 R6               RSMD0603_1/10W-10K,1% 1        UNNAMED_1_OPA4277_I22_MIN_2
                                   2        VTHRESH<2>              
@@ -708,7 +772,7 @@ R21              RSMD0603_1/10W-XX,1% 1        UNNAMED_1_24AA025E48_I8_A2
                                   2        GND_SIGNAL              
 R22              RSMD0603_-00,    1        P3V3                    
                                   2        UNNAMED_1_24AA025E48_I8_A2
-REG1_5           LT1175_SOT_223_VER2 1        M5V                     
+REG1_5           LT1175_SOT_223   1        M5V                     
                                   2        -VOUT_5                 
                                   3        GND_SIGNAL              
                                   4        -VOUT_5                 
